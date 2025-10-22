@@ -28,7 +28,7 @@ Protect humanity from systemic failures through **verifiable truth protocols** a
 
 ## 🗂️ Repository Structure
 
-
+```
 S.V.E.-Universe/
 ├── README.md (this file)
 ├── LICENSE.md (SVE Public License v1.2)
@@ -64,7 +64,7 @@ S.V.E.-Universe/
     ├── CODE_OF_CONDUCT.md
     ├── FAQ.md
     └── GOVERNANCE.md
-
+```
 
 ---
 
