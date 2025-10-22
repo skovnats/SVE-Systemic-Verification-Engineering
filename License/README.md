@@ -15,7 +15,7 @@
 - **Logical Inevitability of Disclosure**: Concealed use becomes structurally unsustainable ([Appendix A](Appendix_A_Logical_Inevitability.md))
 - **Antifragility Stress Tests**: Framework verified every 33 months ([Appendix D](Appendix_D_Antifragility_Stress_Tests.md))
 
-For commercial inquiries: artiomkovnatsky@pm.me or check the [Standard Commercial License](License/Standard_Commercial_License_Agreement.md)
+For commercial inquiries: artiomkovnatsky@pm.me or check the [Standard Commercial License](Standard_Commercial_License_Agreement.md)
 
 
 ## APPENDICES
