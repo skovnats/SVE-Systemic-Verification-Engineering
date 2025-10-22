@@ -1,4 +1,4 @@
-# 🛡️ License
+# 🛡️ License SVE Public License v1.2
 
 **This work is licensed under the [SVE Public License v1.2](SVE_Public_License_v1.2.md)**  
 (Creative Commons BY-NC-SA 4.0 + SVE Addendum v1.2)
