@@ -1,0 +1,20 @@
+This software is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) with the following additional terms, as permitted under Section 7 of the AGPL:
+
+Additional Terms:
+
+1. Revenue Sharing:
+   Any monetization or commercial use (e.g., SaaS, resale, integration) must implement a revenue-sharing model that includes:
+   - The original author (Dr. Artiom Kovnatsky),
+   - All active contributors to the codebase,
+   - Participating clients/end-users who contribute data, feedback, or improvements.
+
+2. Fair Distribution:
+   Revenue must be distributed fairly among all involved parties. The sharing model must be transparent and documented. Profit extraction without equitable redistribution is prohibited.
+
+3. Open Source Enforcement:
+   All derivative or modified works must remain licensed under AGPL-3.0 and publicly available. Closed-source or proprietary forks are prohibited without explicit, written consent from the original author.
+
+4. Permission Clause:
+   Any exception to these terms requires explicit, written permission from Dr. Artiom Kovnatsky).
+
+Author: Dr. Artiom Kovnatsky, www.artiomkovnatsky.com
