@@ -1,0 +1,27 @@
+---
+- name: Update and upgrade all servers
+  hosts:
+  - brain
+  - eyes
+  - mlcompute
+  - datahub
+  - workersplus
+  - workersinternal
+  - workers
+  - local_brain
+  become: true
+  # hosts: all # This playbook is designed to run on everything
+
+  tasks:
+    - name: Update and upgrade apt packages
+      ansible.builtin.apt:
+        update_cache: yes
+        upgrade: dist
+        autoremove: yes
+        autoclean: yes
+      register: apt_result
+
+    - name: Display details of the update
+      ansible.builtin.debug:
+        msg: "{{ apt_result.stdout_lines }}"
+      when: apt_result.changed

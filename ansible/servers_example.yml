@@ -1,0 +1,108 @@
+# Main Ansible Inventory
+
+all:
+  children:
+    #---------------------------------------------------
+    # The Brain: Orchestration and Control Plane
+    #---------------------------------------------------
+    brain:
+      hosts:
+        compute-0:
+          # This host will run Airflow, FastAPI services, etc.
+          # Ansible vars for this host go here
+      vars:
+        # Packages and roles for the 'brain' group
+        main_role: "Orchestration, API Services, and high-level ML tasks"
+        packages_to_install:
+          - airflow
+          - redis-server # For Celery/Airflow backend
+          - fastapi
+          - python3-pytorch # from apt, or torch from pip
+          - transformers # from pip
+
+    #---------------------------------------------------
+    # The Eyes: Monitoring and Observability
+    #---------------------------------------------------
+    eyes:
+      hosts:
+        contabo_head:
+          # This host will run dashboards and monitoring tools
+      vars:
+        main_role: "Monitoring, Dashboards, and CI/CD visualization"
+        packages_to_install:
+          - mlflow
+          - prometheus
+          - grafana
+          - loki
+          - flower # For Celery monitoring
+
+    #---------------------------------------------------
+    # MLCompute: Heavy ML/AI Processing
+    #---------------------------------------------------
+    mlcompute:
+      hosts:
+        compute-1:
+          # This host is for heavy, non-containerized ML model training
+      vars:
+        main_role: "High-performance ML model training and embedding calculation"
+        packages_to_install:
+          - python3-pytorch
+          - transformers
+          - xgboost
+          - lightgbm
+
+    #---------------------------------------------------
+    # DataHub: The Central Data Store
+    #---------------------------------------------------
+    datahub:
+      hosts:
+        computedbs-0:
+          # This host runs all core databases and data stores
+      vars:
+        main_role: "Centralized data storage and feature serving"
+        packages_to_install:
+          - postgresql # Includes TimescaleDB via extension
+          - qdrant     # Vector Database (likely run in Docker)
+          - redis-server
+          - dvc        # For data versioning
+          - feast      # Feature Store
+
+    #---------------------------------------------------
+    # Workers: General Purpose Task Execution
+    #---------------------------------------------------
+    workers:
+      hosts:
+        # These are your contabo servers with 4-8 cores
+        contabo-0:
+        contabo-1:
+        contabo-2:
+        contabo-3:
+        contabo_head-0:
+        contabo_head-1:
+        contabo_medium-0:
+        # ... and so on for all your smaller contabo servers
+      vars:
+        main_role: "General task execution, web scraping, Celery workers"
+        packages_to_install:
+          - scrapy
+          - celery
+          - python-telegram-bot
+
+    # You can create more specific groups as needed, for example:
+    # workersplus: for GPU nodes from Vast.ai
+    # workersinternal: for CI/CD runners (Gitlab, etc.)
+
+    #---------------------------------------------------
+    # Local Control Node
+    #---------------------------------------------------
+    local_servers:
+      hosts:
+        local_linux_os_center:
+          ansible_connection: local
+          ansible_host: localhost
+
+  # This section contains the connection details for all hosts
+  # You would add your ansible_user and ansible_password vars here
+  # inside each host definition as we did before.
+  vars:
+    # Global variables can go here if needed

@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./prometheus:/etc/prometheus
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    restart: unless-stopped
+    ports:
+      - "3001:3000" # Mapped to 3001 to avoid conflict with Grafana
+
+  flower:
+    image: mher/flower:latest
+    container_name: flower
+    restart: unless-stopped
+    # This connects Flower to your Redis instance on the 'brain' server
+    command: --broker=redis://{{ hostvars['compute-0'].ansible_host }}:6379/0
+    ports:
+      - "5555:5555"

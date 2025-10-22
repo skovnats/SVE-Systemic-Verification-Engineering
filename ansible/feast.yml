@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feast-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: feast
+  template:
+    metadata:
+      labels:
+        app: feast
+    spec:
+      containers:
+      - name: feast
+        image: feastdev/feature-server:0.26
+        ports:
+        - containerPort: 6566
+        volumeMounts:
+        - mountPath: /feature_repo
+          name: feast-repo
+      volumes:
+      - name: feast-repo
+        gitRepo:
+          repository: "https://github.com/your/feast-repo.git"
+          revision: "main"

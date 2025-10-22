@@ -1,0 +1,5 @@
+ # celery_config.py
+  task_routes = {
+      'scraping.*': {'queue': 'scraping@contabo-scraper-1'},
+      'gpu.*': {'queue': 'gpu@contabo-gpu-1'}
+  }

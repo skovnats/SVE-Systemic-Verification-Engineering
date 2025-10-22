@@ -1,0 +1,37 @@
+---
+- name: Create a new administrative skovnats user
+  hosts:
+    - brain
+    - eyes
+    - mlcompute
+    - datahub
+    - workersplus
+    - workersinternal
+    - workers
+  become: true
+
+  # Load the encrypted variables at runtime
+  vars_files:
+    - vars/secrets.yml
+
+  # Non-sensitive variables can remain here
+  vars:
+    new_user_name: "skovnats"
+    admin_ssh_public_key_file: "/home/skovnats/.ssh/id_rsa.pub"
+
+  tasks:
+    - name: Create the new sudo user
+      ansible.builtin.user:
+        name: "{{ new_user_name }}"
+        # This variable now comes from the encrypted file
+        password: "{{ new_user_password_hash }}"
+        groups: sudo
+        shell: /bin/bash
+        create_home: yes
+        state: present
+
+    - name: Deploy SSH public key for the new user
+      ansible.posix.authorized_key:
+        user: "{{ new_user_name }}"
+        key: "{{ lookup('file', admin_ssh_public_key_file) }}"
+        state: present

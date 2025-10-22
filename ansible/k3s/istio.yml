@@ -1,0 +1,31 @@
+apiVersion: install.istio.io/v1alpha1
+kind: IstioOperator
+metadata:
+  namespace: istio-system
+spec:
+  profile: minimal
+  components:
+    pilot:
+      k8s:
+        resources:
+          limits:
+            cpu: 1
+            memory: 2Gi
+    proxy:
+      k8s:
+        resources:
+          limits:
+            cpu: 500m
+            memory: 512Mi
+  meshConfig:
+    accessLogFile: /dev/stdout
+    enableTracing: true
+    defaultConfig:
+      holdApplicationUntilProxyStarts: true
+  values:
+    global:
+      proxy:
+        autoInject: disabled  # Manual injection for critical pods
+      meshID: betting-mesh
+      multiCluster:
+        clusterName: contabo-cluster

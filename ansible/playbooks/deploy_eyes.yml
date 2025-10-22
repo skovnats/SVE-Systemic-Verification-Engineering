@@ -1,0 +1,67 @@
+---
+- name: Deploy and configure the Eyes server
+  hosts: eyes
+  become: true
+# To set up the Eyes server
+# ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/deploy_eyes.yml
+
+  vars:
+    target_user: "skovnats"
+    monitoring_dir: "/home/{{ target_user }}/monitoring"
+
+  tasks:
+    - name: Install Docker and Docker Compose
+      tags: system
+      ansible.builtin.apt:
+        name:
+          - docker.io
+          - docker-compose
+        state: present
+        update_cache: yes
+
+    - name: Ensure Docker service is active
+      tags: system
+      ansible.builtin.service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Add target user to the docker group
+      tags: system
+      ansible.builtin.user:
+        name: "{{ target_user }}"
+        groups: docker
+        append: yes
+
+    - name: Install MLflow via system pip
+      tags: mlflow
+      ansible.builtin.apt:
+        name: python3-pip
+        state: present
+    - ansible.builtin.pip:
+        name: mlflow
+        state: present
+
+    - name: Create directory for monitoring stack
+      tags: monitoring
+      ansible.builtin.file:
+        path: "{{ monitoring_dir }}"
+        state: directory
+        owner: "{{ target_user }}"
+        group: "{{ target_user }}"
+        mode: '0755'
+
+    - name: Deploy docker-compose file from template
+      tags: monitoring
+      ansible.builtin.template:
+        src: templates/monitoring-compose.yml.j2
+        dest: "{{ monitoring_dir }}/docker-compose.yml"
+        owner: "{{ target_user }}"
+        group: "{{ target_user }}"
+        mode: '0644'
+
+    - name: Launch the monitoring stack with docker-compose
+      tags: monitoring
+      community.docker.docker_compose_v2:
+        project_src: "{{ monitoring_dir }}"
+        state: present # This is idempotent and runs "docker-compose up -d"

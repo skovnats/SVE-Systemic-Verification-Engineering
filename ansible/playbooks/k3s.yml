@@ -1,0 +1,28 @@
+---
+- name: Deploy k3s cluster
+  hosts:
+    - ex44
+    - ax41
+    - contabo_gpu_nodes
+  become: yes
+
+  tasks:
+    - name: Install k3s on master (EX44)
+      when: inventory_hostname == 'ex44'
+      shell: |
+        curl -sfL https://get.k3s.io | sh -s - server \
+          --cluster-init \
+          --disable traefik \
+          --node-taint CriticalAddonsOnly=true:NoExecute \
+          --tls-san {{ ansible_host }}
+
+    - name: Get join token from master
+      when: inventory_hostname == 'ex44'
+      command: cat /var/lib/rancher/k3s/server/node-token
+      register: k3s_token
+
+    - name: Join workers
+      when: inventory_hostname != 'ex44'
+      shell: |
+        curl -sfL https://get.k3s.io | K3S_URL=https://{{ hostvars['ex44'].ansible_host }}:6443 \
+        K3S_TOKEN={{ hostvars['ex44'].k3s_token.stdout }} sh -

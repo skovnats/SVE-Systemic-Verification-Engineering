@@ -1,0 +1,98 @@
+---
+- name: Harden all servers with security best practices
+  hosts:
+    - brain
+    - eyes
+    - mlcompute
+    - datahub
+    - workersplus
+    - workersinternal
+    - workers
+    - web_servers
+    - local_brain
+  become: true
+  # ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/security_hardening.yml --limit contabo-10
+  # ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/security_hardening.yml
+
+
+  tasks:
+    # (Install UFW and Fail2Ban task remains the same)
+    - name: Install UFW (Firewall) and Fail2Ban
+      ansible.builtin.apt:
+        name: [ufw, fail2ban]
+        state: present
+        update_cache: yes
+
+    # --- CONFIGURE FIREWALL (UFW) ---
+    - name: Reset UFW to a clean state
+      community.general.ufw:
+        state: reset
+
+    - name: Set UFW default policies
+      community.general.ufw:
+        direction: "{{ item.direction }}"
+        policy: "{{ item.policy }}"
+      loop:
+        - { direction: 'incoming', policy: 'deny' }
+        - { direction: 'outgoing', policy: 'allow' }
+
+    - name: Allow loopback, private network, and SSH traffic
+      community.general.ufw:
+        rule: allow
+        src: "{{ item.src | default(omit) }}"
+        interface: "{{ item.interface | default(omit) }}"
+        name: "{{ item.name | default(omit) }}"
+      loop:
+        - { interface: 'lo' }                        # Local loopback
+        - { src: '100.64.0.0/10' }                   # Private Tailscale network
+        - { name: 'OpenSSH' }                         # Management SSH access
+      notify: Enable UFW
+
+    # --- NEW TASKS FOR YOUR SERVICES ---
+    - name: Allow public monitoring ports for designated servers
+      community.general.ufw:
+        rule: allow
+        port: "{{ item }}"
+        proto: tcp
+      loop:
+        - '9090' # Prometheus
+        - '3000' # Grafana
+        - '3100' # Loki
+        - '3001' # Metabase
+        - '5555' # Flower
+      when: inventory_hostname in groups['monitoring_servers'] | default([])
+
+    - name: Allow public Streamlit port for designated servers
+      community.general.ufw:
+        rule: allow
+        port: '8501' # Default Streamlit port
+        proto: tcp
+      when: inventory_hostname in groups['streamlit_servers'] | default([])
+
+    # (SSH Hardening and Fail2Ban sections remain the same)
+    - name: Harden SSH Server
+      ansible.builtin.lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+        validate: 'sshd -t -f %s'
+      loop:
+        - { regexp: '^#?PermitRootLogin', line: 'PermitRootLogin prohibit-password' }
+        - { regexp: '^#?PasswordAuthentication', line: 'PasswordAuthentication no' }
+      notify: Restart sshd
+
+    - name: Ensure fail2ban service is running and enabled
+      ansible.builtin.service:
+        name: fail2ban
+        state: started
+        enabled: yes
+
+  handlers:
+    - name: Restart sshd
+      ansible.builtin.service:
+        name: sshd
+        state: restarted
+
+    - name: Enable UFW
+      community.general.ufw:
+        state: enabled

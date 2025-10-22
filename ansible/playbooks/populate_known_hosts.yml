@@ -1,0 +1,39 @@
+---
+- name: Populate known_hosts for all servers
+  hosts: all
+  gather_facts: false
+  # We still define these variables for use in the tasks
+  vars:
+    known_hosts_path: "/home/skovnats/.ssh/known_hosts"
+    known_hosts_owner: "skovnats"
+    known_hosts_group: "skovnats"
+
+  tasks:
+    - name: Gather all SSH host keys using ssh-keyscan
+      ansible.builtin.shell:
+        cmd: |
+          ssh-keyscan -t ed25519 {{ ansible_play_hosts_all | join(' ') }}
+          ssh-keyscan -t ed25519 {{ ansible_play_hosts_all | map('extract', hostvars, 'ansible_host') | join(' ') }}
+      register: all_host_keys
+      delegate_to: localhost
+      changed_when: false
+
+    # --- THIS IS THE NEW TASK ---
+    - name: Ensure known_hosts file exists with correct permissions
+      become: true # 'become' is needed to change ownership if the file is new
+      ansible.builtin.file:
+        path: "{{ known_hosts_path }}"
+        state: touch  # Creates the file if it doesn't exist, does nothing if it does
+        owner: "{{ known_hosts_owner }}"
+        group: "{{ known_hosts_group }}"
+        mode: '0644'
+
+    # --- THIS IS THE MODIFIED TASK ---
+    - name: Ensure all collected keys are in the known_hosts file
+      ansible.builtin.known_hosts:
+        path: "{{ known_hosts_path }}"
+        name: "{{ item.split(' ')[0] }}" # The first part of the line is the hostname/IP
+        key: "{{ item }}"
+      loop: "{{ all_host_keys.stdout_lines | unique }}"
+      loop_control:
+        label: "{{ item.split(' ')[0] }}"

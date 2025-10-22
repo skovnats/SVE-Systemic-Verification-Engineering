@@ -1,0 +1,25 @@
+- name: Prepare nodes for Istio
+  hosts: k3s_workers
+  become: yes
+  tasks:
+    - name: Enable kernel modules
+      modprobe:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - xt_REDIRECT
+        - nf_conntrack
+
+    - name: Set sysctl for Istio
+      sysctl:
+        name: "{{ item.key }}"
+        value: "{{ item.value }}"
+        state: present
+        reload: yes
+      with_items:
+        - { key: 'net.netfilter.nf_conntrack_max', value: '1048576' }
+        - { key: 'net.ipv4.ip_local_port_range', value: '15000 64000' }
+
+    - name: Label nodes for Istio ingress
+      command: kubectl label nodes {{ inventory_hostname }} istio-ingress=true
+      when: inventory_hostname == 'contabo-8cpu-monitoring'

@@ -1,0 +1,54 @@
+---
+# This playbook establishes direct SSH trust between all servers for a given user.
+# It works in two plays:
+# 1. Generate a unique SSH key on each host and collect the public keys.
+# 2. Distribute all collected public keys to all hosts.
+
+- name: Play 1 - Generate and Collect SSH Keys
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Ensure the .ssh directory exists for the skovnats user
+      ansible.builtin.file:
+        path: /home/skovnats/.ssh
+        state: directory
+        owner: skovnats
+        group: skovnats
+        mode: '0700'
+
+    - name: Generate a unique SSH key pair for the skovnats user on each host
+      community.crypto.openssh_keypair:
+        path: /home/skovnats/.ssh/id_ed25519
+        type: ed25519
+        owner: skovnats
+        group: skovnats
+        mode: '0600'
+      # This is idempotent and will not overwrite an existing key.
+
+    - name: Slurp the content of the public key from each host
+      ansible.builtin.slurp:
+        src: /home/skovnats/.ssh/id_ed25519.pub
+      register: ssh_pub_key_b64
+
+    - name: Store the decoded public key as a fact for each host
+      ansible.builtin.set_fact:
+        skovnats_public_key: "{{ ssh_pub_key_b64.content | b64decode }}"
+        cacheable: yes # Makes this fact available to the next play
+
+- name: Play 2 - Distribute All Public Keys
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Authorize all collected public keys on each host
+      ansible.posix.authorized_key:
+        user: skovnats
+        key: "{{ hostvars[item].skovnats_public_key }}"
+        state: present
+        manage_dir: false # We already created the .ssh dir in the first play
+      loop: "{{ ansible_play_hosts_all }}"
+      # This is the key part: it loops through every host in the play
+      # and adds their public key to the current host's authorized_keys.

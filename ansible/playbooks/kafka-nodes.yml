@@ -1,0 +1,35 @@
+- name: Configure Kafka nodes
+  hosts: ax41  # Primary Kafka broker host
+  become: yes
+  vars:
+    kafka_jvm_opts: >-
+      -Xmx12G -Xms12G
+      -XX:MaxDirectMemorySize=6G
+      -Djava.io.tmpdir=/mnt/nvme/kafka_temp
+
+  tasks:
+    - name: Create Kafka data directory
+      file:
+        path: /mnt/nvme/kafka
+        state: directory
+        owner: 1001  # Kafka user in Strimzi images
+        group: 1001
+
+    - name: Tune sysctl for Kafka
+      sysctl:
+        name: "{{ item.key }}"
+        value: "{{ item.value }}"
+        state: present
+        reload: yes
+      with_items:
+        - { key: 'vm.swappiness', value: '1' }
+        - { key: 'vm.dirty_ratio', value: '80' }
+        - { key: 'vm.dirty_background_ratio', value: '5' }
+
+    - name: Mount NVMe with noatime
+      mount:
+        path: /mnt/nvme
+        src: /dev/nvme0n1
+        fstype: ext4
+        opts: noatime,discard
+        state: mounted

@@ -1,0 +1,39 @@
+---
+- name: Install and configure Tailscale network
+  hosts:
+  - brain
+  - eyes
+  - mlcompute
+  - datahub
+  - workersplus
+  - workersinternal
+  - workers
+  - local_brain
+  become: true
+
+  # You would get this key from the Tailscale admin panel ("Settings" -> "Auth keys")
+  # Store it securely using Ansible Vault!
+  # Create a file vars/tailscale_secrets.yml with:
+  # tailscale_auth_key: "tskey-auth-YOUR_KEY_HERE"
+  # Then encrypt it: ansible-vault encrypt vars/tailscale_secrets.yml
+  vars_files:
+    - vars/secrets.yml
+
+  tasks:
+    - name: Download and run the Tailscale installation script
+      ansible.builtin.shell:
+        cmd: curl -fsSL https://tailscale.com/install.sh | sh
+        creates: /usr/bin/tailscale
+
+    # THIS IS THE ONLY "CONNECT" TASK YOU NEED
+    - name: Ensure node is connected to the Tailscale network
+      ansible.builtin.command:
+        # This command is idempotent and safe to run every time.
+        cmd: >
+          tailscale up
+          --authkey={{ tailscale_auth_key }}
+          --hostname={{ inventory_hostname | replace('_', '-') }}
+          --accept-dns=true
+          --accept-routes=true
+
+

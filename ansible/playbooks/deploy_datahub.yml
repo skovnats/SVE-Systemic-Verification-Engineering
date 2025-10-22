@@ -1,0 +1,121 @@
+---
+- name: Deploy and configure the DataHub server
+  hosts: datahub
+  become: true
+
+  vars:
+    target_user: "skovnats"
+    conda_env_name: "datahub_env"
+    # This IP should point to your 'brain' server running the k3s control plane
+    k3s_master_ip: "{{ hostvars['compute-0'].ansible_host }}"
+    # The k3s_join_token MUST be stored in your encrypted vault file
+    # e.g., in vars/secrets.yml
+# ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/deploy_datahub.yml
+
+# Get the k3s Join Token: Before running this playbook, you must get the cluster join token from your "brain" server (compute-0). SSH into compute-0 and run:
+# sudo cat /var/lib/rancher/k3s/server/node-token
+# k3s_join_token: "PASTE_TOKEN_FROM_BRAIN_SERVER_HERE"
+
+  vars_files:
+    - vars/secrets.yml
+
+  tasks:
+    #---------------------------------------------------
+    # SECTION 1: SYSTEM & DOCKER
+    #---------------------------------------------------
+    - name: Install essential packages (Docker, PostgreSQL client)
+      tags: system
+      ansible.builtin.apt:
+        name:
+          - docker.io
+          - docker-compose
+          - postgresql-client
+        state: present
+        update_cache: yes
+
+    - name: Start and enable Docker service
+      tags: system
+      ansible.builtin.service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Add target user to the docker group
+      tags: system
+      ansible.builtin.user:
+        name: "{{ target_user }}"
+        groups: docker
+        append: yes
+
+    #---------------------------------------------------
+    # SECTION 2: DATABASES (POSTGRES & TIMESCALEDB)
+    #---------------------------------------------------
+    - name: Install PostgreSQL server
+      tags: database
+      ansible.builtin.apt:
+        name: postgresql
+        state: present
+
+    - name: Add TimescaleDB APT repository
+      tags: database
+      ansible.builtin.apt_repository:
+        repo: "deb https://packagecloud.io/timescale/timescaledb/ubuntu/ {{ ansible_distribution_release }} main"
+        state: present
+        filename: timescaledb
+
+    - name: Add TimescaleDB GPG key
+      tags: database
+      ansible.builtin.apt_key:
+        url: "https://packagecloud.io/timescale/timescaledb/gpgkey"
+        state: present
+
+    - name: Install TimescaleDB for PostgreSQL
+      tags: database
+      ansible.builtin.apt:
+        name: "timescaledb-2-postgresql-{{ ansible_distribution_major_version }}"
+        state: present
+        update_cache: yes
+
+    - name: Tune PostgreSQL for TimescaleDB
+      tags: database
+      ansible.builtin.command:
+        cmd: "timescaledb-tune --quiet --yes"
+      # This notifies the handler to restart postgres if changes were made
+      notify: Restart postgresql
+
+    #---------------------------------------------------
+    # SECTION 3: CONTAINERIZED SERVICES
+    #---------------------------------------------------
+    - name: Run Qdrant vector database container
+      tags: container
+      community.docker.docker_container:
+        name: qdrant
+        image: qdrant/qdrant:latest
+        restart_policy: always
+        ports:
+          - "6333:6333" # gRPC port
+          - "6334:6334" # Web UI port
+
+    - name: Run local Docker image registry container
+      tags: container
+      community.docker.docker_container:
+        name: registry
+        image: registry:2
+        restart_policy: always
+        ports:
+          - "5000:5000"
+
+    #---------------------------------------------------
+    # SECTION 4: K3s AGENT
+    #---------------------------------------------------
+    - name: Install k3s agent to join the cluster
+      tags: k3s
+      ansible.builtin.shell:
+        cmd: "curl -sfL https://get.k3s.io | K3S_URL=https://{{ k3s_master_ip }}:6443 K3S_TOKEN={{ k3s_join_token }} sh -"
+        creates: /usr/local/bin/k3s-agent-uninstall.sh # Idempotency check
+
+  handlers:
+    - name: Restart postgresql
+      ansible.builtin.service:
+        name: postgresql
+        state: restarted

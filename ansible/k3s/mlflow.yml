@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlflow
+  namespace: ml
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mlflow
+  template:
+    metadata:
+      labels:
+        app: mlflow
+    spec:
+      nodeSelector:
+        node-type: ml
+      containers:
+      - name: mlflow
+        image: mlflow/mlflow:latest
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - mountPath: /mlruns
+          name: mlflow-data
+        env:
+        - name: MLFLOW_S3_ENDPOINT_URL
+          value: "http://minio:9000"
+      volumes:
+      - name: mlflow-data
+        persistentVolumeClaim:
+          claimName: mlflow-pvc

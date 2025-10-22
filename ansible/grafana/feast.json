@@ -1,0 +1,41 @@
+{
+  "title": "Feature Pipeline Metrics",
+  "panels": [
+    {
+      "title": "Kafka Lag",
+      "type": "graph",
+      "targets": [{
+        "expr": "sum(kafka_consumer_group_lag{group='feast-processors'}) by (topic)",
+        "legendFormat": "{{topic}}"
+      }],
+      "thresholds": [{"value": 1000, "color": "red"}]
+    },
+    {
+      "title": "Feast Latency",
+      "type": "heatmap",
+      "targets": [{
+        "expr": "histogram_quantile(0.95, sum(rate(feast_feature_retrieval_seconds_bucket[1m])) by (le))"
+      }]
+    }
+  ]
+},
+{
+  "title": "Feature Distributions",
+  "panels": [
+    {
+      "title": "Implied Probability Range",
+      "type": "stat",
+      "targets": [{
+        "expr": "avg(feature_value{feature_name='implied_prob_home'})"
+      }]
+    },
+    {
+      "title": "Feature Drift",
+      "type": "graph",
+      "targets": [{
+        "expr": "abs(avg(feature_value{feature_name='overround'}) - avg(feature_value{feature_name='overround', env='training'})) / avg(feature_value{feature_name='overround', env='training'})",
+        "legendFormat": "Overround Drift"
+      }]
+    }
+  ]
+}

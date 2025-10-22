@@ -1,0 +1,47 @@
+---
+- name: Configure all nodes
+  hosts: all
+  become: yes
+  vars:
+    timezone: "Europe/Berlin"
+    ntp_servers: ["0.de.pool.ntp.org", "1.de.pool.ntp.org"]
+
+  tasks:
+    - name: Install essential packages
+      apt:
+        pkg:
+          - docker.io
+          - python3-pip
+          - nvme-cli
+          - fail2ban
+        update_cache: yes
+
+    - name: Mount NVMe SSD
+      filesystem:
+        fstype: ext4
+        dev: "/dev/nvme0n1"
+        opts: "noatime,discard"
+
+    - name: Create mount point
+      file:
+        path: "/mnt/nvme"
+        state: directory
+        owner: root
+        group: root
+        mode: '0755'
+
+    - name: Configure firewall
+      ufw:
+        rule: allow
+        port: "{{ item }}"
+        proto: tcp
+      loop: [22, 3000, 5432, 6379, 9090]
+
+    - name: Set timezone
+      timezone:
+        name: "{{ timezone }}"
+
+    - name: Configure NTP
+      apt:
+        pkg: chrony
+      notify: restart chrony

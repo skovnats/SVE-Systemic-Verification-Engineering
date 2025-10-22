@@ -1,0 +1,115 @@
+---
+- name: Deploy and configure the Brain server
+  hosts: brain
+  become: true
+  # ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/deploy_brain.yml
+  # ansible-playbook -i ... --ask-vault-pass playbooks/deploy_brain.yml --tags "airflow"
+
+
+  vars:
+    target_user: "skovnats"
+    # We will create a dedicated conda environment for all the brain's Python tools
+    conda_env_name: "brain_env"
+    # Note: AIRFLOW_HOME will be set to this path
+    airflow_home: "/home/{{ target_user }}/airflow"
+
+  tasks:
+    #---------------------------------------------------
+    # SECTION 1: SYSTEM-LEVEL DEPENDENCIES
+    #---------------------------------------------------
+    - name: Install essential system packages and Redis
+      tags: system
+      ansible.builtin.apt:
+        name:
+          - redis-server
+          - build-essential
+        state: present
+        update_cache: yes
+
+    - name: Start and enable Redis service
+      tags: system
+      ansible.builtin.service:
+        name: redis-server
+        state: started
+        enabled: yes
+
+    #---------------------------------------------------
+    # SECTION 2: MAMBA & PYTHON ENVIRONMENT
+    #---------------------------------------------------
+    - name: Install Mambaforge for the target user
+      tags: conda
+      ansible.builtin.shell:
+        # -b for batch mode, -p to specify install path
+        cmd: "curl -L -o /tmp/mambaforge.sh https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh && bash /tmp/mambaforge.sh -b -p /home/{{ target_user }}/mambaforge"
+        creates: "/home/{{ target_user }}/mambaforge/bin/mamba"
+      become_user: "{{ target_user }}"
+
+    - name: Create a dedicated conda environment for the brain
+      tags: conda
+      community.general.conda:
+        name: "{{ conda_env_name }}"
+        python_version: "3.11"
+        state: present
+        # Path to the mamba executable installed in the previous step
+        executable: "/home/{{ target_user }}/mambaforge/bin/mamba"
+        packages:
+          # Core Tools
+          - pip
+          - fastapi
+          - uvicorn
+          # ML/Data
+          - pytorch
+          - transformers
+          - scikit-learn
+          - pandas
+          - xgboost
+          - lightgbm
+          # Task Queues & Automation
+          - celery
+          - redis-py
+          - scrapy
+          - python-telegram-bot
+
+    #---------------------------------------------------
+    # SECTION 3: AIRFLOW SETUP
+    #---------------------------------------------------
+    - name: Set AIRFLOW_HOME environment variable for the user
+      tags: airflow
+      become_user: "{{ target_user }}"
+      ansible.builtin.lineinfile:
+        path: "/home/{{ target_user }}/.bashrc"
+        line: "export AIRFLOW_HOME={{ airflow_home }}"
+        create: yes
+
+    - name: Install Apache Airflow with Celery and Redis support
+      tags: airflow
+      ansible.builtin.pip:
+        name: "apache-airflow[celery,redis]"
+        # Path to the pip executable inside our new conda environment
+        executable: "/home/{{ target_user }}/mambaforge/envs/{{ conda_env_name }}/bin/pip"
+
+    - name: Initialize the Airflow database
+      tags: airflow
+      become_user: "{{ target_user }}"
+      ansible.builtin.command:
+        # Command needs to be run inside the conda env
+        cmd: "/home/{{ target_user }}/mambaforge/bin/conda run -n {{ conda_env_name }} airflow db init"
+        creates: "{{ airflow_home }}/airflow.db" # Makes this step idempotent
+
+    #---------------------------------------------------
+    # SECTION 4: K3s (KUBERNETES)
+    #---------------------------------------------------
+    - name: Install k3s control plane
+      tags: k3s
+      ansible.builtin.shell:
+        cmd: curl -sfL https://get.k3s.io | sh -
+        creates: /usr/local/bin/k3s
+
+
+
+# Next Steps After Running
+# This playbook installs and performs the initial setup for all the core software. The next steps would be:
+
+# Configure Airflow: Manually log in to start the Airflow webserver and scheduler, and begin adding your DAGs. This can also be automated with Ansible using systemd service files.
+# Deploy your FastAPI app: Create a new playbook that clones your application's Git repository and uses systemd to run the uvicorn server as a background service.
+# Configure k3s: Add worker nodes (k3s agent) to your cluster and start deploying applications using .yaml manifests and kubectl.

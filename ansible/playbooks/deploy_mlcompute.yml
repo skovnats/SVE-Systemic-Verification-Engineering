@@ -1,0 +1,45 @@
+---
+- name: Deploy and configure the MLCompute server
+  hosts: mlcompute
+  become: true
+  # To set up the MLCompute server
+  # ansible-playbook -i servers.vault.yml --ask-vault-pass playbooks/deploy_mlcompute.yml
+
+  vars:
+    target_user: "skovnats"
+    conda_env_name: "ml_env"
+
+  tasks:
+    - name: Install essential system packages
+      tags: system
+      ansible.builtin.apt:
+        name: build-essential
+        state: present
+        update_cache: yes
+
+    - name: Install Mambaforge for the target user
+      tags: conda
+      ansible.builtin.shell:
+        cmd: "curl -L -o /tmp/mambaforge.sh https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh && bash /tmp/mambaforge.sh -b -p /home/{{ target_user }}/mambaforge"
+        creates: "/home/{{ target_user }}/mambaforge/bin/mamba"
+      become_user: "{{ target_user }}"
+
+    - name: Create a dedicated conda environment for ML
+      tags: conda
+      community.general.conda:
+        name: "{{ conda_env_name }}"
+        python_version: "3.11"
+        state: present
+        executable: "/home/{{ target_user }}/mambaforge/bin/mamba"
+        packages:
+          # Core ML/DL Stack
+          - pytorch
+          - transformers
+          - accelerate
+          - bitsandbytes # For quantization
+          - scikit-learn
+          - pandas
+          # Boosted Trees
+          - xgboost
+          - lightgbm
+          - catboost

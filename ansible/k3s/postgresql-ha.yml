@@ -1,0 +1,19 @@
+apiVersion: helm.cattle.io/v1
+kind: HelmChart
+metadata:
+  name: postgresql-ha
+  namespace: kube-system
+spec:
+  chart: postgresql-ha
+  repo: https://charts.bitnami.com/bitnami
+  targetNamespace: db
+  valuesContent: |-
+    global:
+      storageClass: local-path
+    postgresql:
+      postgresqlPassword: "betting123"
+      persistence:
+        size: 200Gi
+        mountPath: /mnt/nvme/pgdata
+    pgpool:
+      replicaCount: 2

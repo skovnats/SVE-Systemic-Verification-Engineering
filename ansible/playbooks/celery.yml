@@ -1,0 +1,30 @@
+---
+- name: Configure Celery workers
+  hosts: scraping_nodes
+  become: yes
+
+  tasks:
+    - name: Install Docker Compose
+      pip:
+        name: docker-compose
+        state: present
+
+    - name: Create Celery user
+      user:
+        name: celery
+        group: docker
+        shell: /bin/bash
+
+    - name: Deploy Celery config
+      template:
+        src: templates/celery.conf.j2
+        dest: /etc/celery.conf
+        owner: celery
+        group: celery
+
+    - name: Start Celery service
+      systemd:
+        name: celery
+        enabled: yes
+        state: started
+        daemon_reload: yes

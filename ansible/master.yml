@@ -1,0 +1,18 @@
+# master.yml - master playbook for server onboarding and configuration
+# ansible-playbook i servers.vault.yml --ask-vault-pass master.yml
+---
+- name: Onboard and configure a new server
+  # Import the user creation playbook first
+  ansible.builtin.import_playbook: playbooks/create_user.yml
+
+- name: Establish inter-server SSH trust
+  ansible.builtin.import_playbook: playbooks/setup_interserver_trust.yml
+
+- name: Populate known_hosts to prevent SSH prompts
+  ansible.builtin.import_playbook: playbooks/populate_known_hosts.yml
+
+- name: Deploy Tailscale for private networking
+  ansible.builtin.import_playbook: playbooks/install_tailscale.yml
+
+- name: Apply security hardening rules
+  ansible.builtin.import_playbook: playbooks/security_hardening.yml
