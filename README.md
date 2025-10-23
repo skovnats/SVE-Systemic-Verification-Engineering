@@ -63,7 +63,7 @@ graph TB
 - **Complete** (25h): All papers 0(1) → IX
 - **Applied** (3h): Architecture → Democracy OS → Tools
 
-*See [NAVIGATION.md](NAVIGATION.md) for detailed guide.*
+*See [NAVIGATION.md](Community/NAVIGATION.md) for detailed guide.*
 
 ---
 
@@ -80,7 +80,7 @@ graph TB
 | Ethics = rules | Ethics = geodesic navigation |
 | Fact-checking = partisan | Fact-checking = architectural |
 
-*Detailed comparisons: [BREAKTHROUGH_INNOVATIONS.md](BREAKTHROUGH_INNOVATIONS.md)*
+*Detailed comparisons: [BREAKTHROUGH_INNOVATIONS.md](Community/BREAKTHROUGH_INNOVATIONS.md)*
 
 ---
 
@@ -113,7 +113,7 @@ Map human-animal consciousness correspondence via geometric topology.
 ### 5. **Civilizational Health Metric**
 Quantify societal resilience: $\rho(t) = f(\text{Truth, Love, Structure, Will})$
 
-*Full capability matrix: [BREAKTHROUGH_INNOVATIONS.md](BREAKTHROUGH_INNOVATIONS.md)*
+*Full capability matrix: [BREAKTHROUGH_INNOVATIONS.md](Community/BREAKTHROUGH_INNOVATIONS.md)*
 
 ---
 
@@ -146,7 +146,7 @@ Quantify societal resilience: $\rho(t) = f(\text{Truth, Love, Structure, Will})$
    • Government → Cognitive Sovereignty
 ```
 
-*Detailed guide: [QUICKSTART.md](QUICKSTART.md)*
+*Detailed guide: [QUICKSTART.md](Community/QUICKSTART.md)*
 
 ---
 
