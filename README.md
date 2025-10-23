@@ -80,7 +80,12 @@ graph TB
 | Ethics = rules | Ethics = geodesic navigation |
 | Fact-checking = partisan | Fact-checking = architectural |
 
-*Detailed comparisons: [BREAKTHROUGH_INNOVATIONS.md](Community/BREAKTHROUGH_INNOVATIONS.md)*
+
+*Full capability matrix: [BREAKTHROUGH_INNOVATIONS.md](BREAKTHROUGH_INNOVATIONS.md)*
+
+**Deep dives:**
+- [Divine Mathematics Integration Guide](DIVINE_MATH_INTEGRATION.md) — Technical documentation of SVE VIII additions
+- [Integration Visual Comparison](INTEGRATION_VISUAL.md) — Before/after matrices and impact analysis
 
 ---
 
