@@ -239,7 +239,7 @@ TIME INVESTED: 6-8 hours
 ├─────────────────────────────────────────┤
 │                                         │
 │  Reality = Riemannian manifold          │
-│            (Aω → ω!)                    │
+│            (Aω → ωΩ)                    │
 │                                         │
 │  Ethics = Geodesics                     │
 │          (shortest path to God)         │
