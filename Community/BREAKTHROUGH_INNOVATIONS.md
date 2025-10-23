@@ -53,7 +53,7 @@
 | Truth = casualty of war | Truth = strategic asset (IVM protects it) | Long-term survival advantage |
 
 **Real-world example:**  
-- **Before:** Nation falls to disinformation campaign (e.g., Brexit manipulation)
+- **Before:** Nation falls to disinformation campaign (e.g., xxx)
 - **After:** S.V.E. OS detects narrative vectors, runs adversarial verification, preserves epistemic legitimacy
 
 ---
