@@ -234,7 +234,7 @@ Quantify societal resilience: $\rho(t) = f(\text{Truth, Love, Structure, Will})$
 ## 🙏 Acknowledgments
 
 **Foundations:** Socrates, Popper, Taleb, Schmidel  
-**Co-Custodians:** Andrey Liubanin & [Exodus Project](https://exodus.tilda.ws/exodus20breef)
+<!-- **Co-Custodians:** Andrey Liubanin & [Exodus Project](https://exodus.tilda.ws/exodus20breef) -->
 
 ---
 
