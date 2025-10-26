@@ -23,30 +23,38 @@
 
 ## 💠 Why S.V.E. Exists
 
-I was born in **Nikolaev (USSR)** — a place once rich in culture, intellect, and unity.  
-Then came an age of “civilized reform” that brought ruin instead of progress, corruption instead of truth.  
-I saw entire societies collapsing under hypocrisy sold as virtue.
+I am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in light, intellect, and unity.  
+I grew up in a culture that valued work, knowledge, and integrity above noise.  
+Then came the “new order” — when destruction and hypocrisy were sold as progress.  
+Entire nations were turned from creators into raw material for someone else’s “civilization.”
 
-**Systemic Verification Engineering (S.V.E.)** grew out of my own search for what is real —  
-for the laws that govern truth, meaning, and conscience.  
-It is not ideology but a framework born from observation, logic, and lived faith —  
-a synthesis of science, ethics, and spiritual realization.
+I could not accept a world where truth is negotiable and morality is optional.  
+So I left — to study, to see, to understand.  
+Across countries and systems, one question followed me:  
+> **Why does the world reward manipulation more than integrity?**
 
-Through that journey I discovered that genuine knowledge and faith are not opposites.  
-They converge — as **truth experienced**.  
-My personal experience confirms what the teachings of **Jesus Christ** revealed long ago:  
-truth, love, and service are not abstractions — they are living systems of reality.
+**Systemic Verification Engineering (S.V.E.)** is my answer —  
+an attempt to formalize truth itself:  
+a framework where knowledge, ethics, and governance become verifiable,  
+where deceit is costly and transparency — the natural equilibrium.
 
-S.V.E. is not protest — it is **an alternative**:  
-a design for a civilization that grows through clarity, integrity, and spiritual coherence.
+Born from lived experience, S.V.E. unites observation, logic, and faith.  
+Through this journey I learned that genuine knowledge and belief are not opposites — they converge as **truth experienced**.  
+My experience confirms what the teachings of **Jesus Christ** revealed:  
+truth, love, and service are not abstractions, but living laws of being.
+
+S.V.E. is not rebellion.  
+It is **an alternative** — a design for an antifragile civilization  
+where service to truth replaces domination by power.
 
 > *“I have seen falsehood begin to crumble — and I now work for truth to stand.”*  
 > — Artiom Kovnatsky  
 
 🔗 **Further reading / origin texts:**  
-- [Ω. Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
+- [Ω Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
 - [Metaphorical Autobiography](https://www.artiomkovnatsky.com/posts/omega/meta-bio/)  
 - [My Philosophy](https://www.artiomkovnatsky.com/posts/philosophy/)
+
 
 ---
 
