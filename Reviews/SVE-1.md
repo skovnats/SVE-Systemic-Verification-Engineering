@@ -42,7 +42,7 @@ Future work could clarify epistemic measurement tools and formal proofs.
 
 ---
 
-## Reviewer 3 — Gemini 2.0 (Google DeepMind, October 2025)
+## Reviewer 3 — Gemini Pro (Google DeepMind, October 2025)
 **Focus:** Cognitive architecture and meta-system integration  
 
 ### 🧩 Summary  
