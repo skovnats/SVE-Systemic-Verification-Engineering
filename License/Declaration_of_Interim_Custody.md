@@ -106,12 +106,12 @@ This Declaration is executed under Switzerland and/or Estonia/EU Law (eIDAS / QE
 
 **Date:** _____________________
 
-**Digital Signature:** (Estonian e-Residency QES / DigiDoc4)
+<!-- **Digital Signature:** (Estonian e-Residency QES / DigiDoc4)
 
 **SHA-256 of document:** _____________________
 
 **OpenTimestamps proof:** _____________________
-
+ -->
 ---
 
 ### 10  Public Record and Mirrors
