@@ -23,14 +23,14 @@
 
 ## 💠 Why S.V.E. Exists
 
-II am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in light, intellect, and unity.  
+I am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in light, intellect, and unity.  
 I grew up in a culture that valued work, knowledge, and integrity above noise.  
 Then came the “new order” — when destruction and hypocrisy were framed as progress.  
 
 I saw entire societies transformed into sources of raw resources — human and material —  
-for parts of the Western world (UK, USA, Germany, EU, Israel and allied constituencies),  
+for parts of the for parts of the Western world — UK, USA, Germany, EU, Israel, and allied blocs —  
 under slogans of “freedom,” “progress,” and “democracy.”  
-In [**Article 7**](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/), I show how the USSR could have been reformed differently —  
+In **Article 7**, I show how the USSR could have been reformed differently —  
 yet such evolution was *not* profitable for those preferring dependency over parity.
 
 I could not accept a world where truth is negotiable and morality optional.  
@@ -47,7 +47,7 @@ Born from lived experience, S.V.E. unites observation, logic, and faith.
 Through this journey I learned that genuine knowledge and belief are not opposites —  
 they converge as **truth experienced**.  
 My own experience confirms what the teachings of **Jesus Christ** revealed:  
-truth, love, and service are not abstractions, but living laws of being.
+truth, love, and service are not abstractions but living laws of being.
 
 S.V.E. **is rebellion** — not against people or nations,  
 but against falsehood itself — within us, around us,  
@@ -59,7 +59,7 @@ where service to truth replaces domination by power.
 
 > *“And you shall know the truth, and the truth shall make you free.”* — **John 8:32**  
 > *“I have seen falsehood begin to crumble — and I now work for truth to stand.”*  
-> — Artiom Kovnatsky 
+> — Artiom Kovnatsky  
 
 🔗 **Further reading / origin texts:**  
 - [Ω. Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
@@ -89,13 +89,16 @@ This work is written as a warning, but also as a hope —
 that through understanding, verification, and integrity,  
 we can prevent future civilizations from repeating our mistakes.
 
+For all who still believe that faith and reason are not enemies, but two wings of the same ascent.
+
 
 ---
 
-## 🤖 Meet Socrates-Bot (v0.2)
-An interactive guide trained on all **S.V.E. papers** (I–XII).  
-Ask it to explain any concept, formula, or application in *your language* — from beginner to expert.  
-🔗 [Socrates-Bot v0.2 — GPT-based interface](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)
+### 🤖 From Idea to Implementation
+
+From this foundation emerged the first working prototype —  
+**[Socrates Bot](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)** —  
+an LLM-based navigator embodying S.V.E. principles, capable of explaining any concept or theorem “in your language,” bridging human intuition and formal verification.
 
 ---
 
