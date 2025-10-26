@@ -427,6 +427,11 @@ Key principles:
 
 In short, it’s a **living license** — designed to outlast any individual or institution while keeping the truth verifiable and free.
 
+### 🕊️ Archival Reference
+Permanent public record of the signed license and associated materials:  
+📦 [SVE Public License v1.3 | archive.org](https://archive.org/details/sve_public_license_v1.3)  
+Uploaded by Artiom Kovnatsky — October 26, 2025.
+
 
 ---
 
