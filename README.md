@@ -327,9 +327,9 @@ L_alignment = ∫_C ‖E_AI(c) - E_human(c)‖² dμ(c)
 
 ## ⚖️ Licensing
 
-* **Public Use:** [SVE Public License v1.3](License/SVE_Public_License_v1.3.md)
-* **Commercial Use:** [Standard Commercial License v1.3](License/Standard_Commercial_License_Agreement_v1.3.md)
-* **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody_v1.3.md)
+* **Public Use:** [SVE Public License v1.3](License/SVE_Public_License.md)
+* **Commercial Use:** [Standard Commercial License v1.3](License/Standard_Commercial_License_Agreement.md)
+* **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/Appendix_B_Commercial_Tiers.md)
 
 ---
