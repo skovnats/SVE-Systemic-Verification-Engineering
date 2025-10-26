@@ -1,12 +1,22 @@
-# 🧭 The S.V.E. Universe — Systemic Verification Engineering
+# 🧭 The S.V.E. Universe — Systemic Verification Engineering  
 **Systemic Verification Engineering: The Mathematics of Meaning**
 
 [![arXiv](https://img.shields.io/badge/arXiv-pending-b31b1b.svg)](https://arxiv.org/)
 [![ROI](https://img.shields.io/badge/ROI-100%2C000%2C000%25-green.svg)]()
 
-> *"The first formal Mathematics of Meaning—transitioning narrative analysis from qualitative alchemy to quantitative chemistry."*
+> *"The first formal Mathematics of Meaning — transitioning narrative analysis from qualitative alchemy to quantitative chemistry."*
 
-> *"The further the spiritual evolution of mankind advances, the more certain it seems to me that the path to genuine religiosity does not lie through fear or blind faith, but through striving after rational knowledge."*  
+---
+
+# 🌍 S.V.E. — Systemic Verification Engineering  
+### Spiritual Values Evolution · Science · Ethics · Evolution  
+**Svet · Vera · Edinstvo** — *Light · Faith · Unity*  
+**Svet / Theos (θεός) / Бог** — the union of light, divinity, and truth  
+
+> *“The further the spiritual evolution of mankind advances,  
+> the more certain it seems to me that the path to genuine religiosity  
+> does not lie through the fear of life, and the fear of death, and blind faith,  
+> but through striving after rational knowledge.”*  
 > — **Albert Einstein**
 
 ---
