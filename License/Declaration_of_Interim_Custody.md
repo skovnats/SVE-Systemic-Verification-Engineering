@@ -103,9 +103,13 @@ This Declaration is executed under Switzerland and/or Estonia/EU Law (eIDAS / QE
 ### 9  Signature and Verification
 
 **Signed by:** Artiom Kovnatsky — Author & Initial Custodian
+
 **Date:** _____________________
+
 **Digital Signature:** (Estonian e-Residency QES / DigiDoc4)
+
 **SHA-256 of document:** _____________________
+
 **OpenTimestamps proof:** _____________________
 
 ---
