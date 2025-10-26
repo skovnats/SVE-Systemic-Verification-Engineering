@@ -1,104 +1,88 @@
-## **Appendix B — Ethical Partnership Model (Commercial Tiers v1.3)**
+## Appendix B — Ethical Partnership Model (Commercial Tiers v1.3)
 
-### **Purpose**
-
-This appendix defines the ethical, transparent, and reproducible financial framework for all commercial or quasi-commercial engagements performed under the **SVE Public License v1.2 / v1.3**.
-It replaces conventional “pricing packages” with a cooperative revenue-share model that aligns compensation strictly with verified public and client benefit.
-
----
-
-### **1  Principles**
-
-1. **Integrity before profit.** No payment structure may compromise methodological honesty or transparency.
-2. **Proportional reward.** Compensation grows only with measurable benefit created.
-3. **Open accountability.** All transactions are auditable under Clause 7 of the SVE License.
-4. **Human-first policy.** If a client lacks funds, equivalent value in data, equity, or verified social impact may substitute payment.
+### Purpose
+Defines a transparent, ethical revenue-share model for all commercial uses of S.V.E.  
+Aligns compensation strictly with **verified benefit** — not speculation or monopoly.
 
 ---
 
-### **2  Base Compensation**
-
-Each contributor or contractor receives:
-
-* payment equal to **the median market rate (≈ 99.9 % of regional technical-market average)** for equivalent work; and
-* reimbursement of directly verified infrastructure or equipment costs at market value.
-
-This ensures parity with industry norms without speculative mark-ups.
+### 1️⃣ Core Principles
+1. **Integrity before profit** — truth overrides gain.  
+2. **Proportional reward** — pay grows with measurable value.  
+3. **Open accountability** — every transaction auditable (License §7).  
+4. **Human-first** — social or data value may substitute payment if funds limited.
 
 ---
 
-### **3  Success Fee / Revenue Share**
+### 2️⃣ Base Compensation
+Each contributor receives:
+- payment = **median market rate (≈ 99.9 % regional average)**;  
+- reimbursement for verified infrastructure costs.
 
-A variable **impact-linked success fee** applies on verified outcomes:
-
-| Tier     | Project Depth / Scope                            | Share of verified value (benefit created) |
-| -------- | ------------------------------------------------ | ----------------------------------------- |
-| **11 %** | Rapid case / minimal integration                 | 11 %                                      |
-| **22 %** | Standard deployment / baseline improvement       | 22 %                                      |
-| **33 %** | Extended engagement / multi-domain optimization  | 33 %                                      |
-| **44 %** | Complex mission-critical / “impossible” projects | 44 %                                      |
-
-“Verified value” means *documented savings, efficiency gain, risk reduction, or additional revenue* confirmed by SVE-auditable metrics.
+Ensures parity with industry norms — no markup, no exploitation.
 
 ---
 
-### **4  Distribution of Funds**
+### 3️⃣ Success Fee / Impact Share
+Applied only on verified outcomes:
 
-All collected commercial revenue is automatically divided as follows:
+| Tier | Scope | Share of Verified Value |
+|------|--------|--------------------------|
+| **11 %** | Minimal integration | 11 % |
+| **22 %** | Standard deployment | 22 % |
+| **33 %** | Multi-domain optimization | 33 % |
+| **44 %** | Complex / mission-critical | 44 % |
 
-* **70 %** → Community Treasury (for research, maintenance, public grants);
-* **20 %** → Active contributors (pro rata by verified work hours or impact score);
-* **10 %** → Open-Benefit Initiatives and micro-grants for education and transparency projects.
-
-No individual may unilaterally alter this distribution.
-
----
-
-### **5  Clients with Limited Resources**
-
-If a partner organization or individual cannot meet standard fees, an alternative arrangement is encouraged:
-
-* partial equity or tokenized stake in future benefits;
-* public credit or co-branding (“Verified by SVE” badge);
-* open publication of results to the SVE Registry as non-monetary value.
-  Financial hardship shall **never** block collaboration that serves the public good.
+*Verified value = documented savings, efficiency gain, risk reduction, or new revenue (S.V.E.-audited).*
 
 ---
 
-### **6  Transparency & Audit Requirement**
+### 4️⃣ Fund Distribution
+| Allocation | Share | Purpose |
+|-------------|--------|----------|
+| Community Treasury | 70 % | Research, maintenance, grants |
+| Active Contributors | 20 % | Work-based reward |
+| Open-Benefit Grants | 10 % | Education & transparency |
 
-Every commercial engagement must include an **SVE Compliance Log** (see License §7) containing:
-
-* project description and tier level;
-* proof of benefit calculation and auditor verification;
-* payment records and distribution summary.
-  Logs are public by default or released after agreed embargo (max 12 months).
-
----
-
-### **7  Ethical Flexibility**
-
-Parties may modify percentages only by mutual consent and publication of the amendment under the same transparency conditions.
-In case of client bankruptcy or force majeure, the Community Treasury may waive fees partially or fully.
+Immutable without public amendment.
 
 ---
 
-### **8  Guiding Maxim**
+### 5️⃣ Limited-Resource Clients
+If liquidity lacking:
+- offer **equity**, **tokenized stake**, or **public contribution**;  
+- open-publish verified results (“Verified by S.V.E.”).  
+No financial barrier shall block projects serving the public good.
 
-> *“Money is secondary; impact and integrity come first.”*
+---
+
+### 6️⃣ Transparency & Audit
+Each engagement must keep an **S.V.E. Compliance Log** with:
+- project & tier;  
+- proof of benefit;  
+- payment & distribution summary.  
+
+Public by default; embargo ≤ 12 months.
+
+---
+
+### 7️⃣ Ethical Flexibility
+Percentages adjustable only by mutual written consent and public release.  
+Community Treasury may waive fees for hardship or force majeure.
+
+---
+
+### 8️⃣ Guiding Maxim
+> *“Money is secondary; impact and integrity come first.”*  
 > Any conflict between profit and truth is resolved in favor of truth.
 
 ---
 
-### **9  Revision and Governance**
-
-This appendix may be updated by consensus of the Exodus 3.0 custodians or the SVE DAO once formed.
-Version control and timestamped records shall be maintained in the public SVE Registry (GitHub + IPFS).
+### 9️⃣ Governance
+Updated by consensus of **Exodus 3.0 custodians** or **S.V.E. DAO**.  
+All versions timestamped in the public registry (GitHub + IPFS).
 
 ---
 
-### **Versioning**
-
-**Appendix B v1.3 — Effective Date:** October 2025
-Supersedes Appendix B v1.2 (Commercial Tiers).
-Governed by the SVE Public License v1.3 and Declaration of Interim Custody v1.3.
+**Effective Date:** October 2025  
+Supersedes v1.2 — governed by S.V.E. Public License v1.3 and Declaration of Interim Custody v1.3.  
