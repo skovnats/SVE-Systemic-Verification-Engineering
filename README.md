@@ -27,9 +27,9 @@ I am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in 
 I grew up in a culture that valued work, knowledge, and integrity above noise.  
 Then came the “new order” — when destruction and hypocrisy were framed as progress.  
 
-I saw entire societies transformed into sources of raw resources — human and material —  
-for parts of the for parts of the Western world — UK, USA, Germany, EU, Israel, and allied blocs —  
-under slogans of “freedom,” “progress,” and “democracy.”  
+I saw entire societies transformed into sources of raw resources — human and material —
+for parts of the Western world — UK, USA, Germany, EU, Israel, and allied blocs —
+under slogans of “freedom,” “progress,” and “democracy”. 
 In **Article 7**, I show how the USSR could have been reformed differently —  
 yet such evolution was *not* profitable for those preferring dependency over parity.
 
