@@ -281,10 +281,8 @@ def compute_semantic_centroid(vectors: List[np.ndarray]) -> np.ndarray:
 ```
 
 **Error message:**
-```
 [Full error traceback]
-```
-```
+
 
 ---
 
