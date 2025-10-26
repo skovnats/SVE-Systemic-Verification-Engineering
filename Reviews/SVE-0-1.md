@@ -1,4 +1,4 @@
-# 🤖 AI Multi-Review — S.V.E. VIII: Divine Mathematics
+# 🤖 AI Multi-Review — S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training
 **Date:** 2025-10-26  
 **Purpose:** Cross-model interpretation and consistency check of the philosophical and mathematical framework.
 
