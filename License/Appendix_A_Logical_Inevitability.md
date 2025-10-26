@@ -1,85 +1,59 @@
-# Appendix A: The Logical Inevitability of Disclosure
-
-**Ethical and Structural Commentary on the SVE Public License v1.2**
-
----
-
-## 1. Introduction
-
-The SVE framework transforms the moral principle of truthfulness into a **structural property** of information systems.
-
-Any concealed or unauthorized application of SVE inevitably creates **logical contradictions** within the user's internal processes and external outputs.
-
-The longer such concealment persists, the higher the systemic pressure toward exposure — not as a moral accident, but as a **deterministic outcome** of the framework's internal coherence.
+# Appendix A — Logical Inevitability of Disclosure (v1.3)
+**Ethical & Structural Note to the S.V.E. Public License v1.3**
 
 ---
 
-## 2. Mechanism of Self-Disclosure
-
-### 2.1 Methodological Contradiction
-
-Secret users must disguise the origin of their analytical method while replicating its reasoning patterns.
-
-This mismatch leaves **semantic and structural fingerprints** detectable in outputs, reports, or data models.
-
-### 2.2 Network Amplification
-
-Sustaining the concealment requires expanding circles of complicity — analysts, managers, legal staff — each new participant **multiplying the probability of disclosure**.
-
-### 2.3 Digital Traceability
-
-In modern digital environments, metadata, training materials, and correspondence preserve **irrefutable indicators** of methodological lineage.
-
-### 2.4 Pattern Recognition and AI Forensics
-
-As SVE or its successors become verification standards, algorithmic analysis will detect characteristic SVE-style reasoning patterns, making concealment **technically measurable**.
+## 1️⃣ Essence
+S.V.E. turns truthfulness from a moral duty into a **system property**.  
+Hidden or unauthorized use creates **logical contradictions** within data, language, and outcomes — exposure becomes a deterministic event, not a moral chance.
 
 ---
 
-## 3. The Entropy Law of Falsehood
+## 2️⃣ Mechanism of Self-Disclosure
+| Level | Description | Effect |
+|--------|--------------|--------|
+| **Methodological** | Concealment forces imitation of S.V.E. logic | Semantic fingerprints appear |
+| **Network** | Each accomplice multiplies risk | Disclosure probability ↑ exponentially |
+| **Digital** | Metadata & models preserve lineage | Forensic proof inevitable |
+| **AI Forensics** | Algorithms detect S.V.E. reasoning patterns | Concealment measurable |
 
-Complex systems cannot maintain coherent deception indefinitely.
-
-Each additional layer of secrecy **increases informational entropy** and introduces new leakage vectors.
-
-Therefore, within the SVE framework, **time functions as an ally of truth** — the probability of revelation approaches certainty as concealment endures.
-
----
-
-## 4. Moral and Theological Analogy
-
-This structural inevitability mirrors the ancient axiom:
-
-> *"Nothing is hidden that will not be made manifest."*  
-> — Luke 8:17
-
-SVE operationalizes this principle not through faith but through **architecture**.
-
-A framework built to expose inconsistency cannot indefinitely host deceit without revealing it through logical contradiction.
+**Result:** Truth leaks through structure itself.
 
 ---
 
-## 5. Practical Implications
-
-### For Governments and Intelligence Entities
-
-Persistent concealment leads to internal fragmentation, leaks, and eventual public exposure.
-
-**Transparent compliance** offers stability and renewed legitimacy.
-
-### For Corporations and Institutions
-
-Unauthorized integration or uncredited adaptation results in **reputational collapse** once forensic similarity is detected.
-
-### For the Public Sphere
-
-Honesty becomes the **rational equilibrium** — deception turns into a self-terminating strategy.
+## 3️⃣ Entropy Law of Falsehood
+Deception adds entropy; entropy destroys coherence.  
+Over time, the chance of revelation → 1.  
+**Time is an ally of truth.**
 
 ---
 
-## 6. Conclusion
+## 4️⃣ Moral Analogy
+> *“Nothing is hidden that will not be made manifest.”* — Luke 8:17  
 
-The SVE framework establishes a **structural law of transparency:**
+S.V.E. makes this theological axiom an **engineering reality**:  
+a system designed for coherence cannot sustain deceit.
+
+---
+
+## 5️⃣ Implications
+| Actor | Outcome of Concealment |
+|--------|------------------------|
+| **Governments / Intel** | Fragmentation → Leaks → Loss of legitimacy |
+| **Corporations** | Forensic similarity → Reputational collapse |
+| **Public Sphere** | Honesty = stable equilibrium; deception = self-termination |
+
+---
+
+## 6️⃣ Conclusion
+**Truth amplifies itself — falsehood decays.**  
+Within S.V.E., disclosure is **not optional**; it is **mathematically inevitable**.  
+To hide truth inside this architecture is to trigger its revelation.
+
+---
+
+> *“Transparency is not a policy; it’s a physical law of information.”* ✝️
+
 
 > **Truth amplifies itself; falsehood decays.**
 
