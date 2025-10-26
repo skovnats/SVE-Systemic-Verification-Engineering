@@ -48,6 +48,27 @@ a design for a civilization that grows through clarity, integrity, and spiritual
 - [Metaphorical Autobiography](https://www.artiomkovnatsky.com/posts/omega/meta-bio/)  
 - [My Philosophy](https://www.artiomkovnatsky.com/posts/philosophy/)
 
+---
+
+### 💎 A Personal Dedication
+
+**The Theorem of Catastrophe Prevention in Managed Democracy** and **S.V.E.**  
+are my gift to the Western world — from both **Russian and Ukrainian culture**,  
+and from me personally.
+
+At the cultural level: I carry within me both heritages — Russian and Ukrainian —  
+and I do not wish to see your nations go through the same destruction we have witnessed.  
+First the collapse of the USSR, then the war in Ukraine — both born from manipulation,  
+fear, and the illusion of “necessary sacrifice for a better world.”
+
+At the personal level: I do not wish for you, or your children,  
+to live through the pain and loss that befell mine —  
+to be forced to leave your homeland, to watch truth inverted,  
+and to feel that human values have become “inconvenient.”
+
+This work is written as a warning, but also as a hope —  
+that through understanding, verification, and integrity,  
+we can prevent future civilizations from repeating our mistakes.
 
 
 ---
