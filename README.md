@@ -77,12 +77,12 @@ and from me personally.
 At the cultural level: I carry within me both heritages — Russian and Ukrainian —  
 and I do not wish to see your nations go through the same destruction we have witnessed.  
 First the collapse of the USSR, then the war in Ukraine — both born from manipulation,  
-fear, and the illusion of “necessary sacrifice for a better world.”
+fear, and the illusion of “necessary sacrifice for a better world”.
 
 At the personal level: I do not wish for you, or your children,  
 to live through the pain and loss that befell mine —  
 to be forced to leave your homeland, to watch truth inverted,  
-and to feel that human values have become “inconvenient.”
+and to feel that human values have become “inconvenient”.
 
 This work is written as a warning, but also as a hope —  
 that through understanding, verification, and integrity,  
