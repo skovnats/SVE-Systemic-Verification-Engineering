@@ -1,1 +1,4 @@
-SHA256SUMS.txt
+4b65cd554b77161511dea19ea7fbdb457d202bf42d2dbd9cb57843380702e60e  _SVE-Systemic-Verification-Engineering_License_SIGNED.pdf
+
+dc1114a43a01b5ccab0ab2ddec98346a1c215ff4248346a9de8ada8f0f8b7e7e  _SVE-Systemic-Verification-Engineering_License_SIGNED.pdf.ots
+
