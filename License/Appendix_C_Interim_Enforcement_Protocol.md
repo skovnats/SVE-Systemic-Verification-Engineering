@@ -1,26 +1,47 @@
 ## Appendix C — Interim Enforcement Protocol v1.3 (Light)
 
-### 1 Principle
-Enforcement exists to protect integrity, not to punish.
+### 1️⃣ Principle
+Enforcement exists to **protect integrity, not punish**.  
+Actions must remain transparent, proportional, and restorative.
 
-### 2 Trigger
-Any verified member or client may file a public breach report (GitHub Issue / IPFS record).
+---
 
-### 3 Immediate Action
-Upon a valid claim:
-- Collaboration with the accused party is **temporarily paused** (“Stop Collaboration Order”).
-- Evidence and response must be published within 14 days.
-- If risk to public safety or data integrity is evident, the pause may be enacted instantly by any 2 verified members pending formal filing.
+### 2️⃣ Trigger
+Any verified member, custodian, or client may file a **public breach report**  
+(via GitHub Issue, IPFS record, or timestamped signed statement).
 
-### 4 Community Resolution
+---
+
+### 3️⃣ Immediate Action
+Upon valid claim:
+- Collaboration is **temporarily paused** (“Stop Collaboration Order”).  
+- Evidence + response published within **14 days**.  
+- If public risk or data compromise is evident, any **2 verified custodians** may enforce a temporary pause pending review.
+
+---
+
+### 4️⃣ Community Resolution
 After publication:
-- A **7-day Snapshot vote** (simple majority) determines one of three outcomes:  
+- A **7-day Snapshot vote** (simple majority) determines outcome:  
   **(a)** Resume collaboration;  
   **(b)** Require remediation plan + audit;  
-  **(c)** Terminate relationship and publicly record breach.
+  **(c)** Terminate cooperation and record breach.  
 
-### 5 Appeal
-Any party may request a second review within 33 days, judged by trusted enforcers or DAO auditors.
+If no quorum forms, default = **pause extended** until review completes.
 
-### 6 Transparency
-All enforcement logs and votes remain permanently public.
+---
+
+### 5️⃣ Appeal
+Any party may request a **secondary review** within **33 days**,  
+conducted by **trusted enforcers or DAO auditors**.  
+Final decision is timestamped and publicly verifiable.
+
+---
+
+### 6️⃣ Transparency
+All enforcement records (claims, votes, resolutions)  
+must remain **permanently accessible and hashed** in the public S.V.E. registry.
+
+---
+
+> *“Justice without transparency becomes domination; transparency without justice becomes chaos.”*

@@ -79,8 +79,17 @@ Community Treasury may waive fees for hardship or force majeure.
 ---
 
 ### 9️⃣ Governance
-Updated by consensus of **Exodus 3.0 custodians** or **S.V.E. DAO**.  
-All versions timestamped in the public registry (GitHub + IPFS).
+Updated by **distributed consensus** of:
+- **Exodus 3.0 custodians** and/or **S.V.E. DAO** (once active);  
+- **Verified Public Custodians** listed in the S.V.E. Registry;  
+- and **recognized institutional or academic partners** (via open endorsement).
+
+Amendments require:
+- public proposal and 90-day comment period,  
+- ≥ 2/3 multi-group approval (custodians + representatives + partners),  
+- publication with timestamp in the public S.V.E. Registry (GitHub + IPFS).
+
+This structure ensures no single entity — person, custodian, or DAO — can unilaterally control framework evolution.
 
 ---
 
