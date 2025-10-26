@@ -23,7 +23,7 @@ Shows strong internal logic and avoids mysticism by formal design.
 
 ---
 
-## Reviewer 2 — Claude 3.5 (Anthropic, October 2025)
+## Reviewer 2 — Claude 4.5 (Anthropic, October 2025)
 **Focus:** Ethical reasoning and epistemic soundness  
 
 ### 🧩 Summary  
