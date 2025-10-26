@@ -53,9 +53,12 @@ Upon the permanent unavailability of the author (death, disappearance or volunta
 **Acknowledged symbolic co-custodians** (moral not legal capacity):
 **Pavel & Nikolai Durov, Lex Fridman, Tucker Carlson Team, Candace Owens, Jimmy Dore Show Team, AwakenWithJP, Julian Assange Foundation, Edward Snowden Trust.**
 
+### Symbolic or Moral Co-Custodians
+- Elon Musk (symbolic representative of technological frontier)
+
 They may — if willing — continue operations or delegate them to qualified entities in accordance with this Declaration.
 
-Involvement of symbolic co-custodians shall never imply personal liability.
+Involvement of symbolic co-custodians shall never imply personal liability. Their symbolic inclusion constitutes acknowledgment of alignment in principle, not transfer of ownership or obligation.
 
 ### 5a  Autonomous Continuity Clause
 
