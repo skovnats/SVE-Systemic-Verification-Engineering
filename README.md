@@ -21,6 +21,25 @@
 
 ---
 
+## 💠 Why S.V.E. Exists
+
+I was born in Mykolaiv (former USSR) — a place once rich in culture, intellect, and unity.  
+Then came an age of “civilized reform” that brought ruin instead of progress, corruption instead of truth.  
+I saw entire societies collapse under hypocrisy sold as virtue.
+
+**Systemic Verification Engineering (S.V.E.)** is my response — an attempt to formalize truth itself.  
+To build a framework where knowledge, ethics, and governance become verifiable rather than rhetorical.  
+A system where manipulation loses power and transparency becomes equilibrium.
+
+S.V.E. is not protest — it is **an alternative**:  
+a design for a civilization that grows through clarity, integrity, and love of truth.
+
+> *“I watched falsehood collapse. Now I wish to see truth stand.”*  
+> — Artiom Kovnatsky
+
+
+---
+
 ## 🤖 Meet Socrates-Bot (v0.2)
 An interactive guide trained on all **S.V.E. papers** (I–XII).  
 Ask it to explain any concept, formula, or application in *your language* — from beginner to expert.  
