@@ -1,6 +1,6 @@
 # 🎯 MOTIVATION
 
-I am **Artiom Kovnatsky**, born in Mykolaiv, former USSR — a place of light, intellect, and quiet dignity.
+I am **Artiom Kovnatsky**, born in **Nikolaev-Mykolaiv (former USSR)** — a place of light, intellect, and quiet dignity.
 I grew up in a culture that valued unity, work, and knowledge above noise.
 Then came the “new order” — when destruction, corruption, and hypocrisy were sold as progress.
 Entire nations were turned from creators into raw material for someone else’s “civilization.”
