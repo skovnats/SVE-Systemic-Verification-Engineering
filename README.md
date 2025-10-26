@@ -38,8 +38,7 @@ So **I left** — to study, to seek, to see, to understand.
 Across countries and systems, one question followed me:  
 > **Why does the world reward manipulation more than integrity?**
 
-**Systemic Verification Engineering (S.V.E.)** is my answer —  
-an attempt to formalize truth itself:  
+**Systemic Verification Engineering (S.V.E.)** is my answer — an attempt to formalize truth itself:  
 a framework where knowledge, ethics, and governance become verifiable,  
 where deceit is costly and transparency — the natural equilibrium.
 
