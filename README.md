@@ -332,6 +332,20 @@ L_alignment = ∫_C ‖E_AI(c) - E_human(c)‖² dμ(c)
 * **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/Appendix_B_Commercial_Tiers.md)
 
+### 🔍 About the S.V.E. License Model
+
+The **S.V.E. License v1.3** combines legal, ethical, and technical continuity.  
+It ensures that knowledge, code, and frameworks remain **public, verifiable, and self-governing** — even if the author, DAO, or any organization becomes inactive.
+
+Key principles:
+- **Transparency:** All changes are cryptographically timestamped and open.  
+- **Ethical stewardship:** Use is guided by integrity, antifragility, and benefit to humanity.  
+- **Autonomous continuity:** If no single maintainer remains, authority devolves to the *Distributed Verification Network (DVN)* — a decentralized group of verified custodians, researchers, and observers.  
+- **Symbolic succession:** Public figures (e.g., Durov, Fridman, Snowden, Musk) may, if willing, carry or delegate the mission — without ownership or liability.
+
+In short, it’s a **living license** — designed to outlast any individual or institution while keeping the truth verifiable and free.
+
+
 ---
 
 ## 💬 Closing Reflection
