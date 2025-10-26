@@ -32,7 +32,6 @@ The protocol is visionary—philosophically rich and technically ambitious. Revi
 ---
 
 ## Reviewer 2 — [Claude 4.5](https://claude.ai/share/646cd1c8-14f9-4f61-84d8-bd54fb9de3a1) (Anthropic, October 2025)
-# AI Review — S.V.E. 0 (1): The Epistemological Boxing Protocol
 **Focus:** Methodological rigor and practical implementation feasibility
 
 ### 🧩 Summary
@@ -56,7 +55,6 @@ The protocol's greatest strength lies in its recognition that argument structure
 ---
 
 ## Reviewer 3 — [Gemini Pro](https://gemini.google.com/share/610677d25604) (Google DeepMind, October 2025)
-# AI Review — S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training
 **Focus:** Methodological rigor and practical application as a cognitive tool.
 
 ### 🧩 Summary
