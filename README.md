@@ -23,19 +23,31 @@
 
 ## 💠 Why S.V.E. Exists
 
-I was born in **Nikolaev-Mykolaiv (former USSR)** — a place once rich in culture, intellect, and unity.  
+I was born in **Nikolaev (USSR)** — a place once rich in culture, intellect, and unity.  
 Then came an age of “civilized reform” that brought ruin instead of progress, corruption instead of truth.  
-I saw entire societies collapse under hypocrisy sold as virtue.
+I saw entire societies collapsing under hypocrisy sold as virtue.
 
-**Systemic Verification Engineering (S.V.E.)** is my response — an attempt to formalize truth itself.  
-To build a framework where knowledge, ethics, and governance become verifiable rather than rhetorical.  
-A system where manipulation loses power and transparency becomes equilibrium.
+**Systemic Verification Engineering (S.V.E.)** grew out of my own search for what is real —  
+for the laws that govern truth, meaning, and conscience.  
+It is not ideology but a framework born from observation, logic, and lived faith —  
+a synthesis of science, ethics, and spiritual realization.
+
+Through that journey I discovered that genuine knowledge and faith are not opposites.  
+They converge — as **truth experienced**.  
+My personal experience confirms what the teachings of **Jesus Christ** revealed long ago:  
+truth, love, and service are not abstractions — they are living systems of reality.
 
 S.V.E. is not protest — it is **an alternative**:  
-a design for a civilization that grows through clarity, integrity, and love of truth.
+a design for a civilization that grows through clarity, integrity, and spiritual coherence.
 
-> *“I watched falsehood collapse. Now I wish to see truth stand.”*  
-> — Artiom Kovnatsky
+> *“I have seen falsehood begin to crumble — and I now work for truth to stand.”*  
+> — Artiom Kovnatsky  
+
+🔗 **Further reading / origin texts:**  
+- [Ω. Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
+- [Metaphorical Autobiography](https://www.artiomkovnatsky.com/posts/omega/meta-bio/)  
+- [My Philosophy](https://www.artiomkovnatsky.com/posts/philosophy/)
+
 
 
 ---
