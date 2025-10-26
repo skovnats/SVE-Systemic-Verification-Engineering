@@ -112,6 +112,8 @@ This Declaration is executed under Switzerland and/or Estonia/EU Law (eIDAS / QE
 
 **OpenTimestamps proof:** _____________________
 
+**Verify:** https://opentimestamps.org/
+
 ---
 
 ### 10  Public Record and Mirrors
