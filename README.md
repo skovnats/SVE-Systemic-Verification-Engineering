@@ -96,7 +96,7 @@ For all who still believe that faith and reason are not enemies, but two wings o
 ### 🤖 From Idea to Implementation
 
 From this foundation emerged the first working prototype —  
-**[Socrates Bot](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)** — an LLM-based navigator embodying S.V.E. principles, capable of explaining any concept or theorem “in your language,” bridging human intuition and formal verification.
+**[Socrates Bot](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)** — an LLM-based navigator embodying S.V.E. principles, capable of explaining any concept or theorem “in your language”, bridging human intuition and formal verification.
 
 ---
 
