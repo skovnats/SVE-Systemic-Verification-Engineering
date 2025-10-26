@@ -23,7 +23,7 @@
 
 ## 💠 Why S.V.E. Exists
 
-I was born in Mykolaiv (former USSR) — a place once rich in culture, intellect, and unity.  
+I was born in **Nikolaev-Mykolaiv (former USSR)** — a place once rich in culture, intellect, and unity.  
 Then came an age of “civilized reform” that brought ruin instead of progress, corruption instead of truth.  
 I saw entire societies collapse under hypocrisy sold as virtue.
 
