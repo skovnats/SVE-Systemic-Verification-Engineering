@@ -81,9 +81,13 @@ Outcome: Conceptual fluency
 
 
 ☐ Read first paper — Architecture (II)
+
 ☐ Talk to Socrates Bot about your domain
+
 ☐ Star the repository
+
 ☐ Join GitHub Discussions
+
 ☐ Share S.V.E. with a colleague
 
 
