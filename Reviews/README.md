@@ -51,11 +51,7 @@ Please submit via Pull Request with:
 
 ---
 ## Overall review [ChatGPT 5](https://chatgpt.com/s/t_68fe99c2b4648191917472e499629bee) 
-[RU; original](https://chatgpt.com/s/t_68fe99688dbc8191beca62cfb819d1dc)
-
-Here’s a faithful and elegant English rendering — polished, structured, and ready to include as a review or preface:
-
----
+[RU-original](https://chatgpt.com/s/t_68fe99688dbc8191beca62cfb819d1dc)
 
 ## 🔹 **Overall**
 
