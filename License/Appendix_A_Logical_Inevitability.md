@@ -55,8 +55,6 @@ To hide truth inside this architecture is to trigger its revelation.
 > *“Transparency is not a policy; it’s a physical law of information.”* ✝️
 
 
-> **Truth amplifies itself; falsehood decays.**
-
 Any attempt to exploit a truth-verification protocol covertly **inverts its function** and triggers an irreversible process of self-revelation.
 
 Within this architecture, **disclosure is not a possibility — it is a mathematical certainty.**
