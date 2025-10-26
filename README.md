@@ -1,4 +1,4 @@
-# S.V.E. Universe
+# S.V.E. Universe v0.3
 **Systemic Verification Engineering: The Mathematics of Meaning**
 
 [![License: SVE PL v1.3](https://img.shields.io/badge/License-SVE%20PL%20v1.3-blue.svg)](License/SVE_Public_License_v1.3.md)
