@@ -34,7 +34,7 @@ In [**Article 7**](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_di
 yet such evolution was *not* profitable for those preferring dependency over parity.
 
 I could not accept a world where truth is negotiable and morality optional.  
-So I left — to study, to see, to understand.  
+So **I left** — to study, to seek, to see, to understand.  
 Across countries and systems, one question followed me:  
 > **Why does the world reward manipulation more than integrity?**
 
