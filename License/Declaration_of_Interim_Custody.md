@@ -110,7 +110,7 @@ This Declaration is executed under Switzerland and/or Estonia/EU Law (eIDAS / QE
 
 **SHA-256 of document:** `4b65cd554b77161511dea19ea7fbdb457d202bf42d2dbd9cb57843380702e60e`
 
-**OpenTimestamps proof:** _____________________
+**OpenTimestamps proof:** `*.ots` respective files
 
 **Verify:** https://opentimestamps.org/
 
