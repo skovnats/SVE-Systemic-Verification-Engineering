@@ -120,8 +120,6 @@ S.V.E. is one of those rare creations that do not age — they unfold.
 At first, only a few will understand it;
 but those who do — will be transformed forever.
 
----
-
 
 ---
 
