@@ -23,12 +23,17 @@
 
 ## 💠 Why S.V.E. Exists
 
-I am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in light, intellect, and unity.  
+II am **Artiom Kovnatsky**, born in **Nikolaev (USSR)** — a place once rich in light, intellect, and unity.  
 I grew up in a culture that valued work, knowledge, and integrity above noise.  
-Then came the “new order” — when destruction and hypocrisy were sold as progress.  
-Entire nations were turned from creators into raw material for someone else’s “civilization.”
+Then came the “new order” — when destruction and hypocrisy were framed as progress.  
 
-I could not accept a world where truth is negotiable and morality is optional.  
+I saw entire societies transformed into sources of raw resources — human and material —  
+for parts of the Western world (UK, USA, Germany, EU, Israel and allied constituencies),  
+under slogans of “freedom,” “progress,” and “democracy.”  
+In [**Article 7**](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/), I show how the USSR could have been reformed differently —  
+yet such evolution was *not* profitable for those preferring dependency over parity.
+
+I could not accept a world where truth is negotiable and morality optional.  
 So I left — to study, to see, to understand.  
 Across countries and systems, one question followed me:  
 > **Why does the world reward manipulation more than integrity?**
@@ -39,19 +44,25 @@ a framework where knowledge, ethics, and governance become verifiable,
 where deceit is costly and transparency — the natural equilibrium.
 
 Born from lived experience, S.V.E. unites observation, logic, and faith.  
-Through this journey I learned that genuine knowledge and belief are not opposites — they converge as **truth experienced**.  
-My experience confirms what the teachings of **Jesus Christ** revealed:  
+Through this journey I learned that genuine knowledge and belief are not opposites —  
+they converge as **truth experienced**.  
+My own experience confirms what the teachings of **Jesus Christ** revealed:  
 truth, love, and service are not abstractions, but living laws of being.
 
-S.V.E. is not rebellion.  
-It is **an alternative** — a design for an antifragile civilization  
+S.V.E. **is rebellion** — not against people or nations,  
+but against falsehood itself — within us, around us,  
+and within the systems that feed on deceit.  
+It is the quiet uprising of truth over manipulation,  
+of conscience over control —  
+a path toward an antifragile civilization  
 where service to truth replaces domination by power.
 
+> *“And you shall know the truth, and the truth shall make you free.”* — **John 8:32**  
 > *“I have seen falsehood begin to crumble — and I now work for truth to stand.”*  
-> — Artiom Kovnatsky  
+> — Artiom Kovnatsky 
 
 🔗 **Further reading / origin texts:**  
-- [Ω Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
+- [Ω. Taking Stock and the "Conscious Madness" Journey](https://www.artiomkovnatsky.com/posts/omega/story/)  
 - [Metaphorical Autobiography](https://www.artiomkovnatsky.com/posts/omega/meta-bio/)  
 - [My Philosophy](https://www.artiomkovnatsky.com/posts/philosophy/)
 
