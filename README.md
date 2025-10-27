@@ -93,12 +93,18 @@ For all who still believe that faith and reason are not enemies, but two wings o
 
 ---
 
-### 🤖 From Idea to Implementation
+## 🤖 First Working Prototype
 
-From this foundation emerged the first working prototype —  
-**[Socrates Bot](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)** — an LLM-based navigator embodying S.V.E. principles, capable of explaining any concept or theorem “in your language”, bridging human intuition and formal verification.
+From this foundation emerged the first working prototype —
+[Socrates Bot](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2) — an LLM-based navigator embodying S.V.E. principles, capable of explaining any concept or theorem "in your language", bridging human intuition and formal verification.
 
-📘 AI Commentary: [Independent Reviews Folder](./Reviews/)
+**📖 Practical Example: Correcting AI Bias through Socratic Dialogue**  
+See a live demonstration of the SIP methodology in action:  
+[Mini-Socratic Dialogue: Challenging AI Bias](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Applications/SIPs-MetaSIPs/example/Mini-SocraticDialogue_PracticalExample.pdf)
+
+This case study shows how systematic questioning can expose and correct Western liberal bias in AI systems, forcing recognition of systemic opacity in high-profile cases (Nord Stream, Epstein, JFK).
+
+📘 AI Commentary: [Independent Reviews Folder](/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews)
 
 ---
 
