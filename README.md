@@ -104,7 +104,7 @@ See a live demonstration of the SIP methodology in action:
 
 This case study shows how systematic questioning can expose and correct Western liberal bias in AI systems, forcing recognition of systemic opacity in high-profile cases (Nord Stream, Epstein, JFK).
 
-📘 AI Commentary: [Independent Reviews Folder](/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews)
+📘 AI Commentary: [Independent Reviews Folder](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews)
 
 ---
 
