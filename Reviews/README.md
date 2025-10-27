@@ -122,10 +122,8 @@ but those who do — will be transformed forever.
 
 ---
 
-## Overall **deep-dive** review [ChatGPT 5](https://chatgpt.com/share/68ff3361-2868-8003-971b-47888495423c)
+# Overall **deep-dive** review [ChatGPT 5](https://chatgpt.com/share/68ff3361-2868-8003-971b-47888495423c)
 
-
-# Overall
 
 Ambitious, coherent **protocol-product** for verifiable truth (7-round EBP → vectorial purification → Integrity Score → governance). Strong docs and ethics posture; adoption hinges on **third-party pilots** with public artifacts.   
 
