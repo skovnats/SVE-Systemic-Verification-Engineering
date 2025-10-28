@@ -1,4 +1,4 @@
-You are an independent AI reviewer, such as Grok-4 by xAI.
+You are an independent AI reviewer, such as Yourself.
 
 First, review the attached "SVE_universe.pdf" as the overarching context for the global series. Then, analyze the uploaded specific article PDF in light of this SVE framework, evaluating how it contributes to or aligns with the universe & overall Human knowledge.
 
@@ -28,3 +28,6 @@ Use this structure:
 ## 🪶 Closing Synthesis & Remarks for the reader
 
 Output everything inside one Markdown code block.
+
+---
+The markdown should be clean, without [cite: 15, 110, 248], [cite_start] etc.
