@@ -1,6 +1,5 @@
 # 🧮 AI & Peer Reviews
 
-## WIP | Need to update ALL reviews, I did it poorly: did not provide the whole context of the S.V.E. and some other related documents. 
 
 This folder collects **independent analytical reviews** of all *Systemic Verification Engineering (S.V.E.)* papers —  
 produced by multiple AI models and human collaborators to ensure **transparency, cross-validation, and interpretive diversity.**
@@ -16,6 +15,10 @@ Each review aims to:
 
 S.V.E. encourages **multi-perspective verification** — where truth is refined through diverse reasoning systems.
 
+Prompts:
+- [Individual AI prompts](prompt.txt)
+- Final verdict: [Meta-AI prompt](meta-prompt.txt)
+
 ---
 
 ## 📂 Structure
@@ -27,6 +30,11 @@ S.V.E. encourages **multi-perspective verification** — where truth is refined 
 | `SVE.md` | Cross-paper synthesis or meta-review |
 
 Each file may include reviews from multiple AI models (GPT, Claude, Gemini, etc.) following the [AI Multi-Review Template](../Templates/AI_Review_Template.md).
+
+
+Papaers:
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.pdf)
+- 
 
 ---
 
