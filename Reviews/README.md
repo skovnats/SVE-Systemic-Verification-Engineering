@@ -10,6 +10,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](mds/SVE-0-1.md)
 - [S.V.E. 0 (2): The Socratic Investigative Process (SIP): An Iterative, Multi-Agent Protocol for Computational Truth Approximation and Its Strategic Applications](mds/SVE-0-2.md)
 - [S.V.E. I: The Theorem of Systemic Failure](mds/SVE-1.md)
+- [S.V.E. II: The Architecture of Verifiable Truth](mds/SVE-2.md)
 - 
 
 ---
