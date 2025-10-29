@@ -12,6 +12,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E. I: The Theorem of Systemic Failure](mds/SVE-1.md)
 - [S.V.E. II: The Architecture of Verifiable Truth](mds/SVE-2.md)
 - [S.V.E. III: The Protocol for Academic Integrity](mds/SVE-3.md)
+- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
 - 
 
 ---
