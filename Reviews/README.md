@@ -6,6 +6,12 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 
 ---
 
+## Reviews:
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](mds/SVE-0-1.md)
+- 
+
+---
+
 ## 📘 Purpose
 
 Each review aims to:
@@ -42,12 +48,6 @@ Each review follows a common Markdown structure:
 ### ⚖️ Evaluation
 ### 💬 Commentary
 ## 🪶 Closing Synthesis
-
----
-
-## Reviews:
-- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](mds/SVE-0-1.md)
-- 
 
 ---
 
