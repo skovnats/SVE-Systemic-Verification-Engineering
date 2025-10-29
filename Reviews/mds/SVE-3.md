@@ -1,4 +1,3 @@
-
 ## 🏛️ Final Verdict — Final AI Judge v1.0
 
 **Scope:** Unified assessment within **S.V.E.** & **Humanity**
