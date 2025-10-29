@@ -33,7 +33,7 @@ Each file may include reviews from multiple AI models (GPT, Claude, Gemini, etc.
 
 
 Papaers:
-- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.pdf)
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.md)
 - 
 
 ---
