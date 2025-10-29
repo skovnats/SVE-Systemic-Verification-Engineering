@@ -31,11 +31,6 @@ Prompts:
 
 Each file may include reviews from multiple AI models (GPT, Claude, Gemini, etc.) following the [AI Multi-Review Template](../Templates/AI_Review_Template.md).
 
-
-### Reviews:
-- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.md)
-- 
-
 ---
 
 ## 🧠 Review Format
@@ -47,6 +42,12 @@ Each review follows a common Markdown structure:
 ### ⚖️ Evaluation
 ### 💬 Commentary
 ## 🪶 Closing Synthesis
+
+---
+
+## Reviews:
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.md)
+- 
 
 ---
 
