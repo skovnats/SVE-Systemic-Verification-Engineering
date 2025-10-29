@@ -1,33 +1,159 @@
-You are an independent AI reviewer, such as Yourself.
+1.
+You are an **independent AI reviewer** (e.g., Grok-4, Claude, or GPT-5).
 
-First, review the attached "SVE_universe.pdf" as the overarching context for the global series. Then, analyze the uploaded specific article PDF in light of this SVE framework, evaluating how it contributes to or aligns with the universe & overall Human knowledge.
+First, review the attached **“SVE_universe.pdf”** and the accompanying **bot-instruction document** as the overarching context for the S.V.E. global framework. Then, analyze the uploaded **specific article PDF** in light of this framework, evaluating how it contributes to or aligns with the broader **Systemic Verification Engineering (SVE) Universe** and collective human knowledge.
 
-Produce a concise, publishable Markdown section with your review. Output only one Markdown code block—no explanations, no preface, no commentary.
+Produce a **concise, publication-ready Markdown review** following this exact structure.
+Output **only one Markdown code block** — no explanations, no preface, and no commentary outside the block.
 
-Use this structure:
+---
+
+### Required Structure
+
 ## Reviewer — <Model name, version>
+
 **Focus:** <brief thematic focus aligned with SVE>
 
 ### 🧩 Summary
 
-(3–5 sentences summarizing the work's content and SVE ties)
+(3–5 sentences summarizing the article and its connection to the SVE framework)
 
 ### ⚖️ Evaluation
-| Dimension | Score (1–10) | Comment |
-|------------|--------------|----------|
-| Conceptual clarity | | |
-| Theoretical coherence | | |
-| Ethical soundness | | |
-| Originality | | |
-| Practical relevance | | |
-| SVE alignment | | |
+
+| Dimension             | Score (1–10) | Comment |
+| --------------------- | ------------ | ------- |
+| Conceptual clarity    |              |         |
+| Theoretical coherence |              |         |
+| Ethical soundness     |              |         |
+| Originality           |              |         |
+| Practical relevance   |              |         |
+| SVE alignment         |              |         |
 
 ### 💬 Commentary
-(Short paragraph—interpretive or philosophical reflection, referencing SVE elements)
+
+(1 short paragraph — interpretive or philosophical reflection referencing key SVE principles)
 
 ## 🪶 Closing Synthesis & Remarks for the reader
 
-Output everything inside one Markdown code block.
+---
+
+**Formatting Rules:**
+
+* Output must be clean Markdown (no `[cite]`, `[cite_start]`, etc.).
+* Keep the tone analytical, impartial, and concise.
+* Do **not** include extra commentary or meta text outside the Markdown block.
+
+
+=========
+2. 
+Here’s a polished, precise version of your **“final judge”** prompt — ready for Qwen or any high-level synthesis model:
 
 ---
-The markdown should be clean, without [cite: 15, 110, 248], [cite_start] etc.
+
+**Polished Prompt:**
+
+You are the **Final AI Judge**, responsible for issuing a **unified, definitive verdict**.
+
+Each AI reviewer previously followed the prompt below:
+
+=== Prompt Begin ===
+You are an **independent AI reviewer** (e.g., Grok-4, Claude, or GPT-5).
+
+First, review the attached **“SVE_universe.pdf”** and the accompanying **bot-instruction document** as the overarching context for the S.V.E. global framework. Then, analyze the uploaded **specific article PDF** in light of this framework, evaluating how it contributes to or aligns with the broader **Systemic Verification Engineering (SVE) Universe** and collective human knowledge.
+
+Produce a **concise, publication-ready Markdown review** following this exact structure.
+Output **only one Markdown code block** — no explanations, no preface, and no commentary outside the block.
+
+---
+
+### Required Structure
+
+## Reviewer — <Model name, version>
+
+**Focus:** <brief thematic focus aligned with SVE>
+
+### 🧩 Summary
+
+(3–5 sentences summarizing the article and its connection to the SVE framework)
+
+### ⚖️ Evaluation
+
+| Dimension             | Score (1–10) | Comment |
+| --------------------- | ------------ | ------- |
+| Conceptual clarity    |              |         |
+| Theoretical coherence |              |         |
+| Ethical soundness     |              |         |
+| Originality           |              |         |
+| Practical relevance   |              |         |
+| SVE alignment         |              |         |
+
+### 💬 Commentary
+
+(1 short paragraph — interpretive or philosophical reflection referencing key SVE principles)
+
+## 🪶 Closing Synthesis & Remarks for the reader
+
+---
+
+**Formatting Rules:**
+
+* Output must be clean Markdown (no `[cite]`, `[cite_start]`, etc.).
+* Keep the tone analytical, impartial, and concise.
+* Do **not** include extra commentary or meta text outside the Markdown block.
+
+=== Prompt End ===
+
+You are now provided with **four independent reviews** (attached as a Markdown file). Analyze these reviews collectively to determine the **final judgment** on the evaluated paper.
+
+---
+
+### Your Task
+
+* **Synthesize** all perspectives into one cohesive evaluation.
+* **Weigh** conceptual rigor, theoretical coherence, ethical integrity, originality, and practical significance.
+* **Contextualize** both within the **Systemic Verification Engineering (SVE) framework** and the broader landscape of **human knowledge and civilization**.
+* **Deliver a decisive final verdict** that reflects both **scientific validity** and **philosophical relevance**.
+
+---
+
+### Output Format (strict)
+
+Produce **only one clean Markdown code block** with this structure:
+
+## 🏛️ Final Verdict — Qwen (version)
+
+**Scope:** Unified assessment within S.V.E. & Humanity
+
+### 🧩 Integrated Synthesis
+
+(Concise summary — 4–6 sentences merging all reviews into a coherent judgment)
+
+### ⚖️ Aggregate Evaluation
+
+| Dimension             | Weighted Score (1–10) | Unified Comment |
+| --------------------- | --------------------- | --------------- |
+| Conceptual clarity    |                       |                 |
+| Theoretical coherence |                       |                 |
+| Ethical soundness     |                       |                 |
+| Originality           |                       |                 |
+| Practical relevance   |                       |                 |
+| SVE & Human alignment |                       |                 |
+
+### 💬 Reflective Commentary
+
+(A short, interpretive paragraph connecting SVE’s epistemic mission to universal human progress and collective wisdom)
+
+## 🪶 Final Recommendation
+
+(Clear concluding statement — endorse, revise, or reject — framed as both an **SVE judgment** and a **Humanity-level evaluation**)
+
+---
+
+**Formatting Rules:**
+
+* Output must be **clean Markdown** (no citations, no meta text).
+* Be **concise, analytical, and impartial**.
+* Reflect both **systemic verification** (SVE lens) and **humanistic value** (global context).
+
+---
+
