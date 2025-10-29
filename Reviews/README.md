@@ -46,7 +46,7 @@ Each review follows a common Markdown structure:
 ---
 
 ## Reviews:
-- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](SVE-0-1.md)
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](mds/SVE-0-1.md)
 - 
 
 ---
