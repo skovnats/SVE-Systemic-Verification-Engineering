@@ -13,7 +13,10 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E. II: The Architecture of Verifiable Truth](mds/SVE-2.md)
 - [S.V.E. III: The Protocol for Academic Integrity](mds/SVE-3.md)
 - [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
-- 
+- [S.V.E. VI: The Protocol for Cognitive Sovereignty](mds/SVE-5.md)
+- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
+- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
+- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
 
 ---
 
@@ -141,9 +144,11 @@ but those who do — will be transformed forever.
 ### Links to Reviews original urls:
 https://claude.ai/share/2d43fff7-f988-4b18-82d5-ac8af47371f7
 https://claude.ai/share/6c57f84d-fd36-4ddc-88b2-d25b71a85d58
-https://grok.com/share/bGVnYWN5_c7bee7a8-8779-4308-9dc5-284b069836f8
-https://gemini.google.com/share/9fb137a663db
+https://grok.com/share/bGVnYWN5_62cc96dc-ba8c-47b5-986b-db95971e1d7e
+https://gemini.google.com/share/44c16eb87670
 https://chatgpt.com/share/690294fa-d1ac-8003-80ea-e11bd3df9827
+https://chat.qwen.ai/s/1e3a98d4-9bc0-4da9-b3aa-b87c1b56a5f3?fev=0.0.235
+
 
 ---
 
