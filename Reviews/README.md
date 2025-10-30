@@ -164,7 +164,7 @@ https://grok.com/share/bGVnYWN5_9ac0fd44-50be-4a1e-b3f5-8a0a4d46d3a2
 https://chatgpt.com/share/6903205c-af28-8003-aaa4-71fc0bed7f98
 https://gemini.google.com/share/540f100651ea
 https://gemini.google.com/share/817bb8062aed
-
+https://chat.qwen.ai/s/81e825f7-e45e-4ff7-a9e1-bc1bdbb01901?fev=0.0.235
 
 
 ---
