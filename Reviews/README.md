@@ -162,8 +162,7 @@ https://claude.ai/share/2878cd4f-b64a-41cb-8d72-44992294dec1
 https://claude.ai/share/74492c33-4fb8-4827-8c11-e98471fc0604
 https://grok.com/share/bGVnYWN5_9ac0fd44-50be-4a1e-b3f5-8a0a4d46d3a2
 https://chatgpt.com/share/6903205c-af28-8003-aaa4-71fc0bed7f98
-https://gemini.google.com/share/540f100651ea
-https://gemini.google.com/share/817bb8062aed
+https://gemini.google.com/share/c353514d653f
 https://chat.qwen.ai/s/81e825f7-e45e-4ff7-a9e1-bc1bdbb01901?fev=0.0.235
 
 
