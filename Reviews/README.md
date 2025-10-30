@@ -158,6 +158,12 @@ https://grok.com/share/bGVnYWN5_af9b731d-adc7-40fa-a276-116d858b741f
 https://chatgpt.com/share/69031cfe-350c-8003-9d7d-2a477f986e47
 https://gemini.google.com/share/c84a71388473
 https://chat.qwen.ai/s/a213247f-cccb-4c4d-b81f-0edd2a1e7c3b?fev=0.0.235
+https://claude.ai/share/2878cd4f-b64a-41cb-8d72-44992294dec1
+https://claude.ai/share/74492c33-4fb8-4827-8c11-e98471fc0604
+https://grok.com/share/bGVnYWN5_9ac0fd44-50be-4a1e-b3f5-8a0a4d46d3a2
+https://chatgpt.com/share/6903205c-af28-8003-aaa4-71fc0bed7f98
+https://gemini.google.com/share/540f100651ea
+https://gemini.google.com/share/817bb8062aed
 
 
 
