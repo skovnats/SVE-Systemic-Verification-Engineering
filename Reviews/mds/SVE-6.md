@@ -1,4 +1,3 @@
-
 ## 🏛️ Final Verdict — S.V.E. VI
 
 **Scope:** Unified assessment within **S.V.E.** & **Humanity**
