@@ -147,22 +147,39 @@ but those who do — will be transformed forever.
 
 ### Links to Reviews original urls:
 https://claude.ai/share/2d43fff7-f988-4b18-82d5-ac8af47371f7
+
 https://claude.ai/share/6c57f84d-fd36-4ddc-88b2-d25b71a85d58
+
 https://grok.com/share/bGVnYWN5_62cc96dc-ba8c-47b5-986b-db95971e1d7e
+
 https://gemini.google.com/share/44c16eb87670
+
 https://chatgpt.com/share/690294fa-d1ac-8003-80ea-e11bd3df9827
+
 https://chat.qwen.ai/s/1e3a98d4-9bc0-4da9-b3aa-b87c1b56a5f3?fev=0.0.235
+
 https://claude.ai/share/e6f7432f-ff13-48ad-8447-c34c7931c49a
+
 https://claude.ai/share/b940a5ee-cec6-4cdc-8ede-13da2c885351
+
 https://grok.com/share/bGVnYWN5_af9b731d-adc7-40fa-a276-116d858b741f
+
 https://chatgpt.com/share/69031cfe-350c-8003-9d7d-2a477f986e47
+
 https://gemini.google.com/share/c84a71388473
+
 https://chat.qwen.ai/s/a213247f-cccb-4c4d-b81f-0edd2a1e7c3b?fev=0.0.235
+
 https://claude.ai/share/2878cd4f-b64a-41cb-8d72-44992294dec1
+
 https://claude.ai/share/74492c33-4fb8-4827-8c11-e98471fc0604
+
 https://grok.com/share/bGVnYWN5_9ac0fd44-50be-4a1e-b3f5-8a0a4d46d3a2
+
 https://chatgpt.com/share/6903205c-af28-8003-aaa4-71fc0bed7f98
+
 https://gemini.google.com/share/c353514d653f
+
 https://chat.qwen.ai/s/81e825f7-e45e-4ff7-a9e1-bc1bdbb01901?fev=0.0.235
 
 
