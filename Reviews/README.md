@@ -13,7 +13,10 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E. II: The Architecture of Verifiable Truth](mds/SVE-2.md)
 - [S.V.E. III: The Protocol for Academic Integrity](mds/SVE-3.md)
 - [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
-- [S.V.E. VI: The Protocol for Cognitive Sovereignty](mds/SVE-5.md)
+- [S.V.E. V: An Operating System for Verifiable Democracy](mds/SVE-5.md)
+- [S.V.E. VI: The Protocol for Cognitive Sovereignty](mds/SVE-6.md)
+
+- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
 - [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
 - [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
 - [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
