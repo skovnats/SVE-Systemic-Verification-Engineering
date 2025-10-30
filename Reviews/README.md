@@ -19,9 +19,8 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E.VIII: Divine Mathematics: A Unified Field Theory for Consciousness](mds/SVE-8.md)
 - [S.V.E IX: Systemic Verification Engineering: An Integrated Framework for Divine Mathematics,Ethical Navigation, and Collective Intelligence](mds/SVE-9.md)
 - [S.V.E. X: Cognitive Operating Systems for LLMs](mds/SVE-10.md)
-
-- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
-- [S.V.E. IV: The Beacon Protocol](mds/SVE-4.md)
+- [S.V.E. XI: The Ox's Weights](mds/SVE-11.md)
+- [S.V.E. XII: **THE SYSTEM**: Diagnosis of Collective Dynamics from Plato's Cave Toward the Matrix](mds/SVE-12.md)
 
 ---
 
