@@ -20,10 +20,27 @@
 \usepackage{array}
 \usepackage{enumitem}
 \usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\pgfplotsset{compat=1.17}
+\usetikzlibrary{positioning}
 \usepackage{xcolor}
 \usepackage{titlesec}
+
 \usetikzlibrary{positioning,arrows.meta,fit,calc,shadows,backgrounds,shapes.geometric}
 \hypersetup{unicode=true,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+% --- add (anywhere in preamble after xcolor)
+\definecolor{HierarchyColor}{RGB}{0,114,178}
+\definecolor{AnthillColor}{RGB}{213,94,0}
+\definecolor{AccentColor}{RGB}{230,159,0} % if you need it later
+
+% --- THEOREM ENVIRONMENTS ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{axiom}{Axiom}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+
 
 
 % Hyperref setup for better PDF properties
@@ -374,8 +391,8 @@ The strengths and weaknesses of pure governance models are summarized in Table~\
   width=0.7\textwidth,
   height=0.7\textwidth,
   title={Comparative Analysis of Pure Governance Models},
-  theta zero=90,
-  theta direction=clockwise,
+  angle start=90,
+  x dir=reverse,
   ymin=0, ymax=100,
   xtick={0,72,144,216,288},
   xticklabels={Stability, Adaptability, Engagement, Speed, Resilience},
@@ -392,8 +409,8 @@ The strengths and weaknesses of pure governance models are summarized in Table~\
 
 % Hierarchy polygon
 \addplot+[
-  draw={RGB}{0,114,178}, 
-  fill={RGB}{0,114,178}, 
+  draw=HierarchyColor,
+  fill=HierarchyColor,
   fill opacity=0.20
 ] coordinates {
   (0,90) (72,30) (144,20) (216,85) (288,15) (360,90)
@@ -402,8 +419,8 @@ The strengths and weaknesses of pure governance models are summarized in Table~\
 
 % Anthill polygon
 \addplot+[
-  draw={RGB}{213,94,0}, 
-  fill={RGB}{213,94,0}, 
+  draw=AnthillColor,
+  fill=AnthillColor,
   fill opacity=0.20
 ] coordinates {
   (0,25) (72,90) (144,80) (216,35) (288,95) (360,25)
@@ -415,6 +432,7 @@ The strengths and weaknesses of pure governance models are summarized in Table~\
 \caption{Comparison of Hierarchy and Anthill governance models across five dimensions, illustrating trade-offs in stability, adaptability, engagement, speed, and resilience \citep{HybridModelsMemo}.}
 \label{fig:pure_models_radar}
 \end{figure}
+
 
 % --- SECTION 3: FOUR HYBRID MODELS ---
 \section{Four Hybrid Models for Antifragile Governance}
@@ -477,8 +495,8 @@ We propose four hybrid models, ordered by increasing complexity (see Figure~\ref
   width=0.7\textwidth,
   height=0.7\textwidth,
   title={Hybrid Model: Combining Strengths of Both Systems},
-  theta zero=90,
-  theta direction=clockwise,
+  angle start=90,
+  x dir=reverse,
   ymin=0, ymax=100,
   xtick={0,72,144,216,288},
   xticklabels={Stability, Adaptability, Engagement, Speed, Resilience},
@@ -509,8 +527,10 @@ We propose four hybrid models, ordered by increasing complexity (see Figure~\ref
 
 % Hierarchy
 \addplot+[
-  draw={RGB}{0,114,178}, 
-  fill={RGB}{0,114,178}, 
+  %draw={RGB}{0,114,178}, 
+  draw=HierarchyColor, 
+  fill=HierarchyColor
+  %fill={RGB}{0,114,178}, 
   fill opacity=0.18
 ] coordinates {
   (0,90) (72,30) (144,20) (216,85) (288,15) (360,90)
@@ -519,8 +539,10 @@ We propose four hybrid models, ordered by increasing complexity (see Figure~\ref
 
 % Anthill
 \addplot+[
-  draw={RGB}{213,94,0}, 
-  fill={RGB}{213,94,0}, 
+  % draw={RGB}{213,94,0}, 
+  % fill={RGB}{213,94,0}, 
+  draw=AnthillColor,
+  fill=AnthillColor,
   fill opacity=0.18
 ] coordinates {
   (0,25) (72,90) (144,80) (216,35) (288,95) (360,25)
