@@ -36,6 +36,6 @@ Please watch, read, and decide for yourself.
 
 #### Found errors? Please report, I will fix. | Нашли ошибку? Сообщите, я исправлю.
 
-[photos/systemic_question.png]
+![SYSTEMIC QUESTION](photos/systemic_question.png)
 
 #HumanRights #Bundestag #Ukraine #Peace #NeverAgain
