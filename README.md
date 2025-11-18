@@ -67,7 +67,7 @@ where service to truth replaces domination by power.
 
 ---
 
-🧭 A Note on Language and Truth-Seeking
+## 🧭 A Note on Language and Truth-Seeking
 
 In S.V.E. I use every language that I find useful for describing
 a phenomenon as complex as Human Beings and Reality —
