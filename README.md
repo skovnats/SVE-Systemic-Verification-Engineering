@@ -65,6 +65,27 @@ where service to truth replaces domination by power.
 - [Metaphorical Autobiography](https://www.artiomkovnatsky.com/posts/omega/meta-bio/)  
 - [My Philosophy](https://www.artiomkovnatsky.com/posts/philosophy/)
 
+---
+
+🧭 A Note on Language and Truth-Seeking
+
+In S.V.E. I use every language that I find useful for describing
+a phenomenon as complex as Human Beings and Reality —
+mathematical, scientific, philosophical, symbolic, metaphysical, and religious.
+
+Different languages illuminate different dimensions of truth.
+No single framework is sufficient on its own.
+
+If my symbolic or religious expressions don’t resonate with you —
+you can ask Socrates-Bot to translate any S.V.E. article into the worldview you prefer
+(secular, analytic, scientific, rational):
+
+👉 https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22
+
+All articles (not only the first nine) are uploaded there
+and can be explored from any interpretational angle.
+
+If you prefer a direct conversation — feel free to contact me.
 
 ---
 
