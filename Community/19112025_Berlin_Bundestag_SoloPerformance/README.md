@@ -39,6 +39,6 @@ Please watch, read, and decide for yourself.
 
 #HumanRights #Bundestag #Ukraine #Peace #NeverAgain
 
-\qr
+<br />
 
 ![SYSTEMIC QUESTION](photos/systemic_question.png)
