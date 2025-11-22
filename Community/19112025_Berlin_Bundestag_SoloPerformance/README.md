@@ -16,10 +16,10 @@ Why do taxpayers finance these violations?
 ## 🎥 Video testimonies (shown at the Bundestag):
 👉 https://youtu.be/HybMU2IiIKo
 
-SPEECH (Short Home Version):
+**SPEECH (Short Home Version)**:
 https://youtu.be/3JH7zYVaLjE
 
-SOLO PERFORMANCE (Bundestag, Berlin — 19.11.2025):
+**SOLO PERFORMANCE (Bundestag, Berlin — 19.11.2025)**:
 https://youtu.be/VQorY9-k5Ro
 
 ## 🆘 THE AK1984-LIST
