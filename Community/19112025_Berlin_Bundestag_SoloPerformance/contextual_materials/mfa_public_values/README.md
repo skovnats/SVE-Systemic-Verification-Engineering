@@ -1,6 +1,6 @@
 This folder contains publicly available messaging from the [German Federal Foreign Office (Auswärtiges Amt)](https://www.auswaertiges-amt.de/de).
 
-Screenshot captured on 22.11.2025, 18:42 CET from the official MFA website:
+1. Screenshot captured on 22.11.2025, 18:42 CET from the official MFA website:
 
 “Respect – Justice – Peace”
 (Germany’s 2027–2028 UN Security Council candidacy theme)
