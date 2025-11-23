@@ -295,12 +295,8 @@ Every omission, delay, generic reply or rhetorical shift becomes a timestamped, 
 Some people collect stamps.
 Some collect butterflies.
 
-My “hobby” is different:
-I **archive human suffering that never reaches the SYSTEM** —
-people who are silent or silenced,
-who disappear between bureaucratic lines.
-
-* Probably “hobby” is not precise enough — this is my responsibility as a witness.
+My ‘hobby’ is different: I archive human suffering that never reaches the SYSTEM — people who are silent or silenced, who disappear between bureaucratic lines.
+But ‘hobby’ is not precise. This is my responsibility as a witness.
 
 I do this not out of anger, but out of conscience.
 Because one day someone will say: *“We didn’t know.”*
