@@ -172,7 +172,7 @@ If your reasoning is strong, I will:
 
 **Your contribution will be archived permanently.**
 
-This is an **open, falsifiable system**.
+This is an **open, falsifiable system**. This process keeps the audit **open, falsifiable, and oriented toward Truth — not ego, narrative, or politics.**
 
 ---
 
@@ -187,33 +187,6 @@ If one day I cannot continue — for any reason — I ask only one thing:
 Anyone can continue the protocol.
 Nothing is locked behind me.
 The system is bigger than the individual.
-
----
-
-# 🔍 **Additional Context Materials**
-
-These materials provide the **moral, experiential, and methodological baseline** of the protocol.
-
-They are not abstract writings.
-Many of the mechanisms, pressures, and systemic patterns described there are things **I and my family personally lived through and witnessed** — across different countries, institutions, and historical transitions.
-This is why the protocol is grounded not only in analysis, but also in lived experience.
-
-### **• Family / Biography Context**
-
-* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/)
-* [https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/](https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/)
-* [https://www.artiomkovnatsky.com/ru/posts/omega/story/](https://www.artiomkovnatsky.com/ru/posts/omega/story/)
-
-### **• Dialogues & Methodological Foundations**
-
-* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/)
-* [https://www.artiomkovnatsky.com/ru/posts/philosophy/](https://www.artiomkovnatsky.com/ru/posts/philosophy/)
-
-Together, these documents show:
-
-* why I began this audit,
-* what I have personally observed about how systems behave,
-* and why transparency, verification, and documentation are essential.
 
 ---
 
@@ -270,32 +243,13 @@ Every omission, delay, generic reply or rhetorical shift becomes a timestamped, 
 
 ---
 
-### 🧪 Appeal & Correction Clause (via Socrates-Bot)
-
-If you believe that any part of the AI or meta-AI analysis is incorrect or incomplete, you are fully welcome to challenge it.
-
-For this purpose, I provide an open and neutral review channel through the **Socrates-Bot**:
-👉 [https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22](https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22)
-
-You may submit:
-
-– your full counter-analysis,
-– your interpretation of the context,
-– any additional evidence or arguments.
-
-If your reasoning reveals an error, omission, or misinterpretation in the protocol’s conclusions, I will transparently correct the record and publish the updated analysis with proper attribution.
-
-This process keeps the audit **open, falsifiable, and oriented toward Truth — not ego, narrative, or politics.**
-
----
-
 ### 🧍‍♂️ Personal Note
 
 Some people collect stamps.
 Some collect butterflies.
 
 My “hobby” is different:
-I **archive human suffering that never reaches the system** —
+I **archive human suffering that never reaches the SYSTEM** —
 people who are silent or silenced,
 who disappear between bureaucratic lines.
 
@@ -336,3 +290,30 @@ as long as we are oriented toward Light.
 
 ---
 
+
+# 🔍 **Additional Context Materials**
+
+These materials provide the **moral, experiential, and methodological baseline** of the protocol.
+
+They are not abstract writings.
+Many of the mechanisms, pressures, and systemic patterns described there are things **I and my family personally lived through and witnessed** — across different countries, institutions, and historical transitions.
+This is why the protocol is grounded not only in analysis, but also in lived experience.
+
+### **• Family / Biography Context**
+
+* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/)
+* [https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/](https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/)
+* [https://www.artiomkovnatsky.com/ru/posts/omega/story/](https://www.artiomkovnatsky.com/ru/posts/omega/story/)
+
+### **• Dialogues & Methodological Foundations**
+
+* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/)
+* [https://www.artiomkovnatsky.com/ru/posts/philosophy/](https://www.artiomkovnatsky.com/ru/posts/philosophy/)
+
+Together, these documents show:
+
+* why I began this audit,
+* what I have personally observed about how systems behave,
+* and why transparency, verification, and documentation are essential.
+
+---
