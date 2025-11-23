@@ -99,8 +99,10 @@ Initially empty — grows naturally.
 ### **6. Dual Timeline**
 
 * `week_0` — this week is dedicated to the sorrow for all people who suffered and died,
-* `week_−1` — mirrored one-week-back reconstruction,
-* `week_−2` — mirrored two-weeks-back reconstruction.
+* `week_±1` — mirrored one-week-back reconstruction and forward from the `0` week,
+* `week_±2` — mirrored two-weeks-back reconstruction and forward from the `0` week,
+* …
+* `week_±n` — deeper mirrored reconstruction layers as needed.
 
 Ensures **context**, **continuity**, and **temporal verification**.
 
