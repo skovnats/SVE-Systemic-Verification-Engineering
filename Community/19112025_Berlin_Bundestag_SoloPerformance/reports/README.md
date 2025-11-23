@@ -60,6 +60,31 @@ If such declassification is impossible, please state **clearly and publicly**:
 
 ---
 
+# ⏱️ **Pacing & Structure — 444 Days**
+
+The protocol follows a **fixed 444-day structure**, divided into **4 cycles of 111 days**, each tied to a higher layer of institutional accountability.
+
+This pacing ensures:
+• stability,
+• predictability,
+• non-reactivity,
+• and long-term transparency independent of external behaviour.
+
+### **Hierarchy Escalation Table (111-day increments)**
+
+| Cycle       | Institutional Layer             | Start Date | End Date                           |
+| ----------- | ------------------------------- | ---------- | ---------------------------------- |
+| **Cycle 1** | Working Level (Ukraine Desk)    | 23.11.2025 | 14.03.2026                         |
+| **Cycle 2** | Regional / Political Leadership | 15.03.2026 | 02.07.2026                         |
+| **Cycle 3** | Federal Foreign Minister        | 03.07.2026 | 21.10.2026                         |
+| **Cycle 4** | Federal Chancellor              | 22.10.2026 | **10.02.2027** (Day 444 — Closure) |
+
+If during any cycle no substantive answers are provided, the protocol automatically escalates to the next level on the assigned date.
+
+The timeline **cannot** be accelerated or paused by external decisions.
+
+---
+
 ### 🎯 🧭 **What Weekly Reports Will Track (Extended)**
 
 The weekly reports will document:
@@ -105,6 +130,25 @@ Initially empty — grows naturally.
 * `week_±n` — deeper mirrored reconstruction layers as needed.
 
 Ensures **context**, **continuity**, and **temporal verification**.
+
+---
+
+# 🗂️ **Content That May Be Added Over Time**
+
+Each cycle may include expanded materials as needed:
+
+* **press releases** from MFA / NATO / EU
+* **public statements**, interviews, speeches
+* **screenshots** of official websites (archived for reproducibility)
+* **videos**, recordings, transcripts (Whisper)
+* **semantic change tracking** (narrative drift + alignment)
+* **screenshots of deleted / modified pages**
+* **links to updated legal frameworks**
+* **media field analysis** for each cycle
+* and any **additional human-rights evidence**.
+
+All added artifacts will be fully timestamped, cross-referenced, and mirrored across GitHub, GitLab, Google Drive, MEGA.
+
 
 ---
 
@@ -253,40 +297,19 @@ I **archive human suffering that never reaches the SYSTEM** —
 people who are silent or silenced,
 who disappear between bureaucratic lines.
 
+* Probably “hobby” is not precise enough — this is my responsibility as a witness.
+
 I do this not out of anger, but out of conscience.
 Because one day someone will say: *“We didn’t know.”*
 And the archive will answer: *“You did.”*
 
 I begin with myself and my family — with the memories and wounds that shaped me:
-👉 [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/)
+👉 [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/)
 
 Each week, with God’s help, I will document and analyse one slice of this reality.
 At the end of the protocol, life will go on.
 If this work ever becomes unnecessary, it will end by itself.
 I don’t cling to it. I simply serve.
-
-> «Неправедный пусть ещё делает неправду; 
-> нечистый пусть ещё сквернится; 
-> праведный да творит правду ещё, 
-> и святой да освящается ещё.»
-> — Откровение 22:11 (Синодальный перевод)
-
-> «Wer Böses tut, der tue weiterhin Böses, 
-> und wer unrein ist, der verunreinige sich weiterhin, 
-> und der Gerechte übe weiterhin Gerechtigkeit, 
-> und der Heilige heilige sich weiterhin.» 
-> — Offenbarung 22,11
-
-> “He that is unjust, let him be unjust still;
-> and he which is filthy, let him be filthy still;
-> and he that is righteous, let him be righteous still;
-> and he that is holy, let him be holy still.”
-> — Revelation 22:11
-
-Be human.
-Seek Truth and Love.
-And may God protect all of us — poor, middle and rich —
-as long as we are oriented toward Light.
 
 ---
 
@@ -315,5 +338,30 @@ Together, these documents show:
 * why I began this audit,
 * what I have personally observed about how systems behave,
 * and why transparency, verification, and documentation are essential.
+
+---
+
+> «Неправедный пусть ещё делает неправду; 
+> нечистый пусть ещё сквернится; 
+> праведный да творит правду ещё, 
+> и святой да освящается ещё.»
+> — Откровение 22:11 (Синодальный перевод)
+
+> «Wer Böses tut, der tue weiterhin Böses, 
+> und wer unrein ist, der verunreinige sich weiterhin, 
+> und der Gerechte übe weiterhin Gerechtigkeit, 
+> und der Heilige heilige sich weiterhin.» 
+> — Offenbarung 22,11
+
+> “He that is unjust, let him be unjust still;
+> and he which is filthy, let him be filthy still;
+> and he that is righteous, let him be righteous still;
+> and he that is holy, let him be holy still.”
+> — Revelation 22:11
+
+Be human.
+Seek Truth and Love.
+And may God protect all of us — poor, middle and rich —
+as long as we are oriented toward Light.
 
 ---
