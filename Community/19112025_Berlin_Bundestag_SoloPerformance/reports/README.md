@@ -192,15 +192,28 @@ The system is bigger than the individual.
 
 # 🔍 **Additional Context Materials**
 
-Two personal starting points that frame the protocol:
+These materials provide the **moral, experiential, and methodological baseline** of the protocol.
 
-* **Family / Biography Context**
-  [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/)
+They are not abstract writings.
+Many of the mechanisms, pressures, and systemic patterns described there are things **I and my family personally lived through and witnessed** — across different countries, institutions, and historical transitions.
+This is why the protocol is grounded not only in analysis, but also in lived experience.
 
-* **AI Dialogue on Conscience and Responsibility**
-  [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/)
+### **• Family / Biography Context**
 
-These form the **moral and methodological baseline**.
+* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/intro/)
+* [https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/](https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/)
+* [https://www.artiomkovnatsky.com/ru/posts/omega/story/](https://www.artiomkovnatsky.com/ru/posts/omega/story/)
+
+### **• Dialogues & Methodological Foundations**
+
+* [https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_7/)
+* [https://www.artiomkovnatsky.com/ru/posts/philosophy/](https://www.artiomkovnatsky.com/ru/posts/philosophy/)
+
+Together, these documents show:
+
+* why I began this audit,
+* what I have personally observed about how systems behave,
+* and why transparency, verification, and documentation are essential.
 
 ---
 
