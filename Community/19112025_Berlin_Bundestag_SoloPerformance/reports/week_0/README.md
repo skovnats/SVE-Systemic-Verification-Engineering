@@ -1,4 +1,5 @@
-# Week 0 (2025KW47) -- "Totensonntag"
+# Week 0 (2025KW47) 
+## "Totensonntag": initiation of the `444-day` protocol
 
 ![](../../photos/09112025_Berlin.jpg)
 
