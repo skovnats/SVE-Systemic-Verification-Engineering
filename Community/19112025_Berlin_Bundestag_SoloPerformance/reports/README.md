@@ -75,10 +75,8 @@ The weekly reports will document:
 
 ### **3. Evidence Field**
 
-New category added:
-
 * **videos, testimonies, and primary evidence** (e.g., audios, eyewitness material),
-* **speech-to-text transcripts** (Whisper),
+* **speech-to-text transcripts** (e.g., Whisper),
 * **structured summaries**,
 * **cross-referenced context materials**,
 * escalating archive of forced mobilization, unlawful detentions, medical neglect (e.g., Viktor Krasnikov case).
@@ -100,7 +98,7 @@ Initially empty — grows naturally.
 
 ### **6. Dual Timeline**
 
-* `week_0` — this week’s events,
+* `week_0` — this week is dedicated to the sorrow for all people who suffered and died,
 * `week_−1` — mirrored one-week-back reconstruction,
 * `week_−2` — mirrored two-weeks-back reconstruction.
 
