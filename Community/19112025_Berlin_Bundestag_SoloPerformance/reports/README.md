@@ -4,9 +4,9 @@
 **Ticket:** `759bc4c4-387d-49e7-9e16-9a2b56c9da0e`
 **Symbolic ID of the Entire Audit**
 
-22 September 2025, I opened Ticket **`759bc4c4-387d-49e7-9e16-9a2b56c9da0e`** at the German Federal Foreign Office regarding documented human-rights violations in Ukraine and the basic right of civilians to leave the country safely.
+22 September 2025, I opened Ticket **`759bc4c4-387d-49e7-9e16-9a2b56c9da0e`** at the German Federal Foreign Office regarding documented human-rights violations in Ukraine (e.g., [Testimony of Viktor Krasnikov](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov), [video I showed near Bundestag on 19.11.2025](https://youtu.be/HybMU2IiIKo) etc.) and the basic right of civilians to leave the country safely.
 
-The FO provided a **formal yet non-substantive reply** and administratively closed the matter.
+The FO provided a [**formal yet non-substantive reply**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) and administratively closed the matter.
 
 Today, on **Totensonntag**, this ticket becomes a **symbolic object**, a **public verification anchor**.
 It will be used throughout the entire protocol as a **fixed reference ID**.
