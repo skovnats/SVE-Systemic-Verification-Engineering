@@ -65,13 +65,10 @@ If such declassification is impossible, please state **clearly and publicly**:
 The protocol follows a **fixed 444-day structure**, divided into **4 cycles of 111 days**, each tied to a higher layer of institutional accountability.
 
 This pacing ensures:
-• stability,
-
-• predictability,
-
-• non-reactivity,
-
-• and long-term transparency independent of external behaviour.
+* stability,
+* predictability,
+* non-reactivity,
+* and long-term transparency independent of external behaviour.
 
 ### **Hierarchy Escalation Table (111-day increments)**
 
