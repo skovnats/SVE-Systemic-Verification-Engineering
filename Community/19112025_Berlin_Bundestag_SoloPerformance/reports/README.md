@@ -66,8 +66,11 @@ The protocol follows a **fixed 444-day structure**, divided into **4 cycles of 1
 
 This pacing ensures:
 • stability,
+
 • predictability,
+
 • non-reactivity,
+
 • and long-term transparency independent of external behaviour.
 
 ### **Hierarchy Escalation Table (111-day increments)**
