@@ -81,7 +81,9 @@ This pacing ensures:
 
 If during any cycle no substantive answers are provided, the protocol automatically escalates to the next level on the assigned date.
 
-The timeline **cannot** be accelerated or paused by external decisions.
+The timeline **cannot** be accelerated or paused by external decisions. 
+
+*Minor adjustments may be introduced if reality provides new, relevant information — but never in a way that compromises transparency, reproducibility, or the integrity of the 444-day structure.*
 
 ---
 
@@ -146,6 +148,7 @@ Each cycle may include expanded materials as needed:
 * **links to updated legal frameworks**
 * **media field analysis** for each cycle
 * and any **additional human-rights evidence**.
+* ...
 
 All added artifacts will be fully timestamped, cross-referenced, and mirrored across GitHub, GitLab, Google Drive, MEGA.
 
