@@ -1,4 +1,5 @@
 **Folder:** `mails/responses_from_Auswaertiges_Amt_DE/20112025`
+
 **Date:** 20–21 November 2025
 
 This folder contains the official response from the German Federal Foreign Office (Auswärtiges Amt) to my human-rights inquiry (Ticket: **759bc4c4-387d-49e7-9e16-9a2b56c9da0e**).
@@ -8,10 +9,10 @@ This folder contains the official response from the German Federal Foreign Offic
 The inquiry began after my childhood friend **Dmitry Krasnikov** was forcibly taken by a Ukrainian military recruitment unit (ТЦК) on **17 September 2025**.
 
 His brother, **Viktor Krasnikov**, who is currently in hiding, provided an audio testimony describing:
-– unlawful detention practices,
-– coercive mobilization,
-– anti-sanitary conditions,
-– denial of medical rights.
+* unlawful detention practices,
+* coercive mobilization,
+* anti-sanitary conditions,
+* denial of medical rights.
 
 Their youngest brother attempted to cross the border illegally after being **re-drafted**, and has been missing since approximately **15 July 2025**.
 As of **22 November 2025**, there is no information about him.
