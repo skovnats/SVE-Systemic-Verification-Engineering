@@ -1,10 +1,10 @@
-# Week `±1`: `2025KW46` & `2025KW48` - Cycle 1 (111 Days)
+# Week `±1`: `2025KW46` & `2025KW48` - Cycle 1 (111 Days: 23.11.2025 - 14.03.2026)
 **Date Week 46:** 2025: Monday, November 10, 2025 - Sunday, November 16, 2025\
 **Date Week 48:** 2025: Monday, November 24, 2025 - Sunday, November 30, 2025
 
 ---
 
-## **Weekly Note for Cycle 1 (111 Days)**
+## **Weekly Note for Cycle 1 (111 Days: 23.11.2025 - 14.03.2026)**
 
 **Throughout the entire first cycle, I will continue to attach the same official response I received from the institution.**
 
