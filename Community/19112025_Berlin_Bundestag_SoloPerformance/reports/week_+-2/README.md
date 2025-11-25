@@ -1,4 +1,4 @@
-# Week `±2`: `2025KW45` & `2025KW49` - The First Cycle (0-111 days)
+# Week `±2`: `2025KW45` & `2025KW49` - Cycle 1 (111 Days)
 **Date Week 45:** 2025: Monday, November 3, 2025 - Sunday, November 9, 2025
 
 **Date Week 49:** 2025: Monday, December 1, 2025 - Sunday, December 7, 2025
