@@ -38,4 +38,6 @@ using a **stable and unaltered institutional baseline**.
 **Link to full AI & meta-AI analysis:**
 [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
 
+
+See QUESTIONS.md – these 3+1 questions remain unanswered.
 ---
