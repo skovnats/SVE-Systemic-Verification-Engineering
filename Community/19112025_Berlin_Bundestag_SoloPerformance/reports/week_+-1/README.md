@@ -40,4 +40,7 @@ using a **stable and unaltered institutional baseline**.
 
 
 ### See [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md) – these 3+1 questions remain unanswered.
+
+
+#### See [CODE OF CONDUCT](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/CODE_OF_CONDUCT.md).
 ---
