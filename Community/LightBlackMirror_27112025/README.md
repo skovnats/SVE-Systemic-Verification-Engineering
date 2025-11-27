@@ -32,9 +32,7 @@ The intention is strictly analytical — no advocacy, no judgement — providing
 
 ### **Methodological Note**
 
-**Please note:** 
-
-The numerical scores (0–100) and indices generated here are **heuristic and symbolic**, not actuarial. They are designed to visualize **relative standing and structural patterns** (e.g., the asymmetry between Tier 1 and Tier 4), rather than to provide precise measurement. The value lies in the **ratios and rankings**; the absolute digits should be read as **signals of relative intensity**, functioning as representative markers rather than precise data points.
+**Please note:** The numerical scores (0–100) and indices generated here are **heuristic and symbolic**, not actuarial. They are designed to visualize **relative standing and structural patterns** (e.g., the asymmetry between Tier 1 and Tier 4), rather than to provide precise measurement. The value lies in the **ratios and rankings**; the absolute digits should be read as **signals of relative intensity**, functioning as representative markers rather than precise data points.
 
 ---
 
