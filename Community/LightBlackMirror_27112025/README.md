@@ -29,6 +29,13 @@ This analysis functions as a **mirror**:
 it reflects how much risk decision-makers personally carry compared to the risk they impose on others.
 The intention is strictly analytical — no advocacy, no judgement — providing a transparent, reproducible method for understanding incentive structures.
 
+
+### **Methodological Note**
+
+**Please note:** 
+
+The numerical scores (0–100) and indices generated here are **heuristic and symbolic**, not actuarial. They are designed to visualize **relative standing and structural patterns** (e.g., the asymmetry between Tier 1 and Tier 4), rather than to provide precise measurement. The value lies in the **ratios and rankings**; the absolute digits should be read as **signals of relative intensity**, functioning as representative markers rather than precise data points.
+
 ---
 
 https://chat.qwen.ai/s/t_5d466cee-83db-4e97-b63a-516a7a3e2c2f?fev=0.1.4
