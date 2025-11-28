@@ -269,7 +269,7 @@ The multi-AI synthesis—spanning numerical scoring, tiered frameworks, and docu
 
 ---
 
-# Extension: through lenses of S.V.E
+# Extension: through lenses of S.V.E - Advanced Systemic Analysis
 
 ## ✅ **Prompt: Meta-AI + S.V.E.-XII Systemic Analysis**
 
