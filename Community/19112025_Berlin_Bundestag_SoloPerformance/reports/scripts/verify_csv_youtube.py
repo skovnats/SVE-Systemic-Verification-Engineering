@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+import os
 import csv
 import requests
 from urllib.parse import urlparse, parse_qs
 from typing import List, Dict
 
-API_KEY = "ВСТАВЬ_СВОЙ_API_KEY"
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 INPUT_CSV = "youtube_violations_ua.csv"
 OUTPUT_CSV = "youtube_violations_ua_verified.csv"
