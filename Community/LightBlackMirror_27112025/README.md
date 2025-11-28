@@ -271,9 +271,7 @@ The multi-AI synthesis—spanning numerical scoring, tiered frameworks, and docu
 
 # Extension: through lenses of S.V.E
 
-### Prompt
-
-# ✅ **Prompt: Meta-AI + S.V.E.-XII Systemic Analysis**
+## ✅ **Prompt: Meta-AI + S.V.E.-XII Systemic Analysis**
 
 **Title:**
 **Meta-Systemic Analysis of Institutional Behavior, Risk Asymmetry, and S.V.E.-XII SYSTEM Dynamics**
