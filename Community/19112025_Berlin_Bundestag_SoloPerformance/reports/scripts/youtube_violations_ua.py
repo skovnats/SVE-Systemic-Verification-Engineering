@@ -1,24 +1,28 @@
 #!/usr/bin/env python3
+import os
 import csv
 import requests
 from typing import List, Dict, Optional
 
-API_KEY = "ВСТАВЬ_СВОЙ_API_KEY"
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 # === НАСТРОЙКИ ПОИСКА ===
-PUBLISHED_AFTER = "2024-01-01T00:00:00Z"   # начало диапазона (UTC)
-PUBLISHED_BEFORE = "2024-02-01T00:00:00Z"  # конец диапазона (UTC)
+PUBLISHED_AFTER = "2025-11-10T00:00:00Z"   # начало диапазона (UTC)
+PUBLISHED_BEFORE = "2025-11-16T23:59:00Z"  # конец диапазона (UTC)
 
 QUERIES = [
+    "бусификация",
     "тцк",
+    "хватают людей",
     "ТЦК хватают людей",
+    "военкомат хватает людей",
     "военкомат хватают людей Украина",
     "побег через границу Украина",
     "бегут через лес Украина военкомат",
 ]
 
-REGION_CODE = "UA"        # Украина
-RELEVANCE_LANGUAGE = "ru"  # или "uk", или None
+REGION_CODE = None # "UA"        # Украина
+RELEVANCE_LANGUAGE = None # "ru"  # или "uk", или None
 
 SHORT_ONLY = False        # True -> стараться ловить только короткие видео (похожи на шортсы)
 MAX_RESULTS_PER_QUERY = 200  # общее кол-во видео на один запрос (будет пагинация)
@@ -31,7 +35,7 @@ def search_youtube(
     query: str,
     published_after: str,
     published_before: str,
-    max_results_total: int = 100,
+    max_results_total: int = 1111,
     short_only: bool = False,
     region_code: Optional[str] = None,
     relevance_language: Optional[str] = None,

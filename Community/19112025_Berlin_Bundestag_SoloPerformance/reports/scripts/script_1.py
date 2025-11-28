@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+import os
 import requests
 from datetime import datetime
 
-API_KEY = "ВСТАВЬ_СВОЙ_API_KEY"
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
@@ -34,7 +36,10 @@ def search_youtube(
         params["videoDuration"] = "short"  # < 4 минут, часто Shorts
 
     resp = requests.get(SEARCH_URL, params=params)
-    resp.raise_for_status()
+    if resp.status_code != 200:
+        print("STATUS:", resp.status_code)
+        print("BODY:", resp.text)
+        resp.raise_for_status()
     data = resp.json()
 
     results = []
@@ -55,8 +60,8 @@ def search_youtube(
 
 if __name__ == "__main__":
     # Пример: диапазон дат
-    published_after = "2024-01-01T00:00:00Z"
-    published_before = "2024-02-01T00:00:00Z"
+    published_after = "2025-11-10T00:00:00Z"
+    published_before = "2025-11-16T23:59:00Z"
 
     # Ключевые слова (рус.)
     queries = [
