@@ -7,6 +7,29 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
+from datetime import date, timedelta
+
+# Базовая неделя: 2025KW47
+BASE_MONDAY = date.fromisocalendar(2025, 47, 1)  # 1 = Monday
+
+def get_week_range_from_k(k: int):
+    """
+    k = 0  -> 2025KW47
+    k = 1  -> следующая неделя
+    k = -1 -> предыдущая неделя
+    """
+    monday = BASE_MONDAY + timedelta(weeks=k)
+    sunday = monday + timedelta(days=6)
+
+    year, week, _ = monday.isocalendar()
+    kw_label = f"{year}KW{week:02d}"
+
+    published_after = monday.strftime("%Y-%m-%dT00:00:00Z")
+    published_before = sunday.strftime("%Y-%m-%dT23:59:59Z")
+
+    return kw_label, published_after, published_before
+
+
 
 def search_youtube(
     query: str,
@@ -59,25 +82,23 @@ def search_youtube(
 
 
 if __name__ == "__main__":
-    # Пример: диапазон дат
-    published_after = "2025-11-10T00:00:00Z"
-    published_before = "2025-11-16T23:59:00Z"
+    k = 0  # смещение от 2025KW47; меняешь как хочешь: -2, -1, 0, 1, 2...
+    kw_label, PUBLISHED_AFTER, PUBLISHED_BEFORE = get_week_range_from_k(k)
 
-    # Ключевые слова (рус.)
-    queries = [
-        "тцк",
-        "хватают людей",
-        "военкомат хватает людей",
-    ]
+    print(f"Week: {kw_label}")
+    print(f"PUBLISHED_AFTER:  {PUBLISHED_AFTER}")
+    print(f"PUBLISHED_BEFORE: {PUBLISHED_BEFORE}")
 
-    for q in queries:
-        print(f"\n=== Результаты для запроса: {q!r} ===")
-        videos = search_youtube(
-            query=q,
-            published_after=published_after,
-            published_before=published_before,
-            max_results=20,
-            short_only=True,  # ставь False, если нужны вообще все видео
-        )
+    # дальше используешь PUBLISHED_AFTER / PUBLISHED_BEFORE в запросах
+    videos = search_youtube(
+        query="тцк",
+        published_after=PUBLISHED_AFTER,
+        published_before=PUBLISHED_BEFORE,
+        max_results_total=MAX_RESULTS_PER_QUERY,
+        short_only=SHORT_ONLY,
+        region_code=REGION_CODE,
+        relevance_language=RELEVANCE_LANGUAGE,
+    )
+
         for v in videos:
             print(f"{v['publishedAt']} | {v['title']} | {v['url']}")
