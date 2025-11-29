@@ -264,6 +264,7 @@ The paper targets an important and timely goal: designing an AI-assisted process
 -----
 ## 6. Scoring
 TRIPLE_SCORES:
+```
 - Claims_Support: -1  # Are the central claims adequately supported with evidence?
 - Experimental_Soundness: -1  # Are the experimental setup and research methodology sound?
 - Writing_Clarity: 0  # Is the writing clear and well-organized?
@@ -271,3 +272,4 @@ TRIPLE_SCORES:
 - Question_Importance: +1  # Are the research questions being asked important?
 - Originality: 0  # Does the paper bring significant originality of ideas and/or execution?
 - Value_to_Community: 0  # Are the results valuable to share with the broader AAAI community?
+```
