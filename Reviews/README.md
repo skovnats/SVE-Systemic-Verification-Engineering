@@ -7,7 +7,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 ---
 
 ## Reviews with [Stanford Agentic Reviewer](https://paperreview.ai/review) By Stanford ML Group: 
-#### [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on S.V.E. Papers and target venues. 
+#### [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on S.V.E. Papers and target venues; [technical details](paperreviewAI/Tech Overview - Stanford Agentic Reviewer.pdf). 
 
 - [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](paperreviewAI/SVE-0-1.md)
 - [S.V.E. 0 (2): The Socratic Investigative Process (SIP): An Iterative, Multi-Agent Protocol for Computational Truth Approximation and Its Strategic Applications](paperreviewAI/SVE-0-2.md)
