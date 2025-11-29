@@ -24,7 +24,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 
 ---
 
-## Adversarial Audit: Reviews with [Stanford Agentic Reviewer](https://paperreview.ai/review) By Stanford ML Group: 
+## Adversarial Audit: Reviews with [Stanford Agentic Reviewer](https://paperreview.ai/review) By Stanford ML Group (Testing for Academic Fit): 
 #### [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on S.V.E. Papers and target venues; [technical details](paperreviewAI/TechOverviewStanfordAgenticReviewer.pdf).
 
 - [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](paperreviewAI/SVE-0-1.md)
