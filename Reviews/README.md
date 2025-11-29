@@ -22,6 +22,24 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 - [S.V.E. XI: The Ox's Weights](mds/SVE-11.md)
 - [S.V.E. XII: **THE SYSTEM**: Diagnosis of Collective Dynamics from Plato's Cave Toward the Matrix](mds/SVE-12.md)
 
+
+## Reviews with [Stanford Agentic Reviewer](https://paperreview.ai/review) By Stanford ML Group: 
+- [S.V.E. 0 (1): The Epistemological Boxing Protocol: A Method for AI-Assisted Collaborative Truth-Seeking and Cognitive Training](paperreviewAI/SVE-0-1.md)
+- [S.V.E. 0 (2): The Socratic Investigative Process (SIP): An Iterative, Multi-Agent Protocol for Computational Truth Approximation and Its Strategic Applications](paperreviewAI/SVE-0-2.md)
+- [S.V.E. I: The Theorem of Systemic Failure](paperreviewAI/SVE-1.md)
+- [S.V.E. II: The Architecture of Verifiable Truth](paperreviewAI/SVE-2.md)
+- [S.V.E. III: The Protocol for Academic Integrity](paperreviewAI/SVE-3.md)
+- [S.V.E. IV: The Beacon Protocol](paperreviewAI/SVE-4.md)
+- [S.V.E. V: An Operating System for Verifiable Democracy](paperreviewAI/SVE-5.md)
+- [S.V.E. VI: The Protocol for Cognitive Sovereignty](paperreviewAI/SVE-6.md)
+- [S.V.E. VII: Hybrid Models of State Structure](paperreviewAI/SVE-7.md)
+- [S.V.E.VIII: Divine Mathematics: A Unified Field Theory for Consciousness](paperreviewAI/SVE-8.md)
+- [S.V.E IX: Systemic Verification Engineering: An Integrated Framework for Divine Mathematics,Ethical Navigation, and Collective Intelligence](paperreviewAI/SVE-9.md)
+- [S.V.E. X: Cognitive Operating Systems for LLMs](paperreviewAI/SVE-10.md)
+- [S.V.E. XI: The Ox's Weights](paperreviewAI/SVE-11.md)
+- [S.V.E. XII: **THE SYSTEM**: Diagnosis of Collective Dynamics from Plato's Cave Toward the Matrix](paperreviewAI/SVE-12.md)
+
+
 ---
 
 ## 📘 Purpose
