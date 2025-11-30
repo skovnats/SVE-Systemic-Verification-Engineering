@@ -96,7 +96,22 @@ using a **stable and unaltered institutional baseline**.
 24. `artem__dmytruk__2025-11-10T143523.000Z.mp4`
 
 ### [Transcripts (AI+Semi-Manual)](srt):
-1. 
+1. `artem__dmytruk__2025-11-30T130757.000Z_Russian-subtitles.srt`
+2. `artem__dmytruk__2025-11-29T132909.000Z_Russian-subtitles.srt`
+3. `artem__dmytruk__2025-11-28T161611.000Z_Russian-subtitles.srt`
+4. `artem__dmytruk__2025-11-29T124930.000Z_Russian-subtitles.srt`
+5. `artem__dmytruk__2025-11-27T202125.000Z_Russian-subtitles.srt`
+6. `artem__dmytruk__2025-11-27T213036.000Z_Ukrainian-subtitles.srt`
+7. `artem__dmytruk__2025-11-25T203433.000Z_Russian-subtitles.srt`
+8. `artem__dmytruk__2025-11-26T120440.000Z_Russian-subtitles.srt`
+9. `artem__dmytruk__2025-11-25T121459.000Z_Russian-subtitles.srt`
+10. `artem__dmytruk__2025-11-24T135741.000Z_Russian-subtitles.srt`
+11. `artem__dmytruk__2025-11-25T120807.000Z_Russian-subtitles.srt`
+12. `artem__dmytruk__2025-11-24T110426.000Z_Russian-subtitles.srt`
+13. `artem__dmytruk__2025-11-16T204637.000Z_Russian-subtitles.srt`
+14. `artem__dmytruk__2025-11-14T091510.000Z_Russian-subtitles.srt`
+15. `artem__dmytruk__2025-11-11T095335.000Z_Russian-subtitles.srt`
+16. `artem__dmytruk__2025-11-10T201945.000Z_Russian-subtitles.srt`
 
 ### [Metadata](metadata):
 1. [2025KW46.csv](metadata/2025KW46.csv)
