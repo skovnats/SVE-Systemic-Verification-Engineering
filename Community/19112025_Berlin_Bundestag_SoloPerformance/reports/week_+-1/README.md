@@ -48,6 +48,6 @@ using a **stable and unaltered institutional baseline**.
 
 ## Report
 
-Cases registered: 
+### **Cases registered:**
 1. AK1984-Human-1
 2. 
