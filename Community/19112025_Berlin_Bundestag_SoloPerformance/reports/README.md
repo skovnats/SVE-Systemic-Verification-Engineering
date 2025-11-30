@@ -19,6 +19,8 @@ Even if all communication channels were closed on the institutional side, the ti
 The State may close the technical channel.
 The public protocol converts the number into a **symbol**.
 
+# [REPORTS.md](REPORTS.md)
+
 ---
 
 ### ❓ The Three Original Questions to the German MFA
