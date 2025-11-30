@@ -13,8 +13,6 @@
 ---
 
 # AK1984-List
-## **Note:** 
-Based on my current estimates, the real scale of violations is likely significantly higher, as only a small fraction of incidents are ever recorded on camera (approx. ×20–50).
 
 
 | Submission ID | Respondent ID | Tag | Submitted at | Uploaded at | Name | Last Name | Father Name | Date of Birth | City (Ukraine) | Region | Tel. | Email | Telegram/Other | Status | Completed by | ADDITIONAL | Date of Last Contact | Comments / Additional Information | URL SOURCE | METADATA |
@@ -57,6 +55,8 @@ Based on my current estimates, the real scale of violations is likely significan
 
 ** **AK1984-Human-0** — symbolically myself, [Dr. Artiom Kovnatsky](https://www.linkedin.com/in/artiomkovnatsky/), to highlight that any human in this list could have been me — and I could have been any of them. 
 
+## **Note:** 
+Based on my current estimates, the real scale of violations is likely significantly higher, as only a small fraction of incidents are ever recorded on camera (approx. ×20–50).
 
 ---
 
