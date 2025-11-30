@@ -54,7 +54,30 @@ using a **stable and unaltered institutional baseline**.
 
 
 ### [Video](video):
-1. 
+1. `artem__dmytruk__2025-11-30T130757.000Z.mp4`
+2. `artem__dmytruk__2025-11-29T132909.000Z.mp4`
+3. `artem__dmytruk__2025-11-28T161611.000Z.mp4`
+4. `artem__dmytruk__2025-11-29T124930.000Z.mp4`
+5. `artem__dmytruk__2025-11-27T213036.000Z.mp4`
+6. `artem__dmytruk__2025-11-27T202125.000Z.mp4`
+7. `artem__dmytruk__2025-11-26T120440.000Z.mp4`
+8. `artem__dmytruk__2025-11-27T195938.000Z.mp4`
+9. `artem__dmytruk__2025-11-25T121459.000Z.mp4`
+10. `artem__dmytruk__2025-11-25T203433.000Z.mp4`
+11. `artem__dmytruk__2025-11-25T120807.000Z.mp4`
+12. `artem__dmytruk__2025-11-24T135741.000Z.mp4`
+13. `artem__dmytruk__2025-11-24T110426.000Z.mp4`
+14. `artem__dmytruk__2025-11-24T070801.000Z.mp4`
+15. `artem__dmytruk__2025-11-24T093925.000Z.mp4`
+16. `artem__dmytruk__2025-11-16T204637.000Z.mp4`
+17. `artem__dmytruk__2025-11-15T210320.000Z.mp4`
+18. `artem__dmytruk__2025-11-14T114028.000Z.mp4`
+19. `artem__dmytruk__2025-11-14T091510.000Z.mp4`
+20. `artem__dmytruk__2025-11-13T151706.000Z.mp4`
+21. `artem__dmytruk__2025-11-11T111542.000Z.mp4`
+22. `artem__dmytruk__2025-11-11T095335.000Z.mp4`
+23. `artem__dmytruk__2025-11-10T201945.000Z.mp4`
+24. `artem__dmytruk__2025-11-10T143523.000Z.mp4`
 
 ### [Transcripts (AI+Semi-Manual)](srt):
 1. 
