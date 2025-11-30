@@ -56,7 +56,7 @@ using a **stable and unaltered institutional baseline**.
 ### [Video](video):
 1. 
 
-### [Srt|AI-Transcript](srt):
+### [Transcripts (AI+Semi-Manual)](srt):
 1. 
 
 ### [Metadata](metadata):
