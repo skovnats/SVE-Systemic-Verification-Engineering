@@ -61,4 +61,8 @@ using a **stable and unaltered institutional baseline**.
 
 ### [Metadata](metadata):
 1. [2025KW46.csv](metadata/2025KW46.csv)
-1. [2025KW48.csv](metadata/2025KW48.csv)
+2. [2025KW48.csv](metadata/2025KW48.csv)
+
+These lists of videos for Week `±1` are provided *as is*.
+Due to limited personal resources (full-time job, family responsibilities), this collection is necessarily partial.
+Please forward the material to the relevant committees for independent review and completion.
