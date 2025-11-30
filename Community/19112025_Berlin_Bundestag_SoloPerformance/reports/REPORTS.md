@@ -27,6 +27,20 @@
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+| SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
+
 
 
 
