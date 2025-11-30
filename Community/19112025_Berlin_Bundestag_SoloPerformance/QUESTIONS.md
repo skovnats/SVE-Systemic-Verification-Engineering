@@ -43,4 +43,6 @@ If such declassification is impossible, please state **clearly and publicly**:
 <br />
 <br />
 
+## Symbolic Questions
+
 ![SYSTEMIC QUESTION](photos/systemic_question.png)
