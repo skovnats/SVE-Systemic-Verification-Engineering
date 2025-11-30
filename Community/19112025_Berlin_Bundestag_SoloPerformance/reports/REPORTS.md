@@ -13,6 +13,8 @@
 ---
 
 # AK1984-List
+## **Note:** 
+Based on my current estimates, the real scale of violations is likely significantly higher, as only a small fraction of incidents are ever recorded on camera (approx. ×20–50).
 
 
 | Submission ID | Respondent ID | Tag | Submitted at | Uploaded at | Name | Last Name | Father Name | Date of Birth | City (Ukraine) | Region | Tel. | Email | Telegram/Other | Status | Completed by | ADDITIONAL | Date of Last Contact | Comments / Additional Information | URL SOURCE | METADATA |
