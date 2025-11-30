@@ -20,7 +20,7 @@
 
 | Submission ID | Respondent ID | Tag | Submitted at | Uploaded at | Name | Last Name | Father Name | Date of Birth | City (Ukraine) | Region | Tel. | Email | Telegram/Other | Status | Completed by | ADDITIONAL | Date of Last Contact | Comments / Additional Information | URL SOURCE | METADATA |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AK1984-Human-0 | AK1984-Human-1 | week_+-1 | 2025-11-30 13:09:42 |  | Владислав | Тимощук |  |  | Николаев | Корабельный Район |  |  |  | Местоположение неизвестно | AK1984-Human-0 | Переходил нелегально границу (с Венгрией?) | Прилиблизительно 15.07.2025 | Сводные братья:<br>1. Дмитрий Красников (+380 50 244 08 77; насильно схвачен ТЦК 17.09.2025; предположительно проходит обучение в Германии - 30.11.2025)<br>2. Виктор Красников (https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) |  |  |
+| AK1984-Human-0 | AK1984-Human-1 | [week_+-1](week_+-1) | 2025-11-30 13:09:42 |  | Владислав | Тимощук |  |  | Николаев | Корабельный Район |  |  |  | Местоположение неизвестно | AK1984-Human-0 | Переходил нелегально границу (с Венгрией?) | Прилиблизительно 15.07.2025 | Сводные братья:<br>1. Дмитрий Красников (+380 50 244 08 77; насильно схвачен ТЦК 17.09.2025; предположительно проходит обучение в Германии - 30.11.2025)<br>2. Виктор Красников (https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) |  |  |
 
 ---
 
