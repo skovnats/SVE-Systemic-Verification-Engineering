@@ -48,6 +48,6 @@ using a **stable and unaltered institutional baseline**.
 
 ## Report
 
-### **Cases registered:**
+### [**Cases registered:**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md#ak1984-list)
 1. AK1984-Human-1
 2. 
