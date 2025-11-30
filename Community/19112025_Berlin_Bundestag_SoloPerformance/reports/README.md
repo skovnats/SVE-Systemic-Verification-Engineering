@@ -20,6 +20,7 @@ The State may close the technical channel.
 The public protocol converts the number into a **symbol**.
 
 # [REPORTS.md](REPORTS.md)
+# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
 
 ---
 
