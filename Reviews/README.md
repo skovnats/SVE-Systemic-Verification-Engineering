@@ -24,7 +24,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 
 ---
 
-## Adversarial audit using Stanford ML Group's Agentic Reviewer
+## Adversarial audit using Stanford ML Group's [Agentic Reviewer](https://paperreview.ai/review)
 
 [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on SVE papers and target venues | [Technical details](paperreviewAI/TechOverviewStanfordAgenticReviewer.pdf)
 
