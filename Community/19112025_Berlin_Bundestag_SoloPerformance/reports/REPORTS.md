@@ -39,6 +39,7 @@
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | CompletedBy | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 
 
+** AK1984-Human-0: symbolically myself, [Dr. Artiom Kovnatsky](https://www.linkedin.com/in/artiomkovnatsky/).
 
 ---
 
