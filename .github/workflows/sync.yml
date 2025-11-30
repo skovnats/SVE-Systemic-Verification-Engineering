@@ -1,0 +1,84 @@
+name: Sync Repositories
+
+on:
+  workflow_dispatch:   # запуск вручную из GitHub Actions
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    env:
+      # ==== GitLab ====
+      GITLAB_URL: https://gitlab.com
+      GITLAB_PROJECT_PATH: your-group/your-repo   # <= ИЗМЕНИ
+      # ==== MEGA ====
+      MEGA_REMOTE_PATH: /backups/github/your-repo # <= ИЗМЕНИ
+      # ==== Google Drive (rclone remote) ====
+      GDRIVE_REMOTE: gdrive:github-backups/your-repo  # <= ИЗМЕНИ
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ---------- GitLab mirror ----------
+      - name: Set up Git for GitLab
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add GitLab remote
+        run: |
+          git remote remove gitlab 2>/dev/null || true
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@${GITLAB_URL#https://}/${GITLAB_PROJECT_PATH}.git"
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+
+      - name: Push mirror to GitLab
+        run: |
+          git push gitlab --mirror
+
+      # ---------- Prepare archive ----------
+      - name: Create repo archive
+        run: |
+          mkdir -p artifacts
+          ts="$(date -u +'%Y%m%dT%H%M%SZ')"
+          ARCHIVE="artifacts/repo-${ts}.tar.gz"
+          tar --exclude='./.git' -czf "$ARCHIVE" .
+          echo "ARCHIVE_PATH=$ARCHIVE" >> $GITHUB_ENV
+
+      # ---------- MEGA.nz ----------
+      - name: Install megacmd
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y megacmd
+
+      - name: Login to MEGA
+        run: |
+          mega-logout || true
+          mega-login "$MEGA_EMAIL" "$MEGA_PASSWORD"
+        env:
+          MEGA_EMAIL: ${{ secrets.MEGA_EMAIL }}
+          MEGA_PASSWORD: ${{ secrets.MEGA_PASSWORD }}
+
+      - name: Upload archive to MEGA
+        run: |
+          mega-mkdir -p "$MEGA_REMOTE_PATH" || true
+          mega-put "$ARCHIVE_PATH" "$MEGA_REMOTE_PATH"
+
+      # ---------- Google Drive via rclone ----------
+      - name: Install rclone
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone from secret
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "${RCLONE_CONFIG}" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONFIG: ${{ secrets.RCLONE_CONFIG }}
+
+      - name: Upload archive to Google Drive
+        run: |
+          rclone copy "$ARCHIVE_PATH" "$GDRIVE_REMOTE" --progress
