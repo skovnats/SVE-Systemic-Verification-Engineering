@@ -227,7 +227,7 @@ This approach is **more efficient** because:
 - You spend energy on value creation, not speculation
 - Papers become "trip reports" of successful expeditions
 
-## The Letters to Röpke, Sternenко, German Foreign Ministry
+## The Letters to [Röpke](https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20), [Sternenко](https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20), [German Foreign Ministry](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
 
 The AI and meta-AI analysis of response letters revealed textbook "SYSTEM" deflection patterns—validating SVE-XII's diagnostic framework. This demonstrates:
 
