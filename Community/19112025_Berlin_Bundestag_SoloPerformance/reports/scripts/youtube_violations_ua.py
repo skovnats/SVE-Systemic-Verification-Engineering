@@ -1,46 +1,23 @@
 #!/usr/bin/env python3
 import os
+import sys
 import csv
 import requests
+import isodate
 from typing import List, Dict, Optional
 from datetime import date, timedelta
 
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
+VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
 
-# 🔹 Базовая неделя: 2025KW47 (понедельник)
-BASE_MONDAY = date.fromisocalendar(2025, 47, 1)  # 1 = Monday
+BASE_MONDAY = date.fromisocalendar(2025, 47, 1)
 
-# 🔹 Смещение по неделям относительно 2025KW47:
-#    K = 0  -> 2025KW47
-#    K = 1  -> 2025KW48
-#    K = -1 -> 2025KW46
-K = 0
-
-
-def get_week_range_from_k(k: int):
-    """
-    Возвращает:
-      kw_label         – строка вида '2025KW47'
-      published_after  – начало недели: 'YYYY-MM-DDT00:00:00Z'
-      published_before – конец недели:  'YYYY-MM-DDT23:59:59Z'
-    """
-    monday = BASE_MONDAY + timedelta(weeks=k)
-    sunday = monday + timedelta(days=6)
-
-    year, week, _ = monday.isocalendar()
-    kw_label = f"{year}KW{week:02d}"
-
-    published_after = monday.strftime("%Y-%m-%dT00:00:00Z")
-    published_before = sunday.strftime("%Y-%m-%dT23:59:59Z")
-
-    return kw_label, published_after, published_before
-
-
-# === НАСТРОЙКИ ПОИСКА ===
+# === НАСТРОЙКИ ===
 QUERIES = [
     "бусификация",
     "тцк",
+    "тцк беспредел",
     "хватают людей",
     "ТЦК хватают людей",
     "военкомат хватают людей Украина",
@@ -48,28 +25,49 @@ QUERIES = [
     "бегут через лес Украина военкомат",
 ]
 
-REGION_CODE = "UA"          # Украина
-RELEVANCE_LANGUAGE = "ru"   # можно сменить на "uk" / "en"
-SHORT_ONLY = False          # True -> стараться ловить только короткие видео
-MAX_RESULTS_PER_QUERY = 200  # максимум видео на один запрос (с учётом пагинации)
+REGION_CODE = "UA"
+RELEVANCE_LANGUAGE = "uk"  # Исправлено: API принимает только один язык
+MAX_RESULTS_PER_QUERY = 444
+MAX_DURATION_MINUTES = 15.0  # Фильтр длительности
 
+def duration_in_minutes(iso_str: str) -> float:
+    try:
+        if not iso_str: return 0.0
+        return isodate.parse_duration(iso_str).total_seconds() / 60
+    except:
+        return 9999.0
 
-def search_youtube(
-    query: str,
-    published_after: str,
-    published_before: str,
-    max_results_total: int = 100,
-    short_only: bool = False,
-    region_code: Optional[str] = None,
-    relevance_language: Optional[str] = None,
-) -> List[Dict]:
-    results: List[Dict] = []
-    next_page_token: Optional[str] = None
+def get_week_range_from_k(k: int):
+    monday = BASE_MONDAY + timedelta(weeks=k)
+    sunday = monday + timedelta(days=6)
+    year, week, _ = monday.isocalendar()
+    return f"{year}KW{week:02d}", monday.strftime("%Y-%m-%dT00:00:00Z"), sunday.strftime("%Y-%m-%dT23:59:59Z")
 
-    while True:
-        if len(results) >= max_results_total:
-            break
+def get_video_durations(video_ids: List[str]) -> Dict[str, float]:
+    """Делает доп. запрос, чтобы получить длительность видео"""
+    if not video_ids:
+        return {}
+    
+    params = {
+        "part": "contentDetails",
+        "id": ",".join(video_ids),
+        "key": API_KEY,
+    }
+    resp = requests.get(VIDEOS_URL, params=params)
+    data = resp.json()
+    
+    dur_map = {}
+    for item in data.get("items", []):
+        vid = item["id"]
+        iso_dur = item["contentDetails"]["duration"]
+        dur_map[vid] = duration_in_minutes(iso_dur)
+    return dur_map
 
+def search_youtube(query: str, published_after: str, published_before: str) -> List[Dict]:
+    results = []
+    next_page_token = None
+
+    while len(results) < MAX_RESULTS_PER_QUERY:
         params = {
             "part": "snippet",
             "type": "video",
@@ -79,44 +77,50 @@ def search_youtube(
             "publishedBefore": published_before,
             "q": query,
             "key": API_KEY,
+            "regionCode": REGION_CODE,
         }
-
-        if short_only:
-            params["videoDuration"] = "short"
-
-        if region_code:
-            params["regionCode"] = region_code
-
-        if relevance_language:
-            params["relevanceLanguage"] = relevance_language
-
+        if RELEVANCE_LANGUAGE:
+            params["relevanceLanguage"] = RELEVANCE_LANGUAGE
         if next_page_token:
             params["pageToken"] = next_page_token
 
         resp = requests.get(SEARCH_URL, params=params)
-
+        
         if resp.status_code != 200:
-            print("STATUS:", resp.status_code)
-            print("BODY:", resp.text)
+            print(f"⚠️ Ошибка API {resp.status_code}: {resp.text}")
             break
 
         data = resp.json()
+        items = data.get("items", [])
+        if not items:
+            break
 
-        for item in data.get("items", []):
-            video_id = item["id"]["videoId"]
+        # 1. Собираем ID найденных видео
+        batch_ids = [item["id"]["videoId"] for item in items]
+        
+        # 2. Получаем их длительность (отдельный запрос)
+        durations = get_video_durations(batch_ids)
+
+        # 3. Фильтруем и сохраняем
+        for item in items:
+            vid_id = item["id"]["videoId"]
+            minutes = durations.get(vid_id, 9999) # Если не нашли, считаем длинным
+
+            if minutes > MAX_DURATION_MINUTES:
+                continue
+
             snip = item["snippet"]
-            results.append(
-                {
-                    "query": query,
-                    "publishedAt": snip.get("publishedAt", ""),
-                    "title": snip.get("title", ""),
-                    "description": snip.get("description", ""),
-                    "channelTitle": snip.get("channelTitle", ""),
-                    "url": f"https://www.youtube.com/watch?v={video_id}",
-                }
-            )
+            results.append({
+                "query": query,
+                "publishedAt": snip.get("publishedAt", ""),
+                "title": snip.get("title", ""),
+                "description": snip.get("description", "").replace("\n", " "),
+                "channelTitle": snip.get("channelTitle", ""),
+                "url": f"https://www.youtube.com/watch?v={vid_id}",
+                "duration_min": round(minutes, 2)
+            })
 
-            if len(results) >= max_results_total:
+            if len(results) >= MAX_RESULTS_PER_QUERY:
                 break
 
         next_page_token = data.get("nextPageToken")
@@ -125,53 +129,31 @@ def search_youtube(
 
     return results
 
-
 def main():
-    kw_label, published_after, published_before = get_week_range_from_k(K)
+    K = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    kw_label, p_after, p_before = get_week_range_from_k(K)
 
-    print(f"Week: {kw_label}")
-    print(f"PUBLISHED_AFTER:  {published_after}")
-    print(f"PUBLISHED_BEFORE: {published_before}")
-
-    output_csv = f"youtube_violations_{kw_label}.csv"
-    all_rows: List[Dict] = []
-
+    print(f"Week: {kw_label} | {p_after} ... {p_before}")
+    output_csv = f"{kw_label}.csv"
+    
+    all_rows = []
     for q in QUERIES:
-        print(f"\nИщу по запросу: {q!r}")
-        videos = search_youtube(
-            query=q,
-            published_after=published_after,
-            published_before=published_before,
-            max_results_total=MAX_RESULTS_PER_QUERY,
-            short_only=SHORT_ONLY,
-            region_code=REGION_CODE,
-            relevance_language=RELEVANCE_LANGUAGE,
-        )
-        print(f"  найдено: {len(videos)} видео")
+        print(f"🔍 '{q}'...", end=" ", flush=True)
+        videos = search_youtube(q, p_after, p_before)
+        print(f"найдено: {len(videos)}")
         all_rows.extend(videos)
 
-    # Убираем дубли (по URL)
-    unique = {}
-    for row in all_rows:
-        unique[row["url"]] = row
-    rows = list(unique.values())
+    # Убираем дубли
+    unique_rows = {r["url"]: r for r in all_rows}.values()
 
-    fieldnames = [
-        "query",
-        "publishedAt",
-        "title",
-        "channelTitle",
-        "url",
-        "description",
-    ]
-
+    fieldnames = ["query", "publishedAt", "duration_min", "title", "channelTitle", "url", "description"]
+    
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(unique_rows)
 
-    print(f"\nГотово. Записано {len(rows)} уникальных видео в файл: {output_csv}")
-
+    print(f"\n✅ Готово! Файл: {output_csv} ({len(unique_rows)} строк)")
 
 if __name__ == "__main__":
     main()
