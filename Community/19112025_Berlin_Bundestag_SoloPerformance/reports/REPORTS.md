@@ -1,6 +1,6 @@
 # 📅 Weekly Reports
 
-- **Symbolic Protocol Ticket:** 759bc4c4-387d-49e7-9e16-9a2b56c9da0e
+- **Symbolic Protocol Ticket:** `759bc4c4-387d-49e7-9e16-9a2b56c9da0e`
 - **Start:** 23.11.2025
 - **Cycles:** 4 × 111 days  
 - **Documentation Horizon:** Day 444
