@@ -36,3 +36,11 @@ If such declassification is impossible, please state **clearly and publicly**:
 
 **Date Asked:** 10.10.2025 (symbolically)\
 **Date Posted on GitHub:** 25.11.2025
+
+
+
+<br />
+<br />
+<br />
+
+![SYSTEMIC QUESTION](photos/systemic_question.png)
