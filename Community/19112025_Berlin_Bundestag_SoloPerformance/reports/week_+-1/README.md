@@ -60,4 +60,5 @@ using a **stable and unaltered institutional baseline**.
 1. 
 
 ### [Metadata](metadata):
-1. 
+1. [2025KW46.csv](metadata/2025KW46.csv)
+1. [2025KW48.csv](metadata/2025KW48.csv)
