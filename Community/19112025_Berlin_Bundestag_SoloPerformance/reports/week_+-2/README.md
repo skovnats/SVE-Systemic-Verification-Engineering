@@ -47,15 +47,20 @@ using a **stable and unaltered institutional baseline**.
 ## Report
 
 ### [**Cases registered:**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md#ak1984-list)
-1. AK1984-Human-1, `id=0`
-2. 
+1. AK1984-Human-19, `id=18` (``)
+
 
 
 ### [Video](video):
-1. 
+1. ``
 
 ### [Transcripts (AI+Semi-Manual)](srt):
-1. 
+1. ``
 
 ### [Metadata](metadata):
-1. 
+1. [2025KW45.csv](metadata/2025KW45.csv)
+2. [2025KW49.csv](metadata/2025KW49.csv)
+
+These lists of videos for Week `±2` are provided *as is*.
+Due to limited personal resources (full-time job, family responsibilities), this collection is necessarily partial.
+Please forward the material to the relevant committees for independent review and completion.
