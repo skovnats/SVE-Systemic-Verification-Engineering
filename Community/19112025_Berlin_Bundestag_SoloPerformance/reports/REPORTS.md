@@ -1,22 +1,16 @@
 # 📅 Weekly Reports
 
-## 0. META
 - **Protocol Ticket:** 759bc4c4-387d-49e7-9e16-9a2b56c9da0e
-- **Start:** 23.11.2025  
+- **Start:** 23.11.2025
 - **Cycles:** 4 × 111 days  
-- **Documentation Horizon:** Day 444  
+- **Documentation Horizon:** Day 444
+
+[Description of the Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
 
 ---
 
-# Reports
+## 1. AK1984-List
 
-> Мета-описание протокола, 444-дневной структуры и контекста см. в README.md.
-
----
-
-## 1. AK1984-List — Таблица (бывший CSV)
-
-*(дальше просто добавляешь новые строки по той же структуре)*
 
 | Submission ID | Respondent ID | Tag | Submitted at | Uploaded at | Name | Last Name | Father Name | Date of Birth | City (Ukraine) | Region | Tel. | Email | Telegram/Other | Status | Completed by | ADDITIONAL | Date of Last Contact | Comments / Additional Information | URL SOURCE | METADATA |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
