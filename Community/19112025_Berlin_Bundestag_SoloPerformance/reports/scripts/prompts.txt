@@ -1,0 +1,30 @@
+I need help with filling in data into Markdown table.
+
+Reference: 
+1. AK1984-Human-1, id=0 #AK1984-List 
+2. AK1984-Human-2, id=1 (artem__dmytruk__2025-11-11T111542.000Z.mp4)
+...
+
+
+Дополнительный мета-данные для обработки:
+А я могу добавить субтитры, ты их обработай и в колонке METADATA (для соответсвующей строчки), вставь дополнительно что-ти типо: AI-summary srt: ... (здесь вставь твой ии summary in English; может напиши исходя из того, что ты видишь - крик о помощи или что-ти типо того). 
+У меня нет на все видео субтитры, поэтому заполняй это поле только в те строчки, что релевантно. 
+
+Я буду посылать по частям, я скажу когда закончил. 
+
+
+Example for reference:
+| 1 | AK1984-Human-2 | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-11T11:15:42 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-11T111542.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1) |
+| 2 | AK1984-Human-3 | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-13T15:17:06 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-13T151706.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1) |
+| 3 | AK1984-Human-4 | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-14T09:15:10 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-14T091510.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1); **AI-summary srt:** Aggressive shouting and insults suggest a volatile and unsafe situation. |
+...
+
+
+--- 
+Please provide the filled rows to copy and insert into the Markdown. 
+
+Note, that from the names of files (mp4) I derive the upload date. 
+
+Today is 2025-12-XX. 
+
+Thank you.
