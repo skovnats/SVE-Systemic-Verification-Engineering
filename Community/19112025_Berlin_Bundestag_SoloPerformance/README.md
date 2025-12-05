@@ -1,3 +1,5 @@
+### [Mirror 1](https://gitlab.com/opa-collective/sve/-/tree/master?ref_type=heads) 
+
 # 19.11.2025 — Bundestag, 11:00 CET
 
 ## 📍 Bundestag, Berlin — 19.11.2025, 11:00 CET
@@ -51,6 +53,3 @@ Please watch, read, and decide for yourself.
 
 ![SYSTEMIC QUESTION](photos/systemic_question.png)
 
-
-
-### [Mirror 1](https://gitlab.com/opa-collective/sve/-/tree/master?ref_type=heads)
