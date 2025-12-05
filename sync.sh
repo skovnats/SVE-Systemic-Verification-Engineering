@@ -1,46 +1,70 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
-# === настройки ===
+# ========= БАЗОВАЯ ПАПКА SVE (где лежит sync.sh) =========
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$BASE_DIR"
+
+echo "BASE_DIR: $BASE_DIR"
+
+# ===================== GitLab ============================
 GITLAB_URL="https://gitlab.com"
-GITLAB_PROJECT_PATH="your-group/your-repo"   # поменяй
-MEGA_REMOTE_PATH="/backups/github/your-repo" # поменяй
-GDRIVE_REMOTE="gdrive:github-backups/your-repo" # поменяй
+GITLAB_PROJECT_PATH="opa-collective/sve"   # поменяй при необходимости
 
-# токены / логины берём из переменных окружения
-: "${GITLAB_TOKEN:?need GITLAB_TOKEN}"
-: "${MEGA_EMAIL:?need MEGA_EMAIL}"
-: "${MEGA_PASSWORD:?need MEGA_PASSWORD}"
-: "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"   # путь к rclone.conf
+: "${GITLABsk_TOKEN:?need GITLABsk_TOKEN}"
 
-# === GitLab mirror ===
+echo "===> Sync to GitLab: ${GITLAB_URL}/${GITLAB_PROJECT_PATH}"
+
+# git remote remove gitlab 2>/dev/null || true
+# git remote add gitlab "https://oauth2:${GITLABsk_TOKEN}@${GITLAB_URL#https://}/${GITLAB_PROJECT_PATH}.git"
+# git push gitlab --mirror
 git remote remove gitlab 2>/dev/null || true
-git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@${GITLAB_URL#https://}/${GITLAB_PROJECT_PATH}.git"
+git remote add gitlab "git@gitlab.com:opa-collective/sve.git"
 git push gitlab --mirror
 
-# === архив ===
-mkdir -p artifacts
-ts="$(date -u +'%Y%m%dT%H%M%SZ')"
-ARCHIVE="artifacts/repo-${ts}.tar.gz"
-tar --exclude='./.git' -czf "$ARCHIVE" .
+# ===================== MEGA S4 (S3) =======================
+# Нужны:
+#   MEGA_BUCKET   – имя бакета
+: "${MEGA_BUCKET:?need MEGA_BUCKET}"
+MEGA_ENDPOINT="${MEGA_ENDPOINT:-s3.g.s4.mega.io}"
 
-# === MEGA ===
-mega-logout || true
-mega-login "$MEGA_EMAIL" "$MEGA_PASSWORD"
-mega-mkdir -p "$MEGA_REMOTE_PATH" || true
-mega-put "$ARCHIVE" "$MEGA_REMOTE_PATH"
+: "${MEGA_KEY:?need MEGA_KEY}"
+: "${MEGAKEY_SECRET:?need MEGAKEY_SECRET}"
 
-# === Google Drive через rclone ===
+echo "===> Sync to MEGA S4 (bucket: $MEGA_BUCKET"
+
+# rclone remote megas4 через env (без файла конфига)
+export RCLONE_CONFIG_MEGAS4_TYPE="s3"
+export RCLONE_CONFIG_MEGAS4_PROVIDER="Other"
+export RCLONE_CONFIG_MEGAS4_ACCESS_KEY_ID="${MEGA_KEY}"
+export RCLONE_CONFIG_MEGAS4_SECRET_ACCESS_KEY="${MEGAKEY_SECRET}"
+export RCLONE_CONFIG_MEGAS4_ENDPOINT="${MEGA_ENDPOINT}"
+export RCLONE_CONFIG_MEGAS4_REGION="eu-central-1"
+export RCLONE_CONFIG_MEGAS4_ACL="private"
+
+MEGA_DEST="megas4:${MEGA_BUCKET}/${MEGA_PREFIX}"
+
+rclone sync "$BASE_DIR" "$MEGA_DEST" \
+  --exclude ".git/**" \
+  --exclude ".github/**" \
+  --exclude "artifacts/**" \
+  --progress
+
+# ===================== Google Drive =======================
+# В rclone.conf должен быть remote [gdrive]
+: "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"
+
+GDRIVE_REMOTE="gdrive:SVE"   # Папка SVE на Google Drive
+
+echo "===> Sync to Google Drive ($GDRIVE_REMOTE)"
+
 mkdir -p ~/.config/rclone
 cp "$RCLONE_CONFIG_FILE" ~/.config/rclone/rclone.conf
-rclone copy "$ARCHIVE" "$GDRIVE_REMOTE" --progress
 
+rclone sync "$BASE_DIR" "$GDRIVE_REMOTE" \
+  --exclude ".git/**" \
+  --exclude ".github/**" \
+  --exclude "artifacts/**" \
+  --progress
 
-# chmod +x sync.sh
-
-# export GITLAB_TOKEN=...
-# export MEGA_EMAIL=...
-# export MEGA_PASSWORD=...
-# export RCLONE_CONFIG_FILE=/path/to/rclone.conf
-
-# ./sync.sh
+echo "===> Done"

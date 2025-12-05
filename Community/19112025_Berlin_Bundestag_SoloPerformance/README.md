@@ -50,3 +50,7 @@ Please watch, read, and decide for yourself.
 <br />
 
 ![SYSTEMIC QUESTION](photos/systemic_question.png)
+
+
+
+### [Mirror 1](https://gitlab.com/opa-collective/sve/-/tree/master?ref_type=heads)
