@@ -13,14 +13,16 @@ GITLAB_PROJECT_PATH="opa-collective/sve"   # поменяй при необхо�
 
 : "${GITLABsk_TOKEN:?need GITLABsk_TOKEN}"
 
-echo "===> Sync to GitLab: ${GITLAB_URL}/${GITLAB_PROJECT_PATH}"
+echo "===> Sync to GitLab: https://gitlab.com/opa-collective/sve"
 
-# git remote remove gitlab 2>/dev/null || true
-# git remote add gitlab "https://oauth2:${GITLABsk_TOKEN}@${GITLAB_URL#https://}/${GITLAB_PROJECT_PATH}.git"
-# git push gitlab --mirror
 git remote remove gitlab 2>/dev/null || true
-git remote add gitlab "git@gitlab.com:opa-collective/sve.git"
-git push gitlab --mirror
+git remote add gitlab git@gitlab.com:opa-collective/sve.git
+
+# пушим все локальные ветки
+git push gitlab 'refs/heads/*:refs/heads/*' --prune
+
+# пушим все теги
+git push gitlab --tags
 
 # ===================== MEGA S4 (S3) =======================
 # Нужны:
@@ -30,6 +32,9 @@ MEGA_ENDPOINT="${MEGA_ENDPOINT:-s3.g.s4.mega.io}"
 
 : "${MEGA_KEY:?need MEGA_KEY}"
 : "${MEGAKEY_SECRET:?need MEGAKEY_SECRET}"
+
+# 
+export MEGA_BUCKET="sve-backups"
 
 echo "===> Sync to MEGA S4 (bucket: $MEGA_BUCKET"
 
@@ -42,29 +47,31 @@ export RCLONE_CONFIG_MEGAS4_ENDPOINT="${MEGA_ENDPOINT}"
 export RCLONE_CONFIG_MEGAS4_REGION="eu-central-1"
 export RCLONE_CONFIG_MEGAS4_ACL="private"
 
-MEGA_DEST="megas4:${MEGA_BUCKET}/${MEGA_PREFIX}"
+MEGA_DEST="megas4:${MEGA_BUCKET}"
 
 rclone sync "$BASE_DIR" "$MEGA_DEST" \
   --exclude ".git/**" \
   --exclude ".github/**" \
   --exclude "artifacts/**" \
+  --retries 3 \
+  --low-level-retries 10 \
   --progress
 
 # ===================== Google Drive =======================
-# В rclone.conf должен быть remote [gdrive]
-: "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"
+# # В rclone.conf должен быть remote [gdrive]
+# : "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"
 
-GDRIVE_REMOTE="gdrive:SVE"   # Папка SVE на Google Drive
+# GDRIVE_REMOTE="gdrive:SVE"   # Папка SVE на Google Drive
 
-echo "===> Sync to Google Drive ($GDRIVE_REMOTE)"
+# echo "===> Sync to Google Drive ($GDRIVE_REMOTE)"
 
-mkdir -p ~/.config/rclone
-cp "$RCLONE_CONFIG_FILE" ~/.config/rclone/rclone.conf
+# mkdir -p ~/.config/rclone
+# cp "$RCLONE_CONFIG_FILE" ~/.config/rclone/rclone.conf
 
-rclone sync "$BASE_DIR" "$GDRIVE_REMOTE" \
-  --exclude ".git/**" \
-  --exclude ".github/**" \
-  --exclude "artifacts/**" \
+# rclone sync "$BASE_DIR" "$GDRIVE_REMOTE" \
+#   --exclude ".git/**" \
+#   --exclude ".github/**" \
+#   --exclude "artifacts/**" \
   --progress
 
 echo "===> Done"
