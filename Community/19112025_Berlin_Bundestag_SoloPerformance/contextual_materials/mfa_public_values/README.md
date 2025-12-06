@@ -1,3 +1,5 @@
+# Public messaging from the [German Federal Foreign Office (Auswärtiges Amt)](https://www.auswaertiges-amt.de/de)
+
 This folder contains publicly available messaging from the [German Federal Foreign Office (Auswärtiges Amt)](https://www.auswaertiges-amt.de/de).
 
 1. Screenshot captured on **22.11.2025, 18:42 CET** from the official MFA website:
@@ -7,8 +9,12 @@ This folder contains publicly available messaging from the [German Federal Forei
 ![](22112025_1842_CET.png)
 
 
-"Justice and Humanity" ("Children topic")
-![](Screenshot 2025-12-06 at 11.45.02)
+
+## [AI & Meta-AI Analysis](ai_analysis)
+
+### 1. [Case 1](ai_analysis/case_1)
+![](ai_analysis/case_1/context/Screenshot-2025-12-06_at_11-45-02.png)
+
 
 This material is provided for contextual reference only.
-No interpretation is offered here.
+No personal interpretation is offered here.
