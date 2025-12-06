@@ -1,11 +1,12 @@
 # Показания Виктора Красникова | Testimony of Viktor Krasnikov | Aussage von Viktor Krasnikov
-source:
-voice_23-09-2025_12-14-46
-voice_23-09-2025_12-18-33
-voice_23-09-2025_12-25-33
-voice_23-09-2025_12-38-38
-voice_23-09-2025_12-40-39
-audio was transcripted: `subtitles_transcripts/RU`
+
+source:\
+voice_23-09-2025_12-14-46\
+voice_23-09-2025_12-18-33\
+voice_23-09-2025_12-25-33\
+voice_23-09-2025_12-38-38\
+voice_23-09-2025_12-40-39\
+audio was transcripted: `subtitles_transcripts/RU`\
 and summarized: https://claude.ai/share/3515ac6f-874c-4613-9c1b-585de04a641a
 
 ## Детальное резюме: Ситуация в Николаеве, 23 сентября 2025 года 
