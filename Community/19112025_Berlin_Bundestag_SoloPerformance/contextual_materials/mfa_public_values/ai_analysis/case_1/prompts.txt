@@ -1,0 +1,78 @@
+# ✅ **I. PROMPT for AI Models (Primary Analysis)**
+
+Analyze the following political communication artifact.
+
+INPUT:
+• Screenshot from the German Federal Foreign Office.
+• Headline: “Justice and Humanity.”
+• Text: “Returning abducted Ukrainian children to their families. Addressing the indoctrination and militarization of Ukrainian children, and calling for Russia’s accountability.”
+
+TASKS:
+1. Identify the explicit message.
+2. Identify the implicit message(s).
+3. Identify the emotional framing.
+4. Identify the moral framing.
+5. Identify the political framing.
+6. Identify rhetorical devices used to shape public perception.
+7. Identify what is *not* being said that is structurally relevant.
+8. Identify which audience segments this message is targeted at.
+9. Identify possible strategic purposes behind this communication.
+10. Identify contradictions or tensions when compared to universal human-rights principles (gender equality, mobility rights, right to refuse participation in war).
+
+Your output must be:
+– concise,
+– analytical,
+– free of moral judgement,
+– strictly based on the structure of the communication itself.
+
+---
+
+# ✅ **II. PROMPT for META-AI (Second-Layer Analysis)**
+
+You are the meta-analyst.
+
+INPUT:
+Below are multiple independent AI analyses of the same political narrative artifact.
+Your task is to synthesize them into a unified, structured understanding.
+
+TASKS:
+1. Identify points of agreement across models.
+2. Identify points of divergence.
+3. Extract deeper patterns that individual models missed.
+4. Identify systemic signals about:
+   – narrative construction,
+   – power asymmetry,
+   – strategic communication goals,
+   – moral positioning vs. operational behavior.
+5. Identify how the message functions within:
+   – international diplomacy,
+   – domestic political legitimacy,
+   – public psychological framing.
+6. Identify contradictions between the message and:
+   – universal human-rights principles,
+   – institutional behavior in other contexts.
+7. Produce a distilled synthesis:
+   – 10–15 bullet points,
+   – neutral,
+   – suitable for weekly archival documentation.
+
+Do not add opinions. Work only with structural logic and patterns present in the input.
+
+---
+
+# ✅ **III. PROMPT for FINAL SYNTHESIS (for weekly report)**
+
+
+**Prompt:**
+
+Produce a final 6–10 point synthesis of the meta-analysis for archival purposes.
+
+Requirements:
+– neutral tone,
+– no emotional or accusatory language,
+– no speculation about intentions,
+– describe only observable narrative structures,
+– highlight structural tensions between stated values (“Justice and Humanity”) and known human-rights universals,
+– output must be suitable for long-term public documentation.
+
+Keep it concise and strictly analytical.
