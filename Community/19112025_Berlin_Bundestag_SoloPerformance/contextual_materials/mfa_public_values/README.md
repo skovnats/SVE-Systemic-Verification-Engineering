@@ -6,5 +6,9 @@ This folder contains publicly available messaging from the [German Federal Forei
 (Germany’s 2027–2028 UN Security Council candidacy theme)
 ![](22112025_1842_CET.png)
 
+
+"Justice and Humanity" ("Children topic")
+![](Screenshot 2025-12-06 at 11.45.02)
+
 This material is provided for contextual reference only.
 No interpretation is offered here.
