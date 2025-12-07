@@ -58,9 +58,14 @@ def get_video_durations(video_ids: List[str]) -> Dict[str, float]:
     
     dur_map = {}
     for item in data.get("items", []):
-        vid = item["id"]
-        iso_dur = item["contentDetails"]["duration"]
-        dur_map[vid] = duration_in_minutes(iso_dur)
+        try:
+            vid = item["id"]
+            iso_dur = item["contentDetails"]["duration"]
+            dur_map[vid] = duration_in_minutes(iso_dur)
+        except: 
+            iso_dur = -1
+            dur_map[vid] = -1
+            continue
     return dur_map
 
 def search_youtube(query: str, published_after: str, published_before: str) -> List[Dict]:
