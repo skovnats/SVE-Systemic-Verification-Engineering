@@ -15,6 +15,6 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
 
 * **SIP symbolic probability table**
   → `symbolic_probabilities_nato_urkaine_russia.png`
-* PDF of the full challenge post.
+* PDF of the full challenge post & related S.V.E. papers.
 
 This folder records the invitation to a transparent, method-based dialogue that was not accepted.
