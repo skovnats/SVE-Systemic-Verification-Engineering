@@ -80,7 +80,7 @@ def build_readme(
 
 ---
 
-## **Weekly Note for {cycle_label} (111 Days: {cycle_range_str})**
+## **Weekly Note for {cycle_label} ({cycle_range_str}x111 Days: {cycle_range_str})**
 
 **Throughout the entire {cycle_ordinal} cycle, I will continue to attach the same official response I received from the institution.**
 
@@ -142,7 +142,6 @@ using a **stable and unaltered institutional baseline**.
 These lists of videos for Week `±{n}` are provided *as is*.
 Due to limited personal resources (full-time job, family responsibilities), this collection is necessarily partial.
 Please forward the material to the relevant committees for independent review and completion.
----
 """
 
 
