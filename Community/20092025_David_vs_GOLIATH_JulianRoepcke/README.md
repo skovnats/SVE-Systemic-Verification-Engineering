@@ -22,4 +22,4 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
 This folder records the invitation to a transparent, method-based dialogue that was not accepted.
 
 
-![](щит_плюс.png)
+![](protectionplus.png)
