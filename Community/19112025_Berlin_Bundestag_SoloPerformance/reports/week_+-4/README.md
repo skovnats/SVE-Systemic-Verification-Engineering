@@ -4,7 +4,7 @@
 
 ---
 
-## **Weekly Note for Cycle 1 (111 Days: 23.11.2025 - 14.03.2026)**
+## **Weekly Note for Cycle 1 (23.11.2025 - 14.03.2026x111 Days: 23.11.2025 - 14.03.2026)**
 
 **Throughout the entire first cycle, I will continue to attach the same official response I received from the institution.**
 
@@ -66,4 +66,3 @@ using a **stable and unaltered institutional baseline**.
 These lists of videos for Week `±4` are provided *as is*.
 Due to limited personal resources (full-time job, family responsibilities), this collection is necessarily partial.
 Please forward the material to the relevant committees for independent review and completion.
----
