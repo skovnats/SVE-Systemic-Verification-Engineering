@@ -1,6 +1,7 @@
 # **David vs GOLIATH — Public Verification Challenge (S.V.E.–SIP)**
 
-**Date:** 19.09.2025\
+**Date start:** 19.09.2025 19:19\
+**Date finish:** 02.10.2025 19:20\
 **Target:** Serhii Sternenko (public narrative speaker)\
 **Method:** S.V.E. + SIP / Meta-SIP (Systemic Verification Engineering)
 
