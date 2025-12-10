@@ -5,7 +5,7 @@
 **Target:** Julian Röpcke (BILD)\
 **Method:** S.V.E., SIP / Meta-SIP structural verification
 
-This folder documents the [public 44-day verification challenge issued to Serhii Sternenko](post_challange.pdf).
+This folder documents the [public 44-day verification challenge issued to Julian Röpcke (BILD)](post_challange.pdf).
 The challenge required refuting the S.V.E.–SIP analytical pipeline using the *same* scientific method.
 
 ### **Outcome:** [No reply. Deadline passed.](post_conclusion.pdf) Julian Röpcke (BILD) is welcome to accept the challenge anytime. 
