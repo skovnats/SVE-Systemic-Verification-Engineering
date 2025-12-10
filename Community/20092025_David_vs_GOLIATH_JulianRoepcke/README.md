@@ -1,6 +1,7 @@
 # **David vs GOLIATH — Scientific Refutation Request (S.V.E.–SIP)**
 
-**Date:** 20.09.2025\
+**Date start:** 20.09.2025 20:20\
+**Date finish:** 03.10.2025 20:21\
 **Target:** Julian Röpcke (BILD)\
 **Method:** S.V.E., SIP / Meta-SIP structural verification
 
