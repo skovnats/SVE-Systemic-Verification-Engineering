@@ -20,7 +20,8 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
   → `Screenshot 2025-11-02 at 19.22.05.png`
 * **“Shield+” symbolic frame**
   → `щит_плюс.png`
-![](protectionplus.png)
 * Context links to S.V.E. methodology and challenge statement.
 
 This folder shows the full transparency of the challenge and the absence of engagement from the narrative actor.
+
+![](protectionplus.png)
