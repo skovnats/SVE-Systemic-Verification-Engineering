@@ -80,7 +80,7 @@ def build_readme(
 
 ---
 
-## **Weekly Note for {cycle_label} ({cycle_label}x111 Days: {cycle_range_str})**
+## **Weekly Note for {cycle_label} ({cycle.idx}x111 Days: {cycle_range_str})**
 
 **Throughout the entire {cycle_ordinal} cycle, I will continue to attach the same official response I received from the institution.**
 

@@ -4,7 +4,7 @@
 
 ---
 
-## **Weekly Note for Cycle 1 (Cycle 1x111 Days: 23.11.2025 - 14.03.2026)**
+## **Weekly Note for Cycle 1 (1x111 Days: 23.11.2025 - 14.03.2026)**
 
 **Throughout the entire first cycle, I will continue to attach the same official response I received from the institution.**
 
