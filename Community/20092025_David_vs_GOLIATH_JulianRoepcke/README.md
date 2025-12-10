@@ -1,4 +1,4 @@
-# **David vs Goliath — Scientific Refutation Request (S.V.E.–SIP)**
+# **David vs GOLIATH — Scientific Refutation Request (S.V.E.–SIP)**
 
 **Date:** 20.09.2025
 **Target:** Julian Röpcke (BILD)

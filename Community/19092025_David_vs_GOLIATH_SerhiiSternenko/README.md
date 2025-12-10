@@ -1,4 +1,4 @@
-# **David vs Goliath — Public Verification Challenge (S.V.E.–SIP)**
+# **David vs GOLIATH — Public Verification Challenge (S.V.E.–SIP)**
 
 **Date:** 19.09.2025
 **Target:** Serhii Sternenko (public narrative speaker)
