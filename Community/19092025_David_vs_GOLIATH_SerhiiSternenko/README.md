@@ -10,7 +10,7 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
 
 ### **Outcome:** [No reply. Deadline passed.](post_conclusion.pdf) Serhii Sternenko is welcome to accept the challenge anytime. 
 ![](Screenshot-2025-11-02-at-19-22-05.png)
-![](symbolic_probabilities_nato_urkaine_russia)
+![](symbolic_probabilities_nato_urkaine_russia.png)
 
 ### **Included**
 
