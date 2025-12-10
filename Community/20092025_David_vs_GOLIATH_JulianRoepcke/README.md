@@ -9,7 +9,7 @@ This folder documents the [public 44-day verification challenge issued to Serhii
 The challenge required refuting the S.V.E.–SIP analytical pipeline using the *same* scientific method.
 
 ### **Outcome:** [No reply. Deadline passed.](post_conclusion.pdf) Julian Röpcke (BILD) is welcome to accept the challenge anytime. 
-![](symbolic_probabilities_nato_urkaine_russia)
+![](symbolic_probabilities_nato_urkaine_russia.png)
 
 ### **Included**
 
