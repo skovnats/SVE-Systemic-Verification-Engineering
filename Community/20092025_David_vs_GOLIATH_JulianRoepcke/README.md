@@ -1,13 +1,13 @@
 # **David vs GOLIATH — Scientific Refutation Request (S.V.E.–SIP)**
 
-**Date:** 20.09.2025
-**Target:** Julian Röpcke (BILD)
+**Date:** 20.09.2025\
+**Target:** Julian Röpcke (BILD)\
 **Method:** S.V.E., SIP / Meta-SIP structural verification
 
 This folder documents the [public 44-day verification challenge issued to Serhii Sternenko](post_challange.pdf).
 The challenge required refuting the S.V.E.–SIP analytical pipeline using the *same* scientific method.
 
-**Outcome:** [No reply. Deadline passed.](post_conclusion.pdf) Julian Röpcke (BILD) is welcome to accept the challenge anytime. 
+**Outcome:** [No reply. Deadline passed.](post_conclusion.pdf)\ Julian Röpcke (BILD) is welcome to accept the challenge anytime. 
 ![](symbolic_probabilities_nato_urkaine_russia)
 
 ### **Included**
