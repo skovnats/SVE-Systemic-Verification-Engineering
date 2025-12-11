@@ -2,7 +2,7 @@
 
 **Date start:** 20.09.2025 20:20\
 **Date finish:** 03.10.2025 20:21\
-**Target:** Julian Röpcke (BILD)\
+**Target:** [Julian Röpcke (BILD)](https://www.bild.de/autor/julian-roepcke) [X.com](https://x.com/JulianRoepcke) [YouTube example](https://www.youtube.com/watch?v=SkZ76yxZg4c) ["Truth and Justice are not only words." (c) Julian Röpcke @linkedin.com](https://www.linkedin.com/in/julian-r%C3%B6pcke-20a990a8/) <br>
 **Method:** S.V.E., SIP / Meta-SIP structural verification
 
 This folder documents the [public 44-day verification challenge issued to Julian Röpcke (BILD)](post_challange.pdf).
