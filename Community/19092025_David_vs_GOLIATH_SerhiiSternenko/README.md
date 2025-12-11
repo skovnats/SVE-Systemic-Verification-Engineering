@@ -2,7 +2,7 @@
 
 **Date start:** 19.09.2025 19:19\
 **Date finish:** 02.10.2025 19:20\
-**Target:** Serhii Sternenko (public narrative speaker) [wiki](https://en.wikipedia.org/wiki/Serhii_Sternenko) [X.com](https://x.com/sternenko) [YouTube](https://www.youtube.com/channel/UC5HBd4l_kpba5b0O1pK-Bfg) \ 
+**Target:** Serhii Sternenko (public narrative speaker) [wiki](https://en.wikipedia.org/wiki/Serhii_Sternenko) [X.com](https://x.com/sternenko) [YouTube](https://www.youtube.com/channel/UC5HBd4l_kpba5b0O1pK-Bfg) <br> 
 **Method:** S.V.E. + SIP / Meta-SIP (Systemic Verification Engineering)
 
 This folder documents the [public 44-day verification challenge issued to Serhii Sternenko](post_challange.pdf).
