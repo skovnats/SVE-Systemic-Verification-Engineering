@@ -23,3 +23,7 @@ This folder records the invitation to a transparent, method-based dialogue that 
 ### Links:
 https://x.com/ArtiomKovnatsky/status/1969466669920583786?s=20 <br>
 https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20
+
+
+
+![](Screenshot-2025-12-11-at-18.32.39.png)
