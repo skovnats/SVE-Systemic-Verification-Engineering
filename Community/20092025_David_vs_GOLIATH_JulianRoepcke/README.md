@@ -18,3 +18,8 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
 * PDF of the full challenge post & related S.V.E. papers.
 
 This folder records the invitation to a transparent, method-based dialogue that was not accepted.
+
+
+### Links:
+https://x.com/ArtiomKovnatsky/status/1969466669920583786?s=20
+https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20
