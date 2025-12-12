@@ -1,4 +1,4 @@
-# Dark Place
+# Dark Place With Perhaps Lighted Candle
 
 Drafts, raw notes, fragments, and early-stage explorations.
 
