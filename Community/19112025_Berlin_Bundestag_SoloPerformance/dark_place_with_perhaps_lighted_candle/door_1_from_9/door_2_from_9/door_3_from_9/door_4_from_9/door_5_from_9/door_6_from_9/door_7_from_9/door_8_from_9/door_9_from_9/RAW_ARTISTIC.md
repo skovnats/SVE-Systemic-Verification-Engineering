@@ -1,4 +1,4 @@
-⚔️ The Final Address: The Sword of Truth
+# ⚔️ The Final Address: The Sword of Truth
 1.
 Thank you for bearing witness to this Truth. Your presence here is the only hope for change. 
 
