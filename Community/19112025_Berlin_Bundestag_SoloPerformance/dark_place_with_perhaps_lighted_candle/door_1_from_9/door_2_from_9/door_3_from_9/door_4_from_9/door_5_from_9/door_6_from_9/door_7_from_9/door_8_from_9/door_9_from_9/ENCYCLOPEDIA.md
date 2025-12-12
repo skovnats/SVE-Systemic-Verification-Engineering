@@ -1,4 +1,4 @@
-📚 ENCYCLOPEDIA OF SYSTEM NEUTRALIZATION PROTOCOLS
+# 📚 ENCYCLOPEDIA OF SYSTEM NEUTRALIZATION PROTOCOLS
 A Comprehensive Reference Guide for Protection of Truth-Seekers, Activists, and Whistleblowers
 
 ---
