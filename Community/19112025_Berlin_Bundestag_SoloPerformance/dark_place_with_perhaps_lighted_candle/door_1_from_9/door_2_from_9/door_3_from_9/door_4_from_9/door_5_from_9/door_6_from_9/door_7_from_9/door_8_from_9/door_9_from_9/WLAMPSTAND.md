@@ -1,4 +1,4 @@
-⚔️ An Address on Truth: Exposing Satanic Chess
+# ⚔️ An Address on Truth: Exposing Satanic Chess
 
 INTRODUCTION: BEARING WITNESS
 Thank you for bearing witness to this Truth. Your presence here represents hope for systemic change through transparency and accountability.
