@@ -197,6 +197,10 @@ cython_debug/
 .DS_Store
 *.DS_Store
 
+# Opa
+Applications/Projects/full_description_processed.md
+Applications/Projects/full_description.md
+
 
 # 444 day+1 mintue
 Community/Respect_Justice_Peace/*
