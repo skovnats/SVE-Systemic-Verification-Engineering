@@ -88,6 +88,7 @@ Based on my current estimates, the real scale of violations is likely significan
 ---
 
 ## Change Log
+- 2025-12-14 - Report [week_+-3](week_+-3)
 - 2025-12-07 - Report [week_+-2](week_+-2)
 - 2025-11-30 — imported CSV → Markdown table & Report [week_+-1](week_+-1) init
 - 2025-11-30 — created `REPORTS.md`  
