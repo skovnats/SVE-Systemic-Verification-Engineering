@@ -16,28 +16,14 @@ flowchart TD
     O[Ontological Hypothesis - SVE VIII]
     L[Language and Primitives]
     M[Models]
-    V[Verification Protocols - SVE 0 to VII and XI]
+    V[Verification Protocols]
     F[Feedback from Reality]
-    C[Revision of Ontology and Language]
 
-    R --> O
-    O --> L
-    L --> M
-    M --> V
-    V --> F
-    F --> C
-    C --> O
-    C --> L
+    R --> O --> L --> M --> V --> F
+    F --> O
+    F --> L
+
+    style O stroke-width:2px
+    style F stroke-dasharray: 5 5
 
 ```
-
-
-
-Следующий слой — сопоставление с конкретными ревью по каждому paper:
-
-AI & Meta-AI
-
-Stanford Agentic Reviewer
-
-Начнём с S.V.E. 0–1:
-+
