@@ -70,6 +70,44 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 * **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/Appendix_B_Commercial_Tiers.md)
 
+--- 
+
+## 🌍 Public & Community Initiatives
+
+The **[Community/](Community/)** directory documents public, civic, and experimental initiatives where S.V.E. protocols are applied outside laboratory or academic settings.
+These projects serve as **field tests** for epistemic verification, narrative accountability, and asymmetric responsibility in real-world environments.
+
+### Open Letters & Academic Integrity
+
+* **[Community/OpenLetters/](Community/OpenLetters/)**
+  Open letters addressed to academic and public institutions, advocating for the restoration of honesty, methodological rigor, and the role of academia as a moral and epistemic beacon.
+  The series *“44 Days Later (33 + 3 + 8)”* documents a structured appeal for systemic reform and the re-legitimization of truth-seeking figures (e.g. Socrates, Perelman) within modern institutions.
+
+### Narrative Accountability & Asymmetric Power
+
+* **[Community/LightBlackMirror_27112025/](Community/LightBlackMirror_27112025/)**
+  An analytical project examining asymmetries of responsibility, influence, and “skin in the game” among political and institutional actors, evaluated through the S.V.E. framework and related epistemic lenses.
+
+### David vs. Goliath — Adversarial Intellectual Challenges
+
+* **[Community/19092025_David_vs_GOLIATH_SerhiiSternenko/](Community/19092025_David_vs_GOLIATH_SerhiiSternenko/)**
+* **[Community/20092025_David_vs_GOLIATH_JulianRoepcke/](Community/20092025_David_vs_GOLIATH_JulianRoepcke/)**
+  A series of public intellectual challenges using S.V.E. SIP protocols to test narratives and claims that fail verification thresholds.
+  These cases function as adversarial stress-tests of public discourse under asymmetric visibility and power.
+
+### “444 Days” Protocol — Institutional Reality Check
+
+* **[Community/19112025_Berlin_Bundestag_SoloPerformance/](Community/19112025_Berlin_Bundestag_SoloPerformance/)**
+  A long-running verification protocol applied to official statements and commitments by the German Ministry of Foreign Affairs and related institutions.
+  Initiated after formal complaint closure, the project examines whether public words withstand S.V.E. verification when confronted with observable reality and human rights outcomes.
+
+---
+
+### How to Read These Materials
+
+These initiatives are **not required** to understand or use the engineering components of S.V.E.
+They are provided as **documented applications**, illustrating how verification protocols behave under public pressure, political asymmetry, and real human consequences.
+
 ---
 
 
