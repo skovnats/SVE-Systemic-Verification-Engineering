@@ -55,7 +55,6 @@ and can be explored from any interpretational angle; it serves alse as thought-a
 
 ### 📄 Papers & Protocols
 - **[Papers/](Papers/)** — S.V.E. working papers and reference documents
-- **[Applications/](Applications/)** — SIP, EBP, Meta-SIP specifications
 
 ---
 
