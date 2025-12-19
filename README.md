@@ -99,6 +99,19 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ---
 
+## Quickstart
+
+**TODO**
+
+
+--- 
+
+## MVP
+
+**TODO**
+
+---
+
 ## ⚖️ Licensing
 
 * **Public Use:** [SVE Public License v1.3](License/SVE_Public_License.md)
