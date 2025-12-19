@@ -11,16 +11,21 @@ against the ontology and triggers revision of the language itself.
 
 
 ```mermaid
-Реальность
-  ↓
-онтологическая гипотеза (VIII)
-  ↓
-язык / примитивы
-  ↓
-модели
-  ↓
-проверки (SVE 0–VII, XI)
-  ↓
-обратная связь
-  ↺ корректировка языка и онтологии
+flowchart TD
+    R[Reality]
+    O[Ontological Hypothesis (S.V.E. VIII)]
+    L[Language / Primitives]
+    M[Models]
+    V[Verification Protocols<br/>(S.V.E. 0–VII, XI)]
+    F[Feedback from Reality]
+    C[Revision of Ontology & Language]
+
+    R --> O
+    O --> L
+    L --> M
+    M --> V
+    V --> F
+    F --> C
+    C -.-> O
+    C -.-> L
 ```
