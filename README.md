@@ -82,6 +82,8 @@ All theological and ethical assumptions are made explicit, testable at the syste
 - **[Applications/FieldNotes/](Applications/_FieldNotes)** — What we did → What actually happened → What had to be changed...
 > Field Notes are the primary unit of evidence in S.V.E.\
 > Papers, when written, are retrospective compressions of Field Notes.
+- **[Applications/Ontology-VKB](Applications/_Ontology-VKB)** — Working ontological hypotheses, grounded through practice:\
+  What we did → What actually happened → What had to be changed...
 - **[Reviews/](Reviews/)** — AI, meta-AI, and Stanford agent-based reviews of S.V.E. papers
 - **[Socrates Bot](https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22)** — all articles are uploaded there
 and can be explored from any interpretational angle; it serves alse as thought-academia. 
