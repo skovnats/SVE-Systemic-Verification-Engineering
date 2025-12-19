@@ -112,6 +112,8 @@ These initiatives are documented as field experiments; their inclusion does not 
   Initiated after formal complaint closure, the project examines whether public words withstand S.V.E. verification when confronted with observable reality and human rights outcomes.\
   *Goal:* time-extended falsifiability of institutional claims.
 
+
+
   > *All datasets, links, analyses, and AI/meta-AI reviews are published for **independent replication and critique** and can be reproduced by anyone with access to a standard PC and a publicly available large language model (e.g., ChatGPT).*
 
 ---
