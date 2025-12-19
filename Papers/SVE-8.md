@@ -13,12 +13,12 @@ against the ontology and triggers revision of the language itself.
 ```mermaid
 flowchart TD
     R[Reality]
-    O[Ontological Hypothesis (S.V.E. VIII)]
-    L[Language / Primitives]
+    O[Ontological Hypothesis - SVE VIII]
+    L[Language and Primitives]
     M[Models]
-    V[Verification Protocols<br/>(S.V.E. 0–VII, XI)]
+    V[Verification Protocols - SVE 0 to VII and XI]
     F[Feedback from Reality]
-    C[Revision of Ontology & Language]
+    C[Revision of Ontology and Language]
 
     R --> O
     O --> L
@@ -26,6 +26,18 @@ flowchart TD
     M --> V
     V --> F
     F --> C
-    C -.-> O
-    C -.-> L
+    C --> O
+    C --> L
+
 ```
+
+
+
+Следующий слой — сопоставление с конкретными ревью по каждому paper:
+
+AI & Meta-AI
+
+Stanford Agentic Reviewer
+
+Начнём с S.V.E. 0–1:
++
