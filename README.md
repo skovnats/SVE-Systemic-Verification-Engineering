@@ -1,6 +1,6 @@
 # Systemic Verification Engineering (S.V.E.)
 
-> *S.V.E. is not about proposing a new truth.*
+> *S.V.E. is not about proposing a new truth.*\
 > *It is about **building systems that can survive contact with reality**.*
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
