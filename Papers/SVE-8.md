@@ -27,3 +27,24 @@ flowchart TD
     style F stroke-dasharray: 5 5
 
 ```
+
+```mermaid
+flowchart TD
+    R[Reality]
+    O[Ontological Hypothesis - SVE VIII]
+    L[Language and Primitives]
+    M[Models]
+    V[Verification Protocols - SVE 0 to VII and XI]
+    F[Feedback from Reality]
+    C[Revision of Ontology and Language]
+
+    R --> O
+    O --> L
+    L --> M
+    M --> V
+    V --> F
+    F --> C
+    C --> O
+    C --> L
+
+```
