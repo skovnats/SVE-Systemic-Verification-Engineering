@@ -79,10 +79,12 @@ All theological and ethical assumptions are made explicit, testable at the syste
 
 ### 🔧 Engineering & Practice
 - **[Applications/](Applications/)** — practical systems and pilots (e.g. PFP / Fakten-TÜV)
+- **[Applications/FieldNotes/](Applications/_FieldNotes)** — What we did → What actually happened → What had to be changed...
 - **[Reviews/](Reviews/)** — AI, meta-AI, and Stanford agent-based reviews of S.V.E. papers
 - **[Socrates Bot](https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22)** — all articles are uploaded there
 and can be explored from any interpretational angle; it serves alse as thought-academia. 
 - **[MATH-NOTARY/](MATH-NOTARY/)** — mathematical notary & statistical verification layer (personal failsafe)
+
 
 ### 📄 Papers & Protocols
 - **[Papers/](Papers/)** — S.V.E. working papers and reference documents
