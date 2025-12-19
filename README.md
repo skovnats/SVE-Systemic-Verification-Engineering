@@ -111,7 +111,7 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ## MVP / Quickstart — Fakten-TÜV v0 (1 evening)
 
-**TODO-Plan**
+**TODO**
 
 1. Pick 10 recent public factual claims (non-political).
 2. Create a VKB entry for each claim (source, date, exact wording).
