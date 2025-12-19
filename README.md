@@ -1,8 +1,5 @@
 # Systemic Verification Engineering (S.V.E.)
 
-> *S.V.E. is not about proposing a new truth.*\
-> *It is about **building systems that can survive contact with reality**.*
-
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
 
 The ethical core of the project is explicitly grounded in key principles articulated in the teachings of **Jesus Christ** (e.g. Love of neighbor, the primacy of life, non-violence, Honesty, and the principle of treating others as one wishes to be treated). This core does not require agreement, belief, or adherence: it functions as a declared set of initial axioms, analogous to axioms in mathematics or constraints in engineering.
@@ -45,6 +42,9 @@ flowchart TD
     style F stroke-dasharray: 5 5
 
 ```
+
+> *S.V.E. is not about proposing a new truth.*\
+> *It is about **building systems that can survive contact with reality**.*
 
 ---
 
