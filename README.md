@@ -26,6 +26,7 @@ Core application domains include (but are not limited to):
 * verifiable knowledge platforms (e.g. Wikipedia-like systems with auditability),
 * next-generation StackOverflow-style systems with integrity guarantees,
 * tooling for cognitive hygiene, epistemic resilience, and protection against large-scale manipulation.
+* ...
 
 Beyond specific products, the project explores how **prosperous and stable societies** can be built using **explicit, measurable ethical constraints**, translated into operational KPIs for real systems. This includes research into sustainable economic models, incentive alignment, and long-term societal resilience.
 
@@ -35,7 +36,8 @@ These principles are **not treated as dogma**, but as **high-level ethical const
 * operational metrics,
 * system-level KPIs,
 * mathematical modeling,
-* and practical engineering trade-offs.
+* and practical engineering approaches.
+* ...
 
 All theological and ethical assumptions are made explicit, testable at the system level, and subject to verification through outcomes, not authority.
 
