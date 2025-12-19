@@ -23,6 +23,8 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 - Reproducibility as a first-class constraint
 - **Human dignity & Love** as explicit design constraint
 
+> *[S.V.E.-VIII](Papers/SVE-8.pdf) ([clarification](Papers/SVE-8.md)) defines the current working ontology; other S.V.E. protocols are explicitly used to test and revise it.*
+
 ---
 
 ## Scope & Research Questions
