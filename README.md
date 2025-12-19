@@ -80,7 +80,7 @@ These projects serve as **field tests** for epistemic verification, narrative ac
 ### Open Letters & Academic Integrity
 
 * **[Community/OpenLetters/](Community/OpenLetters/)**
-  Open letters addressed to academic and public institutions, advocating for the restoration of honesty, methodological rigor, and the role of academia as a moral and epistemic beacon.
+  Open letters addressed to academic and public institutions, advocating for the restoration of honesty, methodological rigor, and the role of academia as a moral and epistemic lighthouse.
   The series *“44 Days Later (33 + 3 + 8)”* documents a structured appeal for systemic reform and the re-legitimization of truth-seeking figures (e.g. Socrates, Perelman) within modern institutions.
 
 ### Narrative Accountability & Asymmetric Power
