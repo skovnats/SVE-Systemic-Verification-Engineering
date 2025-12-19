@@ -81,7 +81,7 @@ This section contains **real-world applications and stress tests** of the S.V.E.
 
 These materials are not advocacy, **not political statements**, and **not claims of truth**. They document how verification protocols behave under pressure, asymmetric incentives, and narrative conflict.
 
-These initiatives are documented as field experiments; their inclusion does not imply endorsement of any political position, but reflects a focus on human rights protection. 
+These initiatives are documented as field experiments; their inclusion does not imply endorsement of any political position, but reflects a focus on **Human rights protection**. 
 
 
 ### Open Letters & Academic Integrity
