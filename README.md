@@ -13,7 +13,7 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 - Transparency over authority
 - Practice before formalization
 - Reproducibility as a first-class constraint
-- **Human dignity & Love** as an explicit design constraint
+- **Human dignity & Love** as explicit design constraint
 
 ---
 
