@@ -1,8 +1,4 @@
-Ок. Вот **краткая, формальная заготовка протокола Nash-Exit**, без философии — в инженерном виде.
-
----
-
-## **Nash-Exit Protocol (NEP) — v0**
+# **Nash-Exit Protocol (NEP) — v0**
 
 ### 1) Preconditions (когда применять)
 
