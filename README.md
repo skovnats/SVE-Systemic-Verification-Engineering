@@ -83,7 +83,7 @@ All theological and ethical assumptions are made explicit, testable at the syste
 > Field Notes are the primary unit of evidence in S.V.E.\
 > Papers, when written, are retrospective compressions of Field Notes.
 - **[Applications/Ontology-VKB](Applications/_Ontology-VKB)** — Working ontological hypotheses, grounded through practice:\
-  What we did → What actually happened → What had to be changed...\
+  What we did → What actually happened → What had to be changed...
 ```
 Field Notes → VKB → Ontology-VKB → update langauge
 ```
