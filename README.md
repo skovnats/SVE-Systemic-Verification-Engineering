@@ -87,11 +87,16 @@ All theological and ethical assumptions are made explicit, testable at the syste
 ```
 Field Notes → VKB → Ontology-VKB → update langauge
 ```
+
+> **In a nutshell**
+> - VKB is a journal of testable assertions.\
+> - Ontology-VKB is a journal of testable assumptions about how the world works.\
+> *VKB — Verifiable Knowledge Base*
+
 - **[Reviews/](Reviews/)** — AI, meta-AI, and Stanford agent-based reviews of S.V.E. papers
 - **[Socrates Bot](https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22)** — all articles are uploaded there
 and can be explored from any interpretational angle; it serves alse as thought-academia. 
 - **[MATH-NOTARY/](MATH-NOTARY/)** — mathematical notary & statistical verification layer (personal failsafe)
-
 
 ### 📄 Papers & Protocols
 - **[Papers/](Papers/)** — S.V.E. working papers and reference documents
