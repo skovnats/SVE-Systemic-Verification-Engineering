@@ -107,8 +107,7 @@ These initiatives are documented as field experiments; their inclusion does not 
 
 ### “444 Days” Protocol — Institutional Reality Check
 
-* **[Community/19112025_Berlin_Bundestag_SoloPerformance/](Community/19112025_Berlin_Bundestag_SoloPerformance/)**
-
+* **[Community/19112025_Berlin_Bundestag_SoloPerformance/](Community/19112025_Berlin_Bundestag_SoloPerformance/)**\
   A long-running verification protocol applied to official statements and commitments by the German Ministry of Foreign Affairs and related institutions.
   Initiated after formal complaint closure, the project examines whether public words withstand S.V.E. verification when confronted with observable reality and human rights outcomes.\
   *Goal:* time-extended falsifiability of institutional claims.
