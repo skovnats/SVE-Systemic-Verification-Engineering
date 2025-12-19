@@ -6,8 +6,8 @@ The ethical core of the project is explicitly grounded in key principles articul
 
 Crucially, **everything in S.V.E. is subject to doubt, challenge, and verification**, including the project’s own ethical core. No premise is exempt from scrutiny; authority is **never** a substitute for evidence. Ethical axioms are treated as hypotheses that must justify themselves through measurable outcomes, operational KPIs, and real-world consequences.
 
-> *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*
-> *S.V.E.: Ontologisches Experiment mit technischem Feedback aus der Realität*
+> *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*\
+> *S.V.E.: Ontologisches Experiment mit technischem Feedback aus der Realität*\
 > *S.V.E.: Ontological experiment with engineering feedback from reality*
 
 
