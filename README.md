@@ -100,7 +100,7 @@ These initiatives are documented as field experiments; their inclusion does not 
 ### David vs. Goliath — Adversarial Intellectual Challenges
 
 * **[Community/19092025_David_vs_GOLIATH_SerhiiSternenko/](Community/19092025_David_vs_GOLIATH_SerhiiSternenko/)**
-* **[Community/20092025_David_vs_GOLIATH_JulianRoepcke/](Community/20092025_David_vs_GOLIATH_JulianRoepcke/)**
+* **[Community/20092025_David_vs_GOLIATH_JulianRoepcke/](Community/20092025_David_vs_GOLIATH_JulianRoepcke/)**\
   A series of public intellectual challenges using S.V.E. SIP protocols to test narratives and claims that fail verification thresholds.
   These cases function as adversarial stress-tests of public discourse under asymmetric visibility and power.\
   *Goal:* demonstrate asymmetry between narrative power and verification robustness.
