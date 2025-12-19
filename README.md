@@ -89,8 +89,8 @@ Field Notes → VKB → Ontology-VKB → update langauge
 ```
 
 > **In a nutshell**
-> - VKB is a journal of testable assertions.
-> - Ontology-VKB is a journal of testable assumptions about how the world works.\
+> - VKB - is a journal of testable assertions.
+> - Ontology-VKB - is a journal of testable assumptions about how the world works.\
 > *VKB — Verifiable Knowledge Base*
 
 - **[Reviews/](Reviews/)** — AI, meta-AI, and Stanford agent-based reviews of S.V.E. papers
