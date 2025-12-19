@@ -10,6 +10,7 @@ Failure of instantiated models is treated as evidence
 against the ontology and triggers revision of the language itself.
 
 
+```mermaid
 Реальность
   ↓
 онтологическая гипотеза (VIII)
@@ -22,3 +23,4 @@ against the ontology and triggers revision of the language itself.
   ↓
 обратная связь
   ↺ корректировка языка и онтологии
+```
