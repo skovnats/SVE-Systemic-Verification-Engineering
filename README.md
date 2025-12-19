@@ -6,6 +6,10 @@
 
 > *"The first formal Mathematics of Meaning — transitioning narrative analysis from qualitative alchemy to quantitative chemistry."*
 
+**Systemic Verification Engineering (S.V.E.)** is an applied, practice-first research programs focused on building reproducible, transparent protocols for epistemic verification in high-stakes domains (science, AI, policy, governance).
+
+These projects prioritize **implementation and real-world case studies** over early formalization. Detailed academic papers are planned retrospectively, once empirical results and operational benchmarks are available.
+
 ---
 
 # 🌍 S.V.E. — Systemic Verification Engineering  
