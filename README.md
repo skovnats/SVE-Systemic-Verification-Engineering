@@ -11,6 +11,9 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 > *S.V.E.: Ontological experiment with engineering feedback from reality*
 
 
+> **Failure of models, protocols, or deployments is treated as first-class evidence and feeds back into revision of assumptions, language, and ethics.**
+
+
 ---
 
 ## Core Principles
