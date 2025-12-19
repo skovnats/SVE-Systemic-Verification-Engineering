@@ -25,6 +25,24 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 
 > *[S.V.E.-VIII](Papers/SVE-8.pdf) ([clarification](Papers/SVE-8.md)) defines the current working [ontology](https://en.wikipedia.org/wiki/Ontology); other S.V.E. protocols are explicitly used to test and revise it.*
 
+```mermaid
+flowchart TD
+    R[Reality]
+    O[Ontological Hypothesis - SVE VIII]
+    L[Language and Primitives]
+    M[Models]
+    V[Verification Protocols]
+    F[Feedback from Reality]
+
+    R --> O --> L --> M --> V --> F
+    F --> O
+    F --> L
+
+    style O stroke-width:2px
+    style F stroke-dasharray: 5 5
+
+```
+
 ---
 
 ## Scope & Research Questions
