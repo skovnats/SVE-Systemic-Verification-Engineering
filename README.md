@@ -43,13 +43,6 @@ All theological and ethical assumptions are made explicit, testable at the syste
 
 ---
 
-
-## Additional Context
-
-- **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
-
----
-
 ## Repository Structure
 
 ### 🔧 Engineering & Practice
@@ -78,3 +71,12 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 * **Commercial Use:** [Standard Commercial License v1.3](License/Standard_Commercial_License_Agreement.md)
 * **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/Appendix_B_Commercial_Tiers.md)
+
+---
+
+
+## Additional Context
+
+- **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
+
+---
