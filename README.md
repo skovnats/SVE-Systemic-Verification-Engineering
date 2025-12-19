@@ -109,16 +109,20 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ---
 
-## Quickstart
+## MVP / Quickstart — Fakten-TÜV v0 (1 evening)
 
-**TODO**
+**TODO-Plan**
 
+1. Pick 10 recent public factual claims (non-political).
+2. Create a VKB entry for each claim (source, date, exact wording).
+3. Collect primary sources (laws, datasets, transcripts); log conflicts.
+4. Produce a short audit verdict: True / False / Misleading / Unverifiable.
+5. Publish each audit as a single Markdown page with citations.
+6. Write a Field Note for each audit:
+   What we did → What actually happened → What had to be changed.
+7. Track 5 metrics weekly: TCR, ED, RR, TTA, REV.
+8. If an audit is challenged, update logs and revise the process — not the claim.
 
---- 
-
-## MVP
-
-**TODO**
 
 ---
 
