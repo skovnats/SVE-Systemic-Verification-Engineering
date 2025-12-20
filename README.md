@@ -81,7 +81,7 @@ All theological and ethical assumptions are made explicit, testable at the syste
 - **[Applications/](Applications/)** — practical systems and pilots (e.g. PFP / Fakten-TÜV)
 - **[Applications/FieldNotes/](Applications/_FieldNotes)** — What we did → What actually happened → What had to be changed...
 > Field Notes are the primary unit of evidence in S.V.E.\
-> Papers, when written, are retrospective compressions of Field Notes.
+> Papers, when written, are retrospective syntheses and/or compression of Field Notes.
 - **[Applications/Ontology-VKB](Applications/_Ontology-VKB)** — Working ontological hypotheses, grounded through practice:\
   What we did → What actually happened → What had to be changed...
 ```
