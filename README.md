@@ -192,8 +192,9 @@ They are provided as **documented applications**, illustrating how verification 
 ---
 
 
-## Additional Context
+## Additional Context (Optional)
 
 - **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
+- **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
 ---
