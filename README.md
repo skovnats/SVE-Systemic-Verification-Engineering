@@ -52,7 +52,7 @@ flowchart TD
 
 > to investigate reality and itself —\
 > including the language, categories, and assumptions\
-> through which that investigation is performed.\
+> through which that investigation is performed.
 
 
 > *τὸ εἰδέναι διὰ τῶν αἰτίων*\
