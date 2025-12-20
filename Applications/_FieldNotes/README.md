@@ -34,7 +34,7 @@ Optional sections may include context, metrics, artifacts, and replication notes
 - Revisions are preferred over narrative consistency.
 
 ## Relation to papers
-Papers, when written, are retrospective compressions of Field Notes.
+Papers, when written, are retrospective syntheses and/or compression of Field Notes.
 Field Notes come first.
 
 Reality is the final reviewer.
