@@ -46,6 +46,18 @@ flowchart TD
 > *S.V.E. is not about proposing a new truth.*\
 > *It is about **building systems that can survive contact with reality**.*
 
+
+**S.V.E. does not add metaphysics to science.**
+It **returns science to its original task**:
+
+> to investigate reality and itself —\
+> including the language, categories, and assumptions\
+> through which that investigation is performed.\
+
+
+> *τὸ εἰδέναι διὰ τῶν αἰτίων*
+> (“to know through causes”)
+
 ---
 
 ## Scope & Research Questions
@@ -197,4 +209,4 @@ They are provided as **documented applications**, illustrating how verification 
 - **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
----
+--- 
