@@ -73,6 +73,9 @@ These principles are **not treated as dogma**, but as **high-level ethical const
 
 All theological and ethical assumptions are made explicit, testable at the system level, and subject to verification through outcomes, not authority.
 
+> **S.V.E. is a parallel, audit-first evidence layer, complementary to academia.**
+> **It aims to reduce reproducibility failures by making Field Notes, logs, and negative results first-class artifacts.**
+
 ---
 
 ## Repository Structure
@@ -192,12 +195,5 @@ They are provided as **documented applications**, illustrating how verification 
 ## Additional Context
 
 - **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
-
----
-
-
-> **S.V.E. is a parallel, audit-first evidence layer.**
-> **It aims to reduce reproducibility failures by making Field Notes, logs, and negative results first-class artifacts.**
-> **It is complementary to academia, not opposed to it.**
 
 ---
