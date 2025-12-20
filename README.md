@@ -73,7 +73,7 @@ These principles are **not treated as dogma**, but as **high-level ethical const
 
 All theological and ethical assumptions are made explicit, testable at the system level, and subject to verification through outcomes, not authority.
 
-> **S.V.E. is a parallel, audit-first evidence layer, complementary to academia.**
+> **S.V.E. is a parallel, audit-first evidence layer, complementary to academia.**\
 > **It aims to reduce reproducibility failures by making Field Notes, logs, and negative results first-class artifacts.**
 
 ---
