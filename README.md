@@ -28,7 +28,7 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 ```mermaid
 flowchart TD
     R[Reality]
-    O[Ontological Hypothesis - SVE IV & SVE VIII]
+    O[Working Ontological Hypothesis (SVE IV & SVE VIII)]
     L[Language and Primitives]
     M[Models]
     V[Verification Protocols]
