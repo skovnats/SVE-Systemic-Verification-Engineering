@@ -55,7 +55,7 @@ flowchart TD
 > through which that investigation is performed.\
 
 
-> *τὸ εἰδέναι διὰ τῶν αἰτίων*
+> *τὸ εἰδέναι διὰ τῶν αἰτίων*\
 > (“to know through causes”)
 
 ---
