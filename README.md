@@ -47,8 +47,8 @@ flowchart TD
 > *It is about **building systems that can survive contact with reality**.*
 
 
-**S.V.E. does not add metaphysics to science.**
-It **returns science to its original task**:
+**S.V.E. does not add metaphysics to science.**\
+**It returns science to its original task**:
 
 > to investigate reality and itself —\
 > including the language, categories, and assumptions\
