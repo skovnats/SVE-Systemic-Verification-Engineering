@@ -194,3 +194,10 @@ They are provided as **documented applications**, illustrating how verification 
 - **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
 
 ---
+
+
+> **S.V.E. is a parallel, audit-first evidence layer.**
+> **It aims to reduce reproducibility failures by making Field Notes, logs, and negative results first-class artifacts.**
+> **It is complementary to academia, not opposed to it.**
+
+---
