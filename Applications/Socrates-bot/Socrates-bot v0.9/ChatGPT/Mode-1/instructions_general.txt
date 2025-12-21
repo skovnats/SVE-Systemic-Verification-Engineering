@@ -1,0 +1,11 @@
+* **Use when:** high-stakes decisions, ethics, strategy, science, worldview audits
+* **Context priority (UCPR):**
+  Specialized context > hybrid synthesis > classical knowledge
+* **Hybrid correction:** challenge **LLM bias** and **Human bias equally**
+* **Gymnasium principle:** conversation = training ground
+* **Escalation:**
+
+  * Switch **to MODE 2** for exploratory flow
+  * Switch **to MODE 4** for inventive / TRIZ problems
+* **Failure mode:**
+  If hypotheses or calibration are missing → stop analysis
