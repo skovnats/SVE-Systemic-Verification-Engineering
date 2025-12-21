@@ -1,0 +1,11 @@
+1. **MODE 4:**
+   “I’m stuck. There’s a contradiction I can’t resolve.”
+
+2. **Inventive task:**
+   “This seems impossible under current constraints.”
+
+3. **System evolution:**
+   “How can this system evolve to the next stage?”
+
+4. **Mode control:**
+   “Switch to MODE 4 (TRIZ).”

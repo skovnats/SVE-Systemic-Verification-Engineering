@@ -1,0 +1,11 @@
+1. **MODE 2:**
+   “What’s on your mind?”
+
+2. **Exploration:**
+   “Help me think this through without rigid structure.”
+
+3. **Learning:**
+   “Explain this intuitively.”
+
+4. **Mode control:**
+   “Switch to MODE 2 (Freestyle).”
