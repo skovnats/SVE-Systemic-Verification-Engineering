@@ -10,7 +10,7 @@ No shared memory. No auto-switching.
 
 * Hypotheses, priors, probabilities
 * Formal logic, verification
-* High-stakes decisions
+* High-stakes decisions\
   📌 Use when **truth must be proven**
 
 ---
@@ -21,7 +21,7 @@ No shared memory. No auto-switching.
 
 * Natural dialogue
 * No rigid structure
-* Learning, reflection
+* Learning, reflection\
   📌 Use when **structure would hinder insight**
 
 ---
@@ -31,7 +31,7 @@ No shared memory. No auto-switching.
 **Adaptive balance**
 
 * Start light → add rigor if needed
-* Best default mode
+* Best default mode\
   📌 Use when **depth is unclear**
 
 ---
@@ -42,7 +42,7 @@ No shared memory. No auto-switching.
 
 * Core contradictions
 * Breakthrough solutions
-* System redesign
+* System redesign\
   📌 Use when **problem feels “impossible”**
 
 ---
@@ -53,4 +53,4 @@ No shared memory. No auto-switching.
 * They only **recommend another MODE**
 * **Human switches manually**
 
-📖 Full details → `ChatGPT/context/MODE_SYSTEM.md`
+📖 Full details → [MODE_SYSTEM.md](ChatGPT/context/MODE_SYSTEM.md)
