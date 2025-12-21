@@ -110,6 +110,7 @@ Field Notes → VKB → Ontology-VKB → update langauge
 
 - **[Reviews/](Reviews/)** — AI, meta-AI, and Stanford agent-based reviews of S.V.E. papers
 - **[Socrates Bot](https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22)** — all articles are uploaded there
+  - **[Socrates Botes [Modes]/](Applications/Socrates-bot/)** - this project defines a multi-mode reasoning system designed to help humans move closer to Truth, not just answers
 and can be explored from any interpretational angle; it serves alse as thought-academia. 
 - **[MATH-NOTARY/](MATH-NOTARY/)** — mathematical notary & statistical verification layer (personal failsafe)
 
