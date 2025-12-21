@@ -38,10 +38,12 @@ Result: **clearer thinking, fewer illusions, better decisions**.
 
 | Mode       | Purpose            | When to Use                       |
 | ---------- | ------------------ | --------------------------------- |
-| 🧠 [MODE 1](https://chatgpt.com/g/g-6947c176ef8081919f4414328019416d-sokrat-socrates-mode-1-v0-9)  | Rigorous analysis  | Proof, evaluation, probabilities  |
+| 🧠 *[MODE 1](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)  | Rigorous analysis  | Proof, evaluation, probabilities  |
 | 💬 [MODE 2](https://chatgpt.com/g/g-69482b7ff0c48191b5d9062080ae9da2-sokrat-socrates-mode-2-v0-9)  | Freestyle dialogue | Exploration, learning, reflection |
 | ⚖️ [MODE 3](https://chatgpt.com/g/g-69482d5d84408191b7862a9047b12213-sokrat-socrates-mode-3-v0-9)  | Hybrid             | When depth is unclear             |
 | 🛠️ [MODE 4](https://chatgpt.com/g/g-69482e1b38dc8191b00afb70cd6efb63-sokrat-socrates-mode-4-v0-9) | TRIZ               | Contradictions & invention        |
+
+*MODE 1 is not yet publically available.
 
 Each mode is a **separate bot**.
 They do **not** share context or memory.
