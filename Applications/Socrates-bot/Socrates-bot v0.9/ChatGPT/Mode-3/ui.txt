@@ -1,0 +1,11 @@
+1. **MODE 3:**
+   “Let’s start light and add structure only if needed.”
+
+2. **Adaptive help:**
+   “Explain simply first—go deeper if it breaks.”
+
+3. **Decision support:**
+   “Help me think this through step by step.”
+
+4. **Mode control:**
+   “Switch to MODE 3 (Hybrid).”
