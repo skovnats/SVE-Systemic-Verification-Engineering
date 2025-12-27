@@ -213,6 +213,15 @@ Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/*.png
 Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTISTIC/*
 
 Community/19112025_Berlin_Bundestag_SoloPerformance/video/*.mp4
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*.mp4
+
+# Ignore all video files in reports subtree
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.mp4
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.mkv
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.mov
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.avi
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.webm
+
 
 Community/19112025_Berlin_Bundestag_SoloPerformance/LETTER_444DAYPLUS1MIN.md
 Community/19112025_Berlin_Bundestag_SoloPerformance/LETTER_444DAYPLUS1MIN.RU.md

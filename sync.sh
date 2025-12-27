@@ -72,6 +72,24 @@ rclone sync "$BASE_DIR" "$MEGA_DEST" \
 #   --exclude ".git/**" \
 #   --exclude ".github/**" \
 #   --exclude "artifacts/**" \
-  --progress
+#   --progress
+
+# # В rclone.conf должен быть remote [gdrive]
+# : "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"
+
+# GDRIVE_REMOTE="gdrive:SVE"   # папка SVE в Google Drive
+
+# echo "===> Sync to Google Drive ($GDRIVE_REMOTE)"
+
+# mkdir -p ~/.config/rclone
+# cp "$RCLONE_CONFIG_FILE" ~/.config/rclone/rclone.conf
+
+# rclone sync "$BASE_DIR" "$GDRIVE_REMOTE" \
+#   --exclude ".git/**" \
+#   --exclude ".github/**" \
+#   --exclude "artifacts/**" \
+#   --retries 3 \
+#   --low-level-retries 10 \
+#   --progress
 
 echo "===> Done"
