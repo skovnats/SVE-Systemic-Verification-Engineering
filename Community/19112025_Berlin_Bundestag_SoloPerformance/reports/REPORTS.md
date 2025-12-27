@@ -102,7 +102,7 @@
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | AK1984-Human-0** | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 
 
-** **AK1984-Human-0** — symbolically myself, [Dr. Artiom Kovnatsky](https://www.linkedin.com/in/artiomkovnatsky/), to highlight that any Human in this list could have been me — and I could have been any of them. 
+** **AK1984-Human-0** — myself, [Dr. Artiom Kovnatsky](https://www.linkedin.com/in/artiomkovnatsky/), included to make explicit that any Human in this list could have been me, and I could have been any of them.
 
 ## **Note:** 
 Based on my current estimates, the real scale of violations is likely significantly higher, as only a small fraction of incidents are ever recorded on camera (approx. ×20–200).
