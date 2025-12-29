@@ -209,5 +209,7 @@ They are provided as **documented applications**, illustrating how verification 
 
 - **[README.Opa.md](README.Opa.md)** — complete project context, including personal motivation, philosophical and ethical foundations, theoretical extensions, and open questions.
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
+- **[Complete S.V.E. Series Evaluation](https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03)** - S.V.E. Series Evaluation by https://claude.ai
+- **[S.V.E. Series Evaluation - Part 2: Conclusions and Recommendations](https://claude.ai/public/artifacts/8276a98a-8162-4428-9ed1-0ba664303647)** - S.V.E. Series Evaluation by https://claude.ai
 
 --- 
