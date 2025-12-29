@@ -211,7 +211,7 @@ They are provided as **documented applications**, illustrating how verification 
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
 
-> The author does **NOT** endorse or claim authorship of the following assessment.
+> The author does **NOT** endorse or claim authorship of the following assessment.\
 > It is provided solely for transparency and independent reference.
 
 
