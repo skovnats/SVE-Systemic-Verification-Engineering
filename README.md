@@ -213,7 +213,7 @@ They are provided as **documented applications**, illustrating how verification 
 
 ## [Complete S.V.E. Series Evaluation](https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03) by https://claude.ai
 
-### Thematic Progression
+### Thematic Progression ([Papers](Papers/))
 
 | Phase | Works | Theme |
 |-------|-------|-------|
