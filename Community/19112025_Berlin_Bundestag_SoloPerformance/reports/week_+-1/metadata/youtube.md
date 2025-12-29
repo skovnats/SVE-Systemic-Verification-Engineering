@@ -49,32 +49,31 @@ Interpretation is intentionally excluded.
 26:11 - artem__dmytruk__2025-11-30T130757.000Z.mp4
 ```
 
-```
-00:00 — [artem__dmytruk__2025-11-10T143523.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)
-00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)
-01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)
-03:43 — [artem__dmytruk__2025-11-11T111542.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=223)
-05:57 — [artem__dmytruk__2025-11-13T151706.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=357)
-07:29 — [artem__dmytruk__2025-11-14T091510.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=449)
-08:17 — [artem__dmytruk__2025-11-14T114028.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=497)
-09:05 — [artem__dmytruk__2025-11-15T210320.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=545)
-09:50 — [artem__dmytruk__2025-11-16T204637.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=590)
-10:19 — [artem__dmytruk__2025-11-24T070801.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=619)
-11:30 — [artem__dmytruk__2025-11-24T093925.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=690)
-12:27 — [artem__dmytruk__2025-11-24T110426.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=747)
-13:47 — [artem__dmytruk__2025-11-24T135741.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=827)
-14:42 — [artem__dmytruk__2025-11-25T120807.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=882)
-15:48 — [artem__dmytruk__2025-11-25T121459.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=948)
-16:13 — [artem__dmytruk__2025-11-25T203433.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=973)
-16:45 — [artem__dmytruk__2025-11-26T120440.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1005)
-18:11 — [artem__dmytruk__2025-11-27T195938.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1091)
-18:41 — [artem__dmytruk__2025-11-27T202125.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1121)
-20:17 — [artem__dmytruk__2025-11-27T213036.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1217)
-21:52 — [artem__dmytruk__2025-11-28T161611.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1312)
-22:33 — [artem__dmytruk__2025-11-29T124930.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1353)
-23:04 — [artem__dmytruk__2025-11-29T132909.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1384)
+
+00:00 — [artem__dmytruk__2025-11-10T143523.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)\
+00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)\
+01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)\
+03:43 — [artem__dmytruk__2025-11-11T111542.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=223)\
+05:57 — [artem__dmytruk__2025-11-13T151706.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=357)\
+07:29 — [artem__dmytruk__2025-11-14T091510.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=449)\
+08:17 — [artem__dmytruk__2025-11-14T114028.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=497)\
+09:05 — [artem__dmytruk__2025-11-15T210320.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=545)\
+09:50 — [artem__dmytruk__2025-11-16T204637.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=590)\
+10:19 — [artem__dmytruk__2025-11-24T070801.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=619)\
+11:30 — [artem__dmytruk__2025-11-24T093925.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=690)\
+12:27 — [artem__dmytruk__2025-11-24T110426.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=747)\
+13:47 — [artem__dmytruk__2025-11-24T135741.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=827)\
+14:42 — [artem__dmytruk__2025-11-25T120807.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=882)\
+15:48 — [artem__dmytruk__2025-11-25T121459.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=948)\
+16:13 — [artem__dmytruk__2025-11-25T203433.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=973)\
+16:45 — [artem__dmytruk__2025-11-26T120440.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1005)\
+18:11 — [artem__dmytruk__2025-11-27T195938.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1091)\
+18:41 — [artem__dmytruk__2025-11-27T202125.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1121)\
+20:17 — [artem__dmytruk__2025-11-27T213036.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1217)\
+21:52 — [artem__dmytruk__2025-11-28T161611.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1312)\
+22:33 — [artem__dmytruk__2025-11-29T124930.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1353)\
+23:04 — [artem__dmytruk__2025-11-29T132909.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1384)\
 26:11 — [artem__dmytruk__2025-11-30T130757.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=1571)
-```
 
 
 ---
