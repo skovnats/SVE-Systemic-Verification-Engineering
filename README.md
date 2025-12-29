@@ -211,7 +211,14 @@ They are provided as **documented applications**, illustrating how verification 
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
 
-> The author **does NOT** claim the assessment by https://claude.ai; it is provided here for transparency.
+> The author does **NOT** endorse or claim authorship of the following assessment.
+> It is provided solely for transparency and independent reference.
+
+
+## Complete S.V.E. Series Evaluation  
+by https://claude.ai  
+https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03
+
 
 
 ## [Complete S.V.E. Series Evaluation](https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03) by https://claude.ai
