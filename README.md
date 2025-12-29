@@ -1061,7 +1061,7 @@ And if we're not willing to engineer it, we'll continue suffering the exponentia
 ## Acknowledgments
 
 This evaluation drew on:
-- [Оценка статьи по философии.pdf](Reviews/Оценка-статьи-по-философии.pdf)
+- [Оценка статьи по философии.pdf](Reviews/Оценка-статьи-по-философии.pdf); [ChatGPT](https://chatgpt.com/share/6951b027-65bc-8003-9ad1-4baae8c8a287)
 - Complete S.V.E. series (0(1) through XII)
 - S.V.E. Universe navigation map
 - README.md contextual framework
