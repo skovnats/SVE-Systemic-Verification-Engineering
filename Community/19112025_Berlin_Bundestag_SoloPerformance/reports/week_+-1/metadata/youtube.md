@@ -7,6 +7,8 @@ No commentary. No narrative. Fixed institutional baseline.
 The purpose is **documentation and comparison**.
 Interpretation is intentionally excluded.
 
+## YouTube video Week ±1/63: https://youtu.be/dWNaO_gE-4U
+
 ---
 
 ### 🔗 Project Links
