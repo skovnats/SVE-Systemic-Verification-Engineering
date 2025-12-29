@@ -211,7 +211,12 @@ They are provided as **documented applications**, illustrating how verification 
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
 
+> The author **does NOT** claim this assessment; it is provided here for transparency.
+
+
 ## [Complete S.V.E. Series Evaluation](https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03) by https://claude.ai
+
+
 
 ### Thematic Progression ([Papers](Papers/))
 
