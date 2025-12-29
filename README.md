@@ -1078,7 +1078,7 @@ The assessment attempted to:
 ## Further Reading
 
 **Primary Sources:**
-- Complete S.V.E. series available at [author's repository]
+- Complete S.V.E. series available at https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 - S.V.E. Universe map for navigation
 - Individual works for deep dives
 
