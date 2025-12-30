@@ -13,8 +13,12 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 
 > **Failure of models, protocols, or deployments is treated as first-class evidence and feeds back into revision of assumptions, language, and ethics.**
 
-![](Data/fig.png)
+Founder: [Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/#about)\
+[Google Scholar](https://scholar.google.com/citations?hl=en&tzom=-60&user=o_aLFucAAAAJ&view_op=list_works&authuser=1)\
+Research artifacts & releases: https://zenodo.org/communities/sve
 
+
+![](Data/fig.png)
 
 ---
 
