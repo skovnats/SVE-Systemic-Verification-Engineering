@@ -14,7 +14,7 @@ Research artifacts & releases: https://zenodo.org/communities/sve
 > *S.V.E.: Ontological experiment with engineering feedback from reality*
 
 
-> **Failure of models, protoco [LinkedIn](https://www.linkedin.com/in/artiomkovnatsky/),ls, or deployments is treated as first-class evidence and feeds back into revision of assumptions, language, and ethics.**
+> **Failure of models, protocols, or deployments is treated as first-class evidence and feeds back into revision of assumptions, language, and ethics.**
 
 
 ![](Data/fig.png)
