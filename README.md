@@ -7,7 +7,7 @@ The ethical core of the project is explicitly grounded in key principles articul
 Crucially, **everything in S.V.E. is subject to doubt, challenge, and verification**, including the project’s own ethical core. No premise is exempt from scrutiny; authority is **never** a substitute for evidence. Ethical axioms are treated as hypotheses that must justify themselves through measurable outcomes, operational KPIs, and real-world consequences.
 
 **Founder:** [Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/#about), [LinkedIn](https://www.linkedin.com/in/artiomkovnatsky/), [Google Scholar](https://scholar.google.com/citations?hl=en&tzom=-60&user=o_aLFucAAAAJ&view_op=list_works&authuser=1)\
-**Research artifacts & releases:** https://zenodo.org/communities/sve\
+**Research artifacts & releases:** https://zenodo.org/communities/sve \
 **📌 Canonical DOI (Release v0.3):** https://doi.org/10.5281/zenodo.18107020
 
 > *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*\
