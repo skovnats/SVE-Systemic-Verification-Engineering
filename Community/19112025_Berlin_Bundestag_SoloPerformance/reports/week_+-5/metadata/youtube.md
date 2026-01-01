@@ -55,13 +55,6 @@ Interpretation is intentionally excluded.
 23:05 - artem__dmytruk__2025-12-27T181048.000Z.mp4
 25:02 - artem__dmytruk__2025-12-27T201354.000Z.mp4
 
-
-00:00 — [artem__dmytruk__2025-11-06T165616.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)\
-00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)\
-01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)\
-
-
-
 ---
 
 ## 🗂 Notes

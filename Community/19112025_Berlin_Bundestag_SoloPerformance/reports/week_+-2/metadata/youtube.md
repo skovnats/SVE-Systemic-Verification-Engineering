@@ -7,7 +7,7 @@ No commentary. No narrative. Fixed institutional baseline.
 The purpose is *documentation and comparison*.
 Interpretation is intentionally excluded.
 
-## YouTube video Week ±2/63: 
+## YouTube video Week ±2/63: https://youtu.be/95m4f_pvTp0
 * *AI-generated subtitles (may have errors)*
 
 ---
@@ -54,12 +54,6 @@ Interpretation is intentionally excluded.
  21:53 - artem__dmytruk__2025-12-04T202422.000Z.mp4
  22:53 - artem__dmytruk__2025-12-05T104835.000Z.mp4
  23:50 - artem__dmytruk__2025-12-05T110252.000Z.mp4
-
-
-00:00 — [artem__dmytruk__2025-11-06T165616.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)\
-00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)\
-01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)\
-
 
 
 ---
