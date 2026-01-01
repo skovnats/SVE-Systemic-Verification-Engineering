@@ -34,13 +34,6 @@ Interpretation is intentionally excluded.
 6:01 - artem__dmytruk__2025-10-31T095851.000Z.mp4
 9:01 - artem__dmytruk__2025-11-01T100000.000Z.mp4
 
-
-00:00 — [artem__dmytruk__2025-11-06T165616.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)\
-00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)\
-01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)\
-
-
-
 ---
 
 ## 🗂 Notes
