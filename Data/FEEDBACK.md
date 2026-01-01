@@ -1,8 +1,8 @@
 # Users Feedbacks
 
-> *This page documents unsolicited user feedback.*
-> *AI-generated summaries are provided for readability.*
-> *Original content remains unchanged.*
+> *This page documents unsolicited user feedback.*\
+> *AI-generated summaries are provided for readability.*\
+> *Original content remains unchanged.*\
 > *No incentives. No guarantees.*
 
 ## Products
