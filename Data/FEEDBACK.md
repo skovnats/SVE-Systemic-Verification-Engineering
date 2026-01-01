@@ -1,5 +1,8 @@
 # Users Feedbacks
 
+> *This page documents unsolicited user feedback.
+> No edits. No incentives. No guarantees.*
+
 ## Products
 
 #### [Socrates Bot v0.2](https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2)
