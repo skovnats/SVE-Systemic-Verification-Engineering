@@ -85,9 +85,8 @@ Interpretation is intentionally excluded.
 * Materials are presented **as-is**
 * No edits, narrative framing, or judgment are added
 * The same **official institutional response** is used as a fixed reference across all weeks
-Response: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Beantwortung%20Ihrer%20Anfrage_%20Menschenrechtsverletzungen%20in%20der%20Ukraine%20%5B759bc4c4-387d-49e7-9e16-9a2b56c9da0e%5D%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf
-
-AI & Meta-AI-Analysis: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+  * Response: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Beantwortung%20Ihrer%20Anfrage_%20Menschenrechtsverletzungen%20in%20der%20Ukraine%20%5B759bc4c4-387d-49e7-9e16-9a2b56c9da0e%5D%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf
+  * AI & Meta-AI-Analysis: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 * Additional materials may be added later as resources allow
 * Silence, repetition, and delay are treated as observable data.
 
