@@ -8,7 +8,7 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 
 **Founder:** [Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/#about), [LinkedIn](https://www.linkedin.com/in/artiomkovnatsky/), [ORCID](https://orcid.org/0009-0002-1230-1639), [Google Scholar](https://scholar.google.com/citations?hl=en&tzom=-60&user=o_aLFucAAAAJ&view_op=list_works&authuser=1)\
 **Research artifacts & releases:** https://zenodo.org/communities/sve \
-**Canonical DOI (Release v0.3):** [https://doi.org/10.5281/zenodo.18107020](https://doi.org/10.5281/zenodo.18107020) 📌 \
+**📌 Canonical DOI (Release v0.3):** [https://doi.org/10.5281/zenodo.18107020](https://doi.org/10.5281/zenodo.18107020)\
 **Users Feedbacks**: [FEEDBACK.md](Data/FEEDBACK.md)
 
 > *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*\
