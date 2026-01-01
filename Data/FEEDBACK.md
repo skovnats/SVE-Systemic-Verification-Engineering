@@ -1,6 +1,6 @@
 # Users Feedbacks
 
-> *This page documents unsolicited user feedback.
+> *This page documents unsolicited user feedback.\
 > No edits. No incentives. No guarantees.*
 
 ## Products
