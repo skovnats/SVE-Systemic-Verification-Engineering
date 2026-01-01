@@ -4,7 +4,7 @@ Berlin | Public Record | No Commentary
 This video is a raw, unedited weekly record.
 No commentary. No narrative. Fixed institutional baseline.
 
-The purpose is *documentation and comparison*.
+The purpose is documentation and comparison.
 Interpretation is intentionally excluded.
 
 ## YouTube video Week ±1/63: https://youtu.be/LjdKIfOqCrA
@@ -50,14 +50,6 @@ Interpretation is intentionally excluded.
 20:25 - artem__dmytruk__2025-11-29T124930.000Z.mp4
 20:50 - artem__dmytruk__2025-11-29T132909.000Z.mp4
 23:50 - artem__dmytruk__2025-11-30T130757.000Z.mp4
-
-
-
-00:00 — [artem__dmytruk__2025-11-10T143523.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=0)\
-00:30 — [artem__dmytruk__2025-11-10T201945.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=30)\
-01:18 — [artem__dmytruk__2025-11-11T095335.000Z.mp4](https://youtu.be/dWNaO_gE-4U?t=78)\
-
-
 
 ---
 
