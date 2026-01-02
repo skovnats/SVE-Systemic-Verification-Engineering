@@ -27,3 +27,5 @@ https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20
 
 
 ![](Screenshot-2025-12-11-at-18.32.39.png)
+![](Screenshot-2026-01-02-at-19.24.55.png)
+![](Screenshot-2026-01-02-at-19.24.57.png)
