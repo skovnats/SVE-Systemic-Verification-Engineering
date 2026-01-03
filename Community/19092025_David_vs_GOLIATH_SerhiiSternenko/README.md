@@ -30,3 +30,5 @@ This folder shows the full transparency of the challenge and the absence of enga
 ### Links:
 https://x.com/ArtiomKovnatsky/status/1969088933691580546?s=20 <br>
 https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20
+https://zenodo.org/records/18108307 <br>
+https://zenodo.org/records/18108751
