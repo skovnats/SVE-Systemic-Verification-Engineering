@@ -83,3 +83,10 @@ What an external party would need to reproduce or audit this case.
 ---
 
 **Replication, critique, and adversarial review are explicitly welcome.**
+
+
+Было: X
+Я сделал: Y
+Стало видно: Z
+Обычно это теряется, потому что …
+Я сделал так, чтобы это не терялось.
