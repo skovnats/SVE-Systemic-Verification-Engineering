@@ -49,7 +49,8 @@ export RCLONE_CONFIG_MEGAS4_ACL="private"
 
 MEGA_DEST="megas4:${MEGA_BUCKET}"
 
-rclone sync "$BASE_DIR" "$MEGA_DEST" \
+# rclone sync "$BASE_DIR" "$MEGA_DEST" \
+rclone copy "$BASE_DIR" "$MEGA_DEST" \
   --exclude ".git/**" \
   --exclude ".github/**" \
   --exclude "artifacts/**" \
