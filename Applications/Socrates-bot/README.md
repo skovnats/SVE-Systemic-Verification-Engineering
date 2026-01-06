@@ -47,7 +47,7 @@ Result: **clearer thinking, fewer illusions, better decisions**.
 Each mode is a **separate bot**.
 They do **not** share context or memory.
 
-Socrates-bot v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
+Socrates-bot v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2 <br>
 Socrates-bot v0.22: https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22
 
 📖 Canonical rules → `MODE_SYSTEM.md`
