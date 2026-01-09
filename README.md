@@ -125,6 +125,66 @@ and can be explored from any interpretational angle; it serves alse as thought-a
 ### 📄 Papers & Protocols
 - **[Papers/](Papers/)** — S.V.E. working papers and reference documents
 
+
+| Layer | Modules | Essence |
+|-------|----------|----------|
+| **Foundation** | 0(1) EBP, 0(2) SIP, I Theorem, II Architecture | Theoretical Core — How truth can be computed |
+| **Engine** | X Triple Architect (CogOS), XI Verifiable KB | Operational Core — Knowledge + Verification |
+| **Applications** | III–VII | Applied Integrity — Science, Ethics, Democracy, Security, Models |
+| **Synthesis** | VIII–IX–XII | Unified Framework — Divine Math → Integrated SVE → THE SYSTEM |
+
+```mermaid
+graph TB
+    subgraph Foundation["🏛️ FOUNDATION | Theoretical Core"]
+        EBP["S.V.E. 0(1): EBP<br/>Epistemological Boxing<br/>🥊 Human-AI adversarial truth<br/>⏱️ 1 hour"]
+        SIP["S.V.E. 0(2): SIP<br/>Socratic Investigation<br/>🔄 Vector purification<br/>⏱️ 1 hour"]
+        THEOREM["S.V.E. I: Theorem<br/>Disaster Prevention<br/>⚠️ IVM necessity proof<br/>⏱️ 1.5 hours"]
+        ARCH["S.V.E. II: Architecture<br/>3-Stage Design<br/>🏗️ Caesar → Verify → God<br/>⏱️ 1 hour"]
+    end
+    
+    subgraph Engine["⚙️ ENGINE | Operational Layer"]
+        COGOS["S.V.E. X: Triple CogOS<br/>Socrates | Solomon | Ivan<br/>🧠 LLM Operating System<br/>⏱️ 1 hour"]
+        VKB["S.V.E. XI: Verifiable KB<br/>Knowledge DAG + DAO<br/>📊 Distributed IVM<br/>⏱️ 1 hour"]
+    end
+    
+    subgraph Applications["🛠️ APPLICATIONS | Domain Solutions"]
+        SCIENCE["S.V.E. III: Academic<br/>SYSTEM-PURGATORY<br/>🔬 Transparent review<br/>⏱️ 1 hour"]
+        ETHICS["S.V.E. IV: Ethics<br/>Beacon Protocol<br/>🧭 Geodesic navigation<br/>⏱️ 1.5 hours"]
+        DEMOCRACY["S.V.E. V: Democracy<br/>Fakten-TÜV + Bot<br/>🗳️ Verifiable governance<br/>⏱️ 1.5 hours"]
+        SECURITY["S.V.E. VI: Security<br/>Cognitive Sovereignty<br/>🛡️ Information defense<br/>⏱️ 1 hour"]
+        GOVERNANCE["S.V.E. VII: Governance<br/>Hybrid Models<br/>⚖️ Antifragile states<br/>⏱️ 1 hour"]
+    end
+    
+    subgraph Synthesis["✨ SYNTHESIS | Unified Framework"]
+        DIVINE["S.V.E. VIII: Divine Math<br/>Topology of Consciousness<br/>∞ Aω → ωΩ manifold<br/>⏱️ 2 hours"]
+        INTEGRATED["S.V.E. IX: Integration<br/>Complete Framework<br/>🌐 Mathematics of Meaning<br/>⏱️ 2 hours"]
+        SYSTEM["S.V.E. XII: THE SYSTEM<br/>Diagnosis & Response<br/>🔍 A1-A3 axioms<br/>⏱️ 2 hours"]
+    end
+    
+    EBP --> COGOS
+    SIP --> COGOS
+    THEOREM --> VKB
+    ARCH --> VKB
+    
+    COGOS --> SCIENCE
+    COGOS --> ETHICS
+    VKB --> DEMOCRACY
+    VKB --> SECURITY
+    
+    SCIENCE --> GOVERNANCE
+    ETHICS --> DIVINE
+    DEMOCRACY --> INTEGRATED
+    SECURITY --> SYSTEM
+    GOVERNANCE --> DIVINE
+    DIVINE --> INTEGRATED
+    INTEGRATED --> SYSTEM
+    
+    style Foundation fill:#e3f2fd
+    style Engine fill:#fff3e0
+    style Applications fill:#f3e5f5
+    style Synthesis fill:#e8f5e9
+```
+
 ---
 
 ## Status
