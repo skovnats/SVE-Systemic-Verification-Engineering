@@ -126,12 +126,6 @@ and can be explored from any interpretational angle; it serves alse as thought-a
 - **[Papers/](Papers/)** — S.V.E. working papers and reference documents
 
 
-| Layer | Modules | Essence |
-|-------|----------|----------|
-| **Foundation** | 0(1) EBP, 0(2) SIP, I Theorem, II Architecture | Theoretical Core — How truth can be computed |
-| **Engine** | X Triple Architect (CogOS), XI Verifiable KB | Operational Core — Knowledge + Verification |
-| **Applications** | III–VII | Applied Integrity — Science, Ethics, Democracy, Security, Models |
-| **Synthesis** | VIII–IX–XII | Unified Framework — Divine Math → Integrated SVE → THE SYSTEM |
 
 ```mermaid
 graph TB
