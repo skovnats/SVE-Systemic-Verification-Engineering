@@ -254,6 +254,8 @@ This License does **not** restrict Counsel's choice of legal forum. Any clause a
 
 7.2. All obligations persist for as long as S.V.E. logic, outputs, or derivatives remain in use.
 
+**7.3. Audit Survival.** The obligation to provide transparency and audit access for S.V.E.-derived logic persists for five (5) years after the cessation of S.V.E. use to prevent "black-box" transitions during sunsetting.
+
 ---
 
 ## Section 8: Cryptographic Record
