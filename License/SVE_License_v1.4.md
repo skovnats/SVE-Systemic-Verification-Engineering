@@ -16,6 +16,20 @@ Systemic Verification Engineering (S.V.E.) exists to ensure that systems affecti
 
 This License is intentionally incompatible with trade-secret-based, proprietary, or opaque business models.
 
+**The Supremacy of Life:** The requirement for total transparency is necessitated by the fact that when a system or methodology affects the life of another Human Being — including their worldview, habits, health, or cognitive autonomy — that influence must be fully observable. **Life and Human Dignity are the supreme values.** No monetary compensation, proprietary interest, or commercial necessity can ever outweigh the requirement for transparency when such influence exists.
+
+**If secrecy is required — S.V.E. must not be used.**
+
+**The Principle of Voluntary Association:**\ 
+We do not call upon anyone to change their way of life, nor do we dictate how individuals or entities should build their economic or social relationships. Every actor possesses the **absolute freedom of choice**.
+
+Entering into a relationship with S.V.E. is a **sovereign decision**. If an entity values secrecy, proprietary opacity, or confidential logic over total transparency, it is free to pursue those models outside of this framework.
+
+**It is a FREE CHOICE:**\ 
+**If secrecy is required — S.V.E. must not be used.** 
+
+By choosing to touch, utilize, or derive from S.V.E., the actor acknowledges that they have prioritized the values of Truth, Love, and Life over the value of Secrecy for that specific endeavor.
+
 **If secrecy is required — S.V.E. must not be used.**
 
 ---
@@ -135,6 +149,8 @@ Unlike the economic mechanisms (Tier 2), transparency requirements **cannot be o
 4.2. Any attempt to isolate S.V.E. logic while hiding surrounding system data, decision pathways, or beneficiaries constitutes a **material breach**.
 
 4.3. **Derivatives of logic** — including weights, parameters, learned representations, semantic manifolds, or structural optimizations — are **Derivative Works** and subject to full transparency and share-alike obligations.
+
+**4.4. Freedom of Choice & Public Offer.** This License is a voluntary Public Offer. S.V.E. does not compel any person or entity to renounce their secrets or change their way of life. Every actor is free to decide how to live and what relationships to enter. However, the use of the "S.V.E. Light" (its logic, code, or outputs) is strictly conditional. **If you wish to maintain secrecy, you must simply refrain from using S.V.E.** By touching or utilizing any part of this framework, you explicitly and autonomously agree to these terms.
 
 ---
 
