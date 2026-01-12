@@ -863,13 +863,8 @@ Community Treasury may waive fees for hardship or force majeure.
 
 ---
 
-**Effective Date:** October 2025  
-Governed by S.V.E. Public License v1.3+ and Declaration of Interim Custody v1.3.
-
----
-
 **© S.V.E. — Public Stewardship Framework**  
-**Version 1.4 — Complete Consolidated Edition**  
+**Version 1.4 — Complete Consolidated Edition** (Extending S.V.E. Public License v1.3+ and Declaration of Interim Custody v1.3.)  
 **Effective: 12 January 2026**
 
 *Linked to SVE License v1.3 via Hash-Verification.*
