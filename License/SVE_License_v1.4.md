@@ -297,6 +297,8 @@ Any employee, contractor, or participant who was part of the violating system bu
 
 This amnesty is **unconditional and irrevocable** once evidence is verified as materially contributing to successful enforcement.
 
+*Immunity from all civil claims and enforcement actions within the S.V.E. framework*
+
 **I.1.4 Divine Escrow**  
 If no informant exists:
 - the 4% is placed into **Divine Escrow**;
