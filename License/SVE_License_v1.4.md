@@ -470,6 +470,10 @@ Systems must computationally enforce the "Invariance of the Actor".
 **VI.2 Violation Standard**  
 Violation of this symmetry (treating a Subject as an Object/Resource) generates measurable **δ-dehumanization**, serving as the primary evidence for litigation. Any architecture that facilitates asymmetric benefit through dehumanization (δ-growth) is considered defective and subject to immediate enforcement.
 
+**VI.3. Empirical Evolution & Adaptive Standard** > The specific mathematical models and parameters for calculating **δ-dehumanization** are subject to continuous refinement based on empirical research, peer-reviewed data, and/or consensus of the **S.V.E. Veche**.
+
+In any enforcement action, the **'Current Best Model'** as officially recognized in the S.V.E. Registry at the time of the violation (or a later improved version) shall be used as the evidentiary standard. Any technical dispute regarding δ-metrics shall be resolved by the **Veche-Arbitration** (Section 6.5) to ensure the logic remains consistent with the **Axiom of Actor-Symmetry**.
+
 ---
 
 ## Article VII — Public Dedication, Author's Renunciation & Humanity Clause
@@ -539,6 +543,8 @@ Pressure applied anywhere **does not propagate**.
 
 ### VII.6. Interpretative Principle
 This License is a moral framework. In any ambiguity or conflict, the interpretation that maximizes Truth and Love — according to the teachings of Jesus Christ — shall prevail over any legalistic or technical bypass.
+
+The Spirit of this License — rooted in Truth, Love, and Systemic Transparency — shall always prevail over the literal 'letter' of the text if the latter is used to facilitate deception, opacity, or dehumanization. Any 'legal hack' intended to bypass transparency requirements is a material breach by intent.
 
 ---
 
