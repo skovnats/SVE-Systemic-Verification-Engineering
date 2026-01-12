@@ -6,6 +6,8 @@
 **Retroactivity:** Full, Automatic, Irrevocable  
 **Basis:** Geometric Deep Learning (GDL) & Axiom of Actor-Symmetry
 
+**Moral North Star:** Any interpretation of this License, its protocols, and its enforcement mechanisms shall be guided by the principles of Truth and Love as established in the teachings of Jesus Christ.
+
 ---
 
 ## PREAMBLE
@@ -533,6 +535,10 @@ Because S.V.E. is:
 **there exists no single point of leverage** within the system.
 
 Pressure applied anywhere **does not propagate**.
+
+
+### VII.6. Interpretative Principle
+This License is a moral framework. In any ambiguity or conflict, the interpretation that maximizes Truth and Love — according to the teachings of Jesus Christ — shall prevail over any legalistic or technical bypass.
 
 ---
 
