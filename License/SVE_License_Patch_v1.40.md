@@ -8,7 +8,7 @@
 
 ### **Moral North Star:** Any interpretation of this License, its protocols, and its enforcement mechanisms shall be guided by the principles of Truth and Love as established in the teachings of Jesus Christ.
 
-### Secular version (apply only if **Moral North Star** is not sufficientx):
+### Secular version (apply only if **Moral North Star** is not sufficient):
 **Final Interpretative Authority:** Any ambiguity or dispute regarding this License shall be resolved through:
 
 **Primary Principle:** Interpretation governed by the principles of **Truth and Love** as established in the teachings of Jesus Christ.
@@ -33,7 +33,7 @@
 
 **The Principle of Voluntary Association:** Entering into S.V.E. is a sovereign decision. If an entity values secrecy or opacity over transparency, it is free to pursue those models outside this framework.
 
-**If secrecy is required — S.V.E. must not be used.**
+**If secrecy is required â€” S.V.E. must not be used.**
 
 ---
 
@@ -42,7 +42,7 @@
 ## 1. Legal Authority, Supremacy & Continuity
 
 ### 1.1 Authority to Amend
-This v1.4 Consolidated Framework is issued pursuant to the governance mechanisms established in **S.V.E. Public License v1.3** and the **Declaration of Interim Custody v1.3**. The Author’s renunciation in v1.3 was a renunciation of *exclusive personal/private ownership*, not a renunciation of the right to establish and refine **Public Stewardship Protocols**. The Author acts here as the Initial Custodian of the system's integrity, ensuring that the "Common" remains protected from opacity.
+This v1.4 Consolidated Framework is issued pursuant to the governance mechanisms established in **S.V.E. Public License v1.3** and the **Declaration of Interim Custody v1.3**. The Authorâ€™s renunciation in v1.3 was a renunciation of *exclusive personal/private ownership*, not a renunciation of the right to establish and refine **Public Stewardship Protocols**. The Author acts here as the Initial Custodian of the system's integrity, ensuring that the "Common" remains protected from opacity.
 
 ### 1.2 Hierarchy of Versions (Supremacy Clause)
 In the event of any technical, legal, or semantic conflict between the provisions of v1.3 and v1.4, the provisions of **v1.4 shall prevail and supersede**. All rights, permissions, and waivers granted under v1.3 are hereby refined and strictly governed by the enforcement mechanisms of v1.4.
@@ -134,8 +134,8 @@ In executing v1.4, the Author acts in TWO distinct capacities:
    - Limitation: Cannot restore personal ownership or exclusive rights
 
 **Legal Precedent:** This structure mirrors:
-- Creative Commons license evolution (BY-SA 3.0 → 4.0)
-- GPL license amendments (v2 → v3)
+- Creative Commons license evolution (BY-SA 3.0 â†’ 4.0)
+- GPL license amendments (v2 â†’ v3)
 - Public trust doctrine in common law
 
 ### Structural Continuity
@@ -144,8 +144,8 @@ v1.3 created the FRAMEWORK (public commons + transparency requirements).
 v1.4 establishes the MECHANISMS (enforcement + economic incentives).
 
 **No Contradiction Exists:**
-- v1.3: "I create a public commons without personal control" ✓
-- v1.4: "Here are the operational rules for that commons" ✓
+- v1.3: "I create a public commons without personal control" âœ“
+- v1.4: "Here are the operational rules for that commons" âœ“
 
 **Anti-Exploitation Principle:**
 Any argument that v1.4 is invalid due to v1.3 renunciation is:
@@ -166,7 +166,7 @@ Required for **ALL** S.V.E. derivative works without exception:
 - **Anti-Bypass & Anti-Evasion** (Section 4)
 - **Verification Persistence** (Section 5.4)
 - **Beneficiary Accountability** (Section 5.3)
-- **δ-Metrics Compliance** (Article VI)
+- **Î´-Metrics Compliance** (Article VI)
 
 **These requirements CANNOT be waived, modified, or negotiated.**
 
@@ -200,12 +200,12 @@ This includes but is not limited to:
 - Source code and compiled binaries
 - Model architectures and trained weights
 - Semantic manifolds and parameter configurations
-- ISC implementations and δ-dehumanization metrics
+- ISC implementations and Î´-dehumanization metrics
 - CogOS modules and PEMY systems
 - Any system incorporating S.V.E. logic or concepts
 
 ### 2.2.1 Intellectual & Scientific Propagation
-Any scientific paper, article, report, or educational material that substantively relies on S.V.E. logic, utilizes its δ-metrics for analysis, or presents findings derived through S.V.E. methodologies is considered a **Derivative Work**.
+Any scientific paper, article, report, or educational material that substantively relies on S.V.E. logic, utilizes its Î´-metrics for analysis, or presents findings derived through S.V.E. methodologies is considered a **Derivative Work**.
 
 Such works must be published under the S.V.E. License to ensure that the "Truth" remains transparent and the underlying verification data is accessible.
 
@@ -224,7 +224,7 @@ Use of any S.V.E. component constitutes an **explicit, unconditional, and irrevo
 
 This waiver applies to the **entire legal entity** using S.V.E., including affiliates, subsidiaries, contractors, and beneficiaries.
 
-**Rule:** *If you require commercial secrecy — you are prohibited from using S.V.E.*
+**Rule:** *If you require commercial secrecy â€” you are prohibited from using S.V.E.*
 
 ---
 
@@ -255,7 +255,7 @@ Any mathematical parameters, model weights, or structural optimizations derived,
 Providing access to S.V.E.-based functions via a network (API, SaaS, or decentralized protocols) constitutes "Use" under this license.
 
 ### 5.3 Beneficiary Accountability
-The **End Beneficiary** — the entity receiving final economic, strategic, or operational value — bears full responsibility for license compliance.
+The **End Beneficiary** â€” the entity receiving final economic, strategic, or operational value â€” bears full responsibility for license compliance.
 
 ### 5.4 Attribution & Verification Persistence
 All S.V.E.-based outputs must retain a **persistent verification reference** (hash, watermark, or compliance-log pointer).
@@ -310,7 +310,7 @@ This License survives:
 - Death or unavailability of author
 
 ### 7.1 Non-Contradiction of Renunciation
-The Author’s renunciation in v1.3 remains absolute. This v1.4 does **not** restore private property rights to the Author. Instead, it provides the **operational software** for the public common that v1.3 created. An entity claiming v1.4 is invalid due to the v1.3 renunciation effectively admits to using S.V.E. assets and is therefore immediately bound by the **Total Transparency** requirements of v1.3, which are functionally equivalent to v1.4 in their demand for truth. There is no "version-hopping" path to secrecy.
+The Authorâ€™s renunciation in v1.3 remains absolute. This v1.4 does **not** restore private property rights to the Author. Instead, it provides the **operational software** for the public common that v1.3 created. An entity claiming v1.4 is invalid due to the v1.3 renunciation effectively admits to using S.V.E. assets and is therefore immediately bound by the **Total Transparency** requirements of v1.3, which are functionally equivalent to v1.4 in their demand for truth. There is no "version-hopping" path to secrecy.
 
 ## Extension & Retroactivity
 
@@ -385,8 +385,8 @@ This document is:
 Version conflicts resolve in favor of maximum transparency, never in favor of opacity, evasion, or reduced accountability.
 
 **Practical Effect:**
-- If v1.3 appears stricter in area X → apply v1.3 to area X
-- If v1.4 appears stricter in area Y → apply v1.4 to area Y
+- If v1.3 appears stricter in area X â†’ apply v1.3 to area X
+- If v1.4 appears stricter in area Y â†’ apply v1.4 to area Y
 - Net result: Highest protection across all dimensions
 
 ### "No Gaps" Doctrine
@@ -415,7 +415,7 @@ The combination of v1.3 + v1.4 creates **comprehensive coverage** with no exploi
 
 ## Article I: Economic Enforcement Mechanism
 
-### I.1 The 4% Rule — Priority of Truth (First Deduction)
+### I.1 The 4% Rule â€” Priority of Truth (First Deduction)
 
 A fixed **4% of the total recovery amount** is deducted **before any other calculation**, reserved exclusively for **Messengers of Truth** (informants/whistleblowers).
 
@@ -436,7 +436,7 @@ Lead Counsel and the S.V.E. Fund bear **joint and several liability** for physic
 
 Failure to protect = Counsel forfeits entire share + permanent expulsion.
 
-### I.2 Recovery Ladder (Applied to Remaining 96%, Claims ≤ USD 1B)
+### I.2 Recovery Ladder (Applied to Remaining 96%, Claims â‰¤ USD 1B)
 
 For the first USD 1B of recovery:
 
@@ -454,7 +454,7 @@ For the first USD 1B of recovery:
 - **Merit Bonus:** 5% awarded to Enforcer(s) who demonstrate the highest intellectual contribution:
   - Exposing "ontological voids" in defendant's system
   - Proving systemic dehumanization patterns
-  - Novel application of δ-metrics
+  - Novel application of Î´-metrics
   - **Decided by Veche community vote**
 
 **Rationale:** Incentivizes deep intellectual engagement rather than routine enforcement.
@@ -526,7 +526,7 @@ Consortiums may dissolve at any time. Upon dissolution:
 ## Article III: S.V.E. Family Status & PEMY Integration
 
 ### III.1 Induction into the S.V.E. Family
-Complete **one enforcement case** → inducted into S.V.E. Family
+Complete **one enforcement case** â†’ inducted into S.V.E. Family
 
 ### III.2 Rights of Family Members
 - **Veche (DAO) voting rights**
@@ -597,7 +597,7 @@ The **CogOS Auditor** must satisfy:
 
 **Structural Independence:**
 - Reports directly to **S.V.E. Veche (DAO)**, not to audited organization
-- **Unilateral authority** to issue δ-metric findings without approval
+- **Unilateral authority** to issue Î´-metric findings without approval
 - **Protected status:** Cannot be terminated without Veche supermajority vote
 - **Whistleblower channel:** Direct access to enforcement Counsel
 
@@ -607,7 +607,7 @@ To serve as CogOS Auditor, individual must possess:
 
 **Technical Certification:**
 - Demonstrated expertise in geometric deep learning (GDL)
-- Practical experience with δ-dehumanization metric calculation
+- Practical experience with Î´-dehumanization metric calculation
 - Peer-validated contributions to Legal VKB
 - Successful completion of at least one audit under senior supervision
 
@@ -637,7 +637,7 @@ When auditing academic research:
 
 **IV.5.5 Emergency Override Authority**
 
-In cases where auditor detects **imminent δ-catastrophe**:
+In cases where auditor detects **imminent Î´-catastrophe**:
 - Auditor has **unilateral authority** to issue immediate cease-and-desist
 - System operations must halt within 24 hours pending investigation
 - Burden shifts to audited entity to prove safety before resumption
@@ -671,10 +671,10 @@ All S.V.E. Counsel are **required** to contribute:
 - "Black box" defense patterns
 - Trade secret claims used as shields
 
-**δ-Metric Evasion Attempts:**
+**Î´-Metric Evasion Attempts:**
 - Technical arguments used to challenge dehumanization measurements
 - Statistical manipulation strategies
-- Attempts to reframe δ-growth as "optimization"
+- Attempts to reframe Î´-growth as "optimization"
 - Ontological redefinition tactics
 
 **V.1.2 Non-Proprietary & Irrevocable**
@@ -707,7 +707,7 @@ Every enforcement case shall pair:
 - **one Counsel**, and
 - **one CogOS / S.V.E. Auditor**
 
-For interpretation of systemic distortion and δ-metrics during litigation, ensuring the "Truth" is mathematically undeniable in court.
+For interpretation of systemic distortion and Î´-metrics during litigation, ensuring the "Truth" is mathematically undeniable in court.
 
 This pairing is **mandatory**.
 
@@ -727,9 +727,9 @@ Where:
 - \(E(A \to B)\) represents the effect of Actor A on Actor B
 - \(\delta\) represents the dehumanization metric
 
-**Violation Standard:** Asymmetric benefit through dehumanization (δ-growth) = measurable evidence for litigation.
+**Violation Standard:** Asymmetric benefit through dehumanization (Î´-growth) = measurable evidence for litigation.
 
-**Adaptive Standard:** δ-metrics subject to continuous refinement. "Current Best Model" at time of violation applies. Technical disputes resolved by Veche-Arbitration.
+**Adaptive Standard:** Î´-metrics subject to continuous refinement. "Current Best Model" at time of violation applies. Technical disputes resolved by Veche-Arbitration.
 
 ---
 
@@ -765,7 +765,7 @@ Because S.V.E. is ownerless, leaderless by design, economically self-enforcing, 
 
 ### VII.6 Interpretative Principle
 
-This License is a moral framework. In any ambiguity or conflict, the interpretation that maximizes Truth and Love — according to the teachings of Jesus Christ — shall prevail over any legalistic or technical bypass.
+This License is a moral framework. In any ambiguity or conflict, the interpretation that maximizes Truth and Love â€” according to the teachings of Jesus Christ â€” shall prevail over any legalistic or technical bypass.
 
 ### VII.6.1 Interpretative Hierarchy (NEW)
 
@@ -788,7 +788,7 @@ Any interpretation that increases opacity, reduces accountability, weakens enfor
 
 ## Article VII.7: The Nature of S.V.E. as a Reactive Protocol
 
-This License is not a "license" in the traditional proprietary sense; it does not imply ownership or the exercise of power by one entity over another. Instead, it is a **Reactive Protocol of Rules** that remains inert—non-existent as an active legal subject—until it is "touched" or utilized by an Actor.
+This License is not a "license" in the traditional proprietary sense; it does not imply ownership or the exercise of power by one entity over another. Instead, it is a **Reactive Protocol of Rules** that remains inertâ€”non-existent as an active legal subjectâ€”until it is "touched" or utilized by an Actor.
 
 ### VII.7.1 Activation by Conduct
 
@@ -839,7 +839,7 @@ Because there is no single entity to pressure, bribe, or intimidate, the protoco
 
 ***
 
-**Key Principle:** S.V.E. is not imposed—it is **chosen**. But once chosen, it is **binding**.
+**Key Principle:** S.V.E. is not imposedâ€”it is **chosen**. But once chosen, it is **binding**.
 
 ---
 
@@ -850,8 +850,8 @@ Because there is no single entity to pressure, bribe, or intimidate, the protoco
 When S.V.E.-based research is conducted within institutional settings:
 
 **Primary Allocation:**
-- **Organization (Institute/University):** 90–50% of total claim amount
-- **Researcher:** 10–50% (proportional to degree of fault and circumstances)
+- **Organization (Institute/University):** 90â€“50% of total claim amount
+- **Researcher:** 10â€“50% (proportional to degree of fault and circumstances)
 
 ### VIII.2 Primary Defendant Identification
 
@@ -981,7 +981,7 @@ This License may be amended only through:
 
 When an S.V.E.-based system (including CogOS implementations) autonomously halts operations upon detecting:
 - An **ontological hole** (fundamental logical inconsistency)
-- A **δ-singularity** (catastrophic dehumanization threshold)
+- A **Î´-singularity** (catastrophic dehumanization threshold)
 - An **epistemic void** (state where continued operation would generate systematic lies)
 
 ...such self-termination is classified as a **good faith protective action**, not a service failure.
@@ -1064,7 +1064,7 @@ This Protocol targets the **Intent to Deceive**, not the human capacity for mist
 
 ## Core Values
 
-**Truth · Transparency · Human Dignity · Methodological Integrity**
+**Truth Â· Transparency Â· Human Dignity Â· Methodological Integrity**
 
 ---
 
@@ -1072,30 +1072,30 @@ This Protocol targets the **Intent to Deceive**, not the human capacity for mist
 
 ## License Compliance Tiers
 
-### ✓ TIER 1: MANDATORY (Cannot be waived)
+### âœ“ TIER 1: MANDATORY (Cannot be waived)
 
 **Required for ALL S.V.E. derivative works:**
 
 | Requirement | Reference | Negotiable? |
 |------------|-----------|-------------|
-| Total Transparency | Section 3 | ❌ NO |
-| Share-Alike Propagation | Section 2 | ❌ NO |
-| Anti-Bypass/Evasion | Section 4 | ❌ NO |
-| Verification Persistence | Section 5.4 | ❌ NO |
-| Beneficiary Accountability | Section 5.3 | ❌ NO |
-| δ-Metrics Compliance | Article VI | ❌ NO |
+| Total Transparency | Section 3 | âŒ NO |
+| Share-Alike Propagation | Section 2 | âŒ NO |
+| Anti-Bypass/Evasion | Section 4 | âŒ NO |
+| Verification Persistence | Section 5.4 | âŒ NO |
+| Beneficiary Accountability | Section 5.3 | âŒ NO |
+| Î´-Metrics Compliance | Article VI | âŒ NO |
 
-### ⊕ TIER 2: ADOPTABLE (Optional but recommended)
+### âŠ• TIER 2: ADOPTABLE (Optional but recommended)
 
 **Required for S.V.E. Family membership & compliance certification:**
 
 | Mechanism | Reference | Optional? |
 |-----------|-----------|-----------|
-| Recovery Ladder | Article I.2 | ✓ For derivatives |
-| 4% Informant Priority | Article I.1 | ✓ For derivatives |
-| PEMY Integration | Article III | ✓ For derivatives |
-| Legal Consortium Rights | Article II | ✓ For derivatives |
-| S.V.E. Family Membership | Article III | ✓ For derivatives |
+| Recovery Ladder | Article I.2 | âœ“ For derivatives |
+| 4% Informant Priority | Article I.1 | âœ“ For derivatives |
+| PEMY Integration | Article III | âœ“ For derivatives |
+| Legal Consortium Rights | Article II | âœ“ For derivatives |
+| S.V.E. Family Membership | Article III | âœ“ For derivatives |
 
 ---
 
@@ -1103,14 +1103,14 @@ This Protocol targets the **Intent to Deceive**, not the human capacity for mist
 
 ### Step 1: The 4% Priority Deduction
 
-✓ 4% deducted FIRST (before all other calculations)  
-✓ Full Legal Immunity for informants (unconditional)  
-✓ Complete Amnesty (protection from prosecution)  
-✓ Joint Security Liability (Counsel + Fund responsible)  
-✓ Divine Escrow if no informant exists (coin toss)  
-✓ Failure to protect = Counsel forfeits entire share + permanent expulsion  
+âœ“ 4% deducted FIRST (before all other calculations)  
+âœ“ Full Legal Immunity for informants (unconditional)  
+âœ“ Complete Amnesty (protection from prosecution)  
+âœ“ Joint Security Liability (Counsel + Fund responsible)  
+âœ“ Divine Escrow if no informant exists (coin toss)  
+âœ“ Failure to protect = Counsel forfeits entire share + permanent expulsion  
 
-### Step 2: Recovery Ladder (for amounts ≤ $1B)
+### Step 2: Recovery Ladder (for amounts â‰¤ $1B)
 
 | Phase | Counsel | Fund |
 |-------|---------|------|
@@ -1161,50 +1161,50 @@ Lead Counsel and Partners split the Counsel Share **50/50**
 
 ## Counsel Lifecycle Summary
 
-1. **Entry:** Complete one S.V.E. enforcement case → inducted into S.V.E. Family
+1. **Entry:** Complete one S.V.E. enforcement case â†’ inducted into S.V.E. Family
 2. **Family Benefits:** Veche voting + PEMY yield + VKB access
 3. **Violation:** Permanent Ban + loss of all rights
 4. **Repentance:** Return as Tier-Y Junior (10% cap + coin audits + 2x VKB requirements)
-5. **Restoration:** Merit-based VKB contributions → full Family status
+5. **Restoration:** Merit-based VKB contributions â†’ full Family status
 
 ---
 
 ## CogOS Protection & Requirements
 
-✓ AI self-shutdown = good faith act (no SLA violation)  
-✓ Ontological alerts must be addressed (expand or cease use)  
-✓ Ignoring warnings = automatic intentional deception  
-✓ Auditors must be structurally independent (Veche reporting)  
-✓ Emergency override authority for δ-catastrophe  
+âœ“ AI self-shutdown = good faith act (no SLA violation)  
+âœ“ Ontological alerts must be addressed (expand or cease use)  
+âœ“ Ignoring warnings = automatic intentional deception  
+âœ“ Auditors must be structurally independent (Veche reporting)  
+âœ“ Emergency override authority for Î´-catastrophe  
 
 ---
 
 ## Auditor Independence Checklist
 
-✓ No direct employment by audited entity  
-✓ Paid from S.V.E. Fund or neutral escrow (max 10% from single entity)  
-✓ Reports to Veche (not organization)  
-✓ Tenure-equivalent protection from retaliation  
-✓ S.V.E. Family certification required  
-✓ Emergency override authority in critical situations  
+âœ“ No direct employment by audited entity  
+âœ“ Paid from S.V.E. Fund or neutral escrow (max 10% from single entity)  
+âœ“ Reports to Veche (not organization)  
+âœ“ Tenure-equivalent protection from retaliation  
+âœ“ S.V.E. Family certification required  
+âœ“ Emergency override authority in critical situations  
 
 ---
 
 ## Scientific Responsibility (Research Context)
 
-✓ Organization bears 90-50% liability  
-✓ PI is primary defendant (not junior staff)  
-✓ Students/postdocs automatically protected  
-✓ Individual liability only for proven intentional fraud  
+âœ“ Organization bears 90-50% liability  
+âœ“ PI is primary defendant (not junior staff)  
+âœ“ Students/postdocs automatically protected  
+âœ“ Individual liability only for proven intentional fraud  
 
 ---
 
 ## VKB Contribution Categories
 
-✓ **Corporate Deception Patterns** (obfuscation, legal theater, documentation destruction)  
-✓ **Procedural Obstruction Tactics** (forum shopping, discovery abuse, bad faith)  
-✓ **Evidentiary Suppression Methods** (jargon abuse, witness capture, black boxes)  
-✓ **δ-Metric Evasion Attempts** (statistical manipulation, ontological redefinition)  
+âœ“ **Corporate Deception Patterns** (obfuscation, legal theater, documentation destruction)  
+âœ“ **Procedural Obstruction Tactics** (forum shopping, discovery abuse, bad faith)  
+âœ“ **Evidentiary Suppression Methods** (jargon abuse, witness capture, black boxes)  
+âœ“ **Î´-Metric Evasion Attempts** (statistical manipulation, ontological redefinition)  
 
 **Scoring System:**
 - +10 points: Novelty (first documentation)
@@ -1216,11 +1216,11 @@ Lead Counsel and Partners split the Counsel Share **50/50**
 
 ## Negotiation Framework
 
-✓ Transparency = non-negotiable  
-✓ All other provisions = adaptable by agreement  
-✓ Requires honest dialogue + audit consent  
-✓ Flexibility for good faith actors  
-✓ Zero tolerance for flexibility abuse  
+âœ“ Transparency = non-negotiable  
+âœ“ All other provisions = adaptable by agreement  
+âœ“ Requires honest dialogue + audit consent  
+âœ“ Flexibility for good faith actors  
+âœ“ Zero tolerance for flexibility abuse  
 
 ---
 
@@ -1257,18 +1257,18 @@ Lead Counsel and Partners split the Counsel Share **50/50**
 
 ## Core Principles
 
-1. **Integrity before profit** — truth overrides gain
-2. **Proportional reward** — pay grows with measurable value
-3. **Open accountability** — every transaction auditable
-4. **Human-first** — social or data value may substitute payment if funds limited
+1. **Integrity before profit** â€” truth overrides gain
+2. **Proportional reward** â€” pay grows with measurable value
+3. **Open accountability** â€” every transaction auditable
+4. **Human-first** â€” social or data value may substitute payment if funds limited
 
 ## Base Compensation
 
 Each contributor receives:
-- **Payment:** Median market rate (≈99.9% regional average)
+- **Payment:** Median market rate (â‰ˆ99.9% regional average)
 - **Reimbursement:** For verified infrastructure costs
 
-Ensures parity with industry norms — no markup, no exploitation.
+Ensures parity with industry norms â€” no markup, no exploitation.
 
 ## Success Fee / Impact Share
 
@@ -1308,7 +1308,85 @@ Each engagement must keep an **S.V.E. Compliance Log** with:
 - Proof of benefit
 - Payment & distribution summary
 
-**Public by default; embargo ≤ 12 months.**
+**Public by default; embargo â‰¤ 12 months.**
+
+---
+
+## Appendix C: Common Corporate Arguments & Responses
+
+### Scenario 1: "We used v1.3 before v1.4 existed"
+
+**Corporate Argument:**
+"We adopted S.V.E. v1.3 in November 2025. v1.4 didn't exist then. We should be grandfathered under v1.3-only terms."
+
+**Response:**
+- v1.3 Clause 8 explicitly reserved right to evolve
+- v1.3 mandated transparency (same as v1.4)
+- v1.4 merely operationalizes v1.3 transparency requirement
+- **Outcome:** v1.4 fully applies; no grandfathering
+
+**Legal Basis:** Conditional Grant Doctrine + Evolutionary Framework (Section "Extension & Retroactivity")
+
+---
+
+### Scenario 2: "v1.4 is invalid, author had no authority"
+
+**Corporate Argument:**
+"Author renounced all rights in v1.3 Article VII. Therefore, he had no authority to issue v1.4."
+
+**Response:**
+- Renunciation was of PRIVATE OWNERSHIP, not PUBLIC CUSTODIANSHIP
+- Author acts as Interim Custodian per Declaration of Interim Custody v1.3
+- v1.4 issued under governance framework of v1.3 Clause 8
+- **Outcome:** Authority confirmed; v1.4 valid
+
+**Legal Basis:** Section 1.1 "Authority to Amend" + Dual Capacity Doctrine
+
+---
+
+### Scenario 3: "We reject v1.4, but keep using S.V.E."
+
+**Corporate Argument:**
+"We don't accept v1.4 changes. We'll continue using S.V.E. under v1.3-only."
+
+**Response:**
+- v1.3 reference now means "v1.3 as amended by v1.4" (Section 1)
+- Rejection of v1.4 = rejection of ALL S.V.E. usage rights
+- Only option: CEASE ALL S.V.E. USE immediately
+- **Outcome:** Continued use under v1.3-only is void ab initio
+
+**Legal Basis:** Section 1.3 "Automatic Nullification"
+
+---
+
+### Scenario 4: "Religious principle unenforceable"
+
+**Corporate Argument:**
+"The 'Moral North Star' clause invoking Jesus Christ is religious discrimination and unenforceable in secular courts."
+
+**Response:**
+- Secular equivalent explicitly provided (Preamble)
+- All interpretative paths converge on same outcome: maximum transparency
+- Legal maxims: *Contra proferentem*, *Ut res magis valeat quam pereat*
+- **Outcome:** Courts apply secular equivalent; result identical
+
+**Legal Basis:** Preamble "Secular Equivalent" + Section 2.2 "Spiritual & Interpretative Anchor"
+
+---
+
+### Scenario 5: "No formal notice of amendment"
+
+**Corporate Argument:**
+"We never received formal notification of v1.4. It shouldn't apply to us without proper notice."
+
+**Response:**
+- Public publication + cryptographic timestamping = constructive notice
+- S.V.E. users have duty to monitor license evolution (v1.3 Clause 8)
+- 90-day transition period provided (until 12 April 2026)
+- **Outcome:** Lack of personal notification is not a defense
+
+**Legal Basis:** Section 2 "Anti-Evasion Interpreta
+
 
 ---
 
@@ -1324,8 +1402,8 @@ This document is:
 
 ---
 
-**© S.V.E. — Public Stewardship Framework**  
-**Version 1.4 — Complete Consolidated Edition**  
+**Â© S.V.E. â€” Public Stewardship Framework**  
+**Version 1.4 â€” Complete Consolidated Edition**  
 **Effective: 12 January 2026**
 
 **Extending S.V.E. Public License v1.3 and Declaration of Interim Custody v1.3**
