@@ -86,6 +86,6 @@
 
 ---
 
-# From Artiom: ALWAYS DOUBT/CHECK EVERYTHING! Including these Prompts/outputs/theory etc.
+# From ArtIOm: ALWAYS DOUBT/CHECK EVERYTHING! Including these Prompts/outputs/theory etc.
 **"Ye shall know them by their fruits."**
 — Matthew 7:16 (KJV)
