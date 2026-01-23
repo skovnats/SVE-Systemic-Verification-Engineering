@@ -1,10 +1,3 @@
-
-***
-
-# DOCUMENT 3: Version Synthesis Registry (Initial Version)
-
-***
-
 # S.V.E. VERSION SYNTHESIS REGISTRY
 ## Official Record of Multi-Version Element Selection
 
