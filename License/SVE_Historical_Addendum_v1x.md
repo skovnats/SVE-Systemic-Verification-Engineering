@@ -1,7 +1,3 @@
-# DOCUMENT 2: Historical Addendum for Prior Versions (UPDATED)
-
-***
-
 # ADDENDUM FOR HISTORICAL S.V.E. REFERENCES (v1.0-1.3)
 
 **Date:** January 23, 2026  
