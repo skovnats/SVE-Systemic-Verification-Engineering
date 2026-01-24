@@ -1,0 +1,52 @@
+S.V.E. UNIFIED SYSTEM MANIFEST & REGISTRY
+Version: 1.0
+Date: January 24, 2026
+Signatory: Artiom Kovnatsky
+
+PURPOSE:
+This manifest unifies the S.V.E. Core License v2.0 with all historical patches and developmental versions. By signing this manifest, the Signatory affirms that all listed documents form the single "S.V.E. Systemic Verification Engineering" framework.
+
+OPERATIONAL HIERARCHY (Per License v2.0, Section 0.9):
+1. CORE: S.V.E. Public License v2.0 (Governing Constitution)
+2. ACTIVE PATCHES: v2.1 (Spirit), v2.2 (Emergency), v2.3 (Compliance), v2.4 (Legal)
+3. HISTORICAL LIBRARY (The "Zeno Series" v1.33 - v1.499...): 
+   These files serve as a repository of protective clauses. Under the "Maximum Protection Rule," any specific provision in these files that offers superior protection to vulnerable parties or greater transparency than the Core shall take precedence in specific edge cases.
+
+INCLUDED MODULES:
+
+[ACTIVE CORE]
+- SVE_License_v2.0.md
+- SVE_License_Patch_v2.1.md (Spirit Foundation)
+- SVE_License_Patch_v2.2.md (Emergency Protocols)
+- SVE_License_Patch_v2.3.md (Implementation)
+- SVE_License_Patch_v2.4.md (Legal Framework)
+
+[HISTORICAL & TRANSITIONAL SERIES - "THE LONG TAIL"]
+- SVE_License_Patch_v1.33.md
+- SVE_License_Patch_v1.36.md
+- SVE_License_Patch_v1.39.md
+- SVE_License_Patch_v1.40.md
+- SVE_License_Patch_v1.41.md
+- SVE_License_Patch_v1.42.md
+- SVE_License_Patch_v1.43.md
+- SVE_License_Patch_v1.44.md
+- SVE_License_Patch_v1.4.1.md
+- SVE_License_Patch_v1.45.md
+- SVE_License_Patch_v1.46.md
+- SVE_License_Patch_v1.47.md
+- SVE_License_Patch_v1.48.md
+- SVE_License_Patch_v1.49.md
+- SVE_License_Patch_v1.50.md
+- SVE_License_Patch_v1.499.md
+- SVE_License_Patch_v1.4999.md
+- SVE_License_Patch_v1.49999.md
+- SVE_License_Patch_v1.499999.md
+- SVE_License_Patch_v1.4999999.md
+- SVE_License_Patch_v1.49999999.md
+- SVE_License_Patch_v1.4999999999.md
+- SVE_License_Patch_v1.49999_AMENDMENT-A.md
+- SVE_License_Patch_v1.49999_AMENDMENT-Ω.md
+
+DECLARATION:
+All files listed above are validated by the single digital signature attached to this container. 
+System Integrity is absolute.
