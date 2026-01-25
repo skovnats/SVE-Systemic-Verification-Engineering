@@ -1,4 +1,4 @@
-# 📌 Systemic Verification Log — Week ±7/63  
+# 📌 Systemic Verification Log — Week ±9/63  
 Berlin | Public Record | No Commentary
 
 This video is a raw, unedited weekly record.
@@ -7,7 +7,7 @@ No commentary. No narrative. Fixed institutional baseline.
 The purpose is *documentation and comparison*.
 Interpretation is intentionally excluded.
 
-## YouTube video Week ±7/63: 
+## YouTube video Week ±9/63: 
 * *AI-generated subtitles (may have errors)*
 
 ---
@@ -25,44 +25,33 @@ Interpretation is intentionally excluded.
 #TODO
 
 ## ⏱ All timestamps link to original, chronologically ordered video: 
+ - artem__dmytruk__2025-09-15T072320.000Z.mp4
+ - artem__dmytruk__2025-09-15T104551.000Z.mp4
+ - artem__dmytruk__2025-09-16T091904.000Z.mp4
+ - artem__dmytruk__2025-09-16T203227.000Z.mp4
+ - artem__dmytruk__2025-09-16T221435.000Z.mp4
+ - artem__dmytruk__2025-09-17T173711.000Z.mp4
+ - artem__dmytruk__2025-09-19T170722.000Z.mp4
+ - artem__dmytruk__2026-01-19T161043.000Z.mp4
+ - artem__dmytruk__2026-01-19T161811.000Z.mp4
+ - artem__dmytruk__2026-01-19T163513.000Z.mp4
+ - artem__dmytruk__2026-01-19T222037.000Z.mp4
+ - artem__dmytruk__2026-01-20T171130.000Z.mp4
+ - artem__dmytruk__2026-01-20T192129.000Z.mp4
+ - artem__dmytruk__2026-01-20T222923.000Z.mp4
+ - artem__dmytruk__2026-01-21T193958.000Z.mp4
+ - artem__dmytruk__2026-01-22T183530.000Z.mp4
+ - artem__dmytruk__2026-01-22T204956.000Z.mp4
+ - artem__dmytruk__2026-01-23T092325.000Z.mp4
+ - artem__dmytruk__2026-01-24T081122.000Z.mp4
+ - artem__dmytruk__2026-01-24T085454.000Z.mp4
+ - artem__dmytruk__2026-01-24T085734.000Z.mp4
+ - artem__dmytruk__2026-01-24T093911.000Z.mp4
+ - artem__dmytruk__2026-01-24T140612.000Z.mp4
+ - artem__dmytruk__2026-01-24T213005.000Z.mp4
+ - artem__dmytruk__2026-01-25T081121.000Z.mp4
+ - artem__dmytruk__2026-01-25T082511.000Z.mp4
 
-00:12 - artem__dmytruk__2025-09-29T075028.000Z.mp4
-00:24 - artem__dmytruk__2025-09-29T100509.000Z.mp4
-00:49 - artem__dmytruk__2025-09-29T154000.000Z.mp4
-3:33 - artem__dmytruk__2025-09-30T072258.000Z.mp4
-4:34 - artem__dmytruk__2025-09-30T115947.000Z.mp4
-5:16 - artem__dmytruk__2025-09-30T180043.000Z.mp4
-5:28 - artem__dmytruk__2025-10-01T102821.000Z.mp4
-6:53 - artem__dmytruk__2025-10-01T124802.000Z.mp4
-7:26 - artem__dmytruk__2025-10-01T160249.000Z.mp4
-7:55 - artem__dmytruk__2025-10-02T095450.000Z.mp4
-8:10 - artem__dmytruk__2025-10-03T113607.000Z.mp4
-8:34 - artem__dmytruk__2025-10-03T115834.000Z.mp4
-8:42 - artem__dmytruk__2025-10-04T132948.000Z.mp4
-11:42 - artem__dmytruk__2025-10-04T154212.000Z.mp4
-12:05 - artem__dmytruk__2025-10-04T163943.000Z.mp4
-13:17 - artem__dmytruk__2025-10-05T184539.000Z.mp4
-13:41 - artem__dmytruk__2025-10-05T185844.000Z.mp4
-15:17 - artem__dmytruk__2026-01-05T080117.000Z.mp4
-19:11 - artem__dmytruk__2026-01-05T180516.000Z.mp4
- - artem__dmytruk__2026-01-05T181448.000Z.mp4
- - artem__dmytruk__2026-01-05T210619.000Z.mp4
- - artem__dmytruk__2026-01-05T210959.000Z.mp4
- - artem__dmytruk__2026-01-05T214517.000Z.mp4
- - artem__dmytruk__2026-01-05T214733.000Z.mp4
- - artem__dmytruk__2026-01-06T105150.000Z.mp4
- - artem__dmytruk__2026-01-06T130351.000Z.mp4
- - artem__dmytruk__2026-01-06T172037.000Z.mp4
- - artem__dmytruk__2026-01-06T205146.000Z.mp4
- - artem__dmytruk__2026-01-07T203951.000Z.mp4
- - artem__dmytruk__2026-01-07T204506.000Z.mp4
- - artem__dmytruk__2026-01-07T213055.000Z.mp4
- - artem__dmytruk__2026-01-07T213701.000Z.mp4
- - artem__dmytruk__2026-01-08T173506.000Z.mp4
- - artem__dmytruk__2026-01-09T132208.000Z.mp4
- - artem__dmytruk__2026-01-10T150515.000Z.mp4
- - artem__dmytruk__2026-01-10T203419.000Z.mp4
- - artem__dmytruk__2026-01-10T212317.000Z.mp4
 
 ---
 
@@ -91,7 +80,7 @@ Each week is released independently with an identical baseline to ensure compara
 
 ## 📅 Week Reference
 
-* *Week:* Week ±7/63 (Level 1/4)
+* *Week:* Week ±9/63 (Level 1/4)
 * *Interval:* Monday–Sunday
 
 ---

@@ -1,4 +1,4 @@
-# 📌 Systemic Verification Log — Week ±7/63  
+# 📌 Systemic Verification Log — Week ±8/63  
 Berlin | Public Record | No Commentary
 
 This video is a raw, unedited weekly record.
@@ -7,7 +7,7 @@ No commentary. No narrative. Fixed institutional baseline.
 The purpose is *documentation and comparison*.
 Interpretation is intentionally excluded.
 
-## YouTube video Week ±7/63: 
+## YouTube video Week ±8/63: 
 * *AI-generated subtitles (may have errors)*
 
 ---
@@ -26,43 +26,38 @@ Interpretation is intentionally excluded.
 
 ## ⏱ All timestamps link to original, chronologically ordered video: 
 
-00:12 - artem__dmytruk__2025-09-29T075028.000Z.mp4
-00:24 - artem__dmytruk__2025-09-29T100509.000Z.mp4
-00:49 - artem__dmytruk__2025-09-29T154000.000Z.mp4
-3:33 - artem__dmytruk__2025-09-30T072258.000Z.mp4
-4:34 - artem__dmytruk__2025-09-30T115947.000Z.mp4
-5:16 - artem__dmytruk__2025-09-30T180043.000Z.mp4
-5:28 - artem__dmytruk__2025-10-01T102821.000Z.mp4
-6:53 - artem__dmytruk__2025-10-01T124802.000Z.mp4
-7:26 - artem__dmytruk__2025-10-01T160249.000Z.mp4
-7:55 - artem__dmytruk__2025-10-02T095450.000Z.mp4
-8:10 - artem__dmytruk__2025-10-03T113607.000Z.mp4
-8:34 - artem__dmytruk__2025-10-03T115834.000Z.mp4
-8:42 - artem__dmytruk__2025-10-04T132948.000Z.mp4
-11:42 - artem__dmytruk__2025-10-04T154212.000Z.mp4
-12:05 - artem__dmytruk__2025-10-04T163943.000Z.mp4
-13:17 - artem__dmytruk__2025-10-05T184539.000Z.mp4
-13:41 - artem__dmytruk__2025-10-05T185844.000Z.mp4
-15:17 - artem__dmytruk__2026-01-05T080117.000Z.mp4
-19:11 - artem__dmytruk__2026-01-05T180516.000Z.mp4
- - artem__dmytruk__2026-01-05T181448.000Z.mp4
- - artem__dmytruk__2026-01-05T210619.000Z.mp4
- - artem__dmytruk__2026-01-05T210959.000Z.mp4
- - artem__dmytruk__2026-01-05T214517.000Z.mp4
- - artem__dmytruk__2026-01-05T214733.000Z.mp4
- - artem__dmytruk__2026-01-06T105150.000Z.mp4
- - artem__dmytruk__2026-01-06T130351.000Z.mp4
- - artem__dmytruk__2026-01-06T172037.000Z.mp4
- - artem__dmytruk__2026-01-06T205146.000Z.mp4
- - artem__dmytruk__2026-01-07T203951.000Z.mp4
- - artem__dmytruk__2026-01-07T204506.000Z.mp4
- - artem__dmytruk__2026-01-07T213055.000Z.mp4
- - artem__dmytruk__2026-01-07T213701.000Z.mp4
- - artem__dmytruk__2026-01-08T173506.000Z.mp4
- - artem__dmytruk__2026-01-09T132208.000Z.mp4
- - artem__dmytruk__2026-01-10T150515.000Z.mp4
- - artem__dmytruk__2026-01-10T203419.000Z.mp4
- - artem__dmytruk__2026-01-10T212317.000Z.mp4
+ - artem__dmytruk__2025-09-22T081132.000Z.mp4
+ - artem__dmytruk__2025-09-22T145524.000Z.mp4
+ - artem__dmytruk__2025-09-23T055552.000Z.mp4
+ - artem__dmytruk__2025-09-23T090916.000Z.mp4
+ - artem__dmytruk__2025-09-23T184029.000Z.mp4
+ - artem__dmytruk__2025-09-24T144053.000Z.mp4
+ - artem__dmytruk__2025-09-24T153624.000Z.mp4
+ - artem__dmytruk__2025-09-24T205952.000Z.mp4
+ - artem__dmytruk__2025-09-25T182517.000Z.mp4
+ - artem__dmytruk__2025-09-26T083435.000Z.mp4
+ - artem__dmytruk__2025-09-26T180313.000Z.mp4
+ - artem__dmytruk__2025-09-27T132627.000Z.mp4
+ - artem__dmytruk__2025-09-27T150954.000Z.mp4
+ - artem__dmytruk__2025-09-27T173347.000Z.mp4
+ - artem__dmytruk__2025-09-28T182531.000Z.mp4
+ - artem__dmytruk__2026-01-14T151138.000Z.mp4
+ - artem__dmytruk__2026-01-15T090844.000Z.mp4
+ - artem__dmytruk__2026-01-15T091515.000Z.mp4
+ - artem__dmytruk__2026-01-15T110307.000Z.mp4
+ - artem__dmytruk__2026-01-15T124528.000Z.mp4
+ - artem__dmytruk__2026-01-15T200824.000Z.mp4
+ - artem__dmytruk__2026-01-15T214221.000Z.mp4
+ - artem__dmytruk__2026-01-15T215704.000Z.mp4
+ - artem__dmytruk__2026-01-16T142839.000Z.mp4
+ - artem__dmytruk__2026-01-16T150902.000Z.mp4
+ - artem__dmytruk__2026-01-17T113113.000Z.mp4
+ - artem__dmytruk__2026-01-17T182038.000Z.mp4
+ - artem__dmytruk__2026-01-17T211900.000Z.mp4
+ - artem__dmytruk__2026-01-17T213241.000Z.mp4
+ - artem__dmytruk__2026-01-18T193007.000Z.mp4
+ - artem__dmytruk__2026-01-18T194127.000Z.mp4
+ - artem__dmytruk__2026-01-18T224150.000Z.mp4
 
 ---
 
@@ -91,7 +86,7 @@ Each week is released independently with an identical baseline to ensure compara
 
 ## 📅 Week Reference
 
-* *Week:* Week ±7/63 (Level 1/4)
+* *Week:* Week ±8/63 (Level 1/4)
 * *Interval:* Monday–Sunday
 
 ---
