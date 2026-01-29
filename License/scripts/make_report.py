@@ -149,36 +149,78 @@ def md_escape(text: str) -> str:
 
 
 # ---------------------------
-# Preprocessing: line numbers
+# Preprocessing: smart line numbers
 # ---------------------------
 
-_LINE_PREFIX_RE = re.compile(r"^\s*(\d{1,7})\s*[:.)]\s+")  # e.g. "1: " / "12) " / "3. "
-_LINE_PREFIX_RE_ALT = re.compile(r"^\s*(\d{1,7})\s+\S")   # e.g. "1 Something"
+LINE_FMT = "[{num:04d}] "
+
+_CODEBLOCK_RE = re.compile(r"^```")
+_TABLE_RE = re.compile(r"^\s*\|")
+_LIST_RE = re.compile(r"^\s*([-*+]|\d+\.)\s+")
+_HEADER_RE = re.compile(r"^\s*#{1,6}\s+")
+
+_EXISTING_NUM_RE = re.compile(r"^\s*(\[\d{1,6}\]|\d{1,6}[:.)])\s+")
 
 
-def has_line_numbers(text: str) -> bool:
+def has_nice_line_numbers(text: str) -> bool:
     """
-    Heuristic: check first ~30 non-empty lines; if most look numbered, treat as already numbered.
+    Detect already nicely formatted numbers like [0001]
     """
-    lines = text.splitlines()
-    sample = []
-    for ln in lines:
-        if ln.strip() == "":
-            continue
-        sample.append(ln)
-        if len(sample) >= 30:
-            break
+    lines = [l for l in text.splitlines() if l.strip()]
+    if len(lines) < 5:
+        return False
+    hits = sum(1 for l in lines[:20] if re.match(r"^\[\d{4,6}\]\s+", l))
+    return hits >= max(3, int(0.6 * min(20, len(lines))))
 
-    if len(sample) < 5:
+
+def add_or_fix_line_numbers(md_path: Path) -> bool:
+    """
+    Add or normalize line numbers without breaking Markdown.
+    Returns True if file was modified.
+    """
+    original = md_path.read_text(encoding="utf-8", errors="replace")
+
+    # If already nicely numbered → skip
+    if has_nice_line_numbers(original):
         return False
 
-    hits = 0
-    for ln in sample[:20]:
-        if _LINE_PREFIX_RE.match(ln) or _LINE_PREFIX_RE_ALT.match(ln):
-            hits += 1
+    lines = original.splitlines(keepends=True)
+    out = []
+    in_codeblock = False
+    counter = 1
+    changed = False
 
-    # If >=70% of first 20 non-empty lines look numbered -> already numbered
-    return hits >= max(4, int(0.7 * min(20, len(sample))))
+    for line in lines:
+        stripped = line.lstrip()
+
+        # Toggle code block
+        if _CODEBLOCK_RE.match(stripped):
+            in_codeblock = not in_codeblock
+            out.append(line)
+            continue
+
+        # Never touch code blocks, tables, headers, lists, empty lines
+        if (
+            in_codeblock
+            or not stripped.strip()
+            or _TABLE_RE.match(stripped)
+            or _HEADER_RE.match(stripped)
+            or _LIST_RE.match(stripped)
+        ):
+            out.append(line)
+            continue
+
+        # Remove ugly existing numbering if present
+        new_line = re.sub(_EXISTING_NUM_RE, "", line)
+        prefix = LINE_FMT.format(num=counter)
+        out.append(prefix + new_line.lstrip())
+        counter += 1
+        changed = True
+
+    if changed:
+        md_path.write_text("".join(out), encoding="utf-8")
+
+    return changed
 
 
 def add_line_numbers_if_missing(md_path: Path) -> bool:
@@ -355,7 +397,7 @@ def main() -> None:
     # Preprocess: add line numbers if missing
     changed = 0
     for i, f in enumerate(md_files, start=1):
-        did = add_line_numbers_if_missing(f)
+        did = add_or_fix_line_numbers(f)
         if did:
             changed += 1
             print(f"[preprocess] Added line numbers: {f.name}")
