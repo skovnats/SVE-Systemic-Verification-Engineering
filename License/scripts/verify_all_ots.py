@@ -66,17 +66,6 @@ def run_cmd(cmd: List[str], cwd: Path) -> Tuple[int, str, str]:
     return p.returncode, p.stdout.strip(), p.stderr.strip()
 
 
-def classify_verify_output(s: str) -> str:
-    t = s.lower()
-    if "success!" in t:
-        return "SUCCESS"
-    if "pending confirmation" in t:
-        return "PENDING"
-    if "error" in t or "failed" in t:
-        return "ERROR"
-    return "UNKNOWN"
-
-
 def try_upgrade(ots: str, proof: Path) -> Path:
     """
     Best-effort upgrade. Some versions may rewrite/replace the file.
@@ -96,50 +85,61 @@ def try_upgrade(ots: str, proof: Path) -> Path:
     return proof
 
 
-def verify_with_target(ots: str, proof: Path, target: Path) -> Tuple[str, str]:
+def classify_verify_output(stdout: str, stderr: str) -> tuple[str, str]:
     """
-    Try:
-      1) ots verify <proof> -f <target>
-      2) fallback: copy proof to <target>.ots and run ots verify <target>.ots
-    Never raises; returns (status, detail).
+    Return (status, detail) based on stdout+stderr even if exit code != 0.
     """
+    detail = (stdout or "") + ("\n" + stderr if stderr else "")
+    t = detail.lower()
+
+    if "success!" in t:
+        return "SUCCESS", detail.strip() or "SUCCESS"
+
+    if "pending confirmation" in t:
+        return "PENDING", detail.strip() or "PENDING"
+
+    if "could not connect to bitcoin node" in t or "cookie file unusable" in t or "bitcoin.conf" in t:
+        return "NEEDS_BITCOIN_NODE", detail.strip()
+
+    if "error" in t or "failed" in t:
+        return "ERROR", detail.strip() or "ERROR"
+
+    return "UNKNOWN", detail.strip() or "UNKNOWN"
+
+
+def verify_with_target(ots: str, proof: Path, target: Path) -> tuple[str, str]:
     proof = proof.resolve()
     target = target.resolve()
 
     if not proof.exists():
-        return "ERROR", "Proof file missing (may have been rewritten/removed by upgrade/verify). Try --no-upgrade."
+        return "ERROR", "Proof file missing (may have been rewritten/removed). Try --no-upgrade."
 
-    # Attempt 1: explicit target
+    # Attempt 1
     code, out, err = run_cmd([ots, "verify", str(proof), "-f", str(target)], cwd=proof.parent)
-    if code == 0:
-        detail = out or "Verified (no output)"
-        return classify_verify_output(detail), detail
+    status, detail = classify_verify_output(out, err)
+    if status in {"SUCCESS", "PENDING"}:
+        return status, detail
 
-    # Attempt 2: fallback
+    # Attempt 2 (fallback)
     tmp = target.with_name(target.name + ".ots")
     try:
         if tmp.exists():
             tmp.unlink()
 
-        # proof can disappear between checks; handle it
         try:
             shutil.copy2(proof, tmp)
         except FileNotFoundError:
-            return "ERROR", "Proof file disappeared before fallback copy (race). Rerun; preferably with --no-upgrade."
+            return "ERROR", "Proof disappeared before fallback copy (race). Rerun; preferably with --no-upgrade."
 
         code2, out2, err2 = run_cmd([ots, "verify", str(tmp.resolve())], cwd=proof.parent)
-        if code2 == 0:
-            detail2 = out2 or "Verified (no output)"
-            return classify_verify_output(detail2), detail2
-
-        detail_err = err2 or out2 or err or out or "unknown"
-        return "ERROR", f"VERIFY_ERROR: {detail_err}"
+        return classify_verify_output(out2, err2)
     finally:
         try:
             if tmp.exists():
                 tmp.unlink()
         except OSError:
             pass
+
 
 
 def infer_target_and_type(proof: Path) -> Tuple[Optional[Path], str]:
