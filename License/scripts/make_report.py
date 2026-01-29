@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
-Scan a folder for *.md files, compute SHA-256, create 3 OpenTimestamps receipts/proofs
-(using 3 different calendars), attempt upgrade+verify, and write REPORT.md.
+Scan a folder for *.md files, PREPROCESS them (add line numbers if missing),
+compute SHA-256, create 3 OpenTimestamps receipts/proofs, attempt upgrade+verify,
+and write REPORT.md with extra registry columns.
+
+New columns in REPORT.md:
+- prefix (folder name)
+- file_index_in_folder (1..N)
+- date_added_to_registry (kept stable across reruns)
 
 Outputs (per input file):
   <name>_1.ots, <name>_2.ots, <name>_3.ots
@@ -10,26 +16,31 @@ Outputs (per input file):
 Usage:
   python3 make_report.py                # uses current working directory
   python3 make_report.py /path/to/dir
-
-Notes:
-- Fresh stamps are often "Pending confirmation in Bitcoin blockchain" for hours. That’s normal.
-- For court-grade, you typically want a *confirmed* attestation (verify shows Success + block).
 """
 
 from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import shutil
 import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple, Optional
 
 CALENDARS = [
     ("1", "https://a.pool.opentimestamps.org"),
     ("2", "https://b.pool.opentimestamps.org"),
     ("3", "https://a.pool.eternitywall.com"),
 ]
+
+LINE_NUM_WIDTH = 5  # 00001:
+LINE_NUM_SEP = ": "
+
+
+def now_iso_utc() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
 def sha256_file(path: Path, buf_size: int = 1024 * 1024) -> str:
@@ -45,8 +56,8 @@ def ensure_ots_cli() -> str:
     if not ots:
         raise SystemExit(
             "ERROR: 'ots' CLI not found.\n"
-            "Install: pip install opentimestamps-client\n"
-            "Ensure 'ots' is on PATH."
+            "Install it with: pip install opentimestamps-client\n"
+            "Then ensure your PATH includes the 'ots' executable."
         )
     return ots
 
@@ -63,11 +74,9 @@ def stamp_with_calendar(ots: str, file_path: Path, calendar_url: str, out_path: 
     """
     default_proof = file_path.with_name(file_path.name + ".ots")
 
-    # If output exists, skip (idempotent)
     if out_path.exists() and out_path.stat().st_size > 0:
         return
 
-    # If a leftover default proof exists, remove it (avoid picking up stale output)
     if default_proof.exists():
         default_proof.unlink()
 
@@ -98,12 +107,10 @@ def try_upgrade(ots: str, proof_path: Path) -> str:
 
 def try_verify(ots: str, proof_path: Path, target_file: Path) -> str:
     """
-    Verification can require a local Bitcoin node (or specific client options).
-    Also, default 'ots verify' infers target filename from proof name, so we try:
+    Try:
       1) ots verify <proof> -f <target>
       2) fallback: temporary copy named <target>.ots and plain ots verify
     """
-    # Attempt 1: -f (seen in community docs)
     code, out, err = run_cmd(
         [ots, "verify", str(proof_path.name), "-f", str(target_file.name)],
         cwd=proof_path.parent,
@@ -111,7 +118,6 @@ def try_verify(ots: str, proof_path: Path, target_file: Path) -> str:
     if code == 0:
         return out or "Verified (no output)"
 
-    # Attempt 2: fallback temp name matching expected convention: <target>.ots
     tmp = target_file.with_name(target_file.name + ".ots")
     try:
         if tmp.exists():
@@ -142,8 +148,157 @@ def md_escape(text: str) -> str:
     return text.replace("|", r"\|")
 
 
+# ---------------------------
+# Preprocessing: line numbers
+# ---------------------------
+
+_LINE_PREFIX_RE = re.compile(r"^\s*(\d{1,7})\s*[:.)]\s+")  # e.g. "1: " / "12) " / "3. "
+_LINE_PREFIX_RE_ALT = re.compile(r"^\s*(\d{1,7})\s+\S")   # e.g. "1 Something"
+
+
+def has_line_numbers(text: str) -> bool:
+    """
+    Heuristic: check first ~30 non-empty lines; if most look numbered, treat as already numbered.
+    """
+    lines = text.splitlines()
+    sample = []
+    for ln in lines:
+        if ln.strip() == "":
+            continue
+        sample.append(ln)
+        if len(sample) >= 30:
+            break
+
+    if len(sample) < 5:
+        return False
+
+    hits = 0
+    for ln in sample[:20]:
+        if _LINE_PREFIX_RE.match(ln) or _LINE_PREFIX_RE_ALT.match(ln):
+            hits += 1
+
+    # If >=70% of first 20 non-empty lines look numbered -> already numbered
+    return hits >= max(4, int(0.7 * min(20, len(sample))))
+
+
+def add_line_numbers_if_missing(md_path: Path) -> bool:
+    """
+    If file doesn't appear to have line numbers, rewrite it with:
+      00001: <original line>
+    Returns True if file changed.
+    """
+    original = md_path.read_text(encoding="utf-8", errors="replace")
+    if has_line_numbers(original):
+        return False
+
+    lines = original.splitlines(keepends=True)
+    out_lines = []
+    for i, line in enumerate(lines, start=1):
+        prefix = f"{i:0{LINE_NUM_WIDTH}d}{LINE_NUM_SEP}"
+        out_lines.append(prefix + line)
+
+    md_path.write_text("".join(out_lines), encoding="utf-8")
+    return True
+
+
+# ---------------------------
+# Existing registry parsing
+# ---------------------------
+
+def _split_md_row(line: str) -> List[str]:
+    s = line.strip()
+    if not (s.startswith("|") and s.endswith("|")):
+        return []
+    s = s[1:-1]
+    cells: List[str] = []
+    cur = []
+    esc = False
+    for ch in s:
+        if esc:
+            cur.append(ch)
+            esc = False
+            continue
+        if ch == "\\":
+            esc = True
+            continue
+        if ch == "|":
+            cells.append("".join(cur).strip())
+            cur = []
+        else:
+            cur.append(ch)
+    cells.append("".join(cur).strip())
+    return cells
+
+
+def _is_sep_row(cells: List[str]) -> bool:
+    if not cells:
+        return False
+    for c in cells:
+        t = c.replace(":", "").replace("-", "").strip()
+        if t != "":
+            return False
+    return True
+
+
+def load_existing_dates(report_path: Path) -> Dict[str, str]:
+    """
+    If REPORT.md exists, parse table and return {File -> date_added_to_registry}.
+    """
+    if not report_path.exists():
+        return {}
+
+    txt = report_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    header: Optional[List[str]] = None
+    file_col = None
+    date_col = None
+    in_table = False
+    out: Dict[str, str] = {}
+
+    for line in txt:
+        cells = _split_md_row(line)
+        if not cells:
+            continue
+        if header is None:
+            header = cells
+            in_table = True
+            continue
+        if in_table and _is_sep_row(cells):
+            # separator
+            continue
+        if in_table and header:
+            # data row
+            if file_col is None:
+                # determine indices once
+                try:
+                    file_col = header.index("File")
+                except ValueError:
+                    return {}
+                try:
+                    date_col = header.index("date_added_to_registry")
+                except ValueError:
+                    # older report: no column
+                    return {}
+
+            if len(cells) <= max(file_col, date_col):
+                continue
+
+            fname = cells[file_col]
+            date_added = cells[date_col]
+            if fname and date_added:
+                out[fname] = date_added
+
+    return out
+
+
+# ---------------------------
+# Report writing
+# ---------------------------
+
 def write_report(rows: List[Dict[str, str]], report_path: Path) -> None:
     cols = [
+        "prefix",
+        "file_index_in_folder",
+        "date_added_to_registry",
         "File",
         "File SHA-256",
         "OTS_1",
@@ -161,7 +316,8 @@ def write_report(rows: List[Dict[str, str]], report_path: Path) -> None:
 
     for r in rows:
         line = (
-            f"| {md_escape(r['file'])} | `{r['file_sha256']}` | "
+            f"| {md_escape(r['prefix'])} | {md_escape(r['file_index_in_folder'])} | {md_escape(r['date_added_to_registry'])} | "
+            f"{md_escape(r['file'])} | `{r['file_sha256']}` | "
             f"{md_escape(r['ots1_name'])} | `{r['ots1_sha256']}` | {md_escape(r['ots1_verify'])} | "
             f"{md_escape(r['ots2_name'])} | `{r['ots2_sha256']}` | {md_escape(r['ots2_verify'])} | "
             f"{md_escape(r['ots3_name'])} | `{r['ots3_sha256']}` | {md_escape(r['ots3_verify'])} |"
@@ -187,29 +343,51 @@ def main() -> None:
 
     ots = ensure_ots_cli()
 
+    report_path = target_dir / "REPORT.md"
+    existing_dates = load_existing_dates(report_path)
+
     md_files = sorted(p for p in target_dir.glob("*.md") if p.is_file() and p.name != "REPORT.md")
     total = len(md_files)
 
     print(f"Folder: {target_dir}")
     print(f"Found {total} markdown file(s).")
 
+    # Preprocess: add line numbers if missing
+    changed = 0
+    for i, f in enumerate(md_files, start=1):
+        did = add_line_numbers_if_missing(f)
+        if did:
+            changed += 1
+            print(f"[preprocess] Added line numbers: {f.name}")
+    if changed:
+        print(f"[preprocess] Updated {changed}/{total} file(s).")
+
+    prefix = target_dir.name
     rows: List[Dict[str, str]] = []
 
     for i, f in enumerate(md_files, start=1):
         print(f"\n[{i}/{total}] {f.name}")
+
+        # stable date_added if already in report
+        date_added = existing_dates.get(f.name) or now_iso_utc()
+
         file_digest = sha256_file(f)
-        row: Dict[str, str] = {"file": f.name, "file_sha256": file_digest}
+        row: Dict[str, str] = {
+            "prefix": prefix,
+            "file_index_in_folder": str(i),
+            "date_added_to_registry": date_added,
+            "file": f.name,
+            "file_sha256": file_digest,
+        }
 
         for idx, cal_url in CALENDARS:
             out_proof = target_dir / f"{f.stem}_{idx}.ots"
             print(f"  - stamping _{idx}.ots via {cal_url}")
             stamp_with_calendar(ots, f, cal_url, out_proof)
 
-            # attempt upgrade (harmless if still pending)
             print(f"    upgrading: {out_proof.name}")
             _ = try_upgrade(ots, out_proof)
 
-            # verify (may be pending / may require local bitcoin node)
             print(f"    verifying: {out_proof.name}")
             verify_out = try_verify(ots, out_proof, f)
             status = classify_verify_output(verify_out)
@@ -218,12 +396,8 @@ def main() -> None:
             row[f"ots{idx}_sha256"] = sha256_file(out_proof)
             row[f"ots{idx}_verify"] = status
 
-            # Optional: uncomment if you want full verify text in console
-            # print("    verify output:", verify_out.replace("\n", " | "))
-
         rows.append(row)
 
-    report_path = target_dir / "REPORT.md"
     write_report(rows, report_path)
 
     print(f"\nDone. Wrote {report_path} for {len(rows)} file(s).")
