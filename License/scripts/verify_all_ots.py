@@ -2,27 +2,15 @@
 """
 Recursively verify all .ots files under a folder.
 
-Adjusted to your two .ots "types" created by your scripts:
-
-TYPE 1 (classic ots output):
-  <target_filename>.ots
-  e.g.  APPENDED_FILES.md.ots   -> target: APPENDED_FILES.md
-
-TYPE 2 (your redundant/calendar-stamped outputs):
-  <target_stem>_<idx>.ots
-  e.g.  APPENDED_FILES_1.ots    -> target: APPENDED_FILES.md
-        APPENDED_FILES_2.ots    -> target: APPENDED_FILES.md
-        APPENDED_FILES_3.ots    -> target: APPENDED_FILES.md
+Two naming types (per your workflow):
+TYPE 1: <target_filename>.ots         -> target is <target_filename>
+TYPE 2: <target_stem>_<n>.ots         -> target is <target_stem>.md
 
 Robustness:
 - Uses absolute paths for ots CLI calls
-- Optional upgrade step, BUT guarded against the receipt file being replaced/removed
-  by some `ots upgrade` behaviors.
-- If upgrade causes the proof file to "disappear", it falls back to verifying without upgrade.
-
-Outputs:
-- Prints progress + summary
-- Writes VERIFIED_OTS_REPORT.md in the root folder
+- Optional upgrade step
+- Never crashes if receipts disappear mid-run; records ERROR and continues
+- Writes VERIFIED_OTS_REPORT.md in root
 
 Usage:
   python3 verify_all_ots.py
@@ -42,6 +30,15 @@ from typing import List, Optional, Tuple
 
 
 TYPE2_RE = re.compile(r"^(?P<stem>.+)_(?P<n>\d+)\.ots$", re.IGNORECASE)
+
+EXCLUDE_SUBSTRINGS = [
+    "_SVE-Systemic-Verification-Engineering_License_SIGNED",
+]
+
+def is_excluded(path: Path) -> bool:
+    name = path.name
+    return any(excl in name for excl in EXCLUDE_SUBSTRINGS)
+
 
 
 @dataclass
@@ -88,17 +85,14 @@ def try_upgrade(ots: str, proof: Path) -> Path:
     proof = proof.resolve()
     run_cmd([ots, "upgrade", str(proof)], cwd=proof.parent)
 
-    # Prefer the original name if it still exists
     if proof.exists():
         return proof
 
-    # If something replaced it, try to find a receipt with the same stem nearby.
-    # (Conservative: only look for exact glob match first.)
+    # conservative: exact-name glob (in case FS casing etc.)
     exact = list(proof.parent.glob(proof.name))
     if exact:
         return exact[0].resolve()
 
-    # Last resort: if file vanished, return original (will be reported)
     return proof
 
 
@@ -107,13 +101,13 @@ def verify_with_target(ots: str, proof: Path, target: Path) -> Tuple[str, str]:
     Try:
       1) ots verify <proof> -f <target>
       2) fallback: copy proof to <target>.ots and run ots verify <target>.ots
-    Returns (status, detail).
+    Never raises; returns (status, detail).
     """
     proof = proof.resolve()
     target = target.resolve()
 
     if not proof.exists():
-        return "ERROR", "Proof file missing (may have been replaced during upgrade). Rerun with --no-upgrade."
+        return "ERROR", "Proof file missing (may have been rewritten/removed by upgrade/verify). Try --no-upgrade."
 
     # Attempt 1: explicit target
     code, out, err = run_cmd([ots, "verify", str(proof), "-f", str(target)], cwd=proof.parent)
@@ -121,12 +115,17 @@ def verify_with_target(ots: str, proof: Path, target: Path) -> Tuple[str, str]:
         detail = out or "Verified (no output)"
         return classify_verify_output(detail), detail
 
-    # Attempt 2: fallback (some setups infer target from <target>.ots naming)
+    # Attempt 2: fallback
     tmp = target.with_name(target.name + ".ots")
     try:
         if tmp.exists():
             tmp.unlink()
-        shutil.copy2(proof, tmp)
+
+        # proof can disappear between checks; handle it
+        try:
+            shutil.copy2(proof, tmp)
+        except FileNotFoundError:
+            return "ERROR", "Proof file disappeared before fallback copy (race). Rerun; preferably with --no-upgrade."
 
         code2, out2, err2 = run_cmd([ots, "verify", str(tmp.resolve())], cwd=proof.parent)
         if code2 == 0:
@@ -136,14 +135,17 @@ def verify_with_target(ots: str, proof: Path, target: Path) -> Tuple[str, str]:
         detail_err = err2 or out2 or err or out or "unknown"
         return "ERROR", f"VERIFY_ERROR: {detail_err}"
     finally:
-        if tmp.exists():
-            tmp.unlink()
+        try:
+            if tmp.exists():
+                tmp.unlink()
+        except OSError:
+            pass
 
 
 def infer_target_and_type(proof: Path) -> Tuple[Optional[Path], str]:
     """
-    TYPE 1: <target_filename>.ots  -> target exists as proof name without trailing ".ots"
-    TYPE 2: <target_stem>_<n>.ots  -> target is <target_stem>.md (same folder)
+    TYPE 1: <target>.ots -> target is proof name without ".ots" IF file exists
+    TYPE 2: <stem>_<n>.ots -> target is <stem>.md IF exists
     """
     proof = proof.resolve()
 
@@ -180,9 +182,22 @@ def write_report(root: Path, results: List[Result], out_name: str = "VERIFIED_OT
 
     for r in results:
         detail_clean = r.detail.replace("\n", " ")
+        # best-effort relative paths (proof may be missing)
+        try:
+            proof_rel = str(r.proof.resolve().relative_to(root))
+        except Exception:
+            proof_rel = str(r.proof)
+
+        if r.target:
+            try:
+                target_rel = str(r.target.resolve().relative_to(root))
+            except Exception:
+                target_rel = str(r.target)
+        else:
+            target_rel = ""
+
         lines.append(
-            f"| {md_escape(str(r.proof.resolve().relative_to(root)))} | "
-            f"{md_escape(str(r.target.resolve().relative_to(root)) if r.target else '')} | "
+            f"| {md_escape(proof_rel)} | {md_escape(target_rel)} | "
             f"{md_escape(r.ots_type)} | {md_escape(r.status)} | {md_escape(detail_clean)} |"
         )
 
@@ -206,11 +221,13 @@ def main() -> None:
 
     ots = ensure_ots_cli()
 
-    proofs = sorted(p for p in root.rglob("*.ots") if p.is_file())
+    proofs = sorted(p for p in root.rglob("*.ots") if p.is_file() and not is_excluded(p))
+
     total = len(proofs)
 
     print(f"Root: {root}")
     print(f"Found {total} .ots file(s).")
+    
 
     results: List[Result] = []
     counts = {"SUCCESS": 0, "PENDING": 0, "ERROR": 0, "UNKNOWN": 0}
@@ -221,7 +238,6 @@ def main() -> None:
 
         target, ots_type = infer_target_and_type(proof)
 
-        # Upgrade can sometimes replace/remove the proof file.
         if not args.no_upgrade:
             proof = try_upgrade(ots, proof)
 
@@ -242,7 +258,6 @@ def main() -> None:
         if status not in counts:
             status = "UNKNOWN"
         counts[status] += 1
-
         results.append(Result(proof=proof, target=target, ots_type=ots_type, status=status, detail=detail))
 
     out = write_report(root, results)
@@ -253,7 +268,7 @@ def main() -> None:
     print(f"  ERROR:   {counts['ERROR']}")
     print(f"  UNKNOWN: {counts['UNKNOWN']}")
     print(f"\nWrote report: {out}")
-    print("Note: PENDING is normal for fresh stamps; rerun later to get SUCCESS once confirmed on-chain.")
+    print("Tip: For evidence runs, prefer: --no-upgrade (so receipts don’t mutate mid-audit).")
 
 
 if __name__ == "__main__":

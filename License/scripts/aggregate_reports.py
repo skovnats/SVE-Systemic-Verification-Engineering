@@ -1,48 +1,40 @@
 #!/usr/bin/env python3
 """
-Aggregate REPORT.md files from all subfolders into one FINAL_REPORT.md.
+Aggregate all REPORT.md tables under a root folder into FINAL_REPORT.md.
 
-- Recursively scans for REPORT.md
-- Parses the markdown table inside each report
-- Produces a single combined table with extra columns:
-    signed (default: false)
-    indexed_for_reference_in_courts (default: true)
+Key feature:
+- Integrates ALL existing columns from sub-reports (union of columns).
+- Preserves column order by first appearance across reports.
+- Adds:
+    Source Folder
+    Source Report
+    signed (default false)
+    indexed_for_reference_in_courts (default true)
 
 Usage:
-  python3 aggregate_reports.py                 # uses current working directory
-  python3 aggregate_reports.py /path/to/root   # scans this folder recursively
-
-Output:
-  FINAL_REPORT.md in the root folder used.
+  python3 aggregate_reports.py
+  python3 aggregate_reports.py /path/to/root
 """
 
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple, Optional
 
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("path", nargs="?", default=".", help="Root folder to scan (default: pwd)")
-    p.add_argument(
-        "--report-name",
-        default="REPORT.md",
-        help="Report filename to search for (default: REPORT.md)",
-    )
-    p.add_argument(
-        "--output",
-        default="FINAL_REPORT.md",
-        help="Output filename (written in root folder)",
-    )
+    p.add_argument("--report-name", default="REPORT.md", help="Report filename to search for (default: REPORT.md)")
+    p.add_argument("--output", default="FINAL_REPORT.md", help="Output filename (written in root folder)")
     return p.parse_args()
 
 
 def split_md_row(line: str) -> List[str]:
     """
-    Very small markdown table parser: handles \| escaped pipes.
-    Assumes row looks like: | a | b | c |
+    Minimal markdown row splitter supporting escaped pipes (\|).
+    Row format: | a | b | c |
     """
     s = line.strip()
     if not (s.startswith("|") and s.endswith("|")):
@@ -50,11 +42,11 @@ def split_md_row(line: str) -> List[str]:
     s = s[1:-1]  # strip outer pipes
 
     cells: List[str] = []
-    cur = []
+    cur: List[str] = []
     esc = False
     for ch in s:
         if esc:
-            cur.append(ch)  # keep escaped char without backslash
+            cur.append(ch)
             esc = False
             continue
         if ch == "\\":
@@ -80,8 +72,9 @@ def is_separator_row(cells: List[str]) -> bool:
     return True
 
 
-def parse_report_table(report_path: Path) -> Tuple[List[str], List[List[str]]]:
+def parse_first_md_table(report_path: Path) -> Tuple[List[str], List[List[str]]]:
     """
+    Find and parse the first markdown table in the file.
     Returns (header, rows). If no table found, returns ([], []).
     """
     lines = report_path.read_text(encoding="utf-8", errors="replace").splitlines()
@@ -89,39 +82,37 @@ def parse_report_table(report_path: Path) -> Tuple[List[str], List[List[str]]]:
     header: List[str] = []
     rows: List[List[str]] = []
 
-    in_table = False
-    saw_header = False
+    state = "SEARCH_HEADER"  # SEARCH_HEADER -> SEARCH_SEPARATOR -> READ_ROWS
 
     for line in lines:
-        if "|" not in line:
-            if in_table and rows:
+        cells = split_md_row(line)
+        if not cells:
+            # if we already started reading rows, stop on first non-table line
+            if state == "READ_ROWS" and rows:
                 break
             continue
 
-        cells = split_md_row(line)
-        if not cells:
-            continue
-
-        # First table row: header
-        if not in_table:
+        if state == "SEARCH_HEADER":
             header = cells
-            in_table = True
-            saw_header = True
+            state = "SEARCH_SEPARATOR"
             continue
 
-        # Second row: separator (---)
-        if saw_header and is_separator_row(cells):
+        if state == "SEARCH_SEPARATOR":
+            if is_separator_row(cells):
+                state = "READ_ROWS"
+            else:
+                # Not a real table; reset and keep searching
+                header = []
+                rows = []
+                state = "SEARCH_HEADER"
             continue
 
-        # Data rows
-        if in_table:
-            # Stop if row length doesn't match and looks like a new table elsewhere
-            # (keep it simple; pad/truncate later)
+        if state == "READ_ROWS":
             rows.append(cells)
 
     if not header or not rows:
-        return ([], [])
-    return (header, rows)
+        return [], []
+    return header, rows
 
 
 def normalize_row(row: List[str], n: int) -> List[str]:
@@ -136,11 +127,7 @@ def md_escape(text: str) -> str:
     return text.replace("|", r"\|")
 
 
-def write_final_report(
-    out_path: Path,
-    rows: List[Dict[str, str]],
-    columns: List[str],
-) -> None:
+def write_final_report(out_path: Path, rows: List[Dict[str, str]], columns: List[str]) -> None:
     lines = ["# FINAL REPORT", ""]
     lines.append("| " + " | ".join(columns) + " |")
     lines.append("|" + "|".join(["---"] * len(columns)) + "|")
@@ -161,69 +148,62 @@ def main() -> None:
     report_paths = sorted(p for p in root.rglob(args.report_name) if p.is_file())
 
     print(f"Root: {root}")
-    print(f"Found {len(report_paths)} report(s):")
+    print(f"Found {len(report_paths)} report(s).")
     for i, p in enumerate(report_paths, 1):
         print(f"  [{i}/{len(report_paths)}] {p.relative_to(root)}")
 
+    # Column order strategy:
+    # 1) Start with provenance columns
+    # 2) Then append columns from each report header in order of first appearance
+    # 3) End with the two final control columns (if not already present)
+    base_cols = ["Source Folder", "Source Report"]
+    tail_cols = ["signed", "indexed_for_reference_in_courts"]
+
+    col_order: List[str] = []
+    seen = set()
+
+    def add_col(c: str) -> None:
+        if c not in seen:
+            seen.add(c)
+            col_order.append(c)
+
+    for c in base_cols:
+        add_col(c)
+
     aggregated: List[Dict[str, str]] = []
 
-    # We’ll build a union of columns across all REPORTs, but keep a stable preferred order.
-    preferred = [
-        "Source Folder",
-        "Source Report",
-        "File",
-        "File SHA-256",
-        "OTS_1",
-        "OTS_1 SHA-256",
-        "OTS_1 Verify",
-        "OTS_2",
-        "OTS_2 SHA-256",
-        "OTS_2 Verify",
-        "OTS_3",
-        "OTS_3 SHA-256",
-        "OTS_3 Verify",
-        "signed",
-        "indexed_for_reference_in_courts",
-    ]
-    seen_cols = set(preferred)
-
     for rp in report_paths:
-        header, rows = parse_report_table(rp)
-        if not header or not rows:
-            print(f"  - SKIP (no table found): {rp.relative_to(root)}")
+        header, data_rows = parse_first_md_table(rp)
+        if not header or not data_rows:
+            print(f"  - SKIP (no parseable table): {rp.relative_to(root)}")
             continue
 
-        # Map each row to dict by header
-        for row in rows:
+        # register header columns (keep their order)
+        for c in header:
+            add_col(c)
+
+        for row in data_rows:
             row_n = normalize_row(row, len(header))
             d = {header[i]: row_n[i] for i in range(len(header))}
 
-            # Add provenance
             d["Source Folder"] = str(rp.parent.relative_to(root))
             d["Source Report"] = str(rp.relative_to(root))
 
-            # Add requested columns (defaults)
-            d["signed"] = "false"
-            d["indexed_for_reference_in_courts"] = "true"
-
-            # Track any new columns from input reports
-            for col in d.keys():
-                if col not in seen_cols:
-                    seen_cols.add(col)
+            # defaults (only if not already present)
+            d.setdefault("signed", "false")
+            d.setdefault("indexed_for_reference_in_courts", "true")
 
             aggregated.append(d)
 
-    # Final column order:
-    # - start with preferred
-    # - then append any extra columns discovered (stable sorted)
-    extra_cols = sorted(c for c in seen_cols if c not in preferred)
-    final_columns = preferred + extra_cols
+    for c in tail_cols:
+        add_col(c)
 
     out_path = root / args.output
-    write_final_report(out_path, aggregated, final_columns)
+    write_final_report(out_path, aggregated, col_order)
 
     print(f"\nDone. Wrote: {out_path}")
     print(f"Total aggregated rows: {len(aggregated)}")
+    print(f"Total columns: {len(col_order)}")
 
 
 if __name__ == "__main__":
