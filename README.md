@@ -68,6 +68,36 @@ flowchart TD
 
 ---
 
+## Final Purpose: The "Crutches"
+
+S.V.E. is a temporary framework—"crutches" for humanity to prevent self-harm and the harm of others while we shakily search for our true Selves. These tools are meant to be discarded; Life is a Supreme Gift that transcends all engineering rules, governed only by divine principles. A living human is as unpredictable as a child. The goal is for S.V.E. to become obsolete once humanity remembers it is not a machine, but a soul.
+
+---
+
+### English
+
+> S.V.E. serves as temporary "crutches" for humanity during its shaky search for Self, intended only to prevent self-injury or harm to others. Ultimately, these tools must be discarded, for Life is a Supreme Gift that fits no rules save for God’s commandments. A living, sentient human is as unpredictable as a child. The author hopes S.V.E. will one day be discarded as obsolete when humanity remembers it is not a machine, but human. **Amen.**
+
+### Русский
+
+> S.V.E. — это, возможно, «костыли» для Человека и Человечества: они нужны, пока нас «шатает в поисках Себя», чтобы не ушибиться и не зашибить других в пути. Но их НУЖНО будет отбросить, поскольку Жизнь есть Дар Высший, который не вписывается ни в какие рамки и правила, кроме Божьих заповедей. Человека Живого Разумного невозможно измерить или предсказать, как и действия ребенка. Автор искренне надеется, что однажды S.V.E. будут выброшены на свалку истории за ненадобностью, когда Человек вспомнит, что он Человек, а не био-машина. **Аминь.**
+
+### Deutsch
+
+> S.V.E. sind gewissermaßen „Krücken“ für den Menschen und die Menschheit: Sie werden benötigt, solange die Suche nach dem Selbst noch unsicher ist, um Verletzungen an sich und anderen zu vermeiden. Letztlich müssen sie abgelegt werden, denn das Leben ist ein Höchstes Geschenk, das in kein Regelwerk passt – außer in Gottes Gebote. Ein lebendiger, vernunftbegabter Mensch ist unvorhersehbar wie ein Kind. Der Autor hofft aufrichtig, dass S.V.E. eines Tages als überflüssig entsorgt wird, wenn der Mensch sich wieder darauf besinnt, ein Mensch zu sein und keine Maschine. **Amen.**
+
+---
+
+### 📖 Scripture
+
+> **"Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven."** — *Matthew 18:3*
+> **«Истинно говорю вам, если не обратитесь и не будете как дети, не войдете в Царство Небесное».** — *От Матфея 18:3*
+> **„Wahrlich, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, so werdet ihr nicht ins Himmelreich kommen.“** — *Matthäus 18:3*
+
+Would you like me to integrate this into a specific section of your `README.md` file?
+
+---
+
 ## Scope & Research Questions
 
 S.V.E. investigates and develops **decentralized, verifiable, and scalable protocols** for epistemic integrity and collective decision-making.
