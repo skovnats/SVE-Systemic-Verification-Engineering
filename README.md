@@ -1230,7 +1230,7 @@ S.V.E. is a temporary framework—"crutches" for humanity to prevent self-harm a
 
 ---
 
-### 📖 Scripture
+# 📖 Scripture
 
 > **"Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven."** — *Matthew 18:3* <br>
 > **«Истинно говорю вам, если не обратитесь и не будете как дети, не войдете в Царство Небесное».** — *От Матфея 18:3*<br>
