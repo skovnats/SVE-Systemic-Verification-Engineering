@@ -263,6 +263,11 @@ Based on my current estimates, the real scale of violations is likely significan
 
 ---
 
+#### **Notes:**
+- *Weeks 9–10 published together due to illness; events documented chronologically.*
+
+---
+
 ## Change Log
 - 2026-02-01 - Report [week_+-10](week_+-10)
 - 2026-02-01 - Report [week_+-9](week_+-9)
