@@ -22,10 +22,35 @@ Interpretation is intentionally excluded.
   [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
 
 ---
-#TODO
 
 ## ⏱ All timestamps link to original, chronologically ordered video: 
 
+00:12 - artem__dmytruk__2025-09-09T083154.000Z.mp4
+1:55 - artem__dmytruk__2025-09-09T093602.000Z.mp4
+2:24 - artem__dmytruk__2025-09-09T105744.000Z.mp4
+2:42 - artem__dmytruk__2025-09-10T060500.000Z.mp4
+3:06 - artem__dmytruk__2025-09-10T164346.000Z.mp4
+3:28 - artem__dmytruk__2025-09-11T112033.000Z.mp4
+3:37 - artem__dmytruk__2025-09-11T142455.000Z.mp4
+3:58 - artem__dmytruk__2025-09-11T144230.000Z.mp4
+4:27 - artem__dmytruk__2025-09-12T071740.000Z.mp4
+5:13 - artem__dmytruk__2025-09-12T111809.000Z.mp4
+5:33 - artem__dmytruk__2025-09-13T202634.000Z.mp4
+8:33 - artem__dmytruk__2025-09-14T160926.000Z.mp4
+10:11 - artem__dmytruk__2026-01-28T105222.000Z.mp4
+11:12 - artem__dmytruk__2026-01-28T141048.000Z.mp4
+12:05 - artem__dmytruk__2026-01-28T153458.000Z.mp4
+12:38 - artem__dmytruk__2026-01-29T092753.000Z.mp4
+13:17 - artem__dmytruk__2026-01-29T131740.000Z.mp4
+14:32 - artem__dmytruk__2026-01-29T205354.000Z.mp4
+15:14 - artem__dmytruk__2026-01-30T082542.000Z.mp4
+15:30 - artem__dmytruk__2026-01-30T121501.000Z.mp4
+15:42 - artem__dmytruk__2026-01-30T141632.000Z.mp4
+16:40 - artem__dmytruk__2026-01-30T161100.000Z.mp4
+17:07 - artem__dmytruk__2026-01-31T100609.000Z.mp4
+17:29 - artem__dmytruk__2026-01-31T142010.000Z.mp4
+18:37 - artem__dmytruk__2026-01-31T144807.000Z.mp4
+19:35 - artem__dmytruk__2026-01-31T215235.000Z.mp4
 
 
 ---
