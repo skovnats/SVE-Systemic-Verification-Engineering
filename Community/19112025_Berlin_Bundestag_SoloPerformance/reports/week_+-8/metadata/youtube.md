@@ -25,39 +25,35 @@ Interpretation is intentionally excluded.
 #TODO
 
 ## ⏱ All timestamps link to original, chronologically ordered video: 
-
- - artem__dmytruk__2025-09-22T081132.000Z.mp4
- - artem__dmytruk__2025-09-22T145524.000Z.mp4
- - artem__dmytruk__2025-09-23T055552.000Z.mp4
- - artem__dmytruk__2025-09-23T090916.000Z.mp4
- - artem__dmytruk__2025-09-23T184029.000Z.mp4
- - artem__dmytruk__2025-09-24T144053.000Z.mp4
- - artem__dmytruk__2025-09-24T153624.000Z.mp4
- - artem__dmytruk__2025-09-24T205952.000Z.mp4
- - artem__dmytruk__2025-09-25T182517.000Z.mp4
- - artem__dmytruk__2025-09-26T083435.000Z.mp4
- - artem__dmytruk__2025-09-26T180313.000Z.mp4
- - artem__dmytruk__2025-09-27T132627.000Z.mp4
- - artem__dmytruk__2025-09-27T150954.000Z.mp4
- - artem__dmytruk__2025-09-27T173347.000Z.mp4
- - artem__dmytruk__2025-09-28T182531.000Z.mp4
- - artem__dmytruk__2026-01-14T151138.000Z.mp4
- - artem__dmytruk__2026-01-15T090844.000Z.mp4
- - artem__dmytruk__2026-01-15T091515.000Z.mp4
- - artem__dmytruk__2026-01-15T110307.000Z.mp4
- - artem__dmytruk__2026-01-15T124528.000Z.mp4
- - artem__dmytruk__2026-01-15T200824.000Z.mp4
- - artem__dmytruk__2026-01-15T214221.000Z.mp4
- - artem__dmytruk__2026-01-15T215704.000Z.mp4
- - artem__dmytruk__2026-01-16T142839.000Z.mp4
- - artem__dmytruk__2026-01-16T150902.000Z.mp4
- - artem__dmytruk__2026-01-17T113113.000Z.mp4
- - artem__dmytruk__2026-01-17T182038.000Z.mp4
- - artem__dmytruk__2026-01-17T211900.000Z.mp4
- - artem__dmytruk__2026-01-17T213241.000Z.mp4
- - artem__dmytruk__2026-01-18T193007.000Z.mp4
- - artem__dmytruk__2026-01-18T194127.000Z.mp4
- - artem__dmytruk__2026-01-18T224150.000Z.mp4
+00:12 - artem__dmytruk__2025-09-22T081132.000Z.mp4
+00:48 - artem__dmytruk__2025-09-22T145524.000Z.mp4
+1:48 - artem__dmytruk__2025-09-23T055552.000Z.mp4
+2:55 - artem__dmytruk__2025-09-23T184029.000Z.mp4
+3:04 - artem__dmytruk__2025-09-24T144053.000Z.mp4
+4:02 - artem__dmytruk__2025-09-24T153624.000Z.mp4
+6:21 - artem__dmytruk__2025-09-24T205952.000Z.mp4
+6:31 - artem__dmytruk__2025-09-26T083435.000Z.mp4
+7:07 - artem__dmytruk__2025-09-26T180313.000Z.mp4
+8:28 - artem__dmytruk__2025-09-27T132627.000Z.mp4
+9:48 - artem__dmytruk__2025-09-27T150954.000Z.mp4
+10:08 - artem__dmytruk__2025-09-27T173347.000Z.mp4
+11:29 - artem__dmytruk__2025-09-28T182531.000Z.mp4
+12:02 - artem__dmytruk__2026-01-14T151138.000Z.mp4
+13:29 - artem__dmytruk__2026-01-15T090844.000Z.mp4
+15:51 - artem__dmytruk__2026-01-15T091515.000Z.mp4
+16:58 - artem__dmytruk__2026-01-15T110307.000Z.mp4
+17:43 - artem__dmytruk__2026-01-15T124528.000Z.mp4
+18:10 - artem__dmytruk__2026-01-15T200824.000Z.mp4
+18:30 - artem__dmytruk__2026-01-15T214221.000Z.mp4
+19:49 - artem__dmytruk__2026-01-15T215704.000Z.mp4
+20:49 - artem__dmytruk__2026-01-16T142839.000Z.mp4
+21:42 - artem__dmytruk__2026-01-16T150902.000Z.mp4
+22:12 - artem__dmytruk__2026-01-17T113113.000Z.mp4
+22:53 - artem__dmytruk__2026-01-17T182038.000Z.mp4
+24:39 - artem__dmytruk__2026-01-17T211900.000Z.mp4
+25:43 - artem__dmytruk__2026-01-17T213241.000Z.mp4
+27:55 - artem__dmytruk__2026-01-18T194127.000Z.mp4
+29:56 - artem__dmytruk__2026-01-18T224150.000Z.mp4
 
 ---
 
