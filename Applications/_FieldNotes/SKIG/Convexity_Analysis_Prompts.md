@@ -137,16 +137,22 @@ Provide:
 - Interpretation: Is this convexity or linear profit?
 ```
 
-prompt-1 \
+Prompt-1: \
 https://www.kimi.com/chat/19c6841f-0102-8bd0-8000-096de73f4bc6 
 
-prompts-1-5 \
+Prompts-1-5: \
 https://chat.qwen.ai/s/6375f1a8-8b66-4207-8a7c-c1bf8735704f?fev=0.2.7 \
 https://gemini.google.com/share/662fab0edd6a \
 https://chatgpt.com/share/69938799-6e30-8003-b202-f524113a8f0a \
 https://grok.com/share/bGVnYWN5_0a5eb306-7952-4653-b181-0109b4d267c8 \
 https://claude.ai/share/cef5a51a-b67f-45c6-8ea1-b3316e35dea2 
 
+Gemini Deep Research (Prompts-1-5):\
+https://gemini.google.com/share/449f851ba3d4
+
+
+Deep Research (Claude Sonnet 4.6 Extended):\
+https://claude.ai/chat/da1ba5fe-b27e-47ec-9b2e-44f6e704f32c
 
 
 ---
