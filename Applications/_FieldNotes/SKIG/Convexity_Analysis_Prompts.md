@@ -153,7 +153,8 @@ https://gemini.google.com/share/449f851ba3d4
 
 Deep Research (Claude Sonnet 4.6 Extended):\
 https://claude.ai/chat/da1ba5fe-b27e-47ec-9b2e-44f6e704f32c
-
+`claude-Sonnet-4.6-advanced-research.md` (includes propmpts & guiding insttructions)\
+*Note: advanced research chats cannot be shared*
 
 ---
 
