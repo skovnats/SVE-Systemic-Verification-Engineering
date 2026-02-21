@@ -108,16 +108,6 @@ quadrantChart
 | 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
 
 
-```mermaid
-flowchart LR
-    A[Zelensky<br/>Hours<br/>Survival<br/>Alignment: 5/5]
-    B[Field Commander<br/>Days<br/>Battlefield<br/>Alignment: 4/5]
-    C[Western Leader<br/>Years<br/>Electoral<br/>Alignment: 1/5]
-    D[Defense CEO<br/>Negative Delay<br/>Market Reward<br/>Inverted]
-
-    A --> B --> C --> D
-```
-
 ## Feedback Loop Comparison
 
 | Decision-Maker  | Consequence Delay | Feedback Mechanism | Alignment |
