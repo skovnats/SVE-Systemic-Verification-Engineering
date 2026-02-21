@@ -232,40 +232,6 @@ RAI scores map onto a qualitative tier system for structural interpretation:
 | **Tier 3** | 56–79 | High insulation; institutional actors in secure capitals; democratic but physically safe |
 | **Tier 4** | 80–100 | Maximum insulation; defense-industrial actors; profit from volatility with near-zero downside |
 
-
-## Tier Matrix — Decision Power vs Personal Risk Exposure
-
-```mermaid
-quadrantChart
-    title Decision-Making Power vs Personal Risk Exposure
-    x-axis Low Risk --> High Risk
-    y-axis Low Power --> High Power
-
-    quadrant-1 Tier 1 - Aligned
-    quadrant-2 Tier 2 - Mixed
-    quadrant-3 Tier 4 - Inverted
-    quadrant-4 Tier 3 - Misaligned
-
-    Zelensky: [0.90, 0.90]
-
-    Putin: [0.70, 0.85]
-    Merz: [0.60, 0.75]
-    Netanyahu: [0.65, 0.80]
-
-    Western Leaders: [0.20, 0.85]
-    von der Leyen: [0.25, 0.80]
-    Macron: [0.30, 0.75]
-    Scholz: [0.28, 0.70]
-    Merkel: [0.22, 0.72]
-
-    Defense CEOs: [0.15, 0.20]
-    Taiclet: [0.20, 0.25]
-    Woodburn: [0.18, 0.22]
-    Papperger: [0.25, 0.28]
-```
-
-### Example
-
 | Tier | Alignment | Description | Examples |
 |------|-----------|------------|----------|
 | 🟢 Tier 1 | Authority = Risk | Direct exposure | Zelensky |
@@ -273,23 +239,6 @@ quadrantChart
 | 🟠 Tier 3 | High insulation | Authority without risk | Western leaders |
 | 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
 
-
-## Feedback Loop Comparison
-
-| Decision-Maker  | Consequence Delay | Feedback Mechanism | Alignment |
-|-----------------|------------------|--------------------|-----------|
-| Zelensky       | Hours            | Survival           | ■■■■■     |
-| Field Commander| Days             | Battlefield        | ■■■■      |
-| Western Leader | Years            | Electoral          | ■         |
-| Defense CEO    | Negative*        | Market reward      | Inverted  |
-
-\* Negative = Rewarded **before** consequences manifest
-
-
-
----
-
-## The Four Categories
 
 ### **TIER 1: Aligned Incentives** (Mean Risk: 65.8)
 **Volodymyr Zelensky** — *Only case in this category*
@@ -330,7 +279,6 @@ quadrantChart
 → **Perfect moral hazard:** Maximum profit from volatility, zero personal skin
 
 
-
 ## The Feedback Loop Structure
 
 | Decision-Maker | Consequence Delay | Feedback Type | Risk Score |
@@ -340,7 +288,40 @@ quadrantChart
 | Western Leader | Years | Electoral | 5-15 |
 | Defense CEO | Negative* | Market reward | 0-30 |
 
+
 *Negative = Rewarded BEFORE consequences manifest*
+
+## Tier Matrix — Decision Power vs Personal Risk Exposure
+
+```mermaid
+quadrantChart
+    title Decision-Making Power vs Personal Risk Exposure
+    x-axis Low Risk --> High Risk
+    y-axis Low Power --> High Power
+
+    quadrant-1 Tier 1 - Aligned
+    quadrant-2 Tier 2 - Mixed
+    quadrant-3 Tier 4 - Inverted
+    quadrant-4 Tier 3 - Misaligned
+
+    Zelensky: [0.90, 0.90]
+
+    Putin: [0.70, 0.85]
+    Merz: [0.60, 0.75]
+    Netanyahu: [0.65, 0.80]
+
+    Western Leaders: [0.20, 0.85]
+    von der Leyen: [0.25, 0.80]
+    Macron: [0.30, 0.75]
+    Scholz: [0.28, 0.70]
+    Merkel: [0.22, 0.72]
+
+    Defense CEOs: [0.15, 0.20]
+    Taiclet: [0.20, 0.25]
+    Woodburn: [0.18, 0.22]
+    Papperger: [0.25, 0.28]
+```
+
 
 ---
 
