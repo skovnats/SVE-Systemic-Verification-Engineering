@@ -163,6 +163,48 @@ This approach mirrors **expert panel assessments** used in qualitative research,
 
 ---
 
+# Appendix: Important Methodological Note
+
+All scores are produced by multiple AI models (Claude, ChatGPT, Gemini, Grok) and aggregated via a Meta-AI synthesis. Where models diverge significantly (e.g., Grok systematically scores Western leaders 20–40 points lower), the variance is itself treated as a signal — diagnostic of different underlying assumptions about what "risk" means, not just noise.
+
+The numbers are best read as **ratios and rankings**, not as precise measurements. The insight lies in the *pattern*, not the digit.
+
+---
+
+# Appendix: The Methodology
+
+### 🔬 What Makes This Defensible
+
+1. **Multi-Evaluator Consensus:**
+   - 5 independent AI systems as raters
+   - Standard practice in qualitative research
+   - Analogous to expert panel assessment
+
+2. **Statistical Validation:**
+   - Real statistical tests (ANOVA, correlations, effect sizes)
+   - Significance testing with p-values
+   - Effect size reporting (Cohen's d)
+
+3. **Three Independent Lines of Evidence:**
+   - Qualitative (framework)
+   - Quantitative (statistics)
+   - Temporal (event correlation)
+   - All support same conclusion
+
+4. **Transparent Limitations:**
+   - Clearly state: "Multi-AI assessment, not objective measurement"
+   - Clearly state: "Comparative ratings, not direct measurements"
+   - Clearly state: "Framework demonstration with statistical validation"
+
+5. **Verifiable Claims:**
+   - All data available (CSV, JSON)
+   - All code available (Python scripts)
+   - All sources documented (URLs)
+   - Fully replicable
+
+
+---
+
 # Appendix: Metrics Explained
 
 ## Core Dimensions (Input Scores, 0–100)
@@ -321,48 +363,6 @@ quadrantChart
     Woodburn: [0.18, 0.22]
     Papperger: [0.25, 0.28]
 ```
-
-
----
-
-# Appendix: Important Methodological Note
-
-All scores are produced by multiple AI models (Claude, ChatGPT, Gemini, Grok) and aggregated via a Meta-AI synthesis. Where models diverge significantly (e.g., Grok systematically scores Western leaders 20–40 points lower), the variance is itself treated as a signal — diagnostic of different underlying assumptions about what "risk" means, not just noise.
-
-The numbers are best read as **ratios and rankings**, not as precise measurements. The insight lies in the *pattern*, not the digit.
-
----
-
-# Appendix: The Methodology
-
-### 🔬 What Makes This Defensible
-
-1. **Multi-Evaluator Consensus:**
-   - 5 independent AI systems as raters
-   - Standard practice in qualitative research
-   - Analogous to expert panel assessment
-
-2. **Statistical Validation:**
-   - Real statistical tests (ANOVA, correlations, effect sizes)
-   - Significance testing with p-values
-   - Effect size reporting (Cohen's d)
-
-3. **Three Independent Lines of Evidence:**
-   - Qualitative (framework)
-   - Quantitative (statistics)
-   - Temporal (event correlation)
-   - All support same conclusion
-
-4. **Transparent Limitations:**
-   - Clearly state: "Multi-AI assessment, not objective measurement"
-   - Clearly state: "Comparative ratings, not direct measurements"
-   - Clearly state: "Framework demonstration with statistical validation"
-
-5. **Verifiable Claims:**
-   - All data available (CSV, JSON)
-   - All code available (Python scripts)
-   - All sources documented (URLs)
-   - Fully replicable
 
 ---
 
