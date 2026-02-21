@@ -1,5 +1,12 @@
-# [Skin in the Game](https://english.stackexchange.com/questions/384415/origin-of-skin-in-the-game#384443): Categorical Asymmetry in Conflict Escalation
-## Multi-AI Assessment Framework & Statistical Analysis
+# Project Overview: Systemic Risk & Categorical Asymmetry**
+This research utilizes the **S.V.E. (Systemic Verification Engineering)** framework to measure the distance between power and consequence. By deploying a multi-AI expert panel across 14-30+ geopolitical actors, we demonstrate that modern conflict is defined by a **categorical cliff of risk insulation.**
+
+**Key Highlights:**
+*   **ANOVA F=19.3 ($p<0.001$):** Definitive proof that decision-makers cluster into discrete, insulated tiers rather than a continuous risk gradient.
+*   **Defense Industry Convexity:** Quadratic regression confirms that defense equity returns accelerate as conflict severity approaches existential levels.
+*   **The RAI Index:** A formal metric (Risk-Ethics Asymmetry Index) quantifying the decoupling of accountability from consequence.
+*   **Verified Methodology:** Fully reproducible via the provided prompt chains and AI response logs.
+
 
 - **Full original analysis & data-AI-estimates with S.V.E. ontology:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
 - **Multi-AI analysis:** [ai_analysis](ai_analysis)
