@@ -3,6 +3,23 @@
 
 #### **Full original analysis with S.V.E. ontology:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
 
+
+---
+
+## Statements Analysis
+
+### An "Inverted Symmetry" law
+The power to escalate conflict correlates almost perfectly with the absence of personal risk (e.g., Western technocrats, Defense CEOs).
+
+#### Correction:
+The proposed "Inverted Symmetry" law is statistically incorrect as a correlation, but it accurately describes a "categorical cliff" of risk insulation.
+
+**What the analysis does confirm:**
+The Cross-Model Consensus section explicitly states that *"global power network score correlates inversely with personal exposure (r ≈ –0.7 across models)"* and that *"escalator role [is] strongly associated with low personal downside"* — particularly for Western leaders and Arms CEOs. The Master Table reinforces this: Scholz, Macron, von der Leyen, and Arms CEOs all score low on Skin-in-the-Game (5–35) while being labeled escalators with massive responsibility radii. The conclusion even calls it a *"law-like pattern."*
+Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
+
+**Specific Case:** Defense executives currently enjoy maximum convexity (profit from volatility) with zero downside, creating a perfect Moral Hazard.
+
 ---
 
 ## The Finding
