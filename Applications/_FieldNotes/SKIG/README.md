@@ -109,7 +109,7 @@ quadrantChart
 
 
 
-### ✅ DIMENSION 2: Quantitative Statistics (COMPLETE)
+### ✅ DIMENSION 2: Quantitative Statistics: Qualitative-Analysis extension
 **What it is:**
 - Statistical analysis of multi-AI assessments
 - N=14 figures with 2-3 AI ratings each
@@ -121,7 +121,7 @@ quadrantChart
 
 **Evidence Type:** Inferential statistics on expert panel ratings
 
-### 🔄 DIMENSION 3: Convexity Analysis (IN PROGRESS)
+### ✅🔄 DIMENSION 3: Quantitative-Convexity Analysis
 **What it is:**
 - Event-based correlation analysis
 - Linear vs quadratic model testing  
