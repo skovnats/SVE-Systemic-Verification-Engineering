@@ -137,7 +137,7 @@ When those who can start wars cannot die in them, cannot lose children to them, 
 
 ---
 
-# Appendix: Transparency -- What These Numbers Mean
+# Appendix: Transparency
 
 ### What This Analysis IS:
 - **Multi-evaluator comparative assessment** (5 AI systems as independent raters)
