@@ -105,20 +105,6 @@ The word **"perfect"** is doing too much work. The document is explicitly built 
 Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
 
 
----
-
-
-## The Finding
-
-Decision-making authority and personal risk exposure in conflict are **not inversely correlated on a continuum**—they form **distinct categorical clusters** with massive group differences.
-
-**Statistical Evidence (N=14, Multi-AI Assessment):**
-- ANOVA: F = 19.3, **p < 0.001*** (groups differ significantly)
-- Effect Size: **Cohen's d = 3.2-4.6** (anything > 0.8 is "large"; this is massive)
-- Pattern: NOT linear correlation (r = -0.04, ns), but **categorical clustering**
-
-> "Decision-makers cluster into discrete categories with massive risk differences (p<0.001, d>3.0), and defense executives show systematic profit correlation with escalation events—not gradual misalignment but structural categorical asymmetry"
-
 --- 
 
 ## The Methodology
@@ -170,102 +156,6 @@ All data, code, replication materials: https://github.com/skovnats/SVE-Systemic-
 
 **Evidence Type:** Qualitative analysis with cross-evaluator validation
 
-
-## Tier Matrix — Decision Power vs Personal Risk Exposure
-
-```mermaid
-quadrantChart
-    title Decision-Making Power vs Personal Risk Exposure
-    x-axis Low Risk --> High Risk
-    y-axis Low Power --> High Power
-
-    quadrant-1 Tier 1 - Aligned
-    quadrant-2 Tier 2 - Mixed
-    quadrant-3 Tier 4 - Inverted
-    quadrant-4 Tier 3 - Misaligned
-
-    Zelensky: [0.90, 0.90]
-
-    Putin: [0.70, 0.85]
-    Merz: [0.60, 0.75]
-    Netanyahu: [0.65, 0.80]
-
-    Western Leaders: [0.20, 0.85]
-    von der Leyen: [0.25, 0.80]
-    Macron: [0.30, 0.75]
-    Scholz: [0.28, 0.70]
-    Merkel: [0.22, 0.72]
-
-    Defense CEOs: [0.15, 0.20]
-    Taiclet: [0.20, 0.25]
-    Woodburn: [0.18, 0.22]
-    Papperger: [0.25, 0.28]
-```
-
-### Example
-
-| Tier | Alignment | Description | Examples |
-|------|-----------|------------|----------|
-| 🟢 Tier 1 | Authority = Risk | Direct exposure | Zelensky |
-| 🟡 Tier 2 | Partial alignment | Mixed exposure | Putin |
-| 🟠 Tier 3 | High insulation | Authority without risk | Western leaders |
-| 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
-
-
-## Feedback Loop Comparison
-
-| Decision-Maker  | Consequence Delay | Feedback Mechanism | Alignment |
-|-----------------|------------------|--------------------|-----------|
-| Zelensky       | Hours            | Survival           | ■■■■■     |
-| Field Commander| Days             | Battlefield        | ■■■■      |
-| Western Leader | Years            | Electoral          | ■         |
-| Defense CEO    | Negative*        | Market reward      | Inverted  |
-
-\* Negative = Rewarded **before** consequences manifest
-
-
-
----
-
-## The Four Categories
-
-### **TIER 1: Aligned Incentives** (Mean Risk: 65.8)
-**Volodymyr Zelensky** — *Only case in this category*
-- Remained in Kyiv under bombardment (Feb 2022); multiple assassination attempts
-- Personal survival = National survival
-- Multi-AI consensus: Highest risk exposure (65-95 range)
-
-### **TIER 2: Mixed** (Mean Risk: 30.0)
-**Vladimir Putin**
-- Physical insulation (bunkers, security) but political survival tied to war
-- Multi-AI consensus: Moderate risk (20-40 range)
-
-### **TIER 3: Insulated** (Mean Risk: 7.9, SD: 3.9)
-**Western Leaders:** Merz, Scholz, Macron, Merkel, von der Leyen, Biden, Johnson
-- Zero physical exposure, no family in military, conscription suspended
-- Electoral consequences only (delayed 4-5 years)
-- Multi-AI consensus: Very low risk (5-15 range)
-- N=7, extremely tight clustering
-
-### **TIER 4: Inverted** (Mean Risk: 10.0, SD: 5.0)
-**Defense CEOs:** Taiclet (Lockheed), Papperger (Rheinmetall), Woodburn (BAE)
-
-| Executive | 2024 Compensation | Stock Performance | Personal Risk |
-|-----------|-------------------|-------------------|---------------|
-| Taiclet | $23.75M (189× median worker) | ↑ with conflict | 0 |
-| Woodburn | ~£12M | +143% (3yr) | 0* |
-| Papperger | €4.4M | +450% since 2022 | *Assassination target** |
-
-*\*Sanctioned by China 2024 / \*\*Russian plot foiled 2024*
-
-**The Convexity Problem:**
-- Revenue scales with conflict intensity
-- Compensation tied to stock price
-- Stock correlates with defense spending
-- Personal downside: Zero (golden parachutes)
-- Multi-AI consensus: Lowest risk (0-30 range)
-
-→ **Perfect moral hazard:** Maximum profit from volatility, zero personal skin
 
 ---
 
@@ -528,6 +418,103 @@ RAI scores map onto a qualitative tier system for structural interpretation:
 | **Tier 2** | 31–55 | Moderate insulation; some biographical or geographic skin in the game |
 | **Tier 3** | 56–79 | High insulation; institutional actors in secure capitals; democratic but physically safe |
 | **Tier 4** | 80–100 | Maximum insulation; defense-industrial actors; profit from volatility with near-zero downside |
+
+
+## Tier Matrix — Decision Power vs Personal Risk Exposure
+
+```mermaid
+quadrantChart
+    title Decision-Making Power vs Personal Risk Exposure
+    x-axis Low Risk --> High Risk
+    y-axis Low Power --> High Power
+
+    quadrant-1 Tier 1 - Aligned
+    quadrant-2 Tier 2 - Mixed
+    quadrant-3 Tier 4 - Inverted
+    quadrant-4 Tier 3 - Misaligned
+
+    Zelensky: [0.90, 0.90]
+
+    Putin: [0.70, 0.85]
+    Merz: [0.60, 0.75]
+    Netanyahu: [0.65, 0.80]
+
+    Western Leaders: [0.20, 0.85]
+    von der Leyen: [0.25, 0.80]
+    Macron: [0.30, 0.75]
+    Scholz: [0.28, 0.70]
+    Merkel: [0.22, 0.72]
+
+    Defense CEOs: [0.15, 0.20]
+    Taiclet: [0.20, 0.25]
+    Woodburn: [0.18, 0.22]
+    Papperger: [0.25, 0.28]
+```
+
+### Example
+
+| Tier | Alignment | Description | Examples |
+|------|-----------|------------|----------|
+| 🟢 Tier 1 | Authority = Risk | Direct exposure | Zelensky |
+| 🟡 Tier 2 | Partial alignment | Mixed exposure | Putin |
+| 🟠 Tier 3 | High insulation | Authority without risk | Western leaders |
+| 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
+
+
+## Feedback Loop Comparison
+
+| Decision-Maker  | Consequence Delay | Feedback Mechanism | Alignment |
+|-----------------|------------------|--------------------|-----------|
+| Zelensky       | Hours            | Survival           | ■■■■■     |
+| Field Commander| Days             | Battlefield        | ■■■■      |
+| Western Leader | Years            | Electoral          | ■         |
+| Defense CEO    | Negative*        | Market reward      | Inverted  |
+
+\* Negative = Rewarded **before** consequences manifest
+
+
+
+---
+
+## The Four Categories
+
+### **TIER 1: Aligned Incentives** (Mean Risk: 65.8)
+**Volodymyr Zelensky** — *Only case in this category*
+- Remained in Kyiv under bombardment (Feb 2022); multiple assassination attempts
+- Personal survival = National survival
+- Multi-AI consensus: Highest risk exposure (65-95 range)
+
+### **TIER 2: Mixed** (Mean Risk: 30.0)
+**Vladimir Putin**
+- Physical insulation (bunkers, security) but political survival tied to war
+- Multi-AI consensus: Moderate risk (20-40 range)
+
+### **TIER 3: Insulated** (Mean Risk: 7.9, SD: 3.9)
+**Western Leaders:** Merz, Scholz, Macron, Merkel, von der Leyen, Biden, Johnson
+- Zero physical exposure, no family in military, conscription suspended
+- Electoral consequences only (delayed 4-5 years)
+- Multi-AI consensus: Very low risk (5-15 range)
+- N=7, extremely tight clustering
+
+### **TIER 4: Inverted** (Mean Risk: 10.0, SD: 5.0)
+**Defense CEOs:** Taiclet (Lockheed), Papperger (Rheinmetall), Woodburn (BAE)
+
+| Executive | 2024 Compensation | Stock Performance | Personal Risk |
+|-----------|-------------------|-------------------|---------------|
+| Taiclet | $23.75M (189× median worker) | ↑ with conflict | 0 |
+| Woodburn | ~£12M | +143% (3yr) | 0* |
+| Papperger | €4.4M | +450% since 2022 | *Assassination target** |
+
+*\*Sanctioned by China 2024 / \*\*Russian plot foiled 2024*
+
+**The Convexity Problem:**
+- Revenue scales with conflict intensity
+- Compensation tied to stock price
+- Stock correlates with defense spending
+- Personal downside: Zero (golden parachutes)
+- Multi-AI consensus: Lowest risk (0-30 range)
+
+→ **Perfect moral hazard:** Maximum profit from volatility, zero personal skin
 
 ---
 
