@@ -1,4 +1,142 @@
+# Visual Specification: SITG Tier Matrix
+## For Taleb 1-Pager
 
+---
+
+## Option A: Tier Matrix (RECOMMENDED - Most Honest)
+
+### Layout
+```
+                    PERSONAL RISK EXPOSURE
+                    Low         Medium        High
+         ┌─────────────────────────────────────────┐
+         │                                         │
+    High │  TIER 3          TIER 2        TIER 1  │
+         │  Western         Putin         Zelensky│
+D   │  Leaders         Merz                    │
+E   │  von der Leyen   Netanyahu              │
+C        │  Macron                                 │
+I        │  Scholz                                 │
+S        │  Merkel                                 │
+I   ├─────────────────────────────────────────────┤
+O        │                                         │
+N   Med  │                           (empty)      │
+         │                                         │
+M   │                                         │
+A        ├─────────────────────────────────────────┤
+K        │                                         │
+I   Low  │  TIER 4                                │
+N        │  Defense CEOs                          │
+G        │  Taiclet                               │
+         │  Woodburn                               │
+P        │  *Papperger                            │
+O        │  (assassination                        │
+W        │   target)                              │
+E        │                                         │
+R        └─────────────────────────────────────────┘
+```
+
+### Color Coding
+- **TIER 1 (Green):** Aligned - Authority = Risk
+- **TIER 2 (Yellow):** Mixed - Some alignment
+- **TIER 3 (Orange):** Misaligned - High insulation
+- **TIER 4 (Red):** Inverted - Profit from conflict
+
+### Annotations
+- Arrow showing "expected" diagonal (aligned incentives)
+- Shaded region showing "actual concentration" (bottom-right + top-left)
+- Callout: "Zelensky: Only case in aligned quadrant"
+- Callout: "Defense CEOs: 100% in inverted quadrant"
+- Note: "*Papperger: Exception that proves rule"
+
+---
+
+## Option B: Asymmetry Quadrant (K2-Style)
+
+### Layout
+```
+    Personal Risk
+        ↑
+        │
+   High │     ALIGNED          RARE
+        │   (Zelensky)      (Commanders)
+        │       ●
+        │
+        │
+───────┼──────────────────────────────→ Decision
+   0   │                              Power
+        │
+        │  POWERLESS        INVERTED
+   Low  │  (Civilians)    (Western Leaders,
+        │                  Defense CEOs)
+        │                    ●●●●●●●
+```
+
+### Data Points
+- Size of bubble = Responsibility Radius
+- Color = Category (Political/Military/Industry)
+- X-axis: 0-100 Decision-Making Power
+- Y-axis: 0-100 Personal Risk Exposure
+
+**Problem:** Requires numerical assignments that look precise but aren't measured
+
+---
+
+## Option C: Feedback Loop Comparison (RECOMMENDED Alternative)
+
+### Simple Table Visual
+```
+┌──────────────────┬──────────────┬────────────────┬────────────┐
+│ Decision-Maker   │ Consequence  │ Feedback       │ Alignment  │
+│                  │ Delay        │ Mechanism      │            │
+├──────────────────┼──────────────┼────────────────┼────────────┤
+│ Zelensky         │ Hours        │ Survival       │ ■■■■■      │
+│ Field Commander  │ Days         │ Battlefield    │ ■■■■       │
+│ Western Leader   │ Years        │ Electoral      │ ■          │
+│ Defense CEO      │ Negative*    │ Market reward  │ (inverted) │
+└──────────────────┴──────────────┴────────────────┴────────────┘
+
+*Negative = Rewarded BEFORE consequences manifest
+```
+
+---
+
+## Implementation Guidance
+
+### If Using Tier Matrix (Option A):
+**Tool:** Draw.io, PowerPoint, or hand-drawn + scan  
+**Time:** 2 hours  
+**Pros:** 
+- Honest about qualitative nature
+- Clear visual pattern
+- No false precision
+**Cons:**
+- Less "scientific" looking
+- May seem subjective
+
+### If Using Quadrant Plot (Option B):
+**Tool:** Python (matplotlib), R (ggplot2), or Excel  
+**Time:** 3 hours (need to assign numbers)  
+**Pros:**
+- Professional appearance
+- Fits academic norms
+**Cons:**
+- Implies precision you don't have
+- Requires numerical assignments
+- Could be challenged on methodology
+
+### If Using Feedback Table (Option C):
+**Tool:** Markdown table → PDF, or manual design  
+**Time:** 1 hour  
+**Pros:**
+- Very simple
+- Focuses on TIME dimension (Taleb likes this)
+- No implied precision
+**Cons:**
+- Less visual impact
+- Doesn't show full pattern
+
+---
 
 ## RECOMMENDATION
 
