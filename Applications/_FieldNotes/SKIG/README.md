@@ -105,7 +105,7 @@ The word **"perfect"** is doing too much work. The document is explicitly built 
 Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
 
 
---
+---
 
 
 ## The Finding
