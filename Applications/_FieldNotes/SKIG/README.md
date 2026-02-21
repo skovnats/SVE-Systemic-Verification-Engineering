@@ -81,7 +81,7 @@ Volodymyr Zelenskyy represents the **structural exception**. He is the only acto
 
 ---
 
-Based on the multi-dimensional AI assessments and the S.V.E. (Systemic Verification Engineering) framework provided in the sources, the following claims are the most critical to pressure-test before finalizing the analysis for Prof. Taleb and the NeurIPS submission.
+Based on the multi-dimensional AI assessments and the S.V.E. (Systemic Verification Engineering) framework provided in the sources, the following claims are the most critical to pressure-test before finalizing the analysis for submissions.
 
 ### **1. The "Zero Downside" Claim vs. "Asymmetric Downside Protection"**
 This is perhaps the most vulnerable claim in your current draft. While the initial assertion was "zero personal downside" for defense CEOs, several AI models and validation checklists suggest a revision to **"Asymmetric Downside Protection"**.
