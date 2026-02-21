@@ -148,132 +148,74 @@ Systems designed with this level of categorical asymmetry (high **Risk–Ethics 
 
 ---
 
-# Appendix: Transparency & Methodological Rigor
+---
 
-### **What This Analysis IS**
-*   **Multi-Evaluator Heuristic Assessment:** Utilizes 5 independent AI systems (Claude, ChatGPT, Gemini, Grok, Qwen) as a cross-validated expert panel.
-*   **Categorical Clustering Analysis:** Demonstrates that decision-makers belong to statistically distinct risk populations rather than a continuous gradient.
-*   **Significance Tested Pattern Identification:** Confirmed via **One-Way ANOVA ($F = 19.3, p < 0.001$)** with massive effect sizes (**Cohen’s $d = 3.2–4.6$**).
-*   **Convexity Verification:** Compares linear vs. quadratic models to test if profits accelerate with conflict severity.
+# Appendix
 
-### **What This Analysis IS NOT**
-*   **Actuarial Measurement:** Numerical scores (0–100) are **heuristic and symbolic markers** designed to visualize relative standing and structural ratios, not to provide precise insurance-grade measurements.
-*   **Causal Proof:** This is a descriptive study identifying structural "attractor states" in systemic risk; it does not claim to prove individual intent.
-*   **Exhaustive Census:** The sample size ($N=14–30+$) focuses on high-leverage nodes to demonstrate the framework's diagnostic power.
+## Methodology
 
-### **Methodological Analog: Expert Panel Assessment**
-This approach mirrors standardized **expert panel ratings** used in qualitative research and risk evaluation. By triangulating five independent models, we identify "structural signals" in the training data—treating model divergence (e.g., Grok’s bias) as a diagnostic marker of institutional insulation rather than mere noise.
+### What This Analysis IS and IS NOT
 
-### **Verification Status**
-| Metric | Status | Source/Method |
+| | |
+|---|---|
+| ✅ Multi-evaluator heuristic assessment | ❌ Actuarial measurement |
+| ✅ Categorical clustering with significance testing | ❌ Causal proof of individual intent |
+| ✅ Convexity verification (linear vs. quadratic) | ❌ Exhaustive census (*N* = 14–30+ focuses on high-leverage nodes) |
+
+### The Multi-AI Expert Panel
+
+Five AI systems (Claude, ChatGPT, Gemini, Grok, Qwen) acted as independent raters — mirroring expert panel methodology in qualitative research. All numerical scores (0–100) are **heuristic and symbolic markers**, not insurance-grade measurements.
+
+**Model divergence is treated as signal, not noise.** The Grok Divergence — systematically lower SITG scores for Western leaders (e.g., Scholz: 5 vs. consensus 30) — reveals a clash between a *behavioral lens* (immediate actions) and a *biographical/structural lens* (wealth, family, institutional insulation).
+
+### Verification Status
+
+| Metric | Status | Source |
 | :--- | :--- | :--- |
-| **CEO Compensation** | ✅ **Verified** | SEC DEF 14A filings (LMT, NOC, RTX) and Annual Reports (RHM, BA). |
-| **Stock Performance** | ✅ **Verified** | Financial records (Yahoo Finance/Bloomberg) tracking +1,576% (RHM) and +228% (BAE) gains. |
-| **Kinetic Threats** | ✅ **Verified** | Public record of thwarted assassination attempts (Papperger 2024). |
-| **Model Consensus** | ✅ **Verified** | Five-system alignment on Tier assignments and the "Zelensky Singularity". |
-| **Risk Scores** | ⚠️ **Heuristic** | Comparative judgments derived from multi-model consensus ($RAI$ Index). |
-| **Downside Floor** | ⚠️ **Refined** | Revised from "Zero Downside" to **"Asymmetric Downside Protection"** ($15M–$55M floors). |
+| **CEO Compensation** | ✅ Verified | SEC DEF 14A filings (LMT, NOC, RTX); Annual Reports (RHM, BA) |
+| **Stock Performance** | ✅ Verified | Yahoo Finance / Bloomberg — RHM +1,576%, BAE +228% |
+| **Kinetic Threats** | ✅ Verified | Public record — Papperger assassination plot (2024) |
+| **Profit Model** | ✅ Convex | Quadratic *R²* = 0.82 vs. Linear *R²* = 0.55 |
+| **Risk Scores (RAI)** | ⚠️ Heuristic | Multi-model consensus — relative, not actuarial |
+| **Downside Floor** | ⚠️ Refined | Revised from "Zero Downside" → Asymmetric Downside Protection ($15M–$55M) |
 
----
+### Methodological Summary
 
-
-# Appendix: Methodological Rigor & AI Synthesis
-
-### **1. The Multi-AI Expert Panel**
-All ratings and indices are produced by five independent AI systems (**Claude, ChatGPT, Gemini, Grok, and Qwen**) acting as a standardized expert panel. This methodology mirrors **expert panel assessments** in qualitative research, where multiple independent raters evaluate the same subjects to identify cross-evaluator consensus and isolate outliers.
-
-### **2. Variance as a Diagnostic Signal**
-Significant model divergence is treated as a **structural signal** rather than noise. 
-*   **The Grok Divergence:** Grok systematically assigned lower Skin-in-the-Game (SITG) scores to Western leaders (e.g., Scholz: 5 vs. 30 consensus).
-*   **Diagnostic Interpretation:** This divergence reveals a clash of analytical "lenses." Grok prioritizes a **behavioral/practical lens** (immediate policy actions), while other models utilize a **biographical/structural lens** (wealth, family, and institutional insulation).
-
-### **3. Patterns Over Precision**
-The numerical outputs (0–100) are **heuristic and symbolic markers** designed to visualize relative standing and structural ratios, not to provide insurance-grade actuarial measurements.
-*   **Falsifying the Gradient:** A Pearson correlation test between decision-power and risk yielded **$r = -0.04$ (non-significant)**, proving that risk does not decrease gradually as power increases. 
-*   **The Categorical Cliff:** While digits are heuristic, the **clustering is mathematically robust.** One-way ANOVA confirms these tiers are distinct populations (**$F = 19.3, p < 0.001$**) with massive effect sizes (**Cohen’s $d = 3.2–4.6$**).
-
-### **4. Verification Status**
-| Metric | Status | Source/Method |
-| :--- | :--- | :--- |
-| **CEO Compensation** | ✅ **Verified** | SEC DEF 14A filings (Taiclet: $23.75M) and Annual Reports. |
-| **Stock Performance** | ✅ **Verified** | Financial records tracking +1,576% (RHM) and +228% (BAE) gains. |
-| **Kinetic Threats** | ✅ **Verified** | Public record of thwarted assassination attempts (Papperger 2024). |
-| **Profit Model** | ✅ **Convex** | Quadratic models ($R^2 = 0.82$) significantly out-fit linear models ($R^2 = 0.55$). |
-| **Index (RAI)** | ⚠️ **Heuristic** | The **Risk–Ethics Asymmetry Index** measures the distance between decision authority and personal consequence. |
-
-**Bottom Line:** This analysis does not provide actuarial measurements. It provides a **statistical mirror** of the systemic decoupling of power from consequence—a **Principal-Agent Catastrophe** where those who architect volatility capture the convex upside while externalizing the concavity of loss.
-
----
-
-# Appendix: The Methodology
-
-### 🔬 What Makes This Defensible
-
-#### **1. Multi-Evaluator Consensus (Expert Panel Analog)**
-*   **Independent Raters:** We deployed five independent AI systems (**Claude, ChatGPT, Gemini, Grok, Qwen**) as a standardized expert panel.
-*   **Signal Triangulation:** This mirrors established qualitative research practices. By cross-evaluating 14–30+ figures, we isolate **cross-model consensus** while treating model divergence (e.g., the **Grok Divergence**) as a diagnostic signal of institutional bias rather than noise.
-
-#### **2. Rigorous Statistical Validation**
-We moved beyond qualitative description to provide inferential proof:
-*   **Categorical Clustering (ANOVA):** One-way ANOVA confirmed that decision-makers cluster into discrete, statistically distinct populations (**$F = 19.3, p < 0.001$**).
-*   **Massive Effect Sizes:** We report **Cohen’s $d$ between 3.2 and 4.6**, indicating that the distance between "Exposed" and "Insulated" groups exceeds the standard "large" threshold by a factor of four.
-*   **Falsified Correlation:** A Pearson test yielded **$r = -0.04$ (non-significant)**, definitively falsifying the "Linear Gradient" hypothesis in favor of a **"Categorical Cliff"**.
-
-#### **3. Three Independent Lines of Evidence**
-The conclusion is reached through three distinct analytical dimensions:
-*   **Qualitative:** The **Risk–Ethics Asymmetry Index (RAI)** measures the structural distance between power and consequence.
-*   **Quantitative:** Statistical significance testing (ANOVA/Cohen's $d$) on expert ratings.
-*   **Temporal/Financial:** **Convexity Analysis** showing that defense profits accelerate ($R^2 = 0.82$ for quadratic models) as conflict severity reaches existential levels.
-
-#### **4. Transparent Limitations & Intellectual Honesty**
-To avoid "false precision," we explicitly state:
-*   **Heuristic Markers:** Numerical scores (0–100) are **symbolic markers** used to visualize relative standing and structural ratios, not actuarial measurements.
-*   **Asymmetric Protection:** The "zero downside" claim for CEOs is refined to **"Asymmetric Downside Protection,"** acknowledging high multi-million dollar "floors" ($15M–$55M) even in cases of failure.
-
-#### **5. Fully Verifiable & Replicable**
-*   **Open Data:** All underlying datasets (CSV, JSON) and calculation logs are available in the repository.
-*   **Prompt Transparency:** The full "prompt chains" used to elicit AI assessments are documented, allowing third-party replication of the expert panel.
-
----
-
-### **Methodological Summary Table**
-| Dimension | Methodology | Key Metric | Result |
+| Dimension | Method | Metric | Result |
 | :--- | :--- | :--- | :--- |
-| **Structure** | ANOVA Group Testing | $F$-stat / $p$-value | **19.3 / <0.001** |
-| **Magnitude** | Cohen’s $d$ | Effect Size | **3.2 – 4.6 (Massive)** |
-| **Linearity** | Pearson Correlation | $r$ coefficient | **-0.04 (Falsified)** |
-| **Profit Trend** | Quadratic Regression | $R^2$ Comparison | **0.82 (Convexity)** |
+| **Structure** | One-way ANOVA | *F* / *p* | 19.3 / <0.001 |
+| **Magnitude** | Cohen's *d* | Effect size | 3.2 – 4.6 |
+| **Linearity** | Pearson *r* | Correlation | −0.04 (*ns*, falsified) |
+| **Profit Trend** | Quadratic regression | *R²* | 0.82 (convexity confirmed) |
 
 ---
 
-# Appendix: Metrics Explained
+## Metrics Explained
 
-## Core Dimensions (Input Scores, 0–100)
-
-Each actor is scored across several dimensions before any index is computed. All scores are **heuristic and symbolic** — they represent *relative intensity*, not actuarial precision.
+### Core Input Dimensions (0–100, heuristic)
 
 | Dimension | What it measures |
 |-----------|-----------------|
-| **Skin in the Game (SiG)** | Personal physical and economic exposure to the consequences of one's decisions |
-| **Children / Relatives SiG** | Whether immediate family shares that exposure (war zone proximity, military service) |
+| **Skin in the Game (SiG)** | Personal physical and economic exposure to consequences of one's decisions |
+| **Children / Relatives SiG** | Whether immediate family shares that exposure |
 | **Days in High-Risk Zones** | Time spent within 50km of active combat or under direct missile/drone threat |
-| **Direct Exposure to War Consequences** | Composite of physical proximity, personal loss, and sensory/experiential contact with conflict |
+| **Direct Exposure to War Consequences** | Composite of physical proximity, personal loss, sensory contact with conflict |
 | **Economic Vulnerability** | Degree to which personal wealth could be affected by policy outcomes |
-| **Extreme Hardship Experience** | Biographical exposure to war, poverty, or persecution (acts as a *mitigating* factor in RAI) |
-| **Combat Experience** | Direct military service in combat roles (also mitigating) |
+| **Extreme Hardship Experience** | Biographical exposure to war, poverty, persecution — *mitigating factor* |
+| **Combat Experience** | Direct military service in combat roles — *mitigating factor* |
 | **Global Power Network Score** | Depth of connections to institutional, financial, and political elite networks |
 | **Responsibility Radius** | Estimated number of lives materially affected by the actor's decisions |
 
 ---
 
-## Risk–Ethics Asymmetry Index (RAI)
+### Risk–Ethics Asymmetry Index (RAI)
 
-**RAI** is the primary composite index. It measures the *gap* between an actor's decision-making power and their personal exposure to the consequences of those decisions.
+Measures the *gap* between decision-making power and personal exposure to consequences.
 
-> **0 = fully consequence-aligned** (the actor bears what they impose)
-> **100 = maximally insulated** (the actor bears nothing they impose)
+> **0** = fully consequence-aligned (actor bears what they impose)  
+> **100** = maximally insulated (actor bears nothing they impose)
 
-### Calculation (simplified)
+**Calculation (simplified):**
 
 ```
 Base = Responsibility Radius − Composite Personal Risk
@@ -292,89 +234,49 @@ Adjustments:
 RAI = clamp(Base + Adjustments, 0, 100)
 ```
 
-### Examples
+**Examples:**
 
-| Actor | RAI | Why |
-|-------|-----|-----|
-| **Zelenskyy** | **12** | Lives in active war zone, family at risk, survival tied to national outcome — near-zero asymmetry |
-| **Netanyahu** | **22** | Combat veteran, under rocket threat, family in country — high personal stake despite escalatory role |
-| **Macron** | **68** | No military service, family in no danger, decisions affect millions — high asymmetry |
-| **Arms CEOs (avg.)** | **78** | Maximum responsibility radius, zero days in war zones, compensation rises with conflict — near-maximum asymmetry |
-| **Papperger (Rheinmetall)** | **69** | Would score ~84, but −5 adjustment applied due to confirmed assassination plot (2024) — the "anomaly" that proves the rule |
+| Actor | RAI | Rationale |
+|-------|-----|-----------|
+| **Zelenskyy** | 12 | Active war zone, family at risk, survival = national survival |
+| **Netanyahu** | 22 | Combat veteran, under rocket threat, family in country |
+| **Macron** | 68 | No military service, family not at risk, decisions affect millions |
+| **Arms CEOs (avg.)** | 78 | Max responsibility radius, zero war zone exposure, compensation rises with conflict |
+| **Papperger** | 69 | Would score ~84; −5 applied for confirmed assassination plot (2024) |
 
 ---
 
-## Four-Tier Framework
+### Four-Tier Framework
 
-RAI scores map onto a qualitative tier system for structural interpretation:
+| Tier | RAI Range | Alignment | Profile | Examples |
+|------|-----------|-----------|---------|----------|
+| 🟢 **Tier 1** | 0–30 | Authority = Risk | War-zone leaders; escalation = survival necessity | Zelenskyy |
+| 🟡 **Tier 2** | 31–55 | Partial | Some biographical or geographic skin in the game | Putin |
+| 🟠 **Tier 3** | 56–79 | Insulated | Secure capitals; democratic but physically safe | Western leaders |
+| 🔴 **Tier 4** | 80–100 | Inverted | Profit from volatility; near-zero personal downside | Defense CEOs |
 
-| Tier | RAI Range | Profile |
-|------|-----------|---------|
-| **Tier 1** | 0–30 | War-zone leaders; consequence-aligned; escalation = survival necessity |
-| **Tier 2** | 31–55 | Moderate insulation; some biographical or geographic skin in the game |
-| **Tier 3** | 56–79 | High insulation; institutional actors in secure capitals; democratic but physically safe |
-| **Tier 4** | 80–100 | Maximum insulation; defense-industrial actors; profit from volatility with near-zero downside |
+**Tier statistics:**
 
-| Tier | Alignment | Description | Examples |
-|------|-----------|------------|----------|
-| 🟢 Tier 1 | Authority = Risk | Direct exposure | Zelensky |
-| 🟡 Tier 2 | Partial alignment | Mixed exposure | Putin |
-| 🟠 Tier 3 | High insulation | Authority without risk | Western leaders |
-| 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
+| Tier | Mean Risk Score | SD | N |
+|------|---|---|---|
+| Tier 1 — Exposed | 65.8 | 24.3 | 3 |
+| Tier 3 — Insulated | 7.9 | 3.9 | 7 |
+| Tier 4 — Inverted | 10.0 | 5.0 | 3 |
 
+**Feedback loop by tier:**
 
-### **TIER 1: Aligned Incentives** (Mean Risk: 65.8)
-**Volodymyr Zelensky** — *Only case in this category*
-- Remained in Kyiv under bombardment (Feb 2022); multiple assassination attempts
-- Personal survival = National survival
-- Multi-AI consensus: Highest risk exposure (65-95 range)
+| Actor | Feedback Type | Consequence Delay |
+|-------|---------------|-------------------|
+| Zelenskyy | Survival | Hours |
+| Field Commander | Battlefield | Days |
+| Western Leader | Electoral | 4–5 Years |
+| Defense CEO | Market reward | Negative* |
 
-### **TIER 2: Mixed** (Mean Risk: 30.0)
-**Vladimir Putin**
-- Physical insulation (bunkers, security) but political survival tied to war
-- Multi-AI consensus: Moderate risk (20-40 range)
+*\*Rewarded **before** consequences manifest*
 
-### **TIER 3: Insulated** (Mean Risk: 7.9, SD: 3.9)
-**Western Leaders:** Merz, Scholz, Macron, Merkel, von der Leyen, Biden, Johnson
-- Zero physical exposure, no family in military, conscription suspended
-- Electoral consequences only (delayed 4-5 years)
-- Multi-AI consensus: Very low risk (5-15 range)
-- N=7, extremely tight clustering
+---
 
-### **TIER 4: Inverted** (Mean Risk: 10.0, SD: 5.0)
-**Defense CEOs:** Taiclet (Lockheed), Papperger (Rheinmetall), Woodburn (BAE)
-
-| Executive | 2024 Compensation | Stock Performance | Personal Risk |
-|-----------|-------------------|-------------------|---------------|
-| Taiclet | $23.75M (189× median worker) | ↑ with conflict | 0 |
-| Woodburn | ~£12M | +143% (3yr) | 0* |
-| Papperger | €4.4M | +450% since 2022 | *Assassination target** |
-
-*\*Sanctioned by China 2024 / \*\*Russian plot foiled 2024*
-
-**The Convexity Problem:**
-- Revenue scales with conflict intensity
-- Compensation tied to stock price
-- Stock correlates with defense spending
-- Personal downside: Zero (golden parachutes)
-- Multi-AI consensus: Lowest risk (0-30 range)
-
-→ **Perfect moral hazard:** Maximum profit from volatility, zero personal skin
-
-
-## The Feedback Loop Structure
-
-| Decision-Maker | Consequence Delay | Feedback Type | Risk Score |
-|----------------|-------------------|---------------|------------|
-| Zelensky | Hours | Survival | 66-95 |
-| Field Commander | Days | Battlefield | - |
-| Western Leader | Years | Electoral | 5-15 |
-| Defense CEO | Negative* | Market reward | 0-30 |
-
-
-*Negative = Rewarded BEFORE consequences manifest*
-
-## Tier Matrix — Decision Power vs Personal Risk Exposure
+### Tier Matrix — Decision Power vs. Personal Risk
 
 ```mermaid
 quadrantChart
@@ -407,45 +309,9 @@ quadrantChart
 
 ---
 
-
-# Appendix: Statistical Deep Dive
-
-### **1. Methodology**
-*   **Sample Size ($N=14$):** Core decision-makers analyzed across four geopolitical categories.
-*   **Expert Panel Raters:** Five independent AI systems (**Claude, ChatGPT, Gemini, Grok, Qwen**).
-*   **Scoring Metrics:** Each subject was assessed on 0–100 heuristic scales for **Personal Risk Exposure** and **Decision-Making Power**.
-*   **Framework:** Ratings are treated as **expert panel evaluations**, a standard practice in qualitative research to identify cross-evaluator consensus and isolate institutional bias (e.g., the "Grok Divergence").
-
-### **2. Key Results: Falsifying the Gradient**
-
-#### **A. Categorical Structure (Not Linear)**
-*   **Pearson Correlation ($r$):** **$-0.04$ ($p = 0.90$, non-significant)**.
-*   **Interpretation:** The traditional hypothesis that risk decreases gradually as power increases is **false**. There is no "middle ground"—risk is a binary state defined by category, not a smooth gradient.
-
-#### **B. Massive Group Differences (ANOVA)**
-One-way ANOVA confirms that the groups are statistically distinct populations:
-*   **Exposed Leaders (Tier 1):** $65.8 \pm 24.3$ ($N=3$).
-*   **Insulated Leaders (Tier 3):** $7.9 \pm 3.9$ ($N=7$).
-*   **Defense CEOs (Tier 4):** $10.0 \pm 5.0$ ($N=3$).
-*   **Significance:** **$F = 19.3, p < 0.001$** (Highly significant).
-
-#### **C. Enormous Effect Sizes (Cohen's $d$)**
-*   **Exposed vs. Insulated:** **$d = 4.6$**.
-*   **Exposed vs. Defense CEOs:** **$d = 3.2$**.
-*   **Interpretation:** The distance between the "Exposed" and "Insulated" groups exceeds the standard definition of a "large" effect ($0.8$) by a factor of four. These groups are **radically distinct** populations.
-
-### **3. Dimension 3: Convexity Analysis**
-To test if profit models are linear or "explosive," we compared regression models of defense stock returns against conflict escalation severity:
-*   **Linear Model ($R^2$):** **$0.47–0.55$** (Moderate fit).
-*   **Quadratic Model ($R^2$):** **$0.74–0.82$** (Strong fit).
-*   **Verdict: Convexity Confirmed.** Returns accelerate as conflict severity approaches existential levels ($80–100$). Defense industry gains are not incremental; they are **convex**, rewarding volatility while the architects of that volatility remain insulated from its downside.
-
-
----
-
 # Appendix: Claims Requiring Pressure-Testing (S.V.E. Framework)
 
-> Pre-submission validation checklist. Each claim below carries a falsification risk that must be resolved before the analysis is Taleb-proof.
+> Pre-submission validation checklist. Each claim below carries a falsification risk that must be resolved before the analysis is "Taleb-proof".
 
 ---
 
