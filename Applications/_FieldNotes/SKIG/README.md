@@ -11,18 +11,19 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 
 The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
 
-| Aspect | Status | Statistical Evidence |
-| :--- | :--- | :--- |
-| **Convexity** | **Validated** | Quadratic model ($R^2=0.82$) outperformance; profits accelerate at tail-end events. |
-| **Zero Downside** | **Revised** | Refined to **"Asymmetric Downside Protection"**; floor is ~$15M–$55M regardless of outcome. |
-| **Moral Hazard** | **Correct** | **Principal-Agent Catastrophe**; deciders capture convex upside while externalizing all concavity. |
 
-| Metric | Result | Structural Meaning |
-| :--- | :--- | :--- |
-| **Pearson Correlation ($r$)** | **-0.04 (ns)** | No gradient; risk does not scale with power. |
-| **ANOVA ($F$-stat)** | **19.3 ($p<0.001$)** | Groups are radically distinct populations. |
-| **Effect Size ($d$)** | **3.2–4.6** | The "Categorical Cliff" of insulation. |
-| **Profit Model-Convexity Check** | **Quadratic ($R^2=0.82$)** | Profits accelerate with escalation. |
+## Summary of Findings
+
+| Dimension | Claim / Metric | Result | Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Statistical Structure** | Pearson Correlation (*r*) | −0.04 (*ns*) | No gradient — risk does not scale with power |
+| **Statistical Structure** | ANOVA (*F*-stat) | 19.3 (*p* < 0.001) | Groups are categorically distinct populations |
+| **Statistical Structure** | Effect Size (Cohen's *d*) | 3.2 – 4.6 | The "Categorical Cliff" — near-zero population overlap |
+| **Profit Model** | Convexity Check | Quadratic *R²* = 0.82 vs. Linear *R²* = 0.55 | Defense profits **accelerate** with escalation severity |
+| **Convexity** | Model Validation | **Validated** | Returns explosive at tail-end events (Severity 80–100) |
+| **Executive Risk** | "Zero Downside" | **Revised** | Refined to **Asymmetric Downside Protection** — floor is $15M–$55M regardless of outcome |
+| **Moral Hazard** | Principal-Agent Structure | **Confirmed** | Deciders capture convex upside while externalizing all concavity of loss |
+
 
 ---
 
