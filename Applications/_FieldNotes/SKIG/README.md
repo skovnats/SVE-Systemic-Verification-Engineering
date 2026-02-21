@@ -3,7 +3,7 @@
 
 #### Full original analysis with S.V.E. ontology: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
 #### Notebooklm: https://notebooklm.google.com/notebook/d6375ad4-493c-45d6-ac2e-af4bdb4889b0
-#### Multi-AI analysis: [ai_analysis]
+#### Multi-AI analysis: [ai_analysis](ai_analysis)
 
 ---
 
