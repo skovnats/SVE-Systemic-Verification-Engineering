@@ -111,39 +111,69 @@ Zelenskyy (*RAI* ≈ 12) is the **sole actor** in the sample where decision-maki
 
 ---
 
-Based on the multi-dimensional AI assessments and the S.V.E. (Systemic Verification Engineering) framework provided in the sources, the following claims are the most critical to pressure-test before finalizing the analysis for submissions.
+# Claims Requiring Pressure-Testing (S.V.E. Framework)
 
-### **1. The "Zero Downside" Claim vs. "Asymmetric Downside Protection"**
-This is perhaps the most vulnerable claim in your current draft. While the initial assertion was "zero personal downside" for defense CEOs, several AI models and validation checklists suggest a revision to **"Asymmetric Downside Protection"**.
-*   **Pressure-test requirement:** You must determine if the "floor" is truly zero or simply a high multi-million dollar minimum. For example, while Boeing’s Muilenburg was fired, he still walked away with **$62 million** in vested benefits. However, Raytheon’s Gregory Hayes saw his bonus drop by **44%** from 2021 to 2023, which technically constitutes a "downside".
-*   **Verification needed:** Confirm if "clawback provisions" for misconduct or technical failures actually impose personal financial loss on these executives or merely reduce future "windfall" gains.
+> Pre-submission validation checklist. Each claim below carries a falsification risk that must be resolved before the analysis is Taleb-proof.
 
-### **2. The Convexity vs. Linear Profit Model**
-The analysis claims that defense returns are **convex** (accelerating at high severity) rather than linear.
-*   **Pressure-test requirement:** Statistical experts (and Taleb himself) will look for **outlier sensitivity**. You must test whether the superior fit of the quadratic model ($R^2 = 0.82$) over the linear model ($R^2 = 0.55$) is driven solely by the **initial February 2022 invasion** (Severity 100).
-*   **Verification needed:** Run a "leave-one-out" cross-validation to see if the convexity claim holds without the primary invasion event. Some AI models argue that the market response might actually be **concave/saturating**, where subsequent escalations produce diminishing marginal returns.
+---
 
-### **3. Categorical "Cliff" vs. Continuous Gradient**
-The research posits that decision-makers cluster into **discrete categories** (ANOVA $F = 19.3$) rather than existing on a smooth risk-power gradient.
-*   **Pressure-test requirement:** With a sample size of **$N=14$**, the categorical "cliff" might be an artifact of the specific actors chosen. You need to test if adding mid-level decision-makers (e.g., field commanders, junior ministers) fills the "middle ground" or reinforces the current gaps.
-*   **Verification needed:** Address the "Zelensky Singularity." If he is truly the only Tier 1 actor where authority and risk are co-located, the claim of a "categorical law" rests on a single data point in that specific tier.
+## 1. "Zero Downside" → Revise to Asymmetric Downside Protection
 
-### **4. AI Divergence as a "Diagnostic Signal" of Bias**
-The sources note that **Grok** consistently assigns **much lower** Skin-in-the-Game (SITG) scores to Western leaders compared to other models.
-*   **Pressure-test requirement:** You need to determine if this divergence is "noise" or a **structural signal** of institutional bias within the AIs' training data.
-*   **Verification needed:** Specifically analyze the treatment of "biographical legacy" (e.g., Biden’s son’s service). If Grok discounts this while others include it, the definition of SITG itself remains non-standardized and subject to model-specific "blind spots".
+**Vulnerability:** The floor is not zero — it is a multi-million dollar minimum.
 
-### **5. Geographic vs. Moral Stratification**
-The analysis concludes that **physical proximity** is the strongest predictor of risk alignment—a geographic variable, not a moral one.
-*   **Pressure-test requirement:** Test the counterfactual: would a leader in a secure capital behave differently if they were personally exposed? The research suggests **institutional insulation** (P5) outperforms individual "biographical empathy".
-*   **Verification needed:** Compare the policy restraint of leaders with combat experience (e.g., Netanyahu, Putin) versus those without. The sources currently suggest that prior hardship **does not produce restraint**.
+| Executive | Event | Exit Value |
+|---|---|---|
+| Muilenburg (Boeing) | Fired, catastrophic failure | +$62M vested |
+| Hayes (Raytheon) | Missed targets | −44% bonus (still obscenely wealthy) |
 
-### **Summary Checklist for GitHub/Taleb**
-*   **Falsification:** Explicitly document the "Papperger Anomaly"—a CEO who faced a real assassination threat, breaching the Tier 4 insulation.
-*   **Transparency:** Clearly label all numerical scores (0–100) as **heuristic and symbolic markers**, not actuarial measurements, to avoid "false precision" which Taleb is known to dislike.
-*   **Lag Analysis:** Re-verify the **1-year lag correlation** between stock spikes and CEO compensation to ensure the "Conflict Dividend" is statistically robust.
+**Action required:** Verify whether clawback provisions impose *actual* financial loss or merely reduce future windfall. The distinction determines whether the claim is "asymmetric floor" or "zero downside."
 
-I have noted the action items for the **Dimension 3: Convexity Analysis** and will integrate the **S.V.E. systemic parameters (P1–P5)** to ensure the analysis is mathematically tractable.
+---
+
+## 2. Convexity vs. Saturating Returns
+
+**Vulnerability:** The quadratic model's superiority (*R²* = 0.82 vs. 0.55) may be driven entirely by the single Feb 2022 invasion event (Severity = 100).
+
+**Action required:** Run **leave-one-out cross-validation** on the invasion data point. If convexity collapses without it, the curve may actually be **concave/saturating** — subsequent escalations producing diminishing returns.
+
+---
+
+## 3. Categorical Cliff vs. Sample Artifact
+
+**Vulnerability:** *N* = 14 is small. The ANOVA cliff (*F* = 19.3) may be an artifact of actor selection, not a structural law.
+
+**Action required:**
+- Add mid-level actors (field commanders, junior ministers) to test whether the "middle ground" is empty or merely unsampled.
+- The Zelenskyy Singularity is currently the **sole Tier 1 data point** — the "categorical law" rests on one case.
+
+---
+
+## 4. AI Divergence as Bias Signal vs. Noise
+
+**Vulnerability:** Grok assigns systematically lower SITG scores to Western leaders. This could be model bias *or* a legitimate calibration difference.
+
+**Action required:** Isolate the treatment of **"biographical legacy"** (e.g., Biden's son's service). If models disagree on whether this counts as SITG, the 0–100 scale itself is non-standardized — scores are heuristic markers, not actuarial measurements.
+
+> ⚠️ Label all scores explicitly as **symbolic/heuristic** in the final submission. Taleb is known to penalize false precision.
+
+---
+
+## 5. Geographic vs. Moral Stratification
+
+**Vulnerability:** The analysis attributes risk alignment to *physical proximity* — a geographic variable. But does proximity cause restraint, or does institutional insulation simply override it?
+
+**Action required:** Compare policy behaviour of leaders *with* combat experience (Netanyahu, Putin) versus those without. Current evidence suggests **prior hardship does not produce restraint**, which, if confirmed, makes institutional structure (P5) the dominant variable over individual biography.
+
+---
+
+## Pre-Submission Checklist
+
+- [ ] **Papperger Anomaly** — Document the Rheinmetall CEO assassination threat as an explicit falsification case breaching Tier 4 insulation.
+- [ ] **Convexity robustness** — Leave-one-out cross-validation on Feb 2022 event.
+- [ ] **Clawback verification** — Confirm whether provisions impose real loss or are cosmetic.
+- [ ] **Score labelling** — All 0–100 SITG scores marked as heuristic, not actuarial.
+- [ ] **Lag analysis** — Re-verify 1-year lag between stock spikes and CEO compensation for "Conflict Dividend" claim.
+- [ ] **N expansion** — Add mid-level actors to stress-test the categorical cliff.
 
 ---
 
