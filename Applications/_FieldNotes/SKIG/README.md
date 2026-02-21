@@ -8,13 +8,14 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 *   **Verified Methodology:** Fully reproducible via the provided prompt chains and AI response logs.
 
 ### **Summary Verdict for GitHub/Taleb**
+
+The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
+
 | Aspect | Status | Statistical Evidence |
 | :--- | :--- | :--- |
 | **Convexity** | **Validated** | Quadratic model ($R^2=0.82$) outperformance; profits accelerate at tail-end events. |
 | **Zero Downside** | **Revised** | Refined to **"Asymmetric Downside Protection"**; floor is ~$15M–$55M regardless of outcome. |
 | **Moral Hazard** | **Correct** | **Principal-Agent Catastrophe**; deciders capture convex upside while externalizing all concavity. |
-
-The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
 
 ---
 
