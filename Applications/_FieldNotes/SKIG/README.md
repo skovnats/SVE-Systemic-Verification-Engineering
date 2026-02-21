@@ -5,8 +5,7 @@
 
 ## Initial Statements Check
 
-### 0-1. An "Inverted Symmetry" law
-The power to escalate conflict correlates almost perfectly with the absence of personal risk (e.g., Western technocrats, Defense CEOs).
+### 0-1. An "Inverted Symmetry" law: The power to escalate conflict correlates almost perfectly with the absence of personal risk (e.g., Western technocrats, Defense CEOs).
 
 #### Correction:
 The proposed "Inverted Symmetry" law is statistically incorrect as a correlation, but it accurately describes a "categorical cliff" of risk insulation.
