@@ -18,23 +18,23 @@ The proposed **"Inverted Symmetry" law is statistically incorrect as a correlati
 
 Instead of a smooth gradient or a linear correlation, the data reveals a **categorical structure** defined by massive group differences:
 
-### **1. The Categorical Cliff (Statistical Findings)**
+##### **1. The Categorical Cliff (Statistical Findings)**
 The relationship between power and risk is defined by discrete clusters rather than a continuum.
 *   **ANOVA Results:** One-way ANOVA confirmed that these groups are statistically distinct populations (**$F = 19.3, p < 0.001$**).
 *   **Effect Size:** The separation between "Exposed" and "Insulated" groups is massive, with **Cohen’s $d$ ranging from 3.2 to 4.6** (anything over 0.8 is considered large).
 *   **The "Cliff" vs. Gradient:** There is almost no "middle ground" in modern conflict; decision-makers are either personally in the line of fire or effectively insulated in secure capitals.
 
-### **2. Validation of the Groups (Western Technocrats & CEOs)**
+##### **2. Validation of the Groups (Western Technocrats & CEOs)**
 While the "correlation" claim failed, your specific examples are supported as being at the extreme end of risk insulation:
 *   **Tier 3 (Insulated Western Leaders):** Figures like Biden, Scholz, and Macron exhibit **mean risk scores of only 7.9/100**, facing only electoral consequences delayed by years.
 *   **Tier 4 (Inverted Defense CEOs):** Executives such as Taiclet (Lockheed) and Woodburn (BAE) exhibit a **"Principal-Agent Catastrophe"**. Their personal downside is minimized by "Golden Parachutes" (severance floors of $15M–$55M), while their upside is **convex**—realizing accelerating profits as conflict severity increases.
 
-### **3. The Structural Exceptions**
+##### **3. The Structural Exceptions**
 The analysis identifies specific anomalies that clarify this "law" of asymmetry:
 *   **The Zelensky Singularity:** Zelenskyy is the only leader in the sample where decision authority and personal existential risk are co-located (RAI index of 12).
 *   **The Papperger Anomaly:** Rheinmetall CEO Armin Papperger represents a rare breach of the "Inverted" category due to a foiled Russian assassination plot in 2024, showing that kinetic risk can occasionally reach Tier 4 actors.
 
-### **Summary Verdict for GitHub/Taleb**
+##### **Summary Verdict for GitHub/Taleb**
 The claim should be revised from an "Inverted Symmetry correlation" to **"Categorical Asymmetry."** The most harmful structural feature of modern conflict is not that risk is inversely correlated with power, but that **risk is systematically externalized from the decision-maker** through institutional insulation (P5) and risk externalization (P4). As noted in the analysis, we are witnessing a **"principal-agent catastrophe"** where those who start wars do not die in them and, in fact, profit from their volatility.
 Link: https://notebooklm.google.com/notebook/d6375ad4-493c-45d6-ac2e-af4bdb4889b0
 
@@ -43,6 +43,8 @@ The Cross-Model Consensus section explicitly states that *"global power network 
 Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
 
 **Specific Case:** Defense executives currently enjoy maximum convexity (profit from volatility) with zero downside, creating a perfect Moral Hazard.
+
+#### Correction:
 
 ---
 
