@@ -14,10 +14,6 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 | **Zero Downside** | **Revised** | Refined to **"Asymmetric Downside Protection"**; floor is ~$15M–$55M regardless of outcome. |
 | **Moral Hazard** | **Correct** | **Principal-Agent Catastrophe**; deciders capture convex upside while externalizing all concavity. |
 
----
-
-**Traditional hypothesis:** "Higher authority → Lower risk" (inverse correlation)
-
 The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
 
 ---
