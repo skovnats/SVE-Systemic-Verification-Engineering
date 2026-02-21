@@ -96,6 +96,15 @@ quadrantChart
     Papperger: [0.25, 0.28]
 ```
 
+## Tier Matrix
+
+| Tier | Alignment | Description | Examples |
+|------|-----------|------------|----------|
+| 🟢 Tier 1 | Authority = Risk | Direct exposure | Zelensky |
+| 🟡 Tier 2 | Partial alignment | Mixed exposure | Putin |
+| 🟠 Tier 3 | High insulation | Authority without risk | Western leaders |
+| 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
+
 
 
 ### ✅ DIMENSION 2: Quantitative Statistics (COMPLETE)
