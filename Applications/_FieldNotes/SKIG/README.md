@@ -93,85 +93,9 @@ The document explicitly identifies the *"Security-Industrial Feedback Loop"* —
 The word **"perfect"** is doing too much work. The document is explicitly built on heuristic, symbolic scoring — and its own methodological note warns against reading absolute precision into the numbers.
 Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
 
-### Proposed metrics
-# Metrics Explained
 
-## Core Dimensions (Input Scores, 0–100)
+--
 
-Each actor is scored across several dimensions before any index is computed. All scores are **heuristic and symbolic** — they represent *relative intensity*, not actuarial precision.
-
-| Dimension | What it measures |
-|-----------|-----------------|
-| **Skin in the Game (SiG)** | Personal physical and economic exposure to the consequences of one's decisions |
-| **Children / Relatives SiG** | Whether immediate family shares that exposure (war zone proximity, military service) |
-| **Days in High-Risk Zones** | Time spent within 50km of active combat or under direct missile/drone threat |
-| **Direct Exposure to War Consequences** | Composite of physical proximity, personal loss, and sensory/experiential contact with conflict |
-| **Economic Vulnerability** | Degree to which personal wealth could be affected by policy outcomes |
-| **Extreme Hardship Experience** | Biographical exposure to war, poverty, or persecution (acts as a *mitigating* factor in RAI) |
-| **Combat Experience** | Direct military service in combat roles (also mitigating) |
-| **Global Power Network Score** | Depth of connections to institutional, financial, and political elite networks |
-| **Responsibility Radius** | Estimated number of lives materially affected by the actor's decisions |
-
----
-
-## Risk–Ethics Asymmetry Index (RAI)
-
-**RAI** is the primary composite index. It measures the *gap* between an actor's decision-making power and their personal exposure to the consequences of those decisions.
-
-> **0 = fully consequence-aligned** (the actor bears what they impose)
-> **100 = maximally insulated** (the actor bears nothing they impose)
-
-### Calculation (simplified)
-
-```
-Base = Responsibility Radius − Composite Personal Risk
-
-Composite Personal Risk = mean(SiG, Children SiG, Relatives SiG,
-                               Direct Exposure, Days in High-Risk Zones,
-                               Economic Vulnerability × 0.5,
-                               Hardship × −0.3)
-
-Adjustments:
-  + 5   if role = Escalator
-  + 3   if democratic mandate is low-transparency
-  − 5   if confirmed direct physical threat (e.g. assassination attempt)
-  − 3   if combat experience confirmed
-
-RAI = clamp(Base + Adjustments, 0, 100)
-```
-
-### Examples
-
-| Actor | RAI | Why |
-|-------|-----|-----|
-| **Zelenskyy** | **12** | Lives in active war zone, family at risk, survival tied to national outcome — near-zero asymmetry |
-| **Netanyahu** | **22** | Combat veteran, under rocket threat, family in country — high personal stake despite escalatory role |
-| **Macron** | **68** | No military service, family in no danger, decisions affect millions — high asymmetry |
-| **Arms CEOs (avg.)** | **78** | Maximum responsibility radius, zero days in war zones, compensation rises with conflict — near-maximum asymmetry |
-| **Papperger (Rheinmetall)** | **69** | Would score ~84, but −5 adjustment applied due to confirmed assassination plot (2024) — the "anomaly" that proves the rule |
-
----
-
-## Four-Tier Framework
-
-RAI scores map onto a qualitative tier system for structural interpretation:
-
-| Tier | RAI Range | Profile |
-|------|-----------|---------|
-| **Tier 1** | 0–30 | War-zone leaders; consequence-aligned; escalation = survival necessity |
-| **Tier 2** | 31–55 | Moderate insulation; some biographical or geographic skin in the game |
-| **Tier 3** | 56–79 | High insulation; institutional actors in secure capitals; democratic but physically safe |
-| **Tier 4** | 80–100 | Maximum insulation; defense-industrial actors; profit from volatility with near-zero downside |
-
----
-
-## Important Methodological Note
-
-All scores are produced by multiple AI models (Claude, ChatGPT, Gemini, Grok) and aggregated via a Meta-AI synthesis. Where models diverge significantly (e.g., Grok systematically scores Western leaders 20–40 points lower), the variance is itself treated as a signal — diagnostic of different underlying assumptions about what "risk" means, not just noise.
-
-The numbers are best read as **ratios and rankings**, not as precise measurements. The insight lies in the *pattern*, not the digit.
-
----
 
 ## The Finding
 
@@ -546,5 +470,86 @@ When those who can start wars cannot die in them, cannot lose children to them, 
 
 *"It is immoral to be in a position of making forecasts without having a risk of loss." — N.N. Taleb*
 
-
 *Dr. Artiom Kovnatsky • February 2026*
+
+---
+
+# Appendix: Metrics Explained
+
+## Core Dimensions (Input Scores, 0–100)
+
+Each actor is scored across several dimensions before any index is computed. All scores are **heuristic and symbolic** — they represent *relative intensity*, not actuarial precision.
+
+| Dimension | What it measures |
+|-----------|-----------------|
+| **Skin in the Game (SiG)** | Personal physical and economic exposure to the consequences of one's decisions |
+| **Children / Relatives SiG** | Whether immediate family shares that exposure (war zone proximity, military service) |
+| **Days in High-Risk Zones** | Time spent within 50km of active combat or under direct missile/drone threat |
+| **Direct Exposure to War Consequences** | Composite of physical proximity, personal loss, and sensory/experiential contact with conflict |
+| **Economic Vulnerability** | Degree to which personal wealth could be affected by policy outcomes |
+| **Extreme Hardship Experience** | Biographical exposure to war, poverty, or persecution (acts as a *mitigating* factor in RAI) |
+| **Combat Experience** | Direct military service in combat roles (also mitigating) |
+| **Global Power Network Score** | Depth of connections to institutional, financial, and political elite networks |
+| **Responsibility Radius** | Estimated number of lives materially affected by the actor's decisions |
+
+---
+
+## Risk–Ethics Asymmetry Index (RAI)
+
+**RAI** is the primary composite index. It measures the *gap* between an actor's decision-making power and their personal exposure to the consequences of those decisions.
+
+> **0 = fully consequence-aligned** (the actor bears what they impose)
+> **100 = maximally insulated** (the actor bears nothing they impose)
+
+### Calculation (simplified)
+
+```
+Base = Responsibility Radius − Composite Personal Risk
+
+Composite Personal Risk = mean(SiG, Children SiG, Relatives SiG,
+                               Direct Exposure, Days in High-Risk Zones,
+                               Economic Vulnerability × 0.5,
+                               Hardship × −0.3)
+
+Adjustments:
+  + 5   if role = Escalator
+  + 3   if democratic mandate is low-transparency
+  − 5   if confirmed direct physical threat (e.g. assassination attempt)
+  − 3   if combat experience confirmed
+
+RAI = clamp(Base + Adjustments, 0, 100)
+```
+
+### Examples
+
+| Actor | RAI | Why |
+|-------|-----|-----|
+| **Zelenskyy** | **12** | Lives in active war zone, family at risk, survival tied to national outcome — near-zero asymmetry |
+| **Netanyahu** | **22** | Combat veteran, under rocket threat, family in country — high personal stake despite escalatory role |
+| **Macron** | **68** | No military service, family in no danger, decisions affect millions — high asymmetry |
+| **Arms CEOs (avg.)** | **78** | Maximum responsibility radius, zero days in war zones, compensation rises with conflict — near-maximum asymmetry |
+| **Papperger (Rheinmetall)** | **69** | Would score ~84, but −5 adjustment applied due to confirmed assassination plot (2024) — the "anomaly" that proves the rule |
+
+---
+
+## Four-Tier Framework
+
+RAI scores map onto a qualitative tier system for structural interpretation:
+
+| Tier | RAI Range | Profile |
+|------|-----------|---------|
+| **Tier 1** | 0–30 | War-zone leaders; consequence-aligned; escalation = survival necessity |
+| **Tier 2** | 31–55 | Moderate insulation; some biographical or geographic skin in the game |
+| **Tier 3** | 56–79 | High insulation; institutional actors in secure capitals; democratic but physically safe |
+| **Tier 4** | 80–100 | Maximum insulation; defense-industrial actors; profit from volatility with near-zero downside |
+
+---
+
+## Important Methodological Note
+
+All scores are produced by multiple AI models (Claude, ChatGPT, Gemini, Grok) and aggregated via a Meta-AI synthesis. Where models diverge significantly (e.g., Grok systematically scores Western leaders 20–40 points lower), the variance is itself treated as a signal — diagnostic of different underlying assumptions about what "risk" means, not just noise.
+
+The numbers are best read as **ratios and rankings**, not as precise measurements. The insight lies in the *pattern*, not the digit.
+
+---
+
