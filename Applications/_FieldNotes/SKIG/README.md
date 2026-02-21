@@ -49,33 +49,6 @@ Systems with extreme categorical asymmetry are prone to:
 
 ---
 
-## Transparency: What These Numbers Mean
-
-### What This Analysis IS:
-- **Multi-evaluator comparative assessment** (5 AI systems as independent raters)
-- **Categorical grouping analysis** with statistical significance testing
-- **Pattern identification** across evaluators
-- **Framework demonstration** with real statistical evidence
-
-### What This Analysis IS NOT:
-- Objective measurement (these are assessed scores, like expert panel ratings)
-- Exhaustive survey (N=14, not all possible figures)
-- Causal proof (descriptive pattern with statistical validation)
-- Precise individual predictions (focuses on category-level differences)
-
-### Methodological Analog:
-This approach mirrors **expert panel assessments** used in qualitative research, policy analysis, and risk evaluation. Multiple independent raters (AI systems) evaluate the same subjects on standardized scales, producing assessments that can be statistically analyzed for inter-rater agreement and group differences.
-
-**Verification Status:**
-✅ CEO compensation: SEC filings verified  
-✅ Stock performance: Financial records verified  
-✅ Assassination attempts: Multiple news sources verified  
-✅ Multi-AI assessments: Consistent across 5 independent systems  
-⚠️ Risk scores: Comparative judgments (multi-evaluator consensus, not direct measurements)
-
-
----
-
 ### **Analysis of Results: The Categorical Cliff of Asymmetry**
 
 The primary finding of this study is that the relationship between decision-making power and personal risk in modern conflict is **not a linear correlation, but a categorical clustering**. The data reveals a "cliff" where authority is systematically decoupled from consequence, except in singular historical anomalies.
@@ -161,6 +134,32 @@ When those who can start wars cannot die in them, cannot lose children to them, 
 *"It is immoral to be in a position of making forecasts without having a risk of loss." — N.N. Taleb*
 
 *Dr. Artiom Kovnatsky • February 2026*
+
+---
+
+# Appendix: Transparency -- What These Numbers Mean
+
+### What This Analysis IS:
+- **Multi-evaluator comparative assessment** (5 AI systems as independent raters)
+- **Categorical grouping analysis** with statistical significance testing
+- **Pattern identification** across evaluators
+- **Framework demonstration** with real statistical evidence
+
+### What This Analysis IS NOT:
+- Objective measurement (these are assessed scores, like expert panel ratings)
+- Exhaustive survey (N=14, not all possible figures)
+- Causal proof (descriptive pattern with statistical validation)
+- Precise individual predictions (focuses on category-level differences)
+
+### Methodological Analog:
+This approach mirrors **expert panel assessments** used in qualitative research, policy analysis, and risk evaluation. Multiple independent raters (AI systems) evaluate the same subjects on standardized scales, producing assessments that can be statistically analyzed for inter-rater agreement and group differences.
+
+**Verification Status:**
+✅ CEO compensation: SEC filings verified  
+✅ Stock performance: Financial records verified  
+✅ Assassination attempts: Multiple news sources verified  
+✅ Multi-AI assessments: Consistent across 5 independent systems  
+⚠️ Risk scores: Comparative judgments (multi-evaluator consensus, not direct measurements)
 
 ---
 
