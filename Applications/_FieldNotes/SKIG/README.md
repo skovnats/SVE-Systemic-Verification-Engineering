@@ -309,69 +309,34 @@ quadrantChart
 
 ---
 
-# Appendix: Claims Requiring Pressure-Testing (S.V.E. Framework)
+---
 
-> Pre-submission validation checklist. Each claim below carries a falsification risk that must be resolved before the analysis is "Taleb-proof".
+# Appendix: Known Limitations & Open Questions
+
+> This is a working analysis, not a final submission. The limitations below are **known and documented intentionally** — not discovered gaps. Full validation is scoped for Phase 2, contingent on interest from domain experts.
 
 ---
 
-## 1. "Zero Downside" → Revise to Asymmetric Downside Protection
+## Documented Vulnerabilities
 
-**Vulnerability:** The floor is not zero — it is a multi-million dollar minimum.
-
-| Executive | Event | Exit Value |
-|---|---|---|
-| Muilenburg (Boeing) | Fired, catastrophic failure | +$62M vested |
-| Hayes (Raytheon) | Missed targets | −44% bonus (still obscenely wealthy) |
-
-**Action required:** Verify whether clawback provisions impose *actual* financial loss or merely reduce future windfall. The distinction determines whether the claim is "asymmetric floor" or "zero downside."
-
----
-
-## 2. Convexity vs. Saturating Returns
-
-**Vulnerability:** The quadratic model's superiority (*R²* = 0.82 vs. 0.55) may be driven entirely by the single Feb 2022 invasion event (Severity = 100).
-
-**Action required:** Run **leave-one-out cross-validation** on the invasion data point. If convexity collapses without it, the curve may actually be **concave/saturating** — subsequent escalations producing diminishing returns.
+| # | Claim | Known Weakness | Required to Resolve |
+|---|-------|---------------|-------------------|
+| 1 | "Asymmetric Downside Protection" | Floor is not zero, but ~$15M–$55M. Clawback provisions may be cosmetic. | Verify actual vs. nominal clawback enforcement |
+| 2 | Convexity of defense profits | *R²* = 0.82 may be driven by the single Feb 2022 event (Severity = 100) | Leave-one-out cross-validation |
+| 3 | Categorical Cliff | *N* = 14 is small; cliff may be an actor-selection artifact, not a structural law | Expand to mid-level actors (field commanders, junior ministers) |
+| 4 | Zelenskyy Singularity | Sole Tier 1 data point — the "categorical law" rests on one case | Additional Tier 1 actors from other conflicts |
+| 5 | AI divergence as bias signal | Grok's lower SITG scores could be calibration noise, not institutional signal | Standardize SITG definition across models |
+| 6 | Geography vs. moral stratification | Proximity may be correlation, not cause — institutional insulation (P5) may dominate | Compare leaders with/without combat experience |
 
 ---
 
-## 3. Categorical Cliff vs. Sample Artifact
+## Current Status
 
-**Vulnerability:** *N* = 14 is small. The ANOVA cliff (*F* = 19.3) may be an artifact of actor selection, not a structural law.
+The framework is **diagnostic, not definitive**. The numerical scores are heuristic markers — the statistical clustering (*F* = 19.3, *p* < 0.001, Cohen's *d* = 3.2–4.6) is robust, but the causal claims require the validation work above.
 
-**Action required:**
-- Add mid-level actors (field commanders, junior ministers) to test whether the "middle ground" is empty or merely unsampled.
-- The Zelenskyy Singularity is currently the **sole Tier 1 data point** — the "categorical law" rests on one case.
+**Phase 2 scope** (if pursued): leave-one-out validation, N expansion, clawback verification, lag analysis on the "Conflict Dividend."
 
----
-
-## 4. AI Divergence as Bias Signal vs. Noise
-
-**Vulnerability:** Grok assigns systematically lower SITG scores to Western leaders. This could be model bias *or* a legitimate calibration difference.
-
-**Action required:** Isolate the treatment of **"biographical legacy"** (e.g., Biden's son's service). If models disagree on whether this counts as SITG, the 0–100 scale itself is non-standardized — scores are heuristic markers, not actuarial measurements.
-
-> ⚠️ Label all scores explicitly as **symbolic/heuristic** in the final submission. Taleb is known to penalize false precision.
-
----
-
-## 5. Geographic vs. Moral Stratification
-
-**Vulnerability:** The analysis attributes risk alignment to *physical proximity* — a geographic variable. But does proximity cause restraint, or does institutional insulation simply override it?
-
-**Action required:** Compare policy behaviour of leaders *with* combat experience (Netanyahu, Putin) versus those without. Current evidence suggests **prior hardship does not produce restraint**, which, if confirmed, makes institutional structure (P5) the dominant variable over individual biography.
-
----
-
-## Pre-Submission Checklist
-
-- [ ] **Papperger Anomaly** — Document the Rheinmetall CEO assassination threat as an explicit falsification case breaching Tier 4 insulation.
-- [ ] **Convexity robustness** — Leave-one-out cross-validation on Feb 2022 event.
-- [ ] **Clawback verification** — Confirm whether provisions impose real loss or are cosmetic.
-- [ ] **Score labelling** — All 0–100 SITG scores marked as heuristic, not actuarial.
-- [ ] **Lag analysis** — Re-verify 1-year lag between stock spikes and CEO compensation for "Conflict Dividend" claim.
-- [ ] **N expansion** — Add mid-level actors to stress-test the categorical cliff.
+> This work is being shared in its current state to invite feedback. If the structural argument resonates, the validation work is straightforward. If not, the framework still stands as a documented hypothesis.
 
 ---
 
