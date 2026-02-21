@@ -1,16 +1,12 @@
-# Project Overview: Systemic Risk & Categorical Asymmetry
-This research utilizes the **S.V.E. (Systemic Verification Engineering)** framework to measure the distance between power and consequence. By deploying a multi-AI expert panel across 14-30+ geopolitical actors, we demonstrate that modern conflict is defined by a **categorical cliff of risk insulation.**
+# Systemic Risk & Categorical Asymmetry
 
-**Key Highlights:**
-*   **ANOVA F=19.3 ($p<0.001$):** Definitive proof that decision-makers cluster into discrete, insulated tiers rather than a continuous risk gradient.
-*   **Defense Industry Convexity:** Quadratic regression confirms that defense equity returns accelerate as conflict severity approaches existential levels.
-*   **The RAI Index:** A formal metric (Risk-Ethics Asymmetry Index) quantifying the decoupling of accountability from consequence.
-*   **Verified Methodology:** Fully reproducible via the provided prompt chains and AI response logs.
+Modern conflict is not defined by who holds power — it is defined by **who bears the cost of wielding it.**
 
-### **Summary Verdict for GitHub/Taleb**
+Using the **S.V.E. (Systemic Verification Engineering)** framework and a multi-AI expert panel, this research quantifies the gap between authority and consequence across 14–30+ geopolitical and corporate actors. The result is unambiguous: this gap is not a gradient. It is a **categorical cliff**.
 
-The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
+Those with the most power to escalate face the least personal cost — creating a structural incentive for protracted engagement and escalation creep.
 
+---
 
 ## Summary of Findings
 
@@ -23,6 +19,8 @@ The most harmful structural feature of modern conflict is that **risk is not loc
 | **Convexity** | Model Validation | **Validated** | Returns explosive at tail-end events (Severity 80–100) |
 | **Executive Risk** | "Zero Downside" | **Revised** | Refined to **Asymmetric Downside Protection** — floor is $15M–$55M regardless of outcome |
 | **Moral Hazard** | Principal-Agent Structure | **Confirmed** | Deciders capture convex upside while externalizing all concavity of loss |
+
+> **Methodology:** Fully reproducible via provided prompt chains and AI response logs. All SITG scores (0–100) are heuristic markers, not actuarial measurements.
 
 
 ---
