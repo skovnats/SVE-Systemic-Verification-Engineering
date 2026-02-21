@@ -73,29 +73,25 @@ quadrantChart
     x-axis Low Risk --> High Risk
     y-axis Low Power --> High Power
 
-    quadrant-1 🟢 Tier 1 (Aligned)
-    quadrant-2 🟡 Tier 2 (Mixed)
-    quadrant-3 🔴 Tier 4 (Inverted)
-    quadrant-4 🟠 Tier 3 (Misaligned)
+    quadrant-1 Tier 1 - Aligned
+    quadrant-2 Tier 2 - Mixed
+    quadrant-3 Tier 4 - Inverted
+    quadrant-4 Tier 3 - Misaligned
 
-    %% --- Tier 1 (High Power / High Risk) ---
-    Zelensky: [0.9, 0.9]
+    Zelensky: [0.90, 0.90]
 
-    %% --- Tier 2 (High Power / Medium-High Risk) ---
-    Putin: [0.7, 0.85]
-    Merz: [0.6, 0.75]
-    Netanyahu: [0.65, 0.8]
+    Putin: [0.70, 0.85]
+    Merz: [0.60, 0.75]
+    Netanyahu: [0.65, 0.80]
 
-    %% --- Tier 3 (High Power / Low Risk) ---
-    Western Leaders: [0.2, 0.85]
-    von der Leyen: [0.25, 0.8]
-    Macron: [0.3, 0.75]
-    Scholz: [0.28, 0.7]
+    Western Leaders: [0.20, 0.85]
+    von der Leyen: [0.25, 0.80]
+    Macron: [0.30, 0.75]
+    Scholz: [0.28, 0.70]
     Merkel: [0.22, 0.72]
 
-    %% --- Tier 4 (Low Power / Low Risk) ---
-    Defense CEOs: [0.15, 0.2]
-    Taiclet: [0.2, 0.25]
+    Defense CEOs: [0.15, 0.20]
+    Taiclet: [0.20, 0.25]
     Woodburn: [0.18, 0.22]
     Papperger: [0.25, 0.28]
 ```
