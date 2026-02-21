@@ -52,7 +52,9 @@ All data, code, replication materials: https://github.com/skovnats/SVE-Systemic-
 
 ---
 
-### ✅ DIMENSION 1: Qualitative Framework (COMPLETE)
+### ✅ DIMENSION 1: Qualitative Framework
+**Full original analysis:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
+
 **What it is:**
 - Multi-AI comparative assessment (5 independent systems)
 - Four-tier categorical model
@@ -96,7 +98,7 @@ quadrantChart
     Papperger: [0.25, 0.28]
 ```
 
-## Tier Matrix
+### Example
 
 | Tier | Alignment | Description | Examples |
 |------|-----------|------------|----------|
