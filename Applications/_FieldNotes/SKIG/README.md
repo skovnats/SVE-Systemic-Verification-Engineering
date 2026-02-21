@@ -1,4 +1,4 @@
-# Project Overview: Systemic Risk & Categorical Asymmetry**
+# Project Overview: Systemic Risk & Categorical Asymmetry
 This research utilizes the **S.V.E. (Systemic Verification Engineering)** framework to measure the distance between power and consequence. By deploying a multi-AI expert panel across 14-30+ geopolitical actors, we demonstrate that modern conflict is defined by a **categorical cliff of risk insulation.**
 
 **Key Highlights:**
