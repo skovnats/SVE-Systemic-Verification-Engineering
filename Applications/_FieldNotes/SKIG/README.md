@@ -15,7 +15,7 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 
 ---
 
-## Statemnt: An "Inverted Symmetry" law: The power to escalate conflict correlates almost perfectly with the absence of personal risk (e.g., Western technocrats, Defense CEOs).
+## Statement: An "Inverted Symmetry" law: The power to escalate conflict correlates almost perfectly with the absence of personal risk (e.g., Western technocrats, Defense CEOs).
 
 ### Correction:
 The proposed **"Inverted Symmetry" law is statistically incorrect as a correlation, but it accurately describes a "categorical cliff" of risk insulation.**
@@ -48,7 +48,7 @@ Link: https://claude.ai/share/87fee414-0276-4323-b601-fe2937fd25b4
 
 ---
 
-## Statemnt: Defense executives currently enjoy maximum convexity (profit from volatility) with zero downside, creating a perfect Moral Hazard.
+## Statement: Defense executives currently enjoy maximum convexity (profit from volatility) with zero downside, creating a perfect Moral Hazard.
 
 ### Correction:
 Based on the provided research and multi-AI synthesis, the claim that defense executives enjoy maximum convexity with zero downside is **directionally correct but requires precise statistical refinement** to be defensible for a GitHub README or correspondence with Prof. Taleb.
