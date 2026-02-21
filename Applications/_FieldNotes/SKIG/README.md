@@ -9,11 +9,9 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 
 
 
-**Full original analysis & data-AI-estimates with S.V.E. ontology:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
-
-**Multi-AI analysis:** [ai_analysis](ai_analysis)
-
-**Notebooklm with AI-analysis & data:** https://notebooklm.google.com/notebook/d6375ad4-493c-45d6-ac2e-af4bdb4889b0
+**Full original analysis & data-AI-estimates with S.V.E. ontology:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0 <br>
+**Multi-AI analysis:** [ai_analysis](ai_analysis) <br>
+**Notebooklm with AI-analysis & data:** https://notebooklm.google.com/notebook/d6375ad4-493c-45d6-ac2e-af4bdb4889b0 <br>
 
 ---
 
