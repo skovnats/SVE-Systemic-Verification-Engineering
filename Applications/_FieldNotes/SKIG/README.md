@@ -1,5 +1,5 @@
-# Skin in the Game: Categorical Asymmetry in Conflict Escalation
-**Multi-AI Assessment Framework + Statistical Analysis**
+# [Skin in the Game](https://english.stackexchange.com/questions/384415/origin-of-skin-in-the-game#384443): Categorical Asymmetry in Conflict Escalation
+**Multi-AI Assessment Framework & Statistical Analysis**
 
 ---
 
