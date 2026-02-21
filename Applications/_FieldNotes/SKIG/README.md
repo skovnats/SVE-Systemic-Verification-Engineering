@@ -464,7 +464,7 @@ quadrantChart
 | Western Leader | Years | Electoral | 5-15 |
 | Defense CEO | Negative* | Market reward | 0-30 |
 
-*Negative = Rewarded BEFORE consequences manifest
+*Negative = Rewarded BEFORE consequences manifest*
 
 ---
 
@@ -541,7 +541,6 @@ This analysis inverts that principle:
 The data structure is clear: decision-makers cluster into categories with radically different exposure profiles. The statistical evidence is strong: groups differ at p < 0.001 with effect sizes exceeding 3.0. The policy implication is urgent: systems designed with extreme categorical asymmetry predictably generate protracted conflicts.
 
 When those who can start wars cannot die in them, cannot lose children to them, and can in fact profit from them—we have not merely a principal-agent problem, but a **principal-agent catastrophe** with measurable statistical signatures.
-
 
 ---
 
