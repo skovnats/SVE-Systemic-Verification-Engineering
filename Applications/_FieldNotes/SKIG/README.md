@@ -18,12 +18,7 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 
 **Traditional hypothesis:** "Higher authority → Lower risk" (inverse correlation)
 
-**What we found:** Decision-makers exist in **discrete categories**:
-1. Leaders in war zones (very high risk)
-2. Leaders in secure capitals (very low risk)
-3. Defense executives (very low risk + profit motive)
-
-**There is almost no middle ground.** This is a **categorical cliff**, not a gradient.
+The most harmful structural feature of modern conflict is that **risk is not localized in the decision-maker**. This "categorical cliff" creates a **principal-agent catastrophe** where those with the most power to escalate face the least personal cost, incentivizing protracted engagement and escalation creep.
 
 ---
 
