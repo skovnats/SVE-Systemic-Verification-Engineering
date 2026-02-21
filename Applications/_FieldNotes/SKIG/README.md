@@ -27,19 +27,6 @@ This research utilizes the **S.V.E. (Systemic Verification Engineering)** framew
 
 ---
 
-## The Feedback Loop Structure
-
-| Decision-Maker | Consequence Delay | Feedback Type | Risk Score |
-|----------------|-------------------|---------------|------------|
-| Zelensky | Hours | Survival | 66-95 |
-| Field Commander | Days | Battlefield | - |
-| Western Leader | Years | Electoral | 5-15 |
-| Defense CEO | Negative* | Market reward | 0-30 |
-
-*Negative = Rewarded BEFORE consequences manifest*
-
----
-
 ## Practical Implications
 
 ### For Conflict Analysis
@@ -342,6 +329,19 @@ quadrantChart
 - Multi-AI consensus: Lowest risk (0-30 range)
 
 → **Perfect moral hazard:** Maximum profit from volatility, zero personal skin
+
+
+
+## The Feedback Loop Structure
+
+| Decision-Maker | Consequence Delay | Feedback Type | Risk Score |
+|----------------|-------------------|---------------|------------|
+| Zelensky | Hours | Survival | 66-95 |
+| Field Commander | Days | Battlefield | - |
+| Western Leader | Years | Electoral | 5-15 |
+| Defense CEO | Negative* | Market reward | 0-30 |
+
+*Negative = Rewarded BEFORE consequences manifest*
 
 ---
 
