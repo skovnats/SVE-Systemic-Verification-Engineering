@@ -17,6 +17,13 @@ The most harmful structural feature of modern conflict is that **risk is not loc
 | **Zero Downside** | **Revised** | Refined to **"Asymmetric Downside Protection"**; floor is ~$15M–$55M regardless of outcome. |
 | **Moral Hazard** | **Correct** | **Principal-Agent Catastrophe**; deciders capture convex upside while externalizing all concavity. |
 
+| Metric | Result | Structural Meaning |
+| :--- | :--- | :--- |
+| **Pearson Correlation ($r$)** | **-0.04 (ns)** | No gradient; risk does not scale with power. |
+| **ANOVA ($F$-stat)** | **19.3 ($p<0.001$)** | Groups are radically distinct populations. |
+| **Effect Size ($d$)** | **3.2–4.6** | The "Categorical Cliff" of insulation. |
+| **Profit Model** | **Quadratic ($R^2=0.82$)** | Profits accelerate with escalation. |
+
 ---
 
 ## Practical Implications of Categorical Asymmetry
@@ -111,17 +118,29 @@ Zelenskyy (*RAI* ≈ 12) is the **sole actor** in the sample where decision-maki
 
 ---
 
-## Concluding Observation
+## Concluding Observation: The Inversion of Skin in the Game
 
-You wrote: *"The most harmful mistake made about risk is to think that it is localized in the decision-maker"* (Skin in the Game, 2018).
+In 2018, Nassim Taleb wrote: *"The most harmful mistake made about risk is to think that it is localized in the decision-maker."*
 
-This analysis inverts that principle:
+Our analysis demonstrates that in the context of modern geopolitical conflict, the inverse has become the structural law: 
 
 **The most harmful structural feature of modern conflict is that risk is NOT localized in the decision-maker.**
 
-The data structure is clear: decision-makers cluster into categories with radically different exposure profiles. The statistical evidence is strong: groups differ at p < 0.001 with effect sizes exceeding 3.0. The policy implication is urgent: systems designed with extreme categorical asymmetry predictably generate protracted conflicts.
+### **1. The Statistical Signature of Asymmetry**
+The data structure is unambiguous. Decision-makers do not exist on a risk-power gradient; they cluster into discrete categories with radically different exposure profiles.
+*   **Massive Group Divergence:** One-way ANOVA confirms groups are statistically distinct populations (**$F = 19.3, p < 0.001$**).
+*   **The Categorical Cliff:** The distance between the "Exposed" (Zelenskyy) and "Insulated/Inverted" (Western Leaders/CEOs) is extreme, with **Cohen’s $d$ effect sizes of 3.2 to 4.6**—exceeding the "large" threshold by a factor of four.
 
-When those who can start wars cannot die in them, cannot lose children to them, and can in fact profit from them—we have not merely a principal-agent problem, but a **principal-agent catastrophe** with measurable statistical signatures.
+### **2. From Principal-Agent Problem to Catastrophe**
+We are not merely observing a standard misalignment of incentives; we are witnessing a **Principal-Agent Catastrophe** defined by two terminal features:
+*   **Convex Upside:** For Tier 4 actors (Defense CEOs), profits **accelerate (convexity)** as conflict severity reaches existential levels ($R^2=0.82$ for quadratic models vs. $0.55$ for linear).
+*   **Asymmetric Downside Protection:** While deciders capture the convexity of volatility, their personal downside is capped by institutional floors. Even in cases of termination or failure, contractual exit packages ensure "floors" of **$15M to $55M**, effectively externalizing the concavity of loss onto the population.
+
+### **3. The Policy Emergency**
+Systems designed with this level of categorical asymmetry (high **Risk–Ethics Asymmetry Index**) are structurally biased toward **protracted conflict** and **escalation creep**. When those who start wars cannot die in them, cannot lose children to them, and in fact profit from them, the system defaults to "strategic optionality" rather than resolution. 
+
+**“By their fruits you shall know them.”** The current system produces asymmetry; a viable future requires **integrity of consequence**.
+
 
 ---
 
