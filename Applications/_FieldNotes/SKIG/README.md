@@ -53,6 +53,8 @@ Systems with extreme categorical asymmetry are prone to:
 
 The primary finding of this study is that the relationship between decision-making power and personal risk in modern conflict is **not a linear correlation, but a categorical clustering**. The data reveals a "cliff" where authority is systematically decoupled from consequence, except in singular historical anomalies.
 
+The data supports a **"Principal-Agent Catastrophe"** defined by **asymmetric downside protection** rather than a literal "zero" floor, and **verified convexity** in conflict-driven profits.
+
 #### **1. Statistical Evidence & Recheck**
 The analysis utilized five independent AI systems (Claude, ChatGPT, Gemini, Grok, Qwen) as an expert panel to rate 14 global actors on a 0–100 SITG scale.
 
@@ -67,6 +69,8 @@ The research tested whether defense industry gains are linear or **convex** (acc
 *   **Model Comparison:** For a "Defense Basket" (LMT, RHM, BA), the **Quadratic Model ($R^2 \approx 0.74–0.82$)** significantly outperformed the Linear Model ($R^2 \approx 0.47–0.55$).
 *   **Interpretation:** Returns do not merely increase with conflict intensity; they **accelerate** at the high end of the escalation scale (Severity 80–100).
 *   **Mechanism:** This convexity is driven by "Panic Buying" and the depletion of national stockpiles, which trigger multi-decade platform commitments (e.g., AUKUS, B-21) rather than incremental ammunition orders.
+*   **The Mechanism of Convexity:** Moderate escalations trigger incremental ammunition orders, but **extreme escalations (Severity 80–100)** trigger fundamental, multi-decade shifts in national security architecture and massive platform commitments (e.g., AUKUS, B-21 bomber), creating an "explosive" return profile.
+*   **The "Conflict Dividend":** Since the 2022 invasion, Rheinmetall stock has risen **+1,576%**, BAE **+228%**, and Lockheed Martin **+66%**, consistently outperforming the S&P 500.
 
 #### **3. Executive Downside Protection: The "Heads I Win, Tails I Still Win" Structure**
 The analysis of defense CEO compensation (Taiclet, Papperger, Woodburn) reveals **Asymmetric Downside Protection** rather than "zero downside".
@@ -75,30 +79,22 @@ The analysis of defense CEO compensation (Taiclet, Papperger, Woodburn) reveals 
 *   **Downside Floor:** Contractual "Golden Parachutes" (severance/vesting acceleration) ensure exit packages ranging from **$15M to $55M**, even in cases of termination or performance failure.
 *   **Principal-Agent Catastrophe:** Decision-makers profit from the "convexity of conflict" while remaining insulated from the "concavity of loss" (war consequences), creating a structural bias toward prolonged engagement.
 
-#### **4. The Zelensky Singularity**
-Volodymyr Zelenskyy represents the **structural exception**. He is the only actor in the sample where decision-making authority and personal physical/existential risk are co-located ($RAI \approx 12$). This singularity clarifies the rule: modern systems are optimized to produce leaders who share no fate with the populations affected by their decisions.
-
----
-
-The data supports a **"Principal-Agent Catastrophe"** defined by **asymmetric downside protection** rather than a literal "zero" floor, and **verified convexity** in conflict-driven profits.
-
-### **1. Validation of "Maximum Convexity" (Profit from Volatility)**
-The analysis confirms that defense returns are not linear; they are **convex**, meaning profits accelerate as conflict severity approaches existential levels.
-*   **Model Comparison:** For a "Defense Basket" (LMT, RHM, BA), a **Quadratic Model ($R^2 = 0.82$)** fits the data significantly better than a Linear Model ($R^2 = 0.55$).
-*   **The Mechanism of Convexity:** Moderate escalations trigger incremental ammunition orders, but **extreme escalations (Severity 80–100)** trigger fundamental, multi-decade shifts in national security architecture and massive platform commitments (e.g., AUKUS, B-21 bomber), creating an "explosive" return profile.
-*   **The "Conflict Dividend":** Since the 2022 invasion, Rheinmetall stock has risen **+1,576%**, BAE **+228%**, and Lockheed Martin **+66%**, consistently outperforming the S&P 500.
-
-### **2. Rechecking the "Zero Downside" Claim**
+### **3.1 Rechecking the "Zero Downside" Claim**
 While defense executives are in the "Inverted" Tier 4 (bearing the least risk while holding massive power), the term "zero downside" should be revised to **"Massive Asymmetric Downside Protection"** for intellectual honesty.
 *   **The "Floor":** Executives have contractual "Golden Parachutes" and severance packages ensuring exit payouts of **$15M to $55M** even in cases of termination without cause or performance failure. 
 *   **Evidence of Insulated Loss:** Even when an executive is fired for catastrophic failure (e.g., Boeing’s Muilenburg), they can walk away with **$62 million** in vested benefits.
 *   **Technical "Downside":** It is not strictly "zero" because annual bonuses can decline if financial targets aren't met (e.g., Raytheon’s Gregory Hayes saw his bonus drop **44%** between 2021 and 2023). However, this "loss" occurs within the context of **"obscenely wealthy" vs. "extremely wealthy,"** creating no functional change in the executive's quality of life.
 
-### **3. The "Perfect Moral Hazard" (Principal-Agent Catastrophe)**
+
+### **4. The "Perfect Moral Hazard" (Principal-Agent Catastrophe)**
 The research demonstrates a structural decoupling of accountability from consequence, creating a **"Perfect Moral Hazard"**.
 *   **Equity-Linked Incentives:** 55–76% of CEO compensation is tied to equity. Because returns are convex relative to conflict severity, executives are financially incentivized to sustain a high-volatility, high-escalation environment.
 *   **Categorical Asymmetry:** While these executives profit from the **convexity of conflict**, they remain entirely insulated from the **concavity of loss** (the physical and existential consequences of war borne by Tier 1 actors like Zelenskyy).
 *   **Institutional Alignment:** The "Security-Industrial Feedback Loop" ensures that policy escalation leads to increased spending, which directly translates to executive wealth through TSR-linked (Total Shareholder Return) incentives.
+
+
+#### **5. The Zelensky Singularity**
+Volodymyr Zelenskyy represents the **structural exception**. He is the only actor in the sample where decision-making authority and personal physical/existential risk are co-located ($RAI \approx 12$). This singularity clarifies the rule: modern systems are optimized to produce leaders who share no fate with the populations affected by their decisions.
 
 
 ---
