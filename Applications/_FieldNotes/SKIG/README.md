@@ -143,50 +143,6 @@ All data, code, replication materials: https://github.com/skovnats/SVE-Systemic-
 
 ---
 
-### ✅ DIMENSION 1: Qualitative Framework
-
-**What it is:**
-- Multi-AI comparative assessment (5 independent systems)
-- Four-tier categorical model
-- Cross-evaluator consensus
-- Practical implications
-
-**Key Finding:**
-"Decision-makers cluster into discrete tiers based on risk exposure. Only 1 of 30+ evaluated figures (Zelensky) shows aligned incentives."
-
-**Evidence Type:** Qualitative analysis with cross-evaluator validation
-
-
----
-
-## Statistical Deep Dive
-
-### Methodology
-- **N = 14** decision-makers across 4 categories
-- **2-3 independent AI evaluators** per figure (Gemini, Grok, Claude)
-- Each AI assessed on 0-100 scales: Personal Risk Exposure & Decision-Making Power
-- Assessments treated as **expert panel ratings** (standard in qualitative research)
-- Statistical analysis: ANOVA, Pearson/Spearman correlation, Cohen's d effect sizes
-
-### Key Results
-
-**1. Categorical Structure (Not Linear)**
-- Pearson r = -0.04 (p = 0.90, not significant)
-- Interpretation: Risk doesn't decrease gradually with power—it's categorical
-
-**2. Massive Group Differences**
-- **Exposed Leaders:** 65.8 ± 24.3 (N=3)
-- **Insulated Leaders:** 7.9 ± 3.9 (N=7)
-- **Defense CEOs:** 10.0 ± 5.0 (N=3)
-- ANOVA: F = 19.3, p < 0.001*** (highly significant)
-
-**3. Enormous Effect Sizes**
-- Exposed vs. Insulated: Cohen's d = **4.6** (massive: anything > 0.8 is "large")
-- Exposed vs. Defense CEOs: Cohen's d = **3.2** (massive)
-- Interpretation: Groups are **radically** distinct, not subtly different
-
----
-
 ## Why This Matters More Than Correlation
 
 **Traditional hypothesis:** "Higher authority → Lower risk" (inverse correlation)
@@ -518,7 +474,7 @@ quadrantChart
 
 ---
 
-## Important Methodological Note
+# Appendix: Important Methodological Note
 
 All scores are produced by multiple AI models (Claude, ChatGPT, Gemini, Grok) and aggregated via a Meta-AI synthesis. Where models diverge significantly (e.g., Grok systematically scores Western leaders 20–40 points lower), the variance is itself treated as a signal — diagnostic of different underlying assumptions about what "risk" means, not just noise.
 
@@ -526,3 +482,30 @@ The numbers are best read as **ratios and rankings**, not as precise measurement
 
 ---
 
+# Appendix: Statistical Deep Dive
+
+### Methodology
+- **N = 14** decision-makers across 4 categories
+- **2-3 independent AI evaluators** per figure (Gemini, Grok, Claude)
+- Each AI assessed on 0-100 scales: Personal Risk Exposure & Decision-Making Power
+- Assessments treated as **expert panel ratings** (standard in qualitative research)
+- Statistical analysis: ANOVA, Pearson/Spearman correlation, Cohen's d effect sizes
+
+### Key Results
+
+**1. Categorical Structure (Not Linear)**
+- Pearson r = -0.04 (p = 0.90, not significant)
+- Interpretation: Risk doesn't decrease gradually with power—it's categorical
+
+**2. Massive Group Differences**
+- **Exposed Leaders:** 65.8 ± 24.3 (N=3)
+- **Insulated Leaders:** 7.9 ± 3.9 (N=7)
+- **Defense CEOs:** 10.0 ± 5.0 (N=3)
+- ANOVA: F = 19.3, p < 0.001*** (highly significant)
+
+**3. Enormous Effect Sizes**
+- Exposed vs. Insulated: Cohen's d = **4.6** (massive: anything > 0.8 is "large")
+- Exposed vs. Defense CEOs: Cohen's d = **3.2** (massive)
+- Interpretation: Groups are **radically** distinct, not subtly different
+
+---
