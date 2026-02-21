@@ -19,25 +19,35 @@ The most harmful structural feature of modern conflict is that **risk is not loc
 
 ---
 
-## Practical Implications
+## Practical Implications of Categorical Asymmetry
 
-### For Conflict Analysis
-Decision-makers in Tier 3-4 face **structural escalation bias**:
-- No personal cost to conflict continuation
-- Individual career/financial benefit from escalation
-- Delayed or inverted feedback loops
+### 1. For Conflict Analysis: The Escalation Bias
+Decision-makers in **Tier 3 (Insulated)** and **Tier 4 (Inverted)** operate under a **Structural Escalation Bias**. Because the SYSTEM systematically externalizes risk, these actors face:
+*   **Decoupled Consequences:** Institutional insulation (P5) and layered delegation (P4) ensure that those who start or sustain conflicts bear minimal personal physical or economic cost.
+*   **Convex Incentives:** Tier 4 actors (Defense CEOs) capture a **convex profit profile**, where financial rewards accelerate as conflict severity approaches existential levels.
+*   **Feedback Failure:** Unlike Tier 1 leaders who face real-time survival feedback (measured in hours), Tier 3–4 actors experience **delayed (years)** or **inverted (immediate market rewards)** feedback loops.
 
-### For Prediction
-**Category predicts behavior better than:**
-- Official policy statements
-- Ideology or rhetoric
-- Diplomatic messaging
+### 2. For Prediction: Geography Over Ideology
+Our research confirms that an actor's **Category (Tier)** is the most reliable predictor of their behavior—outperforming official policy, rhetoric, or personal biography.
+*   **The Proximity Law:** Physical proximity to the conflict remains the strongest predictor of risk alignment; geography dominates moral or ideological stance.
+*   **Biographical Neutrality:** Prior combat experience or personal hardship (e.g., Netanyahu, Putin, Xi) does **not** reliably produce restraint; institutional position and network insulation consistently overpower biographical empathy.
 
-### For System Design
-Systems with extreme categorical asymmetry are prone to:
-- **Protracted conflicts** (no personal incentive to end)
-- **Escalation creep** (each step is low-cost to decider)
-- **Diplomatic failure** (negotiation has career downside for insulated leaders)
+### 3. For System Design: The Catastrophe Signature
+Systems defined by extreme categorical asymmetry (high **Risk–Ethics Asymmetry Index**) are structurally prone to **"Principal-Agent Catastrophes"**:
+*   **Protracted Conflicts:** When those with the power to end a conflict face no personal incentive to do so, war becomes a "positive-sum" coalition for the deciders.
+*   **Escalation Creep:** Because each escalatory step is low-cost to the insulated decider, the system defaults to "strategic optionality" rather than resolution.
+*   **Diplomatic Fragility:** Negotiation often presents a career downside for insulated leaders, while escalation provides "low-cost moral signaling" and financial upside.
+
+---
+
+### **Summary Table: The Categorical Cliff**
+| Category | Feedback Type | Consequence Delay | Risk Alignment |
+| :--- | :--- | :--- | :--- |
+| **Tier 1: Exposed** | Survival (Existential) | Hours/Days | **Aligned (RAI ≤ 25)** |
+| **Tier 3: Insulated** | Electoral (Political) | 4–5 Years | **Misaligned (RAI 60–75)** |
+| **Tier 4: Inverted** | Market (Financial) | **Negative** (Immediate) | **Inverted (RAI 75–100)** |
+
+*Note: RAI (Risk–Ethics Asymmetry Index) measures the distance between decision power and personally borne risk.*
 
 ---
 
