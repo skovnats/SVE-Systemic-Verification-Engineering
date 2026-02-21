@@ -1,6 +1,8 @@
 # [Skin in the Game](https://english.stackexchange.com/questions/384415/origin-of-skin-in-the-game#384443): Categorical Asymmetry in Conflict Escalation
 **Multi-AI Assessment Framework & Statistical Analysis**
 
+#### **Full original analysis:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
+
 ---
 
 ## The Finding
@@ -53,7 +55,6 @@ All data, code, replication materials: https://github.com/skovnats/SVE-Systemic-
 ---
 
 ### ✅ DIMENSION 1: Qualitative Framework
-**Full original analysis:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG/case_0
 
 **What it is:**
 - Multi-AI comparative assessment (5 independent systems)
