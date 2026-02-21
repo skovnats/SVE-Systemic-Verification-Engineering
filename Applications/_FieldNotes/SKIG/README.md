@@ -108,6 +108,28 @@ quadrantChart
 | 🔴 Tier 4 | Inverted | Profit from conflict | Defense CEOs |
 
 
+```mermaid
+flowchart LR
+    A[Zelensky<br/>Hours<br/>Survival<br/>Alignment: 5/5]
+    B[Field Commander<br/>Days<br/>Battlefield<br/>Alignment: 4/5]
+    C[Western Leader<br/>Years<br/>Electoral<br/>Alignment: 1/5]
+    D[Defense CEO<br/>Negative Delay<br/>Market Reward<br/>Inverted]
+
+    A --> B --> C --> D
+```
+
+## Feedback Loop Comparison
+
+| Decision-Maker  | Consequence Delay | Feedback Mechanism | Alignment |
+|-----------------|------------------|--------------------|-----------|
+| Zelensky       | Hours            | Survival           | ■■■■■     |
+| Field Commander| Days             | Battlefield        | ■■■■      |
+| Western Leader | Years            | Electoral          | ■         |
+| Defense CEO    | Negative*        | Market reward      | Inverted  |
+
+\* Negative = Rewarded **before** consequences manifest
+
+
 
 ### ✅ DIMENSION 2: Quantitative Statistics: Qualitative-Analysis extension
 **What it is:**
@@ -361,18 +383,10 @@ The data structure is clear: decision-makers cluster into categories with radica
 
 When those who can start wars cannot die in them, cannot lose children to them, and can in fact profit from them—we have not merely a principal-agent problem, but a **principal-agent catastrophe** with measurable statistical signatures.
 
----
-
-**Full Methodology & Data:**  
-github.com/skovnats/SVE-Systemic-Verification-Engineering  
-**Replication Materials:** All prompts, AI responses, statistical code  
-**Contact:** artiom.kovnatsky@gmail.com
 
 ---
 
 *"It is immoral to be in a position of making forecasts without having a risk of loss." — N.N. Taleb*
-
-**How much more immoral to make decisions about war without risk of loss—and while profiting from it?**
 
 
 *Dr. Artiom Kovnatsky • February 2026*
