@@ -141,10 +141,9 @@ Systems designed with this level of categorical asymmetry (high **Risk–Ethics 
 
 **“By their fruits you shall know them.”** The current system produces asymmetry; a viable future requires **integrity of consequence**.
 
+*"It is immoral to be in a position of making forecasts without having a risk of loss." — N.N. Taleb*
 
 ---
-
-*"It is immoral to be in a position of making forecasts without having a risk of loss." — N.N. Taleb*
 
 *Dr. Artiom Kovnatsky • February 2026*
 
