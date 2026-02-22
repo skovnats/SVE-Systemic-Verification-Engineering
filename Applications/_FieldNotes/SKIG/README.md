@@ -242,7 +242,7 @@ RAI = clamp(Base + Adjustments, 0, 100)
 | **Netanyahu** | 22 | Combat veteran, under rocket threat, family in country |
 | **Macron** | 68 | No military service, family not at risk, decisions affect millions |
 | **Arms CEOs (avg.)** | 78 | Max responsibility radius, zero war zone exposure, compensation rises with conflict |
-| **Papperger** | 69 | Would score ~84; −5 applied for confirmed assassination plot (2024); *Author Comment*: 79 |
+| **Papperger** | 69 | −5 applied for confirmed assassination plot (2024) |
 
 ---
 
