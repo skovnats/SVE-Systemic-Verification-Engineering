@@ -313,7 +313,7 @@ quadrantChart
 
 # Appendix: Known Limitations & Open Questions
 
-> This is a working analysis, not a final submission. The limitations below are **known and documented intentionally** — not discovered gaps. Full Human-validation & data-augmentation is scoped for Phase 2, contingent on interest from domain experts.
+> This is a working analysis, not a final submission. The limitations are **known and documented intentionally** — not discovered gaps. Full validation and data expansion are scoped for Phase 2, contingent on interest from domain experts. There might be errors — let me know if you spot any. 
 
 ---
 
