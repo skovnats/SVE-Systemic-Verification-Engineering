@@ -327,7 +327,6 @@ quadrantChart
 | 4 | Zelenskyy Singularity | Sole Tier 1 data point — the "categorical law" rests on one case | Additional Tier 1 actors from other conflicts |
 | 5 | AI divergence as bias signal | Grok's lower SITG scores could be calibration noise, not institutional signal | Standardize SITG definition across models |
 | 6 | Geography vs. moral stratification | Proximity may be correlation, not cause — institutional insulation (P5) may dominate | Compare leaders with/without combat experience |
-| 7 | ... | ... | ... |
 
 ---
 
