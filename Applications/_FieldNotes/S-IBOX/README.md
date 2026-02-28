@@ -9,7 +9,7 @@
 | 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
 |:---|:---|
 | **Narrative Mythologists & Co.** | **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** |
-| The System of Lies & its Champions | The Human, Founder of [SVE](https://github.com/skovnats/SVE-Systemic-Verification-Engineering?tab=readme-ov-file#systemic-verification-engineering-sve) + (potentially) God |
+| The System of Lies & its Champions | The Human, [Founder of SVE](https://github.com/skovnats/SVE-Systemic-Verification-Engineering?tab=readme-ov-file#systemic-verification-engineering-sve) + (potentially) God |
 | **Weapons:** All resources of the material world | **Weapons:** Socrates · Logic · Mathematics · Facts · Truth · Humility · God |
 | 1️⃣ **Timothy Snyder** — Yale, *Bloodlands* | ✅ Challenge open |
 | 2️⃣ **Anne Applebaum** — Pulitzer, *Gulag* | ✅ Challenge open |
