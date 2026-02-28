@@ -110,5 +110,9 @@ https://zenodo.org/records/18108751
 
 
 > [!IMPORTANT]
-> *"Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy."* > — **Revelation 22:11**
+> *"Let the evildoer still do evil, 
+and the filthy still be filthy, 
+and the righteous still do right, 
+and the holy still be holy."* 
+> — **Revelation 22:11**
 > *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».* > — **Ефесянам 5:13**
