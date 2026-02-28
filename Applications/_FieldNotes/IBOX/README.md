@@ -10,6 +10,43 @@
 * **Weapons**: All resources of the material world and the backing of the **System of Lies**.
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
 
+---
+
+## 🔴 Red Corner — Open Challenges
+
+> These individuals are formally invited to engage under the
+> [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+> Every claim is verifiable. Every error gets a 24/7 response.
+
+| # | Challenger | Title | Why Red Corner |
+|---|---|---|---|
+| 1 | **[Timothy Snyder](https://en.wikipedia.org/wiki/Timothy_Snyder)** | [Yale](https://en.wikipedia.org/wiki/Yale_University) historian, *Bloodlands*, *On Tyranny* | The leading architect of the "democratic memory" narrative of Eastern Europe |
+| 2 | **[Anne Applebaum](https://en.wikipedia.org/wiki/Anne_Applebaum)** | [Pulitzer Prize](https://en.wikipedia.org/wiki/Pulitzer_Prize) journalist, *Gulag*, *Iron Curtain* | The West's foremost moral authority on Russia — by her own narrative |
+| 3 | **[Serhii Plokhy](https://en.wikipedia.org/wiki/Serhii_Plokhy)** | [Harvard historian](https://en.wikipedia.org/wiki/Harvard_University), *The Gates of Europe* | The principal academic voice shaping how the West understands Ukraine's past |
+| 4 | **[Francis Fukuyama](https://en.wikipedia.org/wiki/Francis_Fukuyama)** | [Stanford](https://en.wikipedia.org/wiki/Stanford_University), *The End of History* | Declared liberal democracy the final answer — the audit is overdue |
+| 5 | **[Julian Röpcke](https://www.bild.de/autor/julian-roepcke)** | [BILD](https://en.wikipedia.org/wiki/Bild), Ukraine war correspondent | [Second chance — first challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) |
+
+---
+
+### ⚠️ Special Note — [Serhii Sternenko](https://en.wikipedia.org/wiki/Serhii_Sternenko)
+
+Challenge issued publicly, in his own chat, in front of his own supporters.
+Response: silence. Until the protocol is followed, his weight in this audit
+is **± "0"**.
+
+📁 [Challenge record & screenshot](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko)
+
+---
+
+<div align="center">
+
+![Red Corner](https://img.shields.io/badge/Red%20Corner-Open%20Challenge-red?style=for-the-badge)
+![Protocol](https://img.shields.io/badge/SVE%20Protocol-Active-blue?style=for-the-badge)
+![Response](https://img.shields.io/badge/Errors%20Found-24%2F7%20Response-brightgreen?style=for-the-badge)
+
+</div>
+
+
 
 **Preprints**: https://doi.org/10.5281/zenodo.18776172 <br>
 **ALL IS REPRODUCABLE BY ANYONE** (instructions, links, prompts, data etc. are in this folder).
