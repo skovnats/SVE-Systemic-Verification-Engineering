@@ -101,3 +101,9 @@ https://zenodo.org/records/18108751
 > *A person certain of their rightness does not need to stuff the ballot box.*
 >
 > **6. Statistical probability** — With only 3 total votes in the dataset, the likelihood of two independent 'Red Corner' entries occurring within a 4‑minute window is statistically negligible. This temporal proximity confirms a non-random, coordinated 'series' rather than organic participation.
+>
+> **7. Chronological Mirroring** — The entries appeared exactly one month after the Sternenko audit deadline (Oct 2 vs Nov 2) at nearly the same hour (~19:20 vs ~20:00). This 30-day alignment acts as a deliberate 'signature' of persistent surveillance.
+>
+> **8. Psychological Shadowing** — The timing transmits a silent metadata message: *“We know your dates. We watch your timer. We can maintain a pause just as methodically as you”*. This is a "nudge" designed to induce paranoia and divert focus from systemic documentation.
+>
+> **9. Pre-emptive Observation** — These actions occurred weeks before the official Protocol v1.1 launch (Nov 23), confirming the audit environment was already being 'farmed' during its pre-public developmental phase.
