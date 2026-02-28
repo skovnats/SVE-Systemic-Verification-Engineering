@@ -85,3 +85,16 @@ https://zenodo.org/records/18108751
 > - **Well‑poisoning effect** — a classic information‑ops tactic. If the [AK1984 list](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md) and SVE/SIP challenges cannot be stopped, the next best move is to make the whole space look “toxic” or “ridiculous”. Once an email like `tidolboyob@fsb.ru` appears in the log, it becomes easier for institutions (e.g. foreign ministries) to dismiss the entire documentation as “just another escalation / trolling arena”.
 > - **[CGS axiom in practice](https://doi.org/10.5281/zenodo.18776172)** — the core rule of the project is: *“Whoever alleges Falsehood carries the burden of a counter‑example.”* Instead of providing a structured, evidence‑based counter‑example to the audit, the System responded with cognitive noise in the form of `tidolboyob@fsb.ru`.
 > - **Actor profile** — if this was done by a *professional*, the use of obscenity is deliberate: to frame the author as someone who “attracts marginals”. If
+>
+> **5. The author's own vote — a meta‑signal**
+> - The author, standing in the Blue Corner, did not vote for himself.  
+>   He voted: **"God, judge us."**
+> - This is not a rhetorical gesture. It is the logical consequence of the CGS method:  
+>   *"Whoever alleges Falsehood carries the burden of a counter‑example"* —  
+>   meaning the author remains open to correction if a valid counter‑example is provided.
+> - The contrast speaks for itself:  
+>   **Blue Corner** — surrenders the verdict to Truth and God.  
+>   **Red Corner** — responds with `tidolboyob@fsb.ru`.
+>
+> *A person certain of their rightness does not need to stuff the ballot box.*
+
