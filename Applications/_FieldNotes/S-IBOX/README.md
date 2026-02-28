@@ -20,8 +20,8 @@
 
 ## ⚔️ What We Are Fighting For (TRUTH)
 
-> **The subject of every challenge is historical and political truth** —
-> specifically where the dominant Western narrative diverges from verifiable chronology and logic.
+> **The subject of every challenge is (historical and political) TRUTH** —
+> specifically where the dominant (Western+) narrative diverges from verifiable chronology and logic.
 
 ### ✅ Proven
 
