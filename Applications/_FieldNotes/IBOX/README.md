@@ -44,7 +44,7 @@
 
 ---
 
-# Intellectual Fights
+# 🥊 Spiritual-Intellectual Fights 🥊
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="777">
