@@ -18,7 +18,7 @@
 
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="900">
+  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="777">
   <br>
   <strong>⚔️ The Battle of the Century</strong>
   <br>
