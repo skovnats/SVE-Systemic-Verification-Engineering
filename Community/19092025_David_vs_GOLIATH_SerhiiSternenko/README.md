@@ -33,6 +33,14 @@ https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20
 https://zenodo.org/records/18108307 <br>
 https://zenodo.org/records/18108751
 
+---
+---
+---
+
+<br>
+<br>
+<br>
+<br>
 
 > [!NOTE]
 > 🗳️ **Public voting log (as of 28 Feb 2026)**  
