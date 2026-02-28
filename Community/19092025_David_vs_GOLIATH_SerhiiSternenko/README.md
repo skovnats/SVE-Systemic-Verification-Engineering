@@ -107,3 +107,8 @@ https://zenodo.org/records/18108751
 > **8. Psychological Shadowing** — The timing transmits a silent metadata message: *“We know your dates. We watch your timer. We can maintain a pause just as methodically as you”*. This is a "nudge" designed to induce paranoia and divert focus from systemic documentation.
 >
 > **9. Pre-emptive Observation** — These actions occurred weeks before the official Protocol v1.1 launch (Nov 23), confirming the audit environment was already being 'farmed' during its pre-public developmental phase.
+
+
+> [!IMPORTANT]
+> *"Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy."* > — **Revelation 22:11**
+> *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».* > — **Ефесянам 5:13**
