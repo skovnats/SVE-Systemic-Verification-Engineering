@@ -59,7 +59,6 @@ https://zenodo.org/records/18108751
 
 ![voting](voting.png)
 
-
 > [!NOTE]
 > ### 🧪 Micro‑forensics of `tidolboyob@fsb.ru` (vote log, 28 Feb 2026)
 >
@@ -69,7 +68,7 @@ https://zenodo.org/records/18108751
 > **1. Why this address is unlikely to be a normal user**
 > - **Username layer** — `tidolboyob` transparently reads as an insult in Russian (“you f\*cking idiot”): direct verbal aggression, not a serious identity.
 > - **Domain layer** — `@fsb.ru` invokes Russia’s security service. Combined with a vote *for* the Red Corner (Sternenko), this creates built‑in cognitive dissonance: either *“Sternenko is an FSB project”* or *“FSB people are trolling this poll”*.
-        - **Timing pattern** — two Red‑Corner votes within 5–6 minutes look like a small “series”, not organic, independent participation.
+> - **Timing pattern** — two Red‑Corner votes within 5–6 minutes look like a small “series”, not organic, independent participation.
 >
 > **2. Possible actor profiles (hypotheses, not accusations)**
 > - **Radical online activist / troll** — uses shock value (swear‑based handle, FSB domain) to insult the author and pollute the dataset.
@@ -80,6 +79,11 @@ https://zenodo.org/records/18108751
 > - **Intimidation / loss of safety** — remind the author that even a small Google Form is being “watched”; create a feeling of being under surveillance.
 > - **Delegitimization of evidence** — if the poll results look contaminated by obscene fake identities, any future reference to the data can be dismissed as “not serious”.
 > - **Narrative sabotage instead of open protocol** — instead of engaging via the public SVE/SIP protocol, the actor chooses narrative noise and childish provocation.
+>
+> **4. Additional signals**
+> - **Well‑poisoning effect** — a classic information‑ops tactic. If the AK1984 list and SVE/SIP challenges cannot be stopped, the next best move is to make the whole space look “toxic” or “ridiculous”. Once an email like `tidolboyob@fsb.ru` appears in the log, it becomes easier for institutions (e.g. foreign ministries) to dismiss the entire documentation as “just another escalation / trolling arena”.
+> - **Symmetry of impotence** — the S.V.E.–SIP challenge demands structured, evidence‑based argumentation. The answer the System produced was, instead, the language of `tidolboyob`. That contrast itself is a signal of intellectual and ethical weakness.
+> - **Actor profile** — if this was done by a *professional*, the use of obscenity is deliberate: to frame the author as someone who “attracts marginals”. If it was done by a *fanatic supporter*, it only confirms that the opponent’s audience is not ready for a Socratic dialogue and defaults to aggression as its primary language.
 >
 > Even at the smallest scale, the “System” prefers **narrative games and psychological nudges** over transparent, protocol‑based dialogue.  
 > One email address already reveals the communication culture of the opponent — and their fear of a clean audit.

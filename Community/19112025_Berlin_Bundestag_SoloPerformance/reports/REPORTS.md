@@ -344,6 +344,11 @@
 ## **Note:** 
 Based on my current estimates, the real scale of violations is likely significantly higher, as only a small fraction of incidents are ever recorded on camera (approx. ×20–200).
 
+
+28.02.2026
+«Кейс-стади №1: Реакция Системы на Протокол».
+Напишите: «На 253 задокументированных случая в списке AK1984 Система смогла ответить лишь матерным имейлом в гугл-форме. Это и есть реальный масштаб их интеллектуальной оппозиции».
+
 ---
 
 #### **Notes:**
