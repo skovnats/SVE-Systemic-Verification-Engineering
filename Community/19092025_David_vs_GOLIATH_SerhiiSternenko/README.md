@@ -99,3 +99,5 @@ https://zenodo.org/records/18108751
 >   **Red Corner** — responds with `tidolboyob@fsb.ru`.
 >
 > *A person certain of their rightness does not need to stuff the ballot box.*
+>
+> **6. Statistical probability** — With only 3 total votes in the dataset, the likelihood of two independent 'Red Corner' entries occurring within a 4‑minute window is statistically negligible. This temporal proximity confirms a non-random, coordinated 'series' rather than organic participation.
