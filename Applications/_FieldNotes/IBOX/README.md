@@ -19,7 +19,7 @@
 
 ---
 
-# Intellectual Sparrings
+# 🫐 Intellectual Sparrings 🫐
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-Α.jpg" alt="Dempsey" width="777">
@@ -44,7 +44,7 @@
 
 ---
 
-# 🥊 Spiritual-Intellectual Fights 🥊
+# 🥊👊 Spiritual-Intellectual Fights 👊🥊
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="777">
