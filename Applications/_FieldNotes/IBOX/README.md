@@ -1,6 +1,6 @@
 # 🥊 Spiritual-Intellectual Boxing 🥊
 
-🔵 **BLUE CORNER**: **DAVID** ([Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about); The Human + (potentially) God)
+🔵 **BLUE CORNER**: **David** ([Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about); The Human + (potentially) God)
 
 * **Weapons**: "Socrates", logic, mathematics, facts, Truth, Humility, and, hopefully, God.
 * **Context**: My **[Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link)** (The Architect/Blacksmith of Meanings) can be explored here.
@@ -8,7 +8,7 @@
 🔴 **RED CORNER**: **GOLIATH** (Narrative Mythologists & Co.)
 
 * **Weapons**: All resources of the material world and the backing of the **System of Lies**.
-* **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
+* **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
 
 ---
 
