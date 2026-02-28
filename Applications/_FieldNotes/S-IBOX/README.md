@@ -1,6 +1,27 @@
 # David vs. GOLIATH 2
 ## 🥊 Spiritual-Intellectual Boxing 🥊
 
+
+---
+
+## ⚔️ The Fight Card
+
+| 🔵 BLUE CORNER — **David** | 🔴 RED CORNER — **Goliath** |
+|:---|:---|
+| **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** | **Narrative Mythologists & Co.** |
+| The Human + (potentially) God | The System of Lies & its Champions |
+| **Weapons:** "Socrates", logic, mathematics, facts, Truth, Humility, and, hopefully, God | **Weapons:** All resources of the material world |
+| **[Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link)**: The Architect/Blacksmith of Meanings | **[S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244)** · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md) |
+| One independent auditor | Thrives on risk asymmetry & "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)" deficit |
+
+> One independent auditor against the full weight of Western+ institutional knowledge, narrative, and mythology.
+> Every claim is verifiable. Every error gets a 24/7 response after passing a **4+1 AI "BS check"**.
+> Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+
+---
+
+
+
 🔵 **BLUE CORNER**: **David** ([Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about); The Human + (potentially) God)
 
 * **Weapons**: "Socrates", logic, mathematics, facts, Truth, Humility, and, hopefully, God.
@@ -10,6 +31,8 @@
 
 * **Weapons**: All resources of the material world and the backing of the **System of Lies**.
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
+
+
 
 > **David vs. Goliath** — One independent auditor against the full weight
 > of Western+ institutional knowledge, narrative, and mythology.
