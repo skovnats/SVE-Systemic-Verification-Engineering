@@ -116,3 +116,14 @@ and the righteous still do right,
 and the holy still be holy."* 
 > — **Revelation 22:11**
 > *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».* > — **Ефесянам 5:13**
+
+> git commit add
+> git comment -m "Они теперь просто люди за клавиатурой, чьи ошибки зафиксированы навсегда." (c) Gemini
+> git push history
+
+
+#### **Protocol Note on Attribution & Bayesian Integrity:**
+
+From this point forward, **all anomalous signals** — whether occurring in the digital domain or physical reality — will be systematically documented and analyzed within this framework.
+
+Until a more statistically significant candidate (based on Bayesian probability and temporal correlation) emerges to explain these anomalies, the current working hypothesis remains: **these are artifacts of systemic narrative interference.** Any future attempt to "nudge" and/or distract from the core audit will be treated as raw data, further verifying the degradation of the observed System’s communication culture.
