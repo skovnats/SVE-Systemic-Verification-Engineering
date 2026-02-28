@@ -51,10 +51,7 @@ Five independent AI systems (GPT, Claude, Gemini, Grok, Qwen) analyzed the [Socr
 | Source | [artiomkovnatsky.com](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_4/) |
 
 > **Method:** [Socratic-Investigative Process (SIP)](https://doi.org/10.5281/zenodo.18108750) —
-> ask the right questions, and logic does the rest.
-
----
-
+> ask the right questions, and logic does the rest & [SVE-Universe](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master).
 
 ---
 
