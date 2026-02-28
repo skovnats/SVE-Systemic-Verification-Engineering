@@ -32,10 +32,3 @@ https://x.com/ArtiomKovnatsky/status/1969088933691580546?s=20 <br>
 https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20
 https://zenodo.org/records/18108307 <br>
 https://zenodo.org/records/18108751
-
-
-[Voting](https://docs.google.com/forms/d/e/1FAIpQLSfYJJyNxWAaadE1pGkFk6QxfSg_cR37Q5n36_ne__evwZ4U-Q/viewform?usp=header): level of argumentation?
-
-![](Screenshot-2026-02-28-at-18-23-04.png)
-
-Что-то желания отвечать по сути пропала, когда были озвучены все аргументы спокойно и методично в частно чате. Бывает...главное, чтобы прошло. 
