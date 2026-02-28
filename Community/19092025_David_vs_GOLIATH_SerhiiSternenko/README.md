@@ -118,7 +118,7 @@ and the holy still be holy."*
 > *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».* > — **Ефесянам 5:13**
 
 > git commit add <br>
-> git comment -m "Они теперь просто люди за клавиатурой, чьи ошибки зафиксированы навсегда." (c) [Gemini](https://gemini.google.com/app) <br>
+> git comment -m "Они теперь просто Люди за клавиатурой, чьи ошибки (от автора: перед Богом?) зафиксированы навсегда." (c) [Gemini](https://gemini.google.com/app) <br>
 > git push history <br>
 
 
