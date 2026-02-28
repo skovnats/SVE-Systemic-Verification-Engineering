@@ -36,6 +36,6 @@ https://zenodo.org/records/18108751
 
 [Voting](https://docs.google.com/forms/d/e/1FAIpQLSfYJJyNxWAaadE1pGkFk6QxfSg_cR37Q5n36_ne__evwZ4U-Q/viewform?usp=header): Seems like Sternenko & Co only can offend and try to scary people:
 
-![](Screenshot-2026-02-28-at-18.23.04.png)
+![](Screenshot-2026-02-28-at-18-23-04.png)
 
 Что-то желания отвечать по сути пропала, когда были озвучены все аргументы спокойно и методично в частно чате. Бывает...главное, чтобы прошло. 
