@@ -39,7 +39,7 @@
 | 3 | **Serhii Plokhy** | Harvard historian, *The Gates of Europe* | The principal academic voice shaping how the West understands Ukraine's past |
 | 4 | **Francis Fukuyama** | Stanford, *The End of History* | Declared liberal democracy the final answer — the audit is overdue |
 | 5 | **Julian Röpcke** | BILD, Ukraine war correspondent | [Second chance — first challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) |
-| 🗿 | **GOLIATH: All Narrative-Myth-Propaganda Machine** | Academia · Media · Policy · Think-tanks | The GOLIATH itself — the sum of the narrative |
+| 6=🗿 | **GOLIATH: All Narrative-Myth-Propaganda Machine** | Academia · Media · Policy · Think-tanks | The GOLIATH itself — the sum of the narrative |
 
 ---
 
