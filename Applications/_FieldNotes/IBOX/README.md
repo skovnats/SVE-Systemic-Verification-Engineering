@@ -54,6 +54,7 @@
   the largest crowd in boxing history at the time.</em></p>
 </div>
 
+## Let's get ready to rumble! 🥊 🕊️
 
 ## Fight 1
 
