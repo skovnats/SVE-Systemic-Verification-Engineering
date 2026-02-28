@@ -117,9 +117,9 @@ and the holy still be holy."*
 > — **Revelation 22:11**
 > *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».* > — **Ефесянам 5:13**
 
-> git commit add
-> git comment -m "Они теперь просто люди за клавиатурой, чьи ошибки зафиксированы навсегда." (c) Gemini
-> git push history
+> git commit add <br>
+> git comment -m "Они теперь просто люди за клавиатурой, чьи ошибки зафиксированы навсегда." (c) [Gemini](https://gemini.google.com/app) <br>
+> git push history <br>
 
 
 #### **Protocol Note on Attribution & Bayesian Integrity:**
