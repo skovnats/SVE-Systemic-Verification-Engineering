@@ -22,7 +22,7 @@
 
 ![Truth](https://img.shields.io/badge/Truth-Verified-brightgreen?style=for-the-badge)
 ![SVE](https://img.shields.io/badge/SVE-Active-blue?style=for-the-badge)
-![Matrix](https://img.shields.io/badge/Matrix-Under%20Audit-orange?style=for-the-badge)
+![SYSTEM/"Matrix"](https://img.shields.io/badge/Matrix-Under%20Audit-orange?style=for-the-badge)
 ![Logic](https://img.shields.io/badge/Logic-Doesn't%20Flinch-red?style=for-the-badge)
 
 
