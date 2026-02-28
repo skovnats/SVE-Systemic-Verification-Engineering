@@ -1,12 +1,18 @@
 # 🥊 Spiritual-Intellectual Boxing 🥊
-🔵 СИНИЙ УГОЛ: ДАВИД (Артём Ковнацкий, Человек + (возможно) Бог) 
-Оружие: Репутация, логика, математика, факты, Истина, Смирение и Бог.
-Здесь можно почитать про мой Архетипный Конструкт: _АрхетипныйКонструкт.pdf_
 
+🔵 **BLUE CORNER**: **DAVID** ([Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about); The Human + (potentially) God)
 
-🔴 КРАСНЫЙ УГОЛ: ГОЛИАФ (Сергей Стерненко и Ко) 
-Оружие: Все ресурсы материального мира и поддержка Системы Лжи.
+* **Weapons**: "Socrates", logic, mathematics, facts, Truth, Humility, and, hopefully, God.
+* **Context**: My **[Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link)** (The Architect/Blacksmith of Meanings) can be explored here.
 
+🔴 **RED CORNER**: **GOLIATH** (Narrative Mythologists & Co.)
+
+* **Weapons**: All resources of the material world and the backing of the **System of Lies**.
+* **Systemic Note**: This "Goliath" represents **S.V.E.-XII (THE SYSTEM)**, which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "Skin in the Game".
+
+---
+
+**Would you like me to adapt this text specifically for a post on X or as a section for your GitHub repository?**
 
 ## Intellectual Sparrings
 
