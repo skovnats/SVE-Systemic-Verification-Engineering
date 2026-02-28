@@ -15,7 +15,7 @@
 | 3️⃣ **Serhii Plokhy** — Harvard, *Gates of Europe* | ✅ Challenge open |
 | 4️⃣ **Francis Fukuyama** — Stanford, *End of History* | ✅ Challenge open |
 | 5️⃣ **Julian Röpcke** — BILD · [Second chance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | ✅ Challenge on record |
-| 🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks | ✅ Ongoing |
+| 6️⃣🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks | ✅ Ongoing |
 
 **Goliath's framework:** [S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244) · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)
 
