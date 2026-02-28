@@ -10,7 +10,9 @@
 * **Weapons**: All resources of the material world and the backing of the **System of Lies**.
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
 
-![image](ai_analysis/media/dempsey.jpg)
+
+![image](/ai_analysis/media/dempsey.jpg)
+
 
 ---
 
