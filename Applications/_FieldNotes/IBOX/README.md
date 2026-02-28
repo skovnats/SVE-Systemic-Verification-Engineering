@@ -18,7 +18,7 @@
 
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="777">
+  <img src="ai_analysis/media/dempsey-Α.jpg" alt="Dempsey" width="777">
   <p><em>Dempsey (right) landing a right punch to the jaw of Jess Willard</em></p>
 </div>
 
@@ -44,8 +44,27 @@
 ### Sparring 5
 
 
+---
 
-## Intellectual Fights
+# Intellectual Fights
+
+<div align="center">
+  <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="900">
+  <p><em>Dempsey vs. <a href="https://en.wikipedia.org/wiki/Gene_Tunney">Gene Tunney</a> —
+  <a href="https://en.wikipedia.org/wiki/Jack_Dempsey_vs._Gene_Tunney_(1926)">The Heavyweight Championship of the World</a>,
+  Philadelphia, September 23, 1926. Attended by over 120,000 spectators,
+  the largest crowd in boxing history at the time.</em></p>
+</div>
+
+
+## Fight 1
+
+
+
+## Fight 2
+
+
+## Fight 3
 
 
 
@@ -309,3 +328,11 @@ Mirror 3.
 | > [!WARNING]   | Potential issues    |
 | > [!CAUTION]   | Dangerous actions   |
 
+
+---
+
+<div align="center">
+  <img src="ai_analysis/media/dempsey-Ω.jpg" alt="Dempsey vs Firpo" width="900">
+  <p><em>Dempsey (left) knocking <a href="https://en.wikipedia.org/wiki/Luis_Firpo">Luis Firpo</a> down during their Heavyweight Championship bout —
+  <a href="https://en.wikipedia.org/wiki/Jack_Dempsey_vs._Luis_Firpo">The Wild Bull of the Pampas</a>, New York, September 14, 1923.</em></p>
+</div>
