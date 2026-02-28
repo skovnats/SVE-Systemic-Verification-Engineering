@@ -13,6 +13,15 @@
 
 ![Dempsey](ai_analysis/media/dempsey.jpg)
 
+<img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="400">
+
+<div align="center">
+  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="400">
+</div>
+
+
+
+
 
 ---
 
