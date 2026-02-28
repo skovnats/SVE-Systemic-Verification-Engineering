@@ -1,26 +1,30 @@
 # David vs. GOLIATH 2 | 🥊 Spiritual-Intellectual Boxing 🥊
 
 ---
+---
 
-## 🔴🥊⚡🥊🔵 The Fight Card — `1 vs. "∞"`
+## 🔴🥊⚡🥊🔵 The Fight Card — `1 vs. ∞`
 
 | 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
 |:---|:---|
 | **Narrative Mythologists & Co.** | **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** |
 | The System of Lies & its Champions | The Human + (potentially) God |
 | **Weapons:** All resources of the material world | **Weapons:** Socrates · Logic · Mathematics · Facts · Truth · Humility · God |
-| **[S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244)** · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md) | **[Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link)**: The Architect / Blacksmith of Meanings |
-| Thrives on risk asymmetry & "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)" deficit | One independent auditor |
-| **Champions `(5+1)`:** | **Record:** |
-| 1️⃣ **Timothy Snyder** — Yale, *Bloodlands* | ✅ Challenges open |
-| 2️⃣ **Anne Applebaum** — Pulitzer, *Gulag* | ✅ Challenges open |
-| 3️⃣ **Serhii Plokhy** — Harvard, *Gates of Europe* | ✅ Challenges open |
-| 4️⃣ **Francis Fukuyama** — Stanford, *End of History* | ✅ Challenges open |
+| 1️⃣ **Timothy Snyder** — Yale, *Bloodlands* | ✅ Challenge open |
+| 2️⃣ **Anne Applebaum** — Pulitzer, *Gulag* | ✅ Challenge open |
+| 3️⃣ **Serhii Plokhy** — Harvard, *Gates of Europe* | ✅ Challenge open |
+| 4️⃣ **Francis Fukuyama** — Stanford, *End of History* | ✅ Challenge open |
 | 5️⃣ **Julian Röpcke** — BILD · [Second chance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | ✅ Challenge on record |
 | 🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks | ✅ Ongoing |
 
+**Goliath's framework:** [S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244) · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)
+
+**David's framework:** [Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link) — The Architect / Blacksmith of Meanings · One independent auditor · No "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)" deficit
+
 > Every claim is verifiable. Every error gets a 24/7 response after passing a **4+1 AI "BS check"**.
 > Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+
+
 
 ---
 
