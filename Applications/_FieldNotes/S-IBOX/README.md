@@ -1,6 +1,32 @@
 # David vs. GOLIATH 2 | 🥊 Spiritual-Intellectual Boxing 🥊
 
-## 🔴🥊⚡🥊🔵 The Fight Card
+---
+
+## 🔴🥊⚡🥊🔵 The Fight Card — `1 vs. ∞`
+
+| 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
+|:---|:---|
+| **Narrative Mythologists & Co.** | **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** |
+| The System of Lies & its Champions | The Human + (potentially) God |
+| **Weapons:** All resources of the material world | **Weapons:** Socrates · Logic · Mathematics · Facts · Truth · Humility · God |
+| **[S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244)** · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md) | **[Archetypal Construct](https://drive.google.com/file/d/1463GeioUQRcZXdhQMSOGjwWMNwFrCBUT/view?usp=drive_link)**: The Architect / Blacksmith of Meanings |
+| Thrives on risk asymmetry & "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)" deficit | One independent auditor |
+| **Champions `(5+1)`:** | **Record:** |
+| 1️⃣ **Timothy Snyder** — Yale, *Bloodlands* | ✅ Challenges open |
+| 2️⃣ **Anne Applebaum** — Pulitzer, *Gulag* | ✅ Challenges open |
+| 3️⃣ **Serhii Plokhy** — Harvard, *Gates of Europe* | ✅ Challenges open |
+| 4️⃣ **Francis Fukuyama** — Stanford, *End of History* | ✅ Challenges open |
+| 5️⃣ **Julian Röpcke** — BILD · [Second chance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | ✅ Challenge on record |
+| 🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks | ✅ Ongoing |
+
+> Every claim is verifiable. Every error gets a 24/7 response after passing a **4+1 AI "BS check"**.
+> Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+
+---
+
+
+
+
 
 | 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
 |:---|:---|
@@ -26,13 +52,6 @@
 
 * **Weapons**: All resources of the material world and the backing of the **System of Lies**.
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
-
-
-
-> **David vs. Goliath** — One independent auditor against the full weight
-> of Western+ institutional knowledge, narrative, and mythology.
-> Every claim is verifiable. Every error gets a 24/7 response after it passes 4+1 AI "BS check".
-> Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
 
 ---
 
