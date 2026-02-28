@@ -115,6 +115,7 @@ https://zenodo.org/records/18108751
 >* **Phase A (The Semantic Bait):** `kyz9i18` acts as a "nonsense" variable. Its lack of immediate meaning is designed to trigger **pattern‑seeking behavior** in the auditor, wasting analytical resources on decoding a "black cat in a dark room."
 >* **Phase B (The Psychological Hammer):** `tidolboyob` provides the emotional "jolt." By combining direct insults with an institutional threat domain (`@fsb.ru`), it shifts the auditor’s state from curiosity to alarm.
 >* **The Combined Effect:** This creates **Induced Cognitive Dissonance**. The brain is forced to oscillate between "meaningless noise" and "direct threat", leading to analytical exhaustion and paranoia. The goal is to "jam" the SVE protocol by flooding it with high-entropy, contradictory signals.
+> **11. ...**
 
 
 
@@ -136,3 +137,16 @@ and the holy still be holy."*
 From this point forward, **all anomalous signals** — whether occurring in the digital domain or physical reality — will be systematically documented and analyzed within this framework.
 
 Until a more statistically significant candidate (based on Bayesian probability and temporal correlation) emerges to explain these anomalies, the current working hypothesis remains: **these are artifacts of systemic narrative interference.** Any future attempt to "nudge" and/or distract from the core audit will be treated as raw data, further verifying the degradation of the observed System’s communication culture.
+
+
+### 🛡️ **Manual: Detection and Neutralization of Complex Nudges**
+
+| Nudge Type | Mechanism of Impact | Detection (SVE/CGS) | Action (Bayesian Response) |
+| --- | --- | --- | --- |
+| **The False Flag** | Creating a toxic association by using loaded domains (e.g., `@fsb.ru`). | Identifying cognitive dissonance between the identity layer (e.g., FSB) and the action (voting for a specific opponent). | Public deconstruction of the "domain layer" as a pre‑emptive tool for discredit. |
+| **The Semantic Bait** | Injecting nonsense (e.g., `kyz9i18`) to trigger obsessive pattern‑seeking behavior. | Entropy analysis: the signal carries no semantic meaning but attempts to consume analytical resources. | Classification as "Phase A: Semantic Bait." Refusal to decode nonsense; treating it as raw cognitive noise. |
+| **Chronological Mirroring** | Executing actions on "meaningful" dates (e.g., exactly one month later, same hour). | Identifying mathematical anomalies where the probability of random timing coincidence is statistically negligible. | Documentation of the actor's "chronological signature" as proof of persistent surveillance. |
+| **Strategic Shadowing** | Series of unknown calls or votes with no message, designed to induce paranoia. | Detecting repetition without content to create a feeling of being "farmed" during developmental phases. | **Zero‑Response Defense**: Systematic ignoring to cut the feedback loop required for narrative calibration. |
+| **Well‑Poisoning** | Injecting marginal or obscene content to make the audit space appear "toxic" to institutions. | Detecting obscene handles (`tidolboyob`) in data logs alongside structured scientific audits. | Creation of a "micro‑forensic" report to isolate the "poison" and turn it into an exhibit of system failure. |
+| **The Double‑Tap** | Combining Phase A (Semantic Bait) and Phase B (Psychological Hammer) in one window. | Detecting the transition from "nonsense" to "direct emotional threat" within a 4–10 minute interval. | Exposing the coordinated interference strategy to prevent induced cognitive dissonance. |
+| ... | ... | ... | ... |
