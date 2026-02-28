@@ -127,7 +127,16 @@ is **± 0**.
 </div>
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3tcrzsJN2QkdvQw16dLGcCJLVEH5P08UF4c1Sg1mk7PxG-g/viewform?embedded=true" width="640" height="2325" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div align="center">
+
+### 🗳️ Cast Your Vote
+
+[![Vote Now](https://img.shields.io/badge/Vote-Cast%20Your%20Vote-blue?style=for-the-badge&logo=google)](https://docs.google.com/forms/d/e/1FAIpQLSd3tcrzsJN2QkdvQw16dLGcCJLVEH5P08UF4c1Sg1mk7PxG-g/viewform)
+
+*Does the evidence hold? You decide.*
+
+</div>
+
 
 
 ---
