@@ -11,10 +11,19 @@
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
 
 
-<div align="center">
+<!-- <div align="center">
   <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="900">
 </div>
+ -->
 
+
+<div align="center">
+  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="900">
+  <br>
+  <strong>⚔️ The Battle of the Century</strong>
+  <br>
+  <em>Jack Dempsey vs. Georges Carpentier · Jersey City, NJ · July 2, 1921</em>
+</div>
 
 
 ---
