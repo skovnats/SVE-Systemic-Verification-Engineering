@@ -12,29 +12,56 @@
 
 ---
 
+
 ## 🔴 Red Corner — Open Challenges
 
-> These individuals are formally invited to engage under the
-> [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+> **David vs. Goliath** — One independent auditor against the full weight
+> of Western institutional knowledge, narrative, and mythology.
 > Every claim is verifiable. Every error gets a 24/7 response.
-
-| # | Challenger | Title | Why Red Corner |
-|---|---|---|---|
-| 1 | **[Timothy Snyder](https://en.wikipedia.org/wiki/Timothy_Snyder)** | [Yale](https://en.wikipedia.org/wiki/Yale_University) historian, *Bloodlands*, *On Tyranny* | The leading architect of the "democratic memory" narrative of Eastern Europe |
-| 2 | **[Anne Applebaum](https://en.wikipedia.org/wiki/Anne_Applebaum)** | [Pulitzer Prize](https://en.wikipedia.org/wiki/Pulitzer_Prize) journalist, *Gulag*, *Iron Curtain* | The West's foremost moral authority on Russia — by her own narrative |
-| 3 | **[Serhii Plokhy](https://en.wikipedia.org/wiki/Serhii_Plokhy)** | [Harvard historian](https://en.wikipedia.org/wiki/Harvard_University), *The Gates of Europe* | The principal academic voice shaping how the West understands Ukraine's past |
-| 4 | **[Francis Fukuyama](https://en.wikipedia.org/wiki/Francis_Fukuyama)** | [Stanford](https://en.wikipedia.org/wiki/Stanford_University), *The End of History* | Declared liberal democracy the final answer — the audit is overdue |
-| 5 | **[Julian Röpcke](https://www.bild.de/autor/julian-roepcke)** | [BILD](https://en.wikipedia.org/wiki/Bild), Ukraine war correspondent | [Second chance — first challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) |
+> Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
 
 ---
 
-### ⚠️ Special Note — [Serhii Sternenko](https://en.wikipedia.org/wiki/Serhii_Sternenko)
+### 🗿 Goliath — The Collective Narrative
+
+> The accumulated Western consensus on Eastern Europe, Russia, and Ukraine —
+> built across decades by think-tanks, academia, mainstream media, and policy institutions.
+> Not one person. Not one book. **A mythology.**
+
+---
+
+### 🥊 Goliath's Champions — Red Corner Lineup
+
+| # | Challenger | Title | Why Red Corner |
+|---|---|---|---|
+| 1 | **Timothy Snyder** | Yale historian, *Bloodlands*, *On Tyranny* | The leading architect of the "democratic memory" narrative of Eastern Europe |
+| 2 | **Anne Applebaum** | Pulitzer Prize journalist, *Gulag*, *Iron Curtain* | The West's foremost moral authority on Russia — by her own narrative |
+| 3 | **Serhii Plokhy** | Harvard historian, *The Gates of Europe* | The principal academic voice shaping how the West understands Ukraine's past |
+| 4 | **Francis Fukuyama** | Stanford, *The End of History* | Declared liberal democracy the final answer — the audit is overdue |
+| 5 | **Julian Röpcke** | BILD, Ukraine war correspondent | [Second chance — first challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) |
+| 🗿 | **GOLIATH: All Narrative-Myth-Propaganda Machine** | Academia · Media · Policy · Think-tanks | The GOLIATH itself — the sum of the narrative |
+
+---
+
+### ⚠️ Special Note — Serhii Sternenko
 
 Challenge issued publicly, in his own chat, in front of his own supporters.
-Response: silence. Until the protocol is followed, his weight in this audit
-is **± "0"**.
+Response: silence. Until the protocol is followed, his weight in this audit 
+is **± 0**.
 
 📁 [Challenge record & screenshot](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko)
+
+---
+
+<div align="center">
+
+![Goliath](https://img.shields.io/badge/Goliath-Western%20Narrative-darkred?style=for-the-badge)
+![Red Corner](https://img.shields.io/badge/Red%20Corner-Open%20Challenge-red?style=for-the-badge)
+![Protocol](https://img.shields.io/badge/SVE%20Protocol-Active-blue?style=for-the-badge)
+![Response](https://img.shields.io/badge/Errors%20Found-24%2F7%20Response-brightgreen?style=for-the-badge)
+
+</div>
+
 
 ---
 
