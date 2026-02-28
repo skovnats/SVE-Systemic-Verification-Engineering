@@ -1,8 +1,4 @@
-# David vs. GOLIATH 2
-## 🥊 Spiritual-Intellectual Boxing 🥊
-
-
----
+# David vs. GOLIATH 2 | 🥊 Spiritual-Intellectual Boxing 🥊
 
 ## 🔴🥊⚡🥊🔵 The Fight Card
 
