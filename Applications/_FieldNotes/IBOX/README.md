@@ -18,9 +18,8 @@
 
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="900">
-  <p><em>Dempsey (right) landing a right punch to the jaw of 
-  <a href="https://en.wikipedia.org/wiki/Jess_Willard">Jess Willard</a></em></p>
+  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="777">
+  <p><em>Dempsey (right) landing a right punch to the jaw of Jess Willard</em></p>
 </div>
 
 
