@@ -46,7 +46,7 @@ https://zenodo.org/records/18108751
 > 🗳️ **Public voting log (as of 28 Feb 2026)**  
 > Exported from the [Google Form](https://forms.gle/Noh7W3c8GgbqFC7Z7)  
 > *“🥊 Spiritual‑Intellectual Fight / Ring of Truth 🥊”* ·  
-> [CSV export](🥊 Духовно-интеллектуальный бой/ «Ринг Истины» 🥊.csv)
+> [CSV export]("🥊 Духовно-интеллектуальный бой/ «Ринг Истины» 🥊.csv")
 >
 > - Total votes: **3**  
 > - **1** self‑vote from the author (“God, judge us”)  
