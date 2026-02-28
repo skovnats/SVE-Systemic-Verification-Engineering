@@ -37,9 +37,9 @@
 - *"Mazepa is a hero"* — condemned as a traitor by his own contemporaries
 - *"Brotherhood = imperial propaganda"* — it was created by Kyivans themselves
 
-### ⚖️ Verdict — Panel of 5 AI Judges
+### ⚖️ Verdict — Panel of 4+1 AI Judges
 
-Five independent AI systems (GPT, Claude, Gemini, Grok, Qwen) analyzed the Socratic dialogue and reached converging conclusions.
+Five independent AI systems (GPT, Claude, Gemini, Grok, Qwen) analyzed the [Socratic dialogue](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_4/) and reached converging conclusions.
 
 > *When 5 AIs independently arrive at the same verdict — it is worth reflecting on.* 🤔
 
