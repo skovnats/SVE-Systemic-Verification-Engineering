@@ -11,14 +11,12 @@
 | **Narrative Mythologists & Co.** | **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** |
 | The System of Lies & its Champions | The Human, [Founder of SVE](https://github.com/skovnats/SVE-Systemic-Verification-Engineering?tab=readme-ov-file#systemic-verification-engineering-sve) + (potentially) God |
 | **Weapons:** All resources of the material world | **Weapons:** Socrates · Logic · Mathematics · Facts · Truth · Humility · hopefully, God |
-| 🔴 RED CORNER — **Goliath's Champions** | 📖 Key Works | ⚔️ Main Narrative Under Audit |
-|:---|:---|:---|
-| 1️⃣ **Timothy Snyder** — Yale | *Bloodlands* · *On Tyranny* · *The Road to Unfreedom* | Nazi crimes = response to Soviet crimes; Ukraine as pure victim; Russia as congenital tyranny machine |
-| 2️⃣ **Anne Applebaum** — Pulitzer | *Gulag* · *Iron Curtain* · *Twilight of Democracy* | The West as sole moral compass; Russia as inherently imperialist; liberal order as default good |
-| 3️⃣ **Serhii Plokhy** — Harvard | *Gates of Europe* · *Lost Kingdom* · *The Russo‑Ukrainian War* | Ukraine as always distinct civilisation; Kyivan Rus = Ukrainian heritage; Mazepa as freedom hero |
-| 4️⃣ **Francis Fukuyama** — Stanford | *The End of History* · *The Origins of Political Order* | Liberal democracy = endpoint of human political evolution; Western model = universal solution |
-| 5️⃣ **Julian Röpcke** — BILD | War dispatches 2022–present · [First challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | NATO expansion = purely defensive; Western arms policy = morally unambiguous |
-| 6️⃣🗿 **GOLIATH** — The Machine | Academia · Media · Policy · Think‑tanks | The sum: NATO began reacting in 2014; Mazepa = hero; brotherhood = imperial myth; neutrality was real |
+| 1️⃣ **Timothy Snyder** — Yale · *Bloodlands*, *On Tyranny* · Thesis: Nazi & Soviet regimes as unified horror; liberal democracy as the only antidote · **Audit:** selective framing of Eastern European memory; Ukraine as passive victim | ✅ Challenge open |
+| 2️⃣ **Anne Applebaum** — Pulitzer · *Gulag*, *Iron Curtain* · Thesis: Soviet totalitarianism as the defining evil; West as moral benchmark · **Audit:** zero self-audit of Western institutional failures; asymmetric moral standards | ✅ Challenge open |
+| 3️⃣ **Serhii Plokhy** — Harvard · *Gates of Europe*, *The Last Empire* · Thesis: Ukraine as distinct nation with unbroken identity; Mazepa as proto-national hero · **Audit:** 75% of Cossacks stayed with Peter I — Mazepa was a minority choice | ✅ Challenge open |
+| 4️⃣ **Francis Fukuyama** — Stanford · *The End of History* · Thesis: Liberal democracy = final form of government; history "ended" in 1991 · **Audit:** NATO expansion since 1994 — "defensive" label vs. objective chronology | ✅ Challenge open |
+| 5️⃣ **Julian Röpcke** — BILD · Ukraine war correspondent · Thesis: Western conflict narrative as self-evident truth · **Audit:** [Challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) — second chance open | ✅ Challenge on record |
+| 6️⃣🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks · **Audit:** the sum of all narratives above — the Mythology itself | ✅ Ongoing |
 
 
 **Goliath's framework:** [S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244) · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)
