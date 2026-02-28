@@ -26,9 +26,16 @@
 # 🫐 Intellectual Sparrings 🫐
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey-Α.jpg" alt="Dempsey" width="777">
-  <p><em>Dempsey (right) landing a right punch to the jaw of Jess Willard</em></p>
+  <img src="ai_analysis/media/dempsey-A.jpg" alt="Dempsey vs Willard" width="777">
+  <p><sub><em>
+    Dempsey (right) landing a right punch to the jaw of
+    <a href="https://en.wikipedia.org/wiki/Jess_Willard">Jess Willard</a>, 1919.
+    <br>
+    "The Manassa Mauler" meets "The Nikolaev's Auditor" — Logic doesn't flinch.
+  </em></sub></p>
 </div>
+
+
 
 ### Sparring 1
 
