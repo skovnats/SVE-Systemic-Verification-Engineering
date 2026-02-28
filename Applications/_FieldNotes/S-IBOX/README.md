@@ -4,7 +4,7 @@
 
 ---
 
-## 🔴🥊 vs 🥊🔵 The Fight Card
+## 🔴🥊⚡🥊🔵 The Fight Card
 
 | 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
 |:---|:---|
