@@ -47,7 +47,7 @@
 # Intellectual Fights
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="900">
+  <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="777">
   <p><em>Dempsey vs. <a href="https://en.wikipedia.org/wiki/Gene_Tunney">Gene Tunney</a> —
   <a href="https://en.wikipedia.org/wiki/Jack_Dempsey_vs._Gene_Tunney_(1926)">The Heavyweight Championship of the World</a>,
   Philadelphia, September 23, 1926. Attended by over 120,000 spectators,
