@@ -17,16 +17,14 @@
  -->
 
 
+---
+
+# Intellectual Sparrings
+
 <div align="center">
   <img src="ai_analysis/media/dempsey-Α.jpg" alt="Dempsey" width="777">
   <p><em>Dempsey (right) landing a right punch to the jaw of Jess Willard</em></p>
 </div>
-
-
-
----
-
-## Intellectual Sparrings
 
 ### Sparring 1
 
