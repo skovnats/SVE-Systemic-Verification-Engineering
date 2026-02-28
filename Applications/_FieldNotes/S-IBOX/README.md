@@ -12,9 +12,49 @@
 * **Systemic Note**: This "Goliath" represents **[S.V.E.-XII (THE SYSTEM)](https://doi.org/10.5281/zenodo.18109244)** ([AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)), which thrives on risk asymmetry and the "dehumanization debt" created by decision-makers who lack "[Skin in the Game](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)".
 
 > **David vs. Goliath** — One independent auditor against the full weight
-> of Western institutional knowledge, narrative, and mythology.
+> of Western+ institutional knowledge, narrative, and mythology.
 > Every claim is verifiable. Every error gets a 24/7 response after it passes 4+1 AI "BS check".
 > Engagement protocol: [SVE Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering).
+
+---
+
+## ⚔️ What We Are Fighting For (TRUTH)
+
+> **The subject of every challenge is historical and political truth** —
+> specifically where the dominant Western narrative diverges from verifiable chronology and logic.
+
+### ✅ Proven
+
+- NATO integration began in **1994**, not after 2014 — "seeking protection" is a myth
+- "Training centers" = legal camouflage for military integration
+- **75% of Cossacks stayed with Peter I** — Mazepa represented a minority
+- Kyivan intellectuals were architects of the Empire, not its victims
+
+### ❌ Refuted
+
+- *"Ukraine sought protection"* — timeline does not hold
+- *"NATO is purely defensive"* — objective threat at the border
+- *"Mazepa is a hero"* — condemned as a traitor by his own contemporaries
+- *"Brotherhood = imperial propaganda"* — it was created by Kyivans themselves
+
+### ⚖️ Verdict — Panel of 5 AI Judges
+
+Five independent AI systems (GPT, Claude, Gemini, Grok, Qwen) analyzed the Socratic dialogue and reached converging conclusions.
+
+> *When 5 AIs independently arrive at the same verdict — it is worth reflecting on.* 🤔
+
+| Resource | Link |
+|---|---|
+| Preprint (Zenodo) | [doi.org/10.5281/zenodo.18108750](https://doi.org/10.5281/zenodo.18108750) |
+| AI Reviews | [SVE-0-2.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-0-2.md) |
+| Full SIP Dialogue | [dialogue\_4\_SIP\_iteration\_33\_RU.txt](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/SIPs-MetaSIPs/data) |
+| Source | [artiomkovnatsky.com](https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/ai_dialogue_4/) |
+
+> **Method:** [Socratic-Investigative Process (SIP)](https://doi.org/10.5281/zenodo.18108750) —
+> ask the right questions, and logic does the rest.
+
+---
+
 
 ---
 
