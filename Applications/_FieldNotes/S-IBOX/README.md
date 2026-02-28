@@ -11,12 +11,15 @@
 | **Narrative Mythologists & Co.** | **[Dr. Artiom Kovnatsky](https://www.artiomkovnatsky.com/ru/#about)** |
 | The System of Lies & its Champions | The Human, [Founder of SVE](https://github.com/skovnats/SVE-Systemic-Verification-Engineering?tab=readme-ov-file#systemic-verification-engineering-sve) + (potentially) God |
 | **Weapons:** All resources of the material world | **Weapons:** Socrates · Logic · Mathematics · Facts · Truth · Humility · hopefully, God |
-| 1️⃣ **Timothy Snyder** — Yale, *Bloodlands* | ✅ Challenge open |
-| 2️⃣ **Anne Applebaum** — Pulitzer, *Gulag* | ✅ Challenge open |
-| 3️⃣ **Serhii Plokhy** — Harvard, *Gates of Europe* | ✅ Challenge open |
-| 4️⃣ **Francis Fukuyama** — Stanford, *End of History* | ✅ Challenge open |
-| 5️⃣ **Julian Röpcke** — BILD · [Second chance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | ✅ Challenge on record |
-| 6️⃣🗿 **GOLIATH** — Academia · Media · Policy · Think-tanks | ✅ Ongoing |
+| 🔴 RED CORNER — **Goliath's Champions** | 📖 Key Works | ⚔️ Main Narrative Under Audit |
+|:---|:---|:---|
+| 1️⃣ **Timothy Snyder** — Yale | *Bloodlands* · *On Tyranny* · *The Road to Unfreedom* | Nazi crimes = response to Soviet crimes; Ukraine as pure victim; Russia as congenital tyranny machine |
+| 2️⃣ **Anne Applebaum** — Pulitzer | *Gulag* · *Iron Curtain* · *Twilight of Democracy* | The West as sole moral compass; Russia as inherently imperialist; liberal order as default good |
+| 3️⃣ **Serhii Plokhy** — Harvard | *Gates of Europe* · *Lost Kingdom* · *The Russo‑Ukrainian War* | Ukraine as always distinct civilisation; Kyivan Rus = Ukrainian heritage; Mazepa as freedom hero |
+| 4️⃣ **Francis Fukuyama** — Stanford | *The End of History* · *The Origins of Political Order* | Liberal democracy = endpoint of human political evolution; Western model = universal solution |
+| 5️⃣ **Julian Röpcke** — BILD | War dispatches 2022–present · [First challenge on record](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke) | NATO expansion = purely defensive; Western arms policy = morally unambiguous |
+| 6️⃣🗿 **GOLIATH** — The Machine | Academia · Media · Policy · Think‑tanks | The sum: NATO began reacting in 2014; Mazepa = hero; brotherhood = imperial myth; neutrality was real |
+
 
 **Goliath's framework:** [S.V.E.-XII — THE SYSTEM](https://doi.org/10.5281/zenodo.18109244) · [AI-Reviews](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/mds/SVE-12.md)
 
