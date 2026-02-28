@@ -18,12 +18,11 @@
 
 
 <div align="center">
-  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="777">
-  <br>
-  <strong>⚔️ The Battle of the Century</strong>
-  <br>
-  <em>Jack Dempsey vs. Georges Carpentier · Jersey City, NJ · July 2, 1921</em>
+  <img src="ai_analysis/media/dempsey.jpg" alt="Dempsey" width="900">
+  <p><em>Dempsey (right) landing a right punch to the jaw of 
+  <a href="https://en.wikipedia.org/wiki/Jess_Willard">Jess Willard</a></em></p>
 </div>
+
 
 
 ---
@@ -31,6 +30,19 @@
 ## Intellectual Sparrings
 
 ### Sparring 1
+
+
+### Sparring 2
+
+
+### Sparring 3
+
+
+### Sparring 4
+
+
+
+### Sparring 5
 
 
 
