@@ -3,7 +3,7 @@
 ---
 ---
 
-## 🔴🥊⚡🥊🔵 The Fight Card — `1 vs. ∞`
+## 🔴🥊⚡🥊🔵 The Fight Card — `1+ vs. "∞"`
 
 | 🔴 RED CORNER — **Goliath** | 🔵 BLUE CORNER — **David** |
 |:---|:---|
