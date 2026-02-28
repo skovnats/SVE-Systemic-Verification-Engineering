@@ -127,18 +127,6 @@ is **± 0**.
 </div>
 
 
-<div align="center">
-
-### 🗳️ Cast Your Vote
-
-[![Vote Now](https://img.shields.io/badge/Vote-Cast%20Your%20Vote-blue?style=for-the-badge&logo=google)](https://docs.google.com/forms/d/e/1FAIpQLSd3tcrzsJN2QkdvQw16dLGcCJLVEH5P08UF4c1Sg1mk7PxG-g/viewform)
-
-*Does the evidence hold? You decide.*
-
-</div>
-
-
-
 ---
 
 # 🫐 Intellectual Sparrings 🫐
@@ -359,4 +347,15 @@ Mirror 3.
   <img src="ai_analysis/media/dempsey-Ω.jpg" alt="Dempsey vs Firpo" width="900">
   <p><em>Dempsey (left) knocking <a href="https://en.wikipedia.org/wiki/Luis_Firpo">Luis Firpo</a> down during their Heavyweight Championship bout —
   <a href="https://en.wikipedia.org/wiki/Jack_Dempsey_vs._Luis_Firpo">The Wild Bull of the Pampas</a>, New York, September 14, 1923.</em></p>
+</div>
+
+
+<div align="center">
+
+### 🗳️ Cast Your Vote
+
+[![Vote Now](https://img.shields.io/badge/Vote-Cast%20Your%20Vote-blue?style=for-the-badge&logo=google)](https://docs.google.com/forms/d/e/1FAIpQLSd3tcrzsJN2QkdvQw16dLGcCJLVEH5P08UF4c1Sg1mk7PxG-g/viewform)
+
+*Does the evidence hold? You decide.*
+
 </div>
