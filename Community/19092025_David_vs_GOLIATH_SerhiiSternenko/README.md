@@ -5,12 +5,12 @@
 **Target:** Serhii Sternenko (public narrative speaker) [wiki](https://en.wikipedia.org/wiki/Serhii_Sternenko) [X.com](https://x.com/sternenko) [YouTube](https://www.youtube.com/channel/UC5HBd4l_kpba5b0O1pK-Bfg) <br> 
 **Method:** S.V.E. + SIP / Meta-SIP (Systemic Verification Engineering)
 
-This folder documents the [public 44-day verification challenge issued to Serhii Sternenko](post_challange.pdf).
+This folder documents the [public 44-day verification challenge issued to Serhii Sternenko](data/post_challange.pdf).
 The challenge required refuting the S.V.E.–SIP analytical pipeline using the *same* scientific method.
 
-### **Outcome:** [No reply. Deadline passed.](post_conclusion.pdf) Serhii Sternenko is welcome to accept the challenge anytime. 
-![](Screenshot-2025-11-02-at-19-22-05.png)
-![](symbolic_probabilities_nato_urkaine_russia.png)
+### **Outcome:** [No reply. Deadline passed.](data/post_conclusion.pdf) Serhii Sternenko is welcome to accept the challenge anytime. 
+![](data/Screenshot-2025-11-02-at-19-22-05.png)
+![](data/symbolic_probabilities_nato_urkaine_russia.png)
 
 ### **Included**
 
@@ -24,7 +24,7 @@ The challenge required refuting the S.V.E.–SIP analytical pipeline using the *
 
 This folder shows the full transparency of the challenge and the absence of engagement from the narrative actor.
 
-![](protectionplus.png)
+![](data/protectionplus.png)
 
 
 ### Links:
@@ -59,7 +59,7 @@ https://zenodo.org/records/18108751
 > (fake persona, possible “false‑flag” signaling, or low‑effort psy‑op to undermine the sense of safety and credibility).  
 > Even here, on a tiny sample, the **System prefers narrative games over open protocol‑based debate.** 
 
-![voting](voting.png)
+![voting](data/voting.png)
 
 
 > [!NOTE]
