@@ -7,6 +7,11 @@ import isodate
 from typing import List, Dict, Optional
 from datetime import date, timedelta
 
+'''
+python youtube_violations_ua.py -n
+python youtube_violations_ua.py n
+'''
+
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
