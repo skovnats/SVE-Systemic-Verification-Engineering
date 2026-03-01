@@ -382,12 +382,12 @@ Based on my current estimates, the real scale of violations is likely significan
 
 #### Notes:
 - *Weeks 9–10 published together due to illness; events documented chronologically.*
-- 28.02.2026: Case Study #1: (perhaps) System Response to the Protocol (02.11.2025).
+- 28.02.2026: [Case Study #1: (perhaps) System Response to the Protocol (02.11.2025)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis).
 
 ---
 
 ## Change Log
-- 2026-03-01 - Report [week_+-14](week_+-14) & Added Case Study #1: (perhaps) System Response to the Protocol.
+- 2026-03-01 - Report [week_+-14](week_+-14) & Added [Case Study #1: (perhaps) System Response to the Protocol.](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis)
 - 2026-02-22 - Report [week_+-13](week_+-13)
 - 2026-02-15 - Report [week_+-12](week_+-12)
 - 2026-02-08 - Report [week_+-11](week_+-11)
