@@ -50,9 +50,12 @@ The analysis confirms **structured anomalous behavior**. The probability of obse
 > [!IMPORTANT]
 > *"Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy."*
 > — **Revelation 22:11**
+>
 > *«Все же обнаруживаемое делается явным от света, ибо все, делающееся явным, свет есть».*
 > — **Ефесянам 5:13**
+>
 > *«Нет ничего тайного, что не сделалось бы явным».*
 > — **Луки 8:17**
+>
 > *«Не будь побежден злом, но побеждай зло добром».*
 > — **Римлянам 12:21**
