@@ -157,12 +157,6 @@ Until a more statistically significant candidate (based on Bayesian probability 
 | **The Heisenberg Diagnostic** | Changing behavior once the actor realizes they are being audited. | Sudden cessation of signals or radical shift in tactics immediately following a public report. | **Axiom of Confirmation**: Treat the silence or shift as the final mathematical proof of the System's artificial interference. |
 | ... | ... | ... | ... |
 
----
----
----
-
-## 🔍 Analysis #1: Systemic Signal Audit (Forensic Timeline)
-
 
 > [!IMPORTANT]
 > *"Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy."*
@@ -182,3 +176,8 @@ Until a more statistically significant candidate (based on Bayesian probability 
 >  «Что я написал, то написал» (Иоанна 19:22).
 
 > **Note:** A follow-up anomaly audit (perhaps) will be conducted in **6–9 months** to capture the **"Observer Effect"** and secure long-term forensic verification of systemic interference.
+
+
+---
+---
+---
