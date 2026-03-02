@@ -241,5 +241,5 @@ Articles/*
 
 #
 # Applications/_FieldNotes/IBOX/ai_analysis*
-**/analysis/*
+# **/analysis/*
 **/Движ-анализ-хронология/*
