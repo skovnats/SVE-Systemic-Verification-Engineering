@@ -142,7 +142,7 @@ is **± 0**.
 
 ---
 
-# 🫐 Intellectual Sparrings 🫐
+# Part 0. 🫐 Intellectual Sparrings 🫐
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-Α.jpg" alt="Dempsey vs Willard" width="777">
@@ -156,7 +156,7 @@ is **± 0**.
 
 
 
-### Sparring 1
+### [Sparring 1](ai_analysis/sandbox/sparring-1)
 
 
 ### Sparring 2
@@ -173,8 +173,10 @@ is **± 0**.
 
 
 ---
+---
+---
 
-# 🥊👊 Spiritual-Intellectual Fights 👊🥊
+# Part I. 🥊👊 Spiritual-Intellectual Fights 👊🥊
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="777">
@@ -183,6 +185,10 @@ is **± 0**.
   Philadelphia, September 23, 1926. Attended by over 120,000 spectators,
   the largest crowd in boxing history at the time.</em></p>
 </div>
+
+## I. Fixed Axioms
+
+
 
 ## Let's get ready to rumble! 🥊 🕊️
 
@@ -194,6 +200,12 @@ is **± 0**.
 
 
 ## Fight 3
+
+
+---
+
+
+## II. Negotiable Axioms
 
 
 
@@ -241,12 +253,32 @@ Qwen -> Meta-AI
 3.1 html
 3.2 md
 
-III. Bias/censorship in AIs
+
+# Part III. Bias/censorship in AIs -- Cauchy-Gödel-Socrates Method
+
+## I. Gemini
+Does the job.
+
+
+## II. Claude Admits!!!
 1. Claude - admits 
+
+### III. ChatGPT: "-"Die Hard
+
+#### 1. Refusal: Long Socratic Dialogue -- little outcome
 2. ChatGPT refuses -> SIP conversation 
 2.0. What I manage to get out of ChatGPT.
+
+#### 2. Refusal: Reframing The Request to **ChatGPT's frame** -- ChatGPT controls frame & ontology
 3. Adjusting prompts to avoid "security" block -> result
+
+#### 3. Refusal: Reframing The Request to **ChatGPT's frame** (+ Context data) -- ChatGPT controls frame & ontology
 3.1. Same prompt + context information (SIPs) -> refusal
+
+#### 4. Refusal: Long Socratic Dialogue -- Resuming Dialogue with help of Gemini
+
+
+#### 5. Refusal: Long Socratic Dialogue -- CGS Method in Action
 4. CGS protocol
 Point 0: "2.0. What I manage to get out of ChatGPT."
 Adding: 
