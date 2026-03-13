@@ -58,6 +58,19 @@ rclone copy "$BASE_DIR" "$MEGA_DEST" \
   --low-level-retries 10 \
   --progress
 
+# ===================== Codeberg ==========================
+: "${CODEBERG_API:?need CODEBERG_TOKEN}"
+
+echo "===> Sync to Codeberg: https://codeberg.org/$CODEBERG_USER/$CODEBERG_REPO"
+
+git remote remove codeberg 2>/dev/null || true
+# Using the token in the URL for authentication
+git remote add codeberg "https://$CODEBERG_USER:$CODEBERG_API@codeberg.org/$CODEBERG_USER/$CODEBERG_REPO.git"
+
+# Push branches and tags
+git push codeberg 'refs/heads/*:refs/heads/*' --prune
+git push codeberg --tags
+
 # ===================== Google Drive =======================
 # # В rclone.conf должен быть remote [gdrive]
 # : "${RCLONE_CONFIG_FILE:?need RCLONE_CONFIG_FILE}"
