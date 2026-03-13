@@ -1,4 +1,5 @@
-# Systemic Verification Engineering (S.V.E.)
+# Systemic Verification Engineering (S.V.E.) 
+[Gitlab](https://gitlab.com/opa-collective/sve) [CodeBerg](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
 
