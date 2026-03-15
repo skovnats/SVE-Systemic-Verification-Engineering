@@ -23,6 +23,8 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 
 ![](Data/fig.png)
 
+«Проект S.V.E. является (возможно) практической имплементацией отказа от Аксиомы Независимости в пользу резолютного, траекторного аудита (см. [Kendiukhov, 2026](https://www.lesswrong.com/posts/MsjWPWjAerDtiQ3Do/on-the-independence-axiom)). Мы не просто ищем ошибки, мы выявляем дефекты самой "геометрии" (ИИ-)мышления».
+
 ---
 
 ## Core Principles
