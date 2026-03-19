@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" width="680" height="560">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', sans-serif; }
+    .th { font-size: 14px; font-weight: 500; fill: #2C2C2A; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+  </style>
+
+  <!-- Main branch line -->
+  <line x1="100" y1="40" x2="100" y2="460" stroke="#534AB7" stroke-width="3" opacity="0.7"/>
+
+  <!-- Genesis block -->
+  <circle cx="100" cy="60" r="10" fill="#534AB7" stroke="#3C3489" stroke-width="1"/>
+  <text class="th" x="130" y="56" fill="#3C3489">genesis block</text>
+  <text class="ts" x="130" y="72">Подпись: Эго (конечная) или Бог (бесконечная)</text>
+
+  <!-- Commit 1 -->
+  <circle cx="100" cy="130" r="7" fill="#534AB7" opacity="0.8"/>
+  <text class="ts" x="130" y="130" dominant-baseline="central">commit: осознанный акт воли</text>
+
+  <!-- Branch: profession -->
+  <line x1="100" y1="130" x2="280" y2="110" stroke="#1D9E75" stroke-width="2" opacity="0.6"/>
+  <line x1="280" y1="110" x2="360" y2="130" stroke="#1D9E75" stroke-width="2" opacity="0.6"/>
+  <line x1="360" y1="130" x2="360" y2="170" stroke="#1D9E75" stroke-width="2" opacity="0.6"/>
+  <circle cx="280" cy="110" r="5" fill="#1D9E75" opacity="0.7"/>
+  <circle cx="360" cy="130" r="5" fill="#1D9E75" opacity="0.7"/>
+  <circle cx="360" cy="170" r="5" fill="#1D9E75" opacity="0.7"/>
+
+  <rect x="380" y="100" width="180" height="44" rx="8" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text class="th" x="470" y="118" text-anchor="middle" fill="#085041">branch/профессия</text>
+  <text class="ts" x="470" y="134" text-anchor="middle" fill="#0F6E56">суб-личность</text>
+
+  <!-- Commit 2 -->
+  <circle cx="100" cy="200" r="7" fill="#534AB7" opacity="0.8"/>
+
+  <!-- Branch: family -->
+  <line x1="100" y1="200" x2="240" y2="210" stroke="#378ADD" stroke-width="2" opacity="0.6"/>
+  <line x1="240" y1="210" x2="300" y2="230" stroke="#378ADD" stroke-width="2" opacity="0.6"/>
+  <circle cx="240" cy="210" r="5" fill="#378ADD" opacity="0.7"/>
+  <circle cx="300" cy="230" r="5" fill="#378ADD" opacity="0.7"/>
+
+  <rect x="320" y="208" width="160" height="44" rx="8" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="400" y="226" text-anchor="middle" fill="#0C447C">branch/семья</text>
+  <text class="ts" x="400" y="242" text-anchor="middle" fill="#185FA5">суб-личность</text>
+
+  <!-- Commit 3 -->
+  <circle cx="100" cy="270" r="7" fill="#534AB7" opacity="0.8"/>
+
+  <!-- Branch: trauma (frozen / exile) -->
+  <line x1="100" y1="270" x2="200" y2="290" stroke="#E24B4A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="200" cy="290" r="5" fill="#E24B4A" opacity="0.5"/>
+  <line x1="200" y1="290" x2="240" y2="310" stroke="#E24B4A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.3"/>
+  <circle cx="240" cy="310" r="4" fill="#E24B4A" opacity="0.3"/>
+
+  <rect x="260" y="284" width="220" height="44" rx="8" fill="#FCEBEB" stroke="#F09595" stroke-width="0.5"/>
+  <text class="th" x="370" y="302" text-anchor="middle" fill="#791F1F">branch/травма (frozen)</text>
+  <text class="ts" x="370" y="318" text-anchor="middle" fill="#A32D2D">IFS Exile · нужен git reflog</text>
+
+  <!-- Merge commit -->
+  <circle cx="100" cy="370" r="7" fill="#534AB7" opacity="0.8"/>
+  <text class="ts" x="130" y="370" dominant-baseline="central">merge: интеграция суб-личностей</text>
+
+  <!-- Merge back from profession -->
+  <path d="M360 170 C360 250, 120 320, 102 368" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Force push (Cross) -->
+  <circle cx="100" cy="440" r="12" fill="#BA7517" stroke="#854F0B" stroke-width="1.5"/>
+  <line x1="100" y1="432" x2="100" y2="448" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="440" x2="108" y2="440" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="130" y="418" width="280" height="44" rx="8" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.5"/>
+  <text class="th" x="270" y="434" text-anchor="middle" fill="#633806">force push: «Пойти на Крест»</text>
+  <text class="ts" x="270" y="452" text-anchor="middle" fill="#854F0B">Необратимый коммит в реальность</text>
+
+  <!-- Legend box -->
+  <rect x="470" y="350" width="190" height="150" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text class="th" x="565" y="374" text-anchor="middle" fill="#2C2C2A">Словарь SVE ↔ Git</text>
+  <text class="ts" x="485" y="396">commit = акт воли</text>
+  <text class="ts" x="485" y="414">branch = суб-личность</text>
+  <text class="ts" x="485" y="432">merge = интеграция</text>
+  <text class="ts" x="485" y="450">blame = ответственность</text>
+  <text class="ts" x="485" y="468">tech debt = стоимость лжи</text>
+  <text class="ts" x="485" y="486">reflog = разморозка травм</text>
+
+  <!-- main label -->
+  <rect x="50" y="490" width="100" height="28" rx="14" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text class="ts" x="100" y="508" text-anchor="middle" fill="#534AB7">main</text>
+</svg>

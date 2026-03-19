@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Outer matryoshka layer -->
+  <ellipse cx="60" cy="62" rx="52" ry="54" fill="none" stroke="#534AB7" stroke-width="2.5" opacity="0.3"/>
+  <!-- Middle layer -->
+  <ellipse cx="60" cy="62" rx="38" ry="40" fill="none" stroke="#534AB7" stroke-width="2" opacity="0.5"/>
+  <!-- Inner layer -->
+  <ellipse cx="60" cy="62" rx="24" ry="26" fill="none" stroke="#534AB7" stroke-width="1.8" opacity="0.7"/>
+  <!-- Core (cross/sincerity point) -->
+  <circle cx="60" cy="62" r="8" fill="#534AB7" opacity="0.9"/>
+  <!-- Cross inside core -->
+  <line x1="60" y1="56" x2="60" y2="68" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="54" y1="62" x2="66" y2="62" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Self-reference arrow (spiral hint) -->
+  <path d="M60 8 C90 8, 112 30, 112 62 C112 80, 102 96, 86 104" fill="none" stroke="#1D9E75" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <path d="M86 104 L82 97 L90 99" fill="none" stroke="#1D9E75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+</svg>

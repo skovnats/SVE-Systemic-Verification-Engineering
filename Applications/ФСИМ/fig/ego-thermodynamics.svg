@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', sans-serif; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+    .label { font-size: 11px; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT SIDE: Closed system -->
+  <text class="th" x="170" y="30" text-anchor="middle" fill="#791F1F">Закрытая система (конечная)</text>
+  <text class="ts" x="170" y="46" text-anchor="middle">Опции 2 и 1а</text>
+
+  <!-- Container -->
+  <rect x="40" y="60" width="260" height="240" rx="16" fill="none" stroke="#E24B4A" stroke-width="1.2"/>
+
+  <!-- Inner entropy -->
+  <rect x="60" y="80" width="100" height="80" rx="8" fill="#FCEBEB" stroke="#F09595" stroke-width="0.5"/>
+  <text class="th" x="110" y="108" text-anchor="middle" fill="#791F1F">Эго</text>
+  <text class="ts" x="110" y="126" text-anchor="middle" fill="#A32D2D">энтропия ↑</text>
+  <text class="ts" x="110" y="142" text-anchor="middle" fill="#A32D2D">ресурсы ↓</text>
+
+  <!-- Vampire arrows (feeding) -->
+  <line x1="162" y1="110" x2="195" y2="95" stroke="#E24B4A" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="162" y1="130" x2="195" y2="145" stroke="#E24B4A" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Victims -->
+  <circle cx="210" cy="90" r="10" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.5"/>
+  <circle cx="220" cy="120" r="8" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.5"/>
+  <circle cx="210" cy="150" r="10" fill="#FAEEDA" stroke="#FAC775" stroke-width="0.5"/>
+  <text class="ts" x="248" y="120" fill="#854F0B">«ресурсы»</text>
+  <text class="ts" x="248" y="136" fill="#854F0B">(другие люди)</text>
+
+  <!-- Entropy arrow down -->
+  <path d="M110 162 L110 210 L170 210" fill="none" stroke="#A32D2D" stroke-width="1" marker-end="url(#arr)"/>
+  <text class="ts" x="145" y="200" fill="#A32D2D">tech debt лжи</text>
+
+  <!-- Death spiral -->
+  <rect x="170" y="195" width="110" height="40" rx="6" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.8"/>
+  <text class="ts" x="225" y="212" text-anchor="middle" fill="#791F1F">энтропийная</text>
+  <text class="ts" x="225" y="226" text-anchor="middle" fill="#791F1F">смерть</text>
+
+  <!-- Time arrow -->
+  <line x1="70" y1="270" x2="270" y2="270" stroke="#B4B2A9" stroke-width="0.8" marker-end="url(#arr)"/>
+  <text class="ts" x="170" y="288" text-anchor="middle">время →</text>
+
+  <!-- Entropy curve (going up) -->
+  <path d="M80 260 Q120 258, 150 250 Q180 240, 210 210 Q230 190, 260 170" fill="none" stroke="#E24B4A" stroke-width="1.5"/>
+  <text class="label" x="240" y="165" fill="#A32D2D">S(ложь) ↑↑</text>
+
+  <!-- DIVIDER -->
+  <line x1="340" y1="20" x2="340" y2="380" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="6 4" opacity="0.4"/>
+
+  <!-- RIGHT SIDE: Open system -->
+  <text class="th" x="510" y="30" text-anchor="middle" fill="#085041">Открытая система (∞)</text>
+  <text class="ts" x="510" y="46" text-anchor="middle">Опция 1б: Бог</text>
+
+  <!-- Container (open top) -->
+  <path d="M380 300 L380 80 Q380 60, 400 60 L620 60 Q640 60, 640 80 L640 300" fill="none" stroke="#1D9E75" stroke-width="1.2"/>
+  <!-- Open top indicator -->
+  <line x1="390" y1="60" x2="400" y2="40" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)" opacity="0.5"/>
+  <line x1="630" y1="60" x2="620" y2="40" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)" opacity="0.5"/>
+  <text class="ts" x="510" y="50" text-anchor="middle" fill="#0F6E56">открыта вверх (к Источнику)</text>
+
+  <!-- Inner: Ego connected to God -->
+  <rect x="440" y="90" width="140" height="70" rx="8" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text class="th" x="510" y="114" text-anchor="middle" fill="#085041">Эго</text>
+  <text class="ts" x="510" y="132" text-anchor="middle" fill="#0F6E56">энтропия → 0</text>
+  <text class="ts" x="510" y="148" text-anchor="middle" fill="#0F6E56">ПИ активна</text>
+
+  <!-- Flow from source -->
+  <line x1="510" y1="40" x2="510" y2="88" stroke="#1D9E75" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+  <text class="label" x="550" y="74" fill="#0F6E56">энергия Источника</text>
+
+  <!-- Outflow (giving, not taking) -->
+  <line x1="460" y1="162" x2="420" y2="195" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="560" y1="162" x2="600" y2="195" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+
+  <!-- Others receiving -->
+  <circle cx="410" cy="210" r="10" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <circle cx="610" cy="210" r="10" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text class="ts" x="510" y="215" text-anchor="middle" fill="#0F6E56">отдаёт (не берёт)</text>
+
+  <!-- Time arrow -->
+  <line x1="400" y1="270" x2="620" y2="270" stroke="#B4B2A9" stroke-width="0.8" marker-end="url(#arr)"/>
+  <text class="ts" x="510" y="288" text-anchor="middle">время →</text>
+
+  <!-- Entropy curve (going down) -->
+  <path d="M410 250 Q450 248, 480 252 Q510 254, 540 252 Q570 250, 600 248" fill="none" stroke="#1D9E75" stroke-width="1.5"/>
+  <text class="label" x="580" y="243" fill="#0F6E56">S(ложь) → 0</text>
+
+  <!-- Bottom: Key insight -->
+  <rect x="80" y="330" width="520" height="50" rx="10" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text class="th" x="340" y="350" text-anchor="middle" fill="#3C3489">Второй закон термодинамики для онтологий:</text>
+  <text class="ts" x="340" y="368" text-anchor="middle" fill="#534AB7">Закрытая система обязана стать паразитом · Открытая система способна отдавать</text>
+</svg>
