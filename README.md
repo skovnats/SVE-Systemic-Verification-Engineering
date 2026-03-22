@@ -221,9 +221,9 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 ## ⚖️ Licensing
 
 * **Public Use:** [SVE Public License v1.3](License/SVE_Public_License.md)
-* **Commercial Use:** [Standard Commercial License v1.3](License/Standard_Commercial_License_Agreement.md)
-* **Custodianship:** [Declaration of Interim Custody v1.3](License/Declaration_of_Interim_Custody.md)
-* **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/Appendix_B_Commercial_Tiers.md)
+* **Commercial Use:** [Standard Commercial License v1.3](License/assets/Standard_Commercial_License_Agreement.md)
+* **Custodianship:** [Declaration of Interim Custody v1.3](License/assets/Declaration_of_Interim_Custody.md)
+* **Ethical Model:** [Appendix B – Commercial Tiers v1.3](License/assets/Appendix_B_Commercial_Tiers.md)
 
 --- 
 
