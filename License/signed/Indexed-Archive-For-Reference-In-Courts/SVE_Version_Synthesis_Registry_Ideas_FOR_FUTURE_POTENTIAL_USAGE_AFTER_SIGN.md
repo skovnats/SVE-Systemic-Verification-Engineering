@@ -1,3 +1,5 @@
+# [FOR REFERENCE ONLY]
+
 # S.V.E. VERSION SYNTHESIS REGISTRY
 ## Official Record of Multi-Version Element Selection
 
@@ -343,3 +345,5 @@ This registry represents the official interpretation of S.V.E. version conflicts
 **End of Version Synthesis Registry v1.0**
 
 ***
+
+# [FOR REFERENCE ONLY]
