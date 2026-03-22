@@ -220,7 +220,7 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ## ⚖️ Licensing
 
-* **Public Use:** [SVE Public (Meta-)License](License/SVE_Public_License.md)
+* **Public Use:** [SVE Public Meta-License](License/SVE_Public_License.md)
 * **Commercial Use:** [Standard Commercial License](License/assets/Standard_Commercial_License_Agreement.md)
 * **Custodianship:** [Declaration of Interim Custody](License/assets/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers](License/assets/Appendix_B_Commercial_Tiers.md)
