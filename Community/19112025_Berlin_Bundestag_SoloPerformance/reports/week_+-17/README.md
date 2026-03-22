@@ -48,15 +48,112 @@ using a **stable and unaltered institutional baseline**.
 ## Report
 
 ### [**Cases registered:**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md#ak1984-list)
-1. AK1984-Human-19, `id=18` (``)
+1. AK1984-Human-426, `id=425` (`artem__dmytruk__2025-07-21T081633.000Z.mp4`)
+2. AK1984-Human-427, `id=426` (`artem__dmytruk__2025-07-21T142442.000Z.mp4`)
+3. AK1984-Human-428, `id=427` (`artem__dmytruk__2025-07-23T092440.000Z.mp4`)
+4. AK1984-Human-429, `id=428` (`artem__dmytruk__2025-07-23T134550.000Z.mp4`)
+5. AK1984-Human-430, `id=429` (`artem__dmytruk__2025-07-24T075606.000Z.mp4`)
+6. AK1984-Human-431, `id=430` (`artem__dmytruk__2025-07-24T085251.000Z.mp4`)
+7. AK1984-Human-432, `id=431` (`artem__dmytruk__2025-07-25T161536.000Z.mp4`)
+8. AK1984-Human-433, `id=432` (`artem__dmytruk__2025-07-26T074707.000Z.mp4`)
+9. AK1984-Human-434, `id=433` (`artem__dmytruk__2025-07-26T150606.000Z.mp4`)
+10. AK1984-Human-435, `id=434` (`artem__dmytruk__2025-07-27T081259.000Z.mp4`)
+11. AK1984-Human-436, `id=435` (`artem__dmytruk__2026-03-16T124429.000Z.mp4`)
+12. AK1984-Human-437, `id=436` (`artem__dmytruk__2026-03-16T125616.000Z.mp4`)
+13. AK1984-Human-438, `id=437` (`artem__dmytruk__2026-03-16T160221.000Z.mp4`)
+14. AK1984-Human-439, `id=438` (`artem__dmytruk__2026-03-16T161038.000Z.mp4`)
+15. AK1984-Human-440, `id=439` (`artem__dmytruk__2026-03-16T170900.000Z.mp4`)
+16. AK1984-Human-441, `id=440` (`artem__dmytruk__2026-03-17T113750.000Z.mp4`)
+17. AK1984-Human-442, `id=441` (`artem__dmytruk__2026-03-17T131529.000Z.mp4`)
+18. AK1984-Human-443, `id=442` (`artem__dmytruk__2026-03-17T193824.000Z.mp4`)
+19. AK1984-Human-444, `id=443` (`artem__dmytruk__2026-03-17T231110.000Z.mp4`)
+20. AK1984-Human-445, `id=444` (`artem__dmytruk__2026-03-18T131339.000Z.mp4`)
+21. AK1984-Human-446, `id=445` (`artem__dmytruk__2026-03-18T144749.000Z.mp4`)
+22. AK1984-Human-447, `id=446` (`artem__dmytruk__2026-03-18T193541.000Z.mp4`)
+23. AK1984-Human-448, `id=447` (`artem__dmytruk__2026-03-18T212900.000Z.mp4`)
+24. AK1984-Human-449, `id=448` (`artem__dmytruk__2026-03-18T213325.000Z.mp4`)
+25. AK1984-Human-450, `id=449` (`artem__dmytruk__2026-03-20T094940.000Z.mp4`)
+26. AK1984-Human-451, `id=450` (`artem__dmytruk__2026-03-20T100020.000Z.mp4`)
+27. AK1984-Human-452, `id=451` (`artem__dmytruk__2026-03-20T111914.000Z.mp4`)
+28. AK1984-Human-453, `id=452` (`artem__dmytruk__2026-03-21T092719.000Z.mp4`)
+29. AK1984-Human-454, `id=453` (`artem__dmytruk__2026-03-21T104154.000Z.mp4`)
 
 
 
 ### [Video](video):
-1. ``
+1. `artem__dmytruk__2025-07-21T081633.000Z.mp4`
+2. `artem__dmytruk__2025-07-21T142442.000Z.mp4`
+3. `artem__dmytruk__2025-07-21T184227.000Z.mp4`
+4. `artem__dmytruk__2025-07-23T092440.000Z.mp4`
+5. `artem__dmytruk__2025-07-23T134550.000Z.mp4`
+6. `artem__dmytruk__2025-07-23T181300.000Z.mp4`
+7. `artem__dmytruk__2025-07-24T075606.000Z.mp4`
+8. `artem__dmytruk__2025-07-24T085251.000Z.mp4`
+9. `artem__dmytruk__2025-07-24T205422.000Z.mp4`
+10. `artem__dmytruk__2025-07-24T205535.000Z.mp4`
+11. `artem__dmytruk__2025-07-25T161536.000Z.mp4`
+12. `artem__dmytruk__2025-07-25T181647.000Z.mp4`
+13. `artem__dmytruk__2025-07-26T074707.000Z.mp4`
+14. `artem__dmytruk__2025-07-26T150606.000Z.mp4`
+15. `artem__dmytruk__2025-07-27T081259.000Z.mp4`
+16. `artem__dmytruk__2025-07-27T123956.000Z.mp4`
+17. `artem__dmytruk__2026-03-16T124429.000Z.mp4`
+18. `artem__dmytruk__2026-03-16T125616.000Z.mp4`
+19. `artem__dmytruk__2026-03-16T160221.000Z.mp4`
+20. `artem__dmytruk__2026-03-16T161038.000Z.mp4`
+21. `artem__dmytruk__2026-03-16T170900.000Z.mp4`
+22. `artem__dmytruk__2026-03-17T094810.000Z.mp4`
+23. `artem__dmytruk__2026-03-17T113750.000Z.mp4`
+24. `artem__dmytruk__2026-03-17T131529.000Z.mp4`
+25. `artem__dmytruk__2026-03-17T193824.000Z.mp4`
+26. `artem__dmytruk__2026-03-17T231110.000Z.mp4`
+27. `artem__dmytruk__2026-03-18T131339.000Z.mp4`
+28. `artem__dmytruk__2026-03-18T144749.000Z.mp4`
+29. `artem__dmytruk__2026-03-18T193541.000Z.mp4`
+30. `artem__dmytruk__2026-03-18T212900.000Z.mp4`
+31. `artem__dmytruk__2026-03-18T213325.000Z.mp4`
+32. `artem__dmytruk__2026-03-20T094940.000Z.mp4`
+33. `artem__dmytruk__2026-03-20T100020.000Z.mp4`
+34. `artem__dmytruk__2026-03-20T111914.000Z.mp4`
+35. `artem__dmytruk__2026-03-21T092719.000Z.mp4`
+36. `artem__dmytruk__2026-03-21T104154.000Z.mp4`
 
-### [Transcripts (AI+Semi-Manual)](srt):
-1. ``
+### [Transcripts (AI+Semi-Manual)](https://www.google.com/search?q=srt):
+
+1.  `artem__dmytruk__2025-07-21T081633.000Z_Russian-subtitles.srt`
+2.  `artem__dmytruk__2025-07-21T142442.000Z_Russian-subtitles.srt`
+3.  `artem__dmytruk__2025-07-21T184227.000Z_Russian-subtitles.srt`
+4.  `artem__dmytruk__2025-07-23T092440.000Z_Russian-subtitles.srt`
+5.  `artem__dmytruk__2025-07-23T134550.000Z_Russian-subtitles.srt`
+6.  `artem__dmytruk__2025-07-23T181300.000Z_Russian-subtitles.srt`
+7.  `artem__dmytruk__2025-07-24T075606.000Z_Russian-subtitles.srt`
+8.  `artem__dmytruk__2025-07-24T085251.000Z_Russian-subtitles.srt`
+9.  `artem__dmytruk__2025-07-24T205422.000Z_Russian-subtitles.srt`
+10. `artem__dmytruk__2025-07-24T205535.000Z_Russian-subtitles.srt`
+11. `artem__dmytruk__2025-07-25T181647.000Z_Russian-subtitles.srt`
+12. `artem__dmytruk__2025-07-26T074707.000Z_Russian-subtitles.srt`
+13. `artem__dmytruk__2025-07-26T150606.000Z_Russian-subtitles.srt`
+14. `artem__dmytruk__2025-07-27T081259.000Z_Russian-subtitles.srt`
+15. `artem__dmytruk__2025-07-27T123956.000Z_Russian-subtitles.srt`
+16. `artem__dmytruk__2026-03-16T124429.000Z_Russian-subtitles.srt`
+17. `artem__dmytruk__2026-03-16T125616.000Z_Russian-subtitles.srt`
+18. `artem__dmytruk__2026-03-16T160221.000Z_Russian-subtitles.srt`
+19. `artem__dmytruk__2026-03-16T161038.000Z_Russian-subtitles.srt`
+20. `artem__dmytruk__2026-03-16T170900.000Z_Russian-subtitles.srt`
+21. `artem__dmytruk__2026-03-17T094810.000Z_Russian-subtitles.srt`
+22. `artem__dmytruk__2026-03-17T113750.000Z_Russian-subtitles.srt`
+23. `artem__dmytruk__2026-03-17T131529.000Z_Russian-subtitles.srt`
+24. `artem__dmytruk__2026-03-17T193824.000Z_Russian-subtitles.srt`
+25. `artem__dmytruk__2026-03-17T231110.000Z_Russian-subtitles.srt`
+26. `artem__dmytruk__2026-03-18T131339.000Z_Russian-subtitles.srt`
+27. `artem__dmytruk__2026-03-18T144749.000Z_Russian-subtitles.srt`
+28. `artem__dmytruk__2026-03-18T193541.000Z_Russian-subtitles.srt`
+29. `artem__dmytruk__2026-03-18T212900.000Z_Russian-subtitles.srt`
+30. `artem__dmytruk__2026-03-18T213325.000Z_Russian-subtitles.srt`
+31. `artem__dmytruk__2026-03-20T094940.000Z_Russian-subtitles.srt`
+32. `artem__dmytruk__2026-03-20T111914.000Z_Russian-subtitles.srt`
+33. `artem__dmytruk__2026-03-21T092719.000Z_Russian-subtitles.srt`
+34. `artem__dmytruk__2026-03-21T104154.000Z_Russian-subtitles.srt`
 
 ### [Metadata](metadata):
 1. [2025KW30.csv](metadata/2025KW30.csv)
