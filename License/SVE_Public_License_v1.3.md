@@ -114,7 +114,7 @@ Truth · Transparency · Universal Benefit · Methodological Integrity
 ---
 
 ### References
-- **Appendix A:** [Logical Inevitability of Disclosure](Appendix_A_Logical_Inevitability.md)  
-- **Appendix B:** [Commercial Tiers v1.3](Appendix_B_Commercial_Tiers.md)  
-- **Appendix C:** [Interim Enforcement Protocol](Appendix_C_Interim_Enforcement_Protocol.md)  
-- **Appendix D:** [Antifragility Stress Tests](Appendix_D_Antifragility_Stress_Tests.md)
+- **Appendix A:** [Logical Inevitability of Disclosure](assets/Appendix_A_Logical_Inevitability.md)  
+- **Appendix B:** [Commercial Tiers](assets/Appendix_B_Commercial_Tiers.md)  
+- **Appendix C:** [Interim Enforcement Protocol](assets/Appendix_C_Interim_Enforcement_Protocol.md)  
+- **Appendix D:** [Antifragility Stress Tests](assets/Appendix_D_Antifragility_Stress_Tests.md)
