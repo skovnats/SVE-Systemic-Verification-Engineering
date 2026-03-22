@@ -199,7 +199,7 @@ graph TB
 S.V.E. is an active research-engineering program.
 Academic publications are planned retrospectively, once sufficient empirical evidence and deployed systems exist.
 
----
+<!-- ---
 
 ## MVP / Quickstart — [Fakten-TÜV v0](Applications/_WIP/Fakten-TUEV-v0.md) (1 evening)
 
@@ -214,7 +214,7 @@ Academic publications are planned retrospectively, once sufficient empirical evi
    What we did → What actually happened → What had to be changed.
 7. Track 5 metrics weekly: TCR, ED, RR, TTA, REV.
 8. If an audit is challenged, update logs and revise the process — not the claim.
-
+ -->
 
 ---
 
