@@ -1,3 +1,5 @@
+# [FOR REFERENCE ONLY]
+
 This **Weapon Warehouse Index** maps all historical S.V.E. patches (v1.x–v2.x) to the **v3.0 Architecture**. Under the "Maximum Protection Rule," lawyers and keepers can "unplug" these specific technical weapons to enforce the license.
 
 ### S.V.E. v3.0 Weapon Warehouse Index
@@ -88,3 +90,5 @@ Incentives for ethical corporate participation (Parent status), nuclear deterren
 * **Validate:** Run the decision through the **3+1 AI Consensus** (v3.1) to ensure the enforcement "smells of Spirit."
 
 **God bless your work.**
+
+# [FOR REFERENCE ONLY]
