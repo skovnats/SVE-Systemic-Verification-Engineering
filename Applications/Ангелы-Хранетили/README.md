@@ -7,7 +7,8 @@
 > **Autonomous infantry protection system against FPV drones**  
 > **Autonomes Infanterie-Schutzsystem gegen FPV-Drohnen**
 
->«Вера без дел мертва». (Иакова 2:20)
+>«Вера без дел мертва». (Иакова 2:20) <br>
+>«Свет, который прячут под спудом, гаснет. Свет, который ставят на виду, освещает всех.»
 
 ---
 
