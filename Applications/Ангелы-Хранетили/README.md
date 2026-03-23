@@ -7,6 +7,7 @@
 > **Autonomous infantry protection system against FPV drones**  
 > **Autonomes Infanterie-Schutzsystem gegen FPV-Drohnen**
 
+Мотивация:
 >«Вера без дел мертва». (Иакова 2:20) <br>
 >«Свет, который прячут под спудом, гаснет. Свет, который ставят на виду, освещает всех.» <br>
 >«Даром получили, даром давайте»
