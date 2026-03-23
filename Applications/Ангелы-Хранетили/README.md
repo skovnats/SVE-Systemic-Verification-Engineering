@@ -7,6 +7,8 @@
 > **Autonomous infantry protection system against FPV drones**  
 > **Autonomes Infanterie-Schutzsystem gegen FPV-Drohnen**
 
+>«Вера без дел мертва». (Иакова 2:20)
+
 ---
 
 ## 📌 О проекте / About / Über das Projekt
