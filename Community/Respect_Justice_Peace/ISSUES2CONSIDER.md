@@ -6,6 +6,8 @@ If Germany takes [**"Respect · Justice · Peace"**](https://github.com/skovnats
 
 **Note:** This concerns measurement only, not intervention. Change, if any, must be gradual to avoid repeating Soviet-era mistakes.
 
+### Please read: [Skin In The Game analysis](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)
+
 ---
 
 ## Baseline Questions:

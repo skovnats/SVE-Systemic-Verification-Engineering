@@ -22,7 +22,7 @@ git remote add gitlab git@gitlab.com:opa-collective/sve.git
 git push gitlab 'refs/heads/*:refs/heads/*' --prune
 
 # пушим все теги
-git push gitlab --tags
+git push gitlab --tags -f
 
 # ===================== MEGA S4 (S3) =======================
 # Нужны:
@@ -69,7 +69,7 @@ git remote add codeberg "https://$CODEBERG_USER:$CODEBERG_API@codeberg.org/$CODE
 
 # Push branches and tags
 git push codeberg 'refs/heads/*:refs/heads/*' --prune
-git push codeberg --tags
+git push codeberg --tags -f
 
 # ===================== Google Drive =======================
 # # В rclone.conf должен быть remote [gdrive]
