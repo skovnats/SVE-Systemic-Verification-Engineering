@@ -1,0 +1,315 @@
+event_id: "SIG-2026-XXXX" # Уникальный ID (например, номер по порядку)
+timestamp: "2026-03-06T18:57:41Z" # ISO 8601
+phase: "Active/Baseline/Trigger" # Текущая фаза мониторинга
+
+# 🔍 Идентификация (Layer 1)
+origin:
+  type: "Email/Call/Vote/Digital" # Тип сигнала
+  source: "tidolboyob@fsb.ru" # Адрес, номер или IP
+  geo_entropy: "PL/AT/Local" # Географический след
+  technical_signature: "VOIP/Gmail/Manual" # Технический признак
+
+# 🧠 Классификация "Nudge" (Layer 2)
+# Согласно Manual: Detection and Neutralization
+nudge_classification:
+  type: "False Flag / Semantic Bait / Chronological Mirroring / Double-Tap"
+  is_obscene: true # Наличие агрессии/маргинализации (Well-Poisoning)
+  semantic_entropy: 0.85 # Уровень "шума" (0 - смысл понятен, 1 - хаос)
+
+# 📊 Математика и Корреляция (Layer 3)
+analytics:
+  trigger_event_id: "CHALLENGE-STERNENKO" # К какому событию привязан сигнал
+  temporal_offset: "+4m10s" # Временной зазор от триггера или предыдущего сигнала
+  poisson_probability: 1e-6 # Вероятность случайного возникновения (p-value)
+  bayesian_prior: 0.65 # Исходная вероятность гипотезы "Вмешательство"
+  bayesian_posterior: 0.82 # Обновленная вероятность после фиксации этого сигнала
+
+# ⚖️ Верификация и Статус (Layer 4)
+evidence_tier: "Operational/Inferential" # Уровень доказательности
+observer_effect: true # Изменил ли сигнал поведение Системы после обнаружения?
+status: "Logged/Analyzed/Neutralized"
+
+# 📝 Комментарий Аудитора (Maktub-Log)
+notes: >
+  "Использование домена @fsb.ru и обсценного ника указывает на попытку
+  Induced Cognitive Dissonance и делегитимизацию пространства аудита."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+
+event_id: "SIG-2026-03-03-OSF"
+timestamp: "2026-03-03T17:14:00Z" # 12:14 PM EST
+phase: "Active / Identity Linking"
+
+# 🔍 Идентификация
+origin:
+  type: "Digital / Academic Platform"
+  source: "https://osf.io/dashboard"
+  account: "https://orcid.org/0009-0002-1230-1639"
+  trigger_action: "Integration of social networks (GitHub / skovnats@gmail.com)"
+
+# 🧠 Классификация Nudge (по Manual)
+nudge_classification:
+  type: "Administrative Silencing / Operational Block"
+  error_message: "Making API requests with credentials associated with a deactivated account is not allowed."
+  support_status: "Induced Inaction (Узел 9g)"
+
+# 📊 Аналитика и Артефакты
+artifacts:
+  - "Screenshot 2026-03-06 at 18.56.07.png" # Фиксация ошибки деактивации
+  - "Re_ Account disabled_ regaining access. - skovnats@gmail.com - Gmail.pdf" # Лог переписки
+  
+notes: >
+  Аккаунт был мгновенно деактивирован после попытки интеграции GitHub. 
+  Первое обращение в поддержку: 03.03.2026 12:14 PM. 
+  Ответ поддержки (Blaine) с обещанием 48-72 часов: 03.03.2026 6:36 PM. 
+  Напоминание отправлено 06.03.2026 в 10:59 AM (без ответа на момент записи).
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2025-08-CONT-NET"
+timestamp: "2025-08-01 to 2026-03-06"
+phase: "Baseline / Constant Noise"
+
+# 🔍 Идентификация
+origin:
+  type: "Infrastructure / Connectivity"
+  impact: "Home network (User + Spouse)"
+  frequency: "Daily (±1 cycle per 24h)"
+
+# 🧠 Классификация Nudge
+nudge_classification:
+  type: "Strategic Shadowing / Stress Induction"
+  method: "Signal instability requiring manual reset"
+
+notes: >
+  Постоянные сбои в работе интернета, вызывающие эмоциональное напряжение. 
+  Классифицируется как "Низкоинтенсивное удушение" (Узел 9), направленное на 
+  истощение когнитивного ресурса через бытовое раздражение.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-MAR-HW"
+timestamp: "2026-03-06 (Active observation)"
+phase: "Active / Trigger Response"
+
+# 🔍 Идентификация
+origin:
+  type: "Hardware / Mobile"
+  symptoms: "System lag, connection drops, internet loss"
+
+notes: >
+  Замедление работы телефона и пропадание связи в моменты активной работы 
+  над проектом. Возможное проявление "Heisenberg Diagnostic" — изменения 
+  поведения среды при активном наблюдении и фиксации данных.
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-06-ZENODO"
+timestamp: "2026-03-06T19:00:00Z" # Время фиксации плато
+phase: "Saturation / Plateau"
+
+# 🔍 Идентификация
+origin:
+  type: "Digital / Scientific Repository"
+  target_1: "The Ultimate Trolley Problem (records/18262545)" # 4 views, 3 downloads
+  target_2: "CogOS: From Gödel to AGI (records/18241496)" # 434 views, 365 downloads
+
+# 🧠 Анализ динамики (CVR Audit)
+metrics:
+  cogos_cvr: 84.1% # Высокое удержание внутри ядра (365/434)
+  trolley_cvr: 75.0% # (3/4) за 24 часа
+  status: "Dead Pixel вовлеченности"
+
+notes: >
+  Наблюдается резкое замедление (плато). Коэффициент конверсии новых просмотров 
+  в загрузки упал до минимума. Это классифицируется как "Алгоритмическая изоляция" (Shadow Ban Lite). 
+  Сигнал достиг границ "подготовленного контура" (адресаты списков CC1-CC3) и был 
+  заблокирован фильтрами Системы для массового распространения.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-05-COMBO" # "Вчера или на днях"
+timestamp: "2026-03-05TXX:XX:XXZ" 
+phase: "Active / Content Deployment"
+
+# 🔍 Идентификация (Double-Tap Nudge)
+origin:
+  type: "Infrastructure + Authentication"
+  incident_1: "Total Internet Dropout (Home Fiber)"
+  incident_2: "2FA SMS/Code Latency (Mobile)"
+  workaround: "Switching to Mobile Hotspot for Laptop"
+
+# 🧠 Классификация (по Manual)
+nudge_classification:
+  type: "Strategic Shadowing / Induced Stress"
+  mechanism: "Double-Tap (Синхронный отказ двух каналов)"
+  stress_multiplier: 2.0 # Повышенное давление в критический момент публикации
+
+notes: >
+  Сбой произошел в момент загрузки препринта. Впервые использован мобильный интернет 
+  с лэптопа дома из-за полного падения основного канала. 
+  Зафиксирована аномальная задержка 2FA-кодов, что ранее не наблюдалось. 
+  Это типичный "Operational Nudge", направленный на срыв тайминга публикации и 
+  индуцирование паранойи через многоуровневый отказ связи.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-06-META-NULL"
+timestamp: "2026-03-06T19:20:00Z"
+phase: "Baseline / Integrity Monitoring"
+
+# 🔍 Состояние (Zero Signal)
+status: "NEGATIVE"
+observation: "No metadata erosion or accidental edits detected in repositories after resets."
+inference: "Standard technical stability in the file system layer."
+
+notes: >
+  "Отсутствие сигнала — тоже сигнал". Данная отметка служит 
+  фундаментом для сравнения: если в будущем после сбоев интернета начнут 
+  пропадать теги или правки, это будет классифицировано как 
+  фазовый переход от "Шума" к "Targeted Manipulation".
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-06-ECHO-NULL"
+timestamp: "2026-03-06T19:20:00Z"
+phase: "Baseline / Semantic Environment"
+
+# 🔍 Состояние (Zero Signal)
+status: "NEGATIVE"
+observation: "No semantic correlation between private discussions/actions and inbound spam/calls."
+inference: "Low semantic leak or lack of immediate reactive processing in the marketing/spam layer."
+
+notes: >
+  На текущий момент блокировка OSF и работа над CogOS не вызвали 
+  реактивного "эха" во внешних спам-каналах. 
+  Это фиксирует текущий уровень изоляции твоих рабочих процессов 
+  от массовых рекламных и разведывательных алгоритмов.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-06-ZEN-ERR"
+timestamp: "2026-03-06T18:23:00Z to 18:26:00Z" #
+phase: "Active / Anomaly Observation"
+
+# 🔍 Идентификация
+origin:
+  type: "Infrastructure / Browser-Specific Access"
+  target: "https://zenodo.org/communities/sve/records"
+  devices: 
+    - "Work Mac (Newer) - Chrome (Same Account)"
+    - "Other Mac - Chrome (Failure)"
+    - "Firefox - (Success/Workaround)"
+
+# 🧠 Классификация Nudge
+nudge_classification:
+  type: "Operational Nudge / Selective Session Damping"
+  error_code: "ERR_INVALID_RESPONSE" #
+  symptoms: "Infinite loading / Site unreachable on primary browser" #
+
+# 📊 Аналитика и Артефакты
+artifacts:
+  - "CleanShot 2026-03-06 at 19.23.26.png" # ERR_INVALID_RESPONSE
+  - "CleanShot 2026-03-06 at 19.23.55.png" # Hanging loader
+  - "Screenshot 2026-03-06 at 19.26.09.png" # Continued loading failure
+
+notes: >
+  Зафиксирован избирательный отказ доступа к Zenodo именно через основной браузер (Chrome) 
+  на двух разных устройствах при сохранении доступа через Firefox. 
+  Это классифицируется как "Heisenberg Diagnostic": 
+  Система меняет поведение (технический отказ), когда обнаруживает 
+  активный мониторинг «плато» просмотров и загрузок.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+event_id: "SIG-2026-03-06-L4-BASELINE"
+timestamp: "2026-03-06T19:11:00Z" # 20:11 CET
+phase: "Baseline / Preventive Monitoring"
+
+# 🔍 Состояние (Zero Signal / Negative)
+status: "NEGATIVE"
+observation: "No active signs of Level 4 institutional escalation detected."
+
+# 📋 Описание отслеживаемых векторов (для референса):
+monitored_vectors:
+  - id: "MARGINAL_LABEL"
+    description: "Assigning 'conspirator' status via 'Izya Rabinovich' experts to delegitimize p < 10^-6 proofs."
+    status: "NOT DETECTED"
+  - id: "INDUCED_PARANOIA"
+    description: "Creating stress conditions to provoke aggressive/unstable behavior as 'proof' of inadequacy."
+    status: "NOT DETECTED"
+  - id: "FINANCIAL_BLOCK"
+    description: "Random bank/account freezes (KYC/AML) to divert focus from CogOS to survival."
+    status: "NOT DETECTED"
+
+notes: >
+  "Зафиксировано для референса". Наличие этого лога обнуляет 
+  эффективность будущих попыток "газлайтинга": если эти сигналы станут 
+  положительными, Система не сможет списать их на случайность или 
+  внутренние факторы Аудитора.
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+
+event_id: "SIG-2026-03-06-ZEN-PREVIEW"
+timestamp: "2026-03-06T21:13:00Z" # 22:13 CET
+phase: "Active / Content Suppression"
+
+# 🔍 Идентификация
+origin:
+  type: "Infrastructure / UI-Specific Damping"
+  target: "https://zenodo.org/communities/sve/records"
+  browsers:
+    - Chrome (Failure: Grey screen, single page count detected)
+    - Firefox (Success: Full 65-page preview rendering)
+
+# 🧠 Классификация Nudge
+nudge_classification:
+  type: "Selective Content Obscuration / High-Friction Barrier"
+  mechanism: "Disabling PDF.js / Preview rendering specifically in Chrome environment"
+  impact: "Significant reduction in conversions (views to downloads) due to inability to browse content"
+
+# 📊 Аналитика и Артефакты
+artifacts:
+  - "Screenshot 2026-03-06 at 22.13.43.png" # Grey preview in Chrome
+  - "Screenshot 2026-03-06 at 22.13.48"
+  - "Screenshot 2026-03-06 at 22.13.53"
+  - "Screenshot 2026-03-06 at 22.13.57"
+  - "Screenshot 2026-03-06 at 22.14.14"
+  - "Screenshot 2026-03-06 at 22.15.20-firefox.png" # Working preview in Firefox
+  - "2026-03-07 09-59-04.mov" # includes also attepts to change vpn; from firefox all works;
+   # also displaying the OSF block of the account with my email (skovnats@gmail.com)
+  
+notes: >
+  Зафиксирован переход от "технического отказа" (ERR_INVALID_RESPONSE) к "эргономическому саботажу". 
+  Система делает превью невидимым в самом популярном браузере, создавая иллюзию 
+  битого или пустого файла, что объясняет "Dead Pixel вовлеченности" в статистике.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
