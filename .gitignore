@@ -208,19 +208,19 @@ Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*.mp4
 
 
 # %------------- Opa
-Applications/Projects/full_description_processed.md
-Applications/Projects/full_description.md
+Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*
+Community/OpenLetters/*Ukraine_ we need your su.pdf
+
+# Applications/Projects/full_description_processed.md
+# Applications/Projects/full_description.md
 
 
 # 444 day+1 mintue
-Community/Respect_Justice_Peace/*
-Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ARTISTIC_RAW.txt
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ENCYCLOPEDIA.md
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/WLAMPSTAND.md
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/*.png
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTISTIC/*
-Community/OpenLetters/*Ukraine_ we need your su.pdf
+# Community/Respect_Justice_Peace/*
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ARTISTIC_RAW.txt
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ENCYCLOPEDIA.md
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/WLAMPSTAND.md
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTISTIC/*
 
 
 # Community/19112025_Berlin_Bundestag_SoloPerformance/LETTER_444DAYPLUS1MIN.md
@@ -235,17 +235,15 @@ Articles/NeurIPS-Workshops/*
 Articles/AIES/*
 Articles/FAccT/*
 Articles/*
+**/arXiv/*
+**/S-IBOX/*
+**/NeurIPS/*
 
 #
 # Applications/_FieldNotes/IBOX/ai_analysis*
 # **/Planetary_HR_Management_London_Plus_Bayesian_Tutorial/*
-**/Signals_Potentially_Anomaly/*
+# **/Signals_Potentially_Anomaly/*
 Community/Движ-анализ-хронология_Tutorial/
-
-
-**/arXiv/*
-**/S-IBOX/*
-**/NeurIPS/*
 
 #
 06032025-README.md.ots
