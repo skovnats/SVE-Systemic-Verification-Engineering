@@ -20,6 +20,8 @@ The core question:
 The purpose is to **document**, not to condemn.  
 Judgement belongs to history.
 
+# [ISSUES2CONSIDER.md](ISSUES2CONSIDER.md)
+
 ---
 
 ## 1. Scope
