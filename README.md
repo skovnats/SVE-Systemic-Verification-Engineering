@@ -226,7 +226,7 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 * **Ethical Model:** [Appendix B – Commercial Tiers](License/assets/Appendix_B_Commercial_Tiers.md)
 
 ## Legal Status 
-This project is protected as an Art-Scientific Performance-Experiment (ASPE). See [Legal-Status.txt](./Legal-Status.txt).
+This project and SVE in whole is protected as an Art-Scientific Performance-Experiment (ASPE). See [Legal-Status.txt](./Legal-Status.txt).
 
 --- 
 
