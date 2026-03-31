@@ -491,3 +491,5 @@ Uploaded by Artiom Kovnatsky — October 26, 2025.
 **Built in service of Truth and Love** ✝️
 
 ---
+
+>«Мы юродивые Христа ради» (1 Кор. 4:10). То, что мир считает безумием, у Бога есть премудрость (1 Кор. 1:25).
