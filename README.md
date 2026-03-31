@@ -3,6 +3,8 @@
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
 
+>*Also known as: "Git for Reality", "Waze for Ontologies", "The Revizor System"..."Crutches".*
+
 The ethical core of the project is explicitly grounded in key principles articulated in the teachings of **Jesus Christ** (e.g. Love of neighbor, the primacy of life, non-violence, Honesty, and the principle of treating others as one wishes to be treated). This core does not require agreement, belief, or adherence: it functions as a declared set of initial axioms, analogous to axioms in mathematics or constraints in engineering.
 
 Crucially, **everything in S.V.E. is subject to doubt, challenge, and verification**, including the project’s own ethical core. No premise is exempt from scrutiny; authority is **never** a substitute for evidence. Ethical axioms are treated as hypotheses that must justify themselves through measurable outcomes, operational KPIs, and real-world consequences.
