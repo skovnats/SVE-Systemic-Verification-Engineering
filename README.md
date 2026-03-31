@@ -12,7 +12,8 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 **Research artifacts & releases:** https://zenodo.org/communities/sve, [📌 Canonical DOI (Release v0.3)](https://doi.org/10.5281/zenodo.18107020)\
 **Users Feedbacks**: [FEEDBACK.md](Data/FEEDBACK.md)\
 **Telegram Channel**: [https://t.me/artiomkovnatsky](https://t.me/artiomkovnatsky)\
-**Q & A Telegram Bot**: https://t.me/ArtiomKovnatsky_QA_bot
+**Q & A Telegram Bot**: [https://t.me/ArtiomKovnatsky_QA_bot](https://t.me/ArtiomKovnatsky_QA_bot)\
+BER | RU-UA-DE-ENG-GR-HEB-TUR
 
 > *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*\
 > *S.V.E.: Ontologisches Experiment mit technischem Feedback aus der Realität*\
