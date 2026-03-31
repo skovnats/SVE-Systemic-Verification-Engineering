@@ -13,7 +13,7 @@ Crucially, **everything in S.V.E. is subject to doubt, challenge, and verificati
 **Users Feedbacks**: [FEEDBACK.md](Data/FEEDBACK.md)\
 **Telegram Channel**: [https://t.me/artiomkovnatsky](https://t.me/artiomkovnatsky)\
 **Q & A Telegram Bot**: [https://t.me/ArtiomKovnatsky_QA_bot](https://t.me/ArtiomKovnatsky_QA_bot)\
-BER | RU-UA-DE-ENG-GR-HEB-TUR
+BER | RUS-UA-DE-ENG-GR-HEB-TUR
 
 > *S.V.E.: Онтологический эксперимент с инженерной обратной связью Жизни|реальности*\
 > *S.V.E.: Ontologisches Experiment mit technischem Feedback aus der Realität*\
