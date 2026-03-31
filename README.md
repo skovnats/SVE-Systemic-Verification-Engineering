@@ -1256,3 +1256,5 @@ S.V.E. is a temporary framework—"crutches" for humanity to prevent self-harm a
 > **„Wahrlich, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, so werdet ihr nicht ins Himmelreich kommen.“** — *Matthäus 18:3* <br>
 
 ---
+
+>«Мы юродивые Христа ради» (1 Кор. 4:10). То, что мир считает безумием, у Бога есть премудрость (1 Кор. 1:25).
