@@ -13,4 +13,7 @@
 % find /Users/artiom/Desktop/SVE-Systemic-Verification-Engineering/License/signed -type f -print0 | xargs -0 shasum -a 256 | shasum -a 256
 
 
+% hashdeep -r Indexed-Archive-For-Reference-In-Courts > MANIFEST_RAW.txt
+
+
 % hashdeep -r .
