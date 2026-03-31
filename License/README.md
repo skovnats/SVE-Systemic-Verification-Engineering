@@ -30,6 +30,44 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
+
+## ⚖️ How It Works
+
+1. **Meta-License (v4.0)** = The constitution (immutable principles)
+2. **Cases** = Amendments (activated by signature when needed)
+3. **Patches** = Precedent library (referenced but not independently binding)
+
+**Example:**
+- Meta-License says "Spirit > Letter" (principle)
+- Case-01 defines what that means for algorithmic manipulation (application)
+- Patch 1.33 (Gödel Protocol) explains the mechanism (reference)
+
+Only Meta-License v4.0 needs signature for base validity.
+Cases activate specific protections when signed by representative.
+
+---
+
+## 🚀 Adoption Path
+
+### For Individuals/Organizations
+1. Read **Quick Start Guide** (15 min)
+2. Review **Meta-License v4.0** (principles)
+3. Check **active Cases** (current protections)
+4. Decide: Adopt or pass
+
+### For Lawyers/Advocates
+1. Start with **Meta-License v4.0** (legal foundation)
+2. Study **active Cases** (precedent)
+3. Reference **Weapon Warehouse** (enforcement tools)
+4. Use **Version Overview** (navigation)
+
+### For Researchers/Academics
+1. Read **Patches 1.1-1.49999...** (evolution)
+2. Study **v3.0 Arsenal** (architecture)
+3. Review **Appendices** (technical depth)
+4. Explore **31-AI framework** (validation)
+
+
 ---
 
 ## **📚 CASE LAW LIBRARY (Precedents & Templates)**
@@ -128,3 +166,15 @@ EDUCATIONAL (Onboarding, understanding):
 **Ready for final review & signature.** ✅👑
 
 **Soli Deo Gloria.** ⚡
+
+
+---
+---
+---
+
+## 📞 Questions?
+
+- **General:** Read Quick Start Guide first
+- **Legal:** Review Meta-License + active Cases
+- **Technical:** Check Weapon Warehouse + Appendices
+- **Urgent:** Contact artiom.kovnatsky@pm.me
