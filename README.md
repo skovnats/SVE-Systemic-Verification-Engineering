@@ -225,6 +225,9 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 * **Custodianship:** [Declaration of Interim Custody](License/assets/Declaration_of_Interim_Custody.md)
 * **Ethical Model:** [Appendix B – Commercial Tiers](License/assets/Appendix_B_Commercial_Tiers.md)
 
+## Legal Status 
+This project is protected as an Art-Scientific Performance-Experiment (ASPE). See [Legal-Status.txt](./Legal-Status.txt).
+
 --- 
 
 ## 🌍 Community & Public Verification Initiatives
