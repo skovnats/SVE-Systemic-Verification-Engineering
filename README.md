@@ -224,10 +224,8 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ## ⚖️ Licensing
 
-* **Public Use:** [SVE Public Meta-License](License/SVE_Public_License.md)
-* **Commercial Use:** [Standard Commercial License](License/assets/Standard_Commercial_License_Agreement.md)
-* **Custodianship:** [Declaration of Interim Custody](License/assets/Declaration_of_Interim_Custody.md)
-* **Ethical Model:** [Appendix B – Commercial Tiers](License/assets/Appendix_B_Commercial_Tiers.md)
+* **Public Use:** [SVE Public Meta-License](License/signed) [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0)
+
 
 ## Legal Status 
 This project and SVE in whole is protected as an Art-Scientific Performance-Experiment (ASPE). See [Legal-Status.txt](./Legal-Status.txt).
