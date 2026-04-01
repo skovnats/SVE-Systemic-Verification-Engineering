@@ -230,6 +230,8 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 ## Legal Status 
 This project and SVE in whole is protected as an Art-Scientific Performance-Experiment (ASPE). See [Legal-Status.txt](./Legal-Status.txt).
 
+## Free non-commercial usage for good, including education, investigative journalists etc (share alike).
+
 --- 
 
 ## 🌍 Community & Public Verification Initiatives
