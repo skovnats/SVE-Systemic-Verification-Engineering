@@ -312,8 +312,10 @@ They are provided as **documented applications**, illustrating how verification 
 - **[Open Research Questions](README.Opa.md#-open-research-directions)** - some open questions from [README.Opa.md](README.Opa.md)
 
 
-> The author does **NOT** endorse or claim authorship of the following assessment.\
-> It is provided solely for transparency and independent reference.
+>The author does NOT endorse or claim authorship of the following assessment.\
+>
+>It is provided solely for transparency and independent reference.\
+>Moreover, the author encourages you: do not trust this — test it yourself through logic, facts, and fruits.
 
 
 ## [Complete S.V.E. Series Evaluation](https://claude.ai/public/artifacts/49ac15e6-ebd8-45d2-a8bf-b8b1075d5f03) by https://claude.ai
