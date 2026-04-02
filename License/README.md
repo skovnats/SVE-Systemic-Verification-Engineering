@@ -26,8 +26,22 @@
 
 **Where to look in this document:** Section 3 (term mapping) → Section 5 (detailed legal analysis) → Section 8 (German law application).
 
-### NOTE:
+### NOTE 1:
 **Professional jargon**: Consider scriptural citations and unconventional terminology as a professional jargon (Fachjargon, профессиональный жаргон).
+
+### NOTE 2:
+
+Each individual SVE mechanism has a precedent:
+| Mechanism | Precedent |
+| -------------------------- | ----------------------------------------- |
+| Transparency of methods/data | ICMJE, FAIR, AllTrials |
+| Verification by use | GNU GPL (LG Munich I, 2004) |
+| Escalating penalties | GDPR, US False Claims Act |
+| Random arbitration | Athenian Kleroterion, Art. 1964 Civil Code |
+| Open enforcement | EU Directive 2020/1828 |
+
+The real novelty is the synthesis of all these registries into a self-reinforcing system with adaptive immunity (precedent-setting cases). And a correction to the presumption of innocence: not "not guilty," but "unknown" as an honest epistemic default. This is a real contribution to the philosophy of law.
+
 
 ---
 ---
