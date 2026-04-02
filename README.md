@@ -22,6 +22,7 @@ If one bit of that data was falsified, our distributed network of the world's be
 >VISION-4:
 >FAKTEN-TÜV
 >![](Data/FAKTEN-TUEV-on-white.png)
+>**NOTE:** DEMO! NOT TÜV certified -- logo will be chosen later, this is for ILLUSTRATION PURPOSES ONLY. 
 
 >VISION-5:
 >**IaaS**: Integrity-as-a-Service (to God & People)
