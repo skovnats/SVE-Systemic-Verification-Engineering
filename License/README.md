@@ -99,7 +99,7 @@
 ├─ Core Principles (immutable)  
 ├─ Library mechanism (references Cases/Appendices)  
 ├─ Conflict resolution (Spirit > Letter, Fruits Test)  
-└─ Status: Draft (signature pending January 2026)
+└─ Status: signed 01.04.2026
 
 **Declaration v1.3** — Interim custody  
 └─ Status: Signed (March 19, 2024, hash: `[insert]`)
