@@ -40,7 +40,7 @@ Each individual SVE mechanism has a precedent:
 | Random arbitration | Athenian Kleroterion, Art. 1964 Civil Code |
 | Open enforcement | EU Directive 2020/1828 |
 
-The real novelty is the synthesis of all these registries into a self-reinforcing system with adaptive immunity (precedent-setting cases). And a correction to the presumption of innocence: not "not guilty," but "unknown" as an honest epistemic default. This is a real contribution to the philosophy of law.
+The real novelty is the synthesis of all these registries into a self-reinforcing system with adaptive immunity (precedent-setting cases). And a correction to the presumption of innocence: not "not guilty," but "unknown" as an honest epistemic default. 
 
 
 ---
