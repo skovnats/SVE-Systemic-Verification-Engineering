@@ -5,6 +5,30 @@
 **Purpose:** Open verification framework for transparent systems
 **Next step:** activate cases/build-community/use
 
+---
+---
+---
+
+## Executive Summary for Courts
+
+*Non-binding orientation. This summary is not a substitute for the full document.*
+
+**What SVE is:** A licensing agreement. SVE (Systemic Verification Engineering) is a contractual framework built on CC BY-NC-SA 4.0, enforceable under the same legal principles as the GNU GPL and Creative Commons licenses (LG München I, 2004; LG Berlin, 2010; *Jacobsen v. Katzer*, 2008).
+
+**What it requires:** Full transparency. Any party that uses SVE-derived methodology must disclose all methods, data, and code. This is a primary contractual obligation (*Hauptleistungspflicht*).
+
+**What constitutes a violation:** Any intentional concealment — however minor — is a material breach ("One-Bit Rule"). Refusal to provide documentation within 90 days constitutes adverse inference. See Section 3 (Mapping Table) for translation of all SVE terms into legal equivalents.
+
+**What sanctions apply:** Contractual penalties (*Vertragsstrafe*, §§ 339-345 BGB): 3× research funding (academic fraud); 10× cumulative benefits (corporate violations). Subject to judicial moderation (§ 343 BGB). Victim compensation: 100%; attorney fees paid separately by violator.
+
+**What is unusual:** The framework uses scriptural citations and unconventional terminology ("Coin," "Veche," "Fruits Test"). Section 3 provides the definitive legal translation for each term. Section 4 maps every scriptural citation to its operative legal principle. **No theological position is required to adjudicate under SVE.**
+
+**Where to look in this document:** Section 3 (term mapping) → Section 5 (detailed legal analysis) → Section 8 (German law application).
+
+---
+---
+---
+
 ### ⚠️ If You Violate SVE (Even One Bit)
 
 **Consequences:**
