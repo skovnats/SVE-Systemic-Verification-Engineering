@@ -3,7 +3,11 @@
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
 
->*Also known as: "Git for Reality", "Waze for Ontologies", "The Revizor System"..."Crutches".*
+>*Also known as: "Git for Reality", "Waze for Ontologies", "The Revizor System"..."Crutches".* 
+>
+>SVE — it is TÜV for Reality.
+
+>S.V.E. is Airbnb and Uber for the Integrity of Reality. Airbnb solved trust between strangers sharing a room — S.V.E. solves trust between humans sharing reality itself: data, science, law, contracts, word and thought. And where Uber dispatches drivers to your door, S.V.E. dispatches the world's sharpest attorneys to your defense — a distributed enforcement network that hunts every gap between thought, word, deed, and fruit, so truth is never left without a ride. "Let your yes be yes, and your no be no." — Matthew 5:37.
 
 The ethical core of the project is explicitly grounded in key principles articulated in the teachings of **Jesus Christ** (e.g. Love of neighbor, the primacy of life, non-violence, Honesty, and the principle of treating others as one wishes to be treated). This core does not require agreement, belief, or adherence: it functions as a declared set of initial axioms, analogous to axioms in mathematics or constraints in engineering.
 
