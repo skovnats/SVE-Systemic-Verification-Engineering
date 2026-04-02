@@ -25,6 +25,7 @@ If one bit of that data was falsified, our distributed network of the world's be
 >**NOTE:** DEMO! NOT TÜV certified -- logo will be chosen later, this is for ILLUSTRATION PURPOSES ONLY. 
 > Idea:
 >![](Data/Fakten-Opa.png)
+>![](Data/sve-init.png)
 
 >VISION-5:
 >**IaaS**: Integrity-as-a-Service (to God & People)
