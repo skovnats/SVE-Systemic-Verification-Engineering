@@ -9,7 +9,8 @@
 ---
 ---
 
-## Executive Summary for Courts
+## ⚖️ Legal Framework & Enforcement Overview
+>*(Executive Summary for Courts, Attorneys, and Users)*
 
 *Non-binding orientation. This summary is not a substitute for the full document.*
 
