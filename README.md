@@ -245,7 +245,8 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 
 ## ⚖️ Licensing
 
-* **Public Use:** [SVE Public Meta-License](License/signed) [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0)
+* **Public Use:** [SVE Public Meta-License](License) <br> 
+* **Links**: [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0)
 
 
 ## Legal Status 
