@@ -60,6 +60,9 @@ OpenTimestamps-Nachweis: *.ots-Dateien
 
 **Wo im Dokument nachzuschlagen ist:** Abschnitt 3 (Begriffszuordnung) → Abschnitt 5 (rechtliche Einordnung) → Abschnitt 8 (AGB-Prüfung) → Abschnitt 9 (Normenregister).
 
+### NOTIZ:
+**Fachjargon**: Betrachten Sie Bibelzitate und unkonventionelle Terminologie als professionellen Jargon (professional jargon, профессиональный жаргон). 
+
 ---
 
 ## 1. Vorwort des Autors: Konstruktionslogik

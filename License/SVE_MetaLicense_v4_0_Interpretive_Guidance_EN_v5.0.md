@@ -60,6 +60,9 @@ Verify: https://opentimestamps.org/
 
 **Where to look in this document:** Section 3 (term mapping) → Section 5 (detailed legal analysis) → Section 8 (German law application).
 
+### NOTE:
+**Professional jargon**: Consider scriptural citations and unconventional terminology as a professional jargon (Fachjargon, профессиональный жаргон).
+
 ---
 
 ## 1. Author's Foreword: Design Rationale
