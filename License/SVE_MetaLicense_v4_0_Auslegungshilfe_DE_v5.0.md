@@ -60,8 +60,23 @@ OpenTimestamps-Nachweis: *.ots-Dateien
 
 **Wo im Dokument nachzuschlagen ist:** Abschnitt 3 (Begriffszuordnung) → Abschnitt 5 (rechtliche Einordnung) → Abschnitt 8 (AGB-Prüfung) → Abschnitt 9 (Normenregister).
 
-### NOTIZ:
+### NOTIZ 1:
 **Fachjargon**: Betrachten Sie Bibelzitate und unkonventionelle Terminologie als professionellen Jargon (professional jargon, профессиональный жаргон). 
+
+### NOTIZ 2:
+
+Jeder einzelne SVE-Mechanismus hat einen Präzedenzfall:
+
+| Mechanismus | Präzedenzfall |
+------------------------- | ----------------------------------------- |
+Transparenz von Methoden/Daten | ICMJE, FAIR, AllTrials |
+Verifizierung durch Nutzung | GNU GPL (LG München I, 2004) |
+Eskalierende Strafen | DSGVO, US False Claims Act |
+Zufällige Schiedsgerichtsbarkeit | Athener Kleroterion, Art. 1964 des Zivilgesetzbuches |
+Offene Rechtsdurchsetzung | EU-Richtlinie 2020/1828 |
+
+Die eigentliche Neuheit ist die Synthese all dieser Register zu einem sich selbst verstärkenden System mit adaptiver Immunität (präzedenzbildende Fälle). Und eine Korrektur der Unschuldsvermutung: nicht „nicht schuldig“, sondern „unbekannt“ als ehrlicher epistemischer Standard.
+
 
 ---
 
