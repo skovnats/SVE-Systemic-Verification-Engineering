@@ -6,7 +6,9 @@
 
 # 19.11.2025 — Bundestag, 11:00 CET
 
-## 📍 Bundestag, Berlin — 19.11.2025, 11:00 CET
+## 📍 Bundestag, Berlin — 19.11.2025, 11:00 
+
+![](photos/WhatsApp-Image-2025-11-19-at-14.14.20.jpeg)
 
 Today, with God’s help, I will stand alone — quietly and peacefully —
 for one simple principle: every human life has the right to choose safety.
