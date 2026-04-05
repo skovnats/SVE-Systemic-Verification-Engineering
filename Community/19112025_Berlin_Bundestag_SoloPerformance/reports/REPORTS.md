@@ -537,6 +537,10 @@ Based on my current estimates, the real scale of violations is likely significan
 ## Clarification 2:
 Based on my current estimates, starting from ~03.2026 it intensified, hence approx. ×30–300. 
 
+
+## Chain of posts in X (from Α till Ω):
+https://x.com/ArtiomKovnatsky/status/1991107595487138155
+
 ---
 
 #### Notes:
@@ -546,7 +550,7 @@ Based on my current estimates, starting from ~03.2026 it intensified, hence appr
 ---
 
 ## Change Log
-- 2026-04-05 - Report [week_+-19](week_+-19) & Added `Clarification 2`
+- 2026-04-05 - Report [week_+-19](week_+-19) & Added `Clarification 2` & Chain of posts in X (from Α till Ω)
 - 2026-03-29 - Report [week_+-18](week_+-18)
 - 2026-03-22 - Report [week_+-17](week_+-17)
 - 2026-03-15 - Report [week_+-16](week_+-16): the 1st week of level 2/4
