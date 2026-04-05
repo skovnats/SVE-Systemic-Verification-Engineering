@@ -9,6 +9,7 @@
 ## 📍 Bundestag, Berlin — 19.11.2025, 11:00 
 
 ![](photos/WhatsApp-Image-2025-11-19-at-14.14.20.jpeg)
+[X post](https://x.com/ArtiomKovnatsky/status/1991107595487138155?s=20)
 
 Today, with God’s help, I will stand alone — quietly and peacefully —
 for one simple principle: every human life has the right to choose safety.
@@ -58,4 +59,9 @@ Please watch, read, and decide for yourself.
 <br />
 
 ![SYSTEMIC QUESTION](photos/systemic_question.png)
+
+
+![](photos/G6HAzINW8AAiYZX.jpeg)
+![](photos/G6HAzJ-WkAAmDRU.jpeg)
+![](photos/G6HAzKBWkAARj4f.jpeg)
 
