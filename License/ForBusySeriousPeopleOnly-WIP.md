@@ -15,11 +15,6 @@ Read time: 8 minutes. Decision time: the rest of your life.
 
 ---
 
-если он войдет в эту дверь, он войдет в историю, где не стыдно будет перед внуками
-«Я не ищу массовку. Я ищу тех, с кем не стыдно разделить чашу ответственности за реальность»
-
----
-
 >To live life wisely, there is much to know.  
 >But two rules, above all others, serve you well:  
 >Better to starve than eat whatever comes your way —  
@@ -397,4 +392,12 @@ After me: do better than me. Learn from my experience and mistakes — and from 
 **Author:** Dr. Artiom Kovnatsky (The Revizor)  
 **Status:** April 2026
 
+---
+
 «Ибо многие званы, а немногие избраны».
+
+
+если он войдет в эту дверь, он войдет в историю, где не стыдно будет перед внуками
+«Я не ищу массовку. Я ищу тех, с кем не стыдно разделить чашу ответственности за реальность»
+
+---
