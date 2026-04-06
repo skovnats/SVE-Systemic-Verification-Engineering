@@ -1,5 +1,17 @@
 # Systemic Verification Engineering (S.V.E.) 
 [Gitlab](https://gitlab.com/opa-collective/sve) [CodeBerg](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
+![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)
+
+[For-Busy-Serious-People-Only-WIP](License/ForBusySeriousPeopleOnly-WIP.md) [Manifest The Point of No Return-WIP](License Manifest_The_Point_of_No_Return-WIP.md) [SVE-Product-Vision-WIP](License/SVE_Product_Vision_v3.0_FINAL-WIP.md) [Call to Lawyers-WIP](License/Call_to_Lawyers_v2.0_VISION-WIP.md) [Call to Pharma-WIP](License/Call_to_Pharma_v2.2_VISION-WIP.md)
+
+
+**📄 Working Documents (WIP):**
+[🔥 For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md) · 
+[🚨 Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md) · 
+[🎯 Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md) · 
+[⚖️ Call to Lawyers](License/Call_to_Lawyers_v2.0_VISION-WIP.md) · 
+[💊 Call to Pharma](License/Call_to_Pharma_v2.2_VISION-WIP.md)
+
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
 
@@ -282,6 +294,9 @@ These initiatives are documented as field experiments; their inclusion does not 
   The series *“44 Days Later (33 + 3 + 8)”* documents a structured appeal for systemic reform and the re-legitimization of truth-seeking figures (e.g. Socrates, Perelman) within modern institutions.\
   *Goal:* initiate verifiable, documented dialogue — not persuasion.
 
+
+
+
 ### Narrative Accountability & Asymmetric Power
 
 * **[Community/LightBlackMirror_27112025/](Community/LightBlackMirror_27112025/)**
@@ -303,6 +318,15 @@ These initiatives are documented as field experiments; their inclusion does not 
   Initiated after formal complaint closure, the project examines whether public words withstand S.V.E. verification when confronted with observable reality and human rights outcomes.\
   *Goal:* time-extended falsifiability of institutional claims.
 
+
+### 🛡️ [(возможно) Angels Guardian / Ангелы-Хранители / Schutzengel](Applications/Ангелы-Хранетили/)
+
+### [(возможно) Ноев ковчег в Аду](Applications/ФСИМ/)
+
+### [Systemic Risk & Categorical Asymmetry](Applications/_FieldNotes/SKIG/)
+
+
+### [Systemic Risk & Categorical Asymmetry](Applications/_FieldNotes/S-IBOX/)
 
 ---
 
