@@ -1,14 +1,18 @@
 # Systemic Verification Engineering (S.V.E.) 
 ![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)
 
+[![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)](.)
+[![GitLab](https://img.shields.io/badge/GitLab-SVE-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/opa-collective/sve)
+[![Codeberg](https://img.shields.io/badge/Codeberg-SVE-2185D0?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
+
+[Gitlab](https://gitlab.com/opa-collective/sve) [CodeBerg](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
+
 > **📄 Working Documents (WIP):**  
 > [![For Busy & Serious People](https://img.shields.io/badge/For_Busy_%26_Serious_People-WIP-orange?style=flat-square)](License/ForBusySeriousPeopleOnly-WIP.md)
 > [![Point of No Return](https://img.shields.io/badge/Point_of_No_Return-WIP-red?style=flat-square)](License/Manifest_The_Point_of_No_Return-WIP.md)
 > [![Product Vision v3.0](https://img.shields.io/badge/Product_Vision_v3.0-WIP-blue?style=flat-square)](License/SVE_Product_Vision_v3.0_FINAL-WIP.md)
 > [![Call to Lawyers](https://img.shields.io/badge/Call_to_Lawyers-WIP-8B2FC9?style=flat-square)](License/Call_to_Lawyers_v2.0_VISION-WIP.md)
 > [![Call to Pharma](https://img.shields.io/badge/Call_to_Pharma-WIP-2E8B57?style=flat-square)](License/Call_to_Pharma_v2.2_VISION-WIP.md)
-
-[Gitlab](https://gitlab.com/opa-collective/sve) [CodeBerg](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 
 **📄 Working Documents (WIP):**  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
