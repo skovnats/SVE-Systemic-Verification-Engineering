@@ -7,11 +7,11 @@
 
 
 **📄 Working Documents (WIP):**
-[🔥 For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md) · 
-[🚨 Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md) · 
-[🎯 Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md) · 
-[⚖️ Call to Lawyers](License/Call_to_Lawyers_v2.0_VISION-WIP.md) · 
-[💊 Call to Pharma](License/Call_to_Pharma_v2.2_VISION-WIP.md)
+[⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md) · 
+[Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md) · 
+[Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md) · 
+[Call to Lawyers](License/Call_to_Lawyers_v2.0_VISION-WIP.md) · 
+[Call to Pharma](License/Call_to_Pharma_v2.2_VISION-WIP.md)
 
 
 Systemic Verification Engineering (S.V.E.) is a **practice-first research** and **engineering program** for building **reproducible**, **transparent**, and **adversarial protocols** for epistemic verification in high-stakes domains (science, AI, governance, policy).
