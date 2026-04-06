@@ -299,7 +299,18 @@ These initiatives are documented as field experiments; their inclusion does not 
   The series *“44 Days Later (33 + 3 + 8)”* documents a structured appeal for systemic reform and the re-legitimization of truth-seeking figures (e.g. Socrates, Perelman) within modern institutions.\
   *Goal:* initiate verifiable, documented dialogue — not persuasion.
 
-
+* **[Community/OpenLetters/RespectJusticePeace/](Community/OpenLetters/RespectJusticePeace/)**
+  A long-term open-source structural ledger tracking how Germany's public slogan
+  *"Respect. Justice. Peace."* — the declared anchor of its UNSC 2027–2028 candidacy —
+  aligns with its actual positions and silences across 13 structural domains: colonial
+  heritage restitution, postcolonial monetary systems, arms exports, supply chain labour
+  standards, tax havens, surveillance technology exports, asylum externalization, and more.
+  Each entry logs official statements against concrete actions, gaps, and structural effects —
+  sourced from official documents, court decisions, and serious journalism.
+  Includes a proposed *Anti-Gamification Fairness Metric*: a system is structurally balanced
+  if its architects would not object to their children being randomly assigned any role within it.\
+  *Goal:* ensure that beautiful words remain tied to traceable decisions —
+  and that measurement, not rhetoric, defines accountability.
 
 
 ### Narrative Accountability & Asymmetric Power
@@ -326,12 +337,62 @@ These initiatives are documented as field experiments; their inclusion does not 
 
 ### 🛡️ [(возможно) Angels Guardian / Ангелы-Хранители / Schutzengel](Applications/Ангелы-Хранетили/)
 
+* **[Applications/Ангелы-Хранители/](Applications/Ангелы-Хранетили/)**
+  An autonomous infantry protection system against FPV drone threats.
+  A swarm of 31 UAVs creates a GPS-independent digital dome over a unit — detecting threats at 300 m and issuing alerts within 1.5 seconds, with no cloud dependency.
+  Built on edge AI (YOLOv11n, RK3588 NPU), UWB-based positioning (Pozyx), and 60 GHz mesh networking; designed to distinguish friend from foe with ≥95% accuracy.
+  Not a weapon. A shield.\
+  *Goal:* protect human life through verifiable, open-source, field-deployable autonomous systems — grounded in S.V.E. engineering principles and explicit ethical constraints.
+
+
 ### [(возможно) Ноев ковчег в Аду](Applications/ФСИМ/)
+
+* **[Applications/ФСИМ/](Applications/ФСИМ/)**
+  A computational theology and git-ontology framework mapping software engineering primitives
+  (commits, branches, merge conflicts, force push, garbage collection) onto ontological,
+  psychological, and ethical structures — using SVE as a version-control system for reality itself.
+  The framework introduces the *Algebra of Sincerity*, treats ego as an undecidable input
+  (Halting Problem), and models collective truth-seeking as a Byzantine Fault Tolerant
+  distributed system. Adversarially validated by 4+1 AI models (DeepSeek, Gemini, Grok,
+  Qwen, Claude/Perplexity) across independent sessions.\
+  *Full release:* 11.11.2026 at 11:11 CET.\
+  *Goal:* build a verifiable, forkable ontology where sincerity is a measurable constraint —
+  not a moral appeal.
+
+
 
 ### [Systemic Risk & Categorical Asymmetry](Applications/_FieldNotes/SKIG/)
 
+* **[Applications/_FieldNotes/SKIG/](Applications/_FieldNotes/SKIG/)**
+  A quantitative field study measuring the gap between decision-making authority and personal
+  risk exposure across 14–30 geopolitical and corporate actors (political leaders, defense CEOs),
+  evaluated through a multi-AI expert panel (Claude, ChatGPT, Gemini, Grok, Qwen).
+  Core finding: the relationship between power and personal risk is not a gradient — it is a
+  categorical cliff (ANOVA: F=19.3, p<0.001; Cohen's d=3.2–4.6). Defense industry profits
+  are convex with escalation severity (quadratic R²=0.82 vs. linear R²=0.55), while
+  decision-makers' personal downside is structurally capped at $15M–55M exit floors —
+  regardless of outcome. Analyzed through S.V.E.-XII SYSTEM dynamics (P1–P5) and formalized
+  as the *RiskEthics Asymmetry Index* (RAI, 0–100).\
+  *Goal:* expose structural incentive misalignment — not judge individuals —
+  and provide a reproducible, falsifiable methodology for institutional accountability.
 
-### [Systemic Risk & Categorical Asymmetry](Applications/_FieldNotes/S-IBOX/)
+
+
+### [Spiritual-Intellectual Boxing](Applications/_FieldNotes/S-IBOX/) *(WIP)*
+
+* **[Applications/_FieldNotes/S-IBOX/](Applications/_FieldNotes/S-IBOX/)**
+  A structured public adversarial protocol — *David vs. Goliath* — in which dominant Western
+  historical and political narratives (Snyder, Applebaum, Plokhy, Fukuyama et al.) are subjected
+  to S.V.E. SIP verification using Socratic logic, mathematics, and primary sources.
+  Each claim is audited for internal consistency, chronological accuracy, and symmetry of
+  moral standards. Verdicts are cross-validated by a 4+1 AI panel (GPT, Claude, Gemini,
+  Grok, Qwen), with full prompt chains, dialogue logs, and source data published for
+  independent replication. Also documents AI bias and censorship patterns under the
+  *Cauchy–Gödel–Socrates (CGS)* method — testing where and how models refuse to follow logic.\
+  *Goal:* demonstrate that narrative power and verification robustness are not the same thing —
+  and that logic, applied consistently, is the only weapon that requires no institutional backing.
+
+
 
 ---
 
