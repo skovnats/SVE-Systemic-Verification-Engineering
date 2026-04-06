@@ -6,6 +6,15 @@ This is not for everyone. It is for a specific kind of person.
 Read time: 8 minutes. Decision time: the rest of your life.
 ```
 
+---
+
+> We built a VERY rare beast:  
+> Idealistic in purpose.  
+> Ruthlessly cynical in mechanism.  
+> Possibly not entirely of human origin.  
+
+---
+
 если он войдет в эту дверь, он войдет в историю, где не стыдно будет перед внуками
 «Я не ищу массовку. Я ищу тех, с кем не стыдно разделить чашу ответственности за реальность»
 
@@ -36,12 +45,6 @@ Read time: 8 minutes. Decision time: the rest of your life.
 
 ---
 
-> We built a VERY rare beast:  
-> Idealistic in purpose.  
-> Ruthlessly cynical in mechanism.  
-> Possibly not entirely of human origin.  
-
----
 
 ### Who You Are → What to Read
 
