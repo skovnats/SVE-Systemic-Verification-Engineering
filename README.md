@@ -7,7 +7,7 @@
 [![Call to Lawyers](https://img.shields.io/badge/Call_to_Lawyers-WIP-8B2FC9?style=flat-square)](License/Call_to_Lawyers_v2.0_VISION-WIP.md)
 [![Call to Pharma](https://img.shields.io/badge/Call_to_Pharma-WIP-2E8B57?style=flat-square)](License/Call_to_Pharma_v2.2_VISION-WIP.md)
 
-> **📄 Working Documents (WIP):**
+> **📄 Working Documents (WIP):**  
 > [![For Busy & Serious People](https://img.shields.io/badge/For_Busy_%26_Serious_People-WIP-orange?style=flat-square)](License/ForBusySeriousPeopleOnly-WIP.md)
 > [![Point of No Return](https://img.shields.io/badge/Point_of_No_Return-WIP-red?style=flat-square)](License/Manifest_The_Point_of_No_Return-WIP.md)
 > [![Product Vision v3.0](https://img.shields.io/badge/Product_Vision_v3.0-WIP-blue?style=flat-square)](License/SVE_Product_Vision_v3.0_FINAL-WIP.md)
