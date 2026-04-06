@@ -10,7 +10,7 @@
 
 [Gitlab](https://gitlab.com/opa-collective/sve) [CodeBerg](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 
-**📄 Working Documents (WIP):**
+**📄 Working Documents (WIP):**  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
 [Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md)  
 [Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md)    
