@@ -2,6 +2,7 @@
 [![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)](.)
 [![GitLab](https://img.shields.io/badge/GitLab-SVE-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/opa-collective/sve)
 [![Codeberg](https://img.shields.io/badge/Codeberg-SVE-2185D0?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
+[![GitHub](https://img.shields.io/badge/GitHub-🏴‍☠️_Shadow_Ban_Suspect_(404)-black?style=flat-square&logo=github)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
 
 <!-- > **📄 Working Documents (WIP):**  
 > [![For Busy & Serious People](https://img.shields.io/badge/For_Busy_%26_Serious_People-WIP-orange?style=flat-square)](License/ForBusySeriousPeopleOnly-WIP.md)
