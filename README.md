@@ -11,7 +11,7 @@
 > [![Call to Lawyers](https://img.shields.io/badge/Call_to_Lawyers-WIP-8B2FC9?style=flat-square)](License/Call_to_Lawyers_v2.0_VISION-WIP.md)
 > [![Call to Pharma](https://img.shields.io/badge/Call_to_Pharma-WIP-2E8B57?style=flat-square)](License/Call_to_Pharma_v2.2_VISION-WIP.md) -->
 
-**📄 Working Documents (WIP):**  
+**📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
 [Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md)  
 [Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md)    
