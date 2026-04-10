@@ -79,18 +79,18 @@ rclone copy "$BASE_DIR" "megas4:${MEGA_BUCKET}" \
 echo "===> ALL DONE"
 
 
-# # ===================== SourceForge =======================
-# echo "===> Sync to SourceForge"
-# SF_USER="skovnats"         # Ваш логин
-# SF_PROJECT="sve-systemic"  # Имя проекта (URL-адрес проекта)
+# ===================== SourceForge =======================
+echo "===> Sync to SourceForge"
+SF_USER="skovnats"         # Ваш логин
+SF_PROJECT="sve"  # Имя проекта (URL-адрес проекта)
 
-# git remote remove sourceforge 2>/dev/null || true
-# git remote add sourceforge "ssh://$SF_USER@git.code.sf.net/p/$SF_PROJECT/code"
+git remote remove sourceforge 2>/dev/null || true
+git remote add sourceforge "ssh://$SF_USER@git.code.sf.net/p/$SF_PROJECT/code"
 
-# # Первая синхронизация требует --force из-за перезаписи истории
-# git push sourceforge 'refs/heads/*:refs/heads/*' --prune --force
-# git push sourceforge --tags -f
-# git push sourceforge master --force
+# Первая синхронизация требует --force из-за перезаписи истории
+git push sourceforge 'refs/heads/*:refs/heads/*' --prune --force
+git push sourceforge --tags -f
+git push sourceforge master --force
 
 # ===================== Google Drive =======================
 # # В rclone.conf должен быть remote [gdrive]
