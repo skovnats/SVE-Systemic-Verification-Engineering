@@ -27,8 +27,8 @@ echo "--> GitFlic..."
 git push gitflic master -f -q || echo "❌ GitFlic master failed"
 git push gitflic --tags -q || true 
 
-# === GitHub Org ===
-echo "--> Syncing GitHub Org (Filtered)..."
+# === GitHub Opa-Org ===
+echo "--> Syncing GitHub Opa-Org..."
 git checkout -B temp-org-sync -q
 git rm -rf "Applications/Ангелы-Хранетили" --ignore-unmatch -q
 git commit -m "chore: incremental update" --quiet || true
