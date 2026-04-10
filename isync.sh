@@ -10,7 +10,7 @@ echo "===> Starting Incremental Sync"
 git remote add org-mirror git@github.com:Opa-Collective/SVE-Systemic-Verification-Engineering.git 2>/dev/null || true
 
 # 2. Стандартный Push
-REMOTES=("origin" "gitlab" "codeberg" "sourceforge" "gitflic")
+REMOTES=("origin" "gitlab" "codeberg" "sourceforge")
 for remote in "${REMOTES[@]}"; do
     if git remote | grep -q "$remote"; then
         echo "--> Pushing to $remote..."
@@ -19,6 +19,16 @@ for remote in "${REMOTES[@]}"; do
         git push "$remote" staging -q || echo "Staging push failed for $remote"
         git push "$remote" --tags -q 2>/dev/null || true
     fi
+done
+
+# 2. Специальный пуш для GitFlic (по веткам)
+echo "--> Pushing to gitflic..."
+# Пушим только HEAD, чтобы пакет был минимальным
+git push gitflic HEAD:master -f -q || echo "❌ GitFlic Master pointer update failed"
+
+# Теги — только последние 3, по одному
+for t in $(git tag --sort=-creatordate | head -n 3); do
+    git push gitflic "$t" -f -q 2>/dev/null || true
 done
 
 # 3. GitHub Org (Clean)
