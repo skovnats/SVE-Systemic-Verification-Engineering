@@ -21,25 +21,20 @@ for remote in "${REMOTES[@]}"; do
     fi
 done
 
-# 2. Специальный пуш для GitFlic (по веткам)
+
+# === GitFlic ===
 echo "--> GitFlic..."
-git push gitflic master -f -q || echo "❌ GitFlic failed (limit exceeded)"
+git push gitflic master -f -q || echo "❌ GitFlic master failed"
+git push gitflic --tags -q || true 
 
-# 3. Radicle (P2P)
-if command -v rad >/dev/null 2>&1; then
-    echo "--> Radicle..."
-    rad sync --announce > /dev/null 2>&1 &
-fi
-
-# 3. GitHub Org (Clean)
+# === GitHub Org ===
 echo "--> Syncing GitHub Org (Filtered)..."
-git branch -D temp-org-sync 2>/dev/null || true
 git checkout -B temp-org-sync -q
 git rm -rf "Applications/Ангелы-Хранетили" --ignore-unmatch -q
 git commit -m "chore: incremental update" --quiet || true
 git push org-mirror temp-org-sync:master --force -q
+git push org-mirror --tags -f -q || true # Пушим теги принудительно
 git checkout master -q
-git branch -D temp-org-sync -q
 
 # 4. Radicle (P2P)
 if command -v rad >/dev/null 2>&1; then
