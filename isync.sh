@@ -6,18 +6,21 @@ cd "$BASE_DIR"
 
 echo "===> Starting Incremental Sync"
 
-# 1. Проверка remotes
+# 1. Настройка Remotes (если их нет)
 git remote add org-mirror git@github.com:Opa-Collective/SVE-Systemic-Verification-Engineering.git 2>/dev/null || true
+git remote add sourceforge "ssh://skovnats@git.code.sf.net/p/sve-systemic/code" 2>/dev/null || true
 
-# 2. Стандартный Push
+# 2. Основной инкрементальный цикл
+# Добавили sourceforge в общий список — теперь он пушится быстро
 REMOTES=("origin" "gitlab" "codeberg" "sourceforge")
+
 for remote in "${REMOTES[@]}"; do
     if git remote | grep -q "$remote"; then
         echo "--> Pushing to $remote..."
-        # Пушим ветки по отдельности — это стабильнее для GitFlic
-        git push "$remote" master -q || echo "Master push failed for $remote"
-        git push "$remote" staging -q || echo "Staging push failed for $remote"
-        git push "$remote" --tags -q 2>/dev/null || true
+        # Стандартный пуш без --force — это и есть инкрементальное добавление
+        git push "$remote" master -q || echo "⚠️ Master failed for $remote"
+        git push "$remote" staging -q || echo "⚠️ Staging failed for $remote"
+        git push "$remote" --tags -q || true
     fi
 done
 

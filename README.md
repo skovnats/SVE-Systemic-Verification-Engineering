@@ -3,7 +3,7 @@
 [![GitLab](https://img.shields.io/badge/GitLab-SVE-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/opa-collective/sve)
 [![Codeberg](https://img.shields.io/badge/Codeberg-SVE-2185D0?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 [![GitFlic](https://img.shields.io/badge/GitFlic-SVE-blue?style=flat-square)](https://gitflic.ru/project/skovnats/sve-systemic-verification-engineering)
-[![SourceForge](https://img.shields.io/badge/SourceForge-SVE_(WIP)-darkblue?style=flat-square&logo=sourceforge)](https://sourceforge.net/p/sve-systemic/code/)
+[![SourceForge](https://img.shields.io/badge/SourceForge-Mirror-darkblue?style=flat-square&logo=sourceforge)](https://sourceforge.net/p/sve/code/)
 [![GitHub](https://img.shields.io/badge/GitHub-🏴‍☠️_Shadow_Ban_Suspect_(404)-black?style=flat-square&logo=github)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
 [![GitHub Opa-Org](https://img.shields.io/badge/GitHub_Org-Public_Mirror-24292e?style=flat-square&logo=github)](https://github.com/Opa-Collective/SVE-Systemic-Verification-Engineering)
 [![Radicle](https://img.shields.io/badge/Radicle-SVE-5437DB?style=flat-square&logo=radicle&logoColor=white)](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z4X7PqSg667G2vUVmdQCGxSWiVJRm)
