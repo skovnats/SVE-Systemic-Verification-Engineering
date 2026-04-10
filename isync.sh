@@ -22,14 +22,14 @@ for remote in "${REMOTES[@]}"; do
 done
 
 # 2. Специальный пуш для GitFlic (по веткам)
-echo "--> Pushing to gitflic..."
-# Пушим только HEAD, чтобы пакет был минимальным
-git push gitflic HEAD:master -f -q || echo "❌ GitFlic Master pointer update failed"
+echo "--> GitFlic..."
+git push gitflic master -f -q || echo "❌ GitFlic failed (limit exceeded)"
 
-# Теги — только последние 3, по одному
-for t in $(git tag --sort=-creatordate | head -n 3); do
-    git push gitflic "$t" -f -q 2>/dev/null || true
-done
+# 3. Radicle (P2P)
+if command -v rad >/dev/null 2>&1; then
+    echo "--> Radicle..."
+    rad sync --announce > /dev/null 2>&1 &
+fi
 
 # 3. GitHub Org (Clean)
 echo "--> Syncing GitHub Org (Filtered)..."
