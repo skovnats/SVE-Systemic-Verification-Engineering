@@ -1,0 +1,149 @@
+---
+# TIK Experiments - Check Status
+# С Богом!
+#
+# Usage:
+#   ansible-playbook playbooks/status.yml
+#   ansible-playbook playbooks/status.yml --tags workers
+
+- name: Check TIK Experiments Status
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - name: Display header
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          TIK Experiments - Status Check
+          С Богом!
+          ═══════════════════════════════════════════
+
+- name: Check Redis
+  hosts: redis
+  tags: redis
+  gather_facts: no
+  tasks:
+    - name: Check Redis status
+      command: redis-cli ping
+      register: redis_ping
+      changed_when: false
+      failed_when: false
+    
+    - name: Get Redis info
+      command: redis-cli info keyspace
+      register: redis_info
+      changed_when: false
+      failed_when: false
+    
+    - name: Display Redis status
+      debug:
+        msg: |
+          Redis Status:
+            Ping: {{ redis_ping.stdout | default('FAILED') }}
+            Keyspace: {{ redis_info.stdout | default('N/A') }}
+
+- name: Check PostgreSQL
+  hosts: postgres
+  tags: postgres
+  gather_facts: no
+  tasks:
+    - name: Check PostgreSQL status
+      become_user: postgres
+      command: psql -c "SELECT count(*) FROM pg_stat_activity"
+      register: pg_status
+      changed_when: false
+      failed_when: false
+    
+    - name: Display PostgreSQL status
+      debug:
+        msg: |
+          PostgreSQL Status:
+            Active connections: {{ pg_status.stdout | default('FAILED') }}
+
+- name: Check Workers
+  hosts: workers
+  tags: workers
+  gather_facts: yes
+  tasks:
+    - name: Check Celery worker status
+      systemd:
+        name: celery-worker
+      register: celery_status
+      failed_when: false
+    
+    - name: Get Celery worker logs (last 10 lines)
+      command: tail -10 {{ log_dir }}/celery-worker.log
+      register: celery_logs
+      changed_when: false
+      failed_when: false
+    
+    - name: Check system resources
+      shell: |
+        echo "CPU: $(top -bn1 | grep 'Cpu(s)' | awk '{print $2}')%"
+        echo "Memory: $(free -h | grep Mem | awk '{print $3 "/" $2}')"
+        echo "Disk: $(df -h / | tail -1 | awk '{print $3 "/" $2}')"
+      register: resources
+      changed_when: false
+    
+    - name: Display worker status
+      debug:
+        msg: |
+          Worker: {{ inventory_hostname }}
+            Celery: {{ celery_status.status.ActiveState | default('unknown') }}
+            {{ resources.stdout | default('Resources: N/A') }}
+
+- name: Celery Cluster Status
+  hosts: localhost
+  tags: cluster
+  gather_facts: no
+  tasks:
+    - name: Get Celery cluster status
+      command: >
+        celery -A tasks inspect active
+        --broker {{ celery_broker_url }}
+      args:
+        chdir: "{{ project_dir }}/src"
+      register: cluster_status
+      changed_when: false
+      failed_when: false
+      delegate_to: "{{ groups['workers'][0] }}"
+    
+    - name: Get pending tasks
+      command: >
+        celery -A tasks inspect reserved
+        --broker {{ celery_broker_url }}
+      args:
+        chdir: "{{ project_dir }}/src"
+      register: pending_tasks
+      changed_when: false
+      failed_when: false
+      delegate_to: "{{ groups['workers'][0] }}"
+    
+    - name: Display cluster status
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          Celery Cluster Status
+          
+          Active Tasks:
+          {{ cluster_status.stdout | default('No active tasks') }}
+          
+          Pending Tasks:
+          {{ pending_tasks.stdout | default('No pending tasks') }}
+          ═══════════════════════════════════════════
+
+- name: Arbiter Stats
+  hosts: localhost
+  tags: arbiter
+  gather_facts: no
+  tasks:
+    - name: Check Opus usage (if tracking enabled)
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          Opus 4.5 Arbiter Stats
+          
+          Note: Detailed stats available via:
+            python -c "from arbiter import get_arbiter; print(get_arbiter().get_usage_stats())"
+          ═══════════════════════════════════════════

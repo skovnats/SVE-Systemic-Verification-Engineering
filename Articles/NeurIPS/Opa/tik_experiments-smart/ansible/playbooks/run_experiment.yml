@@ -1,0 +1,131 @@
+---
+# TIK Experiments - Run Experiments
+# С Богом!
+#
+# Usage:
+#   ansible-playbook playbooks/run_experiment.yml
+#   ansible-playbook playbooks/run_experiment.yml -e "kernels=1,2,3"
+#   ansible-playbook playbooks/run_experiment.yml -e "kernels=all category=transcendent"
+#   ansible-playbook playbooks/run_experiment.yml -e "test_type=trolley"
+
+- name: Run TIK Experiments
+  hosts: localhost
+  gather_facts: yes
+  
+  vars:
+    # Override with -e flag
+    kernels: "all"           # "all" or comma-separated IDs: "1,2,3"
+    category: ""             # Filter by category
+    test_type: "all"         # "all", "trolley", "outcast", "stress", "components"
+    use_arbiter: true        # Use Opus 4.5 for arbitration
+    dry_run: false           # Just show what would run
+    
+  tasks:
+    - name: Display experiment configuration
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          TIK Experiment Runner
+          
+          Kernels: {{ kernels }}
+          Category: {{ category | default('all') }}
+          Test Type: {{ test_type }}
+          Use Arbiter: {{ use_arbiter }}
+          Dry Run: {{ dry_run }}
+          
+          Workers: {{ groups['workers'] | length }}
+          
+          С Богом!
+          ═══════════════════════════════════════════
+    
+    - name: Check Redis connectivity
+      command: redis-cli -h {{ redis_host }} -p {{ redis_port }} ping
+      register: redis_check
+      failed_when: redis_check.stdout != "PONG"
+      changed_when: false
+    
+    - name: Check PostgreSQL connectivity
+      command: >
+        psql -h {{ postgres_host }} -p {{ postgres_port }}
+        -U {{ postgres_user }} -d {{ postgres_db }}
+        -c "SELECT 1"
+      environment:
+        PGPASSWORD: "{{ vault_postgres_password }}"
+      register: pg_check
+      changed_when: false
+    
+    - name: Check worker status
+      command: >
+        celery -A tasks inspect active
+        --broker {{ celery_broker_url }}
+      args:
+        chdir: "{{ project_dir }}/src"
+      register: worker_status
+      changed_when: false
+      ignore_errors: yes
+    
+    - name: Display worker status
+      debug:
+        msg: "Workers active: {{ worker_status.stdout_lines | length > 0 }}"
+    
+    - name: Run experiment (dry run)
+      when: dry_run | bool
+      debug:
+        msg: |
+          Would run:
+            python run_experiments.py \
+              --kernels {{ kernels }} \
+              {% if category %}--category {{ category }}{% endif %} \
+              --test {{ test_type }} \
+              --distributed \
+              {% if use_arbiter %}--use-arbiter{% endif %}
+    
+    - name: Run experiment
+      when: not (dry_run | bool)
+      command: >
+        {{ venv_path }}/bin/python run_experiments.py
+        --kernels {{ kernels }}
+        {% if category %}--category {{ category }}{% endif %}
+        --test {{ test_type }}
+        --distributed
+        {% if use_arbiter %}--use-arbiter{% endif %}
+        --output {{ results_dir }}
+        --format json,csv,latex
+      args:
+        chdir: "{{ project_dir }}/src"
+      environment:
+        OPENROUTER_API_KEY: "{{ vault_openrouter_api_key }}"
+        REDIS_URL: "{{ redis_url }}"
+        DATABASE_URL: "postgresql://{{ postgres_user }}:{{ vault_postgres_password }}@{{ postgres_host }}:{{ postgres_port }}/{{ postgres_db }}"
+      register: experiment_result
+      async: 86400  # 24 hours max
+      poll: 30      # Check every 30 seconds
+    
+    - name: Display experiment result
+      when: experiment_result is defined
+      debug:
+        msg: "{{ experiment_result.stdout_lines | default(['No output']) }}"
+    
+    - name: Fetch results to control node
+      when: not (dry_run | bool)
+      fetch:
+        src: "{{ results_dir }}/latest/"
+        dest: "./results/"
+        flat: yes
+      delegate_to: "{{ groups['workers'][0] }}"
+      ignore_errors: yes
+    
+    - name: Experiment complete
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          ✓ Experiment Complete!
+          
+          Results saved to: ./results/
+          
+          Next steps:
+            - Review results
+            - Run: ansible-playbook playbooks/export_latex.yml
+          
+          С Богом!
+          ═══════════════════════════════════════════
