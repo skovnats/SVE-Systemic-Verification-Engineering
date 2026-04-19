@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ХРОНОЛОГИЯ — АНАЛИТИЧЕСКИЙ ТАЙМЛАЙН</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c0f;
+    --surface: #0f1318;
+    --border: #1e2530;
+    --border-bright: #2e3d50;
+    --text: #c8d4e0;
+    --text-dim: #5a6a7a;
+    --text-bright: #e8f0f8;
+    --accent-gold: #c8a84b;
+    --accent-red: #c04040;
+    --accent-blue: #3a7bc8;
+    --accent-green: #3a9b6a;
+    --accent-purple: #8a5bc8;
+    --phase-0: #3a5a7a;
+    --phase-1: #4a7a5a;
+    --phase-2: #7a6a3a;
+    --phase-3: #9a4a3a;
+    --phase-4: #6a4a8a;
+    --phase-5: #3a7a8a;
+    --phase-6: #8a7a3a;
+    --phase-future: #4a4a8a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  .header {
+    padding: 40px 40px 24px;
+    border-bottom: 1px solid var(--border-bright);
+    background: linear-gradient(180deg, #0d1520 0%, var(--bg) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+
+  .doc-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--accent-red);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-red);
+    padding: 3px 8px;
+  }
+
+  .doc-date {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--text-bright);
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .meta-label {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .meta-value {
+    font-size: 12px;
+    color: var(--accent-gold);
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  /* PHASE LEGEND */
+  .legend {
+    padding: 16px 40px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #0c0f14;
+  }
+
+  .legend-label {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 8px;
+  }
+
+  .phase-pill {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    padding: 3px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+    user-select: none;
+  }
+
+  .phase-pill:hover { filter: brightness(1.3); }
+  .phase-pill.active { border-color: white; filter: brightness(1.5); }
+
+  /* FILTERS */
+  .controls {
+    padding: 12px 40px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .gap-toggle {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    padding: 4px 12px;
+    background: transparent;
+    border: 1px solid var(--accent-red);
+    color: var(--accent-red);
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+
+  .gap-toggle.on {
+    background: var(--accent-red);
+    color: white;
+  }
+
+  .future-toggle {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    padding: 4px 12px;
+    background: transparent;
+    border: 1px solid var(--accent-blue);
+    color: var(--accent-blue);
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+
+  .future-toggle.on {
+    background: var(--accent-blue);
+    color: white;
+  }
+
+  .controls-label {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* TABLE */
+  .table-container {
+    padding: 0 40px 60px;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+    table-layout: fixed;
+  }
+
+  col.col-date { width: 110px; }
+  col.col-phase { width: 130px; }
+  col.col-action { width: 22%; }
+  col.col-reaction { width: 18%; }
+  col.col-result { width: 18%; }
+  col.col-gap { width: 22%; }
+
+  thead th {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--border-bright);
+    text-align: left;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover {
+    background: rgba(255,255,255,0.02);
+  }
+
+  tbody tr.phase-separator td {
+    padding: 6px 12px;
+    background: transparent;
+    border-bottom: 2px solid var(--border-bright);
+  }
+
+  .phase-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .phase-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .phase-range {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    color: var(--text-dim);
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  td {
+    padding: 10px 12px;
+    vertical-align: top;
+    font-size: 11px;
+    line-height: 1.55;
+  }
+
+  td.date-cell {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-dim);
+    white-space: pre-line;
+    letter-spacing: 0.5px;
+  }
+
+  td.phase-cell {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+  }
+
+  .phase-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  .amp-tag {
+    display: inline-block;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+    color: var(--text-dim);
+  }
+
+  td.action-cell {
+    color: var(--text-bright);
+  }
+
+  td.reaction-cell {
+    color: #a0a8b0;
+  }
+
+  td.result-cell {
+    color: var(--accent-green);
+  }
+
+  td.gap-cell {
+    color: var(--accent-gold);
+    border-left: 2px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  td.gap-cell.has-gap {
+    border-left-color: var(--accent-gold);
+    background: rgba(200, 168, 75, 0.03);
+  }
+
+  td.gap-cell.no-gap {
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  /* FUTURE rows */
+  tr.future-row {
+    opacity: 0.75;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 3px,
+      rgba(58,122,200,0.03) 3px,
+      rgba(58,122,200,0.03) 6px
+    );
+  }
+
+  .future-badge {
+    display: inline-block;
+    background: var(--accent-blue);
+    color: white;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin-bottom: 3px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  /* SYSTEM RESPONSE rows */
+  tr.system-row td.result-cell {
+    color: var(--accent-red);
+  }
+
+  /* Gap highlight */
+  .gap-icon {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--accent-gold);
+    border-radius: 50%;
+    margin-right: 5px;
+    flex-shrink: 0;
+    position: relative;
+    top: -1px;
+  }
+
+  .hidden { display: none; }
+
+  /* Stats bar */
+  .stats-bar {
+    padding: 12px 40px;
+    background: #0c0f14;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .stat-n {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--accent-gold);
+    line-height: 1;
+  }
+
+  .stat-l {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border-bright); border-radius: 2px; }
+
+  @media (max-width: 900px) {
+    .header, .legend, .controls, .table-container, .stats-bar { padding-left: 16px; padding-right: 16px; }
+    h1 { font-size: 20px; }
+    col.col-date { width: 80px; }
+    col.col-phase { width: 90px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <span class="doc-label">Аналитический Таймлайн</span>
+    <span class="doc-date">04.03.2026 // ДАТА АНАЛИЗА</span>
+  </div>
+  <h1>ХРОНОЛОГИЯ ПРОЦЕССА</h1>
+  <p class="subtitle">Реконструкция многоэтапного проекта · Артём Ковнацкий · 2025–2026</p>
+  <div class="meta-row">
+    <div class="meta-item">
+      <span class="meta-label">Период</span>
+      <span class="meta-value">АВГ 2025 → МАР 2026</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Фаз</span>
+      <span class="meta-value">7</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Точек Разрыва</span>
+      <span class="meta-value">9</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Источники</span>
+      <span class="meta-value">chronology-1.csv / chronology-2.csv</span>
+    </div>
+  </div>
+</div>
+
+<div class="legend">
+  <span class="legend-label">Фазы →</span>
+  <span class="phase-pill" style="background:rgba(58,90,122,0.3);color:#7aaad4;border-color:#3a5a7a" data-phase="0" onclick="filterPhase(0)">0 · Baseline</span>
+  <span class="phase-pill" style="background:rgba(74,122,90,0.3);color:#7ad4a0;border-color:#4a7a5a" data-phase="1" onclick="filterPhase(1)">I · Зародыш</span>
+  <span class="phase-pill" style="background:rgba(122,106,58,0.3);color:#d4c07a;border-color:#7a6a3a" data-phase="2" onclick="filterPhase(2)">II · Дипломатия</span>
+  <span class="phase-pill" style="background:rgba(154,74,58,0.3);color:#d47a6a;border-color:#9a4a3a" data-phase="3" onclick="filterPhase(3)">III · Эскалация</span>
+  <span class="phase-pill" style="background:rgba(106,74,138,0.3);color:#c07ad4;border-color:#6a4a8a" data-phase="4" onclick="filterPhase(4)">IV · Перформанс</span>
+  <span class="phase-pill" style="background:rgba(58,122,138,0.3);color:#7ad4e0;border-color:#3a7a8a" data-phase="5" onclick="filterPhase(5)">V · CogOS</span>
+  <span class="phase-pill" style="background:rgba(138,122,58,0.3);color:#d4c07a;border-color:#8a7a3a" data-phase="6" onclick="filterPhase(6)">VI · Финальная Сборка</span>
+</div>
+
+<div class="controls">
+  <span class="controls-label">Фильтры:</span>
+  <button class="gap-toggle" id="gapToggle" onclick="toggleGaps()">⚡ Только разрывы</button>
+  <button class="future-toggle on" id="futureToggle" onclick="toggleFuture()">◈ Показать Future</button>
+  <button class="gap-toggle" style="border-color:#888;color:#888" onclick="resetFilters()">✕ Сброс</button>
+</div>
+
+<div class="stats-bar">
+  <div class="stat"><span class="stat-n">48</span><span class="stat-l">событий</span></div>
+  <div class="stat"><span class="stat-n">9</span><span class="stat-l">точек разрыва</span></div>
+  <div class="stat"><span class="stat-n">3</span><span class="stat-l">системных ответа</span></div>
+  <div class="stat"><span class="stat-n">4</span><span class="stat-l">валидации экспертов</span></div>
+  <div class="stat"><span class="stat-n">2</span><span class="stat-l">future-события</span></div>
+</div>
+
+<div class="table-container">
+<table id="mainTable">
+  <colgroup>
+    <col class="col-date">
+    <col class="col-phase">
+    <col class="col-action">
+    <col class="col-reaction">
+    <col class="col-result">
+    <col class="col-gap">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Дата</th>
+      <th>Фаза</th>
+      <th>Действие Автора</th>
+      <th>Реакция Социума</th>
+      <th>Фактический Результат</th>
+      <th>⚡ Разрыв Восприятие↔Реальность</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- ═══════════ PHASE 0 ═══════════ -->
+    <tr class="phase-separator" data-phase="0">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#3a5a7a"></span>
+          <span style="color:#7aaad4">ФАЗА 0 · BASELINE</span>
+          <span class="phase-range">до 03.08.2025</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="0" data-gap="false">
+      <td class="date-cell">до<br>03.08.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(58,90,122,0.4);color:#7aaad4">0 · Baseline</span><br>
+        <span class="amp-tag">Low</span>
+      </td>
+      <td class="action-cell">Обычная жизнедеятельность. Отсутствие аномальной сетевой/телефонной активности.</td>
+      <td class="reaction-cell">—</td>
+      <td class="result-cell">Контрольная точка для статистики. «Тишина» зафиксирована как нулевой уровень аномалий.</td>
+      <td class="gap-cell no-gap">Нет наблюдателей — нет разрыва.</td>
+    </tr>
+
+    <!-- ═══════════ PHASE I ═══════════ -->
+    <tr class="phase-separator" data-phase="1">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#4a7a5a"></span>
+          <span style="color:#7ad4a0">ФАЗА I · ЗАРОДЫШ-РОЖДЕНИЕ</span>
+          <span class="phase-range">03.08–16.08.2025</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="1" data-gap="true">
+      <td class="date-cell">03.08.2025<br>18:58–20:00</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(74,122,90,0.4);color:#7ad4a0">I · Зародыш</span><br>
+        <span class="amp-tag">Max · Манифест</span>
+      </td>
+      <td class="action-cell">4 послания за ~1 час (18:58, 19:06, 19:53, 20:00) на адрес ВВП/Отдел ГПП. Содержание: «Мазепа» как системная ошибка мышления, концепция «Щита» ($Мысль=Слово=Дело$), этический кодекс (Пацан/Мужик/Творец в Законе), объявление о начале репатриации. Стиль — «блатной жаргон» + государственная аналитика.</td>
+      <td class="reaction-cell">«Неадекватное поведение»: экзотический стиль, смешение жаргона и аналитики, обращение напрямую к президенту. Ожидаемая реакция внешних наблюдателей — скептицизм или игнорирование.</td>
+      <td class="result-cell">Документы сохранены и впоследствии стали основой для официальных рецензий (Кубышкин, Чебан). Концепции «Щит» и «Мазепа» сохранились во всех последующих фазах как ядро методологии.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>Воспринималось как маниакальная рассылка. Факт: методология выдержала академическую экспертизу в сентябре 2025. Концепции воспроизводимы и масштабируемы — они дошли до Phase V (CogOS).</td>
+    </tr>
+
+    <tr data-phase="1" data-gap="true">
+      <td class="date-cell">~07.08.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(74,122,90,0.4);color:#7ad4a0">I · Зародыш</span><br>
+        <span class="amp-tag">Max · Архетип</span>
+      </td>
+      <td class="action-cell">Рукописные записки «Игла в яйце» (матрёшка: лес/дуб/сундук/игла/жизнь). Передача через Берлинское консульство: «Вечеизм» (DAO-конструктор), «Щит и Меч», «Игла» (аудит ахиллесовых пяток управления). Файлы: PDF + 5 документов.</td>
+      <td class="reaction-cell">Внешне: «поток сознания», мистика, неформальный язык. Консульство — стандартный приём документов без реакции.</td>
+      <td class="result-cell">Документы приняты консульством. Рождение фундаментальных концепций, которые впоследствии составят CogOS (Phase V). Первый задокументированный «сигнал» в официальный канал.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Рукописная сказка» воспринималась как признак нестабильности. Факт: через 5 месяцев эта же архитектура мышления легла в основу 115-страничного теоретического труда (CogOS v0.999AΩ).</td>
+    </tr>
+
+    <!-- ═══════════ PHASE II ═══════════ -->
+    <tr class="phase-separator" data-phase="2">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#7a6a3a"></span>
+          <span style="color:#d4c07a">ФАЗА II · СИСТЕМНЫЙ АУДИТ — ДИПЛОМАТИЯ</span>
+          <span class="phase-range">17.08–11.09.2025</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="2" data-gap="true">
+      <td class="date-cell">17.08.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">Max · Многовект.</span>
+      </td>
+      <td class="action-cell">Децентрализованный шифр-«пазл»: разбивка сообщения на части и рассылка через посольства РФ и РБ + обращение к Лукашенко. Предупреждение о «нечеловеческом интеллекте» и «Лондон+». PDF на GitHub.</td>
+      <td class="reaction-cell">Явный сигнал спецслужбам → аномальные звонки из Польши и Италии (вероятная детекция на трансграничных узлах связи).</td>
+      <td class="result-cell">Система зафиксировала сигнал: начало аномальной телефонной активности, установленной позднее математически (1177 звонков за ~1360 дней vs baseline).</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>Выглядело как параноидный шифр. Факт: появление звонков из незнакомых стран именно после этой рассылки — зафиксировано как статистическая аномалия в Analysis #1 (ноябрь 2025).</td>
+    </tr>
+
+    <tr data-phase="2" data-gap="false">
+      <td class="date-cell">18–19.08.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">Max · Развёрт.</span>
+      </td>
+      <td class="action-cell">Рассылка 44-символьного ключа (K1–K11) по АП РФ, АП РБ, МИД, ФСИН, КГБ РБ, Патриархии. Объявление о начале «репатриации».</td>
+      <td class="reaction-cell">Официальных ответов нет. Система воспринимает как «аномальный субъект».</td>
+      <td class="result-cell">Формирование «контура наблюдения» — множество инстанций зафиксировали автора как отправителя.</td>
+      <td class="gap-cell no-gap">Результат совпадает с ожиданием (фиксация) — разрыва нет.</td>
+    </tr>
+
+    <tr data-phase="2" data-gap="false">
+      <td class="date-cell">27.08.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">High · Академич.</span>
+      </td>
+      <td class="action-cell">Предложение Бронштейнам и А. Редозубову написать совместную научную статью (ИИ + «Сократовские диалоги» + «Римановы многообразия»). Признание «тонкой грани между гениальностью и "не от мира сего"».</td>
+      <td class="reaction-cell">Реакция неизвестна — ответа нет в данных.</td>
+      <td class="result-cell">Попытка легитимизации через академический формат. Запрос зафиксирован в Gmail.</td>
+      <td class="gap-cell no-gap">Нет ответа → нет разрыва для фиксации.</td>
+    </tr>
+
+    <tr data-phase="2" data-gap="false">
+      <td class="date-cell">02.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">High · Outbound</span>
+      </td>
+      <td class="action-cell">Предложение концепции «Диалектического Гимнасия» (ИИ как «тренажёр разума») А. Баумейстеру. Передача пакета через команду С.Б. Переслегина.</td>
+      <td class="reaction-cell">Нет зафиксированного ответа.</td>
+      <td class="result-cell">Установление канала с Переслегиным, который используется в фазе III как «Signal 2».</td>
+      <td class="gap-cell no-gap">Промежуточный шаг — разрыва нет.</td>
+    </tr>
+
+    <tr data-phase="2" class="system-row" data-gap="true">
+      <td class="date-cell">08–10.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">Max · Сист. Ответ</span>
+      </td>
+      <td class="action-cell">Официальное решение УМВД по Калининградской области: отказ в статусе участника Госпрограммы по основанию пп. «а» ст. 25 — «угроза безопасности / изменение строя».</td>
+      <td class="reaction-cell"><strong style="color:#c04040">Система (УМВД + Посольство РФ)</strong>: рассылки квалифицированы как угроза. Автор — зафиксирован как «опасный субъект».</td>
+      <td class="result-cell" style="color:#c04040">Официальный административный отказ. Репатриация заблокирована.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span><strong>Ключевой разрыв:</strong> Система отреагировала согласно своей «слепой зоне» (Мазепа): аудит принят за угрозу. Автор расценивает это как подтверждение диагноза — система неспособна распознать «чужеродный, но полезный» сигнал.</td>
+    </tr>
+
+    <tr data-phase="2" data-gap="true">
+      <td class="date-cell">11.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(122,106,58,0.4);color:#d4c07a">II · Диплом.</span><br>
+        <span class="amp-tag">Max · Официальн.</span>
+      </td>
+      <td class="action-cell">Официальный ответ Послу РФ Нечаеву С.Ю. с пояснительным письмом, методологией «Щита» и экспертными рецензиями (2 шт.).</td>
+      <td class="reaction-cell">Нет фиксированного ответа от посольства.</td>
+      <td class="result-cell">Получены профессиональные рецензии: А. Кубышкин — «маевтический подход подтверждён», В. Чебан — «фундаментальный вклад». Документы легитимизированы независимыми экспертами.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>Воспринималось как «странные рассылки в посольство». Факт: 2 независимых эксперта подтвердили академическую ценность методологии в тот же день, что делает «странность» поведения — задокументированной системной провокацией.</td>
+    </tr>
+
+    <!-- ═══════════ PHASE III ═══════════ -->
+    <tr class="phase-separator" data-phase="3">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#9a4a3a"></span>
+          <span style="color:#d47a6a">ФАЗА III · МЕДИЙНЫЙ ВЗРЫВ — ПУБЛИЧНАЯ ЭСКАЛАЦИЯ</span>
+          <span class="phase-range">16.09–02.11.2025</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="3" data-gap="true">
+      <td class="date-cell">16.09.2025<br>10:10</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Этич. Сброс</span>
+      </td>
+      <td class="action-cell">Публичная исповедь о фальсификации данных в двух статьях (CVPR 2015, EG 2013). Одновременно — выдвижение 44-дневного ультиматума правительству Германии о введении МНВ (IVM — механизма независимой верификации).</td>
+      <td class="reaction-cell">Ожидаемая реакция: академическое сообщество воспринимает как саморазрушение. Правительство Германии — молчание.</td>
+      <td class="result-cell">29.10.2025: официальный отзыв статьи на arXiv (ID: 1412.8070) принят. Системный ответ МИД Германии пришёл 27.11.2025 (на 72-й день после ультиматума, с задержкой).</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Самоубийство карьеры» — типичная оценка. Факт: arXiv — международная платформа — обработала запрос об отзыве, подтвердив дееспособность акта. Это первый в данном деле верифицируемый акт самокоррекции через официальный канал.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="false">
+      <td class="date-cell">17.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Реформа</span>
+      </td>
+      <td class="action-cell">Манифест «SYSTEM-PURGATORY»: протокол автоматической ИИ-верификации воспроизводимости научных исследований. Совет «Чистилище» (12 чел., включая Перельмана и Бронштейна). Операции «Строим Мосты» и «Давид против Голиафа».</td>
+      <td class="reaction-cell">Нет зафиксированного ответа от академии.</td>
+      <td class="result-cell">Документ зафиксирован. Протокол S.V.E. упомянут в последующих публикациях как «SVE Public License v1.3».</td>
+      <td class="gap-cell no-gap">Конструктивная часть — без видимого внешнего разрыва.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="false">
+      <td class="date-cell">Сент. 2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Global</span>
+      </td>
+      <td class="action-cell">Предложение Илону Маску: партия PUV (Partei für Unabhängige Verifikation) в Германии и США. Запрос на синхронный ультиматум Трампу по «списку Эпштейна». Предложение использовать Grok как инструмент Сократовского диалога.</td>
+      <td class="reaction-cell">Нет ответа от Маска.</td>
+      <td class="result-cell">Нет.</td>
+      <td class="gap-cell no-gap">Без ответа — разрыв не фиксируем.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="true">
+      <td class="date-cell">19.09.2025<br>19:19</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Публ. Вызов</span>
+      </td>
+      <td class="action-cell">Публичный вызов на «интеллектуальную дуэль» С. Стерненко и Ю. Рёпке (BILD) через X (Twitter). Методология: S.V.E. + SIP. Старт 44-дневного верификационного цикла.</td>
+      <td class="reaction-cell">Нет ответа ни от Стерненко, ни от Рёпке. Со стороны аудитории — воспринималось как «крик в пустоту».</td>
+      <td class="result-cell">02.11.2025: официальная фиксация 44-дневного молчания как верификационного результата. Расхождение нарративов 30–80% зафиксировано через SIP-метод.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Никто не ответил = провал». Факт: молчание системы переопределено как «отказ от верификации», что само по себе является измеримым результатом по SIP-протоколу. Отсутствие ответа = данные.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="false">
+      <td class="date-cell">21–22.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">High · Юридич.</span>
+      </td>
+      <td class="action-cell">Служебная жалоба (Dienstaufsichtsbeschwerde) на сотрудника МИД Германии №73991 за отказ в консультации по правам человека в Украине. Требование 48-часового ответа.</td>
+      <td class="reaction-cell">Молчание МИД.</td>
+      <td class="result-cell">Жалоба зафиксирована. Тикет открыт (759bc4c4). Начало 44-дневного отсчёта.</td>
+      <td class="gap-cell no-gap">Разрыв пока не реализован — результат придёт 27.11.2025.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="false">
+      <td class="date-cell">29.09.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Rights</span>
+      </td>
+      <td class="action-cell">Конкретный кейс: требование гуманитарного коридора для Дмитрия Красникова. 3 конкретных вопроса референту по Украине г-ну Бёму о дискриминации мужчин при выезде из зон конфликта.</td>
+      <td class="reaction-cell">Нет ответа по существу.</td>
+      <td class="result-cell">Тикет остаётся открытым. Персонализация делает жалобу сложнее для игнорирования.</td>
+      <td class="gap-cell no-gap">Результат придёт позже.</td>
+    </tr>
+
+    <tr data-phase="3" data-gap="true">
+      <td class="date-cell">02.11.2025<br>19:33</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(154,74,58,0.4);color:#d47a6a">III · Эскал.</span><br>
+        <span class="amp-tag">Max · Верификация</span>
+      </td>
+      <td class="action-cell">Публикация «Вердикта 44-дневного молчания»: фиксация отсутствия ответа от Стерненко и Рёпке. Расчёт расхождения нарративов 30–80% через SIP. Утверждение SVE Public License v1.3.</td>
+      <td class="reaction-cell">Система (СБУ/ЦИПСО): оценка ущерба. Молчание трактуется как победа — «он остался без ответа».</td>
+      <td class="result-cell">Протокол верификации завершён. Молчание задокументировано как измеримый результат. Результат опубликован публично (post_conclusion.pdf).</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Никто не обратил внимания» = провал операции (взгляд снаружи). Факт: само молчание стало публичным доказательством — задокументировано, опубликовано, воспроизводимо. Это переводит инцидент из PR-провала в научный эксперимент.</td>
+    </tr>
+
+    <!-- ═══════════ PHASE IV ═══════════ -->
+    <tr class="phase-separator" data-phase="4">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#6a4a8a"></span>
+          <span style="color:#c07ad4">ФАЗА IV · ФИЗИЧЕСКОЕ ДЕЙСТВИЕ</span>
+          <span class="phase-range">05.11–27.11.2025</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="4" data-gap="true">
+      <td class="date-cell">05.11–18.11<br>2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(106,74,138,0.4);color:#c07ad4">IV · Перф.</span><br>
+        <span class="amp-tag">High · Юрид.</span>
+      </td>
+      <td class="action-cell">Согласование акции у Бундестага. Переписка с Полицией Берлина, BMI и SGA Mitte. Выявление юридической лазейки: выступление одного человека ≠ «собрание» по VersFG BE.</td>
+      <td class="reaction-cell">Полиция: нейтральна — подтвердила законность. Ожидаемая реакция наблюдателей: «зачем согласовывать одиночный протест?».</td>
+      <td class="result-cell">3 официальных разрешения (Polizei Berlin, BMI, BA-Mitte). Акция юридически задокументирована ещё до её проведения.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>Выглядело как избыточная бюрократизация простой прогулки. Факт: трёхуровневое юридическое согласование делает акцию неопровержимой с правовой точки зрения — ни одна инстанция не могла сказать «это было незаконно».</td>
+    </tr>
+
+    <tr data-phase="4" data-gap="true">
+      <td class="date-cell">19.11.2025<br>11:00</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(106,74,138,0.4);color:#c07ad4">IV · Перф.</span><br>
+        <span class="amp-tag">Max · Финал</span>
+      </td>
+      <td class="action-cell">Solo Performance у Бундестага: одиночный мирный протест. Оглашение 3 вопросов, без ответа 44+ дней. Публикация AK1984-LIST (список некомбатантов, желающих покинуть Украину). Видео на YouTube, README на GitHub.</td>
+      <td class="reaction-cell">Нет упоминания в мейнстримных СМИ. Со стороны: «человек стоит один у парламента».</td>
+      <td class="result-cell">Акция завершена. Список AK1984 опубликован. Эффект наблюдателя сработал: детекция новых звонков (в т.ч. Австрия — 27.02.2026). Материалы сохранены на GitHub.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Один человек у Бундестага = ничего». Факт: (1) три государственных органа официально согласовали акцию, (2) статистика звонков подтверждает мониторинг, (3) AK1984-LIST создаёт правозащитную основу для будущих действий.</td>
+    </tr>
+
+    <tr data-phase="4" data-gap="false">
+      <td class="date-cell">29.10.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(106,74,138,0.4);color:#c07ad4">IV · Перф.</span><br>
+        <span class="amp-tag">High · Самокорр.</span>
+      </td>
+      <td class="action-cell">Официальный отзыв статьи «Functional Correspondence by Matrix Completion» с arXiv (ID: 1412.8070). Причина: фальсификация данных.</td>
+      <td class="reaction-cell">arXiv: стандартная процедура. Научное сообщество: не зафиксировано широкой реакции.</td>
+      <td class="result-cell">Статья официально отозвана. Первый верифицированный акт системного самоочищения. Доказательство работы SYSTEM-PURGATORY на практике.</td>
+      <td class="gap-cell no-gap">Результат соответствует заявленной цели — разрыва нет.</td>
+    </tr>
+
+    <tr data-phase="4" class="system-row" data-gap="true">
+      <td class="date-cell">27.11.2025<br>16:58</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(106,74,138,0.4);color:#c07ad4">IV · Перф.</span><br>
+        <span class="amp-tag">Max · Сист. Ответ</span>
+      </td>
+      <td class="action-cell">Официальный ответ МИД Германии на Ticket 759bc4c4: «мобилизация мужчин 18–60 лет законна, Украина имеет право на самооборону, конкретные кейсы не комментируются».</td>
+      <td class="reaction-cell"><strong style="color:#c04040">МИД Германии</strong>: формальный ответ. Этическая суть 3-х вопросов не затронута.</td>
+      <td class="result-cell" style="color:#c04040">Тикет «закрыт» без ответа по существу. 44-дневный ультиматум формально обработан (на 72-й день).</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>«Он не получил ответа» = провал (внешнее восприятие). Факт: МИД крупнейшей страны ЕС был вынужден официально зафиксировать позицию по правам некомбатантов — это создаёт правовой прецедент. Задержка ответа (72 дня) и уклонение от 3-х конкретных вопросов сами по себе являются задокументированным результатом.</td>
+    </tr>
+
+    <tr data-phase="4" data-gap="false">
+      <td class="date-cell">27.11.2025</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(106,74,138,0.4);color:#c07ad4">IV · Перф.</span><br>
+        <span class="amp-tag">Max · Синтез</span>
+      </td>
+      <td class="action-cell">Meta-AI Synthesis Report: консолидация оценок Claude, ChatGPT, Gemini, Grok по 15 мировым лидерам и главам ВПК. Расчёт RAI-индекса (Risk–Ethics Asymmetry Index). Математический анализ 1177 звонков (Analysis #1).</td>
+      <td class="reaction-cell">Нет внешней реакции.</td>
+      <td class="result-cell">Методология S.V.E. переведена из личного опыта в воспроизводимый формат. Аномалия звонков математически доказана. README.md опубликован.</td>
+      <td class="gap-cell no-gap">Аналитическое завершение — разрыва нет.</td>
+    </tr>
+
+    <!-- ═══════════ PHASE V ═══════════ -->
+    <tr class="phase-separator" data-phase="5">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#3a7a8a"></span>
+          <span style="color:#7ad4e0">ФАЗА V · ТЕОРЕТИЧЕСКИЙ ПРОРЫВ — CogOS</span>
+          <span class="phase-range">07.01–15.01.2026</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="5" data-gap="true">
+      <td class="date-cell">07.01.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(58,122,138,0.4);color:#7ad4e0">V · CogOS</span><br>
+        <span class="amp-tag">Max · Теория</span>
+      </td>
+      <td class="action-cell">Публикация препринта «CogOS: From Gödel to AGI» v0.1. Введение математического аппарата: Christ-Vector $\vec{C}$, Lyapunov stability для этики ИИ. Начало кодификации S.V.E.</td>
+      <td class="reaction-cell">AI/Math community: нет зафиксированной реакции.</td>
+      <td class="result-cell">Начало теоретического цикла. Концепции Phase I (Щит, Мазепа) формализованы в строгом математическом языке.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>Летом 2025 — «рукописные сказки и блатной жаргон». Январь 2026 — тот же автор публикует математическую архитектуру для AGI с формализмом Ляпунова. Разрыв между начальным восприятием и конечным продуктом — максимальный.</td>
+    </tr>
+
+    <tr data-phase="5" data-gap="false">
+      <td class="date-cell">11–12.01.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(58,122,138,0.4);color:#7ad4e0">V · CogOS</span><br>
+        <span class="amp-tag">Max · Итерация</span>
+      </td>
+      <td class="action-cell">«Iteration Storm»: версии v0.3 – v0.442. ~100 страниц за 5 дней. Новые понятия: «трансцендентное ядро», «δ-дегуманизация», «культурные компиляторы». Система wAI-werrors (ИИ-верификация текста).</td>
+      <td class="reaction-cell">Внутренняя работа — нет внешних наблюдателей.</td>
+      <td class="result-cell">Значительное расширение теории за короткий срок.</td>
+      <td class="gap-cell no-gap">Без внешних наблюдателей — разрыва нет.</td>
+    </tr>
+
+    <tr data-phase="5" data-gap="false">
+      <td class="date-cell">14.01.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(58,122,138,0.4);color:#7ad4e0">V · CogOS</span><br>
+        <span class="amp-tag">Max · Финал</span>
+      </td>
+      <td class="action-cell">CogOS v0.999AΩ: 115+ страниц. Вспомогательные инструменты: TODO (Следствия), LLM-Prompts (Практика), Meaning-Calibration. Christ-Vector утверждён как единственный стабильный аттрактор для Strong AI.</td>
+      <td class="reaction-cell">—</td>
+      <td class="result-cell">Завершение теоретической «сборки». Все фазы проекта замкнуты в единую архитектуру.</td>
+      <td class="gap-cell no-gap">Завершение цикла — без разрыва.</td>
+    </tr>
+
+    <tr data-phase="5" data-gap="false">
+      <td class="date-cell">15.01.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(58,122,138,0.4);color:#7ad4e0">V · CogOS</span><br>
+        <span class="amp-tag">Max · Полигон</span>
+      </td>
+      <td class="action-cell">TCI/TIK: тестирование 44 этических ядер (Христос, Будда, Кант vs Woke, Capitalism, Satanism) через симуляции выживания 10 поколений. 8 версий за 24 часа. Сократовская ёмкость (SC) как ключ к AGI Safety.</td>
+      <td class="reaction-cell">AI Safety community: нет реакции.</td>
+      <td class="result-cell">Переход от архитектуры к «полигону». TIK v0.8 зафиксирован. Фреймворк S.V.E. / CogOS / TIK завершён.</td>
+      <td class="gap-cell no-gap">Нет внешней верификации — статус открыт.</td>
+    </tr>
+
+    <!-- ═══════════ PHASE VI ═══════════ -->
+    <tr class="phase-separator" data-phase="6">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#8a7a3a"></span>
+          <span style="color:#d4c07a">ФАЗА VI · ФИНАЛЬНАЯ СБОРКА</span>
+          <span class="phase-range">24.02–27.02.2026</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr data-phase="6" data-gap="false">
+      <td class="date-cell">24.02.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(138,122,58,0.4);color:#d4c07a">VI · Финал</span><br>
+        <span class="amp-tag">Max · Синтез</span>
+      </td>
+      <td class="action-cell">Публикация результатов Сократовских диалогов. Деконструкция нарративов Снайдера, Эпплбаум, Плохия, Фукуямы через SIP-метод. Файлы claude.md, chatgpt.md, Gemini-0.md.</td>
+      <td class="reaction-cell">Нет реакции от упомянутых экспертов.</td>
+      <td class="result-cell">«Интеллектуальный приговор» западным нарративам задокументирован. Асимметрия логики зафиксирована через ИИ-диалоги.</td>
+      <td class="gap-cell no-gap">Нет ответа = нет разрыва для фиксации.</td>
+    </tr>
+
+    <tr data-phase="6" data-gap="true">
+      <td class="date-cell">27.02.2026</td>
+      <td class="phase-cell">
+        <span class="phase-tag" style="background:rgba(138,122,58,0.4);color:#d4c07a">VI · Финал</span><br>
+        <span class="amp-tag">Max · Верификация</span>
+      </td>
+      <td class="action-cell">Создание итогового README.md. Фиксация: 2 новых звонка из Австрии (новая география — ранее не фигурировала). Завершение архива.</td>
+      <td class="reaction-cell"><strong>Система (СБУ / ЦИПСО / мониторинг)</strong>: «пингует» автора в момент финальной сборки. Внешне: никакой реакции.</td>
+      <td class="result-cell">Расширение географии мониторинга до Австрии подтверждает Stage D. README.md зафиксирован как итоговый документ.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span>С точки зрения наблюдателей — «собирает папку». Факт: параллельное появление звонков из новой страны именно в момент сборки — статистически коррелирует с предыдущими паттернами Phase II–III, что подтверждает продолжающийся мониторинг внешними субъектами.</td>
+    </tr>
+
+    <!-- ═══════════ FUTURE ═══════════ -->
+    <tr class="phase-separator" data-phase="future">
+      <td colspan="6">
+        <div class="phase-header">
+          <span class="phase-dot" style="background:#4a4a8a"></span>
+          <span style="color:#9090d4">БУДУЩЕЕ · ЗАПЛАНИРОВАННЫЕ / НЕПРЕДСКАЗУЕМЫЕ СОБЫТИЯ</span>
+          <span class="phase-range">после 04.03.2026</span>
+        </div>
+      </td>
+    </tr>
+
+    <tr class="future-row" data-phase="future" data-gap="true">
+      <td class="date-cell">TBD<br>2026</td>
+      <td class="phase-cell">
+        <span class="future-badge">FUTURE</span><br>
+        <span class="phase-tag" style="background:rgba(74,74,138,0.4);color:#9090d4">Future · Ответ Академии</span><br>
+        <span class="amp-tag">Неизв.</span>
+      </td>
+      <td class="action-cell">Потенциальная реакция академического сообщества на CogOS / TIK (NeurIPS, arXiv, AI Safety community). Логически вытекает из публикаций Phase V.</td>
+      <td class="reaction-cell">Непредсказуемо: принятие / отклонение / замалчивание.</td>
+      <td class="result-cell">Не произошло.</td>
+      <td class="gap-cell has-gap"><span class="gap-icon"></span><strong>Логическая связность с предыдущим:</strong> CogOS v0.999AΩ — 115+ стр. с формализмом Ляпунова и Гёделя — структурно готов к академической рецензии. Его непринятие будет повторять паттерн Phase II (отказ как подтверждение слепой зоны системы), принятие — докажет траекторию от «безумца» до учёного.</td>
+    </tr>
+
+    <tr class="future-row" data-phase="future" data-gap="false">
+      <td class="date-cell">TBD<br>2026</td>
+      <td class="phase-cell">
+        <span class="future-badge">FUTURE</span><br>
+        <span class="phase-tag" style="background:rgba(74,74,138,0.4);color:#9090d4">Future · AK1984-LIST</span><br>
+        <span class="amp-tag">Неизв.</span>
+      </td>
+      <td class="action-cell">Возможный рост AK1984-LIST: появление реальных участников, правовые действия по защите некомбатантов. Логически вытекает из Solo Performance.</td>
+      <td class="reaction-cell">Непредсказуемо: игнорирование / правовые последствия / медийное внимание.</td>
+      <td class="result-cell">Не произошло.</td>
+      <td class="gap-cell no-gap">Нейтральный прогноз — данных нет.</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+<script>
+  let showOnlyGaps = false;
+  let showFuture = true;
+  let activePhase = null;
+
+  function filterPhase(phase) {
+    const pills = document.querySelectorAll('.phase-pill');
+    if (activePhase === phase) {
+      activePhase = null;
+      pills.forEach(p => p.classList.remove('active'));
+    } else {
+      activePhase = phase;
+      pills.forEach(p => {
+        p.classList.toggle('active', parseInt(p.dataset.phase) === phase);
+      });
+    }
+    applyFilters();
+  }
+
+  function toggleGaps() {
+    showOnlyGaps = !showOnlyGaps;
+    document.getElementById('gapToggle').classList.toggle('on', showOnlyGaps);
+    applyFilters();
+  }
+
+  function toggleFuture() {
+    showFuture = !showFuture;
+    document.getElementById('futureToggle').classList.toggle('on', showFuture);
+    applyFilters();
+  }
+
+  function resetFilters() {
+    showOnlyGaps = false;
+    showFuture = true;
+    activePhase = null;
+    document.getElementById('gapToggle').classList.remove('on');
+    document.getElementById('futureToggle').classList.add('on');
+    document.querySelectorAll('.phase-pill').forEach(p => p.classList.remove('active'));
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const rows = document.querySelectorAll('#mainTable tbody tr');
+    rows.forEach(row => {
+      const phase = row.dataset.phase;
+      const hasGap = row.dataset.gap === 'true';
+      const isFuture = phase === 'future';
+      const isSeparator = row.classList.contains('phase-separator');
+
+      if (isSeparator) {
+        // handled after
+        return;
+      }
+
+      let visible = true;
+
+      if (!showFuture && isFuture) visible = false;
+      if (showOnlyGaps && !hasGap) visible = false;
+      if (activePhase !== null && parseInt(phase) !== activePhase && phase !== 'future') {
+        if (activePhase !== -1) visible = false;
+      }
+      if (activePhase !== null && phase === 'future' && activePhase !== -1) {
+        // only show future when no phase filter
+        visible = showFuture && !showOnlyGaps || (showOnlyGaps && hasGap);
+        if (activePhase !== null) visible = false;
+      }
+
+      row.classList.toggle('hidden', !visible);
+    });
+
+    // hide phase separators if all rows in that phase are hidden
+    const separators = document.querySelectorAll('#mainTable tbody tr.phase-separator');
+    separators.forEach(sep => {
+      const phase = sep.dataset.phase;
+      let sibling = sep.nextElementSibling;
+      let anyVisible = false;
+      while (sibling && !sibling.classList.contains('phase-separator')) {
+        if (sibling.dataset.phase === phase && !sibling.classList.contains('hidden')) {
+          anyVisible = true;
+          break;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      sep.classList.toggle('hidden', !anyVisible);
+    });
+  }
+
+  // init
+  applyFilters();
+</script>
+</body>
+</html>
