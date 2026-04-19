@@ -205,23 +205,29 @@ Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.avi
 Community/19112025_Berlin_Bundestag_SoloPerformance/reports/**/**/*.webm
 Community/19112025_Berlin_Bundestag_SoloPerformance/video/*.mp4
 Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*.mp4
-
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
 
 # %------------- Opa
-Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*
-Community/OpenLetters/*Ukraine_ we need your su.pdf
-Community/Движ-анализ-хронология_Tutorial/
+# Community/19112025_Berlin_Bundestag_SoloPerformance/reports/metadata/*
+# Community/OpenLetters/*Ukraine_ we need your su.pdf
+# Community/Движ-анализ-хронология_Tutorial/
 
 # Applications/Projects/full_description_processed.md
 # Applications/Projects/full_description.md
 
 
 # 444 day+1 mintue
-Community/Respect_Justice_Peace/dark_place_with_perhaps_lighted_candle*
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ARTISTIC_RAW.txt
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ENCYCLOPEDIA.md
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/WLAMPSTAND.md
-Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTISTIC/*
+# Community/Respect_Justice_Peace/dark_place_with_perhaps_lighted_candle*
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ARTISTIC_RAW.txt
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/ENCYCLOPEDIA.md
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/WLAMPSTAND.md
+# Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTISTIC/*
 
 
 # Community/19112025_Berlin_Bundestag_SoloPerformance/LETTER_444DAYPLUS1MIN.md
@@ -231,14 +237,14 @@ Community/19112025_Berlin_Bundestag_SoloPerformance/working_lampstand/RAW_ARTIST
 # Community/19112025_Berlin_Bundestag_SoloPerformance/*.ots
 
 # 
-Articles/NeurIPS/*
-Articles/NeurIPS-Workshops/*
-Articles/AIES/*
-Articles/FAccT/*
-Articles/*
-**/arXiv/*
-**/S-IBOX/*
-**/NeurIPS/*
+# Articles/NeurIPS/*
+# Articles/NeurIPS-Workshops/*
+# Articles/AIES/*
+# Articles/FAccT/*
+# Articles/*
+# **/arXiv/*
+# **/S-IBOX/*
+# **/NeurIPS/*
 
 #
 # Applications/_FieldNotes/IBOX/ai_analysis*
@@ -247,9 +253,9 @@ Articles/*
 
 
 #
-06032025-README.md.ots
-06032025-signals_potentially_anomaly.yaml.ots
-06032026-hashsum.md.ots
+# 06032025-README.md.ots
+# 06032025-signals_potentially_anomaly.yaml.ots
+# 06032026-hashsum.md.ots
 # > *"Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy."*
 # > — **Revelation 22:11**
 
