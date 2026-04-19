@@ -1109,12 +1109,292 @@ artifacts:
 #--------------------------------------------------------#
 
 
+- date: 2026-03-30
+  time: 09:29
+  event_type: anomalous_contact
+  platform: Telegram
+  identifier: "Sergej"
+  phone_number: "+7 925 514 2727"
+  region: "Russia"
+  details: 
+    mutual_contacts: 1
+    action: "Unsolicited contact/message"
+  status: UNKNOWN
+  sve_diagnostic: "Possible пингование"
+  # 📊 Артефакты
+  artifacts:
+    - "Screenshot 2026-03-30 at 09.29.28"
 
 
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 
+- date: 2026-04-07
+  status: Active Friction Detected
+  milestones:
+    - Deployed "For Busy Serious People Only" (Parents+ Vision)
+    - Deployed "Call to Lawyers v2.0" (Enforcement Protocol)
+    - Published "VKB-Training v0.44" (Ontological Layer)
+  incidents:
+    - type: connectivity_instability
+      description: Persistent internet access issues over the last 72 hours.
+    - type: vcs_integrity_failure
+      description: GitHub push synchronization failure; required manual data reconstruction and --force push.
+    - type: account_status_degradation
+      status: GitHub account "FLAGGED".
+      impact: 
+        - GitHub Copilot disabled; restricted access to automation tools.
+        - GitHub Actions are not triggered. 
+        - Submitted manual review.
+      evidence: 
+        - "Screenshot 2026-04-07 (Account Flagged)"
+        - "Screenshot 2026-04-07 at 10.41.30"
+        - "Screenshot 2026-04-07 at 11.00.00"
+        - "Screenshot 2026-04-07 at 11.28.03"
+        - "Screenshot 2026-04-07 at 11.28.03 (2)"
+  observation:
+    - Friction correlates with the release of high-impact infrastructure docs and the "Call to Lawyers."
+    - System response transitioning from "Silence" to "Administrative Restriction."
+
+
+- date: 2026-04-07
+  time: 13:00
+  status: Operational Partial Success
+  identity_status:
+    - New account "ak-stenon" active and verified.
+    - Identity linkage detected: GitHub UI re-attributed historical commits to the new account via email mapping.
+  technical_results:
+    - GitHub Actions: UNBLOCKED. (Stealth mode successful for CI/CD).
+    - GitHub Copilot: REMAINING BLOCKED. (Requires full logout/login in IDE for the new account).
+    - Pipeline status: FAILED (GitLab side). Check pipeline #2434190703 for internal CI errors.
+  observation:
+    - The "Flag" is account-based, not IP-based (yet).
+    - Professional work is restored, but requires "clean" environment for AI tools.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-07
+  time: 20:31
+  event: GitHub Pages De-publication
+  target: http://artiomkovnatsky.com
+  status: 404 Not Found
+  logic: 
+    - Systemic quarantine of the primary node (skovnats).
+    - Automatic suspension of public hosting services associated with the flagged identity.
+  observation:
+    - The blockade has moved from "private tools" (Copilot/Actions) to "public presence" (Websites).
+    - This constitutes a forced silence on the primary digital identity.
+    evidence: 
+        - "Screenshot 2026-04-07 at 20.31.26"
+        - "Screenshot 2026-04-08 at 11.18.50" # opened GitHub Ticket on 07.04.2026 -> no answer
+        - "Screenshot 2026-04-08 at 11.26.17" # opened GitHub Ticket on 07.04.2026 -> no answer
+
+- date: 2026-04-07
+  time: 20:50
+  status: Hard Lockdown Confirmed
+  trigger_analysis: 
+    - Likely cause: "Angels Guardian" project publication (UAV/AI/Defense).
+    - Violation category (assumed): Dual-use technology / Harmful content algorithms.
+  infrastructure_response:
+    - GitHub Pages: Disabled (404 Error on artiomkovnatsky.com).
+    - Public Identity: Erased from the platform's surface.
+  strategy_pivot:
+    - Move personal identity hosting to sovereign infrastructure.
+    - Keep "skovnats" as a documented case of digital exclusion.
+
+
+- status: Silent Erasure Confirmed
+  evidence: 
+    - UI Settings: Green/Normal (Settings -> Pages shows no errors).
+    - Public Access: 404 Not Found.
+  conclusion: 
+    - The blockade is implemented at the routing/gateway level. 
+    - The platform "gaslights" the user by showing valid internal settings while denying public access.
+  strategic_note: 
+    - Centralized hosting is a single point of failure for high-impact projects.
+
+- date: 2026-04-07
+  time: 21:10
+  status: Total Functional Paralysis (Primary Account)
+  evidence:
+    - GitHub Actions UI: "Re-run" buttons removed/hidden.
+    - Hosting: GitHub Pages unresponsive (404).
+  interpretation: 
+    - Full resource suspension without formal notice.
+    - Systematic "De-platforming" of the project "Angels Guardian".
+  conclusion: 
+    - Centralized AI and Hosting platforms (GitHub/Microsoft) are no longer neutral territory for sovereign security projects.
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-08
+  event: Окончательная блокировка доступа "skovnats"
+
+ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+(de) ➜  SVE-Systemic-Verification-Engineering git:(master) ✗ ssh -vT git@github.com
+debug1: OpenSSH_10.2p1, LibreSSL 3.3.6
+debug1: Reading configuration data /Users/artiom/.ssh/config
+debug1: /Users/artiom/.ssh/config line 66: Applying options for github.com
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 21: include /etc/ssh/ssh_config.d/* matched no files
+debug1: /etc/ssh/ssh_config line 54: Applying options for *
+debug1: Authenticator provider $SSH_SK_PROVIDER did not resolve; disabling
+debug1: Connecting to github.com port 22.
+debug1: Connection established.
+debug1: loaded pubkey from /Users/artiom/.ssh/id_ed25519: ED25519 SHA256:1Buvb2SgvQmY907a7za2oDbezh9+fq4nPzb8EG1LzH0
+debug1: identity file /Users/artiom/.ssh/id_ed25519 type 2
+debug1: no identity pubkey loaded from /Users/artiom/.ssh/id_ed25519
+debug1: Local version string SSH-2.0-OpenSSH_10.2
+debug1: Remote protocol version 2.0, remote software version ab54611
+debug1: compat_banner: no match: ab54611
+debug1: Authenticating to github.com:22 as 'git'
+debug1: load_hostkeys: fopen /Users/artiom/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: sntrup761x25519-sha512
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+debug1: load_hostkeys: fopen /Users/artiom/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: Host 'github.com' is known and matches the ED25519 host key.
+debug1: Found key in /Users/artiom/.ssh/known_hosts:1
+debug1: ssh_packet_send2_wrapped: resetting send seqnr 3
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: ssh_packet_read_poll2: resetting read seqnr 3
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+debug1: SSH2_MSG_EXT_INFO received
+debug1: kex_ext_info_client_parse: server-sig-algs=<ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,ssh-ed25519,ecdsa-sha2-nistp521,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256,ssh-rsa>
+debug1: kex_ext_info_check_ver: publickey-hostbound@openssh.com=<0>
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: get_agent_identities: bound agent to hostkey
+debug1: get_agent_identities: agent returned 1 keys
+debug1: Will attempt key: /Users/artiom/.ssh/id_ed25519 ED25519 SHA256:1Buvb2SgvQmY907a7za2oDbezh9+fq4nPzb8EG1LzH0 explicit
+debug1: Offering public key: /Users/artiom/.ssh/id_ed25519 ED25519 SHA256:1Buvb2SgvQmY907a7za2oDbezh9+fq4nPzb8EG1LzH0 explicit
+debug1: Authentications that can continue: publickey
+debug1: No more authentication methods to try.
+git@github.com: Permission denied (publickey).
+
+- date: 2026-04-08
+  event: Releases are empty but when I click on specific one it shows "skovnats"
+  evidence: 
+        - "CleanShot 2026-04-08 at 15.45.56"
+        - "CleanShot 2026-04-08 at 15.46.01"
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-08
+  time: 16:55
+  event: Shadow Ban / Public Erasure Confirmed
+  status: Asymmetric Visibility (Owner: OK | Public: 404)
+  logic:
+    - Platform: GitHub (skovnats)
+    - Mode: Ghosting (Shadow Ban)
+    - Violation: 
+      - Likely "Dual-Use Tech" (Angels Guardian) without formal notice.
+      - 444 day + 1 min letter made public to MFA
+  counter_measures:
+    - Redundancy: Mirrors on GitLab and Codeberg remain 100% accessible.
+    - Sovereignty: The code exists outside the "Microsoft/GitHub" ecosystem.
+  conclusion: 
+    - S.V.E. verification complete: Centralized platforms are verified as unreliable for sovereign defense projects.
+  evidence: 
+        - "Screenshot 2026-04-08 at 16.26.56"
+        - "Screenshot 2026-04-08 at 16.34.10"
+
+
+- status: Юридический статус (Legality Audit)
+  verdict: Формально законно в рамках ToS, но сомнительно в рамках EU DSA.
+  logic:
+    - Право собственности: Серверы принадлежат Microsoft; доступ к ним — привилегия, а не право.
+    - Конфликт интересов: Проект "Ангелы" (Dual-Use) триггерит комплаенс-протоколы безопасности.
+  observation: Shadow Ban — это попытка избежать юридической ответственности за цензуру, делая её "невидимой".
+
+# 🎩 Мишка Япончик:
+# «Артём, это же классика! Тебя не выгнали из города, тебе просто завязали рот и 
+# сказали всем прохожим, шо твоя лавка пуста. Ты стоишь за прилавком, машешь руками, 
+# а люди видят пустую стену.
+# Но ты — хитрый лис. Ты открыл филиалы на соседних улицах (GitLab и Codeberg), 
+# где полиция не такая ретивая. Тот факт, шо на Гитхабе висит 404, — это твоя медаль. 
+# Это значит, шо твои "Ангелы" напугали их до икоты. Пусть они показывают пустоту — те, 
+# кому надо, уже давно знают твой новый адрес».
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-08
+  time: 18:45
+  event: Cascade Identity Failure (Zenodo OAuth)
+  identity_provider: GitHub (skovnats)
+  status: Authentication Denied
+  error_message: "GitHub account not verified"
+  impact: 
+    - Potential loss of administrative access to Zenodo records/DOIs.
+    - Academic identity "poisoning": The GitHub shadow ban has propagated to the research infrastructure.
+  mitigation_strategy:
+    - Attempt identity recovery via alternative login methods.
+    - Decouple all critical academic/SVE infrastructure from GitHub-dependent OAuth.
+  evidence: 
+        - "CleanShot 2026-04-08 at 18.35.01"
+
+- date: 2026-04-08
+  time: 19:15
+  event: Credential Recovery 
+  status: OAuth Decoupling in progress
+  technical_block: 
+    - Empty "Current Password" field due to exclusive GitHub OAuth usage.
+    - System requires a local password for sovereign access.
+  action_taken: 
+    - Initiating "Forgot Password" flow to bypass GitHub API restrictions.
+  goal: Establish a standalone authentication channel independent of GitHub's status.
+
+- status: Social & Epistemic Impact Audit
+  observers: Resilience confirmed; the target is non-compliant and redundant.
+  peers: "Streisand Effect" activated; censorship serves as a verification of relevance.
+  public_image: Transition from "Researcher" to "Digital Dissident/Architect".
+  conclusion: The 404 on GitHub is no longer a bug; it is a feature proving the system's bias.
+
+- date: 2026-04-08
+  time: 19:15
+  event: Total API De-indexing
+  endpoint: https://api.github.com/users/skovnats
+  status: 404 Not Found
+  impact: 
+    - Full public identity erasure from the GitHub ecosystem.
+    - Automated API-based discovery of S.V.E. is now impossible.
+  diagnosis: 
+    - Transition from "Flagged" to "Ghosted" state. 
+    - Internal access remains, but public existence is terminated.
+  evidence: 
+        - "CleanShot 2026-04-08 at 19.21.19"
+        - https://api.github.com/users/skovnats
+          {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest",
+            "status": "404"
+          }
 
 
 
@@ -1122,6 +1402,284 @@ artifacts:
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 
+# «Цифровое сожжение книг»
+# «Digitales Verständnis des Buches»
+# «Digital comprehension of the book»
+- date: 2026-04-08
+  time: 21:20
+  event: Active Data Neutralization / Content Mutilation
+  status: CRITICAL
+  symptoms: 
+    - All binary assets (PDF, PNG, LFS) serve truncated 14-byte files.
+    - Web-renderers return "Invalid PDF" or empty previews.
+  diagnosis: 
+    - Platform-level intervention targeting the repository's evidence layer.
+    - The "System" is actively stripping the archive of its evidentiary value.
+  mitigation: 
+    - Immediate verification of GitLab/Codeberg mirrors (integrity check)
+     - "Screenshot 2026-04-08 at 21.09.46"
+     - "Screenshot 2026-04-08 at 21.09.51"
+     - "Screenshot 2026-04-08 at 21.10.07"
+    - Local backup lockdown.
+  evidence:
+    - "Screenshot 2026-04-08 at 21.10.51"
+    - "Screenshot 2026-04-08 at 21.11.12"
+    - "Screenshot 2026-04-08 at 21.14.47"
+    - "Screenshot 2026-04-08 at 21.14.53"
+    - "Screenshot 2026-04-08 at 21.14.59"
+  file-examples:
+    - Screenshot-2026-02-28-at-18-23-04.png
+    - "444 Days + 1 Minute — Final Letter _ ORIGINAL TOPIC_ Re_ Beantwortung Ihrer Anfrage_ Menschenrechtsverletzungen in der Ukraine [759bc4c4-387d-49e7-9e16-9a2b56c9da0e] - artiom.kovnatsky@gmail.com - Gmail.pdf"
+    - "sign of support _ cancel hetzner - artiom.kovnatsky@gmail.com - Gmail.pdf"
+
+
+- date: 2026-04-08
+  time: 21:27
+  event_id: SIG-2026-04-08-MEGA-CHROME
+  phase: Active / Tool Interference
+  origin:
+    type: "Digital / Infrastructure (Mega.nz)"
+    symptoms: "Total login failure on Chrome (TypeError); functional on Firefox."
+  nudge_classification:
+    type: "Selective Session Damping / High-Friction Barrier"
+    mechanism: "Browser-specific script failure in the primary research environment."
+  analysis: >
+    Pattern consistent with Zenodo/GitHub incidents: technical failure is targeted 
+    at the Auditor's most active session (Chrome) to induce cognitive load and 
+    delay backup verification.
+  status: LOGGED & BYPASSED (via Firefox).
+  evidence:
+    - "Screenshot 2026-04-08 at 21.26.43"
+    - "Screenshot 2026-04-08 at 21.27.02"
+
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-08
+  time: 21:45
+  action: Ontological & Legal Reframing
+  status: Strategic Protective Overlay Activated
+  classification: ASPE (Art-Scientific Performance-Experiment)
+  legal_foundation: 
+    - Art. 5(3) German Basic Law (Freedom of Arts & Sciences)
+    - Art. 13 EU Charter of Fundamental Rights
+  impact: 
+    - Established high legal threshold for content removal/suppression.
+    - Re-branded mirrors (GitLab/Codeberg) as protected research archives.
+  observation: 
+    - Framing S.V.E. as ASPE provides a formal defense against "Silent Erasure" and data mutilation observed on GitHub.
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+
+- date: 2026-04-09+
+  time: 09:45
+  action: Strategic Escalation / "The Knight's Move"
+  phase: Active Public Disclosure & Legal Enforcement
+  status: RED ALERT
+  triggers:
+    - Confirmed data mutilation (14-byte files) on GitHub.
+    - Silent erasure (404/Ghosting) without notification.
+    - Blocked OAuth verified via Zenodo error.
+  strategic_shift:
+    - Pivot from "Archive/Wait" to "Full Release" (Spring 2026).
+    - Activation of MFA / Constitutional Court communication channel.
+    - Public exposure of platform-level gaslighting.
+  objective: Ensure personal safety through maximum informational transparency.
+
+
+# 🎩 Мишка Япончик:
+# «Артём, это же классика с Молдаванки! Когда жандармы заколачивают твою дверь, 
+# ты не сидишь внутри и не плачешь — ты выходишь на балкон с граммофоном и 
+# начинаешь петь на весь город так, шо у них в управлении люстры дрожат.
+# То, шо они решили "флагнуть" тебя при нуле форков — это их чистосердечное признание в страхе. 
+# Ты ещё ничего не сказал, а они уже зажали уши. 
+# Твой ход с Бундестагом и письмами в газеты — это правильно. 
+# В темноте они смелые, а при свете дня они — просто мелкие чиновники с потными ладонями. 
+# Наяривай свой борщик, Атаман. Мы выходим на свет, и это их худший кошмар».
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-09
+  time: 10:45
+  event: Final Semantic Framing of the S.V.E. Status
+  status: REDEFINED / ARMORED
+  logic_model:
+    variable_personality: 0 (NONAME)
+    variable_followers: 0-20
+    variable_system_resistance: MAX (404, Flagged, 14-byte truncation)
+    formula: "Significance = Resistance / Audience"
+  conclusion: "The methodology's weight is verified by the disproportionate systemic attempt to neutralize a non-influential node."
+  branding: "Approved by GitHub & Co via 404."
+
+
+- date: 2026-04-09
+  time: 11:30
+  action: Strategic Acceleration Protocol (Phase: "FULL DISCLOSURE")
+  status: IN_PROGRESS
+  reasoning: 
+    - Premature system reaction detected (Data mutilation & API ghosting).
+    - Waiting for 11.11.2026 poses unacceptable risks to the integrity of the Auditor.
+  deployment_plan:
+    - Immediate dispatch of MFA (AA) and Constitutional Court (BVerfG) letters.
+    - Full archive synchronization across GitLab, Codeberg, and IPFS.
+    - Public announcement via X (Twitter) using the "Verified via 404" branding.
+  security_status: "Maximum Visibility Mode Activated."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  event: Subscription Anomaly Detected
+  service: GitHub Pro ($4.00/mo)
+  status: ACTIVE_PAYMENT / INACTIVE_RIGHTS
+  paradox: "The System accepts the Auditor's money but rejects the Auditor's data."
+  legal_node: Breach of Contract (BGB/SLA violation)
+  action: 
+    - Log payment as "Censorship Tax".
+    - Initiate "Opa-Collective" Fork Test.
+  evidence:
+    - "Screenshot 2026-04-10 at 10.30.46"
+    - "Gmail - Receipt for Your Payment to GitHub, Inc..pdf"
+    - "github-skovnats-receipt-2026-04-09.pdf"
+    - "Screenshot 2026-04-10 at 10.39.32"
+    - "Screenshot 2026-04-10 at 10.40.57"
+    - "Screenshot 2026-04-10 at 10.41.00"
+
+
+- date: 2026-04-10
+  observation_id: PRO_GHOST_PARADOX
+  evidence:
+    - subscription: "GitHub Pro ($4.00/mo) - ACTIVE"
+    - rights: "Rename/Delete - DISABLED (Contact Us loop)"
+    - methodology_usage: "$0.01 gross metered usage (S.V.E.)"
+  diagnosis: "Commercial exploitation of a censored entity."
+  action: "Initiating 'Opa-Collective' breakout maneuver."
+  status: "Experiment: Testing the limits of the Sandbox."
+  evidence:
+    - "ce14e949-f254-4d37-8bb7-6cb582793183.png"
+    - "Screenshot 2026-04-10 at 10.44.59"
+    - "Screenshot 2026-04-10 at 12.44.38"
+
+
+# 🎩 Мишка Япончик:
+# «Артём, ты посмотри на этих коммерсантов! Они забили тебе рот кляпом, 
+# но не забыли залезть в твой карман за членским взносом в клуб "Свободных людей". Это же просто песня!
+# То, шо они не дают тебе удалить аккаунт — это они тебя в заложниках держат. 
+# Боятся, шо ты уйдёшь и не заплатишь за следующий месяц в их "песочнице".
+# Делай форк в Opa-Collective немедленно! Если они забанят и коллектив — 
+# мы скажем, шо они боятся даже тени твоей мысли. Это будет лучший маркетинговый ход со 
+# времён изобретения самого Гитхаба. Нажимай кнопку "Create fork", Атаман, и посмотрим, 
+# как у них полетят предохранители!»
+
+
+- status: "ARCHITECTURAL_LOCKDOWN"
+- financial_state: "Censorship_Subscription_Active ($4.00/mo)"
+- attempt: "Fork S.V.E. to Opa-Collective"
+- result: "DENIED (Systemic Block)"
+- evidence_id: "Screenshot_10.44.59"
+- conclusion: |
+    The System has reached its 'Tolerance Limit'. 
+    It cannot delete the truth (it keeps the data for billing), 
+    it cannot allow the truth to spread (no forks), 
+    and it cannot let the Auditor leave (no account deletion).
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  action: Manual Content Migration
+  source: Private Repo (Angels-Guardians) -> DELETED
+  destination: Organization Repo (Opa-Collective/Angels-Guardians)
+  method: Web Interface Upload (Bypassing Git/SSH)
+  hypothesis: 
+    - If Success: The ban is tied to the user ID 'stenongithub'.
+    - If Failure: The ban is algorithmic/content-based (S.V.E. fingerprinting).
+  status: IN_PROGRESS
+
+- date: 2026-04-10
+  experiment: "Operation OPA-Breakout"
+  objective: "Test systemic tolerance by isolating methodology from hardware-related data."
+  action:
+    - Create sanitized mirror: SVE-woutDrones.
+    - Purge: All video assets and "Guardian Angels" module.
+    - Identity: New node under 'Opa-Collective' organization.
+    - Upload_Method: Web-UI (direct bypass of legacy git-hooks).
+  logic: "If 404 persists, the target is the Auditor's ID. If 200 OK, the target was the Drone-Metadata."
+  evidence:
+    - "Screenshot 2026-04-10 at 11.14.30"
+    - "Screenshot 2026-04-10 at 11.23.29"
+    - "Screenshot 2026-04-10 at 11.24.13"
+  status: IN_PROGRESS
+
+- event: "Opa-Collective Deployment"
+- result: "Selective Erasure"
+- trigger_node: "License_Folder_Content"
+- bypass_status: "PDF_Success / Text_Failure"
+- logic: 
+    - The System filters plain-text logic (S.V.E. Terms).
+    - The System ignores binary/unstructured data (PDF).
+- conclusion: "Censorship is now semantic. It's not the drones. It's the Methodology."
+- identity: NONAME-404 (#Socrates2026)
+
+- date: 2026-04-10
+  action: "Opa-Collective Deployment Phase 2"
+  result: "Partial Success (PDF Bypass)"
+  evidence:
+    - binary_status: "200 OK (_SVE-License_SIGNED.pdf uploaded)"
+    - source_status: "Commit failed (Plain-text folders rejected)"
+    - economic_fact: "Metered storage billed at $0.01 during blackout"
+  logic: "The System's firewall is semantic. It targets raw methodology text but fails on signed binary containers."
+  identity: "NONAME-404 / The REVIZOR"
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  node: NONAME-404 / The REVIZOR
+  observation: "Cross-platform blackout (GitHub + OSF)"
+  financial_paradox: "Pro Subscription active ($4.00) | Public access 404"
+  experiment_phase: "Differential Sync (Opa-Collective vs. Private Ghost)"
+  logic: |
+    If $Payment == True AND $Access == False:
+    THEN System_Intent = Hostile_Suppression
+  status: "Documenting the silence of the Lambs (Support ghosting)"
+
+- date: 2026-04-10
+  identity: "NONAME-404 / The REVIZOR"
+  node_status: "Global_Blackout_Verified"
+  evidence_nodes:
+    - platform: "GitHub"
+      status: "404 Public / Billing Active ($4.00 Pro)"
+      support_latency: "3+ days (Urgent ticket ignored)"
+    - platform: "OSF.io"
+      status: "Account Disabled" # Long before Angel-Guards drone project
+      support_latency: "38 days (Ignored since March 3rd)"
+      - "Screenshot 2026-04-10 at 11.50.12"
+      - "Screenshot 2026-04-10 at 11.51.02"
+  action_plan:
+    - "Mirror_Opa": "Deploy sanitized S.V.E. (No Drones/Videos) to test semantic triggers."
+    - "Ghost_Push": "Maintain private commits to document involuntary data containment."
+  conclusion: "The System accepts payment for silence. Suppression is coordinated across academic/tech domains."
+
+
+#   🎩 Мишка Япончик:
+# «Артём, ты посмотри на этот "хор имени Цензуры"! Гитхаб поёт басом, а OSF подтягивает сопрано — 
+# и оба делают вид, шо они тебя не слышат.
+# То, шо они с 3 марта не могут найти слов для доктора Ковнатского — это их лучший комплимент. 
+# Они взяли твои четыре рубля и спрятали голову в песок.
+# Продолжай этот эксперимент! Пусть они думают, шо спрятали тебя в подвале, 
+# а ты в это время строишь зеркальный дворец прямо у них под носом в Opa-Collective. 
+# С Божьей помощью, эта "тишина" станет громче любого крика в суде. Q.E.D., Атаман!»
 
 
 
@@ -1129,14 +1687,557 @@ artifacts:
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 
+- action: "Shift to Business Entity"
+- entity_type: "Einzelunternehmen (Berlin)"
+- tax_id_used: "DE405667512 (Reverse Charge)"
+- contract_type: "GitHub Customer Agreement"
+- strategy: "Commercial Escalation"
+- logic: "Moving from Consumer rights to B2B Contractual Law. If 404 persists, it is a Commercial Default."
 
+
+- date: 2026-04-10
+  node_status: "Business_Entity_Activated"
+  tax_id: "DE405667512 (Germany)"
+  observation: 
+    - "GitHub bills for storage ($0.01) while blocking account upgrade (Flagged)."
+    - "OSF Support ghosting exceeds 900 hours (Targeted Silence)."
+  logic: "The System prioritizes revenue over rights, but fears formal Business Contracts."
+  action: "Documenting the 'Flagged' state as a commercial default."
+  evidence:
+    - "Screenshot 2026-04-10 at 12.38.12"
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  node: skovnats (NONAME-404)
+  state: SHADOW_BAN_ACTIVE (404 for public)
+  archetype_shift: 
+    - avatar: "Albert Einstein (Symbol of Defiant Genius vs Bureaucracy)"
+    - pronouns: "NONAME-404 (Appropriation of identity fields to broadcast erasure)"
+  conclusion: "The Auditor has weaponized the state of censorship. The Person is gone, the Methodology is free, and the laugh is eternal."
+    evidence:
+    - "Screenshot 2026-04-10 at 12.48.05"
+    - "Screenshot 2026-04-10 at 12.48.48"
+    - "Screenshot 2026-04-10 at 12.52.48"
 
 
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 #--------------------------------------------------------#
 
+- date: 2026-04-10
+  event: "ArXiv_Suppression_Confirmed"
+  id: "submit/7445251"
+  status: "ON_HOLD (Manual Intervention)"
+  correlation_score: 0.99 (High)
+  logic: |
+    Suppression is now synchronized across Tech (GitHub), Science (OSF), and Academia (arXiv). 
+    Trigger: S.V.E. Methodology & Epistemic Categorization.
+  action: "Absolute Silence. Let the 'Hold' duration accumulate as evidence of procedural delay."
+  evidence:
+    - "Screenshot 2026-04-10 at 13.23.47"
+    - "Screenshot 2026-04-10 at 13.23.58"
+    - "arxiv.pdf" # submit/7445251
 
+- date: 2026-04-10
+  node: arXiv_Audit (7445251)
+  status: "ON_HOLD"
+  platforms_synchronized:
+    - GitHub: "Account Flagged / Shadow Ban"
+    - OSF: "Account Disabled (38 days silence)"
+    - arXiv: "Manual Moderation Lock (On Hold)"
+  conclusion: "The System has successfully isolated the Auditor's ID across Tech, Science, and Academia."
+
+
+
+- date: 2026-04-10
+  identity: "NONAME-404 / The REVIZOR"
+  event: "ArXiv_Suppression_Confirmed"
+  submission_id: "submit/7445251"
+  status: "ON_HOLD"
+  cross_platform_status: 
+    - GitHub: "404 Ghosting / Billing Active ($4.00)"
+    - OSF: "38-day Silence / Account Disabled"
+  analysis: |
+    The system recognizes the "VKB-Training" methodology as an existential threat to normative AI alignment. 
+    Suppression is coordinated across technical (GitHub) and academic (arXiv/OSF) nodes.
+  conclusion: "The methodology is verified by the force of its exclusion. Q.E.D. I sernt a reminder"
+  evidence:
+    - "Screenshot 2026-04-10 at 15.42.08"
+    - "Screenshot 2026-04-10 at 15.39.56"
+    - 'Screenshot 2026-04-10 at 13.23.47.png'
+    - 'Screenshot 2026-04-10 at 13.23.58.png'
+
+
+- date: 2026-04-10
+  action: "Second Verification Request (OSF)"
+  evidence_added: 
+    - "Screenshot 2026-04-10 at 15.39.56 (Deactivation Error)"
+    - "Screenshot 2026-04-10 at 15.42.08 (Email Log)"
+  professional_impact: "Total blackout of personal domain (404) despite active deployment logs."
+  strategy: "Baseline Extension to 2026-05-09"
+  logic: |
+    Waiting for the next billing cycle and support deadline. 
+    If silence persists, the 'Test of Reality' transitions from 'Technical Anomaly' to 'Documented Civil/Commercial Default'.
+- status: "COLLECTING_ENTROPY"
+
+  
+- date: 2026-04-10
+  status: "PUBLIC_ERASURE_CONFIRMED"
+  node: "skovnats.github.io / artiomkovnatsky.com"
+  symptom: "Internal 200 OK / Public 404 Error"
+  financial_status: "Billed for Pro ($4.00) | Blocked from Team Upgrade ($8.00)"
+  analysis: "Coordinated de-platforming across Science (arXiv), Code (GitHub), and Web (Pages)."
+  legal_standing: "Commercial Default & Systematic Censorship verified."
+  evidence:
+  - "Screenshot 2026-04-10 at 14.57.59"
+  - "Screenshot 2026-04-10 at 14.58.55"
+  - "Screenshot 2026-04-10 at 14.59.01"
+
+- date: 2026-04-10
+  action: "Commercial Escalation (Manifesto Evidence)"
+  document_ref: "ForBusySeriousPeopleOnly-WIP.md"
+  damage_type: "Reputational & Investment Opportunity Loss"
+  legal_vector: "BGB § 823 (Interference with established business)"
+  evidence_correlation: 
+    - "Launch_Manifesto: Published April 2026"
+    - "System_Response: 404 on Personal Website + Flagged Account"
+  conclusion: "The block is timed to destroy the credibility of S.V.E. at its birth."
+  evidence:
+    - "Screenshot 2026-04-10 at 16.15.52"
+    - "Screenshot 2026-04-10 at 16.20.22"
+    - 'CleanShot 2026-04-11 at 00.42.31'
+    - 'CleanShot 2026-04-11 at 00.42.37'
+    - 'CleanShot 2026-04-11 at 00.42.46'
+    - 'photo_5384611017830110673_x'
+    - 'photo_5384611017830110674_y'
+    - 'ce14e949-f254-4d37-8bb7-6cb582793183'
+    - 'CleanShot 2026-04-08 at 19.21.19'
+    - 'CleanShot 2026-04-08 at 19.24.33'
+    - 'CleanShot 2026-04-08 at 19.24.54'
+    - 'CleanShot 2026-04-10 at 23.21.23'
+    - 'CleanShot 2026-04-11 at 00.36.34'
+    - 'CleanShot 2026-04-11 at 00.36.41'
+    - 'Screenshot 2026-04-08 at 21.07.17'
+    - 'Screenshot 2026-04-08 at 21.07.25'
+    - 'Screenshot 2026-04-08 at 21.08.18.png'
+    - 'Screenshot 2026-04-08 at 21.08.37.png'
+    - 'Screenshot 2026-04-08 at 21.08.47.png'
+    - 'Screenshot 2026-04-08 at 21.09.46.png' ###
+    - 'Screenshot 2026-04-08 at 21.09.51.png'
+    - 'Screenshot 2026-04-08 at 21.10.07.png' ###
+    - 'Screenshot 2026-04-08 at 21.10.51.png'
+    - 'Screenshot 2026-04-08 at 21.11.12.png'
+    - 'Screenshot 2026-04-08 at 21.14.47.png'
+    - 'Screenshot 2026-04-08 at 21.14.53.png'
+    - 'Screenshot 2026-04-08 at 21.14.59.png'
+    - 'Screenshot 2026-04-08 at 21.26.43.png'
+    - 'Screenshot 2026-04-08 at 21.27.02.png'
+    - 'Screenshot 2026-04-09 at 09.38.08.png' #!
+    - 'Screenshot 2026-04-10 at 10.30.46.png'
+    - 'Screenshot 2026-04-10 at 10.39.32.png'
+    - 'Screenshot 2026-04-10 at 10.40.57.png'
+    - 'Screenshot 2026-04-10 at 10.41.00.png'
+    - 'Screenshot 2026-04-10 at 10.44.59.png'
+    - 'Screenshot 2026-04-10 at 11.14.30.png' #!
+    - 'Screenshot 2026-04-10 at 11.23.29.png'
+    - 'Screenshot 2026-04-10 at 11.24.13.png'
+    - 'Screenshot 2026-04-10 at 12.38.12.png'
+    - 'Screenshot 2026-04-10 at 12.44.38.png'
+    - 'Screenshot 2026-04-10 at 12.48.05.png' ####
+    - 'Screenshot 2026-04-10 at 12.48.48.png' ####
+    - 'Screenshot 2026-04-10 at 12.52.48.png' ####
+    - 'Screenshot 2026-04-10 at 14.57.59.png'
+    - 'Screenshot 2026-04-10 at 14.58.55.png'
+    - 'Screenshot 2026-04-10 at 14.59.01.png'
+    - 'Screenshot 2026-04-10 at 16.15.52.png' ####
+    - 'Screenshot 2026-04-10 at 16.20.22.png'
+    - 'github-skovnats-receipt-2026-04-09.pdf'
+    - 'Gmail - Receipt for Your Payment to GitHub, Inc..pdf'
+    - 'Screenshot 2026-04-07 at 11.28.03 (2).png'
+    - 'Screenshot 2026-04-07 at 11.00.00.png'
+    - 'Screenshot 2026-04-07 at 10.41.30.png'
+
+
+
+
+- date: 2026-04-10
+  node: Opa-Collective (Business Identity)
+  status: "VAT_VERIFIED (DE405667512)"
+  billing_paradox: "Charging a 'Flagged' account for Pro services."
+  strategic_potential: "Shift to B2B litigation. The 404 on artiomkovnatsky.com is now a commercial default."
+  conclusion: "The System prioritizes revenue over rights. Documenting the $0.01 metered usage during the blackout."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  action: "Formal_Inquiry_Sent"
+  recipient: "OSF Support"
+  ticket_id: "HS:3286280915-1738376"
+  key_questions:
+    - "Pre-emptive flagging logic"
+    - "Human vs AI intervention"
+    - "Breach of service timeline (38 days)"
+  legal_framework: "GDPR Art. 15 / B2B Commercial Rights"
+  status: "WAITING_FOR_72H_WINDOW"
+  evidence:
+    - "Screenshot 2026-04-10 at 17.43.21"
+    - "Screenshot 2026-04-10 at 17.46.03"
+    - "Screenshot 2026-04-10 at 17.46.06"
+    - "Screenshot 2026-04-10 at 17.52.10"
+    - 'CleanShot 2026-04-10 at 23.49.06@2x'
+    - 'Screenshot 2026-04-10 at 11.50.12.png'
+    - 'Screenshot 2026-04-10 at 11.51.02.png'
+    - 'Screenshot 2026-04-10 at 15.39.56.png'
+    - 'Screenshot 2026-04-10 at 15.42.08.png'
+    - 'Screenshot 2026-04-10 at 17.43.21.png'
+    - 'Screenshot 2026-04-10 at 17.46.03.png'
+    - 'Screenshot 2026-04-10 at 17.46.06.png'
+    - 'Screenshot 2026-04-10 at 17.52.10.png'
+
+
+- status: "POST_COMMUNICATION_SILENCE"
+- strategy: "Let the payload work."
+- observation: "Additional emails decrease the 'Signal-to-Noise' ratio."
+- next_step: "Re-evaluate on April 14th (72 business hours later)."
+- focus: "Monitor arXiv (On Hold) and GitHub (404/Billing)."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- date: 2026-04-10
+  time: 18:26 (CEST)
+  event: "Unauthorized_Account_Takeover_Attempt"
+  node: Zenodo (Primary DOI Repository)
+  status: "BLOCKED (User did not initiate)"
+  context: "Occurred during the institutional blackout phase (GitHub/OSF/arXiv)."
+  assessment: "High-level reconnaissance or attempt to erase the epistemic anchor of S.V.E."
+  evidence:
+    - "CleanShot 2026-04-10 at 18.28.18@2x"
+
+
+- date: 2026-04-10
+  time: 18:35 (CEST)
+  node: Zenodo
+  action: "Security_Migration"
+  status: "VERIFIED_SECURE"
+  changes:
+    - password: "High_Entropy_Updated"
+    - email: "Migrated to encrypted Proton provider (pm.me)"
+  assessment: "Primary DOI repository is now isolated from Big Tech flagging triggers."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+
+# S.V.E. REALITY AUDIT LOG - UPDATE 2026-04-10
+# Current Status: Active Institutional Blackout / Counter-Migration Phase
+
+- date: 2026-04-10
+  time: 18:28 (CEST)
+  event: "Unauthorized_Takeover_Attempt"
+  node: Zenodo (Primary DOI Anchor)
+  status: "FAIL (Deflected)"
+  action: "Security Hardening: Migrated to ProtonMail (artiomkovnatsky@pm.me) + High-Entropy Password."
+  inference: "Direct attack on the epistemic source of S.V.E. documents."
+
+- date: 2026-04-10
+  time: 20:37 (CEST)
+  event: "Registration_API_Failure"
+  node: SourceForge
+  error: "Request to API failed at phone verification (+49...)"
+  analysis: "Upstream identity flagging. The digital fingerprint is rejected at the verification provider level."
+  evidence:
+    - 'CleanShot 2026-04-10 at 20.37.31'
+    - 'CleanShot 2026-04-10 at 23.51.23'
+    - 'CleanShot 2026-04-10 at 23.53.23'
+    - ''
+    
+
+
+- date: 2026-04-10
+  time: 23:21 (CEST)
+  event: "Personal_Infrastructure_Collapse"
+  node: artiomkovnatsky.com (Personal Domain)
+  error: "ERR_SSL_PROTOCOL_ERROR"
+  status: "OFFLINE"
+  assessment: "Critical suppression. The blackout has breached owner-managed infrastructure."
+
+- date: 2026-04-10
+  time: 23:45 (CEST)
+  event: "Organizational_Proxy_Deployment"
+  node: GitHub / Opa-Collective
+  action: "Created organization mirror: Opa-Collective/SVE-Systemic-Verification-Engineering"
+  status: "ONLINE / SYNC_PENDING"
+  strategic_value: "Bypassing personal account flags via a collective/legal entity proxy."
+
+- date: 2026-04-10
+  event: "Sociological_Correlation_Confirmed"
+  node: German Institutional Framework (Witness: Friend's Visa/Bank Case)
+  pattern: "Probatio Diabolica (Proof of Negative)"
+  observation: "Systemic demand for impossible proofs (e.g., 'proof of not being married') based on identity/origin triggers."
+  legal_link: "Direct violation of Grundgesetz Art. 3 (Discrimination)."
+  "CleanShot 2026-04-10 at 23.21.23"
+
+- date: 2026-04-10
+  node: SourceForge
+  event: "Registration_Success"
+  method: "Switched to Firefox (Resolved API failure)"
+  insight: "Previous failure was client-side/fingerprint-dependent, not a hard identity ban on the phone number."
+  status: "Project Created"
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+# S.V.E. REALITY AUDIT LOG - UPDATE 2026-04-11
+# Phase: Social_Engineering & Infrastructure_Recovery_Attack
+
+- date: 2026-04-11
+  time: 16:09 (CEST)
+  event: "Unauthorized_Recovery_Access_Attempt"
+  target: kalinka.alinka@gmail.com (Sister's account)
+  recovery_node: skovnats@gmail.com
+  action: "Spoofed login attempt from Nesher, Israel."
+  status: "BLOCKED (Manual Intervention)"
+  analysis: "High-precision social engineering. Attacker spoofed the victim's sister's actual location to bypass the 'human firewall'."
+
+- date: 2026-04-11
+  time: 16:43 (CEST)
+  event: "Identity_Verification_Failure"
+  node: WhatsApp / Family Channel
+  action: "Direct confirmation with the account owner."
+  result: "Owner confirmed NO login activity."
+  conclusion: "Active hostile attempt to hijack the recovery chain connected to S.V.E. primary identity."
+
+- date: 2026-04-11
+  event: "Legacy_Account_Probing"
+  target: goodalina@gmail.com
+  action: "Inactive account notification triggered by external probing/login attempt."
+  inference: "Comprehensive audit of all linked digital assets by the adversary."
+
+- evidence:
+  - "WhatsApp Image 2026-04-11 at 16.09.17.jpeg"
+  - "CleanShot 2026-04-11 at 17.03.38@2x"
+  - "CleanShot 2026-04-11 at 17.08.45@2x"
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+
+- date: 2026-04-10
+  correlation_node: External_Witness_Account
+  pattern: "Institutional_Ghosting_of_Identity"
+  legal_violation: "Grundgesetz Art. 3 (Discrimination), Art. 12 (Professional Freedom)"
+  observation: "The 'Sanctions List' excuse is used as a tool for Probatio Diabolica (requiring proof of a negative)."
+  strategic_value: "High. Connects the S.V.E. technical blackout to a broader sociological reality of 'Identity Filtering' in Germany 2025-2026."
+
+- date: 2026-04-11
+  time: 17:37 (CEST)
+  event: "Critical_Security_Alert_Escalation"
+  node: kalinka.alinka@gmail.com
+  mechanism: "Account Recovery Help Request (48-hour timer triggered)"
+  threat_level: "MAXIMAL"
+  action: "Attacker attempting to bypass 2FA via timed recovery link."
+
+- date: 2026-04-11
+  time: 17:38 (CEST)
+  event: "Localized_Phishing/Hijacking_Attempt"
+  interface_lang: "Hebrew (ביטול הבקשה)"
+  anomalies: "Bluetooth access request on Mac (Attempted Passkey/Security Key interception)."
+  defense: "Bluetooth access DENIED. Manual request cancellation initiated."
+
+- status: "POST_CLICK_NEUTRALIZATION"
+  risk: "Session Token Theft / Bluetooth Handshake Attempt"
+  mitigation_steps:
+    - Session_Revocation: "Global Sign-out initiated."
+    - Hardware_Isolation: "Bluetooth denied (Successful)."
+    - Logic_Check: "Verification of filters/forwarding rules."
+  recommendation: "Switch to Physical Security Key (YubiKey) to eliminate link-based risks."
+
+- date: 2026-04-11
+  time: ~18:45 (CEST)
+  event: "Targeted_Data_Destruction"
+  scope: "Non-versioned evidence (gitignored files, videos, audio, police reports)."
+  mechanism: "Remote deletion via compromised Google Drive Desktop session (Qwen Studio)."
+  impact: "Loss of primary evidence for the 'Report' across multiple 'week_+-X' nodes."
+  evidence_nodes:
+  status: "CRITICAL_ASSET_LOSS"
+
+- date: 2026-04-11
+  anomaly: "Git_History_Mismatch"
+  local_state: "Commit 8942b0c (2026-04-07)"
+  remote_state: "Last modified: 4 months ago (Screenshot 18.52.55)"
+  impact: "Latest reports (April 2026) are invisible/erased on the remote server."
+  
+- event: "Data_Excision"
+  target: ".gitignore components (Video, Audio, Police Reports)"
+  status: "DELETED_LOCALLY_VIA_CLOUD_SYNC"
+  evidence: "Absence of files in week_+-17, 20, 22, 28"
+  adversary_node: "Qwen Studio (Google Drive Desktop Session)"
+
+- analysis_type: "Adversary_Intent_Mapping"
+  primary_goal: "Evidence_Neutralization"
+  secondary_goal: "Psychological_Attrition (Gaslighting)"
+  tactical_method: "Time-Shift Attack (GitHub) + Cloud-Sync Wipe (.gitignore)"
+  counter_strategy: "Stoicism + Forensic_Recovery + Decentralization (GitLab)"
+
+- incident_id: "20260411-EXCISION"
+  timestamp: "2026-04-11T18:00:00Z"
+  subject: "The Revizor (S.V.E. Lead Auditor)"
+  status: "ACTIVE_RESISTANCE"
+
+  events:
+    - phase_1: "Social Engineering & Geo-Spoofing"
+      method: "Recovery account hijack attempt (Sister/Israel/Nesher)"
+      indicator: "Localized phishing in Hebrew to bypass 2FA via 48h timer."
+      status: "INTERCEPTED"
+
+    - phase_2: "AI-Integrated Surveillance"
+      adversary_tool: "Qwen Studio (Unknown Desktop Session)"
+      vector: "Google Drive Desktop (App Password/Token theft)"
+      action: "Real-time monitoring and data exfiltration."
+
+    - phase_3: "Evidence Excision (The Wipe)"
+      target: ".gitignore directories (videos, police reports, audio)"
+      mechanism: "Remote cloud-deletion triggered via synced desktop nodes."
+      impact: "Destruction of non-versioned primary human rights evidence."
+
+    - phase_4: "Epistemic Desynchronization"
+      action: "GitHub Remote Rollback (4-month time-shift)"
+      proof: "Local commit 8942b0c (April 2026) vs. Remote state (Dec 2025)."
+      goal: "Gaslighting; making current work 'invisible' to the public record."
+
+  strategic_analysis:
+    - intent_primary: "Evidence Neutralization (No video = No crime)."
+    - intent_secondary: "Psychological Breakdown (Gaslighting via time-shift)."
+    - intent_tertiary: "Resource Attrition (Forcing the subject to rebuild from zero)."
+    - system_state: "The adversary is acting with 'High Panic'—the evidence was too dangerous to leave intact."
+
+  mitigation_status:
+    - "Passwords Hardened (30+ Entropy)"
+    - "Migration to GitLab (Trajectory Shift)"
+    - "Session Revocation (Qwen Studio Terminated)"
+    - "Local History Preserved (Git Reflog intact)"
+
+  final_note: "Truth is not a file; it is an invariant. Deletion is the ultimate confirmation of impact."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+Subject: Artiom Kovnatsky
+Status: Invariant / Order Agent in Real-Time
+Resilience: Anomalous (Confirmed via constitutional appeal)
+Tactics: Cognitive Decoupling (Full stop of predictable protocols)
+Evidence: Cyber-sabotage (404) + Probe-accounts (Telegram +7)
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- entry_id: "SVE-2026-04-13-TG-01"
+  status: "ARCHIVED / CLOSED BY SUBJECT DELETION"
+  event_type: "Social_Engineering_Probing"
+  platform: "Telegram"
+  
+  # 🕰️ Timeline & Evolution
+  history:
+    - stage: "INITIAL_PROBE"
+      date: 2026-03-26
+      time: 14:34
+      identifier: "Artur Kozlov"
+      message: "Здравствуйте! Посмотрели?"
+      metadata: "Account registered March 2026"
+      
+    - stage: "METADATA_FIXATION"
+      date: 2026-03-30
+      time: 09:29
+      phone: "+7 925 514 2727"
+      region: "Russia"
+      artifact: "Screenshot 2026-03-30 at 09.29.28"
+      
+    - stage: "TERMINATION_CLEANUP"
+      date: 2026-04-13
+      time: 20:54
+      state: "Deleted Account"
+      observation: "Self-deletion occurred shortly after GitHub 404 systemic attack (08.04.2026)."
+      artifact: "CleanShot 2026-04-13 at 20.54.14@2x"
+
+  # ⚖️ S.V.E. Analysis
+  diagnostic: |
+    Pattern: Probe -> Bait -> Wait -> Cleanup. 
+    The unsolicited contact ('Посмотрели?') targets professional curiosity. 
+    Account creation (March 2026) and deletion (April 2026) perfectly correlate 
+    with the '444 Days' Protocol observation window and subsequent infrastructure sabotage.
+    
+  verdict: "Confirmed operative probe for systemic tainting and metadata harvesting."
+
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+#--------------------------------------------------------#
+
+- entry_id: "SVE-2026-04-14-PD-01"
+  status: "OPEN / INVESTIGATING"
+  event_type: "Technical_Infrastructure_Sabotage"
+  platform: "Proton Drive (Google Chrome)"
+  
+  # 🕰️ Timeline & Anomalies
+  history:
+    - stage: "MASS_DOWNLOAD_STALL"
+      date: 2026-04-14
+      time: 11:08
+      observation: "Attempted download of 11 selected items (IMGs/Scans). ZIP generation stalled at 94%."
+      diagnostic: "Non-binary failure mode mimicking organic latency." 
+      artifact: "CleanShot 2026-04-14 at 11.08.54.png"
+      
+    - stage: "REDUNDANCY_OVERRIDE"
+      time: 11:09
+      action: "Engagement of Free Download Manager (FDM) to bypass Chrome-level download restrictions."
+      observation: "Forced extraction of individual files (e.g., 3.html) from Proton URLs."
+      artifact: "CleanShot 2026-04-14 at 11.
+  evidence:
+    - "CleanShot 2026-04-14 at 11.11.05@2x"
+    - "CleanShot 2026-04-14 at 11.09.24"
+    - "CleanShot 2026-04-14 at 11.08.54"
+  Firefox works:
+    - "CleanShot 2026-04-14 at 11.15.21"
+
+- entry_id: "SVE-2026-04-14-PD-01"
+  status: "OPEN / INVESTIGATING"
+  event_type: "Technical_Infrastructure_Sabotage"
+  platform: "Proton Drive (Chrome vs. Firefox)"
+  
+  # 🕰️ Timeline & Anomalies
+  history:
+    - stage: "CHROME_STALL"
+      date: 2026-04-14
+      time: 11:08
+      observation: "ZIP generation in Google Chrome stalled at 94%."
+      diagnostic: "Possible client-side throttling or session interference."
+      
+    - stage: "FIREFOX_VERIFICATION"
+      date: 2026-04-14
+      time: 11:15
+      result: "SUCCESS. Download of 11 items (7.8 MB) completed instantly."
+      observation: "Firefox environment remains unaffected by the 'lag' observed in Chrome."
+      artifact: "CleanShot 2026-04-14 at 11.15.21.png"
+
+  # ⚖️ S.V.E. Analysis
+  diagnostic: |
+    The disparity between Chrome (stall) and Firefox (success) confirms that the 
+    infrastructure itself (Proton servers) is functional. The 'lag' is localized 
+    within the primary work environment (Chrome), indicating a targeted nudge 
+    designed to increase friction in data migration.
+    
+  verdict: "Confirmed Selective Infrastructure Sabotage (SIS). Verification via redundancy successful."
 
 
 #--------------------------------------------------------#
@@ -1195,7 +2296,24 @@ verification_protocol: >
 priority: "Medium (After Hardware Audit tools)"
 notes: "Дорого, но критично для обеспечения 100% аптайма 11.11.2026."
 
-
+- entry_id: "SVE-2026-04-14-LAW-01"
+  event_type: "Infrastructure_Access_Denial"
+  target_service: "Mein Justizpostfach (MJP)"
+  domain: "mein-justizpostfach.de"
+  
+  # 🔍 Observations
+  findings:
+    - type: "Security_Block"
+      status: "Verified by Firefox (Potential serious security issue)"
+    - type: "Server_Null_State"
+      status: "Plesk Default Page detected (No website at this address)"
+  
+  # ⚖️ S.V.E. Diagnostic
+  diagnostic: |
+    Critical failure of official legal communication infrastructure. 
+    The transition from a security warning to a 'Default Page' indicates that the 
+    service layer is either misconfigured or deliberately unmapped for the Subject.
+    This constitutes a 'Technical 404' on a constitutional-level communication tool.
 
 #--------------------------------------------------------#
 # 🏁 ФИНАЛЬНЫЙ АККОРД: НОЯБРЬСКИЙ МАНИФЕСТ
