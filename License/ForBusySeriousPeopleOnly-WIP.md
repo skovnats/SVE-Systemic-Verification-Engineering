@@ -275,6 +275,22 @@ THEORY                          ENGINEERING                    ENFORCEMENT
 
 ### What to Verify
 
+#### 0. The Author
+
+Everything you read (and have yet to see) was produced by one person (+1?) under simultaneous constraints:
+
+- Getting married (01.08.2025)
+- Full-time Data Engineer at stenon GmbH ([investor memo](https://x.com/ArtiomKovnatsky/status/2044788522318487981?s=20))
+- [444 DAYS PROTOCOL](../Community/19112025_Berlin_Bundestag_SoloPerformance)
+- Likely monitored by intelligence services of several countries ([1](../Community/Anomaly_Calls_Detection_Tutorial), [2](../Community/19092025_David_vs_GOLIATH_SerhiiSternenko), [3](../Community/Signals_Potentially_Anomaly))
+- World-level [research on Zenodo](https://zenodo.org/communities/sve/records) — zero funding (bank statements below show negative balance)
+- Health issues — treated as a system constraint
+- ...
+
+![bank-1.png](bank-1.png)
+![bank-2.png](bank-2.png)
+
+
 | Item | How to Verify |
 |---|---|
 | **Meta-License v4.0 exists and is signed** | GitHub/GitLab/Codeberg repos. QES signature (Estonian e-Residency). OpenTimestamps verification. |
