@@ -276,7 +276,7 @@ The real novelty is the synthesis of all these registries into a self-reinforcin
 
 ## License
 
-**Meta-License v4.0** (pending signature) + **CC BY-NC-SA 4.0**  
+**Meta-License v4.0** (signature: 01.04.2026) + **CC BY-NC-SA 4.0**  
 Attribution required. Commercial use allowed under SVE tiers.  
 No warranty. Use at own risk. Soli Deo Gloria.
 
