@@ -34,6 +34,13 @@
 | `README.md` | Context and verification guide |
 
 
+## Auslegungshilfe/Interpretive_Guidance
+SVE_MetaLicense_v4_0_Auslegungshilfe_DE_Formal_wExecutive_Summary.pdf 
+SHA-256: `a002b3b3236aadb9af4b6293aa92f3862b517225adfe8e49182197dbeaa74613`
+
+SVE_MetaLicense_v4_0_Interpretive_Guidance_EN_Formal_wExecutive_Summary.pdf
+SHA-256: `ea1b61f7ca639aebd5965b5a24dd0e3ea652bd6fdde7ac7e5d9272ee2719bb6c` 
+
 **Verify:**  
 - Web: [https://opentimestamps.org/](https://opentimestamps.org/)  
 - CLI:  
