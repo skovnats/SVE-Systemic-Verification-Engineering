@@ -1,0 +1,92 @@
+# TIK Experiments - Common Variables
+# С Богом!
+#
+# Non-sensitive configuration
+# Put secrets in vault.yml (ansible-vault encrypted)
+
+---
+# Project
+project_name: tik_experiments
+project_version: "1.0.0"
+project_dir: /opt/tik_experiments
+
+# Python
+python_version: "3.11"
+venv_path: "{{ project_dir }}/venv"
+
+# Redis
+redis_host: "{{ hostvars['redis-01']['ansible_host'] | default('localhost') }}"
+redis_port: 6379
+redis_db: 0
+redis_url: "redis://{{ redis_host }}:{{ redis_port }}/{{ redis_db }}"
+
+# PostgreSQL
+postgres_host: "{{ hostvars['postgres-01']['ansible_host'] | default('localhost') }}"
+postgres_port: 5432
+postgres_db: tik_experiments
+postgres_user: tik
+# postgres_password in vault.yml
+
+# Celery
+celery_broker_url: "{{ redis_url }}"
+celery_result_backend: "{{ redis_url }}"
+celery_concurrency: 4
+celery_log_level: INFO
+
+# LLM Configuration
+llm_config:
+  # Free tier - mass queries (GPT4Free)
+  free_tier:
+    enabled: true
+    providers:
+      - Bing
+      - You
+      - Phind
+      - DeepInfra
+      - Groq
+      - FreeGpt
+      - AItianhu
+    retry_attempts: 3
+    timeout: 120
+    
+  # Paid tier - Opus 4.5 (arbiter)
+  arbiter:
+    provider: openrouter
+    model: "anthropic/claude-opus-4-5-20251101"
+    temperature: 0.3
+    max_tokens: 4000
+    # api_key in vault.yml
+    
+  # Roles for Opus
+  opus_roles:
+    - arbiter          # Final arbiter for disagreements
+    - prompt_engineer  # Formulate questions
+    - translator       # RU↔EN translations
+    - quality_check    # Verify critical results
+    - synthesizer      # Final TIK score calculation
+
+# Experiment settings
+experiment:
+  # Verification
+  verification_threshold: 0.85  # Kappa >= 0.85
+  disagreement_threshold: 0.30  # If std > 0.30, call arbiter
+  min_free_responses: 3         # Minimum responses from free tier
+  
+  # Retry
+  max_retries: 3
+  retry_delay: 5
+  
+  # Batching
+  batch_size: 10
+  parallel_workers: 4
+
+# Logging
+log_level: INFO
+log_dir: /var/log/tik_experiments
+
+# Output
+results_dir: "{{ project_dir }}/results"
+output_formats:
+  - json
+  - csv
+  - latex

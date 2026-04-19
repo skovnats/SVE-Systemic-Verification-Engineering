@@ -1,0 +1,55 @@
+# TIK Experiments - Requirements
+# С Богом!
+
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async & HTTP
+aiohttp>=3.9.0
+httpx>=0.25.0
+requests>=2.31.0
+
+# Celery & Message Queue
+celery[redis]>=5.3.0
+redis>=5.0.0
+kombu>=5.3.0
+
+# Database
+sqlalchemy>=2.0.0
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+
+# LLM Providers
+openai>=1.0.0  # For OpenRouter compatibility
+# g4f  # Install separately: pip install -U g4f
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Visualization & Analysis
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.0.0
+tenacity>=8.2.0  # Retry logic
+structlog>=23.0.0  # Structured logging
+
+# Kubernetes (optional)
+kubernetes>=28.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-celery>=0.0.0
+
+# Type checking
+mypy>=1.7.0
+types-requests>=2.31.0

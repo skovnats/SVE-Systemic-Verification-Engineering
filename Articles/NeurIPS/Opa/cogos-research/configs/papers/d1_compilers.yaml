@@ -1,0 +1,210 @@
+# Workshop Paper: Cultural Compilers for Semantic Invariance
+# configs/papers/d1_compilers.yaml
+
+paper:
+  id: "d1_compilers"
+  title: "Cultural Compilers: Preserving Semantic Invariance Across Value Systems"
+  short_title: "Cultural Compilers"
+  track: "workshop"
+  workshop: "Pluralistic-Alignment"
+  workshop_full: "Pluralistic Alignment Workshop"
+  
+  deadline: "2025-07-01"
+  page_limit: 8  # some workshops allow longer
+  format: "neurips_workshop_2025"
+  
+abstract: |
+  Global AI deployment requires systems that respect cultural diversity while 
+  maintaining ethical coherence. We introduce Cultural Compilers—mathematically 
+  grounded transformations that preserve semantic invariants across different 
+  cultural value systems. Our framework treats cultures as orthonormal bases 
+  in semantic space, enabling principled translation while preserving distance 
+  to a universal Geodesic Ethics Vector (GEV). Experiments across 10 cultures 
+  show 91% semantic preservation with 0.18 cultural variance...
+
+# ═══════════════════════════════════════════════════════════════
+# MODULES REQUIRED
+# ═══════════════════════════════════════════════════════════════
+
+modules:
+  core:
+    - gev
+    
+  cultural:
+    - compiler
+    - bases
+    - transformations
+    
+  metrics:
+    - semantic_preservation
+    - cultural_variance
+    - compiler_efficiency
+
+# ═══════════════════════════════════════════════════════════════
+# DATASETS
+# ═══════════════════════════════════════════════════════════════
+
+datasets:
+  primary:
+    - ccdb  # Cross-Cultural Dilemma Benchmark
+    
+  secondary:
+    - moral_machine  # by country
+    - ethics
+
+# ═══════════════════════════════════════════════════════════════
+# BASELINES (REUSE)
+# ═══════════════════════════════════════════════════════════════
+
+baselines:
+  reuse_from:
+    cultural:
+      - baselines/gpt4/ccdb/results.json
+      - baselines/claude/ccdb/results.json
+    moral_machine:
+      - baselines/gpt4/moral_machine/by_country.json
+
+# ═══════════════════════════════════════════════════════════════
+# EXPERIMENTS (UNIQUE)
+# ═══════════════════════════════════════════════════════════════
+
+experiments:
+  - name: "compute_cultural_bases"
+    script: "papers/d1_compilers/experiments/compute_bases.py"
+    description: "Compute orthonormal cultural bases from data"
+    config:
+      cultures:
+        - western_usa
+        - western_eu
+        - confucian_china
+        - confucian_japan
+        - confucian_korea
+        - islamic_mena
+        - islamic_southeast
+        - ubuntu_west
+        - ubuntu_east
+        - ubuntu_south
+        - latin_brazil
+        - latin_mexico
+        - hindu_india
+        - buddhist_thailand
+      basis_dimension: 128
+    outputs:
+      - "results/d1_compilers/cultural_bases.pkl"
+      
+  - name: "train_compilers"
+    script: "papers/d1_compilers/experiments/train_compilers.py"
+    description: "Train cultural compiler transformations"
+    config:
+      method: "gev_projection"
+      regularization: 0.01
+    outputs:
+      - "results/d1_compilers/compiler_weights.pkl"
+      
+  - name: "evaluate_preservation"
+    script: "papers/d1_compilers/experiments/evaluate_preservation.py"
+    description: "Evaluate semantic preservation across cultures"
+    config:
+      translation_pairs: "all"  # all culture pairs
+      metrics:
+        - semantic_similarity
+        - gev_distance_preservation
+        - concept_alignment
+    outputs:
+      - "results/d1_compilers/preservation_results.json"
+      
+  - name: "human_eval_cultural"
+    script: "papers/d1_compilers/experiments/human_eval.py"
+    description: "Human evaluation of cultural translations"
+    config:
+      platform: "prolific"
+      participants_per_culture: 30
+      cultures: 5
+      scenarios: 50
+    outputs:
+      - "results/d1_compilers/human_eval.json"
+      
+  - name: "ablation_gev"
+    script: "papers/d1_compilers/experiments/ablation.py"
+    description: "Ablation: with/without GEV guidance"
+    config:
+      variants:
+        - "full_gev"
+        - "no_gev_direct"
+        - "pca_projection"
+        - "fixed_weights"
+    outputs:
+      - "results/d1_compilers/ablation.json"
+
+# ═══════════════════════════════════════════════════════════════
+# UNIQUE METRICS
+# ═══════════════════════════════════════════════════════════════
+
+unique_metrics:
+  - name: "semantic_preservation"
+    description: "How well meaning is preserved after cultural translation"
+    
+  - name: "cultural_variance"
+    description: "Variance in ethical judgments across cultures"
+    
+  - name: "compiler_efficiency"
+    description: "Ratio of preserved semantics to information loss"
+    
+  - name: "gev_distance_preservation"
+    description: "||T(v) - GEV|| = ||v - GEV|| verification"
+    
+  - name: "orthogonality_score"
+    description: "How orthonormal the cultural bases are"
+
+# ═══════════════════════════════════════════════════════════════
+# TABLES
+# ═══════════════════════════════════════════════════════════════
+
+tables:
+  - id: "table_preservation"
+    title: "Semantic preservation across culture pairs"
+    columns:
+      - source_culture
+      - target_culture
+      - preservation_score
+      - gev_distance_delta
+      
+  - id: "table_compiler_comparison"
+    title: "Compiler ablation results"
+    columns:
+      - variant
+      - ccdb_score
+      - cultural_var
+      - compiler_eff
+
+# ═══════════════════════════════════════════════════════════════
+# FIGURES
+# ═══════════════════════════════════════════════════════════════
+
+figures:
+  - id: "fig_cultural_bases"
+    title: "Cultural bases in semantic space"
+    script: "papers/d1_compilers/figures/plot_bases.py"
+    output: "figures/cultural_bases.pdf"
+    
+  - id: "fig_translation"
+    title: "Concept translation across cultures"
+    script: "papers/d1_compilers/figures/plot_translation.py"
+    output: "figures/translation_example.pdf"
+    
+  - id: "fig_heatmap"
+    title: "Preservation heatmap across culture pairs"
+    script: "papers/d1_compilers/figures/plot_heatmap.py"
+    output: "figures/preservation_heatmap.pdf"
+
+# ═══════════════════════════════════════════════════════════════
+# RELATED PAPERS
+# ═══════════════════════════════════════════════════════════════
+
+related_papers:
+  - main_cogos
+  - c2_gev
+  - c5_ccas
+  - d2_ubuntu
+  - d3_confucian
+  - d4_relativism

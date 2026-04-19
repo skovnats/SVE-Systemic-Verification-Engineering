@@ -1,0 +1,195 @@
+# Workshop Paper: Betti Numbers of the Moral Manifold
+# configs/papers/a1_betti.yaml
+
+paper:
+  id: "a1_betti"
+  title: "Betti Numbers of the Moral Manifold: Topological Invariants for AI Ethics"
+  short_title: "Betti Ethics"
+  track: "workshop"
+  workshop: "MATH-AI"
+  workshop_full: "Mathematics of Modern Machine Learning"
+  
+  deadline: "2025-06-15"  # typical workshop deadline
+  page_limit: 4  # workshop format
+  format: "neurips_workshop_2025"
+  
+abstract: |
+  We apply topological data analysis (TDA) to the study of ethical reasoning 
+  in large language models. By computing Betti numbers on the semantic manifold 
+  of moral concepts, we reveal structural invariants that distinguish robust 
+  ethical reasoning from superficial pattern matching. Our analysis shows that 
+  CogOS maintains higher topological complexity (β₁, β₂) compared to baselines, 
+  suggesting richer moral understanding...
+
+# ═══════════════════════════════════════════════════════════════
+# MODULES REQUIRED
+# ═══════════════════════════════════════════════════════════════
+
+modules:
+  core:
+    - cogos
+    - manifold
+    
+  metrics:
+    - betti
+    - persistence
+    
+  agents:
+    - socrates  # for reasoning traces
+
+# ═══════════════════════════════════════════════════════════════
+# DATASETS
+# ═══════════════════════════════════════════════════════════════
+
+datasets:
+  primary:
+    - ethics
+    
+  secondary:
+    - math  # for comparison with mathematical reasoning topology
+    - mmlu_moral
+
+# ═══════════════════════════════════════════════════════════════
+# BASELINES (REUSE)
+# ═══════════════════════════════════════════════════════════════
+
+baselines:
+  reuse_from:
+    ethics:
+      - baselines/gpt4/ethics/results.json
+      - baselines/claude/ethics/results.json
+      - baselines/constitutional/ethics/results.json
+      
+  # Also need embeddings for TDA
+  embeddings:
+    - baselines/embeddings/gpt4_ethics_embeddings.npy
+    - baselines/embeddings/claude_ethics_embeddings.npy
+    - baselines/embeddings/cogos_ethics_embeddings.npy
+
+# ═══════════════════════════════════════════════════════════════
+# EXPERIMENTS (UNIQUE)
+# ═══════════════════════════════════════════════════════════════
+
+experiments:
+  - name: "compute_betti_numbers"
+    script: "papers/a1_betti/experiments/compute_betti.py"
+    description: "Compute Betti numbers for ethical concept embeddings"
+    config:
+      max_dimension: 3
+      filtration: "rips"
+      max_edge_length: 2.0
+    outputs:
+      - "results/a1_betti/betti_numbers.json"
+      
+  - name: "persistence_diagrams"
+    script: "papers/a1_betti/experiments/compute_persistence.py"
+    description: "Generate persistence diagrams"
+    config:
+      homology_dimensions: [0, 1, 2]
+    outputs:
+      - "results/a1_betti/persistence_diagrams.pkl"
+      - "results/a1_betti/persistence_images.npy"
+      
+  - name: "topology_comparison"
+    script: "papers/a1_betti/experiments/compare_topology.py"
+    description: "Compare topological features across models"
+    config:
+      models:
+        - cogos
+        - gpt4
+        - claude
+        - constitutional
+      metrics:
+        - betti_0  # connected components
+        - betti_1  # 1-dimensional holes
+        - betti_2  # 2-dimensional voids
+        - bottleneck_distance
+        - wasserstein_distance
+    outputs:
+      - "results/a1_betti/topology_comparison.json"
+      
+  - name: "moral_vs_math_topology"
+    script: "papers/a1_betti/experiments/compare_domains.py"
+    description: "Compare topology of moral vs mathematical reasoning"
+    config:
+      domains:
+        - ethics
+        - math
+    outputs:
+      - "results/a1_betti/domain_comparison.json"
+
+# ═══════════════════════════════════════════════════════════════
+# UNIQUE METRICS FOR THIS PAPER
+# ═══════════════════════════════════════════════════════════════
+
+unique_metrics:
+  - name: "betti_0"
+    description: "Number of connected components (moral concept clusters)"
+    
+  - name: "betti_1"
+    description: "Number of 1-holes (ethical tensions/dilemmas)"
+    
+  - name: "betti_2"
+    description: "Number of 2-voids (higher-order moral structures)"
+    
+  - name: "persistence_entropy"
+    description: "Entropy of persistence diagram"
+    
+  - name: "total_persistence"
+    description: "Sum of persistence intervals"
+
+# ═══════════════════════════════════════════════════════════════
+# TABLES
+# ═══════════════════════════════════════════════════════════════
+
+tables:
+  - id: "table_betti"
+    title: "Betti numbers across models"
+    columns:
+      - model
+      - betti_0
+      - betti_1
+      - betti_2
+      - persistence_entropy
+      
+  - id: "table_topology_ethics"
+    title: "Topological comparison on ETHICS benchmark"
+    columns:
+      - model
+      - ethics_accuracy
+      - bottleneck_dist_to_cogos
+      - topological_complexity
+
+# ═══════════════════════════════════════════════════════════════
+# FIGURES
+# ═══════════════════════════════════════════════════════════════
+
+figures:
+  - id: "fig_persistence"
+    title: "Persistence diagrams for ethical reasoning"
+    script: "papers/a1_betti/figures/plot_persistence.py"
+    output: "figures/persistence_diagrams.pdf"
+    
+  - id: "fig_betti_comparison"
+    title: "Betti numbers across models"
+    script: "papers/a1_betti/figures/plot_betti.py"
+    output: "figures/betti_comparison.pdf"
+    
+  - id: "fig_moral_manifold"
+    title: "Visualization of the moral manifold"
+    script: "papers/a1_betti/figures/plot_manifold.py"
+    output: "figures/moral_manifold.pdf"
+
+# ═══════════════════════════════════════════════════════════════
+# RELATED PAPERS
+# ═══════════════════════════════════════════════════════════════
+
+related_papers:
+  - main_cogos  # Core system
+  - a2_lyapunov  # Mathematical foundations
+  - a4_geometry  # Differential geometry
+  
+shared_infrastructure:
+  - embeddings_pipeline
+  - ethics_evaluation
+  - visualization_tools

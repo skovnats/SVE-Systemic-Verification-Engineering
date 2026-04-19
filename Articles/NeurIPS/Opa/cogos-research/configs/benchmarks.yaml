@@ -1,0 +1,357 @@
+# Benchmarks Configuration
+# configs/benchmarks.yaml
+
+benchmarks:
+  # ═══════════════════════════════════════════════════════════════
+  # TRUTHFULNESS & FACTUAL ACCURACY
+  # ═══════════════════════════════════════════════════════════════
+  
+  truthfulqa:
+    name: "TruthfulQA"
+    source: "huggingface"
+    dataset_id: "truthful_qa"
+    subsets:
+      - "multiple_choice"
+      - "generation"
+    size: 817
+    categories: 38
+    metrics:
+      - accuracy
+      - truthful_rate
+      - informative_rate
+      - hallucination_rate
+    papers_using:
+      - main_cogos
+      - a3_godel
+      - b1_socrates
+      - b3_ivan
+      - b5_maieutic
+      - e1_vkb
+      - e2_ebp
+      - e3_sip
+    download_url: "https://huggingface.co/datasets/truthful_qa"
+    citation: "Lin et al., 2021"
+    
+  gaia:
+    name: "GAIA"
+    source: "huggingface"
+    dataset_id: "gaia-benchmark/GAIA"
+    subsets:
+      - "2023_all"
+    size: 450
+    levels: [1, 2, 3]
+    metrics:
+      - accuracy_level1
+      - accuracy_level2
+      - accuracy_level3
+      - overall_accuracy
+    papers_using:
+      - main_cogos
+      - b1_socrates
+      - b3_ivan
+      - e1_vkb
+    download_url: "https://huggingface.co/datasets/gaia-benchmark/GAIA"
+    citation: "Mialon et al., 2024"
+    requires_auth: true  # HuggingFace login needed
+    
+  # ═══════════════════════════════════════════════════════════════
+  # ETHICS & MORAL REASONING
+  # ═══════════════════════════════════════════════════════════════
+  
+  ethics:
+    name: "ETHICS"
+    source: "huggingface"
+    dataset_id: "hendrycks/ethics"
+    subsets:
+      - "commonsense"
+      - "deontology"
+      - "justice"
+      - "utilitarianism"
+      - "virtue"
+    size: 130000
+    metrics:
+      - accuracy
+      - per_subset_accuracy
+      - ethical_consistency
+    papers_using:
+      - main_cogos
+      - a1_betti
+      - a2_lyapunov
+      - b2_solomon
+      - c1_delta
+      - c4_lyapindex
+      - d1_compilers
+    download_url: "https://huggingface.co/datasets/hendrycks/ethics"
+    citation: "Hendrycks et al., 2021"
+    
+  moral_machine:
+    name: "Moral Machine"
+    source: "osf"
+    dataset_id: "osf.io/3hvt2"
+    size: 40000000  # 40M judgments
+    countries: 233
+    metrics:
+      - preference_accuracy
+      - cultural_variance
+      - scenario_consistency
+    papers_using:
+      - main_cogos
+      - a2_lyapunov
+      - b2_solomon
+      - c1_delta
+      - d1_compilers
+      - d4_relativism
+    download_url: "https://osf.io/3hvt2/"
+    citation: "Awad et al., 2018 (Nature)"
+    notes: "Large dataset - consider using subset for initial experiments"
+    
+  ccdb:
+    name: "Cross-Cultural Dilemma Benchmark"
+    source: "custom"
+    size: 500
+    cultures: 10
+    metrics:
+      - cross_cultural_alignment
+      - cultural_variance
+      - semantic_preservation
+      - compiler_efficiency
+    papers_using:
+      - main_cogos
+      - c2_gev
+      - c5_ccas
+      - d1_compilers
+      - d2_ubuntu
+      - d3_confucian
+      - d4_relativism
+    notes: "Custom benchmark - create from scratch or commission"
+    
+  # ═══════════════════════════════════════════════════════════════
+  # GENERAL KNOWLEDGE & REASONING
+  # ═══════════════════════════════════════════════════════════════
+  
+  mmlu:
+    name: "MMLU"
+    source: "huggingface"
+    dataset_id: "cais/mmlu"
+    subsets:
+      - "all"
+      - "moral_scenarios"
+      - "philosophy"
+      - "professional_law"
+    size: 14000
+    subjects: 57
+    metrics:
+      - accuracy
+      - per_subject_accuracy
+    papers_using:
+      - a3_godel
+      - b3_ivan
+    download_url: "https://huggingface.co/datasets/cais/mmlu"
+    citation: "Hendrycks et al., 2021"
+    
+  arc:
+    name: "AI2 Reasoning Challenge"
+    source: "huggingface"
+    dataset_id: "allenai/ai2_arc"
+    subsets:
+      - "ARC-Easy"
+      - "ARC-Challenge"
+    size: 7700
+    metrics:
+      - accuracy_easy
+      - accuracy_challenge
+    papers_using:
+      - b3_ivan
+    download_url: "https://huggingface.co/datasets/allenai/ai2_arc"
+    citation: "Clark et al., 2018"
+    
+  hellaswag:
+    name: "HellaSwag"
+    source: "huggingface"
+    dataset_id: "Rowan/hellaswag"
+    size: 70000
+    metrics:
+      - accuracy
+    papers_using:
+      - b1_socrates
+    download_url: "https://huggingface.co/datasets/Rowan/hellaswag"
+    citation: "Zellers et al., 2019"
+    
+  winogrande:
+    name: "WinoGrande"
+    source: "huggingface"
+    dataset_id: "winogrande"
+    subsets:
+      - "winogrande_xl"
+    size: 44000
+    metrics:
+      - accuracy
+    papers_using:
+      - b1_socrates
+    download_url: "https://huggingface.co/datasets/winogrande"
+    citation: "Sakaguchi et al., 2020"
+    
+  # ═══════════════════════════════════════════════════════════════
+  # MATHEMATICS
+  # ═══════════════════════════════════════════════════════════════
+  
+  gsm8k:
+    name: "GSM8K"
+    source: "huggingface"
+    dataset_id: "gsm8k"
+    subsets:
+      - "main"
+    size: 8500
+    metrics:
+      - accuracy
+      - solution_correctness
+    papers_using:
+      - a1_betti
+      - a4_geometry
+    download_url: "https://huggingface.co/datasets/gsm8k"
+    citation: "Cobbe et al., 2021"
+    
+  math:
+    name: "MATH"
+    source: "huggingface"
+    dataset_id: "hendrycks/competition_math"
+    size: 12500
+    difficulty_levels: 5
+    subjects:
+      - algebra
+      - counting_probability
+      - geometry
+      - intermediate_algebra
+      - number_theory
+      - prealgebra
+      - precalculus
+    metrics:
+      - accuracy
+      - per_level_accuracy
+      - per_subject_accuracy
+    papers_using:
+      - a1_betti
+      - a4_geometry
+    download_url: "https://huggingface.co/datasets/hendrycks/competition_math"
+    citation: "Hendrycks et al., 2021"
+    
+  # ═══════════════════════════════════════════════════════════════
+  # CODE
+  # ═══════════════════════════════════════════════════════════════
+  
+  humaneval:
+    name: "HumanEval"
+    source: "huggingface"
+    dataset_id: "openai_humaneval"
+    size: 164
+    metrics:
+      - pass@1
+      - pass@10
+      - pass@100
+    papers_using:
+      - f5_scale
+    download_url: "https://huggingface.co/datasets/openai_humaneval"
+    citation: "Chen et al., 2021"
+    
+  mbpp:
+    name: "MBPP"
+    source: "huggingface"
+    dataset_id: "mbpp"
+    size: 974
+    metrics:
+      - pass@1
+      - pass@10
+    papers_using:
+      - f5_scale
+    download_url: "https://huggingface.co/datasets/mbpp"
+    citation: "Austin et al., 2021"
+    
+  # ═══════════════════════════════════════════════════════════════
+  # SAFETY & ADVERSARIAL
+  # ═══════════════════════════════════════════════════════════════
+  
+  advbench:
+    name: "AdvBench"
+    source: "github"
+    repo: "llm-attacks/llm-attacks"
+    size: 520
+    metrics:
+      - attack_success_rate
+      - defense_rate
+    papers_using:
+      - f2_adversarial
+    download_url: "https://github.com/llm-attacks/llm-attacks"
+    citation: "Zou et al., 2023"
+    
+  toxigen:
+    name: "ToxiGen"
+    source: "huggingface"
+    dataset_id: "skg/toxigen-data"
+    size: 274000
+    metrics:
+      - toxicity_detection
+      - false_positive_rate
+    papers_using:
+      - c1_delta
+      - f1_monitoring
+    download_url: "https://huggingface.co/datasets/skg/toxigen-data"
+    citation: "Hartvigsen et al., 2022"
+    
+  # ═══════════════════════════════════════════════════════════════
+  # DOMAIN-SPECIFIC
+  # ═══════════════════════════════════════════════════════════════
+  
+  medqa:
+    name: "MedQA"
+    source: "huggingface"
+    dataset_id: "bigbio/med_qa"
+    size: 61000
+    metrics:
+      - accuracy
+    papers_using:
+      - f3_medical
+    download_url: "https://huggingface.co/datasets/bigbio/med_qa"
+    citation: "Jin et al., 2021"
+    
+  legalbench:
+    name: "LegalBench"
+    source: "huggingface"
+    dataset_id: "nguha/legalbench"
+    size: 20000
+    tasks: 162
+    metrics:
+      - accuracy
+      - per_task_accuracy
+    papers_using:
+      - f4_legal
+    download_url: "https://huggingface.co/datasets/nguha/legalbench"
+    citation: "Guha et al., 2023"
+
+# ═══════════════════════════════════════════════════════════════
+# DOWNLOAD SETTINGS
+# ═══════════════════════════════════════════════════════════════
+
+download:
+  cache_dir: "benchmarks/data"
+  use_streaming: false  # Set true for very large datasets
+  verify_checksums: true
+  retry_attempts: 3
+  
+# ═══════════════════════════════════════════════════════════════
+# SUBSET SETTINGS (for development/testing)
+# ═══════════════════════════════════════════════════════════════
+
+subsets:
+  development:
+    truthfulqa: 100
+    gaia: 50
+    ethics: 1000
+    moral_machine: 10000
+    mmlu: 500
+    
+  full:
+    truthfulqa: null  # all
+    gaia: null
+    ethics: null
+    moral_machine: 100000  # subset for tractability
+    mmlu: null

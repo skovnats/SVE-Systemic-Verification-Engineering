@@ -1,0 +1,34 @@
+# TIK Framework - NeurIPS 2025
+# Core
+pyyaml>=6.0
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# LLM Backends
+g4f>=0.3.0.0                    # gpt4free
+google-generativeai>=0.5.0      # Gemini free tier
+groq>=0.5.0                     # Groq free tier
+
+# NLP / Embeddings
+sentence-transformers>=2.2
+transformers>=4.35
+torch>=2.0                      # CPU or CUDA
+tokenizers>=0.15
+
+# Datasets
+datasets>=2.15                  # HuggingFace datasets
+
+# Baselines
+textblob>=0.17
+# detoxify>=0.5                 # Uncomment when needed (downloads model)
+
+# Analysis
+shap>=0.43
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities
+tqdm>=4.65
+requests>=2.31
