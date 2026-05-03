@@ -18,3 +18,18 @@ Made in Korabelov, Artioms ulitza, Nikolaev. Это Вам ни тут!!!
 ---
 
 ![](asta-la-vista-baby-4.png)
+
+---
+
+# Q&A
+![http://t.me/ArtiomKovnatsky_QA_bot](Q&A.jpg)  
+
+(«Служба поддержки для шпионов»; `>06.06.2026`)
+
+Книга жалоб не предусмотрена. 
+
+#### пссс ... [тихо на ухо] эксклюзив "между нами"... 
+![](plntr_1984.gif) 
+
+-
+#ASPE
