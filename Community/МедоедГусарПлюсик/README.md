@@ -17,3 +17,4 @@ Made in Korabelov, Artioms ulitza, Nikolaev. Это Вам ни тут!!!
 
 ---
 
+![](asta-la-vista-baby-4.png)
