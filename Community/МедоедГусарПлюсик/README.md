@@ -21,7 +21,7 @@ Made in Korabelov, Artioms ulitza, Nikolaev. Это Вам ни тут!!!
 
 ---
 
-# Q&A
+# [Q&A]([http://t.me/ArtiomKovnatsky_QA_bot])
 ![http://t.me/ArtiomKovnatsky_QA_bot](Q&A.jpg)  
 
 («Служба поддержки для шпионов»; `>06.06.2026`)
