@@ -60,31 +60,44 @@ if should_run "$SOURCEFORGE"; then REMOTES+=("sourceforge"); fi
 
 for remote in "${REMOTES[@]}"; do
     if git remote | grep -q "$remote"; then
-        echo "--> Pushing to $remote..."
-        # Стандартный пуш без --force — это и есть инкрементальное добавление
-        git push "$remote" master -q || echo "⚠️ Master failed for $remote"
-        git push "$remote" staging -q || echo "⚠️ Staging failed for $remote"
-        git push "$remote" --tags -q || true
+        echo "--> [$(date +%T)] Pushing to $remote... (Hold on, I'm checking)"
+        
+        # Убираем -q и добавляем --verbose, чтобы видеть каждый байт
+        # Добавляем тайм-аут через SSH, чтобы не висело вечно
+        export GIT_SSH_COMMAND="ssh -o ConnectTimeout=10 -o BatchMode=yes"
+        
+        git push "$remote" master --progress || echo "❌ Master FAILED for $remote"
+        git push "$remote" staging --progress || echo "❌ Staging FAILED for $remote"
+        git push "$remote" --tags -f || true
+        
+        echo "--> [$(date +%T)] Done with $remote."
     fi
 done
 
 
-# === GitFlic ===
-if should_run "$GITFLIC"; then
-    echo "===> Sync to GitFlic"
-    git push gitflic master -f -q || echo "❌ GitFlic master failed"
-    git push gitflic --tags -q || true
-fi
 
 # === GitHub Opa-Org ===
 if should_run "$GITHUB_OPA"; then
-    echo "--> Syncing GitHub Opa-Org..."
-    git checkout -B temp-org-sync -q
-    git rm -rf "Applications/Ангелы-Хранетили" --ignore-unmatch -q
-    git commit -m "chore: incremental update" --quiet || true
-    git push org-mirror temp-org-sync:master --force -q
-    git push org-mirror --tags -f -q || true # Пушим теги принудительно
+    echo "--> [$(date +%T)] Starting Sync to GitHub Opa-Org (org-mirror)..."
+    
+    echo "    - Switching to temp-org-sync branch..."
+    git checkout -B temp-org-sync || echo "❌ Failed to checkout"
+    
+    echo "    - Removing unwanted directories..."
+    git rm -rf "Applications/Ангелы-Хранетили" --ignore-unmatch || true
+    
+    echo "    - Committing incremental update..."
+    git commit -m "chore: incremental update [HoneyBadger Mode]" || echo "    - Nothing to commit"
+    
+    echo "    - Pushing code to org-mirror..."
+    git push org-mirror temp-org-sync:master --force --progress
+    
+    echo "    - Pushing tags to org-mirror (Operation Ы)..."
+    git push org-mirror --tags -f --verbose
+    
+    echo "    - Returning to master..."
     git checkout master -q
+    echo "--> [$(date +%T)] GitHub Opa-Org Sync COMPLETED! ША!"
 fi
 
 # ===================== MEGA S4 (S3) =======================
@@ -131,6 +144,13 @@ if should_run "$RADICLE"; then
         git push rad master -q 2>/dev/null || true
         rad sync --announce
     fi
+fi
+
+# === GitFlic ===
+if should_run "$GITFLIC"; then
+    echo "===> Sync to GitFlic"
+    git push gitflic master -f -q || echo "❌ GitFlic master failed"
+    git push gitflic --tags -f -q || true
 fi
 
 echo "===> ALL MIRRORS UPDATED!"
