@@ -26,7 +26,7 @@ if [ $# -gt 0 ]; then
             --github-skovnats) GITHUB_SKOVNATS=true; shift ;;
             --github-opa) GITHUB_OPA=true; shift ;;
             --gitlab) GITLAB=true; shift ;;
-            --codeberg) CODEBERG=false; shift ;; # Добавьте true если нужно
+            --codeberg) CODEBERG=true; shift ;; # Добавьте true если нужно
             --gitflic) GITFLIC=true; shift ;;
             --radicle) RADICLE=true; shift ;;
             --mega) MEGA=true; shift ;;
