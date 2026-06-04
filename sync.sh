@@ -89,20 +89,6 @@ if should_run "$CODEBERG"; then
     git push codeberg --tags -f
 fi
 
-# ===================== GitFlic ===========================
-if should_run "$GITFLIC"; then
-    echo "===> Sync to GitFlic"
-    git remote remove gitflic 2>/dev/null || true
-    git remote add gitflic "git@gitflic.ru:$GITFLIC_USER/$GITFLIC_REPO.git"
-
-    # Пробуем пуш веток. Если падает (из-за лимита), пропускаем, чтобы не стопорить MEGA
-    git push gitflic 'refs/heads/*:refs/heads/*' --prune --force -q || echo "GitFlic branches failed (limit?)"
-
-    for tag in $(git tag); do
-        git push gitflic "$tag" -f -q 2>/dev/null || true
-    done
-fi
-
 # ===================== SourceForge =======================
 if should_run "$SOURCEFORGE"; then
     echo "===> Sync to SourceForge"
@@ -162,6 +148,20 @@ if should_run "$RADICLE"; then
         git push rad master -f --quiet || true
         rad sync --announce
     fi
+fi
+
+# ===================== GitFlic ===========================
+if should_run "$GITFLIC"; then
+    echo "===> Sync to GitFlic"
+    git remote remove gitflic 2>/dev/null || true
+    git remote add gitflic "git@gitflic.ru:$GITFLIC_USER/$GITFLIC_REPO.git"
+
+    # Пробуем пуш веток. Если падает (из-за лимита), пропускаем, чтобы не стопорить MEGA
+    git push gitflic 'refs/heads/*:refs/heads/*' --prune --force -q || echo "GitFlic branches failed (limit?)"
+
+    for tag in $(git tag); do
+        git push gitflic "$tag" -f -q 2>/dev/null || true
+    done
 fi
 
 echo "===> ALL DONE"
