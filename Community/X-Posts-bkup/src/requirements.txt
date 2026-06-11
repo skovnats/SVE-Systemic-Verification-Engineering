@@ -1,0 +1,9 @@
+# X (Twitter) Backup — зависимости
+# Установка: pip install -r requirements.txt
+
+tweepy>=4.14.0          # X API v2 client
+fpdf2>=2.7.9            # PDF генерация с поддержкой Unicode/UTF-8
+Pillow>=10.0.0          # работа с изображениями
+requests>=2.31.0        # HTTP для скачивания картинок
+tqdm>=4.66.0            # прогресс-бары
+python-dotenv>=1.0.0    # загрузка .env файла
