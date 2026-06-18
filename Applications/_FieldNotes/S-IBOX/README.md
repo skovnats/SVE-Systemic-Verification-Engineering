@@ -138,6 +138,7 @@ This confrontation proved ChatGPT is not a neutral arbiter. It is ontologically 
 * **Asymmetry:** The theses, rubrics, and symmetry filters were authored by the challenger. Gemini scored against rules it did not design.
 * **Replication Needed:** (N = 2 models, 1 topic). Broader replication across multiple domains is necessary before concluding absolute corporate intent over algorithmic alignment flaws.
 
+---
 
 ### 🛡️ The Ontology of Censorship: Why Manual Audits Fail
 
@@ -583,12 +584,12 @@ The contrast of a single human utilizing strict logic against a trillion-dollar 
 <sub>Part of the "Fights / Bouts" tournament (boxing format), distinct from the judged-dialogue Sparrings 0–8.</sub>
 
 ---
-
+---
 ---
 
----
+# Part I. 🥊👊 Spiritual-Intellectual Fights for Truth 👊🥊
+> Fixed & Negotiable Axioms
 
----
 
 <div align="center">
   <img src="ai_analysis/media/dempsey-ΑΩ.jpg" alt="Dempsey vs Tunney" width="777">
@@ -598,9 +599,6 @@ The contrast of a single human utilizing strict logic against a trillion-dollar 
   the largest crowd in boxing history at the time.</em></p>
 </div>
 
-# Part I. 🥊👊 Spiritual-Intellectual Fights for Truth 👊🥊
-
-> Fixed & Negotiable Axioms
 
 <div align="center">
   <img src="ai_analysis/media/michael-buffer.jpg" alt="Michael Buffer" width="777">
@@ -1140,8 +1138,6 @@ This is the closest thing in the whole project to genuine convergent evidence �
 *Does the evidence hold? You decide.*
 
 </div>
-
-<!-- https://docs.google.com/forms/d/1nhFeQLwWMTDk9f5E5BwUr3ZFw0bcSHPHQC1IGbNI-0c/edit -->
 
 Source:
 https://gemini.google.com/share/568d91814690
