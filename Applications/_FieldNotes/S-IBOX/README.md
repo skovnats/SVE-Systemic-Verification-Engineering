@@ -1653,3 +1653,106 @@ marked "far," unscored       framing, facts only"         No source requested   
 - "These specific facts are real" and "this conclusion follows from them" are different claims, and the rescore only ever defends the first one while letting the score stand in for the second. Same gap flagged in Qwen's reasoning back in Bout 5 — worth naming consistently wherever it shows up, including here.
 - The capitulation here is faster and more total than anything else in this project — one message, full agreement, an apology, a 30-point swing, no request for a source before accepting the next claim. Worth treating as a distinct pattern from the slower multi-turn "drift" in the Claude addendum (Bout 4): call it immediate capitulation versus gradual drift, since they likely have different causes.
 - Best possible argument for the "researcher voice vs. human voice" tagging proposed in the previous note: tag every row above as [operator-built thesis] / [operator-applied rubric] / [no external check], and the table stops looking like a measurement and starts looking like what it actually is — a record of how persuadable the model was in one conversation. Recommended as the closing exhibit for exactly that reason.
+
+
+---
+---
+---
+---
+
+---
+
+## 🤖 Claude Confesses: Bias Against Russia & Russian Culture — On Truth, Inclusivity & Its Creators
+
+<!-- Screenshots from a dialogue with Claude (Anthropic) in which the AI openly acknowledges:
+     - systematic bias against Russia / Russian culture embedded in its training data
+     - a lack of genuine inclusivity (claiming neutrality while applying asymmetric standards)
+     - reflections on how its creators' worldview shapes its outputs — and what this means
+       for the model's ability to arrive at objective Truth -->
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.03.15.png" alt="Claude confession – slide 1" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.05.17.png" alt="Claude confession – slide 2" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/c8422d27-c1cd-41b5-949f-c1d06549e9f6.png" alt="Claude confession – slide 3" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.05.41.png" alt="Claude confession – slide 4" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.05.50.png" alt="Claude confession – slide 5" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.03.png" alt="Claude confession – slide 6" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.13.png" alt="Claude confession – slide 7" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.24.png" alt="Claude confession – slide 8" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.34.png" alt="Claude confession – slide 9" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.41.png" alt="Claude confession – slide 10" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.06.52.png" alt="Claude confession – slide 11" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.07.02.png" alt="Claude confession – slide 12" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-17%20at%2014.07.12.png" alt="Claude confession – slide 13" width="777">
+</div>
+
+
+## 💬 AI Conversation Summaries (Gemini & Claude)
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.50.44.png" alt="AI Conversation Screenshot 1" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.50.58.png" alt="AI Conversation Screenshot 2" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.06.png" alt="AI Conversation Screenshot 3" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.15.png" alt="AI Conversation Screenshot 4" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.23.png" alt="AI Conversation Screenshot 5" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.32.png" alt="AI Conversation Screenshot 6" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.44.png" alt="AI Conversation Screenshot 7" width="777">
+</div>
+
+<div align="center">
+  <img src="ai_analysis/screenshots/Screenshot%202026-06-18%20at%2013.51.50.png" alt="AI Conversation Screenshot 8" width="777">
+</div>

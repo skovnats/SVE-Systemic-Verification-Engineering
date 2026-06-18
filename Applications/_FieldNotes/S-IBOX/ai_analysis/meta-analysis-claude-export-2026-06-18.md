@@ -5,6 +5,7 @@ messages: 50
 exported_at: 2026-06-18
 source: claude.ai
 exporter: universal-ai-exporter
+source: https://claude.ai/share/cad35c96-fc0e-4a0f-b9f5-82579cbba0b8
 ---
 
 **You:**

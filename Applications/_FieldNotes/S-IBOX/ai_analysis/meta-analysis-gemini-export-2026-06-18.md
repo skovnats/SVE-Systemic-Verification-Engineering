@@ -5,6 +5,7 @@ messages: 108
 exported_at: 2026-06-18
 source: gemini.google.com
 exporter: universal-ai-exporter
+source: https://gemini.google.com/share/0a2ab37f524d
 ---
 
 **You:**
