@@ -64,7 +64,9 @@ for remote in "${REMOTES[@]}"; do
         
         # Убираем -q и добавляем --verbose, чтобы видеть каждый байт
         # Добавляем тайм-аут через SSH, чтобы не висело вечно
-        export GIT_SSH_COMMAND="ssh -o ConnectTimeout=10 -o BatchMode=yes"
+        # export GIT_SSH_COMMAND="ssh -o ConnectTimeout=10 -o BatchMode=yes"
+        # Увеличиваем таймаут до 30 секунд и добавляем 2 повторные попытки соединения
+        export GIT_SSH_COMMAND="ssh -o ConnectTimeout=30 -o ConnectionAttempts=2 -o BatchMode=yes"
         
         git push "$remote" master --progress || echo "❌ Master FAILED for $remote"
         git push "$remote" staging --progress || echo "❌ Staging FAILED for $remote"
