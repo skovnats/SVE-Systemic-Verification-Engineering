@@ -1,4 +1,4 @@
-# Отзыв предложения о сотрудничестве / Rücknahme des Kooperationsangebots / Withdrawal of Collaboration Proposal
+# (prhps) Отзыв предложения о сотрудничестве / Rücknahme des Kooperationsangebots / Withdrawal of Collaboration Proposal
 
 > *Данный документ адресован YC-type "disruptors of sandbox" — основателям и командам, позиционирующим себя как разрушителей парадигм и строителей нового.*
 >

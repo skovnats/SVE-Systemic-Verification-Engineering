@@ -102,6 +102,7 @@ if should_run "$GITHUB_OPA"; then
     git checkout master -q
     echo "--> [$(date +%T)] GitHub Opa-Org Sync COMPLETED! ША!"
 fi
+git checkout master -q
 
 # ===================== MEGA S4 (S3) =======================
 if should_run "$MEGA"; then
