@@ -662,7 +662,7 @@ Archive:
 ---
 
 # Videos
-[AK1984-Human-i-video.md][AK1984-Human-i-video.md]
+[AK1984-Human-i-video.md](AK1984-Human-i-video.md)
 
 ---
 
