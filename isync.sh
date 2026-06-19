@@ -3,6 +3,7 @@ set -euo pipefail
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$BASE_DIR"
+git checkout master -q
 
 #------------------------------------------
 # Инициализация флагов (по умолчанию всё выключено)
@@ -154,7 +155,7 @@ if should_run "$GITFLIC"; then
     git push gitflic master -f -q || echo "❌ GitFlic master failed"
     git push gitflic --tags -f -q || true
 fi
-
+git checkout master -q
 echo "===> ALL MIRRORS UPDATED!"
 
 
