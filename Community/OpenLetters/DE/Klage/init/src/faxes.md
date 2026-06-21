@@ -7,7 +7,7 @@
 | 5  | Botschaft des Staates Israel, Berlin | +493089045309 (осн.)        | botschaft@israel.de        | 24.06 (nachrichtlich)     |
 | 5a | Botschaft Israel — альт. факс        | +493089045555               | —                          | резерв                    |
 | 5b | Botschaft Israel — консульский отдел | —                           | consular@berlin.mfa.gov.il | резерв                    |
-| 6  | Bundesverfassungsgericht (BVerfG)    | +497219101382               | —                          | по AR 2734/26             |
+| 6  | Bundesverfassungsgericht (BVerfG)    | +497219101382               | —                          | по AR 2734/26 24.06 (nachrichtlich) |
 ## Что готовить: пошагово по датам
 
 ### До 24 июня (подготовка)
