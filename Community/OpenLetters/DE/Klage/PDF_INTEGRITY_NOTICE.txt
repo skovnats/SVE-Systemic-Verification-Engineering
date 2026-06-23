@@ -7,7 +7,9 @@ Action Required:
 To ensure complete and uncompromised access to the full text and all pages of the documents, DO NOT rely on web previews. Download the raw PDF files directly to your local machine and open them using a trusted, offline PDF reader. 
 
 Note: Work is currently underway to strip all hidden metadata and non-essential structural elements from these PDF files to guarantee complete transparency and eliminate any hidden programmatic behavior.
-Feel free to use free independent tools like https://tools.pdf24.org/en/remove-pdf-metadata to manually strip ALL metadata before opening.
+Feel free to use free independent tools like https://tools.pdf24.org/en/remove-pdf-metadata to manually strip ALL metadata before opening. 
+
+Due to the documented anomalies, external destructive interference or targeted manipulation of the audit's digital infrastructure cannot be ruled out. Therefore, manual integrity verification is mandatory.
 
 ***
 
@@ -18,4 +20,6 @@ Erforderliche Maßnahme:
 Um einen vollständigen und unverfälschten Zugriff auf den gesamten Text und alle Seiten der Dokumente zu gewährleisten, verlassen Sie sich BITTE NICHT auf die Web-Vorschau. Laden Sie die PDF-Dateien direkt (Raw-Download) auf Ihren lokalen Rechner herunter und öffnen Sie diese mit einem vertrauenswürdigen, lokalen Offline-PDF-Reader.
 
 Hinweis: Es wird derzeit daran gearbeitet, sämtliche versteckten Metadaten und nicht-essentiellen Strukturelemente aus diesen PDF-Dateien zu entfernen, um absolute Transparenz zu garantieren und jegliches verborgene programmgesteuerte Verhalten auszuschließen.
-Sie können gerne kostenlose, unabhängige Tools wie https://tools.pdf24.org/de/pdf-metadaten-loeschen nutzen, um sämtliche Metadaten vor dem Öffnen manuell zu entfernen.
+Sie können gerne kostenlose, unabhängige Tools wie https://tools.pdf24.org/de/pdf-metadaten-loeschen nutzen, um sämtliche Metadaten vor dem Öffnen manuell zu entfernen. 
+
+Aufgrund der dokumentierten Anomalien kann ein externes destruktives Eingreifen oder eine gezielte Manipulation der digitalen Infrastruktur dieses Audits nicht ausgeschlossen werden. Eine manuelle Überprüfung der Dateiintegrität ist daher zwingend erforderlich.
