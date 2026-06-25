@@ -5,6 +5,14 @@ BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$BASE_DIR"
 git checkout master -q
 
+# 1. hashdeep — генерируем карту хэшей в реальном времени
+echo "--> Generating system file hashes..."
+hashdeep -r . > hashsum.md
+
+# 2. Фиксируем изменения hashsum.md в Git перед пушем на зеркала
+git add hashsum.md
+git commit -m "chore: update system file hashes [Temporal Integrity Block]" || echo "No hash changes detected."
+
 #------------------------------------------
 # Инициализация флагов (по умолчанию всё выключено)
 ALL=true
