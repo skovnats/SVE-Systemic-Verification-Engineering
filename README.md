@@ -10,7 +10,7 @@
 
 
 **📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**
-[🦄 SVE-Unicorns — Founder Mode](License/SVE-Unicorns-Patch-v1_0.md) 
+[🦄 SVE-Unicorns — Founder Mode](License/SVE-Unicorns-Patch-v1_0.md)  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
 [Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md)  
 [Product Vision v3.0](License/SVE_Product_Vision_v3.0_FINAL-WIP.md)    
@@ -279,7 +279,11 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 * **Links**: [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0) 
 
 
-[🦄 SVE-Unicorns — Founder Mode v1.0](License/SVE-Unicorns-Patch-v1_0.md)  [archive-SVE-Unicorns-Patch-v1.0.zip](https://archive.org/details/archive-SVE-Unicorns-Patch-v1.0) 
+[🦄 SVE-Unicorns — Founder Mode v1.0](License/SVE-Unicorns-Patch-v1_0.md)   
+[archive-SVE-Unicorns-Patch-v1.0.zip](https://archive.org/details/archive-SVE-Unicorns-Patch-v1.0)    
+
+
+[SVE - Prio Art](License/PrioArt.md)
 
 
 ## Legal Status 
