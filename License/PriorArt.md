@@ -1,4 +1,5 @@
-# 📜 SVE Pre-Art — Preprint Register & Defensive-Publication Index
+# 📜 SVE Pre-Art — Preprint Register & Defensive-Publication Index 
+> Prio Art
 
 > **Metrics current as of 2026-06-29.** · **License:** S.V.E. Meta-License v4.0 (extends v1.3 = CC BY-NC-SA 4.0 + SVE Addendum). · **Source community:** https://zenodo.org/communities/sve
 >
