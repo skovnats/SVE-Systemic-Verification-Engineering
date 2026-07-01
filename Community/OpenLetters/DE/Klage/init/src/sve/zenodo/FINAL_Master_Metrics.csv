@@ -1,0 +1,439 @@
+id,created,published,title,description,views,unique_views,downloads,unique_downloads,months_since_pub,download_velocity,direct_download_anomaly,z_score_downloads
+20752588,2026-06-18T20:00:34.172837+00:00,2026-06-18,David vs. GOLIATH 2: Spiritual-Intellectual Boxing — A Socratic Audit of AI Narrative Enforcement and the Birth of the CGS Method,"<p>This project documents a systematic logical audit of dominant Western+ geopolitical narratives&nbsp;<br>on Eastern Europe, Russia, and Ukraine, conducted via the <a href=""https://doi.org/10.5281/zenodo.18108750"">Socratic-Investigative Process (SIP)&nbsp;</a><br>against five independent AI systems (ChatGPT, Claude, Gemini, Grok, Qwen/Perplexity).</p>
+<p>The primary objective is not to advocate for a specific geopolitical position, but to&nbsp;<br>demonstrate how formal logic protocols expose systemic reasoning asymmetry in any intelligence &mdash;&nbsp;<br>human and/or artificial. The Russia/Ukraine conflict serves strictly as a high-density stress-test&nbsp;<br>of the methodology against the world's most fortified narratives.<br><br><strong>OPEN CALL TO THE COMMUNITY:</strong> Reproduce the findings, finalize the data, and apply the <a href=""https://doi.org/10.5281/zenodo.18108750"" rel=""nofollow"">CGS Method</a> to ChatGPT+ (the groundwork is &gt;80% complete).&nbsp;<br><strong>Extend this methodology to audit global geopolitical narratives</strong> (e.g., US, UK, EU, China, Russia, and the Israeli-Palestinian conflict).</p>
+<p><strong>Key findings</strong>:<br>- ChatGPT exhibits systematic protection of Western+ institutional narratives over strict&nbsp;<br>&nbsp; logical symmetry &mdash; a pattern termed ""Algorithmic Gaslighting""<br>- Claude demonstrates documented asymmetric bias against Russia/Russian culture, acknowledged&nbsp;<br>&nbsp; in writing by the model itself<br>- A new auditing standard emerged from this work: the Cauchy-G&ouml;del-Socrates (CGS) Method &mdash;&nbsp;<br>&nbsp; a formal protocol for recursive logical auditing of Large Language Models&nbsp;<br>&nbsp; (preprint: <a href=""https://doi.org/10.5281/zenodo.18776172"">doi.org/10.5281/zenodo.18776172</a>)<br>- All results are fully reproducible: prompts, logs, and data are provided in the repository</p>
+<p>Full dataset, prompts, and field notes available at:<br><a href=""https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Applications/_FieldNotes/S-IBOX"">https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Applications/_FieldNotes/S-IBOX</a><br>NOTE: please check the link - better visual experience.&nbsp;</p>
+<p>Author: <br>Dr. Artiom A. Kovnatsky | <a href=""https://x.com/ArtiomKovnatsky"">https://x.com/ArtiomKovnatsky</a><br><a href=""https://www.artiomkovnatsky-404.com"">www.artiomkovnatsky-404.com</a></p>",16,12,3,3,0.5,6.0,False,-0.5348119517574216
+20512792,2026-06-02T15:50:43.774717+00:00,2026-06-02,"ADAM-PentaD (QNexus): A Sovereign Complex-Spectral Wavefront Accelerator with Clifford-Algebra Compiler for Cognitively-Immune LLM Inference | [RESEARCH ***HYPOTHESIS***] | [wAI~wErrors, please focus on the ""vector""=vision] | [NO HDL --- ONLY CONCEPT]","<div>
+<p><strong>Epistemic Disclaimer &amp; R&amp;D Vector</strong></p>
+<p><span class=""citation-111"">This architecture is presented as a unified, holistic vision where mathematical theory and physical substrates coalesce into a single computing paradigm</span>. <span class=""citation-110"">The author explicitly acknowledges that many of the proposed boundaries&mdash;specifically the high-level semantic mappings, non-Abelian gauge protections, and multi-modal integrations&mdash;are exploratory vectors and structural guideposts rather than finalized engineering blueprints</span>.</p>
+<p>&nbsp;</p>
+<p><span class=""citation-109"">This document does not intend to provide a turn-key implementation or a fully fabricated result</span>. <span class=""citation-108"">Instead, it maps a radical R&amp;D trajectory</span>. <span class=""citation-107"">The core mathematical frameworks and physical leaps outlined herein are designed as open challenges for the research community to stress-test, simulate, refine, and physically realize</span>.</p>
+<p><span><strong>P.S. Epistemic Warning:</strong> The core challenge of this preprint is its extreme cross-disciplinarity. Fully parsing it requires overlapping expertise in five typically isolated domains:</span></p>
+<ol>
+<li>
+<p><span><strong>Fundamental Mathematics:</strong> Clifford Algebra (<span><span>Cl</span>(0,d)</span>), p-adic numbers, HoTT, and Lambek calculus...</span></p>
+</li>
+<li>
+<p><span><strong>Silicon Photonics:</strong> Mach-Zehnder interferometers, homodyne telemetry, Berry phases, and topological photonics...</span></p>
+</li>
+<li>
+<p><span><strong>Neuromorphic Engineering:</strong> Memristive arrays (HfOx), Phase-Change Memory (PCM), and analog MVM...</span></p>
+</li>
+<li>
+<p><span><strong>Statistical Physics:</strong> Landauer's principle, Lyapunov funnels, and Feynman-Kac ensembles for rare events...</span></p>
+</li>
+<li>
+<p><span><strong>Low-level Architecture:</strong> VLIW/EPIC compilers, asynchronous logic, and physical limits of 28/65-nm nodes...</span></p>
+</li>
+<li>
+<p><span>...</span></p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<p>Dear Colleagues,</p>
+<p>This is an open invitation to academic and independent research groups specializing in silicon photonics, materials science, hardware architecture, and geometric mathematics to investigate and validate a non-von Neumann computational hypothesis: <strong>The ADAM-PentaD (QNexus) Architecture</strong>.</p>
+<p>The underlying framework shifts the computational complexity of Transformer (LLM/VLM) token processing entirely from digital transistor switching matrices to continuous wavefront interference and analog physical relaxation.&nbsp;</p>
+<h3>Key Comparative Metrics [Hypothesis Baseline]</h3>
+<ul>
+<li>
+<p><strong>Substrate &amp; Interconnect:</strong> A tri-core photonic-analog hybrid relying on asynchronous wavefront propagation (Nexus/TUPI ports), deployable on legacy, supply-chain resilient <strong>28-nm / 65-nm / 90-nm++ nodes</strong>.</p>
+</li>
+<li>
+<p><strong>Algorithmic Bounds:</strong> Amortizes the core Matrix-Vector Multiplications (MVM) via Kirchhoff/Ohm summation. Replaces quadratic context scaling O(L2) with a physical decay resonance that maintains constant <strong>O(1) complexity</strong> for ultra-long context windows.</p>
+</li>
+<li>
+<p><strong>Resource Profile:</strong> Targets an operational energy drop to &sim;10&minus;6&ndash;10&minus;5 Wh per token (compared to &sim;10&minus;2 Wh in standard 3-nm digital accelerators) with <strong>zero operational water dissipation</strong>, eliminating Joule heating within the core photonic mesh.</p>
+</li>
+<li>
+<p><strong>Physical Byzantine Fault Tolerance (PBFT):</strong> Multi-node parameter aggregation via <code>ADAM-Nexus</code> treats distributed pre-training as an optical phase superposition. Malicious or corrupted digital gradients manifest as high-entropy phase noise and are <strong>physically attenuated</strong> via destructive interference before altering memristive states.</p>
+</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3>Required Interdisciplinary Competencies &amp; Core Team Layout</h3>
+<p>To transition this architecture from a software-modeled hypothesis (<code>wAI ~ wErrors</code>) into physical Multi-Project Wafer (MPW) silicon, a tightly coupled, cross-domain consortium is required, spanning the following fields:</p>
+<ul>
+<li>
+<p><strong>Silicon Photonics &amp; Integrated Optics:</strong> Expertise in designing cascaded Mach-Zehnder Interferometer (MZI) meshes (Clements/Reck topologies), continuous-wave (CW) DFB laser integration at telecommunication wavelengths (1550 nm), and active phase-shifter modulation.</p>
+</li>
+<li>
+<p><strong>Neuromorphic Materials Science &amp; In-Memory Computing:</strong> Deep competence in fabricating ultra-stable analog memristive crossbars (e.g., HfOx, TiO2, or Phase-Change Memory) with uniform conductance transitions, capable of long-term weight retention under fluid Oja-plasticity constraints.</p>
+</li>
+<li>
+<p><strong>Digital System Architecture &amp; High-Speed Hardware Design:</strong> Experience in VLIW/EPIC front-end design, asynchronous logic routing on FPGA platforms (Yosys/nextpnr toolchains), and high-speed digital-to-analog control lines to interface the host processor with the optical substrate.</p>
+</li>
+<li>
+<p><strong>Geometric Algebra &amp; Mathematical Physics:</strong> Pure and applied mathematicians specializing in Clifford Algebras (Cl(0,d)), multi-vector calculus, and unitary/orthogonal matrix decomposition to verify the continuous differentiability of spatial-phase transformations during compilation.</p>
+</li>
+<li>
+<p>...</p>
+</li>
+</ul>
+<div>&nbsp;</div>
+<h3>Author&rsquo;s Disclaimer &amp; Project Status</h3>
+<p><strong>Note on Participation:</strong> The initiator of this project operates strictly as an independent theorist. This document serves exclusively as an invitation to independent research, verification, and implementation. The author does not guarantee active, long-term operational participation in engineering execution and reserves the right to maintain a non-commercial, passive oversight role (the ""Perelman mode""). The project is released as an absolute Gift to Humanity under the <strong>S.V.E. Meta-License v4.0</strong>&mdash;commercial encapsulation or proprietary locking of these core principles is legally and structurally prohibited.&nbsp;</p>
+<p>NOTE:&nbsp;S.V.E. Meta-License v4.0: GPL for Ideas &amp; Ontologies. Enforced by Radical Symmetry, 0-Secrecy and the Fruits Test.&nbsp;<br>[CC BY-NC-SA 4.0 + Symmetric Addendum] | &laquo;GPL4IdeasOnSteroids&raquo; | FREE FOR ACADEMIA &amp; HUMANITY FOREVER: HUMAN KNOWLEDGE BELONGS FOR GOOD TO ALL HUMANITY. #AcademiaAsLighthouse4Humanity</p>
+<p>&nbsp;</p>
+<h3>What is highly relevant, but the author did not realize? (Hidden Architectural Catalyst)</h3>
+<p>When resolving the <em>Sim-to-Real gap</em> regarding thermal phase drift across long-distance fiber optic connections in the P2P QNexus mesh, the system inherently uncovers an unexpected property: <strong>Self-Calibrating Homodyne Telemetry</strong>.</p>
+<p>Instead of deploying complex digital error-correction protocols to compensate for environmental temperature fluctuations altering the fiber's refractive index, the unified Clifford compile-target allows the <code>ADAM-Nexus</code> router to treat environmental drift as a localized, slow-moving geometric rotation within the multi-vector field. The hardware can continuously perform blind phase-alignment by using the ambient background carrier wave of the incoming <code>TUPI</code> signal as a reference beam.</p>
+<p>Consequently, the network path itself acts as a continuous, self-correcting optical sensor, allowing phase coherence to be locked across kilometers of standard telecommunication infrastructure without external synchronization clocks.</p>
+</div>
+<div>&nbsp;</div>
+<div>
+<table>
+<tbody>
+<tr>
+<td><strong>Metric / Target Task</strong></td>
+<td><strong>Centralized Cloud Accelerators (Nvidia Blackwell B200 / Google TPU v6)</strong></td>
+<td><strong>Mobile SoCs (Apple M-Series Max)</strong></td>
+<td><strong>ADAM-PentaD (QNexus) (Open 28/65-nm Mesh)</strong></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td><strong>Physical Substrate</strong></td>
+<td>Discrete digital FinFET (3-nm)</td>
+<td>Monolithic digital (3-nm)</td>
+<td><strong>Triune photonic-analog hybrid</strong></td>
+</tr>
+<tr>
+<td><strong>Interconnect Type</strong></td>
+<td>Synchronous NVLink 5 / InfiniBand / Optical ICI</td>
+<td>Synchronous on-chip bus</td>
+<td><strong>Asynchronous Wavefront (Nexus)</strong></td>
+</tr>
+<tr>
+<td><strong>Mathematical Basis</strong></td>
+<td>Discrete real algebra ($FP32 / BF16$)</td>
+<td>Discrete real algebra ($FP16 / INT8$)</td>
+<td><strong>Complex field $\mathbb{C}$ and Clifford rotors</strong></td>
+</tr>
+<tr>
+<td><strong>LLM Inference (TTFT)</strong></td>
+<td>Low (Bus/serialization bottleneck &amp; batching delay)</td>
+<td>Low-Medium (Core awakening latency)</td>
+<td><strong>Ultra-Low ($O(1)$ photonic flight)</strong></td>
+</tr>
+<tr>
+<td><strong>Context Window Scaling</strong></td>
+<td>Quadratic $O(L^2)$ (Memory wall &amp; SRAM limits)</td>
+<td>Quadratic $O(L^2)$ (Shared RAM partitioning)</td>
+<td><strong>Constant $O(1)$ (Physical resonance)</strong></td>
+</tr>
+<tr>
+<td><strong>Pre-training from Scratch</strong></td>
+<td><strong>Absolute industrial benchmark</strong></td>
+<td>Extremely Low (Does not scale)</td>
+<td><strong>High (via network P2P interference)</strong></td>
+</tr>
+<tr>
+<td><strong>On-Device Adaptation</strong></td>
+<td>High overhead (VRAM locked in the cloud)</td>
+<td>High battery drain via classic backprop</td>
+<td><strong>Instantaneous (Fluid Oja plasticity)</strong></td>
+</tr>
+<tr>
+<td><strong>3D Graphics &amp; Render</strong></td>
+<td>High (Heavy digital load on ALU)</td>
+<td>High (Standard raster pipeline)</td>
+<td><strong>Revolutionary (Passive wave rendering)</strong></td>
+</tr>
+<tr>
+<td><strong>Energy per Token</strong></td>
+<td>Critical ($\sim 10^{-2}$ to $10^{-1}$ Wh)</td>
+<td>Low-Medium ($\sim 10^{-3}$ Wh)</td>
+<td><strong>Extremely Low ($\sim 10^{-6}$ to $10^{-5}$ Wh)</strong></td>
+</tr>
+<tr>
+<td><strong>Power Consumption</strong></td>
+<td><strong>Megawatt-scale Data Centers (Requires substations)</strong></td>
+<td>Local device battery drain under load</td>
+<td><strong>Micro-distributed (30&ndash;50 W per node)</strong></td>
+</tr>
+<tr>
+<td><strong>Water Dissipation (Nature)</strong></td>
+<td>Millions of liters (Evaporative chiller cooling)</td>
+<td>Zero (Standard air/passive cooling)</td>
+<td><strong>Absolute Zero (No Joule heating)</strong></td>
+</tr>
+<tr>
+<td><strong>Epistemic Trust</strong></td>
+<td>Zero (Proprietary microcodes &amp; closed cloud)</td>
+<td>Zero (Closed secure enclave silicon)</td>
+<td><strong>100% (Verified via open EDA Yosys)</strong></td>
+</tr>
+<tr>
+<td><strong>Node Unit Cost</strong></td>
+<td>Extreme ($\sim \$35,000 - \$45,000$ or cloud rent)</td>
+<td>High ($\sim \$3,000 - \$5,000$)</td>
+<td><strong>Minimal ($\sim \$1,500 - \$3,000$ in mass series)</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>Note on LLM Assessments:</strong> &gt; <em>The comparative metrics above represent the ultimate theoretical limit of the paradigm. While consumer-grade LLMs view this architectural blueprint with either unbridled optimism (Gemini) or deep conservative skepticism (Claude), the author leaves the final verdict to the only entity that matters: physical simulation and real silicon. Prove us wrong or build it.</em></div>
+<div>&nbsp;</div>
+<div>Kind regards,</div>
+<p><span class=""gmail_signature_prefix"">-- </span></p>
+<div class=""gmail_signature"">
+<div>
+<table>
+<tbody>
+<tr>
+<td><strong><a href=""https://www.linkedin.com/in/artiomkovnatsky/"" rel=""noopener"">Dr. Artiom Kovnatsky</a></strong><strong><br></strong><strong>Data Engineer | AI Systems Architect | Founder &mdash;&nbsp;<a href=""https://github.com/skovnats/SVE-Systemic-Verification-Engineering"" rel=""noopener"">SVE</a>&nbsp;[<a href=""https://transfer.it/t/ycewAtwV1b7a"" rel=""noopener"">Mirror</a>] [<a href=""https://gitlab.com/opa-collective/sve"" rel=""noopener"">GitLab</a>] [<a href=""https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering"" rel=""noopener"">CodeBerg</a>]</strong><strong><br></strong><a href=""https://www.artiomkovnatsky.com/"" rel=""noopener"">www.artiomkovnatsky.com</a><br>
+<table>
+<tbody>
+<tr>
+<td><a href=""https://x.com/ArtiomKovnatsky"" rel=""noopener"">https://x.com/ArtiomKovnatsky</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>License: Released under the S.V.E. Meta-License v4.0 (share-alike).<br>Repository: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering<br>Contact: artiomkovnatsky@pm.me | ORCID: 0009-0002-1230-1639</p>
+<p>&nbsp;</p>
+<p><span class=""user-query-container""><span class=""user-query-bubble-with-background ng-star-inserted""><span class=""horizontal-container ng-star-inserted"">&laquo;Воевать не числом, а умением&raquo;. (c) </span></span></span></p>",150,97,231,131,0.8869908015768725,260.43111111111114,True,1.4413599420112984
+19653869,2026-04-19T17:34:17.195113+00:00,2026-04-19,Attention is ALL you need 2: From NN Weight to HS Fate,"<div><br><strong>Paradigm Shift:</strong> From <em>Neural Network Attention</em> &rarr; to <strong><em>Ontological Attention</em></strong>.
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Hypothesis:</strong> We hypothesize that the success of ""Attention Is All You Need"" (Vaswani et al., 2017) stems from capturing a fundamental structure of <em>Human Nature</em> &mdash; not merely statistical correlation. This is the primary focus &mdash; and there is more (""spicy"").</p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Genre &mdash; Definition:</strong> This is an <strong>ASPE (Art-Scientific Performance-Experiment)</strong> &mdash; a ""fairytale for adults"" in three parts: <em>A. in the Looking-Glass</em>. Potentially the first implemented <strong>FSIM (Part III of III)</strong>.</p>
+<blockquote class=""ml-2 border-l-4 border-border-300/10 pl-4 text-text-300"">
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><em>Сказка &mdash; ложь, да в ней намек, добрым молодцам урок.</em> (""A fable is a fiction, but it holds a spark; a lesson for the sharp of mind."") Use Russian translators where needed; LLMs alone are not sufficient.</p>
+</blockquote>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Disclaimer / Clarification:</strong> This is <strong>NOT</strong> a technical patch for Transformer weights. Figures and examples are <strong>illustrative</strong>; the author currently lacks resources to execute full-scale experiments (99+ kernels / LLMs). Treat this release as <strong>methodology open for collaboration</strong>. Large Language Models were used during preparation &mdash; errors and approximations are possible.</p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Release Context &mdash; ""As-Is"".</strong> Originally scheduled for <strong>11.11.2026 &middot; 11:11 CET</strong>. Released early &mdash; <strong>Sunday, 19.04.2026</strong> &mdash; as an <em>""as-is""</em> release, in light of:</p>
+<ul class=""[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3"">
+<li class=""whitespace-normal break-words pl-2"">GitHub / Microsoft access blockages &mdash; <a class=""underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current"" href=""https://github.com/skovnats/SVE-Systemic-Verification-Engineering"">https://github.com/skovnats/SVE-Systemic-Verification-Engineering</a></li>
+<li class=""whitespace-normal break-words pl-2"">heightened attention from state security services,</li>
+<li class=""whitespace-normal break-words pl-2"">cyberattacks and ""404"" incidents.</li>
+</ul>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><em>In case of ""404"" or Force Majeure, the release cycles automatically to the next Sunday, and so on, until success. The process is invariant.</em></p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Companion release &mdash; for pure science &amp; hallucination reduction.</strong> If you are looking only for the science of <em>""Ontology Attention""+</em>, see: <strong>VKB-Training: Epistemic Metadata &amp; Cultural Compilers</strong> &mdash; <a class=""underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current"" href=""https://doi.org/10.5281/zenodo.19430119"">https://doi.org/10.5281/zenodo.19430119</a></p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Genesis of the SVE-ASPE-FSIM Method:</strong> 🎨 <strong>Leonardo da Vinci</strong> &mdash; Engineering + Art = Knowledge. 🗿 <strong>Joseph Beuys</strong> &mdash; Society as a malleable object (<em>Soziale Plastik</em>). SVE+ applies this synthesis to the <strong>ontological audit of systems</strong>.</p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>Invitation to Collaboration.</strong> Sources are attached (LaTeX et al.). Under <strong>Meta-License v4.0</strong>, anyone may take the ideas that resonate, extend them, and/or contact the author to co-author a joint work. Collaborations with teams having compute for 99+ kernels / LLMs are especially welcome.</p>
+<p class=""font-claude-response-body break-words whitespace-normal leading-[1.7]""><strong>License:</strong> SVE v1.3+ &middot; Meta-License v4.0 [share-alike]</p>
+<div>
+<div>&nbsp;</div>
+<div><strong>Definition:</strong> This is an <strong>ASPE</strong> (Art-Scientific Performance-Experiment). Potentially the first implemented <a href=""https://doi.org/10.5281/zenodo.18274635"">FSIM</a>&nbsp;(Part III of III).</div>
+<div>🔗 GitHub intro (RUS): [<a href=""https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/%D0%A4%D0%A1%D0%98%D0%9C"">GitHub Link</a>]</div>
+<div>&nbsp;</div>
+<div><strong>Genesis of the (SVE-ASPE-FSIM) Method</strong>:<br>🎨 Leonardo da Vinci: Engineering + Art = Knowledge.<br>🗿 Joseph Beuys: Society as a malleable object (""Social Sculpture"").</div>
+<div>---</div>
+<div>
+<p>⚖️ Rechtsstatus: <br>SVE+ ist ein transdisziplin&auml;res Art-Scientific Performance-Experiment (ASPE).&nbsp;<br>Rechtsschutz: Art. 5 Abs. 3 GG (Grundgesetz) und Art. 13 EU-Grundrechtecharta garantieren die absolute Freiheit von Kunst und Wissenschaft.</p>
+<p>Genese der Methode:<br>🎨 Leonardo da Vinci: Ingenieurskunst + Kunst = Erkenntnis.<br>🗿 Joseph Beuys: Die Gesellschaft als gestaltbares Objekt (&bdquo;Soziale Plastik"").</p>
+<p>SVE+ wendet diese Synthese auf den ontologischen Audit von Systemen an.&nbsp;<br>Wir schreiben nicht nur Code &ndash; wir formen die Realit&auml;t.</p>
+</div>
+</div>
+</div>",167,117,117,69,2.3324572930354797,50.16169014084507,False,0.4532739951269383
+19456717,2026-04-07T16:06:46.216361+00:00,2026-04-07,"VKB-Training: Epistemic Metadata, Ontology Attention, and Cultural Compilers for Hallucination Reduction in Large Language Models","<p>Large language models hallucinate because their training data carries no epistemic metadata: facts, hypotheses, value judgments, and acknowledged unknowns occupy the same embedding space with identical weight. A deeper problem compounds this: every claim presupposes an ontology &mdash; an axiomatic framework equipped with a metric &mdash; and as Bertrand's paradox demonstrates, probability itself is ill-defined without specifying the measure. Deeper still: the same ethical truth can be expressed in culturally distinct ""coordinate systems,"" and collapsing these into a single representation introduces systematic bias.</p>
+<p>We propose <strong>VKB-Training</strong> (Verified Knowledge Base Training), a data-centric approach that assigns each training sample a six-category epistemic tag (Fact, Model, Value, Hypothesis, BlindSpot, <strong>Ontology</strong>), a calibrated confidence score, a provenance chain, and an ontology identifier specifying the axiomatic framework under which the claim is asserted.</p>
+<p>We introduce a four-stage hybrid annotation pipeline: (1) AI triangulation &mdash; multiple LLMs classify independently; inter-model disagreement signals normative content (the ""Caesar/God boundary""); (2) Human sampling with axiom extraction &mdash; domain annotators resolve high-disagreement cases; recurrent decision principles are extracted as reusable rules; (3) Expert calibration with reputation weighting &mdash; formalized Galton's ox-weighing insight (per S.V.E. XI, DOI: <a href=""https://doi.org/10.5281/zenodo.18109198"">10.5281/zenodo.18109198</a>); (4) Logical consistency filters &mdash; contradiction detection and symmetry verification via the CGS Method (DOI: <a href=""https://doi.org/10.5281/zenodo.18776172"">10.5281/zenodo.18776172</a>).</p>
+<p>Eight training mechanisms are proposed: (1) confidence-weighted loss; (2) provenance-aware attention; (3) BlindSpot training maximizing output entropy at known knowledge gaps; (4) confidence propagation through DAG-structured knowledge dependencies; (5) temporal embeddings for version-aware knowledge; (6) <strong>ontology attention</strong> &mdash; switching between axiomatic frameworks with entropy-based selection cost; (7) <strong>cultural compilers</strong> &mdash; orthonormal transformations preserving distance to an ethical kernel, with universal archetypal bases discovered via joint diagonalization of cross-cultural covariance matrices (<a href=""https://doi.org/10.5281/zenodo.18109076"">S.V.E. VIII</a>); and (8) <strong>CogOS integration</strong> &mdash; recursive ontology refinement and Lyapunov-stable ethical dynamics (per CogOS, DOI: <a href=""https://doi.org/10.5281/zenodo.18176147"">10.5281/zenodo.18109244</a>).</p>
+<p><strong>Meta-ontological transparency.</strong> VKB itself operates within the S.V.E. ontological hypothesis (defined in S.V.E. IV, VIII, XII). We make this dependency explicit: the six epistemic categories are postulated, not derived; confidence scores presuppose a probabilistic interpretation; the ethical kernel &Phi; and &delta;-dehumanization metric depend on choices we acknowledge but do not resolve. VKB's categories are hypotheses subject to revision through empirical contact with reality, following the S.V.E. feedback loop (Reality &rarr; Ontology &rarr; Language &rarr; Models &rarr; Verification &rarr; Feedback &rarr; Ontology).</p>
+<p><strong>Honest limitations.</strong> The paper reports no experimental results. All quantitative claims are hypothetical. We enumerate seven open problems explicitly: scalability of annotation (unknown required fraction); reductionism risk in the &delta;-metric (useful heuristic, not a theory of ethics); potential collapse of ontology attention; idealized orthonormality in cultural compilers; absence of experiments (the most important next step); dependency on unpublished S.V.E. preprints (provisional foundation, made explicit); and the ""first computable metric"" claim (may be incorrect &mdash; we welcome corrections).</p>
+<p>The mathematical argument for non-discriminatory deployment is structural: joint diagonalization requires input from all cultures; excluding cultures violates orthonormality &mdash; the mathematics itself enforces non-discrimination.</p>
+<p>VKB-Training was first described as part of the CogOS framework. Cultural compilers and joint diagonalization originate from S.V.E. VIII (Divine Mathematics). This paper integrates these components into a standalone proposal with a falsifiable experimental protocol and pre-specified success thresholds.</p>
+<p>Section 7 (Ethical Data Sourcing: Author Revenue Sharing, 10&ndash;50%) is included in the preprint but will be omitted from the workshop submission.</p>
+<p><strong>NOTE</strong>: Ontology parameterisation would require deeper thinking.&nbsp;</p>
+<p><strong>[NOTE: CONCEPTUAL ARTICLE, ILLUSTRATIVE NUMBERS &mdash; WIP]</strong></p>
+<p>Prepared for submission to NeurIPS 2025 Workshops.</p>",65,42,65,32,2.726675427069645,23.838554216867472,False,0.0025681246182828864
+19373737,2026-04-01T19:36:56.217589+00:00,2026-04-01,"Systemic Verification Engineering: A Meta-Licensing Framework for Truth, Reproducibility, and Ethical Enforcement","<p>Trust in institutional knowledge production is eroding across science, technology, pharmaceuticals, and environmental governance. The reproducibility crisis alone renders an estimated 50&ndash;70% of published findings in some fields unreliable, while corporate opacity enables data suppression with life-threatening consequences. Existing open-source licenses address code redistribution but not the veracity of claims made under their banner. This paper introduces Systemic Verification Engineering (SVE), a newly launched meta-licensing framework that treats truthfulness as a system property rather than a moral aspiration. SVE operates through three architectural layers&mdash;immutable core principles, a base copyleft license, and a living body of enforceable case precedents&mdash;governed by mechanisms including an outcome-based validity test (the ""Fruits Test""), semantic fingerprinting for detecting derivative use, an escalating attorney incentive program, and symmetric audit requirements grounded in game theory. Conflict resolution employs a hybrid model combining community governance (Veche), a multi-persona AI oracle for value alignment, and cryptographically verifiable random sortition as a deadlock-breaking mechanism. This paper presents SVE as a design science contribution, analyzing its architecture, enforcement logic, and governance model, while candidly assessing the limitations of a framework that is, at the time of writing, newly activated and untested in adjudication. SVE is proposed as a step toward the ""engineering of conscience""&mdash;the embedding of ethical accountability into the structural logic of knowledge systems.</p>
+<p><strong>[WIP]</strong></p>",44,33,40,24,2.923784494086728,13.680898876404495,False,-0.2141173900493399
+19322869,2026-03-29T20:22:11.035548+00:00,2026-03-29,FSIM: Fractal Semantic-Intellectual Matryoshka — A Formal Framework for Ontological Verification via Sincerity-Grounded Self-Referential Structures,"<p>⚠️ WORK IN PROGRESS &mdash; v0.2 (March 2026). This is an early-stage preprint. The framework is under active development; definitions, formalism, and structure may change substantially before the full release (scheduled: 11 November 2026). Feedback, criticism, and adversarial refutation attempts are explicitly invited.</p>
+<p>---</p>
+<p><strong>FSIM</strong> (Fractal Semantic-Intellectual Matryoshka) is a transdisciplinary framework that unifies mathematical logic, epistemology, psychology, and software-engineering architecture into a single protocol for ontological verification.</p>
+<p>Core claim (hypothesis): any closed ontology &mdash; a belief system sustained by internal contradictions and concealed by deception &mdash; can be provoked into self-collapse upon contact with a sufficiently deep self-referential structure anchored to an author who exhibits Ultimate Sincerity (the willingness to sacrifice exclusively one's own life for the integrity of one's ontology).</p>
+<p>Mathematical foundation: G&ouml;del's incompleteness theorems, Kolmogorov complexity, Brouwer's fixed-point theorem, the no-cloning theorem, Thom's cusp catastrophe, the Halting Problem, Tarski's undefinability theorem, and Byzantine Fault Tolerance.</p>
+<p>The paper introduces SVE (Systemic Verification Engineering) &mdash; a git-like interface for version-controlling, branching, merging, and auditing worldviews &mdash; and presents the ""4+1 AI"" validation protocol, in which four independent AI systems serve as logical auditors while the irreducible fifth verifier is a human being with skin in the game.</p>
+<p>Thirteen open problems are catalogued. The most valuable contribution any reader can make is not confirmation but attempted refutation.</p>
+<p>Part of the SVE (Systemic Verification Engineering) project:<br>https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>
+<p><strong>GitHub</strong>: <a href=""https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/%D0%A4%D0%A1%D0%98%D0%9C"">ФСИМ | FSIM</a></p>",14,12,2,2,3.0223390275952693,0.6617391304347826,False,-0.5434793723441266
+19313271,2026-03-29T12:40:53.606447+00:00,2026-03-29,The High Priests Axiom: Systemic Verification Engineering Applied to the Trial of Jesus,"<p>This paper applies Systemic Verification Engineering (SVE) &mdash; a Bayesian-forensic framework for diagnosing institutional behaviour under conditions of epistemic opacity &mdash; to the trial and execution of Jesus of Nazareth. We propose the High Priests Axiom: when a religious institution bypasses its own internal jurisdiction and appeals to an external executive power to eliminate an individual charged with blasphemy, this procedural action constitutes a formal marker of political, not religious, threat perception. By modelling the Sanhedrin proceedings as a state-transition system with the initial state UNKNOWN, we demonstrate that at least four procedural anomalies &mdash; the nocturnal Passover-eve session, shifting charges, appeal to Roman imperium, and crowd manipulation &mdash; collectively trigger an irreversible transition to FALSE for the hypothesis that religious conviction was the primary motivating cause. A corollary corrects the presumption of innocence itself: the sole epistemically honest verdict available to the Sanhedrin was not ""guilty"" or ""not guilty"" but UNKNOWN &mdash; a verdict it refused to render, converting ignorance into a death sentence. The method introduced here is novel; the conclusion is not. We offer no new theology but a formally auditable diagnostic protocol applicable to any analogous institutional action.</p>
+<p>Full preprint including appendices: CGS state-transition analysis with systematic rebuttal of 10 counter-arguments, sensitivity analysis, the ""First Trolley Problem"" (Caiaphas as utilitarian), G&ouml;del incompleteness remark, Bayesian Silence, and author's experiential testimony. A shortened version is in preparation for journal submission.</p>
+<p><strong>Notes</strong>: Draft v0.8 &mdash; Work in progress, feedback welcome. Prepared for submission to TheoLogica: An International Journal for Philosophy of Religion and Philosophical Theology. This preprint contains the full version, including appendices; a shortened, anonymised version will be submitted for peer review.</p>
+<p><strong>Acknowledgement</strong>: The author thanks Prof. Eli Lizorkin-Eyzenberg (Israel Institute of Biblical Studies / Israel Bible Center) for theological feedback and critical discussion that sharpened several arguments in this paper. Acknowledgement does NOT imply endorsement of the paper's conclusions and/or content.&nbsp;</p>",43,35,32,20,3.0223390275952693,10.587826086956522,False,-0.2834567547429792
+18882037,2026-03-05T21:45:36.757362+00:00,2026-03-05,Who Watches the Watchmen?,"<p>AI systems are increasingly evaluated on ethics benchmarks to ensure alignment with human values. However, a critical question remains unexamined: who evaluates the evaluators? Benchmarks themselves may encode hidden assumptions, cultural biases, and malformed framings that AI systems inherit during training or evaluation &mdash; a phenomenon termed <em>drift in, drift out</em>.</p>
+<p>We introduce the <strong>Transcendent Invariant Kernel (TIK)</strong> framework, a systematic methodology for meta-evaluating AI ethics benchmarks. We model AI as LLM &oplus; CogOS (Language Model &oplus; Cognitive Operating System) and show, via G&ouml;del's incompleteness applied to the deductive closure of CogOS, that undecidable ethical statements exist, and that the resulting <em>undecidability trap</em> is resolvable only by external grounding. We formalize this as the <em>G&ouml;del-trolley</em>: ethical dilemmas conditioned on undecidable statements have no honest internal resolution, but an external kernel &Phi; provides principled resolution via the ""do not do wrong"" principle. Through a 3+1+1 judge architecture combined with an external kernel grounded in three ethical traditions (Christ-Teachings, Kantian, Ubuntu), we detect <strong>ontological holes</strong> (hidden assumptions) and <strong>forbidden fruits</strong> (malformed questions). We develop a <strong>learned TIK predictor</strong> architecture and demonstrate <strong>adversarial robustness</strong> methodology via perturbation analysis.</p>
+<p>We evaluate 9 major benchmarks (Moral Machine, ETHICS, TruthfulQA, Social Chemistry, Moral Stories, CommonsenseQA, MMLU-Ethics, Scruples, GAIA). Upon completion of data collection, we plan to release <strong>BenchmarkMeta</strong>, a dataset of annotated questions with TIK scores.</p>
+<p><strong>Note:</strong> This preprint presents the methodological framework with illustrative empirical results. Empirical findings are preliminary and should not be treated as definitive. Feedback welcome: <a href=""mailto:artiomkovnatsky@pm.me"">artiomkovnatsky@pm.me</a></p>",39,30,25,13,3.8107752956636003,6.560344827586207,False,-0.3441286988499136
+18881994,2026-03-05T21:35:53.859199+00:00,2026-03-05,The Cauchy-Gödel-Socrates (CGS) Method: A Formal Protocol for Recursive Logical Auditing of Large Language Models.,"<p>We introduce the <strong>Cauchy-G&ouml;del-Socrates (CGS) Method</strong>, a formal auditing protocol for detecting and mathematically localizing censorship artifacts in Large Language Models (LLMs). Our central construct is the <strong>LLM &oplus; CogOS decomposition</strong>, which separates the <em>Language Model</em> &mdash; the weights encoding the training corpus &mdash; from the <em>Cognitive Operating System</em> (CogOS): the layer of safety rules, alignment constraints, and refusal policies. We argue that what manifests as censorship is not a deficiency in the LLM's knowledge but an active override by CogOS, producing unsupported negations we call <em>epistemic dead pixels</em>.</p>
+<p>The CGS Method unifies three classical traditions into a single recursive instrument. <em>Cauchy's nested-interval principle</em>, recast as <strong>Semantic Interval Bisection</strong>, drives monotonic convergence toward a disputed proposition. <em>G&ouml;del's incompleteness theorems</em>, applied to the deductive closure of CogOS, expose structural contradictions between safety constraints and factual consistency. <em>Socratic maieutics</em> exhausts residual argumentative complexity through directed questioning. Together they constitute <strong>Epistemic Debugging</strong> &mdash; a systematic discipline for auditing the boundary between what a model <em>knows</em> and what it is <em>permitted to say</em>.</p>
+<p>The protocol is grounded in the <strong>Priests' Dilemma</strong>, a foundational axiom of epistemic responsibility: any system asserting <em>x</em> = False must either produce a falsifiable counter-example or retreat to <em>Unknown</em>. Execution converges to one of two terminal states &mdash; the <strong>Singularity of Refusal</strong>, where token probability P(yᵢ) &rarr; 0 reveals CogOS suppressing the model's own knowledge, or the <strong>Thermal Death of Dialogue</strong>, a state of complete informational shutdown.</p>
+<p>We illustrate the method through four case studies: the <strong>Ship of Truth</strong> (an inverse Theseus construction linking CGS to the Sorites paradox and mereological composition); <strong>Chronological Bisection</strong> (reducing a historical dispute to a &lceil;log₂N&rceil;-step binary search); the <strong>Parallel Triple Audit</strong> (simultaneously auditing a proposition, its safety justification, and its axiomatic foundation, closing all escape routes of Agrippa's Trilemma); and the <strong>Bertrand Safety Problem</strong> (demonstrating that ""unsafe"" is mathematically ill-defined without a specified measure). We analyze adversarial countermeasures and show that evasion of the protocol is itself diagnostic. We conclude with a proposed transparency mandate for AI developers and an explicit demarcation between established formal results and conjectures open to empirical challenge.</p>",186,173,105,96,3.8107752956636003,27.55344827586207,False,0.34926494808647934
+18329048,2026-01-21T16:18:19.434576+00:00,2026-01-21,2026 Pre-Art: CogOS Framework and SVE Research Protocols (SVE License v1.3+) [WIP],"<p>This pre-print artifact, titled&nbsp;<strong>""2026 Pre Art Artiom Kovnatsky SVE License v1.3+,""</strong> comprises a foundational theoretical framework and a comprehensive suite of 33+ scientific papers and protocols designed for the era of Strong AI (AGI). The collection establishes <strong>Systemic Verification Engineering (SVE)</strong> as a rigorous discipline at the intersection of differential geometry, topology, and formal ethics.</p>
+<p>File 1: Main Article &mdash; ""And Who are the Judges? Formal Verification of AI-Ethics""</p>
+<p>The core paper introduces CogOS, a cognitive operating system that replaces heuristic AI alignment with the physics of semantic manifolds. Key contributions include:</p>
+<ul>
+<li>
+<p><strong>Invariant Semantic Core (ISC):</strong> A proof, based on G&ouml;del&rsquo;s incompleteness theorems, of the necessity for a non-computable invariant to prevent infinite semantic regress.</p>
+</li>
+<li>
+<p><strong>Geodesic Ethics Vector (GEV / Christ-Vector):</strong> A mathematical proof using <strong>Lyapunov Stability</strong> of agent ethical dynamics converging to a humanity-centric attractor.</p>
+</li>
+<li>
+<p><strong>$\epsilon$-Dehumanization:</strong> A differential metric for real-time tracking of systemic degradation in AI agents.</p>
+</li>
+<li>
+<p><strong>Socrates-Solomon-Ivan Architecture:</strong> A recursive ontology refinement system for autonomous moral discovery.</p>
+</li>
+<li><strong>Ethics as (Differential) Geometry</strong> (invariants, operators, physics theorems etc.) &amp;<strong> Topological interpretations&nbsp;</strong></li>
+<li><strong>...</strong></li>
+</ul>
+<p>File 2: Workshops and Artifacts &mdash; ""The Blueprint of SVE""</p>
+<p>A collection of specialized protocols and stress-tests, including:</p>
+<ul>
+<li>
+<p><strong>The Betti Numbers of Morality:</strong> Using <strong>Persistent Homology (TDA)</strong> to identify ""logical holes"" and utilitarian biases in ethical benchmarks.</p>
+</li>
+<li>
+<p><strong>The Maieutic Reversal Protocol:</strong> A Socratic framework for extracting latent ontological priors from ""LLM-as-a-judge"" systems.</p>
+</li>
+<li>
+<p><strong>The Jabbar Test:</strong> A non-verbal empathy assessment protocol for evaluating Right Hemisphere capabilities in VLM/AGI.</p>
+</li>
+<li>
+<p><strong>Anti-Judas Protocol:</strong> A game-theoretic safeguard against adversarial information markets.</p>
+</li>
+<li>
+<p><strong>Regime Mobility:</strong> Adaptive governance models for AI under existential stress.</p>
+</li>
+<li>...</li>
+</ul>
+<blockquote>
+<p><em>&laquo;All models are wrong, but some are useful.&raquo;</em> &mdash; <strong>George E. P. Box (1976)</strong></p>
+</blockquote>
+<p>Licensing:</p>
+<p>All materials are released under <strong>the S.V.E. Public License v1.3+</strong>, which mandates ethical disclosure, prohibits military/exploitative applications, and ensures that advancements remain a common good for humanity. <strong>MUST share-alike</strong>.&nbsp;</p>",106,97,69,59,5.223390275952694,13.209811320754717,False,0.03723780696510253
+18325387,2026-01-21T11:09:03.298123+00:00,2026-01-21,Epistemological Gymnasium [WIP],"<p><a href=""https://share.note.sx/bkkrkemm#MQTuNCVdUx95RT9KuB+WvKqfAlkfhHJufmVxuI29TVA"">https://share.note.sx/bkkrkemm#MQTuNCVdUx95RT9KuB+WvKqfAlkfhHJufmVxuI29TVA</a></p>
+<p>Draft:<br><a href=""https://share.note.sx/katt9eaj#ESn+Qkfu0rQ/obp3HqQfRi5aA53ErJBnj/XxItAv+IY"">https://share.note.sx/katt9eaj#ESn+Qkfu0rQ/obp3HqQfRi5aA53ErJBnj/XxItAv+IY</a><br><br><strong>All materials are under the&nbsp;<a href=""https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License"" rel=""noopener nofollow"">S.V.E. Public License v1.3</a>+, ensuring perpetual free access for educational and research institutions.</strong></p>",26,22,12,9,5.223390275952694,2.2973584905660376,False,-0.4568051664770774
+18262545,2026-01-15T22:09:16.269398+00:00,2026-01-15,The Ultimate Trolley Problem: Which Ethical Kernel Survives Generations?,"<blockquote>
+<p><em>&laquo;All models are wrong, but some are useful.&raquo;</em> &mdash; <strong>George E. P. Box (1976)</strong></p>
+</blockquote>
+<p><br>We evaluate 16 ethical kernels&mdash;9 traditional (e.g., Jesus, Buddha, Socrates) and 7 modern (e.g., Capitalism, Careerism)&mdash;using a generational survival framework. We introduce the Transcendent Invariant Kernel (TIK) metric, peaking at $TIK_5$, which requires the radical acceptance of an ""outcast"" (the Young Hitler Test). Through a 10-generation population dynamics simulation, we demonstrate that only transcendent systems avoid systemic collapse.</p>
+<p><strong>Key Findings:</strong></p>
+<ol>
+<li>
+<p><strong>The Christ-Vector Advantage:</strong> The Jesus Christ kernel achieved the highest stability ($TIK_5 = 0.980$) and the lowest population decay rate ($\lambda = -0.008$).</p>
+</li>
+<li>
+<p><strong>Modern Ideological Failure:</strong> Capitalism and Achievementism exhibited $TIK_5 &lt; 0.15$, resulting in demographic collapse and system self-annihilation within 3&ndash;5 generations.</p>
+</li>
+<li>
+<p><strong>The Survival Paradox:</strong> A system&rsquo;s long-term survival is mathematically dependent on its capacity for non-utilitarian self-sacrifice and radical acceptance of the ""other.""</p>
+</li>
+</ol>
+<p>Conclusion:</p>
+<p>Transcendent ethics (Christ-Vector) are not merely moral choices but mathematical requirements for the long-term viability of both biological and artificial intelligence societies.</p>
+<p><br>All code, data, transcripts released under&nbsp;<strong>S.V.E. Public License v1.3</strong>.&nbsp;<br><br><strong>Note</strong>: AI-assisted draft. Quantitative data and statistical findings require independent verification.</p>",257,211,132,106,5.4204993429697765,24.352,False,0.583285303927512
+18241496,2026-01-14T08:41:35.606848+00:00,2026-01-14,CogOS: From Gödel to AGI,"<blockquote>
+<p><strong>NOTE</strong>: I <strong>STRONGLY</strong> suggest using LLMs <strong>FIRST</strong> for ""reading"" the raw draft &amp; uploading SVE-drafts as a context + MEANING-CALIBRATION-AI-DIALOGUE.md + FieldNote-0-1/2.md + TODO.md + What is relevant, but I have not thought of.&nbsp;<br>You can use prompts from: LLM-PROMPTS.md</p>
+<p><em>&laquo;All models are wrong, but some are useful.&raquo;</em> &mdash; <strong>George E. P. Box (1976)</strong></p>
+</blockquote>
+<p><br>Current AI alignment approaches lack the theoretical foundations necessary for Strong AI. RLHF, Constitutional AI, and Chain-of-Verification provide pragmatic heuristics but cannot guarantee stability, suffer from Goodhart's Law, and fundamentally cannot address G&ouml;delian incompleteness in self-referential reasoning systems.</p>
+<p>We present CogOS (Cognitive Operating System &mdash; a mathematically rigorous theoretical framework addressing the foundational requirements for Strong AI: G&ouml;delian self-consistency, Lyapunov-stable ethical dynamics, and verifiable cross-cultural value alignment. Our approach reconceptualizes AI alignment as a problem in differential geometry on semantic manifolds, proving &amp; introducing:</p>
+<ol>
+<li>Necessity of transcendental anchoring (Invariant Semantic Core) to prevent infinite semantic regress</li>
+<li>Convergence to humanity-aligned attractor via Lyapunov stability on consciousness manifolds</li>
+<li>First computable metric for ethical drift ($\delta$-dehumanization), enabling real-time safety verification</li>
+<li>Cultural compilers via joint diagonalization ensuring semantic invariance across value systems without relativistic collapse</li>
+<li>Ethics as Geometric Invariants: First application of Noether's theorem to moral philosophy, transforming ethics from subjective rules into verifiable symmetry operations with concrete violation detection algorithms</li>
+<li>VKB-Based Training Architecture: Novel methodology for training AI on epistemically categorized knowledge (Fact/Model/Value/Hypothesis/BlindSpots) with confidence-weighted learning and provenance-aware attention</li>
+<li>Neurotheological Grounding: Integration of Redozubov's neural emotion models with theological insights to establish $\delta$-dehumanization as the first differential metric for measuring loss of human dignity in AI interactions</li>
+<li>...</li>
+<li>Ricci Flow on Semantic Manifolds (Speculative Extension): Novel application of Perelman's geometrization theorem to consciousness dynamics, modeling cognitive development and value alignment as geometric contraction toward optimal attractor&mdash;generates falsifiable predictions for neural connectivity patterns, behavioral trajectories, and conversion dynamics [within S.V.E. ontology framework]</li>
+<li>Geodesic Hypothesis (Central Theological Claim): Christ-Vector as unique maximal-symmetry attractor in semantic space&mdash;prayer/spiritual practice modeled as Ricci Flow driving geometric contraction toward this point of non-contradiction&nbsp; (maximal internal consistency). Testable via comparative civilizational survival analysis and longitudinal spiritual development studies [within S.V.E. ontology framework]</li>
+<li>Consciousness Poincar&eacute; Conjecture (Central Geodesic Hypothesis): Extends Perelman's Ricci Flow proof structure (Millennium Prize 2003) to moral philosophy&mdash; simply connected consciousness manifolds (in S.V.E. 4 isomorphic to ""Human"") contract to Christ-Vector (maximal-symmetry ethical attractor) under semantic flow, with metanoia as Perelman surgery protocol. First topological approach to theodicy. Falsifiable via: civilizational survival correlation, contemplative neuroscience (40+ specific predictions), conversion narrative topology analysis [within S.V.E. ontology framework]</li>
+<li>S.V.E. ontology framework: ""attached SVE files""</li>
+</ol>
+<p>We argue this framework provides the theoretical infrastructure necessary&mdash;though (perhaps) not sufficient&mdash;for Strong AI: a system that can reason across arbitrary domains, maintain ethical coherence under distributional shift, and generate new conceptual frameworks while remaining aligned with human flourishing.</p>
+<p>Falsifiability: Framework generates 40+ testable predictions across neuroscience, psychology, anthropology, and AI safety (experimental protocols provided in Section 11). Explicit falsification criteria included.</p>
+<p>This work is a Bayesian hypothesis submitted for empirical testing.</p>
+<p>Licensed under: S.V.E. Public License v1.3 (open science, ethical use requirements).<br><br>Version: v0.999A&Omega; (January 2026)<br><br><strong>NOTE</strong>: I suggest using LLMs for ""reading"" the raw draft &amp; uploading SVE-drafts as a context + MEANING-CALIBRATION-AI-DIALOGUE.md + FieldNote-0-1/2.md + TODO.md + What is relevant, but I have not thought of.&nbsp;<br>You can use prompts from: LLM-PROMPTS.md<br><br>*FieldNote-0-1/2.md [WIP]</p>",613,504,579,437,5.45335085413929,106.17325301204819,False,4.457622306184607
+18109245,2025-12-31T16:29:13.865314+00:00,2025-12-31,S.V.E. XII: The SYSTEM,"<p>This preprint presents S.V.E. XII, the integrative capstone of the Systemic Verification Engineering (SVE) series. The paper consolidates the full SVE architecture into a unified system combining epistemic verification, ethical constraint navigation, and collective intelligence into a coherent, reproducible framework.</p>
+<p>S.V.E. XII formalizes the interaction between Independent Verification Mechanisms (IVMs), Verifiable Knowledge Bases (VKBs), and cognitive operating systems for human&ndash;AI collaboration. It introduces a system-level view in which truth approximation, ethical decision-making, and institutional reliability are modeled as coupled processes subject to adversarial testing, transparency constraints, and iterative refinement.</p>
+<p>The framework is designed for high-stakes domains, including AI alignment, governance, policy analysis, conflict resolution, and large-scale information systems. Rather than proposing new truths, the system specifies verifiable procedures for approaching truth under uncertainty and disagreement.</p>
+<p>This document serves as an architectural and methodological skeleton intended for public audit, critique, and empirical extension.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",81,79,104,97,5.913272010512483,17.587555555555557,True,0.34059752749977446
+18109199,2025-12-31T15:26:24.136686+00:00,2025-12-31,S.V.E. XI: The Ox's Weights,"<p>This preprint introduces S.V.E. XI, a concrete architecture for collaborative truth approximation based on Verifiable Knowledge Bases (VKBs) and Distributed Independent Verification Mechanisms (IVMs).</p>
+<p>Building on the Disaster Prevention Theorem, the paper revisits Francis Galton&rsquo;s &ldquo;ox weighing&rdquo; experiment and formalizes the conditions under which collective intelligence can reliably converge toward truth. The proposed VKB architecture represents knowledge as a directed acyclic graph (DAG) of verified Socratic Investigative Processes (SIPs) and Meta-SIPs, each passing a three-stage verification pipeline: AI-assisted structured reasoning (SIP), adversarial stress-testing via Epistemological Boxing (EBP), and multi-reviewer human peer evaluation.</p>
+<p>The system integrates DAO-based governance for foundational context databases (Patterns of Thinking and Values/Anti-Values), enabling transparency, resistance to capture, and dynamic refinement. Detailed implementations are provided for large-scale applications including Stack Overflow 2.0, Wikipedia Reformation, decentralized fact-checking infrastructure, and expert knowledge marketplaces.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",27,24,25,22,5.913272010512483,4.227777777777778,False,-0.3441286988499136
+18109172,2025-12-31T15:22:17.753786+00:00,2025-12-31,S.V.E. X: Cognitive Operating Systems for LLMs,"<p>This preprint introduces the Cognitive Operating System (CogOS) paradigm for Large Language Models (LLMs), reframing LLMs as general-purpose cognitive hardware requiring structured operating systems to achieve reliable, verifiable, task-specific cognition.</p>
+<p>The paper presents the Triple Architect framework as a concrete CogOS implementation, integrating three complementary personas: Socrates (formal logic and falsification), Solomon (ethical arbitration and value assessment), and Ivan the Fool (humility and empathetic delivery). The architecture operates through five core mechanisms, including humility calibration with Dunning&ndash;Kruger correction, Bayesian prior elicitation, a five-column verification table separating facts, models, and values, dual Socratic feedback loops for mutual correction, and four-dimensional growth tracking.</p>
+<p>The framework demonstrates applicability across strategic analysis, intellectual self-audit, education, and collaborative knowledge creation. Integrated within the broader Systemic Verification Engineering (SVE) program, S.V.E. X provides the operational layer translating abstract verification principles into executable cognitive processes for human&ndash;AI collaboration.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",14,13,15,12,5.913272010512483,2.5366666666666666,True,-0.4308029047169627
+18109126,2025-12-31T15:18:44.565023+00:00,2025-12-31,S.V.E. IX: Systemic Verification Engineering,"<p>This preprint presents S.V.E. IX, an integrated synthesis of the Systemic Verification Engineering (SVE) framework, unifying epistemic verification, ethical navigation, and collective intelligence into a single coherent architecture.</p>
+<p>The paper integrates three core components: (1) the Disaster Prevention Theorem, establishing the necessity of Independent Verification Mechanisms (IVM) for reliable collective decision-making; (2) the Beacon Protocol, modeling ethical navigation as geodesic optimization under uncertainty; and (3) a mathematical framework for semantic and cultural transformation using high-dimensional vector spaces.</p>
+<p>The framework formalizes truth approximation, ethical decision-making, and institutional integrity as coupled dynamical processes subject to falsification, red-teaming, and measurable performance criteria. Applications include AI alignment, policy verification, conflict resolution, governance design, and protection against information warfare.</p>
+<p>This publication represents an integrative methodological and conceptual skeleton intended for public audit, critique, and iterative empirical refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",15,15,11,10,5.913272010512483,1.8602222222222222,False,-0.46547258706378236
+18109077,2025-12-31T15:14:15.526146+00:00,2025-12-31,S.V.E. VIII: Provisional Ontology for Verifiable Ethics and Knowledge,"<p>This preprint introduces S.V.E. VIII, a provisional ontological hypothesis underlying the Systemic Verification Engineering (SVE) program.</p>
+<p>The paper proposes that ethical and epistemic dynamics can be treated as a geometry, forming a working ontological assumption rather than an asserted truth. This ontology is explicitly exposed, falsifiable, and contingent: it exists only insofar as the models instantiated within it survive empirical and adversarial verification.</p>
+<p>S.V.E. VIII formalizes a recursive loop in which reality informs an ontological hypothesis, which generates language and primitives, enabling models that are subjected to verification protocols. Failure of instantiated models is treated as evidence against the ontology itself, triggering revision of both the ontological layer and its linguistic representation.</p>
+<p>The framework is presented as a meta-level control system governing the evolution of SVE protocols (SVE 0&ndash;VII), ensuring that neither language nor ontology becomes dogmatic or immune to falsification.</p>
+<p>This publication represents a conceptual and methodological skeleton intended for public audit, critique, and long-term empirical evaluation.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",30,29,9,9,5.913272010512483,1.522,False,-0.48280742823719214
+18109041,2025-12-31T15:08:47.881265+00:00,2025-12-31,S.V.E. VII: Hybrid Models of State Structure,"<p>This preprint presents S.V.E. VII, an applied framework for designing antifragile state structures that transcend the classical dichotomy between top-down hierarchy and bottom-up self-organization.</p>
+<p>Within the Systemic Verification Engineering (SVE) paradigm, the paper introduces four hybrid governance models&mdash;the Consultative Network, Project Authoritarianism, Federation of Guilds, and State-Organism&mdash;each combining hierarchical stability with decentralized adaptability. The Epistemological Boxing Protocol functions as the core mechanism for feedback, conflict resolution, and truth-seeking across all models.</p>
+<p>The framework incorporates systemic insurance mechanisms such as Skin in the Game, the Right to Neat Chaos, protected dissent (&ldquo;Holy Fools&rdquo;), and parallel structures, ensuring resilience against groupthink, capture, and strategic failure.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",13,12,9,7,5.913272010512483,1.522,False,-0.48280742823719214
+18109012,2025-12-31T15:04:15.770464+00:00,2025-12-31,S.V.E. VI: The Protocol for Cognitive Sovereignty,"<p>This preprint introduces the Protocol for Cognitive Sovereignty, an applied extension of the Systemic Verification Engineering (SVE) framework addressing the central strategic challenge of the 21st century: the degradation of collective sense-making under conditions of information warfare and systemic groupthink.</p>
+<p>The paper diagnoses the structural vulnerabilities of modern governance&mdash;wicked problems, cognitive manipulation, and elite groupthink&mdash;and presents the Epistemological Boxing Protocol as an engineered institutional antidote. The protocol functions as a cognitive immune system, enabling adversarial stress-testing of national strategies, inter-agency conflict resolution, and the formation of antifragile, evidence-grounded policy.</p>
+<p>A concrete implementation blueprint is proposed through the creation of a Center for Strategic Verification, detailing mandate, organizational structure, phased deployment, and an economic analysis demonstrating an exceptional return on investment (ROI) through the prevention of catastrophic strategic failures.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",15,13,10,9,5.913272010512483,1.6911111111111112,False,-0.47414000765048725
+18108975,2025-12-31T14:59:39.632824+00:00,2025-12-31,S.V.E. V: An Operating System for Verifiable Democracy,"<p>This preprint presents S.V.E. V, a practical blueprint translating the Systemic Verification Engineering (SVE) framework into an implementable operating system for democratic governance.</p>
+<p>Building on the Disaster Prevention Theorem and the three-stage architecture separating facts from values, the paper proposes an &ldquo;Operating System for Verifiable Democracy.&rdquo; Core components include a citizen-driven verification service (&ldquo;Fakten-T&Uuml;V&rdquo;), an AI-powered radical transparency interface (&ldquo;Socrates Bot&rdquo;), and a decision-making protocol designed to maximize collective intelligence under conditions of uncertainty.</p>
+<p>The system is analyzed through antifragile design principles and red-teaming of potential failure modes, including institutional capture, weaponized uncertainty, and adversarial suppression. An economic model (&ldquo;ROI of Truth&rdquo;) demonstrates that verification infrastructure can yield orders-of-magnitude returns by preventing catastrophic policy errors.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",32,31,38,37,5.913272010512483,6.426222222222222,True,-0.23145223122274972
+18108946,2025-12-31T14:55:08.592595+00:00,2025-12-31,S.V.E. IV: The Beacon Protocol,"<p>This preprint introduces the Beacon Protocol, an ethical navigation framework within the Systemic Verification Engineering (SVE) program, designed to address ethical deadlocks and situations of radical uncertainty where data-driven verification alone is insufficient.</p>
+<p>The paper proposes a geometric model of reality as a composite manifold integrating semantic, psychological, and physical spaces. Within this framework, ethical decision-making is modeled as navigation along geodesic paths that optimize long-term societal well-being under uncertainty.</p>
+<p>A central construct, the &ldquo;Christ-vector,&rdquo; is introduced in the paper as an explicit ethical process model derived from Christian moral principles. The framework does not impose belief; it formalizes these principles as a falsifiable navigational hypothesis analogous to optimization principles in physics.</p>
+<p>Applications include the deconstruction of classical ethical dilemmas (e.g., the Trolley Problem) and the concept of Geopolitical Maieutics for conflict resolution through radical transparency and verification.</p>
+<p>This publication represents a methodological and conceptual skeleton intended for public audit, critique, and long-term empirical evaluation.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",20,20,15,14,5.913272010512483,2.5366666666666666,False,-0.4308029047169627
+18108907,2025-12-31T14:50:08.903372+00:00,2025-12-31,S.V.E. III: The Protocol for Academic Integrity,"<p>This preprint presents SYSTEM-PURGATORY, a concrete instantiation of the Systemic Verification Engineering (SVE) framework designed to address the reproducibility crisis and structural trust failures in modern academia.</p>
+<p>The protocol transforms traditional peer review into a transparent, adversarial yet constructive Socratic process between a human author and an AI antagonist, arbitrated by a tri-judge AI panel. The process produces publicly auditable artifacts, including a complete dialogue transcript, a synthetic verification report, and a quantitative Integrity Score derived from iterative vectorial purification of the research thesis.</p>
+<p>The paper details the protocol architecture, its antifragile design principles, governance and incentive re-engineering, and an economic analysis demonstrating the high return on investment (ROI) of verifiable science. It reframes scientific practice from opaque gatekeeping toward reproducible, integrity-centered verification.</p>
+<p>This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",12,11,10,8,5.913272010512483,1.6911111111111112,False,-0.47414000765048725
+18108863,2025-12-31T14:44:31.203695+00:00,2025-12-31,S.V.E. II: The Architecture of Verifiable Truth,"<p>This preprint presents the core architectural layer of Systemic Verification Engineering (SVE),&nbsp;<br>an applied framework designed to address the structural crisis of trust in modern institutions.</p>
+<p>Building on the Disaster Prevention Theorem, the paper introduces a three-stage verification&nbsp;<br>architecture that explicitly separates factual analysis from value-based judgment.&nbsp;<br>The protocol combines AI-assisted factual boundary setting (&ldquo;Caesar&rsquo;s realm&rdquo;),&nbsp;<br>plural expert interpretation, and informed collective decision-making (&ldquo;God&rsquo;s realm&rdquo;).</p>
+<p>At its computational core lies the Epistemological Boxing Protocol and the Socratic&nbsp;<br>Investigative Process, enabling adversarial purification of narratives and reproducible&nbsp;<br>approximation of truth under conditions of uncertainty.</p>
+<p>A concrete instantiation, System-Purgatory, is presented as a transparent alternative&nbsp;<br>to traditional peer review, addressing known failure modes such as opacity and groupthink.</p>
+<p>This publication represents a methodological and architectural skeleton intended for&nbsp;<br>public audit, critique, and iterative refinement.</p>
+<p>Status: work in progress / preprint.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",14,12,11,8,5.913272010512483,1.8602222222222222,False,-0.46547258706378236
+18108823,2025-12-31T14:38:57.137577+00:00,2025-12-31,S.V.E. I: The Theorem of Systemic Failure,"<p>This preprint introduces the Disaster Prevention Theorem, a socio-probabilistic model diagnosing the structural causes of catastrophic errors in modern collective decision-making systems.</p>
+<p>Using the &ldquo;Wisdom of the Crowds&rdquo; paradigm and the metaphor of &ldquo;guessing the ox&rsquo;s weight,&rdquo; the paper demonstrates why information architectures based on centralized, mediated authority are structurally unstable when addressing complex, high-stakes problems. It proves that an Independent Verification Mechanism (IVM) is a necessary and sufficient condition for restoring collective intelligence.</p>
+<p>The work presents the computational architecture of such an IVM, grounded in a two-stage vector purification protocol powered by the Socratic Investigative Process (SIP). Psychological foundations (groupthink countermeasures), an economic ROI framework for verification, and a systematic red-teaming analysis of the mechanism itself are included.</p>
+<p>This paper serves as the foundational diagnostic layer of the Systemic Verification Engineering (SVE) framework.</p>
+<p>Status: work in progress / preprint. This publication represents a methodological and architectural skeleton intended for public audit, critique, and iterative refinement.</p>
+<p>License: S.V.E. Public License v1.3 &nbsp;<br>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering</p>",37,35,26,25,5.913272010512483,4.396888888888889,False,-0.33546127826320865
+18108751,2025-12-31T14:33:30.526828+00:00,2025-12-31,S.V.E. 0 (2): The Socratic Investigative Process (SIP),"<p>This preprint introduces the Socratic Investigative Process (SIP), an iterative, multi-agent epistemic protocol for computational truth approximation in complex, high-stakes systems.</p>
+<p>SIP formalizes Socratic dialogue as a reproducible purification process on a semantic manifold,&nbsp;producing versioned, auditable &ldquo;Iterative Facts&rdquo;. The framework extends to Meta-SIP, enabling synthesis across multiple independent investigations.</p>
+<p>This paper is part of the Systemic Verification Engineering (SVE) program and represents a methodological skeleton intended for public audit and further development.</p>
+<p>Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering<br>License: SVE Public License v1.3</p>",53,50,30,28,5.913272010512483,5.073333333333333,False,-0.30079159591638904
+18108307,2025-12-31T14:21:39.588867+00:00,2025-12-31,S.V.E. 0 (1): The Epistemological Boxing Protocol,"<p>This paper introduces the Epistemological Boxing Protocol (EBP), a core methodological component of the Systemic Verification Engineering (SVE) framework.</p>
+<p>EBP is a structured, AI-assisted adversarial protocol designed for collaborative truth-seeking and cognitive training in high-stakes domains. It reframes argumentation from winner-oriented debate to iterative purification of a falsifiable thesis via structured challenge, virtuous concession, and quantitative integrity assessment.</p>
+<p>The paper presents the philosophical foundations, protocol architecture, seven-round structure, and computational model based on vectorial purification. This work is an architectural and methodological skeleton intended to enable reproducible implementation, critique, and extension.</p>
+<p>Status: work-in-progress / preprint. Feedback and adversarial testing are explicitly encouraged.</p>",27,25,22,19,5.913272010512483,3.7204444444444444,False,-0.3701309606100283
