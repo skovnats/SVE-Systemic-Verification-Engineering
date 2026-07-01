@@ -172,3 +172,16 @@ In one line: `SVE ≡ FOSS + a taboo on closing ideas/derivatives (+ audit on do
 > «По плодам их узнаете их.» — Мф 7:20 · *"By their fruits you will know them."*
 
 **С БОГОМ!** ✝️
+
+
+
+
+
+>AUTHOR’S NOTEAuthor’s Note: 
+>The author invites the reader to approach all numerical KPIs [incl. but not limited to this document] with a healthy degree of skepticism, remaining firmly convinced that the phenomena of Human Being and/or fundamental phenomena such as Truth, Freedom, Cognition, Consciousness, and Reality inherently transcend the boundaries of any numerical abstraction. 
+>As George Box famously stated: "All models are wrong, but some are useful." It is precisely within this framework that one should interpret this analysis, these KPIs, and/or the metrics of any expert, whether renowned or obscure.  
+>The historical experience of Humanity demonstrates that breakthroughs are rarely understood by contemporaries. Einstein's early works faced deep institutional inertia; Georg Cantor's revolutionary set theory was dismissed by his peers as "meaningless and on the verge of madness", leading to his tragic, unacknowledged death in a psychiatric facility—only for the world to comprehend the magnitude of his genius decades later (not to mention his own explicit attribution of this knowledge to a "Higher Source"). Consider also Gödel’s Incompleteness Theorems, which mathematically formalized the intrinsic limitations of any consistent formal system. 
+>Furthermore, Jesus of Bethlehem (traditionally referred to as of Nazareth, though born in Bethlehem) and Socrates never authored a single manuscript and/or academic paper. Their formal citation index is precisely zero, yet their foundational impact on Human civilization remains absolute. In the case of Socrates, we do not possess a single direct primary source confirming his physical existence, yet the sheer gravitational pull of his philosophical legacy leaves no room for doubt. 
+>The author by no means compares themselves to these extraordinary minds (People++), but invokes their memory strictly to illustrate the limitations of human cognition. 
+>Any model must serve merely as a pragmatic indicator, never as the Absolute Truth.  
+>Thank you for your attention.
