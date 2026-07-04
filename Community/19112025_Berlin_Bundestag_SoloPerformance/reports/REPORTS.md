@@ -674,7 +674,7 @@ Archive:
 ---
 
 ## Change Log
-- 2026-07-04 - Added AK1984-Human-505 (Чернецький Юрий Володимирович) & Related Post in X: 
+- 2026-07-04 - Added AK1984-Human-505 (Чернецький Юрий Володимирович) & Related Post in X: https://x.com/ArtiomKovnatsky/status/2073450384379584581
 - 2026-06-19 - UPD Termination & Termination-statement & Adding Videos 
 - 2026-04-05 - Report [week_+-19](week_+-19) & Added `Clarification 2` & Chain of posts in X (from Α till Ω)
 - 2026-03-29 - Report [week_+-18](week_+-18)
