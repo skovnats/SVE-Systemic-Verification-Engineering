@@ -524,6 +524,7 @@
 | 502 | [AK1984-Human-503](https://youtu.be/9iuoZeriymM?t=1611) | [week_+-19](week_+-19) | 2026-04-05 | 2026-04-03T17:39:22 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-19/srt/artem__dmytruk__2026-04-03T173922.000Z_Russian-subtitles.srt) | - | - | https://www.instagram.com/stories/artem__dmytruk/ | **AI-summary srt:** Mentioning a guy was beaten. |
 | 503 | [AK1984-Human-504](https://youtu.be/9iuoZeriymM?t=1731) | [week_+-19](week_+-19) | 2026-04-05 | 2026-04-03T17:51:05 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-19/srt/artem__dmytruk__2026-04-03T175105.000Z_Russian-subtitles.srt) | - | - | https://www.instagram.com/stories/artem__dmytruk/ | **AI-summary srt:** Angry confrontation about getting paid to catch people. |
 | 504 | [AK1984-Human-505](https://youtu.be/9iuoZeriymM?t=1799) | [week_+-19](week_+-19) | 2026-04-05 | 2026-04-04T15:38:21 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-19/srt/artem__dmytruk__2026-04-04T153821.000Z_Russian-subtitles.srt) | - | - | https://www.instagram.com/stories/artem__dmytruk/ | **AI-summary srt:** Asking for help, telling them not to touch a guy. |
+| 505 | AK1984-Human-506 | week_+-Omega | 2026-07-04 | - | Юрій | Чернецький | Володимирович | 1970-10-29 | Харків | Харківська | +380503647426 | [alina.kharkov.ukraine@gmail.com](mailto:alina.kharkov.ukraine@gmail.com) | @alina_kharkov_ukraine | В военкомате / учебной части | Родственник | Шевченківський РТЦК та СП м.Харкова | 09.06.2026 | У него дома лежачая мать, которая сутки лежала голодная в грязном памперсе. Сейчас мать в больнице. Он единственный, кто может ухаживать, т.к. его брат инвалид 1й группы и живёт за границей | https://www.artiomkovnatsky.com/the-ak1984-list | #AK1984List #SOS |
 | SubmissionID | RespondentID | [week_+-20](week_+-20) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | AK1984-Human-0** | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | AK1984-Human-0** | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
 | SubmissionID | RespondentID | Tag(week) | SubmittedAt | UploadedAt | Name | LastName | FatherName | DOB | City | Region | Phone | Email | Telegram | Status | AK1984-Human-0** | ADDITIONAL | LastContact | Comments | URLSource | Metadata |
@@ -673,6 +674,7 @@ Archive:
 ---
 
 ## Change Log
+- 2026-07-04 - Added AK1984-Human-505 (Чернецький Юрий Володимирович) & Related Post in X: 
 - 2026-06-19 - UPD Termination & Termination-statement & Adding Videos 
 - 2026-04-05 - Report [week_+-19](week_+-19) & Added `Clarification 2` & Chain of posts in X (from Α till Ω)
 - 2026-03-29 - Report [week_+-18](week_+-18)
