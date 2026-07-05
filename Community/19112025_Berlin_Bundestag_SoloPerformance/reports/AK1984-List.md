@@ -21,13 +21,13 @@ Source: https://www.artiomkovnatsky.com/the-ak1984-list
 Харківська
 
 Номер телефона
-+380503647426
++380[hidden]
 
 Email
-alina.kharkov.ukraine@gmail.com
+[hidden].kharkov.ukraine@gmail.com
 
 Телеграм/Другой способ связи
-@alina_kharkov_ukraine
+@[hidden]_kharkov_ukraine
 
 Статус
 В военкомате / учебной части
