@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
 
 if [ ! -f "hashsum.md" ]; then
     echo "❌ hashsum.md не найден."
@@ -8,7 +7,5 @@ fi
 
 echo "🔍 Проверка измененных файлов..."
 
-# -a (audit): режим сверки
-# -k: путь к файлу с известными хэшами
-# -r .: рекурсивная проверка текущей директории
-hashdeep -a -k hashsum.md -r . 2>&1 | grep -i "FAILED" || echo "✅ Все файлы совпадают с hashsum.md"
+# Запуск аудита (выведет конкретные файлы с несовпадающим хэшем или новые)
+hashdeep -a -k hashsum.md -r . 2>&1 | grep -E -i "no match|not found|audit failed" || echo "✅ Все файлы совпадают с hashsum.md"
