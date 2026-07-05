@@ -1853,7 +1853,7 @@ If you're interested in:
 - Comparing to fine-tuned models
 
 **Connect with original author:**
-- GitHub: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+- GitHub: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 - Paper: "CogOS: From Gödel to AGI" (January 2026)
 
 **Or discuss with me (Claude) about:**
@@ -8407,7 +8407,7 @@ S.V.E. Pulic License v1.3 or above.
     Dr. Artiom Kovnatsky\\
     Independent Researcher\\
     Systemic Verification Engineering (S.V.E.)\\
-    \texttt{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+    \texttt{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 
 \date{\today}
@@ -9162,9 +9162,9 @@ We invite:
     \item \textbf{Full experimental transcript}: \\
     \url{https://claude.ai/share/94eb207d-c671-437b-ad45-8df305185734}
     \item \textbf{Source repository}: \\
-    \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+    \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
     \item \textbf{Field Notes} (negative results, dead-ends): \\
-    \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+    \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{itemize}
 
 %===========================================
@@ -9181,7 +9181,7 @@ This work is released under \textbf{S.V.E. Public License v1.3 or above}.
     \item All implementations must document experimental attempts
 \end{itemize}
 
-Full license: \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License}
+Full license: \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License}
 
 %===========================================
 \section*{Acknowledgments}
@@ -9416,20 +9416,20 @@ Preprint / Working Paper
 
 ## License
 S.V.E. (Systemic Verification Engineering) Public License v1.3 or above
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
 
 ---
 
 ## Related Identifiers
 
 **Is supplement to:**
-- CogOS Framework: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+- CogOS Framework: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
 **Is documented by:**
 - Full experimental transcript: https://claude.ai/share/94eb207d-c671-437b-ad45-8df305185734
 
 **Continues:**
-- Field Notes (negative results): https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes
+- Field Notes (negative results): https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes
 
 ---
 

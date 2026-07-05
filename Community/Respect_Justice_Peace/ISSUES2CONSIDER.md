@@ -2,11 +2,11 @@
 
 **We cannot change what we refuse to measure.**
 
-If Germany takes [**"Respect · Justice · Peace"**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) seriously, it should support an **independent, global audit** of how these principles appear in actual structures—not just speeches.
+If Germany takes [**"Respect · Justice · Peace"**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) seriously, it should support an **independent, global audit** of how these principles appear in actual structures—not just speeches.
 
 **Note:** This concerns measurement only, not intervention. Change, if any, must be gradual to avoid repeating Soviet-era mistakes.
 
-### Please read: [Skin In The Game analysis](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)
+### Please read: [Skin In The Game analysis](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/SKIG)
 
 ---
 

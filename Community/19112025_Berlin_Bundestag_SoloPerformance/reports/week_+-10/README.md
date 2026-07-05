@@ -31,23 +31,23 @@ The purpose of the first cycle is not to argue, but to:
 using a **stable and unaltered institutional baseline**.
 
 
-**Official Response — [MFA Position (Level 1)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports#hierarchy-escalation-table-111-day-increments):** 
-* [PDF of the Response](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Beantwortung%20Ihrer%20Anfrage_%20Menschenrechtsverletzungen%20in%20der%20Ukraine%20%5B759bc4c4-387d-49e7-9e16-9a2b56c9da0e%5D%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf)
-* [Attached Ticket](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Ticket%20759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
+**Official Response — [MFA Position (Level 1)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports#hierarchy-escalation-table-111-day-increments):** 
+* [PDF of the Response](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Beantwortung%20Ihrer%20Anfrage_%20Menschenrechtsverletzungen%20in%20der%20Ukraine%20%5B759bc4c4-387d-49e7-9e16-9a2b56c9da0e%5D%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf)
+* [Attached Ticket](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025/Ticket%20759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
 
 **Link to full AI & meta-AI analysis:**
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
 
 
-### See [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md) – these 3+1 questions remain unanswered.
+### See [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md) – these 3+1 questions remain unanswered.
 
-#### See [CODE OF CONDUCT](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/CODE_OF_CONDUCT.md).
+#### See [CODE OF CONDUCT](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/CODE_OF_CONDUCT.md).
 ---
 
 
 ## Report
 
-### [**Cases registered:**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md#ak1984-list)
+### [**Cases registered:**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md#ak1984-list)
 1. AK1984-Human-209, `id=208` (`artem__dmytruk__2025-09-09T083154.000Z.mp4`)
 2. AK1984-Human-210, `id=209` (`artem__dmytruk__2025-09-09T093602.000Z.mp4`)
 3. AK1984-Human-211, `id=210` (`artem__dmytruk__2025-09-09T105744.000Z.mp4`)

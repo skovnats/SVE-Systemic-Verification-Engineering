@@ -266,9 +266,9 @@ https://x.com/ArtiomKovnatsky/status/1969466669920583786?s=20
 
 ---
 
-## **Приложение: О [вашем девизе — "Уважение · Справедливость · Мир"](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
+## **Приложение: О [вашем девизе — "Уважение · Справедливость · Мир"](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
 
-Если этот девиз больше, чем PR, вот темы, которые требуют честного рассмотрения: **[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
+Если этот девиз больше, чем PR, вот темы, которые требуют честного рассмотрения: **[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
 
 Простой принцип: **вы не можете изменить то, что отказываетесь измерять.**
 
@@ -290,15 +290,15 @@ https://x.com/ArtiomKovnatsky/status/1969466669920583786?s=20
 
 ---
 
-**Контекст 1:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
+**Контекст 1:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
 
-**Контекст 2:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
+**Контекст 2:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
 
-**Вопросы:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
+**Вопросы:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
 
-**Ответ МИД:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+**Ответ МИД:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 
-**Отчёты:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
+**Отчёты:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
 
 ---
 
@@ -317,7 +317,7 @@ https://x.com/ArtiomKovnatsky/status/1969466669920583786?s=20
 
 **Мы не можем изменить то, что отказываемся измерять.**
 
-Если Германия серьёзно относится к [**"Уважение · Справедливость · Мир"**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values), она должна поддержать **независимый, глобальный аудит** того, как эти принципы проявляются в реальных структурах — не только в речах.
+Если Германия серьёзно относится к [**"Уважение · Справедливость · Мир"**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values), она должна поддержать **независимый, глобальный аудит** того, как эти принципы проявляются в реальных структурах — не только в речах.
 
 **Примечание:** Речь идёт только об измерении, не о вмешательстве. Изменения, если таковые будут, должны быть постепенными, чтобы избежать повторения ошибок советской эпохи.
 

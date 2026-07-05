@@ -167,7 +167,7 @@ Artiom Kovnatsky, [13.02.2026 16:44]
 
 Artiom Kovnatsky, [13.02.2026 16:25]
 а если добавить: 
-я разработал концепцию партии -- https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/PFP24
+я разработал концепцию партии -- https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/PFP24
 используйте её как макет. 
 Если дальше будет беспредел, я вынужден буду основывать её в Германии и тд.
 
@@ -829,11 +829,11 @@ Artiom Kovnatsky, [09.02.2026 11:52]
 Сами знаете как называли таких во дворе...
 
 Всех "глашатаев"/говорящих голов зовите на СТРЕЛКУ: Петров, Иванов, Гордон, Соколова....  ВСЕ ВСЕ ВСЕ без исключения пусть присоеденяются к ВАШЕМУ ГОВНОМЕТАНИЮ (единственное только Стерненко потерял своё право - он не ответил по-Мужски на мой вызов ему на Интеллектуальный поединок...и на его поле: пусть теперь вначале идёт по протоколу описанному в вызове, а потом, возможно, имеет право что-то вякать на меня! или вообще за базар не отвечает, как баба?!
-ссылка про Стерененко:https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko
+ссылка про Стерененко:https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko
 
-А тут Рёпке - сладкая парочка:https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke
+А тут Рёпке - сладкая парочка:https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke
 
-А чтобы ВСЕ участники понимали, что +-ВСЁ их ГОВНО будет тщательно препарировано мной+, как я это сделал с официальным ответом МИД Германии (отписка):https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+А чтобы ВСЕ участники понимали, что +-ВСЁ их ГОВНО будет тщательно препарировано мной+, как я это сделал с официальным ответом МИД Германии (отписка):https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 Чтобы следили за базаром!
 
 Или Вы только в подвалах Людей пытать можете?

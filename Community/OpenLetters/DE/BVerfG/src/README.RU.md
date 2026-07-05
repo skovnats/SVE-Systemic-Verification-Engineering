@@ -336,13 +336,13 @@ BVerfG_09092026/
 ## 🔗 Ссылки и источники
 
 ### Архив проекта
-- **GitHub**: [SVE — Systemic Verification Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
+- **GitHub**: [SVE — Systemic Verification Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 - **Zenodo**: Архив с DOI и криптографическими метками времени (OpenTimestamps)
-- **Открытые письма**: [Community/OpenLetters/DE/](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/OpenLetters)
+- **Открытые письма**: [Community/OpenLetters/DE/](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/OpenLetters)
 
 ### Связанные документы в архиве
-- SIP-протокол: вызов Юлиану Рёпке — [David vs. GOLIATH](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
-- Формальный запрос на возобновление (11.02.2027): [PDF в архиве](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/OpenLetters/DE/Formeller-Antrag-Wiedereroeffnung-759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
+- SIP-протокол: вызов Юлиану Рёпке — [David vs. GOLIATH](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
+- Формальный запрос на возобновление (11.02.2027): [PDF в архиве](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/OpenLetters/DE/Formeller-Antrag-Wiedereroeffnung-759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
 
 ### Конституционное право
 - [Основной закон Федеративной Республики Германия](https://www.gesetze-im-internet.de/gg/)
@@ -359,7 +359,7 @@ BVerfG_09092026/
 
 ## 📜 Лицензия и Кодекс поведения
 
-Этот документ и все сопутствующие материалы являются частью публичного архива [SVE — Systemic Verification Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering). Публикация осуществляется в интересах прозрачности и демократической подотчётности.
+Этот документ и все сопутствующие материалы являются частью публичного архива [SVE — Systemic Verification Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering). Публикация осуществляется в интересах прозрачности и демократической подотчётности.
 
 **Обратите внимание**: любое использование этих материалов для манипуляций, инструментализации или нанесения вреда конкретным людям прямо противоречит духу и намерению этого архива.
 

@@ -29,7 +29,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on SVE papers and target venues | [Technical details](paperreviewAI/TechOverviewStanfordAgenticReviewer.pdf)
 
 ### **Validation test:** 
-To evaluate the reviewer's detection capabilities, I submitted my CVPR 2015 paper—which I have publicly acknowledged as non-reproducible and subsequently withdrew from arXiv ([Open Letter to Academy](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/OpenLetters/16.09_A%20Public%20Confession%20of%20Academic%20Fraud%20%26%20A%20Demand%20for%20Systemic%20Reform%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf) & [ArXiv withdrawal](https://arxiv.org/abs/1412.8070)). The Stanford Agentic Reviewer responded with a largely positive, technically-praised review ([CVPR-2015 Review](paperreviewAI/CVPR-2015-StanfordReview.md)).
+To evaluate the reviewer's detection capabilities, I submitted my CVPR 2015 paper—which I have publicly acknowledged as non-reproducible and subsequently withdrew from arXiv ([Open Letter to Academy](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/OpenLetters/16.09_A%20Public%20Confession%20of%20Academic%20Fraud%20%26%20A%20Demand%20for%20Systemic%20Reform%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf) & [ArXiv withdrawal](https://arxiv.org/abs/1412.8070)). The Stanford Agentic Reviewer responded with a largely positive, technically-praised review ([CVPR-2015 Review](paperreviewAI/CVPR-2015-StanfordReview.md)).
 
 This creates a clear contrast:
 
@@ -237,7 +237,7 @@ This approach is **more efficient** because:
 - You spend energy on value creation, not speculation
 - Papers become "trip reports" of successful expeditions
 
-## The Letters to [Röpke](https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20), [Sternenко](https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20), [German Foreign Ministry](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
+## The Letters to [Röpke](https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20), [Sternenко](https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20), [German Foreign Ministry](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
 
 The AI and meta-AI analysis of response letters revealed textbook "SYSTEM" deflection patterns—validating SVE-XII's diagnostic framework. This demonstrates:
 

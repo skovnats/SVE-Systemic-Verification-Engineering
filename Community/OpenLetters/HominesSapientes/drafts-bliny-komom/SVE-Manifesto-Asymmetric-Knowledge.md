@@ -111,7 +111,7 @@ S.V.E. stands against this. Not with weapons. With mathematics, transparency, an
 
 We are building. Slowly. With God's help.
 
-[**"Very angry dog"** *(Domini Canes)* **— do not touch.**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/License/Call_to_Lawyers_v2.0_VISION-WIP.md)
+[**"Very angry dog"** *(Domini Canes)* **— do not touch.**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License/Call_to_Lawyers_v2.0_VISION-WIP.md)
 
 *(Personal address by the author) — Berlin, Earth*
 
@@ -120,7 +120,7 @@ We are building. Slowly. With God's help.
 If the Author is suddenly incapacitated, "deceased under anomalous circumstances," or otherwise removed from the project:
 
 1. **Primary Reference**: All verification protocols, cryptographic attestations, and the mathematical-notary baseline are preserved at:  
-   `https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/SVE-NOTARY`
+   `https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/SVE-NOTARY`
 
 2. **Q.E.D. — The Price of So-Called Democracy**:  
    Zero. (The Indian/Arabic numeral: 0.)  
@@ -158,4 +158,4 @@ Truth does not require a custodian. It requires witnesses.
 
 *Contact: artiomkovnatsky@pm.me*
 
-*Repository: [github.com/skovnats/SVE-Systemic-Verification-Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)*
+*Repository: [github.com/skovnats/SVE-Systemic-Verification-Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)*

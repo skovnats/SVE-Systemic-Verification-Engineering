@@ -428,11 +428,11 @@
 
 17:1 对于那些希望验证、研究、参与的人——所有材料都是公开可用的。
 
-17:2 GitHub仓库: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 GitHub仓库: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 论文: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 论文: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 AI评论 – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 AI评论 – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 工作原型 – 苏格拉底机器人v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

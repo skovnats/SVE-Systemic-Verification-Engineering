@@ -9,6 +9,8 @@
 [![Radicle](https://img.shields.io/badge/Radicle-SVE-5437DB?style=flat-square&logo=radicle&logoColor=white)](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z4X7PqSg667G2vUVmdQCGxSWiVJRm)
 
 
+
+
 **📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**
 [🦄 SVE-Unicorns — Founder Mode](License/SVE-Unicorns-Patch-v1_0.md)  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
@@ -1301,7 +1303,7 @@ The assessment attempted to:
 ## Further Reading
 
 **Primary Sources:**
-- Complete S.V.E. series available at https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+- Complete S.V.E. series available at https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 - [S.V.E. Universe map for navigation](Papers/SVE_universe.pdf)
 - Individual works for deep dives
 

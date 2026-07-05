@@ -376,11 +376,11 @@
 
 17:1 जो लोग सत्यापित करना, अध्ययन करना, संलग्न होना चाहते हैं – सभी सामग्री सार्वजनिक रूप से उपलब्ध हैं।
 
-17:2 GitHub रिपॉजिटरी: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 GitHub रिपॉजिटरी: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 पेपर: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 पेपर: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 AI समीक्षाएं – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 AI समीक्षाएं – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 कार्य प्रोटोटाइप – सुकरात बॉट v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

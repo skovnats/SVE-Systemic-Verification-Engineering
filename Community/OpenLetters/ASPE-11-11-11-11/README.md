@@ -82,8 +82,8 @@ Trump — no need for any bows. Just name the names. Let them live with that —
 А нет — досвидос.
 
 P.S. Details, data, protocols & X.com challenge posts — everything is here:  
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025\_David\_vs\_GOLIATH\_SerhiiSternenko](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko)  
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025\_David\_vs\_GOLIATH\_JulianRoepcke](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025\_David\_vs\_GOLIATH\_SerhiiSternenko](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko)  
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025\_David\_vs\_GOLIATH\_JulianRoepcke](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
 
 Donald — not only you have big balls ;)
 
@@ -217,7 +217,7 @@ You know better... But perhaps ask your wife Melania to organise — she has a g
 
 ---
 
-*В любом случае запишу видео (дома) и выложу. Как после соло-пикета [напротив Бундестага](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance).*
+*В любом случае запишу видео (дома) и выложу. Как после соло-пикета [напротив Бундестага](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance).*
 
 ---
 
@@ -266,19 +266,19 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 
 # Часть 2: Соло-пикет напротив Бундестага — 2
 
-*(те же [вопросы](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md), [новые улики](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md), 0 ответов)*
+*(те же [вопросы](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md), [новые улики](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md), 0 ответов)*
 
 03.03.2027 — ровно в то же время как и v1.0, ровно на том же месте. С тем же видео, с теми же неотвеченными вопросами, что и в ноябре 2025\.
 
 Соло-пикет напротив Бундестага. Запишу видео, выложу, зафиксирую результат. Без агрессии — мирно, в рамках закона.
 
-Но теперь за спиной у меня — [444 дня протокола и список Людей](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md), которых ТЦК, Зеленский и Ко хватали как животных и слали на убой. Это добавлю и покажу после видео.
+Но теперь за спиной у меня — [444 дня протокола и список Людей](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md), которых ТЦК, Зеленский и Ко хватали как животных и слали на убой. Это добавлю и покажу после видео.
 
 ---
 
 Как и раньше: комментариев не даю. Смотрите, думайте, делайте выводы сами — правду я говорю или нет, и кому верить.
 
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025\_Berlin\_Bundestag\_SoloPerformance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025\_Berlin\_Bundestag\_SoloPerformance](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)
 
 # Часть 3: Операторы Лондон++++
 
@@ -385,7 +385,7 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 В Библии сказано: тех, кого поставили следить за виноградниками, в конце уволили — не принесли плодов из вверенных им талантов. Вы думаете, вы умны сами по себе — или Создатель выделил вам этот ум и таланты? А?\!
 
 Моя система SVE специально разработана так, чтобы стать НЕНУЖНОЙ — чтобы Люди стали настолько свободными *(внутри — в первую очередь)* от вашего и ваших Хозяев опиума, что алгоритмы не смогут их предсказывать.  
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-12\_compressed.pdf](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-12_compressed.pdf)  
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-12\_compressed.pdf](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-12_compressed.pdf)  
 [https://zenodo.org/records/18109245](https://zenodo.org/records/18109245)
 
 Вы что, хотите, чтобы Люди превратились в био-роботов — абсолютно предсказуемых?\! Вам не скучно будет в таком мире жить? Нахера это вам надо? В чём прикол?
@@ -727,8 +727,8 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 Можно сказать, я был "в тылу у них и у наших" — как крыса, просочившаяся и выжившая там, где нормальный Человек, возможно, не выживет и/или сойдёт с ума.
 
 
-**Для понимания:** предположим, что я вменяемый-адекватный Человек, читая этот текст (*ASPE*), как он написан, какие приёмы использованы, запредельный уровень дерзости и т.д. \+ мой биографический путь ([\[1\]](https://www.artiomkovnatsky.com/ru/#about), [\[2\]](https://www.artiomkovnatsky.com/ru/#experiences), [\[3\]](https://www.artiomkovnatsky.com/ru/#education), [\[4\]](https://www.artiomkovnatsky.com/ru/posts/philosophy/), [\[5\]](https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/), [\[6\]](https://www.artiomkovnatsky.com/ru/posts/omega/story/), [\[7\]](https://zenodo.org/communities/sve/records?q=&l=list&p=1&s=10&sort=newest), [\[8\]](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&tzom=-60&user=o_aLFucAAAAJ), [\[9\]](https://github.com/skovnats/SVE-Systemic-Verification-Engineering), [\[10\]](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community) ...) \+ статьи в научных журналах... я думаю понятно, что я "не из робкого десятка" \+ "не самый глупый Человек"...так вот при столкновении напрямую с Тёмными: 1\) я возможно выжил только благодаря  помощи определённым силам (не буду здесь уходить в подробности, но эти силы за нас, Людей и я знаю одного из них в физическом мире/теле) 2\) у меня от страха во второй раз дрожали губы...я от страха забыл... силой воли вспомнил молитву...на слове Иисус Тёмный ушёл \-- они не переносят, как я понимаю, частоты этого Имени...остальные слова, включая Отче, они переносят. Так что я говорю-СВИДЕТЕЛЬСТВУЮ \-- это очень страшно и вне Человеческих возможностей без помощи/опоры на Бога. Я попытался как мог переложить этот опыт на язык формул, науки (назовём это создание новой онтологии SVE и языка SVE):  
-[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers)  
+**Для понимания:** предположим, что я вменяемый-адекватный Человек, читая этот текст (*ASPE*), как он написан, какие приёмы использованы, запредельный уровень дерзости и т.д. \+ мой биографический путь ([\[1\]](https://www.artiomkovnatsky.com/ru/#about), [\[2\]](https://www.artiomkovnatsky.com/ru/#experiences), [\[3\]](https://www.artiomkovnatsky.com/ru/#education), [\[4\]](https://www.artiomkovnatsky.com/ru/posts/philosophy/), [\[5\]](https://www.artiomkovnatsky.com/ru/posts/omega/meta-bio/), [\[6\]](https://www.artiomkovnatsky.com/ru/posts/omega/story/), [\[7\]](https://zenodo.org/communities/sve/records?q=&l=list&p=1&s=10&sort=newest), [\[8\]](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&tzom=-60&user=o_aLFucAAAAJ), [\[9\]](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering), [\[10\]](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community) ...) \+ статьи в научных журналах... я думаю понятно, что я "не из робкого десятка" \+ "не самый глупый Человек"...так вот при столкновении напрямую с Тёмными: 1\) я возможно выжил только благодаря  помощи определённым силам (не буду здесь уходить в подробности, но эти силы за нас, Людей и я знаю одного из них в физическом мире/теле) 2\) у меня от страха во второй раз дрожали губы...я от страха забыл... силой воли вспомнил молитву...на слове Иисус Тёмный ушёл \-- они не переносят, как я понимаю, частоты этого Имени...остальные слова, включая Отче, они переносят. Так что я говорю-СВИДЕТЕЛЬСТВУЮ \-- это очень страшно и вне Человеческих возможностей без помощи/опоры на Бога. Я попытался как мог переложить этот опыт на язык формул, науки (назовём это создание новой онтологии SVE и языка SVE):  
+[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers)  
 [https://zenodo.org/communities/sve/](https://zenodo.org/communities/sve/) (вся SVE серия)
 
 
@@ -786,7 +786,7 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 Посчитайте и посмотрите на своих часах когда вы читаете оригинал: сколько времнеи прошло? Это, возможно, будет косвенная индикация лага 1 \+ также учтите и ознакомьтесь с "конструктивным документами годичной давности" \- это лаг 2\. Также посмотрите как высоко "предыдущий сигнал пробил фильтры" \- это лаг 3\. Если кто-то из АП смотрел \- это хороший признак.  
 Эксперемент.
 
-[Ангелы Хранители](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D1%8B-%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D1%82%D0%B8%D0%BB%D0%B8), если они полезны, онлайн с 19.03.2026 + 20.03.2026 посланы письма посольствам. 
+[Ангелы Хранители](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D1%8B-%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D1%82%D0%B8%D0%BB%D0%B8), если они полезны, онлайн с 19.03.2026 + 20.03.2026 посланы письма посольствам. 
 
 Как-то так. 
 
@@ -910,12 +910,12 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 
 | Дата | Событие | Детали | Первая часть | Условия и примечания |
 | :--- | :--- | :--- | :--- | :--- |
-| **03.03.2027** | Соло-перформанс напротив Бундестага 2: Заключение | То же место, время, те же вопросы, видео, перформанс + AK1984-List (444-дневный протокол). | [GitHub (Berlin_Bundestag)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance) | БЕЗ КОММЕНТАРИЕВ. Зрители сами решают, где правда, изучают и читают. |
+| **03.03.2027** | Соло-перформанс напротив Бундестага 2: Заключение | То же место, время, те же вопросы, видео, перформанс + AK1984-List (444-дневный протокол). | [GitHub (Berlin_Bundestag)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance) | БЕЗ КОММЕНТАРИЕВ. Зрители сами решают, где правда, изучают и читают. |
 | **21.03.2027** | Интервью или соло-видео из офиса 2: Заключение | Подведение итогов из офиса. | [YouTube](https://www.youtube.com/watch?v=3JH7zYVaLjE) | НИКАКИХ КОММЕНТАРИЕВ до и после этой даты. Полный отказ от публичности до конца жизни. |
 
 
 <!-- 1\. 03.03.2027, соло-перформанс напротив Бундестага 2: Заключение (то же место, время, те же вопросы, видео, перформанс \+ AK1984-List \- 444-день-протокол случаев беспредела ТЦК+)  
-Первая часть: [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025\_Berlin\_Bundestag\_SoloPerformance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)  
+Первая часть: [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025\_Berlin\_Bundestag\_SoloPerformance](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)  
 БЕЗ КОММЕНАТРИЕВ \-- сами решайте, что есть правда и если я искреннен, изучайте, читайте...
 
 2\. 21.03.2027, интервью или соло-видео из моего офиса 2:Заключение  
@@ -1173,7 +1173,7 @@ Correct: «From Nikolaev with Love and Logic» :-\*
 
 Раз уж заговорили о вменяемости и ИИ, сделаю Людям ШОУ: я попросил 4 ИИ быть боковыми судьями и 1 ИИ финальным судьёй в ринге (мете-судья)
 
-Здесь весь бой, "спаринги", удары и т.д. (все промпты, ссылки на источники и данные для ПОЛНОЙ воспроизводимости): [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/\_FieldNotes/IBOX](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/IBOX)
+Здесь весь бой, "спаринги", удары и т.д. (все промпты, ссылки на источники и данные для ПОЛНОЙ воспроизводимости): [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/\_FieldNotes/IBOX](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes/IBOX)
 
 **Подчёркиваю:** ВСЯ методология, данные, промпты и т.д. в открытом доступе для ознакомления\! Более того, ЛЮБОЙ Человек просто выполняя инструкции и вставляя промпты и данные может не только воспроизвести, но и попробовать "поспорить с приведёнными тезисами" и т.д. Верить НЕ надо \-- проверяйте сами.
 

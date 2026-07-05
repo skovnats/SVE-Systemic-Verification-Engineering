@@ -376,11 +376,11 @@
 
 17:1 למי שרוצה לאמת, ללמוד, לעסוק – כל החומרים זמינים בפומבי.
 
-17:2 מאגר GitHub: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 מאגר GitHub: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 מאמרים: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 מאמרים: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 ביקורות AI – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 ביקורות AI – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 אב טיפוס עובד – בוט סוקרטס v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

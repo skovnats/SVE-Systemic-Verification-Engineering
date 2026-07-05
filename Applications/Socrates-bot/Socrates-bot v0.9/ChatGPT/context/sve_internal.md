@@ -450,11 +450,11 @@ From this foundation emerged the first working prototype —
 
 **📖 Practical Example: Correcting AI Bias through Socratic Dialogue**  
 See a live demonstration of the SIP methodology in action:  
-[Mini-Socratic Dialogue: Challenging AI Bias](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Applications/SIPs-MetaSIPs/example/Mini-SocraticDialogue_PracticalExample.pdf)
+[Mini-Socratic Dialogue: Challenging AI Bias](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Applications/SIPs-MetaSIPs/example/Mini-SocraticDialogue_PracticalExample.pdf)
 
 This case study shows how systematic questioning can expose and correct Western liberal bias in AI systems, forcing recognition of systemic opacity in high-profile cases (Nord Stream, Epstein, JFK).
 
-📘 AI Commentary: [Independent Reviews Folder](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews)
+📘 AI Commentary: [Independent Reviews Folder](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews)
 
 ---
 
@@ -1934,7 +1934,7 @@ Use in citations:
 @misc{kovnatsky2025sve,
   author={Kovnatsky, Artiom},
   title={Systemic Verification Engineering: An Integrated Framework},
-  year={2025}, url={https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+  year={2025}, url={https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 ````
 
@@ -2014,7 +2014,7 @@ No proprietary forks, no skipped verification, no hidden agendas.
 
 | Type              | Channel                                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------- |
-| General / Issues  | [GitHub Discussions](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/discussions) |
+| General / Issues  | [GitHub Discussions](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/discussions) |
 | Research / Collab | [artiomkovnatsky@pm.me](mailto:artiomkovnatsky@pm.me)                                               |
 | Licensing         | [artiomkovnatsky@pm.me](mailto:artiomkovnatsky@pm.me)                                               |
 
@@ -2089,7 +2089,7 @@ README.md
 ### [Mirror 1](https://gitlab.com/opa-collective/sve/-/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance?ref_type=heads)   [Mirror 2](https://mega.nz/#P!AgCnnGXFntkv6BR0GL5bcAuiHajFyhUFNwH011cHYHEZbq9rRHzuWatzwbeN5eYvp5fo7kWtBv4h5xuiEXDJK4xXJfR3tunQqaKn74Ua0ncbmLFYTPkAoA)
 
 # [REPORTS.md](reports/REPORTS.md)
-# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
+# [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
 
 
 # 19.11.2025 — Bundestag, 11:00 CET
@@ -2129,7 +2129,7 @@ Public report: every Sunday/Monday on my X account.
 👉 http://tiny.cc/l39v001
 
 ## GitHub archive:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
 
 ### ✋ I give no interviews.
 Please watch, read, and decide for yourself.
@@ -3785,7 +3785,7 @@ produced by multiple AI models and human collaborators to ensure **transparency,
 [Notion notes](https://www.notion.so/S-V-E-2ba7d7f091c680f488a9c1d06c221a8d?source=copy_link) on SVE papers and target venues | [Technical details](paperreviewAI/TechOverviewStanfordAgenticReviewer.pdf)
 
 ### **Validation test:** 
-To evaluate the reviewer's detection capabilities, I submitted my CVPR 2015 paper—which I have publicly acknowledged as non-reproducible and subsequently withdrew from arXiv ([Open Letter to Academy](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/OpenLetters/16.09_A%20Public%20Confession%20of%20Academic%20Fraud%20%26%20A%20Demand%20for%20Systemic%20Reform%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf) & [ArXiv withdrawal](https://arxiv.org/abs/1412.8070)). The Stanford Agentic Reviewer responded with a largely positive, technically-praised review ([CVPR-2015 Review](paperreviewAI/CVPR-2015-StanfordReview.md)).
+To evaluate the reviewer's detection capabilities, I submitted my CVPR 2015 paper—which I have publicly acknowledged as non-reproducible and subsequently withdrew from arXiv ([Open Letter to Academy](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/OpenLetters/16.09_A%20Public%20Confession%20of%20Academic%20Fraud%20%26%20A%20Demand%20for%20Systemic%20Reform%20-%20artiom.kovnatsky%40gmail.com%20-%20Gmail.pdf) & [ArXiv withdrawal](https://arxiv.org/abs/1412.8070)). The Stanford Agentic Reviewer responded with a largely positive, technically-praised review ([CVPR-2015 Review](paperreviewAI/CVPR-2015-StanfordReview.md)).
 
 This creates a clear contrast:
 
@@ -3993,7 +3993,7 @@ This approach is **more efficient** because:
 - You spend energy on value creation, not speculation
 - Papers become "trip reports" of successful expeditions
 
-## The Letters to [Röpke](https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20), [Sternenко](https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20), [German Foreign Ministry](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
+## The Letters to [Röpke](https://x.com/ArtiomKovnatsky/status/1985427061507568002?s=20), [Sternenко](https://x.com/ArtiomKovnatsky/status/1985052739651469471?s=20), [German Foreign Ministry](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025)
 
 The AI and meta-AI analysis of response letters revealed textbook "SYSTEM" deflection patterns—validating SVE-XII's diagnostic framework. This demonstrates:
 

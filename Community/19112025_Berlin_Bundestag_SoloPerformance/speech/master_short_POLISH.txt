@@ -388,11 +388,11 @@ ID sprawy: 759bc4c4-387d-49e7-e16-9a2b56c9da0e
 
 17:1 Dla tych, którzy chcą weryfikować, studiować, angażować się — wszystkie materiały są publicznie dostępne.
 
-17:2 Repozytorium GitHub: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 Repozytorium GitHub: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 Artykuły: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 Artykuły: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 Recenzje AI – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 Recenzje AI – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 Działający prototyp – Bot Sokratesa v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

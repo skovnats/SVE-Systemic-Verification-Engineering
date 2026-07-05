@@ -13,7 +13,7 @@ Use Russian translators where needed; LLMs alone are not sufficient.
 Disclaimer / Clarification: This is NOT a technical patch for Transformer weights. Figures and examples are illustrative; the author currently lacks resources to execute full-scale experiments (99+ kernels / LLMs). Treat this release as methodology open for collaboration. Large Language Models were used during preparation — errors and approximations are possible.
 Release Context — "As-Is". Originally scheduled for 11.11.2026 · 11:11 CET. Released early — Sunday, 19.04.2026 — as an "as-is" release, in light of:
 
-GitHub / Microsoft access blockages — https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+GitHub / Microsoft access blockages — https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 heightened attention from state security services,
 cyberattacks and "404" incidents.
 

@@ -388,11 +388,11 @@
 
 17:1 검증하고, 연구하고, 참여하고 싶은 분들을 위해——모든 자료가 공개되어 있습니다.
 
-17:2 GitHub 저장소: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 GitHub 저장소: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 논문: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 논문: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 AI 리뷰 – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 AI 리뷰 – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 작동 프로토타입 – 소크라테스 봇 v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

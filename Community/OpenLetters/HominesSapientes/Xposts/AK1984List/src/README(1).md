@@ -4,9 +4,9 @@
 **Ticket:** `759bc4c4-387d-49e7-9e16-9a2b56c9da0e`
 **Symbolic ID of the Entire Audit**
 
-22 September 2025, I opened Ticket **`759bc4c4-387d-49e7-9e16-9a2b56c9da0e`** at the German Federal Foreign Office regarding documented human-rights violations in Ukraine (e.g., [Testimony of Viktor Krasnikov](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov), [video I showed near Bundestag on 19.11.2025](https://youtu.be/HybMU2IiIKo) etc.) and the basic right of civilians to leave the country safely.
+22 September 2025, I opened Ticket **`759bc4c4-387d-49e7-9e16-9a2b56c9da0e`** at the German Federal Foreign Office regarding documented human-rights violations in Ukraine (e.g., [Testimony of Viktor Krasnikov](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov), [video I showed near Bundestag on 19.11.2025](https://youtu.be/HybMU2IiIKo) etc.) and the basic right of civilians to leave the country safely.
 
-The FO provided a [**formal yet non-substantive reply**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) and administratively closed the matter.
+The FO provided a [**formal yet non-substantive reply**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) and administratively closed the matter.
 
 Today, on **Totensonntag**, this ticket becomes a **symbolic object**, a **public verification anchor**.
 It will be used throughout the entire protocol as a **fixed reference ID**.
@@ -20,7 +20,7 @@ The State may close the technical channel.
 The public protocol converts the number into a **symbol**.
 
 # [REPORTS.md](REPORTS.md)
-# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
+# [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
 
 ---
 
@@ -254,20 +254,20 @@ Every report is stored in a dedicated GitHub directory:
 
 * 🗂 **Weekly Reports**
   `.../Community/19112025_Berlin_Bundestag_SoloPerformance/reports`
-  👉 [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
+  👉 [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
 
 * 📬 **All correspondence & the official MFA reply**
-  👉 [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE)
+  👉 [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE)
 
 * 📁 **Full document archive for this case**
   (including permits, speech, protocol, contextual materials)
-  👉 [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)
+  👉 [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance)
 
 * 🎧 **Audio evidence: Viktor Krasnikov**
   – testimony about forced mobilisation, unlawful detention,
   anti-sanitary conditions, denial of medical rights,
   transcribed and summarised with AI for clarity.
-  👉 [https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov)
+  👉 [https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov)
 
 Later, I may add an **Extended Transparency Layer**:
 – transcripts of speeches, press conferences and interviews by officials,

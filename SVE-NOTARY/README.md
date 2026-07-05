@@ -5,4 +5,4 @@ I hereby grant advance permission for the anonymized release and scientific anal
 Any interpretation, publication, or secondary analysis of these materials must explicitly acknowledge their limited scope: they are designed as an evidence baseline for statistical comparison, not as grounds for legal claims, defamatory statements, or speculative allegations.
 
 The resilience concepts implemented here are adapted from the PFP (Prüf-Fakten-Partei) framework:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/PFP24
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/PFP24

@@ -32,7 +32,7 @@
 
 Всё описанное опирается на онтологию **SVE** — препринты **SVE-4, SVE-8, SVE-9 & SVE-12**.
 
-**Репозиторий:** [github.com/skovnats/SVE-Systemic-Verification-Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
+**Репозиторий:** [github.com/skovnats/SVE-Systemic-Verification-Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 
 ---
 

@@ -16,13 +16,13 @@ Data Mining
 Основные материалы v0.3-0.4
 📁 GitHub репозиторий:
 github.com/skovnats/SVE-Systemic-Verification-Engineering
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 Препринты (часть — в модерации на arXiv, остальные — в подготовке), структура дисциплины и полная документация.
 🔖 Лицензия: S.V.E. Public License v1.3 — свободно для некоммерческого использования.
 
 🤖 Независимые AI-рецензии:
 Reviews (GPT-5, Claude, Gemini, Grok, Qwen)
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 Пять независимых моделей делали ревью каждой статье и Qwen выносил финальный "вердикт" по результатам 4-ёх ревью.
 
 🤖 Бот “Socrates” (рабочий прототип):
@@ -57,7 +57,7 @@ ChatGPT — не база знаний, а предсказатель слов (
 Проблема не только в нём — мы сами подыгрываем: часто задаём вопросы, чтобы получить подтверждение, а не опровержение.
 Добавим шум соцсетей, политкорректность, коммерческие фильтры и встроенные смещения (bias) моделей — и получаем интеллектуальный Plinko, где жетон истины отскакивает от штырьков искажений.
 Пример коррекции смещения модели через SIP:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/context/Mini-SocraticDialogue_PracticalExample.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Reviews/context/Mini-SocraticDialogue_PracticalExample.pdf
 
 2. Решение: три персоны мудрости
 S.V.E. предлагает не «ещё один ИИ-бот», а структуру верификации мышления:
@@ -128,7 +128,7 @@ v(n+1) = v(n) − ε(n)
 Сходимость означает, что при добавлении новых аргументов позиция больше не меняется — она прошла через фильтр логики, эмпатии и справедливости (мы даём рабочее определение в статье 8).
 
 SIP:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-0-2.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-0-2.pdf
 
 🥊 EBP — Epistemological Boxing Protocol
 Если SIP — это очистка, то EBP — стресс-тест ("red-teaming").
@@ -155,7 +155,7 @@ Integrity Score = f(ΔV, Nε, H)
 Так появляется количественная метрика мышления — оценка интеллектуальной честности.
 
 EBP:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-0-1.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-0-1.pdf
 
 4. Кейсы: от микро к макро
 🧩 1. Корпоративный язык
@@ -247,11 +247,11 @@ S.V.E. — не теория, а инструмент, который, возм�
 🔬 Наука
 — SYSTEM-PURGATORY Protocol: peer review превращается в прозрачный «боксинг матч».
 — Результат — не verdict «accept/reject», а отчёт с честным аудитом аргументов.
-Препринт: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-3.pdf
+Препринт: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-3.pdf
 
 🧠 AI и безопасность
 — SIP/EBP служит инструментом калибровки и самокоррекции моделей: AI учится признавать свои слепые зоны.
-Препринт: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-10.pdf
+Препринт: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-10.pdf
 
 💰 Финансы и due diligence
 — Проверка инвестиционных гипотез, оценка рисков и этики решений через мета-SIP.
@@ -259,7 +259,7 @@ S.V.E. — не теория, а инструмент, который, возм�
 🌍 Wikipedia Reformation / Verifiable KB
 — Каждая спорная статья проходит SIP + EBP.
 — Результат: не «нейтральная точка зрения», а прослеживаемая траектория к истине.
-Препринт: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-11.pdf
+Препринт: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-11.pdf
 
 7. Ограничения (честно и без магии)
 ⚠ Зависимость от данных
@@ -272,7 +272,7 @@ S.V.E. — не теория, а инструмент, который, возм�
 
 ⚠ AI-groupthink
 Модели обучались на похожих данных — делят общие предвзятости.
-Решение: диверсификация LLM по культурам и корректировка баяса как в примере: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Reviews/context/Mini-SocraticDialogue_PracticalExample.pdf.
+Решение: диверсификация LLM по культурам и корректировка баяса как в примере: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Reviews/context/Mini-SocraticDialogue_PracticalExample.pdf.
 
 ⚠ Стоимость и время
 Один честный SIP = 4–44+ итераций. Быстро, возможно, не выйдет. Но результат стоит того и можно это делать итеративно: продолжить с места, где закончил ("мета-SIP").
@@ -287,7 +287,7 @@ S.V.E. — не теория, а инструмент, который, возм�
 
 8. Вселенная S.V.E.: от инженерии к "вычислительной теологии"
 Система S.V.E. — это не один протокол, а целая экосистема подходов, выстроенная как кодовое дерево.
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE_universe.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE_universe.pdf
 
 S.V.E. Universe
 ────────────────────────────
@@ -327,7 +327,7 @@ Decentralization (2027+) — открытый код, федеративная �
 🌍 Vision: Wikipedia Reformation
 Представьте Википедию, где статьи не только “редактируются”, но и проходят EBP и SIP.
 Истина не декларируется, а приближается итеративно — с явным audit trail и указанием неопределённости.
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Papers/SVE-11.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Papers/SVE-11.pdf
 
 🎯 Ultimate Goal:
 Сделать для коллективного мышления то, что Git сделал для кода:
@@ -402,7 +402,7 @@ https://www.artiomkovnatsky.com/ru/posts/beyond_obvious/
 И, как сказал бы Сократ, начните с признания, что не знаете — чтобы узнать лучше.
 
 Licensed under S.V.E. Public License v1.3 — бесплатно для некоммерческого использования, открыто для исследований, адаптаций и образовательных проектов.
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf
 
 Спасибо за Ваше внимание и время!
 

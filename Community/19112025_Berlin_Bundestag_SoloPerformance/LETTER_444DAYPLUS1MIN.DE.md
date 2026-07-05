@@ -266,9 +266,9 @@ Vielen Dank für Ihre Aufmerksamkeit.
 
 ---
 
-## **Anhang: Zu [Ihrem Motto – "Respekt · Gerechtigkeit · Frieden"](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
+## **Anhang: Zu [Ihrem Motto – "Respekt · Gerechtigkeit · Frieden"](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
 
-Wenn dieses Motto mehr als PR ist, hier sind die Themen, die ehrliche Betrachtung erfordern: **[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
+Wenn dieses Motto mehr als PR ist, hier sind die Themen, die ehrliche Betrachtung erfordern: **[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
 
 Ein einfaches Prinzip: **Sie können nicht ändern, was Sie sich weigern zu messen.**
 
@@ -290,15 +290,15 @@ Bitte verwenden Sie Sokrates-Bot: **https://chatgpt.com/g/g-690f57636ccc8191803f
 
 ---
 
-**Kontext 1:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
+**Kontext 1:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
 
-**Kontext 2:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
+**Kontext 2:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
 
-**Fragen:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
+**Fragen:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
 
-**AA-Antwort:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+**AA-Antwort:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 
-**Berichte:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
+**Berichte:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
 
 ---
 
@@ -317,7 +317,7 @@ Bitte verwenden Sie Sokrates-Bot: **https://chatgpt.com/g/g-690f57636ccc8191803f
 
 **Wir können nicht ändern, was wir uns weigern zu messen.**
 
-Wenn Deutschland [**"Respekt · Gerechtigkeit · Frieden"**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) ernst nimmt, sollte es ein **unabhängiges, globales Audit** unterstützen, wie diese Prinzipien in tatsächlichen Strukturen erscheinen – nicht nur in Reden.
+Wenn Deutschland [**"Respekt · Gerechtigkeit · Frieden"**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) ernst nimmt, sollte es ein **unabhängiges, globales Audit** unterstützen, wie diese Prinzipien in tatsächlichen Strukturen erscheinen – nicht nur in Reden.
 
 **Hinweis:** Dies betrifft nur Messung, nicht Intervention. Veränderungen, falls vorhanden, müssen graduell sein, um Wiederholung der Fehler der Sowjetära zu vermeiden.
 

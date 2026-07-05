@@ -8,7 +8,7 @@ Remove all numerical results: Delete claims of "+9% improvement," "95.8% stabili
 
 Clarify the nature of the work: Explicitly state in the Abstract and Introduction that this is a THEORETICAL and CONCEPTUAL work. Use the following phrasing: "This paper presents a conceptual architecture; numerical examples are AI-generated illustrations for demonstration purposes. Empirical validation is part of separate, ongoing research".
 
-Field Notes Link: Add a notice: "All experimental results, including failures and dead-ends, are documented for transparency in our Field Notes: [[]([)https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes[](](]()https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes[)]())".
+Field Notes Link: Add a notice: "All experimental results, including failures and dead-ends, are documented for transparency in our Field Notes: [[]([)https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes[](](]()https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes[)]())".
 
 Merging Instructions:
 
@@ -72,7 +72,7 @@ Transcendental Kernels, and Lyapunov-Stable Ethical Dynamics}
 \author{
 Dr. Artiom Kovnatsky \\
 \small Independent Researcher, Systemic Verification Engineering (SVE) \\
-\small \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\small \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 
 \date{
@@ -114,7 +114,7 @@ value systems without relativistic collapse
 AI-generated illustrations for demonstration purposes. Empirical validation is 
 part of separate, ongoing research.} All experimental results, including failures 
 and dead-ends, are documented for transparency in our Field Notes: 
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}.
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}.
 
 \textbf{We argue this framework provides the theoretical infrastructure
 necessary—though not sufficient—for Strong AI:} a system that can reason
@@ -132,9 +132,9 @@ All code, data, and protocols released under SVE Public License v1.3.
 \centering
 \itshape\small
 This work is licensed under the \textbf{S.V.E. Public License v1.3}.\\[0.3em]
-\href{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}{GitHub Repository}
+\href{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}{GitHub Repository}
 \quad|\quad
-\href{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf}{Signed PDF}
+\href{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf}{Signed PDF}
 \quad|\quad
 \href{https://archive.org/details/sve_public_license_v1.3}{Permanent Archive (archive.org, 26.10.2025)}
 \end{minipage}
@@ -1295,7 +1295,7 @@ arrow/.style={-Stealth, thick}
 
 \item \textbf{Field Notes transparency:} All experimental attempts, including failures and dead-ends, are documented in our Field Notes for scientific transparency:
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 \item \textbf{Invitation to critique:} This is a Bayesian hypothesis, not dogma. We actively invite:
@@ -1585,7 +1585,7 @@ We have demonstrated that:
 All experimental protocols, field notes, and theoretical extensions are openly available under S.V.E. Public License v1.3:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 \end{center}
 
 \textit{Soli Deo Gloria.}
@@ -1667,7 +1667,7 @@ A. Kovnatsky, ``S.V.E. IX: Falsification Protocols for Transcendent Claims,'' \t
 A. Kovnatsky, ``S.V.E. XII: SYSTEM Parametrization and Ontological Control,'' \textit{SVE Research Series}, 2025.
 
 \bibitem{skovnats2025svelicense}
-A. Kovnatsky, ``S.V.E. Public License v1.3,'' 2025. Available: \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+A. Kovnatsky, ``S.V.E. Public License v1.3,'' 2025. Available: \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 
 \bibitem{greenleaf1970servant}
 R. K. Greenleaf, \textit{The Servant as Leader}, Robert K. Greenleaf Center, 1970.
@@ -2289,7 +2289,7 @@ Transcendental Kernels, and Lyapunov-Stable Ethical Dynamics}
 \author{
 Dr. Artiom Kovnatsky \\
 \small Independent Researcher, Systemic Verification Engineering (SVE) \\
-\small \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\small \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 
 \date{
@@ -2319,7 +2319,7 @@ We present \textbf{CogOS (Cognitive Operating System)—a mathematically rigorou
 
 \textbf{Empirical validation is part of separate, ongoing research.} Pre-registered experimental protocols are provided (Section \ref{sec:validation_protocol}), but \textbf{no results are claimed}. To ensure scientific integrity and prevent redundant research efforts, all experimental attempts—including failures, dead-ends, and negative results—are documented in our Field Notes: 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 We argue this framework provides the theoretical infrastructure necessary—though not sufficient—for Strong AI: a system that can reason across arbitrary domains, maintain ethical coherence under distributional shift, and generate new conceptual frameworks (Recursive Ontology Refinement) while remaining aligned with human flourishing.
@@ -2334,9 +2334,9 @@ All theoretical contributions, protocols, and architectural specifications relea
 \centering
 \itshape\small
 This work is licensed under the \textbf{S.V.E. Public License v1.3}.\\[0.3em]
-\href{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}{GitHub Repository}
+\href{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}{GitHub Repository}
 \quad|\quad
-\href{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf}{Signed PDF}
+\href{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License/signed/_SVE-Systemic-Verification-Engineering_License_SIGNED.pdf}{Signed PDF}
 \quad|\quad
 \href{https://archive.org/details/sve_public_license_v1.3}{Permanent Archive (archive.org, 26.10.2025)}
 \end{minipage}
@@ -2383,7 +2383,7 @@ This paper synthesizes mathematics, philosophy, theology, and geopolitics. We re
 \textbf{Transparency Commitment:} To prevent wasted research effort and ensure scientific integrity, all experimental attempts—including dead-ends, failed hypotheses, negative results, and abandoned approaches—are documented in our Field Notes:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 If you plan to test aspects of this framework, we encourage you to check the Field Notes first to avoid repeating known failures.
@@ -2429,7 +2429,7 @@ We do not claim CogOS \textit{achieves} Strong AI—the system remains limited b
 \textbf{Critical commitment:} To prevent wasted research effort and ensure reproducibility, we document all experimental attempts—including failures—in publicly accessible Field Notes:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 \textbf{Current status (as of January 2026):}
@@ -4004,7 +4004,7 @@ The example serves only to demonstrate how CogOS would handle epistemically cons
 
 \item \textbf{Field Notes transparency:} All experimental attempts, including failures and dead-ends, are documented in our Field Notes for scientific transparency:
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 \item \textbf{Invitation to critique:} This is a Bayesian hypothesis, not dogma. We actively invite:
@@ -4577,7 +4577,7 @@ Education & High school graduation rate, literacy, critical thinking scores \\
 
 \textbf{Documentation:} See Field Notes, Entry \#17-23 (October 2024):
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 \subsubsection{Dead-End \#2: Fine-Tuning-Only Kernel Embedding}
@@ -4679,7 +4679,7 @@ CogOS requires expertise across domains. We seek collaborators in:
 
 \textbf{Contact:} Interested collaborators can reach out via GitHub Issues:
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/issues}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/issues}
 \end{center}
 ```
 
@@ -4845,7 +4845,7 @@ CogOS attempts to provide \textit{infrastructure} for this challenge—but infra
 All theoretical contributions, protocols, and architectural specifications in this paper are released under \textbf{S.V.E. Public License v1.3}:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License/signed}
 \end{center}
 
 \textbf{Key terms:}
@@ -4858,12 +4858,12 @@ All theoretical contributions, protocols, and architectural specifications in th
 
 \textbf{Implementation code} (when developed) will be released at:
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/CogOS}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/CogOS}
 \end{center}
 
 \textbf{Field Notes} (experimental failures, dead-ends, ongoing work):
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Applications/_FieldNotes}
 \end{center}
 
 \subsection{Final Word}
@@ -4965,7 +4965,7 @@ A. Kovnatsky, ``S.V.E. IX: Falsification Protocols for Transcendent Claims,'' \t
 A. Kovnatsky, ``S.V.E. XII: SYSTEM Parametrization and Ontological Control,'' \textit{SVE Research Series}, 2025.
 
 \bibitem{skovnats2025svelicense}
-A. Kovnatsky, ``S.V.E. Public License v1.3,'' 2025. Available: \url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+A. Kovnatsky, ``S.V.E. Public License v1.3,'' 2025. Available: \url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 
 \bibitem{greenleaf1970servant}
 R. K. Greenleaf, \textit{The Servant as Leader}, Robert K. Greenleaf Center, 1970.
@@ -13145,7 +13145,7 @@ Self-Sacrifice, Epistemic Humility, and Christ-Vector Convergence
 \textbf{Dr. Artiom Kovnatsky}\\[0.2cm]
 Independent Researcher\\
 Systemic Verification Engineering (S.V.E.)\\[0.1cm]
-\texttt{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\texttt{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 
 \date{January 15, 2026}
@@ -16622,7 +16622,7 @@ Complete LLM conversation history (9 kernels × 4 variants = 36 responses) avail
 Open-source implementation under S.V.E. Public License v1.3:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 \end{center}
 
 \textbf{Repository structure}:
@@ -17070,7 +17070,7 @@ Christ-Vector false. We provide measurement tools; 60-90 year study provides
 verdict.
 
 OPEN SOURCE:
-Repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+Repository: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 Transcript: https://claude.ai/share/94eb207d-c671-437b-ad45-8df305185734
 License: S.V.E. Public License v1.3
 
@@ -17086,7 +17086,7 @@ License: S.V.E. Public License v1.3
 ```
 License: Other (Open)
 License Name: S.V.E. Public License v1.3
-License URL: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/LICENSE
+License URL: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/LICENSE
 
 Brief terms:
 - ✅ Free use for research, education, non-profit
@@ -20487,7 +20487,7 @@ K. Gödel, ``Über formal unentscheidbare Sätze der Principia Mathematica,'' \t
 All 37 citations verified against canonical sources. Full audit trail available at:
 
 \begin{center}
-\url{https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+\url{https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 \end{center}
 
 \section{Code Repository}

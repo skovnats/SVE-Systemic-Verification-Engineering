@@ -394,11 +394,11 @@ Case ID: 759bc4c4-387d-49e7-e16-9a2b56c9da0e
 
 17:1 For those who wish to verify, to study, to engage – all materials are publicly available.
 
-17:2 GitHub repository: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 GitHub repository: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 Papers: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 Papers: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 AI Reviews – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 AI Reviews – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 Working prototype – Socrates Bot v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

@@ -428,11 +428,11 @@
 
 17:1 لأولئك الذين يرغبون في التحقق، والدراسة، والمشاركة – جميع المواد متاحة علنًا.
 
-17:2 مستودع GitHub: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 مستودع GitHub: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 الأوراق: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 الأوراق: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 مراجعات الذكاء الاصطناعي – GPT-5، Claude، Gemini، Grok، Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 مراجعات الذكاء الاصطناعي – GPT-5، Claude، Gemini، Grok، Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 النموذج الأولي العامل – بوت سقراط v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

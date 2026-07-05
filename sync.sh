@@ -56,7 +56,7 @@ echo "BASE_DIR: $BASE_DIR"
 # ===================== GitHub (skovnats) =================
 if should_run "$GITHUB_SKOVNATS"; then
     echo "===> Sync to GitHub: skovnats"
-    echo "===> Sync to GitHub: https://github.com/skovnats/SVE-Systemic-Verification-Engineering"
+    echo "===> Sync to GitHub: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering"
     git remote remove origin 2>/dev/null || true
     git remote add origin git@github.com:skovnats/SVE-Systemic-Verification-Engineering.git
     git push origin 'refs/heads/*:refs/heads/*' --prune --force

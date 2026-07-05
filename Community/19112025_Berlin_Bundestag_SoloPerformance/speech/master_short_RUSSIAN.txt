@@ -394,11 +394,11 @@
 
 17:1 Для тех, кто желает проверить, изучить, вступить в диалог – все материалы публично доступны.
 
-17:2 GitHub-репозиторий: https://github.com/skovnats/SVE-Systemic-Verification-Engineering
+17:2 GitHub-репозиторий: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering
 
-17:3 Статьи: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
+17:3 Статьи: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Papers
 
-17:4 Обзоры ИИ – GPT-5, Claude, Gemini, Grok, Qwen: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+17:4 Обзоры ИИ – GPT-5, Claude, Gemini, Grok, Qwen: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 
 17:5 Рабочий прототип – Бот Сократа v0.2: https://chatgpt.com/g/g-68f1fc9848948191a1cc038db8e3422b-sokrat-socrates-bot-v0-2
 

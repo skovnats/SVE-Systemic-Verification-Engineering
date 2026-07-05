@@ -834,7 +834,7 @@ Artiom Kovnatsky, [19.02.2026 12:06]
 *"25% это 90%"
 это про то, что 25% сторонников Мазепы представляются как символические 90% - то есть все!
 * 2 Человека - это я про Кочубея и Искру (но вы и так это внутри сами поняли - не так ли?!)
-Тут можете ознакомиться с ранне вызовами Стерненко и Рёпке - они слились -- Вам такие же условия + если они захоят Вам помогать - пусть присоеденяются ...буду 1 против 4!https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepckehttps://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko
+Тут можете ознакомиться с ранне вызовами Стерненко и Рёпке - они слились -- Вам такие же условия + если они захоят Вам помогать - пусть присоеденяются ...буду 1 против 4!https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepckehttps://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko
 
 Протколы и тд - написаны в постах в Х - вызовах, там все линки и детали.
 

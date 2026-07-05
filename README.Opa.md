@@ -128,11 +128,11 @@ From this foundation emerged the first working prototype —
 
 **📖 Practical Example: Correcting AI Bias through Socratic Dialogue**  
 See a live demonstration of the SIP methodology in action:  
-[Mini-Socratic Dialogue: Challenging AI Bias](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Applications/SIPs-MetaSIPs/example/Mini-SocraticDialogue_PracticalExample.pdf)
+[Mini-Socratic Dialogue: Challenging AI Bias](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Applications/SIPs-MetaSIPs/example/Mini-SocraticDialogue_PracticalExample.pdf)
 
 This case study shows how systematic questioning can expose and correct Western liberal bias in AI systems, forcing recognition of systemic opacity in high-profile cases (Nord Stream, Epstein, JFK).
 
-📘 AI Commentary: [Independent Reviews Folder](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews)
+📘 AI Commentary: [Independent Reviews Folder](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews)
 
 ---
 

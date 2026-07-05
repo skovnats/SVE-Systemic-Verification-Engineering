@@ -1,4 +1,4 @@
-# [Respect · Justice · Peace](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)
+# [Respect · Justice · Peace](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)
 Germany’s UNSC 2027–2028 Pledge — Open Structural Justice Ledger
 
 ## This is a PROPOSAL for PUBLIC -- I do not have resources to conduct this research

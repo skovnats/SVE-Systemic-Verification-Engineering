@@ -5,10 +5,10 @@
 - **Cycles:** 4 × 111 days (14.03.2026, **02.07.2026**, 21.10.2026)
 - **Documentation Horizon:** Day 444 (10.02.2027)
 
-[Description of the Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
+[Description of the Protocol](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
 
-# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
-## [CONTEXT 0](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) ... [CONTEXT i-1](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) & [CONTEXT i](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials) & [CONTEXT i+1](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/LightBlackMirror_27112025) & [CONTEXT i+2](https://youtu.be/Cs339pjve5M) & [CONTEXT i+3](https://youtu.be/0Ok10UaVxWo)
+# [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
+## [CONTEXT 0](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) ... [CONTEXT i-1](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) & [CONTEXT i](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials) & [CONTEXT i+1](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/LightBlackMirror_27112025) & [CONTEXT i+2](https://youtu.be/Cs339pjve5M) & [CONTEXT i+3](https://youtu.be/0Ok10UaVxWo)
 
 ### Videos are in the [Mirror 2](https://mega.nz/#P!AgCnnGXFntkv6BR0GL5bcAuiHajFyhUFNwH011cHYHEZbq9rRHzuWatzwbeN5eYvp5fo7kWtBv4h5xuiEXDJK4xXJfR3tunQqaKn74Ua0ncbmLFYTPkAoA)
 
@@ -19,7 +19,7 @@
 
 | Submission ID | Respondent ID | Tag | Submitted at | Uploaded at | Name | Last Name | Father Name | Date of Birth | City (Ukraine) | Region | Tel. | Email | Telegram/Other | Status | Completed by | ADDITIONAL | Date of Last Contact | Comments / Additional Information | URL SOURCE | METADATA |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | AK1984-Human-1 | [week_+-1](week_+-1) | 2025-11-30 13:09:42 |  | Владислав | Тимощук |  |  | Николаев | Корабельный Район |  |  |  | Местоположение неизвестно | AK1984-Human-0** | Переходил нелегально границу (с Венгрией?) | Прилиблизительно 15.07.2025 | Сводные братья:<br>1. Дмитрий Красников<br>2. [Виктор Красников](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) | https://www.artiomkovnatsky.com/the-ak1984-list | https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance |
+| 0 | AK1984-Human-1 | [week_+-1](week_+-1) | 2025-11-30 13:09:42 |  | Владислав | Тимощук |  |  | Николаев | Корабельный Район |  |  |  | Местоположение неизвестно | AK1984-Human-0** | Переходил нелегально границу (с Венгрией?) | Прилиблизительно 15.07.2025 | Сводные братья:<br>1. Дмитрий Красников<br>2. [Виктор Красников](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) | https://www.artiomkovnatsky.com/the-ak1984-list | https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance |
 | 1 | [AK1984-Human-2](https://youtu.be/LjdKIfOqCrA?t=210) | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-11T11:15:42 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-11T111542.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1) |
 | 2 | [AK1984-Human-3](https://youtu.be/LjdKIfOqCrA?t=338) | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-13T15:17:06 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-13T151706.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1) |
 | 3 | [AK1984-Human-4](https://youtu.be/LjdKIfOqCrA?t=424) | [week_+-1](week_+-1) | 2025-11-30 | 2025-11-14T09:15:10 | - | - | - | - | - | - | - | - | - | Местоположение неизвестно | AK1984-Human-0** | [ADDITIONAL](week_+-1/srt/artem__dmytruk__2025-11-14T091510.000Z_Russian-subtitles.srt) | - | - | [https://www.instagram.com/stories/artem__dmytruk/](https://www.instagram.com/stories/artem__dmytruk/) | [week_+-1](week_+-1); **AI-summary srt:** Aggressive shouting and insults suggest a volatile and unsafe situation. |
@@ -669,7 +669,7 @@ Archive:
 
 #### Notes:
 - *Weeks 9–10 published together due to illness; events documented chronologically.*
-- 28.02.2026: [Case Study #1: (perhaps) System Response to the Protocol (02.11.2025)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis).
+- 28.02.2026: [Case Study #1: (perhaps) System Response to the Protocol (02.11.2025)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis).
 
 ---
 
@@ -680,8 +680,8 @@ Archive:
 - 2026-03-29 - Report [week_+-18](week_+-18)
 - 2026-03-22 - Report [week_+-17](week_+-17)
 - 2026-03-15 - Report [week_+-16](week_+-16): the 1st week of level 2/4
-- 2026-03-09 - [week_+-15](week_+-15) & Added [Case Study #2: (perhaps) System Response to the Protocol: Anomaly Calls Detection Tutorial](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Anomaly_Calls_Detection_Tutorial) & [Case Study #3: (perhaps) System Response to the Protocol: Signals Potentially Anomaly Tutorial](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Signals_Potentially_Anomaly)
-- 2026-03-01 - Report [week_+-14](week_+-14) & Added [Case Study #1: (perhaps) System Response to the Protocol.](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis)
+- 2026-03-09 - [week_+-15](week_+-15) & Added [Case Study #2: (perhaps) System Response to the Protocol: Anomaly Calls Detection Tutorial](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Anomaly_Calls_Detection_Tutorial) & [Case Study #3: (perhaps) System Response to the Protocol: Signals Potentially Anomaly Tutorial](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Signals_Potentially_Anomaly)
+- 2026-03-01 - Report [week_+-14](week_+-14) & Added [Case Study #1: (perhaps) System Response to the Protocol.](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19092025_David_vs_GOLIATH_SerhiiSternenko#analysis)
 - 2026-02-22 - Report [week_+-13](week_+-13)
 - 2026-02-15 - Report [week_+-12](week_+-12)
 - 2026-02-08 - Report [week_+-11](week_+-11)

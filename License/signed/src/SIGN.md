@@ -355,7 +355,7 @@ Signed:    Artiom Kovnatsky
 Role:      Author & Initial Custodian (per Declaration v2.0)
 Date:      01.04.2026
 Method:    eIDAS/QES (Estonia)
-Published: GitHub   https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
+Published: GitHub   https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
            GitLab   https://gitlab.com/opa-collective/sve/-/tree/master/License
            CodeBerg https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License
            X.com & Personal Telegram Channel

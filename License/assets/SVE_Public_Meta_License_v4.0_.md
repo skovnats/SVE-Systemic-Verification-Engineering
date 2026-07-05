@@ -570,7 +570,7 @@ Date:      [To be signed upon finalization]
 Method: eIDAS/QES (Estonia)
 Hash:      SHA-256: [Generated upon signing]
 Published: 
-GitHub https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
+GitHub https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License
 GitLab https://gitlab.com/opa-collective/sve/-/tree/master/License
 CodeBerg https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/License
 Arxiv: 

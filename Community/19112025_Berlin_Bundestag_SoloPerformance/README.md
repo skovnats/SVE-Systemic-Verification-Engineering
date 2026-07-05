@@ -1,7 +1,7 @@
 ### [Mirror 1](https://gitlab.com/opa-collective/sve/-/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance?ref_type=heads)   [Mirror 2](https://mega.nz/#P!AgCnnGXFntkv6BR0GL5bcAuiHajFyhUFNwH011cHYHEZbq9rRHzuWatzwbeN5eYvp5fo7kWtBv4h5xuiEXDJK4xXJfR3tunQqaKn74Ua0ncbmLFYTPkAoA)
 
 # [REPORTS.md](reports/REPORTS.md)
-# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
+# [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
 
 
 # 19.11.2025 — Bundestag, 11:00 CET
@@ -44,7 +44,7 @@ Public report: every Sunday/Monday on my X account.
 👉 http://tiny.cc/l39v001
 
 ## GitHub archive:
-https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
+https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
 
 ### ✋ I give no interviews.
 Please watch, read, and decide for yourself.

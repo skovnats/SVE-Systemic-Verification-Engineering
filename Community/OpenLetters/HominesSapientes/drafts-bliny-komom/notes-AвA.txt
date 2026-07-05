@@ -192,7 +192,7 @@ Kupidu kipidu
 а если добавить в конце обращение к "СИСТЕМЕ": любой "документ/случайность/странность и тд" будут идентифицированы, упорядочены и проанализированы с помощью 4+1 ИИ (как я сделал с официальным ответом-отпиской МИД Германии..) и выложено в открытом доступе на гитхаб SVE проекта Community и не только. "не мешайте мне растить спокойно капусту" ...и пусть каждый продолжает жить свою жизнь: "нечестивыый пусть... а праведный пусть дальще делает правду ..." (с)
 
  
-ссылка на анализ ответа МИД Германии: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+ссылка на анализ ответа МИД Германии: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 ---
 что думашь? уместно? как это будет всеми воспринято? что подумают обо мне?
 
@@ -1182,12 +1182,12 @@ https://euvsdisinfo.eu/ru/%d0%be%d1%82-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b
 А если добавить: никому и ничему верить нельзя - даже мне и себе...фронт/поле битвы начинается с собственной души/мыслей/ценностей/эмоций (ещё не факт, что ТО, что вы думаете Ваше, не "засланный казачок" Тёмных)!
 *В рамках Христианской онтологии
 
-а если упомянуть, что относительно 4. Кейс Symbolic Protocol Ticket: 759bc4c4... MFA, там запущен протокол 444 дня (https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md) и через 444 дня + 1 минута они получат (уже запрограмировано; Send scheduled for Thu, Feb 11, 2027, 12:01 AM) письмо - у них будет время по Человечесчки, Мужественно осознать свою ошиьку, оно станет достоянием общественности приблизительно через 44 дня от момента отправки; после этого будет, возможно, с Божьей помощью, МАКСИМАЛЬНЫЙ СВЕТ И общественный резанас!
-здесь разбор их ответ и "попытки закрыть тикет": https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+а если упомянуть, что относительно 4. Кейс Symbolic Protocol Ticket: 759bc4c4... MFA, там запущен протокол 444 дня (https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md) и через 444 дня + 1 минута они получат (уже запрограмировано; Send scheduled for Thu, Feb 11, 2027, 12:01 AM) письмо - у них будет время по Человечесчки, Мужественно осознать свою ошиьку, оно станет достоянием общественности приблизительно через 44 дня от момента отправки; после этого будет, возможно, с Божьей помощью, МАКСИМАЛЬНЫЙ СВЕТ И общественный резанас!
+здесь разбор их ответ и "попытки закрыть тикет": https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 ---
 ?
 
-а если упомянуть, что относительно 4. Кейс Symbolic Protocol Ticket: 759bc4c4... MFA, там запущен протокол 444 дня (https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md) и через 444 дня + 1 минута они получат (уже запрограмировано; Send scheduled for Thu, Feb 11, 2027, 12:01 AM) письмо - у них будет время по Человечесчки, Мужественно осознать свою ошиьку, оно станет достоянием общественности приблизительно через 44 дня от момента отправки; после этого будет, возможно, с Божьей помощью, МАКСИМАЛЬНЫЙ СВЕТ И общественный резанас!
+а если упомянуть, что относительно 4. Кейс Symbolic Protocol Ticket: 759bc4c4... MFA, там запущен протокол 444 дня (https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md) и через 444 дня + 1 минута они получат (уже запрограмировано; Send scheduled for Thu, Feb 11, 2027, 12:01 AM) письмо - у них будет время по Человечесчки, Мужественно осознать свою ошиьку, оно станет достоянием общественности приблизительно через 44 дня от момента отправки; после этого будет, возможно, с Божьей помощью, МАКСИМАЛЬНЫЙ СВЕТ И общественный резанас!
 ---
 ?
 

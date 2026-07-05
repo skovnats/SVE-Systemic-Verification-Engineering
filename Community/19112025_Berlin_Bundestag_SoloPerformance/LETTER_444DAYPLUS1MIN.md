@@ -285,9 +285,9 @@ Thank you for your attention.
 
 ---
 
-## **Appendix: On [Your Motto — "Respect · Justice · Peace"](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
+## **Appendix: On [Your Motto — "Respect · Justice · Peace"](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values)**
 
-If this motto is more than PR, here are the topics that require honest consideration: **[https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
+If this motto is more than PR, here are the topics that require honest consideration: **[https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/Respect_Justice_Peace)**.
 
 A simple principle: **you cannot change what you refuse to measure.**
 
@@ -309,15 +309,15 @@ Please use Socrates-bot: **https://chatgpt.com/g/g-690f57636ccc8191803fc07746373
 
 ---
 
-**Context 1:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
+**Context 1:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance
 
-**Context 2:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
+**Context 2:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov
 
-**Questions:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
+**Questions:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md
 
-**MFA Response:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
+**MFA Response:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025
 
-**Reports:** https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
+**Reports:** https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports/REPORTS.md
 
 ---
 
@@ -338,7 +338,7 @@ Please use Socrates-bot: **https://chatgpt.com/g/g-690f57636ccc8191803fc07746373
 
 **We cannot change what we refuse to measure.**
 
-If Germany takes [**"Respect · Justice · Peace"**](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) seriously, it should support an **independent, global audit** of how these principles appear in actual structures—not just speeches.
+If Germany takes [**"Respect · Justice · Peace"**](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials/mfa_public_values) seriously, it should support an **independent, global audit** of how these principles appear in actual structures—not just speeches.
 
 **Note:** This concerns measurement only, not intervention. Change, if any, must be gradual to avoid repeating Soviet-era mistakes.
 

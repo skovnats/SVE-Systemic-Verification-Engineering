@@ -46,7 +46,7 @@ Use in citations:
 @misc{kovnatsky2025sve,
   author={Kovnatsky, Artiom},
   title={Systemic Verification Engineering: An Integrated Framework},
-  year={2025}, url={https://github.com/skovnats/SVE-Systemic-Verification-Engineering}
+  year={2025}, url={https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering}
 }
 ````
 
@@ -126,7 +126,7 @@ No proprietary forks, no skipped verification, no hidden agendas.
 
 | Type              | Channel                                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------- |
-| General / Issues  | [GitHub Discussions](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/discussions) |
+| General / Issues  | [GitHub Discussions](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/discussions) |
 | Research / Collab | [artiomkovnatsky@pm.me](mailto:artiomkovnatsky@pm.me)                                               |
 | Licensing         | [artiomkovnatsky@pm.me](mailto:artiomkovnatsky@pm.me)                                               |
 

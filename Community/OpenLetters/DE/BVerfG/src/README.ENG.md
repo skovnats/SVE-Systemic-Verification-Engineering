@@ -337,13 +337,13 @@ The entire archive is maintained in accordance with a Code of Conduct that exclu
 ## 🔗 References
 
 ### Project Archive
-- **GitHub**: [SVE — Systemic Verification Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
+- **GitHub**: [SVE — Systemic Verification Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 - **Zenodo**: Archive with DOI and cryptographic timestamps (OpenTimestamps)
-- **Open Letters**: [Community/OpenLetters/DE/](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/OpenLetters)
+- **Open Letters**: [Community/OpenLetters/DE/](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/OpenLetters)
 
 ### Related Documents in the Archive
-- SIP Protocol: Challenge to Julian Röpcke — [David vs. GOLIATH](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
-- Formal reopening request (11.02.2027): [PDF in archive](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/blob/master/Community/OpenLetters/DE/Formeller-Antrag-Wiedereroeffnung-759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
+- SIP Protocol: Challenge to Julian Röpcke — [David vs. GOLIATH](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/20092025_David_vs_GOLIATH_JulianRoepcke)
+- Formal reopening request (11.02.2027): [PDF in archive](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/OpenLetters/DE/Formeller-Antrag-Wiedereroeffnung-759bc4c4-387d-49e7-9e16-9a2b56c9da0e.pdf)
 
 ### Constitutional Law
 - [Basic Law for the Federal Republic of Germany](https://www.gesetze-im-internet.de/gg/) (Grundgesetz)
@@ -360,7 +360,7 @@ The entire archive is maintained in accordance with a Code of Conduct that exclu
 
 ## 📜 License & Code of Conduct
 
-This document and all accompanying materials are part of the public archive [SVE — Systemic Verification Engineering](https://github.com/skovnats/SVE-Systemic-Verification-Engineering). Publication is carried out in the interest of transparency and democratic accountability.
+This document and all accompanying materials are part of the public archive [SVE — Systemic Verification Engineering](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering). Publication is carried out in the interest of transparency and democratic accountability.
 
 **Please note**: any use of these materials for manipulation, instrumentalization, or harm against individuals expressly contradicts the spirit and intent of this archive.
 

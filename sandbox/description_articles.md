@@ -6,7 +6,7 @@ Academic institutions face a structural crisis of trust, driven by "publish or p
 ---
 Methodological Note & Tools:
 
-1. Verification Status: This work has passed preliminary AI & Meta-AI validation (internal logic & consistency checks). A comprehensive adversarial audit via the Stanford Agentic Reviewer protocol (Mock ICLR/AAAI assessment) is currently in progress. All review logs are transparently available at: https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
+1. Verification Status: This work has passed preliminary AI & Meta-AI validation (internal logic & consistency checks). A comprehensive adversarial audit via the Stanford Agentic Reviewer protocol (Mock ICLR/AAAI assessment) is currently in progress. All review logs are transparently available at: https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Reviews
 2. Interactive Analysis: The entire S.V.E. corpus is indexed in our custom AI assistant. You can interrogate this paper and the full framework via Socrates Bot v0.22: https://chatgpt.com/g/g-690f57636ccc8191803fc07746373718-sokrat-socrates-bot-v0-22
 3. Version Status: The attached PDF represents Draft v0.6. The text will be iteratively refined based on the incoming adversarial feedback and community review.
 
