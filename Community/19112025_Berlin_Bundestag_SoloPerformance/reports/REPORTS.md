@@ -674,7 +674,7 @@ Archive:
 ---
 
 ## Change Log
-- 2026-07-04/5 - Added AK1984-Human-505 (Чернецький Юрий Володимирович) & Related Post in X: https://x.com/ArtiomKovnatsky/status/2073450384379584581 & Informing Mail to Respective Authoroties [Mail PDF](../mails/04072026/AK1984-Human-505-Informing.pdf) [TO: ohchr-hrmmu@un.org, ohchr-HRMMUinfo@un.org; CC: d .h @diplo.de, 206-5 Nebel Julius <206-5@auswaertiges-amt.de>, 114-0@diplo.de]
+- 2026-07-04/5 - Added AK1984-Human-505 (Чернецький Юрий Володимирович) & Related Post in X: https://x.com/ArtiomKovnatsky/status/2073450384379584581 & Informing Mail to Respective Authoroties [AK1984-Human-505-Informing.pdf](../mails/04072026/AK1984-Human-505-Informing.pdf) [TO: ohchr-hrmmu@un.org, ohchr-HRMMUinfo@un.org; CC: d .h @diplo.de, 206-5 Nebel Julius <206-5@auswaertiges-amt.de>, 114-0@diplo.de]
 - 2026-06-19 - UPD Termination & Termination-statement & Adding Videos 
 - 2026-04-05 - Report [week_+-19](week_+-19) & Added `Clarification 2` & Chain of posts in X (from Α till Ω)
 - 2026-03-29 - Report [week_+-18](week_+-18)
