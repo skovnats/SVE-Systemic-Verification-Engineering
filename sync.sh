@@ -4,6 +4,14 @@ set -euo pipefail
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$BASE_DIR"
 
+# 0. Check PDFs
+echo "--> Проверка целостности PDF..."
+if [ -f "./check_pdfs.sh" ]; then
+    bash ./check_pdfs.sh .
+else
+    echo "⚠️ Скрипт check_pdfs.sh не найден, пропускаем."
+fi
+
 # 1. hashdeep — генерируем карту хэшей в реальном времени
 echo "--> Generating system file hashes..."
 hashdeep -r . > hashsum.md
