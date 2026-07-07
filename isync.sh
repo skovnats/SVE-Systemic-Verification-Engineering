@@ -83,7 +83,8 @@ for remote in "${REMOTES[@]}"; do
         # Добавляем тайм-аут через SSH, чтобы не висело вечно
         # export GIT_SSH_COMMAND="ssh -o ConnectTimeout=10 -o BatchMode=yes"
         # Увеличиваем таймаут до 30 секунд и добавляем 2 повторные попытки соединения
-        export GIT_SSH_COMMAND="ssh -o ConnectTimeout=30 -o ConnectionAttempts=2 -o BatchMode=yes"
+        # export GIT_SSH_COMMAND="ssh -o ConnectTimeout=30 -o ConnectionAttempts=2 -o BatchMode=yes"
+        export GIT_SSH_COMMAND="ssh -o ConnectTimeout=60 -o ServerAliveInterval=30 -o ServerAliveCountMax=10 -o ConnectionAttempts=3 -o BatchMode=yes -o IPQoS=throughput"
         
         git push "$remote" master --progress || echo "❌ Master FAILED for $remote"
         git push "$remote" staging --progress || echo "❌ Staging FAILED for $remote"
