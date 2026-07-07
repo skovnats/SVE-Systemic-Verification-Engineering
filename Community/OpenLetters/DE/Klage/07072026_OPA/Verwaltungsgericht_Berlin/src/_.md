@@ -1,0 +1,2 @@
+Anregung einer Entscheidung im schriftlichen Verfahren (§ 101 Abs. 2 VwGO)
+Aus gesundheitlichen Gründen und zum Schutz meiner Privatsphäre — insbesondere vor dem Hintergrund der dargelegten, belastenden familiären Bedeutung dieser Menschenrechtsthematik — verzichte ich hiermit ausdrücklich auf eine mündliche Verhandlung. Ich vertraue der deutschen Justiz vollumfänglich und rege an, im schriftlichen Verfahren zu entscheiden. Für sämtliche Rückfragen oder Beweisanforderungen des Gerichts stehe ich jederzeit vollumfänglich schriftlich zur Verfügung.
