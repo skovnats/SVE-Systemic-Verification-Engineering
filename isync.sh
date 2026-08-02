@@ -17,9 +17,10 @@ fi
 echo "--> Generating system file hashes..."
 hashdeep -r . > hashsum.md
 
-# 2. Фиксируем изменения hashsum.md в Git перед пушем на зеркала
-git add hashsum.md
-git commit -m "chore: update system file hashes [Temporal Integrity Block]" || echo "No hash changes detected."
+# 2. Фиксируем изменения в Git
+bash ./generate_passport.sh
+git add hashsum.md pdf_report.csv passport.txt
+git commit -m "chore: update system integrity passport [Temporal Integrity Block]" || echo "No hash changes detected."
 
 #------------------------------------------
 # Инициализация флагов (по умолчанию всё выключено)
@@ -33,6 +34,7 @@ RADICLE=false
 MEGA=false
 PROTON=false
 SOURCEFORGE=false
+HUGGINGFACE=false
 
 # Если переданы аргументы, выключаем режим "все" и переходим к выборочному
 if [ $# -gt 0 ]; then
@@ -49,6 +51,7 @@ if [ $# -gt 0 ]; then
             --mega) MEGA=true; shift ;;
             --proton) PROTON=true; shift ;;
             --sourceforge) SOURCEFORGE=true; shift ;;
+            --huggingface) HUGGINGFACE=true; shift ;;
             *) echo "Unknown option: $1"; exit 1 ;;
         esac
     done
@@ -65,6 +68,7 @@ echo "===> Starting Incremental Sync"
 # 1. Настройка Remotes (если их нет)
 git remote add org-mirror git@github.com:Opa-Collective/SVE-Systemic-Verification-Engineering.git 2>/dev/null || true
 git remote add sourceforge "ssh://skovnats@git.code.sf.net/p/sve-systemic/code" 2>/dev/null || true
+git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering" 2>/dev/null || true
 
 # 2. Основной инкрементальный цикл
 # Добавили sourceforge в общий список — теперь он пушится быстро
@@ -74,6 +78,8 @@ if should_run "$GITHUB_SKOVNATS"; then REMOTES+=("origin"); fi
 if should_run "$GITLAB"; then REMOTES+=("gitlab"); fi
 if should_run "$CODEBERG"; then REMOTES+=("codeberg"); fi
 if should_run "$SOURCEFORGE"; then REMOTES+=("sourceforge"); fi
+if should_run "$HUGGINGFACE"; then REMOTES+=("huggingface"); fi
+
 
 for remote in "${REMOTES[@]}"; do
     if git remote | grep -q "$remote"; then
