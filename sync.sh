@@ -129,7 +129,8 @@ if should_run "$HUGGINGFACE"; then
     git remote remove huggingface 2>/dev/null || true
     
     # Вариант 1: Через SSH (убедитесь, что ваш открытый ключ добавлен в настройки HF)
-    git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering"
+    # git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering"
+    git remote add huggingface "https://skovnats:${HUGGING_FACE_HUB_TOKEN}@huggingface.co/spaces/skovnats/SVE-Systemic-Verification-Engineering"
     
     # Вариант 2: Через HTTPS с токеном (если SSH заблокирован). Раскомментируйте, если нужно:
     # git remote add huggingface "https://skovnats:${HUGGING_FACE_HUB_TOKEN}@huggingface.co/spaces/skovnats/SVE-Systemic-Verification-Engineering"

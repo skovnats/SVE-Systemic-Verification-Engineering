@@ -68,7 +68,8 @@ echo "===> Starting Incremental Sync"
 # 1. Настройка Remotes (если их нет)
 git remote add org-mirror git@github.com:Opa-Collective/SVE-Systemic-Verification-Engineering.git 2>/dev/null || true
 git remote add sourceforge "ssh://skovnats@git.code.sf.net/p/sve-systemic/code" 2>/dev/null || true
-git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering" 2>/dev/null || true
+# git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering" 2>/dev/null || true
+git remote add huggingface "https://skovnats:${HUGGING_FACE_HUB_TOKEN}@huggingface.co/spaces/skovnats/SVE-Systemic-Verification-Engineering" 2>/dev/null || true
 
 # 2. Основной инкрементальный цикл
 # Добавили sourceforge в общий список — теперь он пушится быстро
