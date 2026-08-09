@@ -1,5 +1,5 @@
 SVE INTEGRITY PASSPORT
 ======================
-Date (UTC): 2026-08-02T14:45:52Z
+Date (UTC): 2026-08-09T13:24:21Z
 PDF Status: CORRUPTED (Вмешательство или сбой)
-Root Hash (hashsum.md SHA256): 42641832dd10d2b9a10653598b6c3d6e45b40f62cf98f9306652d84d72544df2
+Root Hash (hashsum.md SHA256): 30a38336f1993fae5877055a0bba08291e01158b31516812ad696269443be4d0
