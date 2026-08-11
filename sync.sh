@@ -33,7 +33,6 @@ RADICLE=false
 MEGA=false
 PROTON=false
 SOURCEFORGE=false
-HUGGINGFACE=false
 
 # Если переданы аргументы, выключаем режим "все" и переходим к выборочному
 if [ $# -gt 0 ]; then
@@ -50,7 +49,6 @@ if [ $# -gt 0 ]; then
             --mega) MEGA=true; shift ;;
             --proton) PROTON=true; shift ;;
             --sourceforge) SOURCEFORGE=true; shift ;;
-            --huggingface) HUGGINGFACE=true; shift ;;
             *) echo "Unknown option: $1"; exit 1 ;;
         esac
     done
@@ -115,28 +113,13 @@ if should_run "$SOURCEFORGE"; then
     SF_PROJECT="sve"  # Имя проекта (URL-адрес проекта)
 
     git remote remove sourceforge 2>/dev/null || true
-    git remote add sourceforge "ssh://$SF_USER@git.code.sf.net/p/$SF_PROJECT/code"
+    # git remote add sourceforge "ssh://$SF_USER@git.code.sf.net/p/$SF_PROJECT/code"
+    git remote add sourceforge "https://skovnats@git.code.sf.net/p/sve/code" 2>/dev/null || true
 
     # Первая синхронизация требует --force из-за перезаписи истории
     git push sourceforge 'refs/heads/*:refs/heads/*' --prune --force
     git push sourceforge --tags -f
     git push sourceforge master --force
-fi
-
-# ===================== Hugging Face =======================
-if should_run "$HUGGINGFACE"; then
-    echo "===> Sync to Hugging Face"
-    git remote remove huggingface 2>/dev/null || true
-    
-    # Вариант 1: Через SSH (убедитесь, что ваш открытый ключ добавлен в настройки HF)
-    # git remote add huggingface "git@hf.co:spaces/skovnats/SVE-Systemic-Verification-Engineering"
-    git remote add huggingface "https://skovnats:${HUGGING_FACE_HUB_TOKEN}@huggingface.co/spaces/skovnats/SVE-Systemic-Verification-Engineering"
-    
-    # Вариант 2: Через HTTPS с токеном (если SSH заблокирован). Раскомментируйте, если нужно:
-    # git remote add huggingface "https://skovnats:${HUGGING_FACE_HUB_TOKEN}@huggingface.co/spaces/skovnats/SVE-Systemic-Verification-Engineering"
-    
-    git push huggingface 'refs/heads/*:refs/heads/*' --prune --force -q || echo "Hugging Face branches failed"
-    git push huggingface --tags -f -q || true
 fi
 
 
