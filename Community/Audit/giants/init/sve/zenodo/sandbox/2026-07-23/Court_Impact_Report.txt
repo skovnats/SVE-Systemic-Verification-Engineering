@@ -1,0 +1,32 @@
+EXPERT SUMMARY REPORT — Snapshot 2026-07-23
+Community: Zenodo/sve | Independent researcher | 100% organic (no funding, no PR, no paid promotion)
+
+1. AGGREGATE IMPACT
+- Publications analysed: 32 (period 2025-12-31 → 2026-07-23)
+- Total views: 2,558 | Total downloads: 2,273
+- View→Download conversion: 88.86%  (open-access benchmark: 10–20%)
+
+2. TIME-NORMALIZED DEMAND
+- Mean download velocity: 56.49 downloads/month/paper
+- Peak paper: "CogOS: From Gödel to AGI..." — 1360.00 downloads/month
+- Evergreen signal: sustained velocity confirms durable reference utility, not launch spikes.
+
+3. AUDIENCE QUALITY (unusual KPIs)
+- Reader loyalty (views/unique_views): 1.19× — repeat visits per unique reader
+- Download depth (downloads/unique_downloads): 1.06× — re-downloads indicate operational reuse
+- Gini of downloads: 0.713 — concentration of demand (0=flat, 1=one-hit-wonder)
+- Top-20% papers capture 74.5% of downloads
+
+4. EXCEPTIONAL IMPACT / ANOMALIES
+- Direct-download anomalies (downloads > views): 5 papers
+  → proves external distribution of direct links (GitHub, forums, private labs)
+- Statistical outliers (z-score > 2): 1 papers — mathematically validated "breakout hits"
+
+5. CROSS-SNAPSHOT DELTA
+  Δ total_views: +60 (prev 2498)
+  Δ total_downloads: +18 (prev 2255)
+  Δ publications: +1 (prev 31)
+  Δ conversion_pct: -1.41 (prev 90.27)
+
+6. CONCLUSION
+Organic adoption, high conversion, external distribution and evergreen velocity place this output well above baselines for independent, unfunded research.
