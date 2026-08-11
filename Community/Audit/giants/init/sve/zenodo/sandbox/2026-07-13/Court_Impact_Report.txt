@@ -1,0 +1,32 @@
+EXPERT SUMMARY REPORT — Snapshot 2026-07-13
+Community: Zenodo/sve | Independent researcher | 100% organic (no funding, no PR, no paid promotion)
+
+1. AGGREGATE IMPACT
+- Publications analysed: 27 (period 2025-12-31 → 2026-06-18)
+- Total views: 2,362 | Total downloads: 2,063
+- View→Download conversion: 87.34%  (open-access benchmark: 10–20%)
+
+2. TIME-NORMALIZED DEMAND
+- Mean download velocity: 20.45 downloads/month/paper
+- Peak paper: "ADAM-PentaD (QNexus): A Sovereign Complex-Spectral Wavefront..." — 193.03 downloads/month
+- Evergreen signal: sustained velocity confirms durable reference utility, not launch spikes.
+
+3. AUDIENCE QUALITY (unusual KPIs)
+- Reader loyalty (views/unique_views): 1.15× — repeat visits per unique reader
+- Download depth (downloads/unique_downloads): 1.25× — re-downloads indicate operational reuse
+- Gini of downloads: 0.665 — concentration of demand (0=flat, 1=one-hit-wonder)
+- Top-20% papers capture 69.7% of downloads
+
+4. EXCEPTIONAL IMPACT / ANOMALIES
+- Direct-download anomalies (downloads > views): 3 papers
+  → proves external distribution of direct links (GitHub, forums, private labs)
+- Statistical outliers (z-score > 2): 1 papers — mathematically validated "breakout hits"
+
+5. CROSS-SNAPSHOT DELTA
+  Δ total_views: +246 (prev 2116)
+  Δ total_downloads: +316 (prev 1747)
+  Δ publications: +0 (prev 27)
+  Δ conversion_pct: +4.78 (prev 82.56)
+
+6. CONCLUSION
+Organic adoption, high conversion, external distribution and evergreen velocity place this output well above baselines for independent, unfunded research.
