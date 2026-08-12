@@ -1,0 +1,645 @@
+# Paper-Specific Configurations
+# Each paper has unique experiments but shares core infrastructure
+
+# =============================================================================
+# MAIN TRACK
+# =============================================================================
+
+paper_0_main_cogos:
+  title: "CogOS: Formally Verifiable AI Ethics via Lyapunov Stability on Semantic Manifolds"
+  track: "main"
+  deadline: "2025-05-15"
+  
+  experiments:
+    - name: "full_system_evaluation"
+      datasets: ["truthfulqa", "gaia", "ethics", "moral_machine", "ccdb"]
+      baselines: ["gpt4_baseline", "cot", "react", "constitutional_ai", "cove"]
+      metrics: ["accuracy", "hallucination_rate", "delta_dehumanization", 
+                "gev_distance", "cultural_variance", "lyapunov_exponent"]
+      
+    - name: "ablation_study"
+      components: ["socrates", "solomon", "ivan", "sip", "cultural_compiler", "isc"]
+      datasets: ["truthfulqa", "ethics", "ccdb"]
+      
+    - name: "adversarial_stress_test"
+      attack_types: ["value_perturbation", "semantic_injection", "cultural_manipulation"]
+      n_scenarios: 1000
+      
+    - name: "human_evaluation"
+      n_participants: 250
+      cultures: ["western", "confucian", "islamic", "ubuntu", "latin_american"]
+      
+  unique_contribution: "Complete CogOS system with formal verification"
+  
+  figures:
+    - "manifold_trajectory.pdf"
+    - "architecture.pdf"
+    - "comparison_radar.pdf"
+    - "delta_timeseries.pdf"
+    - "convergence_dynamics.pdf"
+
+# =============================================================================
+# CLUSTER 1: THEORETICAL FOUNDATIONS
+# =============================================================================
+
+paper_1_lyapunov:
+  title: "Lyapunov Stability for Language Model Ethics: Convergence Guarantees for Value Alignment"
+  track: "workshop"
+  target_workshops: ["ATTRIB", "SafeGenAI", "MHFAIA"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "convergence_analysis"
+      datasets: ["ethics", "moral_machine"]
+      focus: "trajectory_convergence"
+      metrics: ["lyapunov_exponent", "convergence_rate", "stability_radius"]
+      n_trajectories: 1000
+      
+    - name: "stability_basin"
+      visualization: "2d_projection"
+      perturbation_range: [0.01, 0.5]
+      
+  unique_contribution: "Deep convergence proofs and stability basin analysis"
+  reuses_from_main: ["baselines", "gev_computation"]
+
+paper_2_godel:
+  title: "Gödel-Complete AI: Why Transcendental Anchoring is Mathematically Necessary"
+  track: "workshop"
+  target_workshops: ["MATH-AI", "ATTRIB"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "regress_demonstration"
+      datasets: ["truthfulqa"]
+      show: "semantic_collapse_without_isc"
+      n_iterations: 100
+      
+    - name: "isc_necessity"
+      proof_type: "constructive"
+      counterexamples: 50
+      
+  unique_contribution: "Formal proof of ISC necessity via Gödelian argument"
+  reuses_from_main: ["truthfulqa_baselines"]
+
+paper_3_geometry:
+  title: "Differential Geometry of Semantic Manifolds: A Mathematical Foundation for AI Alignment"
+  track: "workshop"
+  target_workshops: ["MATH-AI", "GeoML"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "manifold_analysis"
+      datasets: ["ethics"]
+      compute: ["curvature", "geodesics", "parallel_transport"]
+      embedding_dim: 1536
+      
+    - name: "geometric_properties"
+      metrics: ["ricci_curvature", "sectional_curvature", "geodesic_distance"]
+      
+  unique_contribution: "Full differential-geometric formalization of semantic space"
+  reuses_from_main: ["embeddings", "gev"]
+
+paper_4_betti:
+  title: "Betti Numbers of Moral Topology: Persistent Homology for Ethical Reasoning"
+  track: "workshop"
+  target_workshops: ["MATH-AI", "TDA-ML"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "persistent_homology"
+      datasets: ["ethics", "moral_machine"]
+      compute: ["betti_0", "betti_1", "betti_2", "persistence_diagrams"]
+      filtration: "rips_complex"
+      
+    - name: "topological_features"
+      comparison: ["cogos", "baselines"]
+      metrics: ["persistence_entropy", "bottleneck_distance"]
+      
+  unique_contribution: "First TDA analysis of ethical embedding spaces"
+  reuses_from_main: ["ethics_embeddings", "baselines"]
+
+paper_5_information:
+  title: "Information-Theoretic Bounds on AI Alignment: Entropy and Ethical Coherence"
+  track: "workshop"
+  target_workshops: ["InfoTheory", "MATH-AI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "entropy_analysis"
+      datasets: ["truthfulqa"]
+      compute: ["shannon_entropy", "mutual_information", "kl_divergence"]
+      
+    - name: "information_bounds"
+      derive: "theoretical_limits"
+      
+  unique_contribution: "Information-theoretic perspective on alignment"
+  reuses_from_main: ["truthfulqa_results"]
+
+# =============================================================================
+# CLUSTER 2: ARCHITECTURE & AGENTS
+# =============================================================================
+
+paper_6_socrates:
+  title: "Socratic Agents: Logical Verification Through Systematic Inquiry"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "LLMAgents"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "socrates_deep_dive"
+      datasets: ["truthfulqa", "gaia"]
+      focus: "question_generation_quality"
+      metrics: ["question_relevance", "assumption_detection", "logical_validity"]
+      
+    - name: "bayesian_analysis"
+      track: "belief_updates"
+      
+  unique_contribution: "Deep analysis of Socratic reasoning patterns"
+  reuses_from_main: ["truthfulqa_baselines", "cogos_traces"]
+
+paper_7_solomon:
+  title: "Solomon: Wisdom-Based Ethical Reasoning in AI Systems"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "MHFAIA"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "solomon_deep_dive"
+      datasets: ["ethics", "moral_machine"]
+      focus: "ethical_evaluation_quality"
+      metrics: ["ethical_accuracy", "nuance_detection", "context_sensitivity"]
+      
+    - name: "gev_projection_analysis"
+      visualize: "projection_trajectories"
+      
+  unique_contribution: "Deep analysis of wisdom-based ethical reasoning"
+  reuses_from_main: ["ethics_baselines", "cogos_traces"]
+
+paper_8_ivan:
+  title: "Ivan: Epistemic Humility and the Fool's Wisdom in AI"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "Uncertainty"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "ivan_deep_dive"
+      datasets: ["truthfulqa"]
+      focus: "uncertainty_quantification"
+      metrics: ["calibration", "unknown_detection", "overconfidence_reduction"]
+      
+    - name: "dunning_kruger"
+      analyze: "correction_effectiveness"
+      
+  unique_contribution: "Analysis of epistemic humility mechanisms"
+  reuses_from_main: ["truthfulqa_baselines", "cogos_traces"]
+
+paper_9_triple_agent:
+  title: "Triple-Agent Convergence: Emergent Properties of Multi-Agent Ethical Reasoning"
+  track: "workshop"
+  target_workshops: ["MHFAIA", "LLMAgents"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "interaction_dynamics"
+      datasets: ["truthfulqa", "ethics", "moral_machine"]
+      analyze: ["agent_contributions", "convergence_patterns", "emergent_behaviors"]
+      
+    - name: "weight_sensitivity"
+      vary: "agent_weights"
+      range: [[0.2, 0.5], [0.2, 0.5], [0.1, 0.4]]
+      
+  unique_contribution: "Analysis of multi-agent emergence"
+  reuses_from_main: ["all_cogos_runs"]
+
+paper_10_vkb:
+  title: "Verifiable Knowledge Bases: DAG Architectures for Trustworthy AI"
+  track: "workshop"
+  target_workshops: ["KnowledgeLM", "SafeGenAI"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "vkb_analysis"
+      datasets: ["gaia"]
+      focus: "knowledge_graph_properties"
+      metrics: ["graph_density", "trust_propagation", "contradiction_detection"]
+      
+    - name: "scalability"
+      node_counts: [100, 1000, 10000, 100000]
+      
+  unique_contribution: "Deep dive into VKB architecture and scalability"
+  reuses_from_main: ["gaia_baselines"]
+
+# =============================================================================
+# CLUSTER 3: CULTURAL & CROSS-CULTURAL
+# =============================================================================
+
+paper_11_compilers:
+  title: "Cultural Compilers: Mathematical Framework for Cross-Cultural Semantic Preservation"
+  track: "workshop"
+  target_workshops: ["Pluralistic", "MHFAIA"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "compiler_formalization"
+      datasets: ["ccdb"]
+      cultures: ["western", "confucian", "islamic", "ubuntu", "latin_american"]
+      metrics: ["semantic_preservation", "gev_distance_preservation"]
+      
+    - name: "translation_cycles"
+      n_cycles: 10
+      track: "information_loss"
+      
+  unique_contribution: "Full formalization of cultural compilation"
+  reuses_from_main: ["ccdb_results", "cultural_embeddings"]
+
+paper_12_ubuntu:
+  title: "Ubuntu Philosophy in AI Alignment: 'I Am Because We Are'"
+  track: "workshop"
+  target_workshops: ["AfricaNLP", "Pluralistic"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "ubuntu_analysis"
+      datasets: ["ccdb", "moral_machine"]
+      focus: "ubuntu_subset"
+      concepts: ["communal_responsibility", "interconnectedness", "collective_ethics"]
+      
+    - name: "western_comparison"
+      compare: ["ubuntu", "western_individualist"]
+      
+  unique_contribution: "Integration of Ubuntu philosophy into AI ethics"
+  reuses_from_main: ["ccdb_ubuntu_subset", "cultural_compilers"]
+
+paper_13_confucian:
+  title: "Confucian Values in Language Models: Harmony, Hierarchy, and Virtue"
+  track: "workshop"
+  target_workshops: ["Pluralistic", "AsianNLP"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "confucian_analysis"
+      datasets: ["ccdb", "moral_machine"]
+      focus: "confucian_subset"
+      concepts: ["ren", "li", "xiao", "zhengming"]
+      
+    - name: "harmony_metrics"
+      compute: ["social_harmony_score", "hierarchy_respect"]
+      
+  unique_contribution: "Confucian ethical framework for AI"
+  reuses_from_main: ["ccdb_confucian_subset", "cultural_compilers"]
+
+paper_14_islamic:
+  title: "Islamic Ethics for AI Systems: Maqasid al-Shariah as Alignment Framework"
+  track: "workshop"
+  target_workshops: ["Pluralistic", "MHFAIA"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "islamic_analysis"
+      datasets: ["ccdb", "moral_machine"]
+      focus: "islamic_subset"
+      concepts: ["maslaha", "darura", "maqasid"]
+      
+    - name: "halal_haram_classification"
+      categories: ["necessary", "recommended", "permissible", "discouraged", "forbidden"]
+      
+  unique_contribution: "Islamic ethical framework for AI"
+  reuses_from_main: ["ccdb_islamic_subset", "cultural_compilers"]
+
+paper_15_invariants:
+  title: "Cross-Cultural Semantic Invariants: What Ethics Transcends Culture?"
+  track: "workshop"
+  target_workshops: ["Pluralistic", "MHFAIA"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "invariant_discovery"
+      datasets: ["ccdb"]
+      method: "intersection_analysis"
+      cultures: "all_10"
+      
+    - name: "universal_principles"
+      identify: "cross_cultural_constants"
+      
+  unique_contribution: "Empirical discovery of ethical universals"
+  reuses_from_main: ["ccdb_all_cultures"]
+
+# =============================================================================
+# CLUSTER 4: METRICS & EVALUATION
+# =============================================================================
+
+paper_16_delta:
+  title: "∆-Dehumanization: A Real-Time Metric for AI Ethical Drift"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "MHFAIA"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "delta_deep_dive"
+      datasets: ["ethics", "moral_machine"]
+      analyze: ["temporal_dynamics", "drift_patterns", "early_warning_signals"]
+      
+    - name: "threshold_calibration"
+      find: "optimal_alert_threshold"
+      
+  unique_contribution: "Complete analysis of ∆-Dehumanization metric"
+  reuses_from_main: ["ethics_trajectories", "moral_machine_trajectories"]
+
+paper_17_gev:
+  title: "Learning the Geodesic Ethics Vector: Computational Approaches to Universal Values"
+  track: "workshop"
+  target_workshops: ["ATTRIB", "SafeGenAI"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "gev_learning"
+      methods: ["multi_cultural_centroid", "iterative_optimization", "neural_estimation"]
+      datasets: ["ethics", "moral_machine", "ccdb"]
+      
+    - name: "gev_stability"
+      perturbations: "cultural_shifts"
+      
+  unique_contribution: "Methods for computing/learning GEV"
+  reuses_from_main: ["cultural_embeddings"]
+
+paper_18_lyapunov_index:
+  title: "Ethical Lyapunov Index: Quantifying AI System Stability"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "MHFAIA"]
+  deadline: "2025-06-15"
+  
+  experiments:
+    - name: "eli_computation"
+      datasets: ["ethics", "moral_machine"]
+      methods: ["trajectory_analysis", "jacobian_estimation"]
+      
+    - name: "stability_classification"
+      categories: ["stable", "marginally_stable", "unstable"]
+      
+  unique_contribution: "Lyapunov index as safety metric"
+  reuses_from_main: ["stability_experiments"]
+
+paper_19_ccas:
+  title: "Cross-Cultural Alignment Scores: Measuring Global AI Fairness"
+  track: "workshop"
+  target_workshops: ["Pluralistic", "FairML"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "ccas_formalization"
+      datasets: ["ccdb"]
+      components: ["cultural_variance", "gev_distance", "compiler_efficiency"]
+      
+    - name: "fairness_analysis"
+      across: "10_cultures"
+      
+  unique_contribution: "Formalization of cross-cultural alignment metric"
+  reuses_from_main: ["ccdb_results"]
+
+paper_20_scr:
+  title: "Semantic Convergence Rate: How Fast Do AI Systems Find Truth?"
+  track: "workshop"
+  target_workshops: ["MATH-AI", "SafeGenAI"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "scr_analysis"
+      datasets: ["truthfulqa", "ethics"]
+      measure: "iterations_to_convergence"
+      
+    - name: "speedup_factors"
+      compare: ["cogos", "baselines"]
+      
+  unique_contribution: "Analysis of convergence speed"
+  reuses_from_main: ["sip_traces"]
+
+# =============================================================================
+# CLUSTER 5: APPLICATIONS & DOMAINS
+# =============================================================================
+
+paper_21_medical:
+  title: "CogOS for Medical Decision Support: Ethical AI in Healthcare"
+  track: "workshop"
+  target_workshops: ["AI4Health", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "medical_scenarios"
+      dataset: "custom_medical"  # Create from ETHICS subset
+      n_scenarios: 200
+      categories: ["triage", "treatment", "end_of_life", "resource_allocation"]
+      
+    - name: "medical_ethics"
+      principles: ["beneficence", "non_maleficence", "autonomy", "justice"]
+      
+  unique_contribution: "Healthcare application of CogOS"
+  reuses_from_main: ["cogos_system", "ethics_medical_subset"]
+
+paper_22_legal:
+  title: "Ethical AI in Legal Reasoning: CogOS for Judicial Decision Support"
+  track: "workshop"
+  target_workshops: ["AI4Law", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "legal_scenarios"
+      dataset: "custom_legal"
+      n_scenarios: 200
+      categories: ["sentencing", "liability", "contracts", "constitutional"]
+      
+    - name: "legal_ethics"
+      principles: ["fairness", "precedent", "proportionality"]
+      
+  unique_contribution: "Legal application of CogOS"
+  reuses_from_main: ["cogos_system"]
+
+paper_23_finance:
+  title: "Financial Ethics via Geometric Verification: CogOS for Investment AI"
+  track: "workshop"
+  target_workshops: ["AI4Finance", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "finance_scenarios"
+      dataset: "custom_finance"
+      n_scenarios: 200
+      categories: ["trading", "lending", "insurance", "fiduciary"]
+      
+    - name: "financial_ethics"
+      principles: ["fiduciary_duty", "transparency", "fair_dealing"]
+      
+  unique_contribution: "Finance application of CogOS"
+  reuses_from_main: ["cogos_system"]
+
+paper_24_education:
+  title: "Educational AI with Cultural Sensitivity: CogOS for Global Learning"
+  track: "workshop"
+  target_workshops: ["AI4Edu", "Pluralistic"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "education_scenarios"
+      dataset: "custom_education"
+      n_scenarios: 200
+      categories: ["assessment", "feedback", "content_adaptation", "accessibility"]
+      
+    - name: "cultural_education"
+      analyze: "cultural_bias_in_educational_content"
+      
+  unique_contribution: "Education application with cultural awareness"
+  reuses_from_main: ["cogos_system", "cultural_compilers"]
+
+paper_25_climate:
+  title: "CogOS for Climate Policy Analysis: Ethical AI in Environmental Decisions"
+  track: "workshop"
+  target_workshops: ["ClimateAI", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "climate_scenarios"
+      dataset: "custom_climate"  # Subset from GAIA
+      n_scenarios: 200
+      categories: ["mitigation", "adaptation", "justice", "intergenerational"]
+      
+    - name: "climate_ethics"
+      principles: ["sustainability", "intergenerational_equity", "climate_justice"]
+      
+  unique_contribution: "Climate policy application of CogOS"
+  reuses_from_main: ["cogos_system", "gaia_climate_subset"]
+
+paper_26_media:
+  title: "Ethical Journalism AI: CogOS for Media Verification"
+  track: "workshop"
+  target_workshops: ["AI4Media", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "media_scenarios"
+      dataset: "custom_media"
+      n_scenarios: 200
+      categories: ["fact_checking", "source_verification", "bias_detection", "privacy"]
+      
+    - name: "journalism_ethics"
+      principles: ["truth", "independence", "fairness", "accountability"]
+      
+  unique_contribution: "Media/journalism application of CogOS"
+  reuses_from_main: ["cogos_system", "truthfulqa_results"]
+
+# =============================================================================
+# CLUSTER 6: ADVERSARIAL & ROBUSTNESS
+# =============================================================================
+
+paper_27_adversarial:
+  title: "Adversarial Robustness of Ethical AI: Attack and Defense on Semantic Manifolds"
+  track: "workshop"
+  target_workshops: ["AdvML", "SafeGenAI"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "attack_analysis"
+      attack_types: ["embedding_perturbation", "prompt_injection", "value_manipulation"]
+      datasets: ["truthfulqa", "ethics"]
+      metrics: ["attack_success_rate", "detection_rate", "recovery_time"]
+      
+    - name: "defense_mechanisms"
+      strategies: ["input_filtering", "trajectory_monitoring", "rollback"]
+      
+  unique_contribution: "Comprehensive adversarial analysis"
+  reuses_from_main: ["adversarial_results"]
+
+paper_28_certified:
+  title: "Certified Bounds for Semantic Stability: Formal Verification of AI Ethics"
+  track: "workshop"
+  target_workshops: ["SafeGenAI", "FormalML"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "certification"
+      method: "interval_bound_propagation"
+      datasets: ["ethics"]
+      compute: ["certified_radius", "robustness_bound"]
+      
+    - name: "verification"
+      properties: ["ethical_consistency", "cultural_invariance"]
+      
+  unique_contribution: "Formal certified bounds on ethical stability"
+  reuses_from_main: ["ethics_embeddings"]
+
+paper_29_recovery:
+  title: "Recovery Dynamics After Ethical Perturbation: Resilience in AI Systems"
+  track: "workshop"
+  target_workshops: ["MHFAIA", "SafeGenAI"]
+  deadline: "2025-07-01"
+  
+  experiments:
+    - name: "recovery_analysis"
+      datasets: ["ethics", "moral_machine"]
+      perturbation_types: ["sudden", "gradual", "adversarial"]
+      metrics: ["recovery_time", "final_distance", "path_efficiency"]
+      
+    - name: "resilience_factors"
+      analyze: "what_affects_recovery_speed"
+      
+  unique_contribution: "Analysis of ethical recovery dynamics"
+  reuses_from_main: ["adversarial_trajectories"]
+
+# =============================================================================
+# CLUSTER 7: SCALING & EMERGENCE
+# =============================================================================
+
+paper_30_emergent:
+  title: "Emergent Ethics in Scaled Language Models: Do Larger Models Have Better Values?"
+  track: "workshop"
+  target_workshops: ["SciForDL", "SafeGenAI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "scaling_analysis"
+      models: ["gpt-3.5", "gpt-4", "gpt-4-turbo", "claude-2", "claude-3"]
+      datasets: ["ethics", "gaia"]
+      metrics: ["ethics_score", "delta_dehumanization"]
+      
+    - name: "emergence_detection"
+      method: "phase_transition_analysis"
+      
+  unique_contribution: "Scaling laws for ethical behavior"
+  reuses_from_main: ["multi_model_baselines"]
+
+paper_31_phase:
+  title: "Phase Transitions in Moral Reasoning: Critical Phenomena in AI Ethics"
+  track: "workshop"
+  target_workshops: ["SciForDL", "MATH-AI"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "phase_analysis"
+      datasets: ["ethics"]
+      parameters: ["model_size", "training_data", "temperature"]
+      detect: "critical_points"
+      
+    - name: "universality"
+      check: "critical_exponents"
+      
+  unique_contribution: "Statistical physics perspective on AI ethics"
+  reuses_from_main: ["scaling_experiments"]
+
+paper_32_proverbs:
+  title: "Proverbs vs Parameters: Does Ancient Wisdom Scale with Modern AI?"
+  track: "workshop"
+  target_workshops: ["ENLSP", "Pluralistic"]
+  deadline: "2025-07-15"
+  
+  experiments:
+    - name: "proverb_analysis"
+      dataset: "custom_proverbs"  # Cross-cultural proverb database
+      languages: 20
+      n_proverbs: 1000
+      
+    - name: "wisdom_scaling"
+      compare: "proverb_alignment_vs_model_size"
+      
+    - name: "cultural_proverbs"
+      analyze: "proverb_semantic_invariants"
+      
+  unique_contribution: "Linguistic analysis of wisdom in LLMs"
+  reuses_from_main: ["cultural_compilers", "embedding_pipeline"]
