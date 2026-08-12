@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.netaudit</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/artiom/.local/share/mamba/envs/de/bin/python</string>
+        <string>/Users/artiom/Desktop/bunker-opa/Community/Signals_Potentially_Anomaly/metadata/net_audit.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.user.netaudit.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.user.netaudit.err</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+    <key>GITHUB_TOKEN</key>
+    <string>xxx</string>
+    <key>GITHUB_TOKEN_Opa</key>
+    <string>xxx</string>
+</dict>
+</dict>
+</plist>
