@@ -1,0 +1,32 @@
+periods:
+  Baseline (Pre-Audit):
+    end: '2025-08-02'
+    start: '2022-06-09'
+  'Phase 1: Invisible (RU/BY)':
+    end: '2025-09-15'
+    start: '2025-08-03'
+  'Phase 2: Visible (DE/UA/Public)':
+    end: '2025-11-18'
+    start: '2025-09-16'
+  'Phase 3: Manifestation (Performance/AGI)':
+    end: '2026-02-28'
+    start: '2025-11-19'
+trigger_dates:
+- '2025-08-03'
+- '2025-09-16'
+- '2025-09-19'
+- '2025-11-19'
+- '2026-01-07'
+- '2026-01-15'
+- '2026-02-24'
+- '2026-02-27'
+windows:
+  1M:
+    after: 15d
+    before: 15d
+  48h:
+    after: 2d
+    before: 2d
+  7d:
+    after: 3.5d
+    before: 3.5d
