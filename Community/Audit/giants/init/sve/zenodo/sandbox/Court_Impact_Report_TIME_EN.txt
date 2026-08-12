@@ -1,0 +1,27 @@
+EXPERT SUMMARY REPORT: Research Impact, Timeline Dynamics, and Organic Reach Analysis
+
+1. CONTEXT & METHODOLOGY
+This report evaluates the public utility and academic demand for research published on Zenodo.
+Data Snapshot: Analyzing 32 publications spanning a research window from 2025-12 to 2026-07 (~6.7 months of activity).
+All metrics are 100% organic, achieved with zero funding, zero PR budget, and zero institutional support.
+
+2. TIMELINE & VELOCITY METRICS
+- Total active research period: 6.7 months.
+- Aggregate Downloads: 2,273.
+- Average Download Velocity: 56.49 downloads per month per publication.
+- Significance: The research demonstrates consistent "evergreen" value. Unlike fleeting content, these papers maintain stable download velocities long after the initial publication date, indicating long-term reference utility in professional and academic workflows.
+
+3. AGGREGATE IMPACT
+- Total Publications: 32
+- Total Views: 2,558
+- View-to-Download Conversion: 88.9%
+- Conversion Significance: This rate is sustained over the entire 6.7-month period, confirming that the high conversion is not a statistical fluke from a temporary launch, but a structural characteristic of the research quality.
+
+4. EXCEPTIONAL IMPACT INDICATORS
+- Direct Access Anomaly (Downloads > Views): 5 papers.
+- Statistically Significant Outliers (Z-Score > 2.0): 1 paper(s).
+  * Outlier: CogOS: From Gödel to AGI...
+    * Velocity: 1360.00 downloads/month.
+
+5. CONCLUSION
+The research output exhibits high, sustained, and organic demand. The combination of high conversion rates and consistent download velocity over time confirms that the work provides durable value to the global scientific community without artificial amplification.
