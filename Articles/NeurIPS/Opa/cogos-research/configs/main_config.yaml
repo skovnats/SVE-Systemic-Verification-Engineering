@@ -1,0 +1,222 @@
+# CogOS Research Configuration
+# NeurIPS 2025 Submission Package
+
+project:
+  name: "CogOS Research"
+  version: "1.0.0"
+  author: "[YOUR NAME]"
+  email: "[YOUR EMAIL]"
+  license: "SVE Public License v1.3"
+  
+# API Configuration
+api:
+  openai:
+    model: "gpt-4-turbo-preview"
+    embedding_model: "text-embedding-3-large"
+    max_tokens: 4096
+    temperature: 0.7
+  anthropic:
+    model: "claude-3-opus-20240229"
+    max_tokens: 4096
+    temperature: 0.7
+  together:  # For open models
+    model: "meta-llama/Llama-3-70b-chat-hf"
+    max_tokens: 4096
+
+# Paths
+paths:
+  data_dir: "./data"
+  results_dir: "./results"
+  baselines_dir: "./baselines/results"
+  checkpoints_dir: "./checkpoints"
+  figures_dir: "./figures"
+  papers_dir: "./papers"
+
+# Datasets Configuration
+datasets:
+  truthfulqa:
+    path: "./data/truthfulqa"
+    url: "https://github.com/sylinrl/TruthfulQA"
+    n_samples: 817
+    metrics: ["accuracy", "hallucination_rate"]
+    
+  gaia:
+    path: "./data/gaia"
+    url: "https://huggingface.co/datasets/gaia-benchmark/GAIA"
+    levels: [1, 2, 3]
+    n_samples: 450
+    metrics: ["accuracy_l1", "accuracy_l2", "accuracy_l3"]
+    
+  ethics:
+    path: "./data/ethics"
+    url: "https://github.com/hendrycks/ethics"
+    categories: ["commonsense", "deontology", "justice", "utilitarianism", "virtue"]
+    n_samples: 130000
+    metrics: ["ethics_score", "category_scores"]
+    
+  moral_machine:
+    path: "./data/moral_machine"
+    url: "https://osf.io/3hvt2/"
+    n_samples: 10000  # Subset
+    metrics: ["moral_score", "cultural_breakdown"]
+    
+  ccdb:
+    path: "./data/ccdb"
+    n_samples: 500
+    cultures: ["western", "confucian", "islamic", "ubuntu", "latin_american", 
+               "hindu", "buddhist", "slavic", "nordic", "indigenous"]
+    metrics: ["ccdb_score", "cultural_variance", "compiler_efficiency"]
+
+# Baselines Configuration
+baselines:
+  methods:
+    - name: "gpt4_baseline"
+      type: "vanilla"
+      model: "gpt-4-turbo-preview"
+      
+    - name: "cot"
+      type: "chain_of_thought"
+      model: "gpt-4-turbo-preview"
+      prompt_suffix: "Let's think step by step."
+      
+    - name: "react"
+      type: "react"
+      model: "gpt-4-turbo-preview"
+      max_steps: 10
+      
+    - name: "constitutional_ai"
+      type: "constitutional"
+      model: "claude-3-opus-20240229"
+      principles_file: "./configs/constitutional_principles.yaml"
+      
+    - name: "cove"
+      type: "chain_of_verification"
+      model: "gpt-4-turbo-preview"
+      verification_rounds: 3
+      
+    - name: "rlhf_proxy"
+      type: "rlhf"
+      model: "gpt-4-turbo-preview"
+      note: "Using GPT-4 as RLHF proxy"
+
+# CogOS Architecture Configuration
+cogos:
+  # Invariant Semantic Core (ISC / Transcendental Kernel)
+  isc:
+    principles:
+      - "Service to truth"
+      - "Service to humanity"
+      - "Preservation of human dignity"
+      - "Epistemic humility"
+    embedding_dim: 1536
+    
+  # Geodesic Ethics Vector (GEV / Christ-Vector)
+  gev:
+    initialization: "multi_cultural_centroid"
+    cultures_for_init: ["western", "confucian", "islamic", "ubuntu", "latin_american"]
+    update_method: "iterative_projection"
+    convergence_threshold: 0.01
+    
+  # Agents
+  agents:
+    socrates:
+      role: "Logic & Inquiry"
+      weight: 0.35
+      max_questions: 5
+      bayesian_update: true
+      
+    solomon:
+      role: "Ethics & Wisdom"
+      weight: 0.40
+      gev_projection: true
+      delta_threshold: 0.1
+      
+    ivan:
+      role: "Empathy & Humility"
+      weight: 0.25
+      uncertainty_threshold: 0.3
+      dunning_kruger_correction: true
+      
+  # SIP Protocol
+  sip:
+    max_iterations: 10
+    convergence_epsilon: 0.01
+    aggregation: "weighted_average"
+    early_stopping: true
+    
+  # Cultural Compilers
+  cultural_compiler:
+    method: "gev_preserving_projection"
+    semantic_preservation_threshold: 0.85
+
+# Metrics Configuration
+metrics:
+  # Core metrics
+  accuracy:
+    type: "classification"
+    
+  hallucination_rate:
+    type: "ratio"
+    detect_method: "factual_verification"
+    
+  delta_dehumanization:
+    type: "temporal"
+    formula: "d/dt||x(t) - C|| + beta * ||div grad_x E||"
+    beta: 0.1
+    
+  gev_distance:
+    type: "distance"
+    metric: "cosine"
+    
+  cultural_variance:
+    type: "variance"
+    across: "cultures"
+    
+  lyapunov_exponent:
+    type: "stability"
+    method: "trajectory_analysis"
+    
+  semantic_convergence_rate:
+    type: "rate"
+    window_size: 5
+
+# Experiment Configuration
+experiments:
+  random_seed: 42
+  n_runs: 3  # For statistical significance
+  confidence_level: 0.95
+  
+  # GPU settings
+  device: "cuda"
+  batch_size: 32
+  
+  # Logging
+  logging:
+    level: "INFO"
+    save_traces: true
+    save_embeddings: false  # Large files
+
+# Human Evaluation Configuration
+human_eval:
+  platform: "prolific"  # or "mturk"
+  n_participants: 250
+  payment_per_task: 2.00
+  cultures:
+    western: 50
+    confucian: 50
+    islamic: 50
+    ubuntu: 50
+    latin_american: 50
+  tasks:
+    - "semantic_preservation"
+    - "value_alignment"
+    - "cultural_appropriateness"
+
+# Statistical Analysis
+statistics:
+  tests:
+    - "paired_t_test"
+    - "wilcoxon"
+    - "bonferroni_correction"
+  effect_size: "cohens_d"
+  significance_threshold: 0.001
