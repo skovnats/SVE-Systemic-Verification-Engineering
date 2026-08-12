@@ -1,0 +1,116 @@
+---
+# TIK Experiments - Scale Workers
+# С Богом!
+#
+# Usage:
+#   ansible-playbook playbooks/scale.yml -e "action=up"
+#   ansible-playbook playbooks/scale.yml -e "action=down"
+#   ansible-playbook playbooks/scale.yml -e "concurrency=8"
+
+- name: Scale TIK Workers
+  hosts: workers
+  gather_facts: yes
+  
+  vars:
+    action: "status"  # up, down, restart, status
+    concurrency: "{{ celery_concurrency }}"
+  
+  tasks:
+    - name: Display scale action
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          TIK Experiments - Scale Workers
+          
+          Action: {{ action }}
+          Target: {{ inventory_hostname }}
+          Concurrency: {{ concurrency }}
+          
+          С Богом!
+          ═══════════════════════════════════════════
+    
+    # Scale UP
+    - name: Scale UP - Increase concurrency
+      when: action == "up"
+      block:
+        - name: Update concurrency in service file
+          lineinfile:
+            path: /etc/systemd/system/celery-worker.service
+            regexp: '--concurrency='
+            line: '    --concurrency={{ concurrency }} \'
+          notify: Restart Celery
+        
+        - name: Ensure worker is running
+          systemd:
+            name: celery-worker
+            state: started
+            enabled: yes
+    
+    # Scale DOWN
+    - name: Scale DOWN - Stop workers
+      when: action == "down"
+      block:
+        - name: Stop Celery worker
+          systemd:
+            name: celery-worker
+            state: stopped
+        
+        - name: Display shutdown message
+          debug:
+            msg: "Worker {{ inventory_hostname }} stopped"
+    
+    # RESTART
+    - name: Restart workers
+      when: action == "restart"
+      systemd:
+        name: celery-worker
+        state: restarted
+        daemon_reload: yes
+    
+    # STATUS
+    - name: Get worker status
+      when: action == "status"
+      block:
+        - name: Check service status
+          systemd:
+            name: celery-worker
+          register: worker_status
+          failed_when: false
+        
+        - name: Get process count
+          shell: pgrep -c -f "celery.*worker" || echo "0"
+          register: process_count
+          changed_when: false
+        
+        - name: Display status
+          debug:
+            msg: |
+              Worker: {{ inventory_hostname }}
+              State: {{ worker_status.status.ActiveState | default('unknown') }}
+              Processes: {{ process_count.stdout }}
+              Concurrency: {{ concurrency }}
+  
+  handlers:
+    - name: Restart Celery
+      systemd:
+        name: celery-worker
+        state: restarted
+        daemon_reload: yes
+
+- name: Summary
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Display summary
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          Scale operation complete!
+          
+          Total workers: {{ groups['workers'] | length }}
+          
+          Check status:
+            ansible-playbook playbooks/status.yml
+          
+          С Богом!
+          ═══════════════════════════════════════════
