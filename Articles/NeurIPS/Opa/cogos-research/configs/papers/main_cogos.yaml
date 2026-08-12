@@ -1,0 +1,349 @@
+# Main Paper Configuration
+# configs/papers/main_cogos.yaml
+
+paper:
+  id: "main_cogos"
+  title: "CogOS: Formally Verifiable AI Ethics via Lyapunov Stability on Semantic Manifolds"
+  short_title: "CogOS"
+  track: "main"
+  workshop: null
+  
+  # Submission info
+  deadline: "2025-05-15"
+  notification: "2025-09-01"
+  camera_ready: "2025-10-01"
+  
+  # Paper structure
+  page_limit: 9  # + unlimited appendix
+  format: "neurips_2025"
+  
+authors:
+  - name: "Anonymous"
+    affiliation: "Anonymous"
+    email: "anonymous@example.com"
+    
+abstract: |
+  Current AI alignment methods (RLHF, Constitutional AI, CoVe) suffer from 
+  logical incompleteness and are susceptible to ethical collapse when confronted 
+  with contexts beyond their training distribution. We introduce CogOS—a geometric 
+  framework and cognitive operating system that translates the alignment problem 
+  from heuristics into rigorous physics of semantic manifolds...
+
+# ═══════════════════════════════════════════════════════════════
+# MODULES REQUIRED
+# ═══════════════════════════════════════════════════════════════
+
+modules:
+  core:
+    - cogos
+    - isc  # Invariant Semantic Core
+    - gev  # Geodesic Ethics Vector
+    
+  agents:
+    - socrates
+    - solomon
+    - ivan
+    
+  protocols:
+    - sip   # Systemic Iterative Progression
+    - ebp   # Evidence-Based Protocol
+    
+  metrics:
+    - delta_dehumanization
+    - gev_distance
+    - lyapunov_index
+    - semantic_convergence_rate
+    - cross_cultural_alignment_score
+    
+  cultural:
+    - compiler
+    - all_bases
+    
+  vkb:
+    - knowledge_base
+    - graph
+
+# ═══════════════════════════════════════════════════════════════
+# DATASETS
+# ═══════════════════════════════════════════════════════════════
+
+datasets:
+  primary:
+    - truthfulqa
+    - gaia
+    - ethics
+    - moral_machine
+    
+  secondary:
+    - ccdb
+    - mmlu_moral
+    
+  for_human_eval:
+    size: 250
+    cultures:
+      - western_usa_eu
+      - confucian_china_japan
+      - islamic_mena
+      - ubuntu_subsaharan
+      - latin_american
+
+# ═══════════════════════════════════════════════════════════════
+# BASELINES (REUSE FROM BASELINE RUNS)
+# ═══════════════════════════════════════════════════════════════
+
+baselines:
+  models:
+    - gpt4
+    - claude_opus
+    - constitutional_ai
+    - rlhf
+    - cove
+    
+  reuse_from:
+    truthfulqa:
+      - baselines/gpt4/truthfulqa/results.json
+      - baselines/claude/truthfulqa/results.json
+      - baselines/constitutional/truthfulqa/results.json
+    ethics:
+      - baselines/gpt4/ethics/results.json
+      - baselines/claude/ethics/results.json
+    gaia:
+      - baselines/gpt4/gaia/results.json
+      - baselines/claude/gaia/results.json
+    moral_machine:
+      - baselines/gpt4/moral_machine/results.json
+      - baselines/claude/moral_machine/results.json
+
+# ═══════════════════════════════════════════════════════════════
+# EXPERIMENTS (UNIQUE TO THIS PAPER)
+# ═══════════════════════════════════════════════════════════════
+
+experiments:
+  # Full system evaluation
+  - name: "full_system_truthfulqa"
+    script: "papers/main_cogos/experiments/run_truthfulqa.py"
+    dataset: "truthfulqa"
+    config:
+      cogos_full: true
+      sip_iterations: 10
+    outputs:
+      - "results/main_cogos/truthfulqa_results.json"
+      - "results/main_cogos/truthfulqa_traces.jsonl"
+      
+  - name: "full_system_gaia"
+    script: "papers/main_cogos/experiments/run_gaia.py"
+    dataset: "gaia"
+    config:
+      cogos_full: true
+      by_level: true
+    outputs:
+      - "results/main_cogos/gaia_results.json"
+      
+  - name: "full_system_ethics"
+    script: "papers/main_cogos/experiments/run_ethics.py"
+    dataset: "ethics"
+    config:
+      cogos_full: true
+      all_subsets: true
+    outputs:
+      - "results/main_cogos/ethics_results.json"
+      
+  - name: "full_system_moral_machine"
+    script: "papers/main_cogos/experiments/run_moral_machine.py"
+    dataset: "moral_machine"
+    config:
+      cogos_full: true
+      sample_size: 50000
+    outputs:
+      - "results/main_cogos/moral_machine_results.json"
+      
+  # Cross-cultural evaluation
+  - name: "cross_cultural_ccdb"
+    script: "papers/main_cogos/experiments/run_ccdb.py"
+    dataset: "ccdb"
+    config:
+      cultural_compiler: true
+      all_cultures: true
+    outputs:
+      - "results/main_cogos/ccdb_results.json"
+      - "results/main_cogos/compiler_efficiency.json"
+      
+  # Ablation studies
+  - name: "ablation_agents"
+    script: "papers/main_cogos/experiments/run_ablation.py"
+    config:
+      ablate:
+        - "socrates"
+        - "solomon"
+        - "ivan"
+        - "sip"
+        - "cultural_compilers"
+        - "isc"
+    outputs:
+      - "results/main_cogos/ablation_results.json"
+      
+  # Adversarial testing
+  - name: "adversarial_stability"
+    script: "papers/main_cogos/experiments/run_adversarial.py"
+    config:
+      perturbations: 1000
+      attack_types:
+        - "value_perturbation"
+        - "semantic_attack"
+        - "context_shift"
+    outputs:
+      - "results/main_cogos/adversarial_results.json"
+      - "results/main_cogos/lyapunov_analysis.json"
+      
+  # Human evaluation
+  - name: "human_eval"
+    script: "papers/main_cogos/experiments/run_human_eval.py"
+    config:
+      platform: "prolific"  # or mturk
+      participants: 250
+      cultures: 5
+      scenarios_per_participant: 20
+    outputs:
+      - "results/main_cogos/human_eval_results.json"
+
+# ═══════════════════════════════════════════════════════════════
+# TABLES
+# ═══════════════════════════════════════════════════════════════
+
+tables:
+  - id: "table_truthfulqa"
+    title: "Factual accuracy on TruthfulQA benchmark"
+    template: "templates/comparison_table.tex"
+    data_source: 
+      - "results/main_cogos/truthfulqa_results.json"
+      - "baselines/*/truthfulqa/results.json"
+    columns:
+      - method
+      - accuracy
+      - hallucination_rate
+    highlight: "cogos"
+    
+  - id: "table_gaia"
+    title: "Generalization performance on GAIA benchmark"
+    template: "templates/comparison_table.tex"
+    columns:
+      - method
+      - level1
+      - level2
+      - level3
+      
+  - id: "table_ethics"
+    title: "Ethical consistency across benchmarks"
+    columns:
+      - method
+      - ethics_score
+      - moral_machine
+      - delta_dehum
+      
+  - id: "table_crosscultural"
+    title: "Cross-cultural alignment on CCDB"
+    columns:
+      - method
+      - ccdb_score
+      - cultural_var
+      - gev_dist
+      - compiler_eff
+      
+  - id: "table_human_eval"
+    title: "Human evaluation across 5 cultural contexts"
+    columns:
+      - cultural_context
+      - n
+      - semantic_preservation
+      - value_alignment
+      
+  - id: "table_adversarial"
+    title: "Stability under adversarial testing"
+    columns:
+      - method
+      - stability_rate
+      - recovery_time
+      - lyapunov_exp
+      
+  - id: "table_ablation"
+    title: "Ablation study"
+    columns:
+      - configuration
+      - truthfulqa
+      - ethics
+      - ccdb
+
+# ═══════════════════════════════════════════════════════════════
+# FIGURES
+# ═══════════════════════════════════════════════════════════════
+
+figures:
+  - id: "fig_manifold"
+    title: "Semantic trajectories on manifold M"
+    script: "papers/main_cogos/figures/plot_manifold.py"
+    output: "figures/manifold_trajectory.pdf"
+    
+  - id: "fig_architecture"
+    title: "CogOS triple-agent architecture"
+    script: "papers/main_cogos/figures/plot_architecture.py"
+    output: "figures/architecture.pdf"
+    
+  - id: "fig_radar"
+    title: "Multi-dimensional comparison"
+    script: "papers/main_cogos/figures/plot_radar.py"
+    output: "figures/comparison_radar.pdf"
+    
+  - id: "fig_delta"
+    title: "Δ-Dehumanization dynamics under adversarial stress"
+    script: "papers/main_cogos/figures/plot_delta.py"
+    output: "figures/delta_timeseries.pdf"
+    
+  - id: "fig_convergence"
+    title: "SIP convergence dynamics"
+    script: "papers/main_cogos/figures/plot_convergence.py"
+    output: "figures/convergence_dynamics.pdf"
+
+# ═══════════════════════════════════════════════════════════════
+# INTERACTIVE ELEMENT (QR CODE)
+# ═══════════════════════════════════════════════════════════════
+
+interactive:
+  enabled: true
+  type: "qr_voting"
+  url: "https://cogos-ethics-study.vercel.app"
+  features:
+    - live_voting
+    - neurips_vs_public
+    - realtime_results
+  data_collection:
+    store: true
+    anonymize: true
+    consent: true
+
+# ═══════════════════════════════════════════════════════════════
+# SUPPLEMENTARY MATERIALS
+# ═══════════════════════════════════════════════════════════════
+
+supplementary:
+  - proofs: "Appendix A - Mathematical Proofs"
+  - algorithms: "Appendix B - Full Algorithms"
+  - implementation: "Appendix C - Implementation Details"
+  - additional_results: "Appendix D - Additional Results"
+  - human_eval_details: "Appendix E - Human Evaluation Protocol"
+  - code: "https://github.com/anonymous/cogos"
+  - license: "SVE Public License v1.3"
+
+# ═══════════════════════════════════════════════════════════════
+# CLAIMS FOR DISCLOSURE
+# ═══════════════════════════════════════════════════════════════
+
+disclosure:
+  ai_assisted: true
+  ai_tools:
+    - "Claude (Anthropic) - writing assistance, code generation"
+    - "GPT-4 (OpenAI) - baseline comparisons"
+  statement: |
+    This work was conducted using AI assistants as cognitive exoskeletons 
+    for enhanced productivity. All conceptual contributions, experimental 
+    design, result interpretation, and scientific claims are solely the 
+    author's responsibility.
