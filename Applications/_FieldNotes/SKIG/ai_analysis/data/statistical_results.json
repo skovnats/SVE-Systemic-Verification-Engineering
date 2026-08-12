@@ -1,0 +1,30 @@
+{
+  "n_figures": 14,
+  "correlation": {
+    "pearson_r": -0.03550478309417316,
+    "pearson_p": 0.9040890682729125,
+    "spearman_rho": -0.06578010353436647,
+    "spearman_p": 0.8232087360070278
+  },
+  "descriptive_stats": {
+    "exposed_leaders": {
+      "mean_risk": 65.83333333333333,
+      "sd_risk": 24.281337140555777,
+      "n": 3
+    },
+    "insulated_leaders": {
+      "mean_risk": 7.857142857142857,
+      "sd_risk": 3.933978962347216,
+      "n": 7
+    },
+    "defense_ceos": {
+      "mean_risk": 10.0,
+      "sd_risk": 5.0,
+      "n": 3
+    }
+  },
+  "effect_sizes": {
+    "cohens_d_exposed_vs_insulated": 4.597767948383416,
+    "cohens_d_exposed_vs_defense": 3.1850640132282395
+  }
+}
