@@ -1,0 +1,209 @@
+---
+# TIK Experiments - Deploy Infrastructure
+# С Богом!
+#
+# Usage:
+#   ansible-playbook playbooks/deploy.yml
+#   ansible-playbook playbooks/deploy.yml --tags workers
+#   ansible-playbook playbooks/deploy.yml --limit worker-01
+
+- name: Deploy TIK Experiments Infrastructure
+  hosts: all
+  gather_facts: yes
+  
+  pre_tasks:
+    - name: Display deployment info
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          TIK Experiments Deployment
+          Target: {{ inventory_hostname }}
+          Time: {{ ansible_date_time.iso8601 }}
+          С Богом!
+          ═══════════════════════════════════════════
+      run_once: true
+      delegate_to: localhost
+
+- name: Deploy Redis
+  hosts: redis
+  tags: redis
+  tasks:
+    - name: Install Redis
+      apt:
+        name: redis-server
+        state: present
+        update_cache: yes
+    
+    - name: Configure Redis for network access
+      lineinfile:
+        path: /etc/redis/redis.conf
+        regexp: "^bind"
+        line: "bind 0.0.0.0"
+      notify: Restart Redis
+    
+    - name: Configure Redis password
+      lineinfile:
+        path: /etc/redis/redis.conf
+        regexp: "^# requirepass"
+        line: "requirepass {{ vault_redis_password | default('') }}"
+      when: vault_redis_password is defined
+      notify: Restart Redis
+    
+    - name: Start Redis
+      service:
+        name: redis-server
+        state: started
+        enabled: yes
+  
+  handlers:
+    - name: Restart Redis
+      service:
+        name: redis-server
+        state: restarted
+
+- name: Deploy PostgreSQL
+  hosts: database
+  tags: postgres
+  tasks:
+    - name: Install PostgreSQL
+      apt:
+        name:
+          - postgresql
+          - postgresql-contrib
+          - python3-psycopg2
+        state: present
+        update_cache: yes
+    
+    - name: Configure PostgreSQL for network access
+      lineinfile:
+        path: /etc/postgresql/14/main/postgresql.conf
+        regexp: "^#?listen_addresses"
+        line: "listen_addresses = '*'"
+      notify: Restart PostgreSQL
+    
+    - name: Allow network connections
+      lineinfile:
+        path: /etc/postgresql/14/main/pg_hba.conf
+        line: "host    all             all             {{ vpn_network }}            md5"
+      notify: Restart PostgreSQL
+    
+    - name: Start PostgreSQL
+      service:
+        name: postgresql
+        state: started
+        enabled: yes
+    
+    - name: Create database user
+      become_user: postgres
+      postgresql_user:
+        name: "{{ postgres_user }}"
+        password: "{{ vault_postgres_password }}"
+        role_attr_flags: CREATEDB
+    
+    - name: Create database
+      become_user: postgres
+      postgresql_db:
+        name: "{{ postgres_db }}"
+        owner: "{{ postgres_user }}"
+  
+  handlers:
+    - name: Restart PostgreSQL
+      service:
+        name: postgresql
+        state: restarted
+
+- name: Deploy Celery Workers
+  hosts: workers
+  tags: workers
+  tasks:
+    - name: Install system dependencies
+      apt:
+        name:
+          - python3
+          - python3-pip
+          - python3-venv
+          - git
+          - build-essential
+        state: present
+        update_cache: yes
+    
+    - name: Create project directory
+      file:
+        path: "{{ project_dir }}"
+        state: directory
+        owner: "{{ ansible_user }}"
+        mode: '0755'
+    
+    - name: Create virtual environment
+      command: python3 -m venv {{ venv_path }}
+      args:
+        creates: "{{ venv_path }}/bin/activate"
+    
+    - name: Copy project files
+      synchronize:
+        src: "{{ playbook_dir }}/../../src/"
+        dest: "{{ project_dir }}/src/"
+        rsync_opts:
+          - "--exclude=__pycache__"
+          - "--exclude=*.pyc"
+    
+    - name: Copy requirements
+      copy:
+        src: "{{ playbook_dir }}/../../requirements.txt"
+        dest: "{{ project_dir }}/requirements.txt"
+    
+    - name: Install Python dependencies
+      pip:
+        requirements: "{{ project_dir }}/requirements.txt"
+        virtualenv: "{{ venv_path }}"
+    
+    - name: Install GPT4Free
+      pip:
+        name: g4f
+        state: latest
+        virtualenv: "{{ venv_path }}"
+    
+    - name: Create environment file
+      template:
+        src: templates/env.j2
+        dest: "{{ project_dir }}/.env"
+        mode: '0600'
+    
+    - name: Create systemd service for Celery worker
+      template:
+        src: templates/celery-worker.service.j2
+        dest: /etc/systemd/system/celery-worker.service
+      notify: Restart Celery Worker
+    
+    - name: Enable and start Celery worker
+      systemd:
+        name: celery-worker
+        enabled: yes
+        state: started
+        daemon_reload: yes
+  
+  handlers:
+    - name: Restart Celery Worker
+      systemd:
+        name: celery-worker
+        state: restarted
+
+- name: Deployment complete
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Display completion message
+      debug:
+        msg: |
+          ═══════════════════════════════════════════
+          ✓ Deployment Complete!
+          
+          Redis: {{ hostvars['redis-01']['ansible_host'] }}:{{ redis_port }}
+          PostgreSQL: {{ hostvars['postgres-01']['ansible_host'] }}:{{ postgres_port }}
+          Workers: {{ groups['workers'] | length }}
+          
+          Next steps:
+            ansible-playbook playbooks/run_experiment.yml
+          
+          С Богом!
+          ═══════════════════════════════════════════
