@@ -1,0 +1,141 @@
+# ✅ **1) AI Prompt (for each individual model)**
+
+**Purpose:** produce one structured table + analytical commentary.
+**Context:** conflict decision-makers often face asymmetric personal risks; “skin in the game” clarifies incentives and moral distance.
+
+---
+
+## **📌 AI Prompt (copy–paste)**
+
+**You are one independent analytical model. Your task is to produce:
+(1) a structured table and
+(2) a short analytical explanation.**
+
+**Context:**
+We are evaluating the “incentive distance” between political decision-makers and the real human cost of war.
+This is a purely analytical exercise (no judgement, no advocacy).
+Quantitative values are *estimates*, based on publicly known information, patterns, plausibility, and comparative reasoning.
+
+---
+
+### **TASK 1 — Build the table**
+
+Create a table with the following columns:
+
+1. **Name**
+2. **Start of Political Power (year)**
+3. **End of Political Power (year)**
+4. **Skin in the Game (0–100)** — personal exposure to war consequences
+5. **Children – Skin in the Game (0–100)**
+6. **Relatives – Skin in the Game (0–100)**
+7. **Direct Role in the Conflict** *(peace-maker / escalator / ambiguous / neutral)*
+8. **Number of Children of Draft Age**
+9. **Days Personally Spent in High-Risk Zones**
+10. **Direct Exposure to War Consequences (0–100)**
+11. **Democratic Mandate Transparency** *(directly elected / indirectly elected / low-transparency mandate)*
+12. **Combat Experience (yes/no + brief note)**
+13. **Experience of Extreme Hardship** *(hunger, cold, poverty — 0–100 probability/strength)*
+14. **Economic Vulnerability / Lived Poverty (0–100)**
+15. **Connections to Global Power Networks** *(0–100: investment groups, elite institutions, corporate influence)*
+16. **Estimated Responsibility Radius** *(0–100 self-calculated: how many people their decisions realistically affect)*
+17. **Notes (2–3 lines max)**
+
+Include the following individuals (if insufficient information, write “insufficient data” but still estimate):
+
+* Angela Merkel
+* Olaf Scholz
+* Friedrich Merz
+* Boris Johnson
+* Emmanuel Macron
+* Petro Poroshenko
+* Ursula von der Leyen
+* Heads of major military-industrial corporations (Lockheed Martin, Rheinmetall, BAE Systems, etc.)
+* Add **5–10 additional globally relevant figures** if needed.
+
+---
+
+### **TASK 2 — Provide a short analytical explanation**
+
+After the table, write **a short analysis (max 12 sentences)**:
+
+* What patterns do you see?
+* How asymmetric is the “risk distribution”?
+* Are political decisions insulated from personal consequences?
+* Which variables correlate the most with escalation vs. de-escalation?
+* Which individuals have the lowest vs. highest incentive alignment with ordinary civilians?
+
+Keep the tone neutral, analytical, non-political.
+
+---
+
+## **OUTPUT FORMAT**
+
+1. **TABLE (markdown)**
+2. **SHORT ANALYSIS (bullet points + 1 summary paragraph)**
+
+---
+
+# ✅ **2) Meta-AI Prompt (final synthesis)**
+
+**Purpose:** combine all AI tables + analyses and produce one consolidated “master table” and high-level synthesis.
+
+---
+
+## **📌 Meta-AI Prompt (copy–paste)**
+
+**You are Meta-AI.
+You do NOT generate your own estimates.
+You ONLY integrate and reconcile the outputs from multiple independent AI models.**
+
+**Input:**
+You receive multiple tables and analyses created by different AI systems.
+
+**Your tasks:**
+
+### **TASK 1 — Aggregate Tables**
+
+* Merge all tables into one unified *Master Table*.
+* When values differ, compute:
+
+  * **min**, **max**, **mean**, **consensus category**,
+  * and note “variance level” (low/medium/high).
+* If some AIs disagree strongly, explicitly highlight the conflict.
+
+### **TASK 2 — Meta-Analysis**
+
+Produce a synthesis answering:
+
+1. **Cross-model consensus** — where all AIs agree (patterns, clusters).
+2. **Cross-model divergence** — where AIs differ significantly (ambiguities, contested data).
+3. **Top systemic insights** — what the combined data suggests about:
+
+   * incentive misalignment,
+   * risk distribution,
+   * decision-maker insulation,
+   * correlation between personal exposure and political choices.
+
+### **TASK 3 — Generate a “Risk–Ethics Asymmetry Index”**
+
+For each individual, produce a final index (0–100):
+
+* how asymmetric their personal risk is compared to the risk imposed on the public.
+
+Explain in 3 sentences how the index is computed.
+
+### **TASK 4 — Provide a Final Meta-Conclusion**
+
+A short, neutral, non-political summary (max 10 sentences):
+
+* What the entire multi-AI process reveals
+* What the deepest structural insight is
+* What remains uncertain or unknowable.
+
+---
+
+## **OUTPUT FORMAT**
+
+1. **MASTER TABLE**
+2. **META-ANALYSIS (bullets)**
+3. **RISK–ETHICS ASYMMETRY INDEX**
+4. **FINAL META-CONCLUSION**
+
