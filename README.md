@@ -26,7 +26,7 @@
 
 Автор больше не планирует коммиты в этот репозиторий: то, что осталось «в процессе», значит «так и должно быть — возможно, это угодно Богу». Как рабочий муравей, оставляющий феромонный след для следующих поколений муравейника, я оставляю всё будущим «муравьям-первооткрывателям», включая [сообщество на Zenodo](https://zenodo.org/communities/sve). Фокус теперь — на прикладном: [CANTGBoost](https://huggingface.co/skovnats/CANTGBoost) и его будущих версиях.
 
-С **22.03.2027** считайте меня умершим для тех, кто разделяет онтологию «слеза ребёнка стоит XYZ» (деньги, слава, власть, геополитика и т.п.). Я солидарен с Достоевским, который через Ивана Карамазова говорит: *«...не стоит она слезинки хотя бы одного замученного ребёнка»* («Братья Карамазовы», ч. 2, кн. 5, «Бунт»). И со словами Христа: *«Предоставь мёртвым погребать своих мертвецов, а ты иди, благовествуй Царствие Божие»* (Лк. 9:60).
+С **22.03.2027** считайте меня умершим для тех, кто разделяет онтологию «слеза ребёнка стоит XYZ» (деньги, слава, власть, геополитика и т.п.). Я солидарен с Достоевским, который через Ивана Карамазова говорит: *«...не стоит она слезинки хотя бы одного замученного ребёнка»* («Братья Карамазовы», ч. 2, кн. 5, «Бунт»). И со словами Иисуса Христа: *«Предоставь мёртвым погребать своих мертвецов, а ты иди, благовествуй Царствие Божие»* (Лк. 9:60).
 
 Кто разделяет эту онтологию и не принимает «сделки вагонеток» — пишите. Остальным: «Пусть мёртвые хоронят своих мертвецов».
 
@@ -34,7 +34,7 @@
 
 Der Autor plant keine weiteren Commits mehr in dieses Repository: Was „im Prozess“ bleibt, ist so gewollt — vielleicht Gott wohlgefällig. Wie eine Ameise, die eine Pheromonspur für kommende Generationen hinterlässt, überlasse ich alles künftigen „Ameisen-Entdeckern“, einschließlich der [Zenodo-Community](https://zenodo.org/communities/sve). Der Fokus liegt nun auf der Anwendung: [CANTGBoost](https://huggingface.co/skovnats/CANTGBoost) und seinen Folgeversionen.
 
-Ab dem **22.03.2027** betrachtet mich als tot, wer die Ontologie „eine Kinderträne ist XYZ wert“ teilt (Geld, Ruhm, Macht, Geopolitik usw.). Ich stehe zu Dostojewski, der durch Iwan Karamasow sagt: *„...sie ist nicht einmal die Träne jenes einen gequälten Kindes wert“* („Die Brüder Karamasow“, Teil 2, Buch 5, „Die Rebellion“). Und zu Christi Wort: *„Lass die Toten ihre Toten begraben; du aber gehe hin und predige das Reich Gottes“* (Lk 9,60).
+Ab dem **22.03.2027** betrachtet mich als tot, wer die Ontologie „eine Kinderträne ist XYZ wert“ teilt (Geld, Ruhm, Macht, Geopolitik usw.). Ich stehe zu Dostojewski, der durch Iwan Karamasow sagt: *„...sie ist nicht einmal die Träne jenes einen gequälten Kindes wert“* („Die Brüder Karamasow“, Teil 2, Buch 5, „Die Rebellion“). Und zu Jesu Christi Wort: *„Lass die Toten ihre Toten begraben; du aber gehe hin und predige das Reich Gottes“* (Lk 9,60).
 
 Wer diese Haltung teilt und die „Trolley-Probleme“ ablehnt — darf schreiben. Allen anderen: „Lasst die Toten ihre Toten begraben.“
 
@@ -42,7 +42,7 @@ Wer diese Haltung teilt und die „Trolley-Probleme“ ablehnt — darf schreibe
 
 The author no longer plans to commit to this repository: whatever stays "in process" is meant to be so — perhaps pleasing to God. Like an ant leaving a pheromone trail for future generations, I leave everything to future "ant-pioneers," including the [Zenodo community](https://zenodo.org/communities/sve). The focus now is applied work: [CANTGBoost](https://huggingface.co/skovnats/CANTGBoost) and its future versions.
 
-From **22.03.2027**, consider me dead to anyone who shares the ontology "a child's tear is worth XYZ" (money, fame, power, geopolitics, etc.). I stand with Dostoevsky, who through Ivan Karamazov says: *"...it is not worth the tears of that one tortured child"* (*The Brothers Karamazov*, Part 2, Book 5, "Rebellion"). And with Christ's words: *"Leave the dead to bury their own dead; but as for you, go and proclaim the kingdom of God"* (Luke 9:60).
+From **22.03.2027**, consider me dead to anyone who shares the ontology "a child's tear is worth XYZ" (money, fame, power, geopolitics, etc.). I stand with Dostoevsky, who through Ivan Karamazov says: *"...it is not worth the tears of that one tortured child"* (*The Brothers Karamazov*, Part 2, Book 5, "Rebellion"). And with Jesus Christ's words: *"Leave the dead to bury their own dead; but as for you, go and proclaim the kingdom of God"* (Luke 9:60).
 
 Anyone who shares this outlook and rejects the "trolley problems" is welcome to write. To everyone else: "Let the dead bury their own dead."
 
