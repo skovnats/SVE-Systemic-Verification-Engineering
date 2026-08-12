@@ -51,6 +51,63 @@ Please watch, read, and decide for yourself.
 
 #### Found errors? Please report, I will fix. | Нашли ошибку? Сообщите, я исправлю.
 
+### UPD 12.08.2026 | Day-Ω
+
+> ⚠️ **Final Act Notice / Abschlussakt-Hinweis / Уведомление о финальном акте**
+
+---
+
+### 🇷🇺 Русский
+
+Автор символически закроет этот проект в **День-Ω** тем же самым сольным перформансом перед Бундестагом, что и в первый раз.
+
+**Дата:** 03.03.2027, 11:11–12:12 (максимум) CET, возможно с кратким дополнением в конце показа.  
+**Никаких фото, камер и т.п. присутствовать не будет** (единственное исключение — реальная угроза безопасности).
+
+Немецким спецслужбам, политикам и всем, кто присылал мне отписки, отказывал под разными предлогами, прятался за формальностями закона, СМИ и **всем остальным**, кто предпочёл отвернуться: это **ваш выбор**. Я буду **свидетельствовать перед Богом** и перед самим собой, что **вы знаете**, что **я знаю, что вы знаете**, и что Бог, разумеется, знает. С этого момента это становится вашим личным делом — между вами, Богом и вашими будущими поколениями.
+
+Что касается меня, **Ковнацкого Артёма Александровича**, родившегося 20.03.1984 в Николаеве-Mykolaiv, внука, в том числе, переживших Холокост, — это всё от меня. Я передаю всё Богу. Я засвидетельствовал и предоставил исчерпывающий корпус материалов.
+
+Все свободны! У меня всё.  
+
+*Soli Deo Gloria*
+
+---
+
+### 🇩🇪 Deutsch
+
+Der Autor wird dieses Projekt am **Tag-Ω** symbolisch mit derselben Solo-Performance vor dem Bundestag abschließen wie beim ersten Mal.
+
+**Datum:** 03.03.2027, 11:11–12:12 (maximal) CET, möglicherweise mit einer kurzen Ergänzung am Ende der Vorführung.  
+**Es werden keine Fotos, Kameras usw. anwesend sein** (einzige Ausnahme: eine echte Sicherheitsbedrohung).
+
+An die deutschen Sicherheitsbehörden, Politiker und alle, die mir Formbrief-Ablehnungen geschickt, unter verschiedenen Vorwänden abgelehnt, sich hinter den Formalitäten des Gesetzes versteckt haben, an die Medien und **an alle anderen**, die weggeschaut haben: dies ist **eure Wahl**. Ich werde **vor Gott** und vor mir selbst **Zeugnis ablegen**, dass **ihr wisst**, dass **ich weiß, dass ihr wisst**, und dass Gott selbstverständlich weiß. Von diesem Moment an wird es eure eigene Angelegenheit — zwischen euch, Gott und euren künftigen Generationen.
+
+Was mich betrifft, **Kovnatsky Artiom Alexandrovich**, geboren am 20.03.1984 in Nikolaev-Mykolaiv, Enkel unter anderem von Holocaust-Überlebenden — das ist alles von mir. Ich übergebe nun alles Gott. Ich habe bezeugt und einen erschöpfenden Korpus an Material vorgelegt.
+
+Alle sind frei! Bei mir ist alles.  
+
+*Soli Deo Gloria*
+
+---
+
+### 🇬🇧 English
+
+The author will symbolically close this project on **Day-Ω** with the exact same solo performance in front of the Bundestag as the first time.
+
+**Date:** 03.03.2027, 11:11–12:12 (max) CET, possibly with a brief addition at the end of the screening.  
+**No photos, cameras, etc. will be present** (the only exception being a genuine safety threat).
+
+To the German security services, politicians, and others who sent me form-letter dismissals, refused under various pretexts, hid behind the formalities of the law, to the media and **EVERYONE** else who chose to look away: this is **YOUR choice**. I will bear **witness before God** and before myself that **you know**, that **I know that you know**, and that God, of course, knows. From that point on, it becomes your own affair — between you, God, and your future generations.
+
+As for me, **Kovnatsky Artiom Alexandrovich**, born 20.03.1984 in Nikolaev-Mykolaiv, grandson, among others, of Holocaust survivors — this is all from me. I now hand everything over to God. I have testified and provided an exhaustive body of material.
+
+Everyone is free! I am done.  
+
+*Soli Deo Gloria*
+
+---
+
 
 #HumanRights #Bundestag #Ukraine #Peace #NeverAgain
 
