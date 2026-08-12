@@ -1,0 +1,59 @@
+# TIK Experiments - Ansible Inventory
+# С Богом!
+#
+# Edit this file with your actual server IPs
+# Keep sensitive data in vault.yml (ansible-vault encrypted)
+
+all:
+  vars:
+    ansible_user: ubuntu
+    ansible_python_interpreter: /usr/bin/python3
+    # VPN network (internal)
+    vpn_network: "10.8.0.0/24"
+    
+  children:
+    # Control node (your main computer) - runs Ansible
+    control:
+      hosts:
+        localhost:
+          ansible_connection: local
+    
+    # Message queue (Redis)
+    redis:
+      hosts:
+        redis-01:
+          ansible_host: 10.8.0.10
+          redis_port: 6379
+    
+    # Database (PostgreSQL)  
+    postgres:
+      hosts:
+        postgres-01:
+          ansible_host: 10.8.0.11
+          postgres_port: 5432
+    
+    # Celery workers (scale as needed)
+    workers:
+      hosts:
+        worker-01:
+          ansible_host: 10.8.0.20
+          celery_concurrency: 4
+        worker-02:
+          ansible_host: 10.8.0.21
+          celery_concurrency: 4
+        worker-03:
+          ansible_host: 10.8.0.22
+          celery_concurrency: 4
+        # Add more workers as needed
+        # worker-04:
+        #   ansible_host: 10.8.0.23
+        #   celery_concurrency: 4
+      vars:
+        celery_log_level: INFO
+        
+    # All infrastructure
+    infrastructure:
+      children:
+        redis:
+        postgres:
+        workers:
