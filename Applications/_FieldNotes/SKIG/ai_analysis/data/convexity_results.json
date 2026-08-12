@@ -1,0 +1,25 @@
+{
+  "n_events": 12,
+  "correlation": {
+    "pearson_r": 0.903,
+    "pearson_p": 0.0001,
+    "spearman_rho": 0.926,
+    "strength": "Strong"
+  },
+  "linear_model": {
+    "r_squared": 0.816,
+    "slope": 0.1443,
+    "intercept": -3.32,
+    "p_value": 0.0001
+  },
+  "quadratic_model": {
+    "r_squared": 0.821,
+    "improvement_over_linear": 0.005
+  },
+  "verdict": "LINEAR_ONLY",
+  "interpretation": {
+    "convexity_confirmed": "false",
+    "correlation_significant": "true",
+    "practical_significance": "Defense stocks show strong positive linear relationship with escalation events"
+  }
+}
