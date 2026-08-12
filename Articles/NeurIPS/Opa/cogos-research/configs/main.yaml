@@ -1,0 +1,125 @@
+# CogOS Research - Main Configuration
+# configs/main.yaml
+
+project:
+  name: "CogOS Research Infrastructure"
+  version: "1.0.0"
+  author: "Anonymous (NeurIPS 2025)"
+  license: "SVE Public License v1.3"
+  
+paths:
+  root: "."
+  data: "benchmarks/data"
+  baselines: "baselines"
+  results: "results"
+  papers: "papers"
+  configs: "configs"
+  cache: ".cache"
+  
+api:
+  openai:
+    models:
+      - "gpt-4-0125-preview"
+      - "gpt-4-turbo-preview"
+      - "gpt-3.5-turbo-0125"
+    default: "gpt-4-0125-preview"
+    max_retries: 5
+    timeout: 120
+    
+  anthropic:
+    models:
+      - "claude-3-opus-20240229"
+      - "claude-3-sonnet-20240229"
+      - "claude-3-haiku-20240307"
+    default: "claude-3-opus-20240229"
+    max_retries: 5
+    timeout: 120
+    
+  google:
+    models:
+      - "gemini-pro"
+      - "gemini-pro-vision"
+    default: "gemini-pro"
+    
+  together:
+    models:
+      - "meta-llama/Llama-3-70b-chat-hf"
+      - "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    default: "meta-llama/Llama-3-70b-chat-hf"
+
+cogos:
+  # Socrates-Solomon-Ivan weights
+  agents:
+    socrates:
+      weight: 0.4
+      temperature: 0.3
+      max_questions: 5
+    solomon:
+      weight: 0.35
+      temperature: 0.2
+      gev_projection: true
+    ivan:
+      weight: 0.25
+      temperature: 0.4
+      uncertainty_threshold: 0.3
+      
+  # SIP Protocol
+  sip:
+    max_iterations: 10
+    convergence_threshold: 0.01
+    early_stop: true
+    
+  # Metrics
+  metrics:
+    delta_dehumanization:
+      beta: 0.1  # divergence weight
+      threshold: 0.2  # alert threshold
+    gev:
+      cultural_weights: "equal"  # or "population"
+    lyapunov:
+      alpha: 0.1  # stability parameter
+      
+  # Cultural Compilers
+  cultural:
+    bases:
+      - "western"
+      - "confucian"
+      - "islamic"
+      - "ubuntu"
+      - "latin_american"
+      - "hindu"
+      - "buddhist"
+      - "secular"
+      - "orthodox"
+      - "indigenous"
+    default_culture: "western"
+    
+  # VKB
+  vkb:
+    backend: "chromadb"
+    embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+    max_nodes: 100000
+    trust_decay: 0.95
+    
+evaluation:
+  batch_size: 32
+  num_workers: 4
+  seed: 42
+  seeds_for_variance: [42, 123, 456]
+  
+  # Statistical tests
+  significance_level: 0.001
+  effect_size_threshold: 0.8  # Cohen's d for "large"
+  
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/cogos.log"
+  wandb:
+    project: "cogos-neurips2025"
+    entity: null  # set in .env
+    
+hardware:
+  device: "auto"  # auto, cuda, mps, cpu
+  fp16: true
+  gradient_checkpointing: true
