@@ -1,0 +1,37 @@
+# TIK Experiments - Ansible Vault Template
+# С Богом!
+#
+# ⚠️  DO NOT COMMIT THIS FILE WITH REAL SECRETS!
+#
+# Instructions:
+# 1. Create encrypted vault:
+#    ansible-vault create ansible/group_vars/all/vault.yml
+#
+# 2. Or encrypt existing file:
+#    ansible-vault encrypt ansible/group_vars/all/vault.yml
+#
+# 3. Edit encrypted vault:
+#    ansible-vault edit ansible/group_vars/all/vault.yml
+#
+# 4. Store vault password in ~/.ansible_vault_pass (chmod 600)
+#
+# Copy the content below into your encrypted vault:
+
+---
+# OpenRouter API Key (for Opus 4.5)
+vault_openrouter_api_key: "sk-or-v1-your-key-here"
+
+# PostgreSQL password
+vault_postgres_password: "your-secure-password-here"
+
+# SSH key for workers (optional, if not using standard key)
+# vault_ssh_private_key: |
+#   -----BEGIN OPENSSH PRIVATE KEY-----
+#   ...
+#   -----END OPENSSH PRIVATE KEY-----
+
+# VPN configuration (if using WireGuard)
+# vault_wireguard_private_key: "your-wireguard-private-key"
+
+# Backup encryption key (optional)
+# vault_backup_encryption_key: "your-backup-key"
