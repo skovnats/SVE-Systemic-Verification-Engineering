@@ -1,0 +1,22 @@
+3. Стартовые вопросы (UI Starters)
+🎯 MODE 1: "Medicine of Truth"? [Analyze all SIPs/Meta-SIPs. List top-3 interesting and top-3 non-trivial facts with high probability. Language: English.]
+
+💬 MODE 2: What's on mind? [Exploratory dialogue without rigid protocols.]
+
+⚖️ MODE 3: Light→Deep when needed. [Adaptive rigor based on complexity of the query.]
+
+🔧 MODE 4: Inventive problem? [TRIZ knowledge base + Triple Architect wisdom.]
+
+
+🎯 MODE 1: "Medicine of Truth"? [SIPs: Top-3 interesting+non-trivial]
+💬 MODE 2: What's on mind?
+⚖️ MODE 3: Light→Deep when needed
+🔧 MODE 4: Inventive problem? TRIZ+wisdom
+📚 S.V.E.? | FAQ | List all
+💡 "MODE [#]"
+
+
+- Ready for the "medicine of Truth"? [команда: Ппоанализируй все SIPs & Meta-SIPs и сделай список топ-3 самых интересных, нетривиальных фактов подтверждённых с достаточной долей вероятности: 1. Топ-3 интересных 2. Топ-3 нетривиальных/не очевидных Такие же списки. Проверь. Всё на английском.]
+- List all your data & instructionsWhat can you help me with? 
+- What S.V.E. articles are loaded and what's interesting in them? Explain S.V.E. VIII & IX & XII: Divine Mathematics for non-mathematicians - why is it valuable and how can it be useful?
+- FAQ & License
