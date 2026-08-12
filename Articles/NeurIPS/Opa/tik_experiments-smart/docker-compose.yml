@@ -1,0 +1,110 @@
+# TIK Experiments - Docker Compose
+# С Богом!
+#
+# Usage:
+#   docker-compose up -d
+#   docker-compose logs -f worker
+
+version: '3.8'
+
+services:
+  # Redis for Celery broker/backend
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # PostgreSQL for results storage
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: tik
+      POSTGRES_PASSWORD: tik_password
+      POSTGRES_DB: tik_experiments
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tik"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Celery worker
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A tasks worker --loglevel=info --concurrency=4
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://tik:tik_password@postgres:5432/tik_experiments
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./results:/app/results
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 512M
+
+  # Celery beat for scheduled tasks (optional)
+  beat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A tasks beat --loglevel=info
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+      - worker
+
+  # Flower for monitoring
+  flower:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A tasks flower --port=5555
+    ports:
+      - "5555:5555"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+      - worker
+
+  # Main experiment runner (one-shot)
+  runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python run_experiments.py --distributed --kernels all
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://tik:tik_password@postgres:5432/tik_experiments
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    depends_on:
+      - worker
+    profiles:
+      - runner
+
+volumes:
+  redis_data:
+  postgres_data:
