@@ -9,7 +9,7 @@
 [![Radicle](https://img.shields.io/badge/Radicle-SVE-5437DB?style=flat-square&logo=radicle&logoColor=white)](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z4X7PqSg667G2vUVmdQCGxSWiVJRm)
 
 
-**📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**
+**📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**   
 [🦄 SVE-Unicorns — Founder Mode](License/SVE-Unicorns-Patch-v1_0.md)  
 [⏳ For Busy & Serious People](License/ForBusySeriousPeopleOnly-WIP.md)  
 [Manifest: Point of No Return](License/Manifest_The_Point_of_No_Return-WIP.md)  
