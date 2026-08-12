@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', sans-serif; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Central FSIM -->
+  <rect x="250" y="40" width="180" height="50" rx="10" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+  <text class="th" x="340" y="60" text-anchor="middle" fill="#085041">ФСИМ-Онтология</text>
+  <text class="ts" x="340" y="78" text-anchor="middle" fill="#0F6E56">входной запрос</text>
+
+  <!-- Arrows down to 4 AIs -->
+  <line x1="280" y1="92" x2="110" y2="130" stroke="#888780" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="310" y1="92" x2="250" y2="130" stroke="#888780" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="370" y1="92" x2="430" y2="130" stroke="#888780" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="400" y1="92" x2="570" y2="130" stroke="#888780" stroke-width="0.8" marker-end="url(#arr)"/>
+
+  <!-- AI 1: DeepSeek -->
+  <rect x="40" y="132" width="140" height="56" rx="8" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="110" y="152" text-anchor="middle" fill="#0C447C">DeepSeek</text>
+  <text class="ts" x="110" y="170" text-anchor="middle" fill="#185FA5">«Злая ФСИМ»</text>
+  <text class="ts" x="110" y="184" text-anchor="middle" fill="#185FA5">Bootstrap</text>
+
+  <!-- AI 2: Gemini -->
+  <rect x="200" y="132" width="120" height="56" rx="8" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="260" y="152" text-anchor="middle" fill="#0C447C">Gemini</text>
+  <text class="ts" x="260" y="170" text-anchor="middle" fill="#185FA5">Halting Problem</text>
+  <text class="ts" x="260" y="184" text-anchor="middle" fill="#185FA5">GC онтологий</text>
+
+  <!-- AI 3: Qwen -->
+  <rect x="360" y="132" width="140" height="56" rx="8" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="430" y="152" text-anchor="middle" fill="#0C447C">Qwen</text>
+  <text class="ts" x="430" y="170" text-anchor="middle" fill="#185FA5">git blame</text>
+  <text class="ts" x="430" y="184" text-anchor="middle" fill="#185FA5">Tech Debt лжи</text>
+
+  <!-- AI 4: Claude -->
+  <rect x="520" y="132" width="140" height="56" rx="8" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text class="th" x="590" y="152" text-anchor="middle" fill="#0C447C">Claude</text>
+  <text class="ts" x="590" y="170" text-anchor="middle" fill="#185FA5">Kolmogorov</text>
+  <text class="ts" x="590" y="184" text-anchor="middle" fill="#185FA5">No-Cloning</text>
+
+  <!-- Convergence arrows -->
+  <line x1="110" y1="190" x2="260" y2="240" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="260" y1="190" x2="300" y2="240" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="430" y1="190" x2="380" y2="240" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+  <line x1="590" y1="190" x2="420" y2="240" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arr)"/>
+
+  <!-- Consensus box -->
+  <rect x="210" y="242" width="260" height="50" rx="10" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.8"/>
+  <text class="th" x="340" y="262" text-anchor="middle" fill="#3C3489">Консенсус 4 ИИ</text>
+  <text class="ts" x="340" y="280" text-anchor="middle" fill="#534AB7">логика + непротиворечивость ✓</text>
+
+  <!-- Arrow down to +1 -->
+  <line x1="340" y1="294" x2="340" y2="320" stroke="#BA7517" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- +1: Human -->
+  <rect x="240" y="322" width="200" height="44" rx="22" fill="#FAEEDA" stroke="#EF9F27" stroke-width="1.2"/>
+  <!-- Cross inside -->
+  <line x1="296" y1="336" x2="296" y2="354" stroke="#854F0B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="288" y1="345" x2="304" y2="345" stroke="#854F0B" stroke-width="2" stroke-linecap="round"/>
+  <text class="th" x="360" y="340" text-anchor="middle" fill="#633806">+1: Человек</text>
+  <text class="ts" x="360" y="358" text-anchor="middle" fill="#854F0B">Предельная Искренность</text>
+
+  <!-- Side note: Grok -->
+  <rect x="540" y="230" width="110" height="36" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text class="ts" x="595" y="244" text-anchor="middle" fill="#444441">+ Grok:</text>
+  <text class="ts" x="595" y="258" text-anchor="middle" fill="#444441">Orch-OR, sheaf</text>
+  <line x1="540" y1="250" x2="472" y2="260" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3 2"/>
+
+  <!-- Warning label -->
+  <text class="ts" x="110" y="240" fill="#A32D2D" font-style="italic">⚠ Все ИИ обучены</text>
+  <text class="ts" x="110" y="255" fill="#A32D2D" font-style="italic">помогать, не оспаривать</text>
+  <text class="ts" x="110" y="270" fill="#A32D2D" font-style="italic">→ нужен adversarial</text>
+</svg>
