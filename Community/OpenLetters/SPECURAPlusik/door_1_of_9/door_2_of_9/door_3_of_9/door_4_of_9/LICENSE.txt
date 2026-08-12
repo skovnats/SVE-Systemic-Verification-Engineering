@@ -1,0 +1,39 @@
+---
+License: S.V.E. Meta-License v4.0 (CC BY-NC-SA 4.0 + Transparency & Symmetry SVE Additions)
+Part of: Systemic Verification Engineering (S.V.E.) Framework
+Derived from: SVE Public License v1.3
+---
+⚖️ LEGAL NOTICE:
+
+ASPE — Art-Scientific Performance-Experiment
+
+Legal Status:
+This work is a transdisciplinary Art-Scientific Performance-Experiment (ASPE). 
+It is protected under Art. 5(3) of the German Basic Law (Grundgesetz) and 
+Art. 13 of the EU Charter of Fundamental Rights, guaranteeing the absolute freedom of arts, sciences, and research. Any attempt to restrict, delete, or obscure this metadata constitutes a direct violation of international academic and artistic freedom.
+
+
+---
+*Personal Clarification:*  
+**RUS**
+Автор исповедует учение Иисуса Христа и НЕ поддерживает любое насилие.
+
+**DE**
+Der Autor bekennt sich zu den Lehren Jesu Christi und unterstützt keinerlei Gewalt.
+
+**ENG**
+The author professes the teachings of Jesus Christ and does NOT support any violence.
+
+
+-
+#ASPE
+
+---
+
+### ⚖️ ASPE — Rechtlicher Hinweis · v1.1 · 2026
+
+**#ASPE — Art-Scientific Performance-Experiment** (Kunst-Wissenschaftliches Performance-Experiment). Satire und spekulative Kunst als Spiegel der Gesellschaft — in der Tradition von Carrolls *Spiegelland* und der Laterne des Diogenes, sowie der europäischen politischen Satire, zu der auch *Charlie Hebdo* gehört — **jedoch mit einem grundsätzlichen Unterschied: dieses Werk verspottet keine spirituellen oder religiösen Phänomene, sondern benennt sie als Bezugsrahmen.** Gegenstand der Satire sind ausschließlich **sozio-politische und systemisch-ontologische Strukturen.** **KEINE Propaganda von Gewalt, Hass oder verbotenen Substanzen.** Der Autor folgt der Lehre Jesu Christi, lehnt jede Gewalt ab und schreibt *sine ira et studio* — ohne Animus gegen Einzelne. Jede Ähnlichkeit mit realen Personen, Ämtern oder Ereignissen ist ein künstlerisches Mittel und nach **kunsteigener Gesetzlichkeit** zu lesen; die *Schmähkritik-Schwelle* wird nicht überschritten. Geschützt durch **Art. 5 Abs. 3 GG**, **Art. 13 EU-GRCh** und **Art. 10 EMRK** (vgl. *Mephisto* BVerfGE 30,173; *Anachronistischer Zug* BVerfGE 67,213; *Strauß-Karikatur* BVerfGE 75,369; *Handyside ./. UK* 1976). Als Parabel zu verstehen, nicht als Tatsachenbehauptung. Wer sich im Spiegel erkennt, tut dies aus eigenem Antrieb. Die Einladung gilt dem Dialog, nicht dem Rechtsstreit. *Mit KI-Unterstützung erstellt — Zahlen sind illustrativ.*
+
+`#NONAME404 · #DrSVET · #ASPE · #SVE · #AcademiaAsLighthouse4Humanity` · SVE v1.3+ · Meta-License v4.0
+
+---
