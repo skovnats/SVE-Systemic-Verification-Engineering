@@ -5,10 +5,10 @@
 - **Cycles:** 4 × 111 days (14.03.2026, **02.07.2026**, 21.10.2026)
 - **Documentation Horizon:** Day 444 (10.02.2027)
 
-[Description of the Protocol](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/reports)
+[Description of the Protocol](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/19112025_Berlin_Bundestag_SoloPerformance/reports)
 
-# [QUESTIONS.md](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/src/branch/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
-## [CONTEXT 0](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) ... [CONTEXT i-1](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) & [CONTEXT i](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials) & [CONTEXT i+1](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/LightBlackMirror_27112025) & [CONTEXT i+2](https://youtu.be/Cs339pjve5M) & [CONTEXT i+3](https://youtu.be/0Ok10UaVxWo)
+# [QUESTIONS.md](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/Community/19112025_Berlin_Bundestag_SoloPerformance/QUESTIONS.md)
+## [CONTEXT 0](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/19112025_Berlin_Bundestag_SoloPerformance/mails/responses_from_Auswaertiges_Amt_DE/20112025) ... [CONTEXT i-1](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/19112025_Berlin_Bundestag_SoloPerformance/audio_evidence_viktor_krasnikov) & [CONTEXT i](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/19112025_Berlin_Bundestag_SoloPerformance/contextual_materials) & [CONTEXT i+1](https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/LightBlackMirror_27112025) & [CONTEXT i+2](https://youtu.be/Cs339pjve5M) & [CONTEXT i+3](https://youtu.be/0Ok10UaVxWo)
 
 ### Videos are in the [Mirror 2](https://mega.nz/#P!AgCnnGXFntkv6BR0GL5bcAuiHajFyhUFNwH011cHYHEZbq9rRHzuWatzwbeN5eYvp5fo7kWtBv4h5xuiEXDJK4xXJfR3tunQqaKn74Ua0ncbmLFYTPkAoA)
 
