@@ -1,16 +1,15 @@
 # Systemic Verification Engineering (S.V.E.) 
 [![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)](.)
-[![GitLab](https://img.shields.io/badge/GitLab-SVE-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/opa-collective/sve/-/tree/SVE-Unicorns-Patch-v1.0?ref_type=tags)
+[![GitLab](https://img.shields.io/badge/GitLab-SVE-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/opa-collective/sve)
 [![Codeberg](https://img.shields.io/badge/Codeberg-SVE-2185D0?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/skovnats/SVE-Systemic-Verification-Engineering)
 [![GitFlic](https://img.shields.io/badge/GitFlic-SVE-blue?style=flat-square)](https://gitflic.ru/project/skovnats/sve-systemic-verification-engineering)
 [![SourceForge](https://img.shields.io/badge/SourceForge-Mirror-darkblue?style=flat-square&logo=sourceforge)](https://sourceforge.net/p/sve/code/)
 [![GitHub](https://img.shields.io/badge/GitHub-🏴‍☠️_Shadow_Ban_Suspect_(404)-black?style=flat-square&logo=github)](https://github.com/skovnats/SVE-Systemic-Verification-Engineering)
 [![GitHub Opa-Org](https://img.shields.io/badge/GitHub_Org-Public_Mirror-24292e?style=flat-square&logo=github)](https://github.com/Opa-Collective/SVE-Systemic-Verification-Engineering)
 [![Radicle](https://img.shields.io/badge/Radicle-SVE-5437DB?style=flat-square&logo=radicle&logoColor=white)](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z4X7PqSg667G2vUVmdQCGxSWiVJRm)
-[![Mega](https://img.shields.io/badge/Mega-SVE-D9272E?style=flat-square&logo=mega&logoColor=white)](https://mega.nz/folder/p5xlxZ7Z#Cjb2KPgPKpFpV2L-b7LYWQ)
 [![Proton Drive](https://img.shields.io/badge/Proton_Drive-SVE-8B8FFF?style=flat-square&logo=proton&logoColor=white)](https://drive.proton.me/urls/3MSBWARZ80#wn9nBiwyVAIf)
 
-> **Note:** [Mega](https://mega.nz/folder/p5xlxZ7Z#Cjb2KPgPKpFpV2L-b7LYWQ) is the most complete source and contains extensive raw materials. Please cross-check across all provided sources for verification.
+> **Note:** GitLab, GitFlic (maybe some others) have corrupted files / history. Please cross-check across all provided sources for verification, completeness and the latest version of the file.
 
 
 **📄 Working Documents (WIP) & [ASPE as Legal Status](Legal-Status.txt):**   
