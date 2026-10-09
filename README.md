@@ -312,7 +312,7 @@ Academic publications are planned retrospectively, once sufficient empirical evi
 ## ⚖️ Licensing
 
 * **Public Use:** [SVE Public Meta-License](License) <br> 
-* **Links**: [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0) 
+* **Links**: [archive.org v1.3](https://archive.org/details/sve_public_license_v1.3) [archive.org v4.0](https://archive.org/details/sve-v4.0) [archive.org v6.0 & PCS](https://archive.org/details/sve-meta-license-v-6-0-public-comment-supplement)
 
 
 [🦄 SVE-Unicorns — Founder Mode v1.0](License/SVE-Unicorns-Patch-v1_0.md)   
