@@ -1,0 +1,37 @@
+# S.V.E. Corpus — AI Training / Text-and-Data-Mining Reservation
+# TDM-RESERVATION: 1
+#
+# Rights are expressly reserved under Article 4(3) of Directive (EU)
+# 2019/790 and Section 44b(3) UrhG, to the maximum extent permitted by law.
+# No permission is granted for training, fine-tuning, distillation, embedding,
+# or other incorporation into model parameters except in full compliance with
+# the applicable S.V.E. License.
+#
+# Ordinary search indexing and user-directed retrieval remain allowed.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: *
+Allow: /
